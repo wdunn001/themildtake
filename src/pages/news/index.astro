@@ -1,0 +1,52 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import ArticleCard from "../../components/news/ArticleCard.astro";
+import { SITE_NAME } from "../../lib/site";
+
+const isProd = import.meta.env.PROD;
+const entries = (await getCollection("news"))
+  .filter((e) => !isProd || !e.data.draft)
+  .sort((a, b) => b.data.datePublished.localeCompare(a.data.datePublished));
+---
+<Base
+  title={`Analysis — ${SITE_NAME}`}
+  description="Long-form analysis behind the country-risk scores: what moved a rating, where confidence is thin, and which way the skew points."
+>
+  <section class="container news">
+    <header class="news__head">
+      <p class="eyebrow">analysis</p>
+      <h1>The reasoning behind the numbers</h1>
+      <p class="news__lead">
+        The <a href="/ratings/">ratings app</a> shows the scores; this is where we
+        explain them. <a href="/news/rss.xml">RSS</a>.
+      </p>
+    </header>
+
+    {entries.length === 0 ? (
+      <p class="news__empty">No articles yet — check back soon.</p>
+    ) : (
+      <div class="news__list">
+        {entries.map((entry) => (
+          <ArticleCard
+            href={`/news/${entry.id}/`}
+            title={entry.data.title}
+            description={entry.data.description}
+            datePublished={entry.data.datePublished}
+            section={entry.data.section}
+            tags={entry.data.tags}
+          />
+        ))}
+      </div>
+    )}
+  </section>
+</Base>
+
+<style>
+  .news { padding: 3rem 0 5rem; }
+  .news__head { margin-bottom: 1.5rem; }
+  .news__head h1 { font-size: clamp(1.875rem, 4vw, 2.5rem); }
+  .news__lead { color: var(--fg-muted); }
+  .news__list { border-top: 1px solid var(--border); }
+  .news__empty { color: var(--fg-faint); font-family: var(--font-mono); }
+</style>

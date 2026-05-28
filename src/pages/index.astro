@@ -1,0 +1,192 @@
+---
+import Base from "../layouts/Base.astro";
+import comparison from "../../_comparison-index.json";
+import type { ComparisonIndex } from "../lib/types";
+import { formatScore, formatConfidence, colorFor, sentimentFor } from "../lib/scores";
+import { SITE_NAME, SITE_TAGLINE } from "../lib/site";
+
+const index = comparison as ComparisonIndex;
+const living = index.decisions.living;
+const countryCount = living.ranking.length;
+---
+<Base
+  title={`${SITE_NAME} — country risk, scored with confidence`}
+  description={SITE_TAGLINE}
+>
+  <section class="section section--hero">
+    <div class="container hero">
+      <p class="eyebrow">methodology v{index.methodology_version}</p>
+      <h1 class="hero__title">
+        Country risk, <span class="hero__accent">scored with confidence</span>.
+      </h1>
+      <p class="hero__lede">
+        {SITE_TAGLINE} Every score is a directional read from <strong>&minus;10 to +10</strong>
+        paired with an explicit <strong>confidence</strong> level, disciplined by source
+        quality &mdash; not a gut ranking. Built for three individual decisions:
+        where to <strong>live</strong>, where to hold <strong>assets</strong>, and what
+        <strong>currency</strong> to hold.
+      </p>
+      <div class="hero__cta">
+        <a href="/ratings/" class="btn btn--primary">Explore the ratings &rarr;</a>
+        <a href="/methodology/" class="btn">How it's scored</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">living decision &middot; {living.horizon}</p>
+      <h2>Where {countryCount} countries land today</h2>
+      <p>
+        A snapshot ranking for the relocation decision. Open any country for the full
+        category breakdown, or <a href="/ratings/compare/">compare them side by side</a>.
+      </p>
+
+      <ol class="rank">
+        {living.ranking.map((row) => (
+          <li class="rank__row">
+            <span class="rank__pos">{row.rank}</span>
+            <a class="rank__country" href={`/ratings/${row.iso3.toLowerCase()}/`}>
+              {row.country}
+            </a>
+            <span class="rank__bar" aria-hidden="true">
+              <span
+                class="rank__bar-fill"
+                style={`width:${(Math.abs(row.score) / 10) * 50}%; ${row.score >= 0 ? "left:50%" : `right:50%`}; background:${colorFor(row.score)}`}
+              ></span>
+              <span class="rank__bar-axis"></span>
+            </span>
+            <span class="rank__score" style={`color:${colorFor(row.score)}`}>
+              {formatScore(row.score)}
+            </span>
+            <span class={`rank__reading rank__reading--${sentimentFor(row.score)}`}>
+              {formatConfidence(row.confidence)} conf
+            </span>
+          </li>
+        ))}
+      </ol>
+
+      <p class="caveat">
+        <strong>Directional, not gospel.</strong> These are confidence-weighted reads
+        calibrated to one decision-maker's priorities &mdash; the
+        <a href="/methodology/">methodology</a> explains how each score is bounded. The
+        asset and currency reads are analysis, not financial advice.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container two-col">
+      <a class="feature" href="/ratings/">
+        <h3>The ratings app &rarr;</h3>
+        <p>
+          A live grid of every country, per-decision rankings, category radar charts,
+          and country-vs-country comparison. Data is fetched at runtime from static JSON.
+        </p>
+      </a>
+      <a class="feature" href="/news/">
+        <h3>Analysis &rarr;</h3>
+        <p>
+          Long-form write-ups behind the numbers &mdash; what moved a score, where
+          confidence is thin, and which way the skew points.
+        </p>
+      </a>
+      <a class="feature" href="/congress/">
+        <h3>Is Congress representative? &rarr;</h3>
+        <p>
+          Aggregate per-member integrity scores into one federal signal: does the body work
+          for its constituents, or for private interests?
+        </p>
+      </a>
+      <a class="feature" href="/resources/">
+        <h3>Resources &rarr;</h3>
+        <p>
+          The sources behind the scores &mdash; bias/coverage checking, integrity data, open
+          datasets, fact-checking &mdash; with a live snapshot of what's changed.
+        </p>
+      </a>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .hero__title { max-width: 16ch; }
+  .hero__accent { color: var(--data); }
+  .hero__lede { max-width: 64ch; font-size: 1.125rem; }
+  .hero__lede strong { color: var(--fg); font-weight: 600; }
+  .hero__cta { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.75rem; }
+
+  .rank {
+    list-style: none;
+    margin: 1.5rem 0 0;
+    padding: 0;
+    border-top: 1px solid var(--border);
+  }
+  .rank__row {
+    display: grid;
+    grid-template-columns: 1.5rem minmax(7rem, 12rem) 1fr auto auto;
+    align-items: center;
+    gap: 0.75rem 1rem;
+    padding: 0.7rem 0;
+    border-bottom: 1px solid var(--border);
+    font-family: var(--font-mono);
+    font-size: 0.9375rem;
+  }
+  .rank__pos { color: var(--fg-faint); font-size: 0.8125rem; text-align: right; }
+  .rank__country { color: var(--fg); font-weight: 600; }
+  .rank__country:hover { color: var(--data); }
+  .rank__bar {
+    position: relative;
+    height: 8px;
+    min-width: 80px;
+    border-radius: 4px;
+    background: var(--confidence-track);
+    overflow: hidden;
+  }
+  .rank__bar-axis {
+    position: absolute;
+    left: 50%;
+    top: -2px;
+    bottom: -2px;
+    width: 1px;
+    background: var(--border-strong);
+  }
+  .rank__bar-fill { position: absolute; top: 0; bottom: 0; border-radius: 4px; }
+  .rank__score { text-align: right; font-weight: 700; min-width: 3.5rem; }
+  .rank__reading { font-size: 0.75rem; color: var(--fg-faint); text-align: right; }
+
+  @media (max-width: 620px) {
+    .rank__row { grid-template-columns: 1.25rem 1fr auto; }
+    .rank__bar, .rank__reading { display: none; }
+  }
+
+  .caveat {
+    margin-top: 1.5rem;
+    padding: 0.875rem 1rem;
+    border-left: 3px solid color-mix(in srgb, var(--mixed) 60%, transparent);
+    background: var(--mixed-soft);
+    color: var(--fg-muted);
+    border-radius: 0 6px 6px 0;
+    font-size: 0.9375rem;
+    max-width: none;
+  }
+  .caveat strong { color: var(--fg); }
+
+  .two-col {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+  }
+  @media (min-width: 720px) { .two-col { grid-template-columns: 1fr 1fr; } }
+  .feature {
+    display: block;
+    border: 1px solid var(--border);
+    background: var(--bg-elev);
+    border-radius: 10px;
+    padding: 1.5rem;
+    transition: border-color 120ms ease;
+  }
+  .feature:hover { border-color: var(--data); }
+  .feature h3 { color: var(--fg); }
+  .feature p { margin: 0; }
+</style>

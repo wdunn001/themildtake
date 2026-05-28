@@ -1,0 +1,177 @@
+---
+import Base from "../layouts/Base.astro";
+import FeedHighlights from "../components/resources/FeedHighlights";
+import { RESOURCES, INDEPENDENT_PRESS_BY_LANGUAGE } from "../data/resources.mjs";
+import { SITE_NAME } from "../lib/site";
+
+const names = Object.fromEntries(RESOURCES.map((r) => [r.id, r.name]));
+const primary = RESOURCES.filter((r) => r.primary);
+const others = RESOURCES.filter((r) => !r.primary);
+---
+<Base
+  title={`Resources — ${SITE_NAME}`}
+  description="The external sources that inform the methodology — bias/coverage checking, congressional integrity data, open datasets, and fact-checking — plus a live snapshot of what's changed."
+>
+  <section class="container resources">
+    <header class="resources__head">
+      <p class="eyebrow">resources</p>
+      <h1>Sources we lean on</h1>
+      <p class="resources__lead">
+        The assessments are only as good as their inputs. These are the external
+        references behind the scores and the analysis.
+      </p>
+    </header>
+
+    <div class="callout">
+      <strong>The triangulation rule.</strong> No single source — and no single language —
+      gates a score. We triangulate across multilateral indices and <em>independent</em>
+      press in multiple languages, then read across slants. Bias/coverage tools like
+      <a href="https://ground.news/" rel="noopener" target="_blank">Ground News</a> are useful
+      but skew English / North-American, so they are one lens, not the standard. See
+      <a href="/methodology/">the methodology</a>.
+    </div>
+
+    <div class="callout callout--rule">
+      <strong>Government-controlled is out — uniformly.</strong> Data from a state-controlled
+      outlet reporting on its own state is excluded, for adversaries and allies alike. That
+      includes Western state broadcasters (VOA, Radio Free Asia are US-government-funded) on
+      the US, not only CCP/Kremlin/Iranian state media. <strong>Ownership tilt</strong>
+      (Gulf-owned pan-Arab, oligarch-owned) is a slant to flag, not an automatic exclusion.
+      When exclusion strips a factor, rebuild from independent proxies or mark it
+      insufficient-reliable-data.
+    </div>
+
+    {primary.map((r) => (
+      <a class="rcard rcard--primary" href={r.url} rel="noopener" target="_blank">
+        <div class="rcard__top">
+          <span class="rcard__name">{r.name}</span>
+          <span class="rcard__role">{r.role}</span>
+        </div>
+        <p class="rcard__desc">{r.description}</p>
+      </a>
+    ))}
+
+    <div class="resources__grid">
+      {others.map((r) => (
+        <div class="rcard">
+          <div class="rcard__top">
+            <a class="rcard__name" href={r.url} rel="noopener" target="_blank">{r.name} &nearr;</a>
+            <span class="rcard__role">{r.role}</span>
+          </div>
+          <p class="rcard__desc">{r.description}</p>
+          {r.related && <a class="rcard__related" href={r.related}>On this site &rarr;</a>}
+        </div>
+      ))}
+    </div>
+
+    <section class="resources__langs">
+      <h2>Independent sources by language</h2>
+      <p class="resources__langs-lead">
+        To get off the Anglophone default, anchor each country in the language of the place
+        plus a neighbor's or rival's language, plus a multilateral index. Listed sources are
+        <strong>independent</strong>; <span class="tag tag--tilt">tilt</span> means usable but
+        flag the ownership slant; <span class="tag tag--excl">excluded</span> is
+        state-controlled and out for its own country.
+      </p>
+      <div class="langs">
+        {INDEPENDENT_PRESS_BY_LANGUAGE.map((l) => (
+          <div class="lang">
+            <div class="lang__head">
+              <span class="lang__name">{l.language}</span>
+              <span class="lang__use">{l.use}</span>
+            </div>
+            {l.note && <p class="lang__note">{l.note}</p>}
+            <ul class="lang__chips">
+              {l.independent.map((s) => <li class="tag tag--ok">{s}</li>)}
+              {(l.tilt ?? []).map((s) => <li class="tag tag--tilt">{s}</li>)}
+              {(l.excluded ?? []).map((s) => <li class="tag tag--excl">{s}</li>)}
+            </ul>
+          </div>
+        ))}
+      </div>
+      <p class="resources__langs-foot">
+        The cross-border investigative networks above (Bellingcat, OCCRP, ICIJ) publish
+        multilingually and are built to defeat single-country and single-language blind
+        spots — Bellingcat especially, since it verifies from primary evidence (satellite,
+        geolocation, flight/ship data) rather than any outlet's framing.
+      </p>
+    </section>
+
+    <section class="resources__feeds">
+      <h2>What's changed lately</h2>
+      <p class="resources__feeds-lead">
+        A best-effort snapshot of each source's feed, captured at build. Useful for
+        spotting when an underlying dataset or a relevant fact-check has moved.
+      </p>
+      <FeedHighlights names={names} client:visible />
+    </section>
+  </section>
+</Base>
+
+<style>
+  .resources { padding: 3rem 0 5rem; }
+  .resources__head { margin-bottom: 1.5rem; }
+  .resources__head h1 { font-size: clamp(1.875rem, 4vw, 2.5rem); }
+  .resources__lead { color: var(--fg-muted); max-width: 64ch; }
+
+  .callout {
+    border-left: 3px solid var(--data);
+    background: var(--data-soft);
+    color: var(--fg-muted);
+    border-radius: 0 8px 8px 0;
+    padding: 1rem 1.25rem;
+    margin: 0 0 2rem;
+    max-width: none;
+  }
+  .callout strong { color: var(--fg); }
+  .callout em { color: var(--fg-muted); font-style: italic; }
+  .callout--rule { border-left-color: var(--mixed); background: var(--mixed-soft); }
+
+  .resources__langs { margin-top: 3.5rem; border-top: 1px solid var(--border); padding-top: 2rem; }
+  .resources__langs h2 { font-size: 1.25rem; }
+  .resources__langs-lead { color: var(--fg-muted); max-width: 70ch; margin-bottom: 1.5rem; }
+  .resources__langs-lead strong { color: var(--fg); }
+  .langs { display: grid; gap: 0.75rem; grid-template-columns: 1fr; }
+  @media (min-width: 720px) { .langs { grid-template-columns: 1fr 1fr; } }
+  .lang { border: 1px solid var(--border); background: var(--bg-elev); border-radius: 10px; padding: 0.9rem 1rem; }
+  .lang__head { display: flex; align-items: baseline; justify-content: space-between; gap: 0.5rem; margin-bottom: 0.6rem; }
+  .lang__name { font-family: var(--font-mono); font-weight: 700; color: var(--fg); }
+  .lang__use { font-size: 0.6875rem; color: var(--fg-faint); text-align: right; }
+  .lang__note { font-size: 0.75rem; color: var(--fg-muted); margin: 0 0 0.6rem; max-width: none; }
+  .lang__chips { list-style: none; display: flex; flex-wrap: wrap; gap: 0.35rem; padding: 0; margin: 0; }
+  .tag { font-family: var(--font-mono); font-size: 0.6875rem; padding: 0.1rem 0.5rem; border-radius: 999px; border: 1px solid var(--border-strong); color: var(--fg-muted); }
+  .tag--ok { border-color: color-mix(in srgb, var(--pos) 45%, transparent); color: var(--pos); }
+  .tag--tilt { border-color: color-mix(in srgb, var(--mixed) 45%, transparent); color: var(--mixed); }
+  .tag--excl { border-color: color-mix(in srgb, var(--neg) 45%, transparent); color: var(--neg); text-decoration: line-through; }
+  .resources__langs-foot { color: var(--fg-muted); font-size: 0.875rem; margin-top: 1rem; }
+
+  .rcard {
+    display: block;
+    border: 1px solid var(--border);
+    background: var(--bg-elev);
+    border-radius: 10px;
+    padding: 1.25rem;
+  }
+  .rcard--primary {
+    border-color: color-mix(in srgb, var(--data) 45%, var(--border));
+    margin-bottom: 1rem;
+  }
+  .rcard--primary:hover { border-color: var(--data); }
+  .rcard__top { display: flex; align-items: baseline; justify-content: space-between; gap: 0.75rem; margin-bottom: 0.5rem; }
+  .rcard__name { font-family: var(--font-mono); font-weight: 700; color: var(--fg); font-size: 1.0625rem; }
+  a.rcard__name:hover { color: var(--data); }
+  .rcard__role {
+    font-family: var(--font-mono); font-size: 0.6875rem; color: var(--data);
+    text-transform: uppercase; letter-spacing: 0.06em; white-space: nowrap;
+  }
+  .rcard__desc { color: var(--fg-muted); margin: 0; font-size: 0.9375rem; }
+  .rcard__related { display: inline-block; margin-top: 0.6rem; font-family: var(--font-mono); font-size: 0.75rem; color: var(--fg-muted); }
+  .rcard__related:hover { color: var(--data); }
+
+  .resources__grid { display: grid; gap: 1rem; grid-template-columns: 1fr; margin-top: 1rem; }
+  @media (min-width: 720px) { .resources__grid { grid-template-columns: 1fr 1fr; } }
+
+  .resources__feeds { margin-top: 3.5rem; border-top: 1px solid var(--border); padding-top: 2rem; }
+  .resources__feeds h2 { font-size: 1.25rem; }
+  .resources__feeds-lead { color: var(--fg-muted); max-width: 64ch; margin-bottom: 1.5rem; }
+</style>

@@ -1,0 +1,60 @@
+---
+import Base from "../../layouts/Base.astro";
+import CountryDetail from "../../components/ratings/CountryDetail";
+import comparison from "../../../_comparison-index.json";
+import type { ComparisonIndex } from "../../lib/types";
+import { SITE_NAME } from "../../lib/site";
+
+export function getStaticPaths() {
+  const index = comparison as ComparisonIndex;
+  const seen = new Map<string, string>();
+  for (const dk of Object.keys(index.decisions)) {
+    for (const row of index.decisions[dk].ranking) {
+      seen.set(row.iso3.toLowerCase(), row.country);
+    }
+  }
+  return [...seen.entries()].map(([iso3, country]) => ({
+    params: { iso3 },
+    props: { country, iso3 },
+  }));
+}
+
+const { country, iso3 } = Astro.props;
+const origin = Astro.site?.origin ?? "";
+
+const breadcrumb = {
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: `${origin}/` },
+    { "@type": "ListItem", position: 2, name: "Ratings", item: `${origin}/ratings/` },
+    { "@type": "ListItem", position: 3, name: country, item: Astro.url.href },
+  ],
+};
+---
+<Base
+  title={`${country} — country risk rating — ${SITE_NAME}`}
+  description={`Country risk assessment for ${country}: living, asset, and currency scores with confidence, category breakdown, and caveats.`}
+  extraGraph={[breadcrumb]}
+>
+  <section class="container detail">
+    <nav class="detail__crumbs" aria-label="Breadcrumb">
+      <a href="/ratings/">Ratings</a> <span>/</span> <span>{country}</span>
+    </nav>
+    <header class="detail__head">
+      <h1>{country}</h1>
+      <span class="detail__iso">{iso3.toUpperCase()}</span>
+    </header>
+    <CountryDetail iso3={iso3} client:load />
+  </section>
+</Base>
+
+<style>
+  .detail { padding: 2.5rem 0 5rem; }
+  .detail__crumbs { font-family: var(--font-mono); font-size: 0.8125rem; color: var(--fg-faint); margin-bottom: 1rem; }
+  .detail__crumbs a:hover { color: var(--data); }
+  .detail__crumbs span { color: var(--border-strong); }
+  .detail__crumbs span:last-child { color: var(--fg-muted); }
+  .detail__head { display: flex; align-items: baseline; gap: 0.75rem; margin-bottom: 2rem; }
+  .detail__head h1 { font-size: clamp(2rem, 5vw, 3rem); margin: 0; }
+  .detail__iso { font-family: var(--font-mono); color: var(--fg-faint); font-size: 1rem; }
+</style>

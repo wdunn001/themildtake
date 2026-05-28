@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111114"/>
+      <stop offset="1" stop-color="#0A0A0A"/>
+    </linearGradient>
+  </defs>
+  <g font-family="ui-monospace, Menlo, monospace">
+    <text x="80" y="300" fill="#F3F4F6" font-size="76" font-weight="700">the<tspan fill="#3B82F6">mild</tspan>take</text>
+    <text x="82" y="362" fill="#9CA3AF" font-size="30">Confidence-weighted country risk assessments</text>
+  </g>
+  <g>
+    <rect x="80" y="470" width="60" height="80" rx="8" fill="#EF4444"/>
+    <rect x="170" y="420" width="60" height="130" rx="8" fill="#F59E0B"/>
+    <rect x="260" y="360" width="60" height="190" rx="8" fill="#10B981"/>
+    <rect x="350" y="320" width="60" height="230" rx="8" fill="#3B82F6"/>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+---
+interface Props {
+  authorName: string;
+  authorUrl?: string;
+  datePublished: string;
+  dateModified?: string;
+  section?: string;
+}
+const { authorName, authorUrl, datePublished, dateModified, section } = Astro.props;
+const showUpdated = dateModified && dateModified !== datePublished;
+const fmt = (iso: string) =>
+  new Date(`${iso}T12:00:00Z`).toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    timeZone: "UTC",
+  });
+---
+<div class="byline">
+  {section && <span class="byline__section">{section}</span>}
+  <span class="byline__author">
+    {authorUrl ? <a href={authorUrl} rel="author noopener">{authorName}</a> : authorName}
+  </span>
+  <span class="byline__sep">&middot;</span>
+  <time datetime={datePublished}>{fmt(datePublished)}</time>
+  {showUpdated && (
+    <>
+      <span class="byline__sep">&middot;</span>
+      <span class="byline__updated">updated <time datetime={dateModified}>{fmt(dateModified!)}</time></span>
+    </>
+  )}
+</div>
+
+<style>
+  .byline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
+    color: var(--fg-faint);
+  }
+  .byline__section {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--data);
+    font-weight: 600;
+  }
+  .byline__author { color: var(--fg-muted); }
+  .byline__author a:hover { color: var(--fg); }
+  .byline__sep { color: var(--border-strong); }
+  .byline__updated { color: var(--fg-faint); }
+</style>

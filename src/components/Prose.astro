@@ -1,0 +1,59 @@
+---
+// Shared long-form prose container (markdown-rendered content). Theme-aware,
+// score-token styling. Used by ArticleLayout and the methodology page.
+---
+<div class="prose"><slot /></div>
+
+<style>
+  .prose :global(h1) { font-size: clamp(1.875rem, 4vw, 2.5rem); margin: 0 0 1rem; color: var(--fg); }
+  .prose :global(h2) { font-size: 1.5rem; margin-top: 2.5rem; margin-bottom: 0.75rem; color: var(--fg); }
+  .prose :global(h3) { font-size: 1.15rem; margin-top: 1.75rem; margin-bottom: 0.5rem; color: var(--fg); }
+  .prose :global(p), .prose :global(li) { color: var(--fg-muted); line-height: 1.75; }
+  .prose :global(p) { margin: 0 0 1.1rem; max-width: 68ch; }
+  .prose :global(strong) { color: var(--fg); font-weight: 600; }
+  .prose :global(a) {
+    color: var(--data);
+    border-bottom: 1px dotted color-mix(in srgb, var(--data) 50%, transparent);
+  }
+  .prose :global(a:hover) { border-bottom-color: var(--data); }
+  .prose :global(code) {
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    padding: 0.05rem 0.35rem;
+    border-radius: 4px;
+    font-size: 0.875em;
+    color: var(--fg);
+  }
+  .prose :global(pre), .prose :global(pre.astro-code) {
+    background: #08080B !important;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem 1.125rem;
+    overflow-x: auto;
+    font-size: 0.8125rem;
+    line-height: 1.6;
+    margin: 1rem 0 1.25rem;
+  }
+  .prose :global(pre code) { background: transparent; border: 0; padding: 0; }
+  .prose :global(ul), .prose :global(ol) { padding-left: 1.25rem; margin: 0 0 1.25rem; }
+  .prose :global(li) { margin: 0.25rem 0; }
+  .prose :global(blockquote) {
+    border-left: 3px solid var(--data);
+    background: var(--bg-elev);
+    margin: 1rem 0 1.25rem;
+    padding: 0.75rem 1rem;
+    color: var(--fg-muted);
+    border-radius: 0 6px 6px 0;
+  }
+  .prose :global(blockquote p) { margin: 0; }
+  .prose :global(table) { width: 100%; border-collapse: collapse; margin: 1rem 0 1.25rem; font-size: 0.875rem; }
+  .prose :global(th), .prose :global(td) { text-align: left; padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--border); }
+  .prose :global(th) {
+    color: var(--fg-faint);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .prose :global(hr) { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
+</style>

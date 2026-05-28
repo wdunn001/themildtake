@@ -1,0 +1,88 @@
+---
+import JsonLd from "./JsonLd.astro";
+import {
+  SITE_NAME,
+  SITE_DESCRIPTION,
+  ORG_NAME,
+  ORG_LOGO_PATH,
+  DEFAULT_OG_IMAGE,
+  LOCALE,
+  absoluteUrl,
+} from "../lib/site";
+
+interface Props {
+  title: string;
+  description?: string;
+  canonical?: string;
+  ogType?: "website" | "article";
+  ogImage?: string;
+  /** Extra schema.org nodes (e.g. Article, BreadcrumbList) merged into @graph. */
+  extraGraph?: Record<string, unknown>[];
+}
+
+const {
+  title,
+  description = SITE_DESCRIPTION,
+  canonical = Astro.url.href,
+  ogType = "website",
+  ogImage = DEFAULT_OG_IMAGE,
+  extraGraph = [],
+} = Astro.props;
+
+const site = Astro.site;
+const origin = site?.origin ?? "";
+const canonicalAbs = absoluteUrl(canonical, site);
+const ogImageAbs = absoluteUrl(ogImage, site);
+
+// Stable site-level @id anchors so per-page nodes (Article, WebPage) can
+// reference Organization/WebSite without redefining them.
+const orgId = `${origin}/#organization`;
+const websiteId = `${origin}/#website`;
+const logoId = `${origin}/#logo`;
+
+const organization = {
+  "@type": "Organization",
+  "@id": orgId,
+  name: ORG_NAME,
+  url: `${origin}/`,
+  logo: {
+    "@type": "ImageObject",
+    "@id": logoId,
+    url: absoluteUrl(ORG_LOGO_PATH, site),
+    caption: ORG_NAME,
+  },
+};
+
+const website = {
+  "@type": "WebSite",
+  "@id": websiteId,
+  name: SITE_NAME,
+  url: `${origin}/`,
+  description: SITE_DESCRIPTION,
+  publisher: { "@id": orgId },
+  inLanguage: LOCALE,
+};
+
+const graph = {
+  "@context": "https://schema.org",
+  "@graph": [organization, website, ...extraGraph],
+};
+---
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonicalAbs} />
+
+<meta property="og:type" content={ogType} />
+<meta property="og:site_name" content={SITE_NAME} />
+<meta property="og:locale" content={LOCALE} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonicalAbs} />
+<meta property="og:image" content={ogImageAbs} />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImageAbs} />
+
+<JsonLd data={graph} />

@@ -1,0 +1,10 @@
+---
+// Emits a single JSON-LD <script>. Pass a plain object (a node or a full
+// `@graph` document). Kept tiny on purpose so every page/component that needs
+// structured data renders it the same way.
+interface Props {
+  data: Record<string, unknown>;
+}
+const { data } = Astro.props;
+---
+<script is:inline type="application/ld+json" set:html={JSON.stringify(data)} />

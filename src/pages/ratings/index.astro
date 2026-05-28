@@ -1,0 +1,92 @@
+---
+import Base from "../../layouts/Base.astro";
+import RatingsOverview from "../../components/ratings/RatingsOverview";
+import comparison from "../../../_comparison-index.json";
+import type { ComparisonIndex } from "../../lib/types";
+import { SITE_NAME } from "../../lib/site";
+
+const index = comparison as ComparisonIndex;
+const origin = Astro.site?.origin ?? "";
+
+// Optional schema.org Dataset describing the ratings data.
+const dataset = {
+  "@type": "Dataset",
+  "@id": `${origin}/ratings/#dataset`,
+  name: "themildtake country risk assessments",
+  description:
+    "Confidence-weighted directional scores (-10..+10) for living, asset, and currency decisions across countries, with explicit source discipline and skew.",
+  creator: { "@id": `${origin}/#organization` },
+  isPartOf: { "@id": `${origin}/#website` },
+  license: "https://creativecommons.org/licenses/by/4.0/",
+  variableMeasured: ["living score", "assets score", "currency score", "confidence"],
+  distribution: {
+    "@type": "DataDownload",
+    encodingFormat: "application/json",
+    contentUrl: `${origin}/data/comparison-index.json`,
+  },
+  dateModified: index.assessed_on,
+};
+---
+<Base
+  title={`Country ratings — ${SITE_NAME}`}
+  description="Interactive country-risk ratings: a grid of every country across living, asset, and currency decisions, with rankings and confidence."
+  extraGraph={[dataset]}
+>
+  <section class="container ratings">
+    <header class="ratings__head">
+      <p class="eyebrow">ratings &middot; methodology v{index.methodology_version}</p>
+      <h1>Country risk ratings</h1>
+      <p class="ratings__lead">
+        Directional scores from <strong>&minus;10 to +10</strong>, each paired with a
+        confidence level. Switch decisions, sort the grid, or open a country for the full
+        breakdown. <a href="/ratings/compare/">Compare countries &rarr;</a>
+        &nbsp;·&nbsp; <a href="/congress/">Is Congress representative? &rarr;</a>
+      </p>
+      <ul class="ratings__legend">
+        <li><span class="dot dot--pos"></span> clear positive (&ge; +3)</li>
+        <li><span class="dot dot--mixed"></span> mixed (&minus;3…+3)</li>
+        <li><span class="dot dot--neg"></span> clear negative (&le; &minus;3)</li>
+      </ul>
+    </header>
+
+    <RatingsOverview client:load />
+
+    <section class="ratings__findings">
+      <h2>Headline findings</h2>
+      <ul>
+        {index.headline_findings.map((f) => <li>{f}</li>)}
+      </ul>
+      <details class="ratings__outstanding">
+        <summary>Outstanding work ({index.outstanding_work.length})</summary>
+        <ul>
+          {index.outstanding_work.map((w) => <li>{w}</li>)}
+        </ul>
+      </details>
+    </section>
+  </section>
+</Base>
+
+<style>
+  .ratings { padding: 3rem 0 5rem; }
+  .ratings__head { margin-bottom: 2rem; }
+  .ratings__head h1 { font-size: clamp(1.875rem, 4vw, 2.5rem); }
+  .ratings__lead { color: var(--fg-muted); max-width: 68ch; }
+  .ratings__lead strong { color: var(--fg); }
+  .ratings__legend {
+    list-style: none; display: flex; flex-wrap: wrap; gap: 1.25rem; padding: 0; margin: 1rem 0 0;
+    font-family: var(--font-mono); font-size: 0.75rem; color: var(--fg-muted);
+  }
+  .ratings__legend li { display: inline-flex; align-items: center; gap: 0.4rem; }
+  .dot { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+  .dot--pos { background: var(--pos); } .dot--mixed { background: var(--mixed); } .dot--neg { background: var(--neg); }
+
+  .ratings__findings { margin-top: 3.5rem; border-top: 1px solid var(--border); padding-top: 2rem; }
+  .ratings__findings h2 { font-size: 1.25rem; }
+  .ratings__findings ul { color: var(--fg-muted); padding-left: 1.1rem; max-width: 80ch; }
+  .ratings__findings li { margin: 0.5rem 0; }
+  .ratings__outstanding { margin-top: 1.5rem; }
+  .ratings__outstanding summary {
+    cursor: pointer; font-family: var(--font-mono); font-size: 0.8125rem; color: var(--fg-faint);
+  }
+  .ratings__outstanding summary:hover { color: var(--fg); }
+</style>

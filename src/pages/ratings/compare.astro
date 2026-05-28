@@ -1,0 +1,29 @@
+---
+import Base from "../../layouts/Base.astro";
+import CompareView from "../../components/ratings/CompareView";
+import { SITE_NAME } from "../../lib/site";
+---
+<Base
+  title={`Compare countries — ${SITE_NAME}`}
+  description="Compare countries side by side: overlaid category-profile radars and grouped decision scores for living, assets, and currency."
+>
+  <section class="container compare">
+    <header class="compare__head">
+      <p class="eyebrow">compare</p>
+      <h1>Compare countries</h1>
+      <p class="compare__lead">
+        Pick two or more countries to overlay their category profiles and line up their
+        decision scores. Back to the <a href="/ratings/">full grid</a>.
+      </p>
+    </header>
+
+    <CompareView client:load />
+  </section>
+</Base>
+
+<style>
+  .compare { padding: 3rem 0 5rem; }
+  .compare__head { margin-bottom: 2rem; }
+  .compare__head h1 { font-size: clamp(1.875rem, 4vw, 2.5rem); }
+  .compare__lead { color: var(--fg-muted); max-width: 64ch; }
+</style>
