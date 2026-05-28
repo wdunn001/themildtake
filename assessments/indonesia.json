@@ -1,0 +1,244 @@
+{
+  "country": "Indonesia",
+  "iso3": "IDN",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF Art IV 2025, World Bank, ADB, WJP, RSF, TI, V-Dem) + Indonesian official (BPS, Bank Indonesia) + regional independent press (Jakarta Post, Tempo, Nikkei Asia, East Asia Forum).",
+    "Politics: a Prabowo government since Oct 2024 with a broad coalition (stable mandate) against 2025 austerity protests and democratic-backsliding/military-role concerns.",
+    "Standout drags: weak rule of law and endemic corruption, severe seismic/flood disaster exposure, and a sinking capital. Source-lean: MODERATE-HIGH Anglophone; Bahasa-Indonesia primary press read only indirectly."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 3.1,
+      "confidence": 0.83,
+      "skew": "positive",
+      "notes": "Low debt under a legal ceiling, a credible central bank, and low inflation, with rising state intervention in resource exports the watch-item.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 3,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Debt ~40% GDP under a 60% legal ceiling, deficit ~2.9% near the 3% legal limit; a high interest bill and new Prabowo spending (a free-meals program) erode credibility. (IMF Art IV 2025)"
+        },
+        "monetary_independence": {
+          "score": 5,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Bank Indonesia is a credible inflation-targeter (2.5 plus or minus 1%) on a managed float; 2025 rupiah pressure and fiscal-pressure-on-the-central-bank concerns temper it. (Bank Indonesia)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The rupiah is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 6,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "Low and within the 2.5 plus or minus 1% band. (Bank Indonesia)"
+        },
+        "banking_stability": {
+          "score": 4,
+          "weight": 0.1,
+          "confidence": 0.75,
+          "notes": "Sound and well-capitalised, with IMF-noted resilience. (IMF Art IV 2025)"
+        },
+        "trade_actions_capacity": {
+          "score": 1,
+          "weight": 0.17,
+          "confidence": 0.7,
+          "notes": "A large commodity base (top nickel/coal/palm) plus manufacturing, but downstreaming policy and a 2026 move to route key exports via state firms raise distortion and paradox-of-plenty risk. (CSIS; Lowy)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -1.6,
+      "confidence": 0.75,
+      "skew": "negative",
+      "notes": "Usable official statistics, undercut by endemic corruption, a weakened anti-graft body, and declining press freedom.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -4,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "Endemic corruption, the anti-graft KPK gutted since the 2019 law, and declining judicial independence (TI CPI ~34). (Transparency International 2025)"
+        },
+        "statistical_integrity": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "BPS is usable and credible; 2025 budget cuts are a watch-item. (IMF uses BPS data)"
+        },
+        "civil_service_capacity": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Mixed: patronage and active-duty generals placed in civilian posts. (HRW; East Asia Forum)"
+        },
+        "press_freedom": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "RSF 127/180 ('difficult'), with a collapsing safety indicator amid police/military intimidation. (RSF 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 0.5,
+      "confidence": 0.72,
+      "skew": "negative",
+      "notes": "A favourable demographic dividend, against declining civil liberties and a backsliding trend under a new government.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 0,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "A Prabowo government (since Oct 2024) with a large coalition and stable mandate, against 2025 austerity protests, a military-law revision, and backsliding. (East Asia Forum; HRW)"
+        },
+        "civil_liberties": {
+          "score": -3,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Declining: blasphemy/defamation laws, 2025 protest crackdowns, and digital intimidation. (HRW; RSF)"
+        },
+        "treatment_non_citizens": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "A second-home/investor KITAS plus retirement routes (Bali popular); lawful but bureaucratic. (immigration regulations)"
+        },
+        "social_cohesion": {
+          "score": 0,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Pluralist (Pancasila) but with rising religious conservatism and Papua/regional tensions. (V-Dem; regional press)"
+        },
+        "demographics": {
+          "score": 6,
+          "weight": 0.1,
+          "confidence": 0.85,
+          "notes": "A young, large workforce in an open dividend window. (BPS; World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 2.5,
+      "confidence": 0.69,
+      "skew": "positive",
+      "notes": "A non-aligned ASEAN leader hedging the major powers, with low direct conflict exposure.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 1,
+          "weight": 0.4,
+          "confidence": 0.7,
+          "notes": "Non-aligned ASEAN leadership, hedging the US and China, having joined BRICS in 2025 while pursuing OECD accession - predictable non-alignment rather than bloc reliability. (The Diplomat; CSIS)"
+        },
+        "conflict_involvement": {
+          "score": 4,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "Natuna/South China Sea friction with China, with low direct conflict. (CSIS; East Asia Forum)"
+        },
+        "sanctions_capital_controls": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "Broadly open, though 2026 state-firm export-routing and downstreaming bans signal rising intervention. (IMF; regional press)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -1.8,
+      "confidence": 0.7,
+      "skew": "negative",
+      "notes": "Improving infrastructure and near-universal health coverage, against extreme seismic/flood exposure and a sinking capital.",
+      "sub_factors": {
+        "climate": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Ring-of-Fire earthquakes/volcanoes/tsunami plus annual floods; Jakarta subsiding ~16-17 cm/yr; 2025 budget cuts hit forecasting. (GFDRR; PreventionWeb)"
+        },
+        "healthcare": {
+          "score": 0,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "BPJS/JKN near-universal coverage (~250m) but uneven in quality and low in per-capita spend. (WHO; World Bank)"
+        },
+        "infrastructure": {
+          "score": 1,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Improving (the IKN new capital, toll roads) but congested and uneven. (Trade.gov)"
+        },
+        "crime_safety": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Moderate, with reduced terrorism risk. (general)"
+        },
+        "disaster_insurance": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Very low catastrophe-insurance penetration against extreme seismic/flood exposure. (GFDRR)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -0.04,
+      "confidence": 0.74,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 1.18,
+      "confidence": 0.76,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 2.02,
+      "confidence": 0.79,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A large, demographically favourable economy with prudent macro management - low debt under a legal ceiling, a credible central bank, and low inflation - and a non-aligned ASEAN-leadership posture. The drags are weak rule of law and endemic corruption, declining civil liberties and press freedom under a new government, rising state intervention in resource exports, and extreme natural-disaster exposure capped by very thin catastrophe insurance. Near-universal health coverage and improving infrastructure are real positives."
+}

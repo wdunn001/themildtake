@@ -1,0 +1,250 @@
+{
+  "country": "Poland",
+  "iso3": "POL",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF Art IV 2026, OECD, EC, Eurostat, RSF, WJP, TI, V-Dem, UNHCR) + Polish official (Statistics Poland/GUS, NBP, CBOS) + Polish independent press (Notes from Poland, plus Gazeta Wyborcza/OKO.press/TVN read indirectly).",
+    "Politics: a cohabitation standoff - a pro-EU Tusk government (since Dec 2023) versus a PiS-aligned president (elected 2025) - producing reform gridlock that is turbulent but democratic and orderly.",
+    "Standout drags: frontline exposure to the Russia-Ukraine war, divided-government gridlock, and long-term demographic decline. Source-lean: MODERATE Anglophone, with rule-of-law/press framing tilted pro-Tusk/EU."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 1.9,
+      "confidence": 0.84,
+      "skew": "positive",
+      "notes": "Strong export-led growth, sound banks, and a credible central bank, against a deteriorating fiscal position.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": -3,
+          "score_long": -2,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Deficit ~7% GDP in 2025 narrowing toward ~6.5%, debt ~59% rising past the EU benchmark (IMF projects ~78% by 2031 absent adjustment), driven by defence and social spend but cushioned by growth. (IMF Art IV 2026)"
+        },
+        "monetary_independence": {
+          "score": 4,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "The NBP is statutorily independent and credible (rates cut ~1.75pp to ~4%); friction with the government is real but contained. (NBP)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The zloty (an EU but non-eurozone currency) is not a reserve asset. (definitional)"
+        },
+        "inflation": {
+          "score": 2,
+          "weight": 0.13,
+          "confidence": 0.8,
+          "notes": "Easing into the NBP's 2.5 plus or minus 1pp band, with the decline assessed durable. (NBP)"
+        },
+        "banking_stability": {
+          "score": 5,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "Record-profit banks with strong capital and limited systemic risk; the Swiss-franc-mortgage legacy is heavily provisioned with cases still pending. (NBP FSR)"
+        },
+        "trade_actions_capacity": {
+          "score": 6,
+          "weight": 0.17,
+          "confidence": 0.85,
+          "notes": "Robust export/manufacturing growth, a nearshoring beneficiary (EV batteries, semis, business services), EU-integrated, no resource curse. (EC forecast; OECD)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 3.5,
+      "confidence": 0.76,
+      "skew": "positive",
+      "notes": "Credible statistics and capable administration, with a rule-of-law and press recovery that is real but gridlocked.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score_near": 0,
+          "score_long": 2,
+          "score": null,
+          "weight": 0.35,
+          "confidence": 0.75,
+          "notes": "A contested restoration: the government is reversing prior judicial capture, but a presidential veto of flagship reform leaves a constitutional standoff - a positive trajectory that is blocked. (GMF; Notes from Poland)"
+        },
+        "statistical_integrity": {
+          "score": 7,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "GUS is credible and Eurostat-compliant; CBOS polling is cited as authoritative across the spectrum. (GUS; Eurostat)"
+        },
+        "civil_service_capacity": {
+          "score": 5,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "A capable EU-fund-absorbing administration, with prior politicisation being unwound. (OECD)"
+        },
+        "press_freedom": {
+          "score": 3,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "RSF standing rose post-2023, with partial public-media depoliticisation; the credibility rebuild is ongoing and contested. (RSF 2025/2026)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -0.1,
+      "confidence": 0.78,
+      "skew": "negative",
+      "notes": "Democratic resilience and a large absorbed migrant population, against cohabitation gridlock and demographic decline.",
+      "sub_factors": {
+        "political_stability": {
+          "score": -2,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "Cohabitation gridlock - a pro-EU government versus a PiS-aligned president - that is turbulent and reform-paralysing but democratic and orderly. (illiberalism.org; GMF)"
+        },
+        "civil_liberties": {
+          "score": 1,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "Improving media and expression, but abortion liberalisation and civil-partnership reforms are blocked by presidential veto. (FIDH)"
+        },
+        "treatment_non_citizens": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "Roughly a million Ukrainian refugees plus a large migrant workforce on lawful work/residence routes (EU temporary protection), against rising opposition and tightening rhetoric. (UNHCR; EC)"
+        },
+        "social_cohesion": {
+          "score": 0,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "Deep PiS-versus-PO polarisation, but conflict is absorbed through the ballot box and institutions. (CBOS)"
+        },
+        "demographics": {
+          "score_near": -2,
+          "score_long": -4,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "Low fertility (~1.1-1.3) and ageing; Ukrainian inflows cushion near-term labour but the long-term decline is structural. (GUS; Eurostat)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 3.1,
+      "confidence": 0.87,
+      "skew": "negative",
+      "notes": "Top-tier NATO alliance value, squarely offset by frontline exposure to the war next door.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 8,
+          "weight": 0.4,
+          "confidence": 0.9,
+          "notes": "A NATO frontline stalwart and top defence spender (~4.7% GDP) with deep US/EU ties, hosting allied forces. (NATO; IMF)"
+        },
+        "conflict_involvement": {
+          "score": -5,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "Frontline to the Russia-Ukraine war - a 2025 mass drone incursion (Article 4 invoked), airspace intercepts, and Belarus border pressure - a genuine elevated tail. (UN SC; Al Jazeera)"
+        },
+        "sanctions_capital_controls": {
+          "score": 6,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "An EU regime with an open capital account and no controls. (EU)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 1.8,
+      "confidence": 0.72,
+      "skew": "positive",
+      "notes": "Low crime and EU-upgraded infrastructure, against coal-transition and flood risk and a strained health system.",
+      "sub_factors": {
+        "climate": {
+          "score": -2,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Coal-heavy (~53% of electricity) but transitioning, with rising flood/drought risk (worst-in-a-decade 2024 floods). (IEA; ReliefWeb)"
+        },
+        "healthcare": {
+          "score": -1,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "Universal coverage but strained - long elective waits, a workforce crisis, heavy private reliance - with reform underway. (OECD Health at a Glance 2025)"
+        },
+        "infrastructure": {
+          "score": 6,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Strongly upgraded via EU funds (rail, roads, digital) to nearshoring grade. (EC)"
+        },
+        "crime_safety": {
+          "score": 7,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "Among the safest in Europe, with low violent crime. (Numbeo; OSAC)"
+        },
+        "disaster_insurance": {
+          "score": -1,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Flood exposure with moderate/uneven insurance penetration; direct data thin. (2024 floods; regional patterns)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 2.12,
+      "confidence": 0.78,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 2.39,
+      "confidence": 0.81,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 2.3,
+      "confidence": 0.83,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A fast-growing, EU-integrated economy with sound banks, a credible central bank, low crime, and strongly upgraded infrastructure, and a top-tier NATO frontline role. The drags are a deteriorating fiscal position on heavy defence spending, a cohabitation standoff between a pro-EU government and a PiS-aligned president that paralyses reform, a strained health system, long-term demographic decline, and - most consequentially - frontline exposure to the Russia-Ukraine war, with drone incursions and border pressure a real tail risk. Rule-of-law and press recovery is genuine but blocked by presidential veto."
+}

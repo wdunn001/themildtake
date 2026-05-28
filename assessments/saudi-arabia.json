@@ -1,0 +1,254 @@
+{
+  "country": "Saudi Arabia",
+  "iso3": "SAU",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: governance/rights/politics rebuilt from independent sources (IMF Art IV 2025, World Bank, Freedom House, RSF, HRW, Amnesty, CPJ, non-Saudi press); Saudi state/state-aligned media (SPA, Al Arabiya, Arab News) EXCLUDED there, with economic figures admitted only via IMF validation.",
+    "Governance: an absolute monarchy; scores reflect observable actions (record executions, the NEOM scaleback, PIF spending cuts, peg mechanics), not Vision-2030 messaging.",
+    "Standout drags: no political rights and severe repression, no independent media, a hard oil-transition and water/heat tail; offsets are sound banks, very low crime, and a young population."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 0.7,
+      "confidence": 0.84,
+      "skew": "positive",
+      "notes": "Sound banks, low inflation, and a large sovereign-fund buffer, against oil dependence and a peg that surrenders monetary autonomy.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": -2,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Oil-dependent; deficit ~4.3% as oil revenue and Vision-2030 megaprojects strain the budget (NEOM scaled back, a PIF spending cut and writedown), cushioned by a large PIF buffer. (IMF Art IV 2025)"
+        },
+        "monetary_independence": {
+          "score": -3,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "A hard USD peg means no autonomous policy and imports the US rate cycle - a stability-for-autonomy trade-off. (IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 1,
+          "weight": 0.16,
+          "confidence": 0.8,
+          "notes": "The peg delivers FX stability for holders, backed by ample reserves. (IMF)"
+        },
+        "inflation": {
+          "score": 5,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "Low (~2.2%), with rent inflation decelerating. (IMF Art IV)"
+        },
+        "banking_stability": {
+          "score": 6,
+          "weight": 0.1,
+          "confidence": 0.85,
+          "notes": "Well-capitalised (a capital ratio ~19.6%) with low NPLs. (IMF)"
+        },
+        "trade_actions_capacity": {
+          "score_near": 3,
+          "score_long": 0,
+          "score": null,
+          "weight": 0.17,
+          "confidence": 0.75,
+          "notes": "Oil-export dominance and OPEC+ leverage with real but partial diversification; a classic petrostate rentier dynamic persists long-term, only partly mitigated by the PIF. (IMF; World Bank)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -1.9,
+      "confidence": 0.8,
+      "skew": "negative",
+      "notes": "High state capacity and megaproject execution, against no judicial independence and the absence of independent media.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -4,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "No judicial independence in an absolute monarchy with Sharia courts; functional commercial-law reforms offset weak rights protection - net negative. (Freedom House; WJP)"
+        },
+        "statistical_integrity": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Economic statistics are IMF-validated; political and social data are opaque. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": 5,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "High state capacity and megaproject execution despite scalebacks. (IMF; World Bank)"
+        },
+        "press_freedom": {
+          "score": -8,
+          "weight": 0.15,
+          "confidence": 0.9,
+          "notes": "No independent media, a very low RSF standing, and the Khashoggi legacy; a journalist was executed in 2025. (RSF; CPJ)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -0.8,
+      "confidence": 0.79,
+      "skew": "negative",
+      "notes": "A young population, against the absence of political rights, severe repression, and a rights-deprived migrant workforce.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": 3,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "High managed/suppressed stability under the crown prince near-term, against long-term succession and oil-transition risk. (Freedom House)"
+        },
+        "civil_liberties": {
+          "score": -8,
+          "weight": 0.2,
+          "confidence": 0.9,
+          "notes": "No political rights, with guardianship reforms outweighed by ongoing repression and among the world's highest execution counts. (HRW; Amnesty; Freedom House)"
+        },
+        "treatment_non_citizens": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "Easy iqama/premium-residency entry and no income tax, but no path to citizenship, kafala-legacy controls, and a large rights-deprived expatriate workforce. (HRW; Amnesty)"
+        },
+        "social_cohesion": {
+          "score": 1,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "Orderly with low crime, but built on a structurally rights-deprived migrant-majority workforce. (HRW)"
+        },
+        "demographics": {
+          "score": 3,
+          "weight": 0.1,
+          "confidence": 0.75,
+          "notes": "A young Saudi population (a dividend), tempered by labour-nationalisation friction. (World Bank; IMF)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 2.8,
+      "confidence": 0.71,
+      "skew": "positive",
+      "notes": "A transactional US partner with OPEC+ leverage, an open capital account, and a holding Iran detente.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 2,
+          "weight": 0.4,
+          "confidence": 0.7,
+          "notes": "A US security partner hedging China and Russia, with OPEC+ leverage - transactional but stable. (Soufan Center)"
+        },
+        "conflict_involvement": {
+          "score_near": 2,
+          "score_long": 0,
+          "score": null,
+          "weight": 0.35,
+          "confidence": 0.65,
+          "notes": "Yemen frontlines stable since 2022 and an Iran detente holding, against 2026 regional turbulence and Hormuz risk. (MECouncil)"
+        },
+        "sanctions_capital_controls": {
+          "score": 5,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "An open capital account with free profit and capital movement. (IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 3.2,
+      "confidence": 0.76,
+      "skew": "negative",
+      "notes": "Modern healthcare and infrastructure and very low crime, against extreme heat and water scarcity long-term.",
+      "sub_factors": {
+        "climate": {
+          "score_near": -2,
+          "score_long": -6,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Extreme heat and acute water scarcity with heavy desalination dependence - severe long-term. (World Bank; IPCC)"
+        },
+        "healthcare": {
+          "score": 4,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "Good modern urban care and improving. (WHO; World Bank)"
+        },
+        "infrastructure": {
+          "score": 5,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "Heavy investment, modern in the cities. (World Bank)"
+        },
+        "crime_safety": {
+          "score": 7,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "Very low violent crime - a clear strength. (international advisories)"
+        },
+        "disaster_insurance": {
+          "score": 3,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Low natural-catastrophe exposure beyond heat and flash floods. (reinsurer risk data)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -1.01,
+      "confidence": 0.79,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 0.12,
+      "confidence": 0.79,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 0.41,
+      "confidence": 0.81,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "An oil-rich economy with sound, well-capitalised banks, low inflation, very low crime, modern urban infrastructure and healthcare, a large sovereign-fund buffer, and a young population. But it is an absolute monarchy: no political rights, severe repression and among the world's highest execution counts, no independent media, and a workforce resting on a structurally rights-deprived expatriate majority. A USD peg surrenders monetary autonomy for stability, and the long-term tail is a hard oil transition atop extreme heat and water scarcity. Easy residency and no income tax come with no path to belonging."
+}
