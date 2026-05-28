@@ -1,0 +1,244 @@
+{
+  "country": "Colombia",
+  "iso3": "COL",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF Art IV 2025, OECD, World Bank, WJP, RSF, TI, V-Dem) + Colombian official (DANE, Banco de la Republica) + Colombian/Spanish-language press (El Tiempo, El Espectador, La Silla Vacia, Semana).",
+    "Politics: a leftist government gridlocked with Congress and the courts; 2025 brought a US-relations rupture (a decertification and US sanctions on the president) and the assassination of a presidential candidate, with a tense May-2026 election ahead.",
+    "Standout drags: fiscal deterioration, internal armed conflict, elevated crime, and US friction; genuine strengths are a credible central bank, sound banks, strong courts, and lawful migration handling. Source-lean: MODERATE Anglophone; the US-relations framing leans to US outlets."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 0.5,
+      "confidence": 0.85,
+      "skew": "negative",
+      "notes": "A credible central bank and sound banks, against a fiscal deterioration and a transition-deterred commodity sector.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -5,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "An escape clause invoked in 2025 suspended the fiscal rule through 2027, with a deficit ~7% GDP and net debt above the anchor; elevated sovereign spreads. (IMF 2025 Art IV)"
+        },
+        "monetary_independence": {
+          "score": 7,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "An independent, credible inflation-targeter that proactively hiked - a genuine institutional strength. (Banco de la Republica)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The peso is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": -2,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "Sticky around ~5%, projected to rise before converging to target by 2027 - above target but credibly managed. (BanRep)"
+        },
+        "banking_stability": {
+          "score": 5,
+          "weight": 0.1,
+          "confidence": 0.85,
+          "notes": "Well-capitalised with adequate provisioning, judged resilient. (IMF; BanRep FSR)"
+        },
+        "trade_actions_capacity": {
+          "score": -2,
+          "weight": 0.17,
+          "confidence": 0.7,
+          "notes": "Oil/coal/coffee exposure with an energy-transition push that deters hydrocarbon investment, partly offset by strong institutions; weak private investment. (IMF; press)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 0.3,
+      "confidence": 0.77,
+      "skew": "negative",
+      "notes": "Strong courts and credible statistics, against weak rural state presence and a confrontational executive.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -2,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "A strong constitutional court and council of state actively check the executive, against shrinking civic space, weak rural state presence, and criminal infiltration. (WJP Rule of Law 2025)"
+        },
+        "statistical_integrity": {
+          "score": 6,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "The statistics agency (DANE) is credible and independent. (DANE)"
+        },
+        "civil_service_capacity": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Mixed - capable central institutions with thin rural delivery. (World Bank; IMF)"
+        },
+        "press_freedom": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "A vibrant, pluralistic press (RSF ~115th) with journalists threatened in conflict zones and confrontational government rhetoric. (RSF 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -0.3,
+      "confidence": 0.8,
+      "skew": "negative",
+      "notes": "Strong liberties and lawful migration handling, against polarised gridlock, political violence, and inequality.",
+      "sub_factors": {
+        "political_stability": {
+          "score": -4,
+          "weight": 0.3,
+          "confidence": 0.85,
+          "notes": "A leftist government gridlocked with Congress and the courts amid high polarisation, the 2025 assassination of a presidential candidate, and a tense run-up to the May-2026 vote; institutions hold but are strained. (La Silla Vacia; NPR)"
+        },
+        "civil_liberties": {
+          "score": 4,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Strong constitutional protections and active courts. (WJP; V-Dem)"
+        },
+        "treatment_non_citizens": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "A landmark program regularised ~2.8M Venezuelan migrants on long-term status - relatively open and lawful, though support is quietly eroding. (GFMD)"
+        },
+        "social_cohesion": {
+          "score": -4,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "High inequality and urban-rural and conflict-legacy divides. (World Bank; ICG)"
+        },
+        "demographics": {
+          "score": 1,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "Still young, but with fertility falling sharply and ageing/emigration ahead. (DANE; BanRep)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -3.5,
+      "confidence": 0.85,
+      "skew": "negative",
+      "notes": "An open economy whose historic US alliance is at a nadir, dominated by internal armed conflict.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": -5,
+          "weight": 0.4,
+          "confidence": 0.8,
+          "notes": "A historic US ally whose ties hit a nadir in 2025 - a decertification, US sanctions on the president, and deportation/tariff clashes - strained and near-broken. (TIME; Atlantic Council)"
+        },
+        "conflict_involvement": {
+          "score": -7,
+          "weight": 0.35,
+          "confidence": 0.9,
+          "notes": "An internal armed conflict - ELN and FARC-dissident resurgence, a stalling 'total peace' process, and armed groups disrupting the 2026 campaign. (ICG; InsightCrime)"
+        },
+        "sanctions_capital_controls": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "An open economy, not under sanctions, with no capital controls. (IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -3.2,
+      "confidence": 0.75,
+      "skew": "negative",
+      "notes": "Improving infrastructure, against multi-hazard climate exposure, a healthcare crisis, and high regional crime.",
+      "sub_factors": {
+        "climate": {
+          "score": -3,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Most of the population exposed to multiple hazards, with La Nina/El Nino swings and Andean/coastal flood-landslide risk. (GFDRR/World Bank)"
+        },
+        "healthcare": {
+          "score": -3,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "Broad coverage but an acute system crisis - a rejected reform, declining funding, and worsening access. (El Espectador; Colombia One)"
+        },
+        "infrastructure": {
+          "score": -2,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Improving (metro and rail projects) but mountainous, uneven, with rural gaps. (trade.gov)"
+        },
+        "crime_safety": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "An elevated and rising homicide rate, extortion, and kidnapping, with conflict zones acutely dangerous against safer major cities. (InsightCrime; Statista)"
+        },
+        "disaster_insurance": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "A developing market with sovereign catastrophe instruments advancing, against seismic and flood exposure and low retail penetration. (World Bank; IDF)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -0.55,
+      "confidence": 0.79,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": -0.6,
+      "confidence": 0.82,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -0.2,
+      "confidence": 0.83,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A middle-income economy whose genuine institutional strengths - a credible, independent central bank, sound banks, a strong constitutional court, robust civil liberties, and a landmark lawful regularisation of Venezuelan migrants - are offset by a fiscal deterioration (the suspended fiscal rule), an internal armed conflict with resurgent ELN and FARC-dissident groups, elevated crime, a healthcare-system crisis, and a 2025 rupture in the historic US alliance. Politics are polarised and gridlocked, marked by the assassination of a presidential candidate, with tail risks running both ways into the May-2026 election."
+}

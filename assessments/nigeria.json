@@ -1,0 +1,246 @@
+{
+  "country": "Nigeria",
+  "iso3": "NGA",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF Art IV 2025, World Bank, WJP, RSF, TI, V-Dem, HRW, OCHA) + Nigerian official (NBS, Central Bank of Nigeria, NUPRC) + Nigerian independent press (Premium Times, BusinessDay, Vanguard, Guardian NG, Nairametrics, ICIR).",
+    "A painful reform cycle is underway: the 2023 naira float and fuel-subsidy removal drove an inflation/cost-of-living shock now easing, with a concluded bank recapitalisation, reserves at a multi-year high, and a major new refinery online.",
+    "Standout drags: severe internal insecurity, a power/infrastructure crisis, very high crime, weak healthcare, and a resource-curse oil model. Source-lean: HIGH but low-distortion Anglophone (English is official); northern-language insecurity reporting under-read."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -1.7,
+      "confidence": 0.79,
+      "skew": "symmetric",
+      "notes": "A painful reform turn (float, subsidy removal, bank recapitalisation), against a crushing debt-service burden, high inflation, and a resource-curse oil model.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -5,
+          "weight": 0.22,
+          "confidence": 0.82,
+          "notes": "Debt ~50% GDP but a crushing debt-service-to-revenue ratio and weak revenue mobilisation; subsidy removal is painfully improving the trajectory. (IMF 2025 Art IV)"
+        },
+        "monetary_independence": {
+          "score": 1,
+          "weight": 0.22,
+          "confidence": 0.7,
+          "notes": "A reform-era central bank rebuilding credibility after the 2023 float, holding an orthodox stance from an intervention-heavy base. (CBN; IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The naira is a non-reserve floating currency. (definitional)"
+        },
+        "inflation": {
+          "score": -4,
+          "weight": 0.13,
+          "confidence": 0.8,
+          "notes": "Eased to ~15.7% after a 30%+ post-float peak and a 2024 CPI rebasing, but still a real cost-of-living crisis. (NBS; CBN)"
+        },
+        "banking_stability": {
+          "score": 2,
+          "weight": 0.1,
+          "confidence": 0.78,
+          "notes": "A major recapitalisation concluded in early 2026 lifting liquidity, against heavy oil-and-gas loan exposure. (CBN)"
+        },
+        "trade_actions_capacity": {
+          "score": -3,
+          "weight": 0.17,
+          "confidence": 0.7,
+          "notes": "A classic resource curse - oil output chronically below quota on theft and underinvestment - though a major new refinery and nascent non-oil/tech diversification are real positives. (NUPRC; NBS; BusinessDay)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -2.8,
+      "confidence": 0.74,
+      "skew": "negative",
+      "notes": "An improving statistics agency and a vibrant press, against entrenched corruption and weak delivery.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -5,
+          "weight": 0.35,
+          "confidence": 0.78,
+          "notes": "Entrenched corruption, slow courts, and impunity. (WJP 2025; TI)"
+        },
+        "statistical_integrity": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.72,
+          "notes": "The statistics agency rebased GDP and CPI - credible and improving, but capacity-limited. (NBS; IMF)"
+        },
+        "civil_service_capacity": {
+          "score": -4,
+          "weight": 0.25,
+          "confidence": 0.68,
+          "notes": "Patronage-ridden, with weak delivery. (IMF; World Bank)"
+        },
+        "press_freedom": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.78,
+          "notes": "A vibrant but harassed press, with cybercrime-law prosecutions and a dangerous environment for journalists. (RSF; HRW 2026)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -3.2,
+      "confidence": 0.69,
+      "skew": "negative",
+      "notes": "A potential demographic dividend, against reform-hardship strain, deep cleavages, and limited belonging.",
+      "sub_factors": {
+        "political_stability": {
+          "score": -2,
+          "weight": 0.3,
+          "confidence": 0.68,
+          "notes": "A 2023-elected government pushing painful reforms amid hardship protests; democratic but strained, with a 2027 election ahead. (Africanews; Guardian NG)"
+        },
+        "civil_liberties": {
+          "score": -3,
+          "weight": 0.2,
+          "confidence": 0.72,
+          "notes": "Formal freedoms undercut by crackdowns and a police-brutality legacy. (V-Dem; HRW)"
+        },
+        "treatment_non_citizens": {
+          "score": -4,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Limited routes; not a relocation-destination regime. (observed)"
+        },
+        "social_cohesion": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "Deep Muslim-north/Christian-south and ethnic/regional cleavages, with separatist undercurrents. (HRW)"
+        },
+        "demographics": {
+          "score_near": -1,
+          "score_long": 2,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.7,
+          "notes": "A huge, fast-growing young population - a jobs/Malthusian strain now, a potential dividend later. (World Bank; NBS)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -3.3,
+      "confidence": 0.71,
+      "skew": "negative",
+      "notes": "A non-aligned regional power, dominated by severe internal insecurity.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": -2,
+          "weight": 0.4,
+          "confidence": 0.65,
+          "notes": "A non-aligned regional power and ECOWAS leader, with the bloc weakened by Sahel coups and withdrawals. (The Conversation; BusinessDay)"
+        },
+        "conflict_involvement": {
+          "score": -7,
+          "weight": 0.35,
+          "confidence": 0.82,
+          "notes": "Severe internal insecurity - jihadist insurgency in the northeast, banditry and mass kidnapping in the northwest, and farmer-herder and separatist violence. (HRW 2026; SBM Intelligence)"
+        },
+        "sanctions_capital_controls": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "An FX-control legacy easing post-float; not sanctioned, with reserves at a multi-year high. (CBN; IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -5.8,
+      "confidence": 0.74,
+      "skew": "negative",
+      "notes": "A power and infrastructure crisis, weak healthcare, high crime, and severe flood exposure.",
+      "sub_factors": {
+        "climate": {
+          "score": -5,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Devastating recurrent floods, northern desertification, and Niger Delta degradation. (OCHA; UN News)"
+        },
+        "healthcare": {
+          "score": -6,
+          "weight": 0.3,
+          "confidence": 0.78,
+          "notes": "Weak, with low public spend, high out-of-pocket costs, and heavy doctor emigration. (Punch; Vanguard)"
+        },
+        "infrastructure": {
+          "score": -7,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "A chronic power-supply crisis (repeated grid collapses) and poor roads - a major drag. (ICIR; Vanguard)"
+        },
+        "crime_safety": {
+          "score": -7,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "High violent crime and endemic kidnapping-for-ransom. (SBM Intelligence; HRW)"
+        },
+        "disaster_insurance": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Very low insurance penetration against high flood/disaster exposure. (industry)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -3.17,
+      "confidence": 0.73,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -2.76,
+      "confidence": 0.75,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -2.24,
+      "confidence": 0.76,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A large, young, fast-growing economy mid-way through a painful but real reform cycle - a naira float, fuel-subsidy removal, a concluded bank recapitalisation, reserves at a multi-year high, and a major new refinery - with inflation easing from a post-reform shock. The profile is nonetheless dominated by drags: a crushing debt-service burden and a resource-curse oil model, entrenched corruption and weak delivery, a chronic power and infrastructure crisis, weak healthcare with heavy doctor emigration, very high violent crime and kidnapping, severe flooding, and severe internal insecurity from jihadist, bandit, and separatist violence."
+}

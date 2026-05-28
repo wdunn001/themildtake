@@ -1,0 +1,250 @@
+{
+  "country": "Czechia",
+  "iso3": "CZE",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF Art IV 2026, OECD, EC, Eurostat, WJP, RSF, TI, V-Dem) + Czech official (CZSO, Czech National Bank) + Czech independent press (Radio Prague, plus Seznam Zpravy/Denik N read indirectly).",
+    "Politics: the Oct-2025 election returned the Babis/ANO party in a populist-leaning coalition - a democratic, orderly transfer that raises EU-friction and alliance-recalibration risk.",
+    "Standout features: a prudent, export-driven economy, strong institutions, and low crime, against a populist political turn, a near-term defence/alliance haircut, and demographic decline. Source-lean: MODERATE Anglophone."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 4.4,
+      "confidence": 0.88,
+      "skew": "positive",
+      "notes": "A prudent fiscal position, a credible central bank, sound banks, and a strong export base.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 5,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "Low debt ~44.6% GDP with a deficit ~2% - prudent, with the IMF urging modest consolidation to hold the line. (IMF Art IV 2026)"
+        },
+        "monetary_independence": {
+          "score": 6,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "The CNB is statutorily independent and highly credible (repo ~3.5%). (CNB)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The koruna (an EU non-eurozone currency) is not a reserve asset. (definitional)"
+        },
+        "inflation": {
+          "score": 3,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "At or near the 2% target band, with a brief late-2026 uptick then converging. (CNB)"
+        },
+        "banking_stability": {
+          "score": 6,
+          "weight": 0.1,
+          "confidence": 0.85,
+          "notes": "Well-capitalised and profitable, with deposits exceeding loans and 2025 stress tests passed. (CNB FSR)"
+        },
+        "trade_actions_capacity": {
+          "score": 6,
+          "weight": 0.17,
+          "confidence": 0.85,
+          "notes": "An export/auto/manufacturing powerhouse deeply integrated into German supply chains and a nearshoring beneficiary, no resource curse; concentration the flip-side risk. (OECD 2025; EC)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 5.4,
+      "confidence": 0.79,
+      "skew": "positive",
+      "notes": "Independent EU-compliant courts, credible statistics, and a free press, with media-ownership concentration the watch-item.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 5,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "Independent, EU-compliant courts (a WJP top-20 standing), with the incoming prime minister's unresolved business conflict-of-interest the watch-item. (WJP 2025; EC)"
+        },
+        "statistical_integrity": {
+          "score": 7,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "The CZSO is credible and Eurostat-compliant. (CZSO; Eurostat)"
+        },
+        "civil_service_capacity": {
+          "score": 5,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "A capable administration with strong EU-funds absorption. (OECD)"
+        },
+        "press_freedom": {
+          "score": 4,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "Free and diverse (an RSF top-tier standing), with high ownership concentration and prime-minister-linked media a structural concern. (RSF 2026)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 1.2,
+      "confidence": 0.8,
+      "skew": "negative",
+      "notes": "Strong liberties and an integrated refugee population, against a populist political turn and demographic decline.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -2,
+          "score_long": -1,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "The Oct-2025 election returned the Babis/ANO party in a coalition with populist/right partners - a populist turn raising EU-friction risk, but the transfer was democratic and orderly. (OSW; Euronews)"
+        },
+        "civil_liberties": {
+          "score": 5,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Strong, EU-standard protections. (V-Dem; Freedom House)"
+        },
+        "treatment_non_citizens": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "A large, lawfully integrated Ukrainian-refugee population on durable work/residence routes. (UNHCR; OSW)"
+        },
+        "social_cohesion": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "Cohesive, with comparatively low polarisation despite the populist current. (V-Dem; OSW)"
+        },
+        "demographics": {
+          "score_near": -2,
+          "score_long": -4,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.85,
+          "notes": "Sub-replacement fertility (~1.37) and ageing, with migration only partly offsetting a deepening natural decline. (CZSO)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 2.1,
+      "confidence": 0.81,
+      "skew": "negative",
+      "notes": "A NATO/EU member with an open economy, against a near-term alliance recalibration and war-adjacency.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score_near": 4,
+          "score_long": 6,
+          "score": null,
+          "weight": 0.4,
+          "confidence": 0.8,
+          "notes": "A NATO/EU member, though an observable post-2025 recalibration (defence below the NATO pledge, scaled-back ammunition backing) trims near-term reliability. (NATO; Euronews)"
+        },
+        "conflict_involvement": {
+          "score": -3,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "No direct conflict, war-adjacent in Central Europe with no border/frontline exposure. (observed)"
+        },
+        "sanctions_capital_controls": {
+          "score": 6,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "An EU regime with an open capital account. (EU)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 2.7,
+      "confidence": 0.74,
+      "skew": "positive",
+      "notes": "Good modern infrastructure, universal healthcare, and low crime, against flood exposure.",
+      "sub_factors": {
+        "climate": {
+          "score": -2,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "A 2024 climate-amplified flood event, with a coal phase-out underway. (WMO; IEA)"
+        },
+        "healthcare": {
+          "score": 3,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "Universal with high satisfaction and low unmet need, with a workforce-ageing risk. (OECD Health at a Glance 2025)"
+        },
+        "infrastructure": {
+          "score": 5,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Good, modern, and EU-funded. (EC; OECD)"
+        },
+        "crime_safety": {
+          "score": 7,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "Low crime, with the capital among the safest cities - a clear strength. (CZSO)"
+        },
+        "disaster_insurance": {
+          "score": -1,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Flood exposure in a developed but unevenly penetrated insurance market. (2024 floods)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 3.5,
+      "confidence": 0.8,
+      "horizon": "5-10y",
+      "reading": "clear positive"
+    },
+    "assets": {
+      "score": 3.88,
+      "confidence": 0.82,
+      "horizon": "3-7y",
+      "reading": "clear positive"
+    },
+    "currency": {
+      "score": 4.08,
+      "confidence": 0.85,
+      "horizon": "1-3y",
+      "reading": "clear positive"
+    }
+  },
+  "summary": "A prudently managed, export-driven economy - low debt, a credible central bank, sound banks, deep German supply-chain integration - with strong, EU-compliant institutions, an integrated Ukrainian-refugee population, low crime, and good infrastructure. The 2025 election produced a democratic but populist-leaning turn that raises EU-friction risk and an observable near-term defence/alliance recalibration, and the long-run demographic decline is a real drag. Media-ownership concentration and the incoming prime minister's business conflict-of-interest are the institutional watch-items."
+}

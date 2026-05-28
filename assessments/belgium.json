@@ -1,0 +1,244 @@
+{
+  "country": "Belgium",
+  "iso3": "BEL",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF Art IV 2026, EC, OECD, RSF, Eurostat, Freedom House, IMF COFER) + Belgian official (Statbel, National Bank of Belgium) + Belgian/EU press (VRT, Le Soir, Euronews, ECRE).",
+    "A EUROZONE member and host of EU/NATO headquarters; deeply democratic but structurally fragmented along the Flemish-Walloon divide (the federal coalition took ~8 months to form in early 2025).",
+    "Standout features: strong institutions, an open trade-hub economy, and excellent healthcare, against a high public-debt load, an asylum-reception crisis, and Brussels/Antwerp narco-violence. Source-lean: MODERATE-HIGH Anglophone on the crime/asylum framing."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 2.2,
+      "confidence": 0.89,
+      "skew": "negative",
+      "notes": "An open trade-hub economy and sound banks, against a high public-debt load and a structural deficit.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -6,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "High debt ~108% GDP and the eurozone's largest deficit (~5.2%), with automatic wage indexation a structural drag and consolidation under-delivering. (IMF Art IV 2026; EC; NBB)"
+        },
+        "monetary_independence": {
+          "score": 5,
+          "weight": 0.22,
+          "confidence": 0.95,
+          "notes": "Pooled at the ECB - credible but not sovereign. (ECB)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 2,
+          "weight": 0.16,
+          "confidence": 0.9,
+          "notes": "A participant in the euro, the world's second reserve currency. (IMF COFER)"
+        },
+        "inflation": {
+          "score": 3,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "Eased from shock peaks, with automatic indexation cushioning households but feeding a competitiveness problem. (NBB; Statbel)"
+        },
+        "banking_stability": {
+          "score": 6,
+          "weight": 0.1,
+          "confidence": 0.85,
+          "notes": "Sound, well-capitalised, and well-supervised. (IMF FSAP; NBB)"
+        },
+        "trade_actions_capacity": {
+          "score": 7,
+          "weight": 0.17,
+          "confidence": 0.85,
+          "notes": "An open trade-hub economy - a major port, a chemicals/pharma export base, EU-core logistics - no resource curse. (Eurostat; Statbel)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 6.6,
+      "confidence": 0.85,
+      "skew": "positive",
+      "notes": "An independent judiciary, credible statistics, and a free press, with federal layering slowing execution.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 7,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "An independent judiciary that actively checks the government, with narco-corruption pressure the watch-item. (EC Rule of Law 2025; WJP)"
+        },
+        "statistical_integrity": {
+          "score": 8,
+          "weight": 0.25,
+          "confidence": 0.9,
+          "notes": "Statbel/NBB are credible and Eurostat-compliant. (Eurostat)"
+        },
+        "civil_service_capacity": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "Capable, but complex federal/regional layering slows execution. (EC; OECD)"
+        },
+        "press_freedom": {
+          "score": 7,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "Free (RSF ~16th) with protected public broadcasters. (RSF 2026)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 0.1,
+      "confidence": 0.83,
+      "skew": "negative",
+      "notes": "Strong liberties, against chronic political fragmentation, an asylum-reception crisis, and narco-strains.",
+      "sub_factors": {
+        "political_stability": {
+          "score": -2,
+          "weight": 0.3,
+          "confidence": 0.85,
+          "notes": "Deeply democratic but chronically slow to form governments (the federal coalition took ~8 months to early 2025), with a structural Flemish-Walloon split. (VRT; Le Soir)"
+        },
+        "civil_liberties": {
+          "score": 7,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Strong protections. (Freedom House)"
+        },
+        "treatment_non_citizens": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "Lawful EU routes but a severe reception crisis, with the state repeatedly found non-compliant with court orders. (ECRE; AIDA)"
+        },
+        "social_cohesion": {
+          "score": -1,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "A linguistic divide, a Brussels integration/terrorism legacy, and narco-violence strains. (De Standaard; Le Soir)"
+        },
+        "demographics": {
+          "score": -1,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "Ageing, with a migration-supported workforce. (Statbel; EC)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 6.4,
+      "confidence": 0.85,
+      "skew": "positive",
+      "notes": "A reliable NATO/EU-core member with an open capital account and no direct conflict.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 6,
+          "weight": 0.4,
+          "confidence": 0.85,
+          "notes": "A NATO and EU/NATO-headquarters host and core member, with defence spending lifted to ~2% of GDP from a historically low base. (NATO; VRT)"
+        },
+        "conflict_involvement": {
+          "score": 7,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "No direct conflict, with high territorial security. (observed)"
+        },
+        "sanctions_capital_controls": {
+          "score": 6,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "An EU regime with an open capital account. (EU)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 3.4,
+      "confidence": 0.79,
+      "skew": "positive",
+      "notes": "Excellent healthcare and good infrastructure, against flood risk and urban narco-violence.",
+      "sub_factors": {
+        "climate": {
+          "score": -2,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "Flood risk (the deadly 2021 Wallonia floods), moderate exposure. (EC; NBB)"
+        },
+        "healthcare": {
+          "score": 7,
+          "weight": 0.3,
+          "confidence": 0.85,
+          "notes": "Universal, high-quality, and accessible. (OECD Health at a Glance)"
+        },
+        "infrastructure": {
+          "score": 5,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Dense and good, with ageing assets and congestion. (OECD; EC)"
+        },
+        "crime_safety": {
+          "score": 0,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "Moderate, with Brussels/Antwerp narco-trade violence and a terrorism legacy a watch-item. (Euronews; France24)"
+        },
+        "disaster_insurance": {
+          "score": 4,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "A developed flood-insurance market with post-2021 reforms. (industry)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 3.5,
+      "confidence": 0.84,
+      "horizon": "5-10y",
+      "reading": "clear positive"
+    },
+    "assets": {
+      "score": 3.82,
+      "confidence": 0.86,
+      "horizon": "3-7y",
+      "reading": "clear positive"
+    },
+    "currency": {
+      "score": 3.58,
+      "confidence": 0.87,
+      "horizon": "1-3y",
+      "reading": "clear positive"
+    }
+  },
+  "summary": "A wealthy, open trade-hub economy with strong, independent institutions, a free press, excellent healthcare, and a reliable NATO/EU-core role hosting both blocs' headquarters. The drags are a high public-debt load and the eurozone's largest deficit (with automatic wage indexation a structural feature), chronic political fragmentation along the Flemish-Walloon divide, a severe asylum-reception crisis that courts repeatedly find unlawful, and Brussels/Antwerp narco-violence. Euro membership pools monetary policy at a credible ECB."
+}

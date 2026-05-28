@@ -1,0 +1,244 @@
+{
+  "country": "Austria",
+  "iso3": "AUT",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF, EC/Council, ECB, OECD, Eurostat, WJP, RSF, IMF COFER) + Austrian official (Statistik Austria, OeNB) + German-language press (Der Standard, Die Presse, ORF, WIFO).",
+    "Politics: the far-right FPO won a 2024 plurality but was kept from power by a record-long three-party coalition formed in 2025 - fragmented but orderly. Austria is a EUROZONE member and constitutionally neutral (non-NATO).",
+    "Standout features: excellent institutions, healthcare, infrastructure, and safety, against a recent fiscal deterioration (an EU deficit procedure) and a far-right political rise. Source-lean: MODERATE-HIGH Anglophone on the election/neutrality framing."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 2,
+      "confidence": 0.84,
+      "skew": "negative",
+      "notes": "An advanced, German-integrated export economy and sound banks, against a recent fiscal deterioration and recession.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -3,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "An EU excessive-deficit procedure opened in 2025 (deficit ~4.5-4.7%, debt ~80%), having been the EU's last economy still in recession, with a correction path to under 3% by 2028. (EC; Council EDP)"
+        },
+        "monetary_independence": {
+          "score": 5,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Pooled at the ECB - credible and anti-inflation but not sovereign. (ECB)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 2,
+          "weight": 0.16,
+          "confidence": 0.85,
+          "notes": "A participant in the euro, the world's second reserve currency. (IMF COFER)"
+        },
+        "inflation": {
+          "score": 1,
+          "weight": 0.13,
+          "confidence": 0.75,
+          "notes": "Was stickily above the euro-area average, now easing toward target. (OeNB; Statistik Austria)"
+        },
+        "banking_stability": {
+          "score": 3,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "Sound and well-capitalised, with a legacy Russia exposure being wound down under ECB pressure. (ECB; OeNB FSR)"
+        },
+        "trade_actions_capacity": {
+          "score": 5,
+          "weight": 0.17,
+          "confidence": 0.85,
+          "notes": "Advanced, diversified industry and exports deeply integrated with Germany, against an energy-cost and Russia-gas-legacy drag, no resource curse. (OECD; WIFO)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 7.8,
+      "confidence": 0.88,
+      "skew": "positive",
+      "notes": "Independent courts, excellent statistics, and high administrative quality, with media-ownership concentration the caveat.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 8,
+          "weight": 0.35,
+          "confidence": 0.9,
+          "notes": "Independent courts with high WJP scores. (WJP)"
+        },
+        "statistical_integrity": {
+          "score": 9,
+          "weight": 0.25,
+          "confidence": 0.9,
+          "notes": "Statistik Austria is credible and ESS-compliant. (Eurostat)"
+        },
+        "civil_service_capacity": {
+          "score": 8,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "High administrative quality. (OECD; EC)"
+        },
+        "press_freedom": {
+          "score": 5,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "Free (RSF ~22nd) but flagged for concentrated ownership and prior governing-party advertising-corruption scandals. (RSF 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 3.1,
+      "confidence": 0.79,
+      "skew": "symmetric",
+      "notes": "Strong liberties and a cohesive welfare society, against a far-right rise and an ageing population.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 3,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "The far-right FPO won a 2024 plurality but was excluded by a record-long three-party coalition formed in 2025 - fragmented but orderly, with institutions holding. (election data; ORF)"
+        },
+        "civil_liberties": {
+          "score": 8,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Strong protections. (V-Dem; Freedom House)"
+        },
+        "treatment_non_citizens": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "Lawful EU routes (a Red-White-Red card) but a restrictive, tightening asylum stance. (EC; EUAA)"
+        },
+        "social_cohesion": {
+          "score": 3,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "A cohesive welfare society, with immigration/integration polarisation rising. (OECD; Der Standard)"
+        },
+        "demographics": {
+          "score": -2,
+          "weight": 0.1,
+          "confidence": 0.85,
+          "notes": "Ageing, low fertility, and migration-dependent growth. (Statistik Austria; Eurostat)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 4,
+      "confidence": 0.83,
+      "skew": "symmetric",
+      "notes": "EU-anchored and conflict-free, but constitutionally neutral with a limited hard-security commitment.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 2,
+          "weight": 0.4,
+          "confidence": 0.85,
+          "notes": "An EU member but constitutionally neutral and non-NATO - a limited hard-security commitment, with defence rising from a low base. (Defense News)"
+        },
+        "conflict_involvement": {
+          "score": 5,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "No direct conflict, with a residual Russia-energy-dependence legacy. (EC; OeNB)"
+        },
+        "sanctions_capital_controls": {
+          "score": 6,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "An EU regime with an open capital account. (EC)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 5.6,
+      "confidence": 0.81,
+      "skew": "positive",
+      "notes": "Excellent healthcare, infrastructure, and safety, against Alpine flood and glacier-loss exposure.",
+      "sub_factors": {
+        "climate": {
+          "score": -1,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Alpine flood/landslide and glacier loss, including a severe 2024 flood event. (Munich Re; GeoSphere)"
+        },
+        "healthcare": {
+          "score": 8,
+          "weight": 0.3,
+          "confidence": 0.85,
+          "notes": "Universal with excellent access. (OECD; WHO)"
+        },
+        "infrastructure": {
+          "score": 8,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Excellent transport and utilities. (OECD; WEF)"
+        },
+        "crime_safety": {
+          "score": 8,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "Low crime - a clear strength. (Eurostat; Statistik Austria)"
+        },
+        "disaster_insurance": {
+          "score": 3,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "A functioning Alpine-hazard market, with a coverage gap exposed by the 2024 floods (~45% insured). (Munich Re; VVO)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 5.08,
+      "confidence": 0.83,
+      "horizon": "5-10y",
+      "reading": "clear positive"
+    },
+    "assets": {
+      "score": 4.26,
+      "confidence": 0.84,
+      "horizon": "3-7y",
+      "reading": "clear positive"
+    },
+    "currency": {
+      "score": 3.55,
+      "confidence": 0.85,
+      "horizon": "1-3y",
+      "reading": "clear positive"
+    }
+  },
+  "summary": "A high-income country with excellent institutions, healthcare, infrastructure, and personal safety, and an advanced, German-integrated export economy. The drags are a recent fiscal deterioration (an EU excessive-deficit procedure after the EU's last recession), a sticky inflation legacy, and a far-right political rise - though that party was kept from power by an orderly, if fragmented, three-party coalition. Membership of the euro pools monetary policy at a credible ECB, while constitutional neutrality keeps the hard-security commitment limited."
+}
