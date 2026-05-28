@@ -1,0 +1,106 @@
+{
+  "country": "United States",
+  "iso3": "USA",
+  "methodology_version": "2.0-pre-source-audit",
+  "assessed_on": "2026-05-28",
+  "subject_profile": {
+    "summary": "Highly educated American, board-certified laboratory animal veterinarian (ACLAM), considering relocation.",
+    "profession": "Board-certified laboratory animal veterinarian (ACLAM)",
+    "citizenship": "United States",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Scores predate full v2 source-discipline re-run.",
+    "US official data post-2022 should be treated as partially-entangled (documented statistical-agency interference); confidence bands here may be slightly too high and distortion likely skews official figures positive.",
+    "Reserve-currency factor corrected mid-analysis to two-horizon (+5 near / -2 long) after initial under-scoring."
+  ],
+  "category_weights_by_decision": {
+    "living": { "economic": 0.15, "institutional": 0.30, "political_social": 0.25, "geopolitical": 0.05, "physical_practical": 0.10, "personal_fit": 0.15 },
+    "assets": { "economic": 0.40, "institutional": 0.25, "political_social": 0.10, "geopolitical": 0.15, "physical_practical": 0.10, "personal_fit": 0.0 },
+    "currency": { "economic": 0.60, "institutional": 0.20, "political_social": 0.05, "geopolitical": 0.15, "physical_practical": 0.0, "personal_fit": 0.0 }
+  },
+  "categories": {
+    "economic": {
+      "score": -2.6,
+      "confidence": 0.71,
+      "skew": "negative",
+      "notes": "Negative across most sub-factors. Reserve-currency privilege provides large near-term cushion that erodes long-term (resource-curse dynamic). Score shown is near-term composite (-2.6); long-term composite ~-4.8.",
+      "sub_factors": {
+        "fiscal_state": { "score_near": -5, "score_long": -7, "score": null, "weight": 0.25, "confidence": 0.80, "notes": "Debt >100% GDP held by public, 6-7% peacetime deficits, interest exceeds defense spending, no reform pathway. Reserve cushion masks severity." },
+        "monetary_fed_independence": { "score_near": -5, "score_long": -6, "score": null, "weight": 0.25, "confidence": 0.60, "notes": "Powell out, Warsh in via White House swearing-in; DOJ probe of former chair; Lisa Cook removal effort. Behavior untested; June FOMC is key data point." },
+        "reserve_currency_intl_monetary": { "score_near": 5, "score_long": -2, "score": null, "weight": 0.20, "confidence": 0.70, "notes": "Dollar reserve share 72%->58% since 2000. Strong near-term privilege, eroding; long-term becomes structural dependency as atrophied institutions are exposed." },
+        "inflation": { "score": -4, "weight": 0.15, "confidence": 0.70, "notes": "Iran war oil shock, tariff pass-through, Fed under pressure to cut into inflation." },
+        "banking_stability": { "score": -2, "weight": 0.10, "confidence": 0.70, "notes": "Large banks capitalized; regional CRE exposure; reserve-status backstop itself eroding." },
+        "trade_policy": { "score": -4, "weight": 0.05, "confidence": 0.75, "notes": "Volatile tariff regime; unpredictability cost beyond tariff levels." }
+      }
+    },
+    "institutional": {
+      "score": -5.6,
+      "confidence": 0.76,
+      "skew": "negative",
+      "notes": "Most clearly negative category. Multiple independent sub-factors point consistently down. Long-term composite degrades ~1 point further.",
+      "sub_factors": {
+        "rule_of_law": { "score": -5, "weight": 0.35, "confidence": 0.70, "notes": "Courts mostly functioning and complied with, but pressure on judges, DOJ against opponents, selective defiance. Eroding from a strong baseline." },
+        "statistical_integrity": { "score": -7, "weight": 0.25, "confidence": 0.85, "notes": "BLS commissioner fired over jobs number; 20-25% agency staffing cuts; USDA food-security survey eliminated; proposed consolidation under political control. ASA: 'deepening crisis.'" },
+        "civil_service_capacity": { "score": -6, "weight": 0.25, "confidence": 0.75, "notes": "Schedule F reclassification, RIFs, loss of technical expertise, politicization of appointments." },
+        "press_freedom": { "score": -4, "weight": 0.15, "confidence": 0.65, "notes": "RWB ranking down; legal/FCC pressure on outlets; access restrictions. Diversity remains; no formal censorship." }
+      }
+    },
+    "political_social": {
+      "score": -5.3,
+      "confidence": 0.72,
+      "skew": "negative",
+      "notes": "Driven heavily by treatment of non-citizens (most relevant to relocation). Long-term composite ~-5.5 as demographics worsen.",
+      "sub_factors": {
+        "political_stability": { "score": -4, "weight": 0.30, "confidence": 0.65, "notes": "Power transferred in 2024, but 2020 aftermath, election-official pressure, extreme polarization. High uncertainty re: 2028." },
+        "civil_liberties": { "score": -5, "weight": 0.20, "confidence": 0.70, "notes": "Surveillance expanding, 1A/4A pressure, large state-level variation." },
+        "treatment_non_citizens": { "score": -8, "weight": 0.25, "confidence": 0.85, "notes": "Mass deportation w/ documented due-process violations, visa slowdowns, H-1B pressure, birthright challenge, student visa revocations. Most negative single factor; directly relevant to relocation." },
+        "social_cohesion": { "score": -4, "weight": 0.15, "confidence": 0.60, "notes": "Rising political violence and threats; historic-low social trust; large-scale violence not materialized." },
+        "demographics": { "score_near": -3, "score_long": -5, "score": null, "weight": 0.10, "confidence": 0.70, "notes": "Positive growth via immigration now being restricted; below-replacement native fertility; aging." }
+      }
+    },
+    "geopolitical": {
+      "score": -5.4,
+      "confidence": 0.73,
+      "skew": "negative",
+      "notes": "Strongly negative across all sub-factors.",
+      "sub_factors": {
+        "alliance_reliability": { "score": -6, "weight": 0.40, "confidence": 0.80, "notes": "NATO strain, Five Eyes degraded, EU strategic autonomy, Greenland/Canada friction, transactional posture replacing values-based alliances." },
+        "conflict_involvement": { "score": -6, "weight": 0.35, "confidence": 0.75, "notes": "Active US-Israeli war with Iran (~3 months); Taiwan tension; rhetorical escalation vs partners (Greenland, Panama, Denmark)." },
+        "sanctions_capital_controls": { "score": -3, "weight": 0.25, "confidence": 0.60, "notes": "Sanctions weaponization expanding alternatives; capital-control risk low but non-zero; expatriate exposure rising." }
+      }
+    },
+    "physical_practical": {
+      "score": -4.0,
+      "confidence": 0.72,
+      "skew": "negative",
+      "notes": "Healthcare drives most of this. Long-term composite worsens as climate compounds.",
+      "sub_factors": {
+        "climate": { "score_near": -3, "score_long": -5, "score": null, "weight": 0.20, "confidence": 0.65, "notes": "SW water stress, Gulf/Atlantic hurricanes, Western wildfire; insurance market failures FL/CA; federal response capacity under stress." },
+        "healthcare": { "score": -6, "weight": 0.30, "confidence": 0.80, "notes": "~2x peer per-capita spend, worse aggregate outcomes; coverage gaps; public-health infrastructure degraded; vaccine policy politicized." },
+        "infrastructure": { "score": -3, "weight": 0.20, "confidence": 0.70, "notes": "Aging but functional; IIJA deploying at reduced pace; uneven grid; underfunded water in places." },
+        "crime_safety": { "score": -3, "weight": 0.15, "confidence": 0.70, "notes": "Violent crime down from 2020-21 peak but firearm violence high by peer standards; highest incarceration rate among wealthy nations." },
+        "disaster_insurance": { "score": -5, "weight": 0.15, "confidence": 0.75, "notes": "FL/CA insurance markets in crisis; wildfire/hurricane coverage unavailable in high-risk areas; federal flood program underfunded." }
+      }
+    },
+    "personal_fit": {
+      "score": 2,
+      "confidence": 0.80,
+      "skew": "negative",
+      "notes": "Home market with established ACLAM credentials, networks, strong salaries ($150-300K+). Robust near-term job market. Long-term downside from NIH funding volatility, FDA reorganization, research-university institutional erosion. Scored +6 near / +2 long.",
+      "sub_factors": {
+        "labanimal_vet_fit": { "score_near": 6, "score_long": 2, "score": null, "weight": 1.0, "confidence": 0.80, "notes": "Far more positions than people; recession-resistant; but exposed to US research-enterprise competitiveness long-term." }
+      }
+    }
+  },
+  "decisions": {
+    "living": { "score": -4.39, "confidence": 0.74, "horizon": "5-10y", "reading": "clear negative" },
+    "assets": { "score": -4.17, "confidence": 0.73, "horizon": "3-7y", "reading": "clear negative" },
+    "currency": { "score": -3.85, "confidence": 0.71, "horizon": "1-3y", "reading": "clear negative" }
+  },
+  "summary": "The US case is no longer competitive on country-level factors for a 5-10 year horizon. Institutional erosion from a high baseline, reserve-currency egress, alliance decay, and treatment of non-citizens drive a strongly negative living score. Personal advantage (established ACLAM career, citizenship) is meaningful but insufficient to outweigh the trajectory. Notably scores near the bottom of the six-country set, alongside China, reaching that position via democratic erosion rather than authoritarian baseline."
+}

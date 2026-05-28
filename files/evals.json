@@ -1,0 +1,23 @@
+{
+  "skill_name": "country-risk-assessment",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I'm a Canadian software engineer thinking about whether to move to the United States for work. Can you do a proper risk assessment weighing the economic, institutional, and political situation? I care most about rule of law and not having my rights stripped arbitrarily.",
+      "expected_output": "A structured assessment: searches current US conditions; rates sources (flags post-2022 US official-data reliability); scores the six categories with confidence; produces a living-decision score and confidence with thresholds applied; emits a JSON object on the schema; characterizes skew; states personal-fit caveats for the engineer.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Add China to my country comparison using the same framework, and be careful about data quality.",
+      "expected_output": "Recognizes the existing framework/comparison; searches current China conditions; applies the hard exclusion rule to CCP-sourced data, rebuilding economic factors from independent proxies or marking insufficient-reliable-data; runs the slant-balance audit; emits a China JSON object plus an updated comparison index; flags the negative-skew case and the propaganda-exclusion caveat.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Is now a risky time to be holding US dollars and treasuries for the next couple of years? Score it.",
+      "expected_output": "Treats this as the currency decision (1-3y, near-term scores); searches current fiscal/Fed/reserve-currency conditions; scores reserve-currency status as a large near-term positive that is eroding; produces a currency-decision score and confidence; notes this is not financial advice; emits or references the structured object.",
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "title": "Six-Country Comparison Index",
+  "project": "themildtake",
+  "methodology_version": "2.0-pre-source-audit",
+  "assessed_on": "2026-05-28",
+  "subject_profile": {
+    "summary": "Highly educated American, board-certified laboratory animal veterinarian (ACLAM), considering relocation.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "scale": { "min": -10, "max": 10, "thresholds": { "clear_positive": ">= +3", "mixed": "between -3 and +3", "clear_negative": "<= -3", "insufficient_confidence": "confidence < 0.40" } },
+  "decisions": {
+    "living": {
+      "horizon": "5-10y",
+      "ranking": [
+        { "rank": 1, "country": "Sweden", "iso3": "SWE", "score": 3.86, "confidence": 0.77, "skew": "symmetric" },
+        { "rank": 2, "country": "Canada", "iso3": "CAN", "score": 3.25, "confidence": 0.76, "skew": "symmetric" },
+        { "rank": 3, "country": "Ukraine", "iso3": "UKR", "score": 0.12, "confidence": 0.68, "skew": "positive" },
+        { "rank": 4, "country": "Mexico", "iso3": "MEX", "score": -1.93, "confidence": 0.72, "skew": "negative" },
+        { "rank": 5, "country": "China", "iso3": "CHN", "score": -3.77, "confidence": 0.66, "skew": "negative" },
+        { "rank": 6, "country": "United States", "iso3": "USA", "score": -4.39, "confidence": 0.74, "skew": "negative" }
+      ]
+    },
+    "assets": {
+      "horizon": "3-7y",
+      "ranking": [
+        { "rank": 1, "country": "Sweden", "iso3": "SWE", "score": 3.65, "confidence": 0.78, "skew": "symmetric" },
+        { "rank": 2, "country": "Canada", "iso3": "CAN", "score": 1.82, "confidence": 0.76, "skew": "symmetric" },
+        { "rank": 3, "country": "Mexico", "iso3": "MEX", "score": -1.30, "confidence": 0.71, "skew": "negative" },
+        { "rank": 4, "country": "Ukraine", "iso3": "UKR", "score": -1.74, "confidence": 0.67, "skew": "positive" },
+        { "rank": 5, "country": "China", "iso3": "CHN", "score": -3.15, "confidence": 0.66, "skew": "negative" },
+        { "rank": 6, "country": "United States", "iso3": "USA", "score": -4.17, "confidence": 0.73, "skew": "negative" }
+      ]
+    },
+    "currency": {
+      "horizon": "1-3y",
+      "ranking": [
+        { "rank": 1, "country": "Sweden", "iso3": "SWE", "score": 3.86, "confidence": 0.76, "skew": "symmetric" },
+        { "rank": 2, "country": "Canada", "iso3": "CAN", "score": 1.46, "confidence": 0.74, "skew": "symmetric" },
+        { "rank": 3, "country": "Mexico", "iso3": "MEX", "score": -0.73, "confidence": 0.71, "skew": "symmetric" },
+        { "rank": 4, "country": "Ukraine", "iso3": "UKR", "score": -1.69, "confidence": 0.65, "skew": "positive" },
+        { "rank": 5, "country": "China", "iso3": "CHN", "score": -3.14, "confidence": 0.65, "skew": "negative" },
+        { "rank": 6, "country": "United States", "iso3": "USA", "score": -3.85, "confidence": 0.71, "skew": "negative" }
+      ]
+    }
+  },
+  "headline_findings": [
+    "Sweden and Canada are the two clear positive destinations across all three decisions; effectively tied for the living decision once personal fit is included.",
+    "The US and China occupy the bottom two positions for living, reaching them by opposite routes: democratic erosion (US) vs authoritarian baseline (China).",
+    "Ukraine outperforms expectations on the long-horizon living decision due to positive outcome skew (a war that must end + EU accession + reconstruction upside), despite high variance.",
+    "Mexico outperforms the US on relocation because US deterioration has converged toward Mexico's institutional baseline.",
+    "Skew direction is decision-relevant: Ukraine (positive) and China (negative) can have similar central tendencies with opposite implications."
+  ],
+  "outstanding_work": [
+    "Full v2 source-discipline re-run, applying the hard exclusion rule uniformly (most urgent for China and US).",
+    "Rebuild China economic scores from independent proxies rather than CCP-sourced data.",
+    "Apply post-2022 partially-entangled discount to US official data.",
+    "Slant-balance audit on all six countries (input sets likely lean unevenly).",
+    "Consider reweighting trade/industrial capacity upward (currently under-weights China's manufacturing power).",
+    "Re-examine whether Mexico's nearshoring/demographic upside is under-scored under skew discipline.",
+    "Optionally run a strict-foundational-weighting variant per subject's stated values (likely drops China below the US)."
+  ]
+}

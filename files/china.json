@@ -1,0 +1,109 @@
+{
+  "country": "China",
+  "iso3": "CHN",
+  "methodology_version": "2.0-pre-source-audit",
+  "assessed_on": "2026-05-28",
+  "subject_profile": {
+    "summary": "Highly educated American, board-certified laboratory animal veterinarian (ACLAM), considering relocation.",
+    "profession": "Board-certified laboratory animal veterinarian (ACLAM)",
+    "citizenship": "United States",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Scores predate full v2 source-discipline re-run and REQUIRE it most urgently.",
+    "CRITICAL: CCP-sourced data should be treated as UNUSABLE, not merely discounted. Economic figures and 'stability' scoring here partially absorbed regime self-presentation; flagged for rebuild from independent proxies (satellite nightlights, electricity, port traffic, foreign-firm earnings).",
+    "High-confidence China facts are disproportionately the negatives (institutions, civil liberties, demographics - documented by non-CCP sources); alleged strengths are disproportionately low-confidence CCP-sourced. True scores likely skew more negative.",
+    "NEGATIVE-SKEW case: demographic collapse largely locked in; authoritarian trajectory intensifying; no Ukraine-style positive-skew pathway.",
+    "Trade/industrial capacity is the most UNDER-weighted factor (5%) relative to its real importance; reweighting it up would improve economic score ~1.4 points.",
+    "Under stricter foundational-factor weighting (per subject's stated values), China likely drops BELOW the US, as its rule-of-law and civil-liberties scores are worse despite better infrastructure/safety."
+  ],
+  "category_weights_by_decision": {
+    "living": { "economic": 0.15, "institutional": 0.30, "political_social": 0.25, "geopolitical": 0.05, "physical_practical": 0.10, "personal_fit": 0.15 },
+    "assets": { "economic": 0.40, "institutional": 0.25, "political_social": 0.10, "geopolitical": 0.15, "physical_practical": 0.10, "personal_fit": 0.0 },
+    "currency": { "economic": 0.60, "institutional": 0.20, "political_social": 0.05, "geopolitical": 0.15, "physical_practical": 0.0, "personal_fit": 0.0 }
+  },
+  "categories": {
+    "economic": {
+      "score": -1.9,
+      "confidence": 0.64,
+      "skew": "negative",
+      "notes": "Low confidence due to data unreliability. Massive industrial capacity (under-weighted) offset by debt, deflation, property collapse, no central-bank independence. Long-term lean more negative.",
+      "sub_factors": {
+        "fiscal_state": { "score_near": -4, "score_long": -5, "score": null, "weight": 0.25, "confidence": 0.65, "notes": "Non-financial debt ~296% GDP (Q3 2025); deficit >=4% GDP; local-govt debt from collapsed land sales; debt mostly domestic/RMB so self-restructurable." },
+        "monetary_independence": { "score": -3, "weight": 0.25, "confidence": 0.65, "notes": "PBoC is an arm of the Party-state; coordination but no institutional check; managing deflation (worse than mild inflation in debt-heavy economy)." },
+        "reserve_currency_intl_monetary": { "score_near": 2, "score_long": 3, "score": null, "weight": 0.20, "confidence": 0.60, "notes": "RMB is the rising dollar-alternative (CIPS, swap lines, trade settlement) but capital controls structurally cap true reserve status." },
+        "inflation": { "score": -3, "weight": 0.15, "confidence": 0.65, "notes": "Deflation, not inflation; persistent, indicating weak domestic demand; raises real debt burden." },
+        "banking_stability": { "score_near": -2, "score_long": -3, "score": null, "weight": 0.10, "confidence": 0.60, "notes": "State-dominated; stability through control masking property bad debt and shadow-banking risk." },
+        "trade_industrial_capacity": { "score_near": 5, "score_long": 3, "score": null, "weight": 0.05, "confidence": 0.70, "notes": "Greatest strength and most under-weighted: manufacturing dominance, high-tech export surge, EV/battery/critical-mineral control, 43% GDP capital formation. Exposed to US decoupling; diversified to Global South." }
+      }
+    },
+    "institutional": {
+      "score": -6.1,
+      "confidence": 0.72,
+      "skew": "negative",
+      "notes": "Worst institutional score of any country assessed. Scores at the bottom on exactly the factors the subject prioritizes (rule of law, freedom from arbitrary state action).",
+      "sub_factors": {
+        "rule_of_law": { "score": -7, "weight": 0.35, "confidence": 0.75, "notes": "No independent judiciary; rule BY law not rule OF law; property/contracts contingent on Party tolerance; foreigners face arbitrary action, detention, exit bans." },
+        "statistical_integrity": { "score": -7, "weight": 0.25, "confidence": 0.75, "notes": "Official statistics unusable (5% official vs 2-3% independent-estimate growth); data managed for politics; youth-unemployment stat suspended when inconvenient." },
+        "civil_service_capacity": { "score_near": 1, "score_long": -2, "score": null, "weight": 0.25, "confidence": 0.60, "notes": "High technocratic execution capacity, but increasingly politicized (loyalty over competence, anti-corruption as control, military purges)." },
+        "press_freedom": { "score": -9, "weight": 0.15, "confidence": 0.85, "notes": "Among most restrictive globally; comprehensive censorship; no independent media; journalist surveillance/detention." }
+      }
+    },
+    "political_social": {
+      "score": -4.6,
+      "confidence": 0.71,
+      "skew": "negative",
+      "notes": "Near-term authoritarian stability (suppressed instability) over catastrophic demographics and bottom-tier civil liberties. 'Stability' scoring flagged as partially absorbing regime framing. Long-term ~-5.",
+      "sub_factors": {
+        "political_stability": { "score_near": 2, "score_long": -3, "score": null, "weight": 0.30, "confidence": 0.60, "notes": "Stable near-term through control; long-term succession risk (no Xi successor, term limits removed) and authoritarian brittleness." },
+        "civil_liberties": { "score": -9, "weight": 0.20, "confidence": 0.85, "notes": "Comprehensive surveillance state, social credit, restrictions on speech/assembly/religion (Uyghur persecution), movement; no recourse against state." },
+        "treatment_non_citizens": { "score": -6, "weight": 0.25, "confidence": 0.75, "notes": "Structurally closed to immigration; PR extremely rare; no practical citizenship path; ethnonationalist turn; exit-ban risk; rising nationalism." },
+        "social_cohesion": { "score_near": 3, "score_long": -1, "score": null, "weight": 0.15, "confidence": 0.60, "notes": "Low violent crime, strong order (via surveillance); underlying tensions (ethnic, urban-rural, youth disillusion, 'lying flat', high youth unemployment)." },
+        "demographics": { "score_near": -6, "score_long": -8, "score": null, "weight": 0.10, "confidence": 0.80, "notes": "Among worst of any major economy; births -17% 2024->2025; fertility <1.0; ~60M population decline 2026-2035; 24 provinces shrinking; ethnonationalism blocks immigration remedy." }
+      }
+    },
+    "geopolitical": {
+      "score": -2.9,
+      "confidence": 0.63,
+      "skew": "negative",
+      "notes": "Few genuine allies; surrounded by wary neighbors; capital controls are a present baseline reality for asset holders, not a tail risk.",
+      "sub_factors": {
+        "alliance_reliability": { "score": -1, "weight": 0.40, "confidence": 0.60, "notes": "Few formal alliances (North Korea, Russia partner-of-convenience); transactional/dependency model (BRI); surrounded by wary or hostile neighbors." },
+        "conflict_involvement": { "score_near": -3, "score_long": -4, "score": null, "weight": 0.35, "confidence": 0.60, "notes": "Taiwan dominates; 2026 invasion assessed unlikely (Xi prioritizes regime stability); sustained coercion; long-term Taiwan/SCS/India risk; military purges cut both ways." },
+        "sanctions_capital_controls": { "score": -5, "weight": 0.25, "confidence": 0.70, "notes": "Comprehensive capital controls already in place; restricted capital exit; decoupling/secondary-sanction/Taiwan-scenario freeze risk; baseline reality not tail risk." }
+      }
+    },
+    "physical_practical": {
+      "score": 1.6,
+      "confidence": 0.66,
+      "skew": "symmetric",
+      "notes": "Genuine strengths in infrastructure and (surveillance-derived) street safety; healthcare mixed and aging-strained; the safety positive carries a civil-liberties cost counted elsewhere.",
+      "sub_factors": {
+        "climate": { "score": -2, "weight": 0.20, "confidence": 0.60, "notes": "Northern water scarcity, air pollution (improving), extreme weather, agricultural stress; major renewable/adaptation investment." },
+        "healthcare": { "score_near": 0, "score_long": -2, "score": null, "weight": 0.30, "confidence": 0.65, "notes": "Excellent urban facilities, weaker rural; universal coverage with gaps and OOP costs; severe aging strain ahead." },
+        "infrastructure": { "score": 6, "weight": 0.20, "confidence": 0.75, "notes": "Arguably world's best for new infrastructure: HSR, airports, ports, telecom, smart-city, renewables. Externally observable strength." },
+        "crime_safety": { "score": 5, "weight": 0.15, "confidence": 0.70, "notes": "Very low violent crime, strong street safety (surveillance-state artifact); real QoL positive setting aside civil-liberties cost." },
+        "disaster_insurance": { "score": 1, "weight": 0.15, "confidence": 0.60, "notes": "Quake/flood exposure; high state response capacity; developing insurance markets." }
+      }
+    },
+    "personal_fit": {
+      "score": 0.5,
+      "confidence": 0.60,
+      "skew": "negative",
+      "notes": "Large, growing biomedical/CRO sector (WuXi AppTec et al.) with real demand for lab animal expertise, BUT: limited ACLAM recognition, different regulatory frame, severe language barrier, no-path-to-belonging for foreigners, ethical/regulatory environment differences. Scored +1 near / 0 long.",
+      "sub_factors": {
+        "labanimal_vet_fit": { "score_near": 1, "score_long": 0, "score": null, "weight": 1.0, "confidence": 0.60, "notes": "Work exists at scale but fit complicated by language, regulatory difference, foreigner-status issues, exit-ban risk." }
+      }
+    }
+  },
+  "decisions": {
+    "living": { "score": -3.77, "confidence": 0.66, "horizon": "5-10y", "reading": "strong negative" },
+    "assets": { "score": -3.15, "confidence": 0.66, "horizon": "3-7y", "reading": "strong negative" },
+    "currency": { "score": -3.14, "confidence": 0.65, "horizon": "1-3y", "reading": "strong negative" }
+  },
+  "summary": "Scores poorly on exactly the factors the subject prioritizes: worst institutional score (-6.1) of any country, bottom-tier civil liberties, structurally closed to immigrants, catastrophic demographics. Real strengths (infrastructure +6, safety +5, manufacturing) are in dimensions the subject deprioritized and partly purchased via the civil-liberties failures. Barely better than the US for living (-3.77 vs -4.39), reaching that position via authoritarian baseline rather than democratic erosion. NEGATIVE skew (locked-in demographics, intensifying authoritarianism) is the inverse of Ukraine's positive skew. CCP data caveat means true scores likely worse; under strict foundational weighting China likely falls below the US."
+}

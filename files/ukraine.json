@@ -1,0 +1,108 @@
+{
+  "country": "Ukraine",
+  "iso3": "UKR",
+  "methodology_version": "2.0-pre-source-audit",
+  "assessed_on": "2026-05-28",
+  "subject_profile": {
+    "summary": "Highly educated American, board-certified laboratory animal veterinarian (ACLAM), considering relocation.",
+    "profession": "Board-certified laboratory animal veterinarian (ACLAM)",
+    "citizenship": "United States",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Scores predate full v2 source-discipline re-run.",
+    "HIGH-VARIANCE / POSITIVE-SKEW case: wide confidence intervals; outcome depends heavily on war resolution.",
+    "Living score reflects CORRECTED scoring after recognizing initial over-pessimism: reserve of asymmetric upside (EU accession, reconstruction, resources, strategic position) was initially under-weighted.",
+    "War must end on any 5-10y horizon; trajectory potentially strongly positive vs US near-certain negative drift.",
+    "Loss-asymmetry caveat: conscription/mortality/displacement tail risk is catastrophic for an individual and deserves weight beyond probability."
+  ],
+  "category_weights_by_decision": {
+    "living": { "economic": 0.15, "institutional": 0.30, "political_social": 0.25, "geopolitical": 0.05, "physical_practical": 0.10, "personal_fit": 0.15 },
+    "assets": { "economic": 0.40, "institutional": 0.25, "political_social": 0.10, "geopolitical": 0.15, "physical_practical": 0.10, "personal_fit": 0.0 },
+    "currency": { "economic": 0.60, "institutional": 0.20, "political_social": 0.05, "geopolitical": 0.15, "physical_practical": 0.0, "personal_fit": 0.0 }
+  },
+  "categories": {
+    "economic": {
+      "score": 0.0,
+      "confidence": 0.70,
+      "skew": "positive",
+      "notes": "CORRECTED from initial -1.5. Catastrophic wartime fiscal state offset by remarkably well-managed monetary/banking institutions and large asymmetric upside (resources, EU accession, reconstruction, strategic manufacturing position). Long-term lean positive.",
+      "sub_factors": {
+        "fiscal_state": { "score_near": -7, "score_long": -8, "score": null, "weight": 0.25, "confidence": 0.75, "notes": "Debt >100% GDP (was 50% in 2021); $52B 2026 financing gap, <half secured; wartime equilibrium on external financing; IMF $8.1B EFF; $588B reconstruction need." },
+        "monetary_independence": { "score": 2, "weight": 0.25, "confidence": 0.75, "notes": "NBU strong independence even in wartime; hryvnia stability managed; inflation contained; an institutional success story." },
+        "reserve_currency_intl_monetary": { "score": 0, "weight": 0.20, "confidence": 0.85, "notes": "Hryvnia not a reserve currency; neutral." },
+        "inflation": { "score_near": 1, "score_long": 0, "score": null, "weight": 0.15, "confidence": 0.60, "notes": "1.0% m/m Feb 2026; well-managed despite war; energy-strike supply pressure." },
+        "banking_stability": { "score": -1, "weight": 0.10, "confidence": 0.65, "notes": "Operational throughout war (remarkable); NBU supervision maintained; capital controls necessary but distorting." },
+        "trade_policy": { "score_near": -3, "score_long": 2, "score": null, "weight": 0.05, "confidence": 0.60, "notes": "EU accession candidate; Association Agreement integration; Black Sea exports disrupted; reconstruction is major trade opportunity." }
+      }
+    },
+    "institutional": {
+      "score": 0.2,
+      "confidence": 0.62,
+      "skew": "positive",
+      "notes": "Weak pre-war baseline but sharply positive reform trajectory under EU accession pressure. Neutrality masks divergence: could have markedly better institutions in 10y if reforms continue.",
+      "sub_factors": {
+        "rule_of_law": { "score_near": -3, "score_long": 1, "score": null, "weight": 0.35, "confidence": 0.60, "notes": "Weak baseline (corruption, oligarch influence) but EU-driven reforms: anti-corruption courts, asset recovery, judicial selection; martial law concentrates executive power." },
+        "statistical_integrity": { "score": 1, "weight": 0.25, "confidence": 0.60, "notes": "State Statistics Service operational and credible; IMF/WB rely on it; some war disruption in occupied areas." },
+        "civil_service_capacity": { "score_near": -2, "score_long": 2, "score": null, "weight": 0.25, "confidence": 0.60, "notes": "Reform-oriented with Western advisors; EU-driven modernization; brain drain and mobilization reduce capacity near-term." },
+        "press_freedom": { "score": 2, "weight": 0.15, "confidence": 0.65, "notes": "Far stronger than Russia/pre-2014; diverse media; wartime restrictions (unified telethon) within legitimate-exception frame." }
+      }
+    },
+    "political_social": {
+      "score": -2.7,
+      "confidence": 0.66,
+      "skew": "positive",
+      "notes": "Dominated by active warfare near-term; normalizes substantially post-war. Long-term composite ~-1.",
+      "sub_factors": {
+        "political_stability": { "score_near": -4, "score_long": -1, "score": null, "weight": 0.30, "confidence": 0.60, "notes": "Wartime governance; elections suspended (constitutional under martial law); uncertain post-war transition." },
+        "civil_liberties": { "score_near": -4, "score_long": 0, "score": null, "weight": 0.20, "confidence": 0.65, "notes": "Martial-law restrictions; conscription affects males 18-60 with exit limits; war-justified surveillance/censorship." },
+        "treatment_non_citizens": { "score_near": -2, "score_long": 3, "score": null, "weight": 0.25, "confidence": 0.55, "notes": "Actively welcomes foreign skilled workers, esp. reconstruction-relevant; nominally welcoming but country at war." },
+        "social_violence": { "score_near": -9, "score_long": -3, "score": null, "weight": 0.15, "confidence": 0.80, "notes": "Active warfare; 217 energy-system attacks since Jan 2026; civilian casualties; mandatory evacuations; elevated mortality risk." },
+        "demographics": { "score_near": -7, "score_long": -5, "score": null, "weight": 0.10, "confidence": 0.70, "notes": "6-8M refugees abroad; hundreds of thousands of casualties; population maybe 41M -> 28-32M effective; uncertain refugee return." }
+      }
+    },
+    "geopolitical": {
+      "score": -3.7,
+      "confidence": 0.73,
+      "skew": "positive",
+      "notes": "Highest conflict exposure in the set near-term; post-war could be a NATO-aligned, EU-integrated, security-guaranteed state. Long-term lean positive.",
+      "sub_factors": {
+        "alliance_reliability": { "score_near": -3, "score_long": 0, "score": null, "weight": 0.40, "confidence": 0.70, "notes": "Strong EU/UK/Canada/Nordic support; unreliable US support under current admin; EU accession proceeding; cannot self-defend without external support." },
+        "conflict_involvement": { "score_near": -10, "score_long": -5, "score": null, "weight": 0.35, "confidence": 0.75, "notes": "Active war; max conflict exposure; long-term depends entirely on resolution (frozen / negotiated / unfavorable)." },
+        "sanctions_capital_controls": { "score_near": -3, "score_long": 0, "score": null, "weight": 0.25, "confidence": 0.75, "notes": "Martial-law capital controls; conversion/remittance restrictions; lifted post-war." }
+      }
+    },
+    "physical_practical": {
+      "score": -2.9,
+      "confidence": 0.69,
+      "skew": "positive",
+      "notes": "Severe war damage near-term; reconstruction with EU funding could yield modern infrastructure long-term (post-WWII Germany analogy). Long-term lean positive.",
+      "sub_factors": {
+        "climate": { "score": 1, "weight": 0.20, "confidence": 0.60, "notes": "Moderate; strong agricultural potential; war environmental damage recoverable." },
+        "healthcare": { "score_near": -5, "score_long": -2, "score": null, "weight": 0.30, "confidence": 0.70, "notes": "War-stressed; facilities damaged; medical brain drain; Western-supported critical functions." },
+        "infrastructure": { "score_near": -7, "score_long": -3, "score": null, "weight": 0.20, "confidence": 0.75, "notes": "Catastrophic strike damage, esp. energy (severe blackouts winter 2025-26); $588B reconstruction need; long-term rebuild upside." },
+        "crime_safety": { "score": -2, "weight": 0.15, "confidence": 0.60, "notes": "Conventional crime relatively low; war violence is the dominant safety factor (in social_violence)." },
+        "disaster_insurance": { "score_near": -6, "score_long": -3, "score": null, "weight": 0.15, "confidence": 0.70, "notes": "War damage uninsurable; property insurance non-functional in affected areas; low quake risk." }
+      }
+    },
+    "personal_fit": {
+      "score": 1,
+      "confidence": 0.70,
+      "skew": "positive",
+      "notes": "Limited lab animal medicine infrastructure, much damaged/relocated; ACLAM value currently very low. Post-war EU-funded biomedical investment could create future opportunity (speculative). Scored -3 near / +1 long.",
+      "sub_factors": {
+        "labanimal_vet_fit": { "score_near": -3, "score_long": 1, "score": null, "weight": 1.0, "confidence": 0.70, "notes": "Currently non-existent specialty market; NGO/aid/volunteer contexts only; speculative reconstruction upside." }
+      }
+    }
+  },
+  "decisions": {
+    "living": { "score": 0.12, "confidence": 0.68, "horizon": "5-10y", "reading": "mixed (high variance, positive skew)" },
+    "assets": { "score": -1.74, "confidence": 0.67, "horizon": "3-7y", "reading": "mixed-negative (high-risk/high-return)" },
+    "currency": { "score": -1.69, "confidence": 0.65, "horizon": "1-3y", "reading": "mixed-negative (limited downside outside losing the war)" }
+  },
+  "summary": "The framework's most instructive case. High variance but POSITIVE skew: a war that must end, EU accession path, reconstruction upside, rich natural resources, strategic manufacturing/logistics position. Initial scoring was too pessimistic; corrected living score (+0.12) places Ukraine above Mexico and far above the US for the long horizon. Lesson: high uncertainty with positive skew differs fundamentally from low uncertainty with negative drift (the US). Not a realistic destination for the subject's profession now, but the trajectory comparison is the key finding. Assets are genuine high-risk/high-return; hryvnia has limited further downside short of losing the war."
+}
