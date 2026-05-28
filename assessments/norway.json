@@ -1,0 +1,252 @@
+{
+  "country": "Norway",
+  "iso3": "NOR",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF, OECD, WJP, RSF, TI) + Norwegian official (SSB, Norges Bank, NBIM, UDI) + Norwegian/Nordic press.",
+    "Anti-paradox-of-plenty: major oil/gas wealth is saved and managed prudently via the world's largest sovereign wealth fund - NOT a resource curse.",
+    "The long Russia border / High North is a real geopolitical tail; source-lean low on the load-bearing numbers (Norwegian primaries)."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 5.7,
+      "confidence": 0.87,
+      "skew": "positive",
+      "notes": "Extraordinary fiscal strength via the sovereign wealth fund, prudently managed resource wealth, and a credible central bank.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 9,
+          "weight": 0.22,
+          "confidence": 0.92,
+          "notes": "The sovereign wealth fund (~$2T+, the world's largest), continued petroleum surpluses, effectively no net government debt, and a disciplining fiscal rule. (NBIM; regjeringen.no)"
+        },
+        "monetary_independence": {
+          "score": 8,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "A fully independent, credible Norges Bank with an own floating krone. (Norges Bank)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.85,
+          "notes": "The krone is not a reserve currency and is small/volatile (a recurring imported-inflation driver). (Norges Bank; IMF)"
+        },
+        "inflation": {
+          "score_near": 1,
+          "score_long": 4,
+          "score": null,
+          "weight": 0.13,
+          "confidence": 0.8,
+          "notes": "~3.4% (above the 2% target), with Norges Bank tightening to converge medium-term. (SSB; Norges Bank)"
+        },
+        "banking_stability": {
+          "score": 5,
+          "weight": 0.1,
+          "confidence": 0.82,
+          "notes": "A robust, highly profitable system well above capital/liquidity rules; high household debt and commercial-real-estate exposure the watch-items. (Norges Bank FSR 2026)"
+        },
+        "trade_actions_capacity": {
+          "score": 7,
+          "weight": 0.17,
+          "confidence": 0.85,
+          "notes": "Diversified resource strength (oil/gas, record seafood, shipping); Europe's #1 gas supplier post-Russia, with stable, predictable policy. (Norwegianpetroleum.no; SSB)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 8.4,
+      "confidence": 0.89,
+      "skew": "symmetric",
+      "notes": "Among the world's strongest and most stable institutions; the world's freest press.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 8,
+          "weight": 0.35,
+          "confidence": 0.9,
+          "notes": "WJP Rule of Law #2/143; an independent judiciary. (WJP 2025)"
+        },
+        "statistical_integrity": {
+          "score": 9,
+          "weight": 0.25,
+          "confidence": 0.92,
+          "notes": "SSB is independent, Eurostat-compliant, world-class. (SSB)"
+        },
+        "civil_service_capacity": {
+          "score": 8,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "A highly capable, well-resourced, digitally advanced administration. (OECD)"
+        },
+        "press_freedom": {
+          "score": 9,
+          "weight": 0.15,
+          "confidence": 0.9,
+          "notes": "RSF #1 for ten consecutive years. (RSF 2026)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 5.8,
+      "confidence": 0.82,
+      "skew": "symmetric",
+      "notes": "Very stable consensus democracy with very high trust; the fund pre-funds future fiscal/pension pressure.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 6,
+          "weight": 0.3,
+          "confidence": 0.82,
+          "notes": "A stable consensus democracy; the 2025 election returned a Labour-led red-green bloc, with coalition management the only modest drag. (Storting)"
+        },
+        "civil_liberties": {
+          "score": 8,
+          "weight": 0.2,
+          "confidence": 0.88,
+          "notes": "Very strong protections across speech, assembly, and privacy. (WJP; RSF)"
+        },
+        "treatment_non_citizens": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.78,
+          "notes": "EEA free movement (not EU); a lawful, selective route for non-EU (quota, salary floor, PR at 3y); dual citizenship since 2020. (UDI)"
+        },
+        "social_cohesion": {
+          "score": 8,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "Very high interpersonal and institutional trust, low inequality. (OECD; SSB)"
+        },
+        "demographics": {
+          "score_near": 1,
+          "score_long": -2,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "Ageing, but immigration-fed labour supply and the fund pre-fund future fiscal/pension pressure. (SSB)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 2.7,
+      "confidence": 0.81,
+      "skew": "negative",
+      "notes": "A strong NATO founding member with a real Russia-border/High North tail.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 7,
+          "weight": 0.4,
+          "confidence": 0.85,
+          "notes": "A NATO founding member rearming toward 3.5%; EEA (not EU) the only caveat. (NATO)"
+        },
+        "conflict_involvement": {
+          "score_near": -3,
+          "score_long": -2,
+          "score": null,
+          "weight": 0.35,
+          "confidence": 0.75,
+          "notes": "A ~198 km Russia border and NATO's High North front line, with Russian gray-zone activity (GPS jamming, suspected subsea sabotage); a real tail, no direct conflict. (NATO; Defense News)"
+        },
+        "sanctions_capital_controls": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.82,
+          "notes": "EU-aligned sanctions, a fully open capital account. (regjeringen.no)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 6.3,
+      "confidence": 0.81,
+      "skew": "symmetric",
+      "notes": "Excellent healthcare, infrastructure, and safety, with near-universal catastrophe insurance and relatively favorable climate.",
+      "sub_factors": {
+        "climate": {
+          "score_near": 1,
+          "score_long": 1,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "A relative beneficiary (cold, hydro-rich), with localized flood/landslide risk. (OWID)"
+        },
+        "healthcare": {
+          "score": 7,
+          "weight": 0.3,
+          "confidence": 0.85,
+          "notes": "Universal, with strong access/outcomes and high long-term-care capacity. (OECD)"
+        },
+        "infrastructure": {
+          "score": 8,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Excellent, well-funded transport/energy/digital. (OECD)"
+        },
+        "crime_safety": {
+          "score": 8,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "Among the world's safest; homicide ~0.6/100k. (SSB)"
+        },
+        "disaster_insurance": {
+          "score": 7,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "A mandatory natural-perils pool bundled with fire insurance gives near-universal catastrophe coverage. (Finance Norway)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 6.65,
+      "confidence": 0.85,
+      "horizon": "5-10y",
+      "reading": "clear positive"
+    },
+    "assets": {
+      "score": 6.13,
+      "confidence": 0.85,
+      "horizon": "3-7y",
+      "reading": "clear positive"
+    },
+    "currency": {
+      "score": 5.84,
+      "confidence": 0.86,
+      "horizon": "1-3y",
+      "reading": "clear positive"
+    }
+  },
+  "summary": "Extraordinary fiscal strength (the world's largest sovereign wealth fund, no net debt) with prudently managed resource wealth - the anti-resource-curse - alongside top-tier institutions, the world's freest press, very high social trust, and excellent healthcare, infrastructure, and safety. The main drag is a real Russia-border/High North geopolitical tail; the krone is small and volatile, and inflation runs a bit above target."
+}

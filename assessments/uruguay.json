@@ -1,0 +1,254 @@
+{
+  "country": "Uruguay",
+  "iso3": "URY",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: triangulated across multilateral bodies (IMF Article IV 2025, World Justice Project, RSF, Transparency International, V-Dem, EIU, FATF) + Uruguay official (BCU, INE, Ministry of Interior, Uruguay XXI) + regional press (MercoPress, InSight Crime).",
+    "A regional leader on rule of law, press freedom, and democratic stability; the standout drags are rising narco-transit violence and steep long-term ageing.",
+    "Source-lean: moderate Anglophone; Spanish-language Uruguayan press was not read directly, so crime/press nuance carries some English-framing risk."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 3,
+      "confidence": 0.86,
+      "skew": "positive",
+      "notes": "Credible macro management (a binding fiscal rule, an independent inflation-targeting central bank) and diversified agri-commodity exports.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": 3,
+          "score_long": 3,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Moderate net debt (~58% GDP) under a binding fiscal rule with an expanded Fiscal Council; investment-grade; a drifting deficit the watch-item. (IMF 2025 Art IV)"
+        },
+        "monetary_independence": {
+          "score": 4,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "The BCU is a credible inflation-targeter, letting the exchange rate absorb shocks. (BCU, IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The peso is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 4,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "A genuine success: ~3.65% at end-2025, slightly below the target band, with anchored expectations. (BCU, INE)"
+        },
+        "banking_stability": {
+          "score": 3,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "Well-capitalised, highly liquid, low NPLs; heavy deposit/loan dollarization is a structural FX feature mitigated by low leverage and ample reserves. (IMF; S&P)"
+        },
+        "trade_actions_capacity": {
+          "score": 4,
+          "weight": 0.17,
+          "confidence": 0.85,
+          "notes": "Record diversified agri-commodity exports (beef, world-leading eucalyptus pulp, soy, dairy) to China and the EU, with the EU-Mercosur deal provisionally applying from 2026 as upside; commodity/China-concentration exposure, but diversified institutions and no resource curse. (Uruguay XXI; EU Council)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 4.6,
+      "confidence": 0.84,
+      "skew": "positive",
+      "notes": "A regional leader on rule of law, low corruption, independent statistics, and press freedom.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 5,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "Strong by any standard - an independent judiciary and electoral courts, low corruption (a regional leader on Transparency International's index), resilient to populism. (WJP 2025; TI 2025)"
+        },
+        "statistical_integrity": {
+          "score": 5,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "INE and the BCU produce credible, transparent, independently cited data. (IMF, BCU)"
+        },
+        "civil_service_capacity": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "A professional, meritocratic, low-corruption bureaucracy with strong electoral, health, and statistical administration. (WJP)"
+        },
+        "press_freedom": {
+          "score": 4,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "Consistently high (RSF ~#27, 2025); mild nuance from prior-government journalist surveillance and a 2024 broadcast-law change. (RSF 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 3.9,
+      "confidence": 0.84,
+      "skew": "negative",
+      "notes": "An exemplary democracy with an open, welcoming residency regime; the drag is rising narco-transit violence and long-term ageing.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 5,
+          "weight": 0.3,
+          "confidence": 0.85,
+          "notes": "An exemplary democracy; the Nov 2024 election produced an orderly, peaceful transfer of power in March 2025, with moderate continuity governance. (EIU; MercoPress)"
+        },
+        "civil_liberties": {
+          "score": 5,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Very strong; rated 'Free,' with functioning courts and progressive social legislation. (Freedom House; V-Dem)"
+        },
+        "treatment_non_citizens": {
+          "score": 5,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "An open, lawful, durable residency pathway (income/rentista-based), direct permanent residency, and a relatively fast route to citizenship with dual nationality allowed; tighter anti-money-laundering checks the main friction. (DNM)"
+        },
+        "social_cohesion": {
+          "score_near": 0,
+          "score_long": 1,
+          "score": null,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "High social trust, low polarization, and a strong welfare state, offset near-term by rising cocaine-transit violence (homicides ~10.5/100k, with a Montevideo port transshipment problem). (Ministry of Interior; InSight Crime)"
+        },
+        "demographics": {
+          "score_near": 1,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.85,
+          "notes": "An ageing population (among the oldest in the region) with low fertility, a population peak around 2020, and persistent youth emigration - a real long-term drag. (PRB; UN)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 5.4,
+      "confidence": 0.86,
+      "skew": "positive",
+      "notes": "Pragmatic, non-aligned, and conflict-free, with an open capital account.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 5,
+          "weight": 0.4,
+          "confidence": 0.85,
+          "notes": "A founding Mercosur member, pragmatic and non-aligned, with stable ties and no coercive dependencies. (IMF; EU/Mercosur)"
+        },
+        "conflict_involvement": {
+          "score": 6,
+          "weight": 0.35,
+          "confidence": 0.9,
+          "notes": "No external conflicts or territorial disputes; a long peaceful posture. (Freedom House)"
+        },
+        "sanctions_capital_controls": {
+          "score": 5,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "An open capital account, no exchange controls, not sanctioned; anti-money-laundering effectiveness gaps are being addressed. (IMF; FATF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 2,
+      "confidence": 0.81,
+      "skew": "negative",
+      "notes": "Low catastrophe exposure and strong universal healthcare, against drought-driven water risk and elevated (if moderate) crime.",
+      "sub_factors": {
+        "climate": {
+          "score_near": 0,
+          "score_long": -1,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "A 2022-23 megadrought caused a months-long Montevideo water crisis; agriculture is rainfall-exposed; otherwise temperate with low catastrophe exposure. (NASA EO)"
+        },
+        "healthcare": {
+          "score": 4,
+          "weight": 0.3,
+          "confidence": 0.85,
+          "notes": "A universal SNIS/FONASA system with good doctor density and outcomes; minor strains. (PAHO)"
+        },
+        "infrastructure": {
+          "score": 3,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Good by regional standards - a modern deep-sea port terminal, a rebuilt central railway, sound telecom and electrification. (UPM; MercoPress)"
+        },
+        "crime_safety": {
+          "score_near": -1,
+          "score_long": -1,
+          "score": null,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "Homicides ~10.5/100k concentrated in narco-corridors, with robberies/thefts falling in 2025; moderate overall but elevated versus historic norms. (Ministry of Interior; InSight Crime)"
+        },
+        "disaster_insurance": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "A low catastrophe tail (no hurricanes or earthquakes); drought and localized flooding the main risks. (hazard context)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 3.69,
+      "confidence": 0.84,
+      "horizon": "5-10y",
+      "reading": "clear positive"
+    },
+    "assets": {
+      "score": 3.72,
+      "confidence": 0.85,
+      "horizon": "3-7y",
+      "reading": "clear positive"
+    },
+    "currency": {
+      "score": 3.7,
+      "confidence": 0.85,
+      "horizon": "1-3y",
+      "reading": "clear positive"
+    }
+  },
+  "summary": "A regional leader on rule of law, low corruption, press freedom, and democratic stability, with credible macro management (a binding fiscal rule, inflation brought within target by an independent central bank), diversified agri-commodity exports, an open and welcoming residency regime, and strong universal healthcare. The drags are rising cocaine-transit violence (elevated homicides), a steep long-term demographic decline (an ageing population and youth emigration), and a recent drought-driven water crisis."
+}

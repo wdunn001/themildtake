@@ -1,0 +1,248 @@
+{
+  "country": "Philippines",
+  "iso3": "PHL",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF, World Bank, OECD, ADB, WorldRiskIndex, RSF, CSIS-AMTI) + Philippine official (BSP, PSA) + independent press (Rappler, Inquirer, BusinessWorld).",
+    "Source-lean: HIGH Anglophone (English is an official working language); offset by genuinely independent local outlets (note Rappler/Ressa persecution history).",
+    "A genuine demographic dividend offsets governance and extreme climate-disaster exposure; the South China Sea is an acute geopolitical tail."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 0.1,
+      "confidence": 0.74,
+      "skew": "positive",
+      "notes": "Fast regional growth on services/remittances/electronics and a credible central bank, against deteriorating fiscal space.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -2,
+          "weight": 0.22,
+          "confidence": 0.7,
+          "notes": "Debt rising to ~60% GDP with a ~5.3% deficit; the IMF flags 'vanishing fiscal space,' worsened by a flood-control corruption scandal. (IMF 2025 Art IV)"
+        },
+        "monetary_independence": {
+          "score": 3,
+          "weight": 0.22,
+          "confidence": 0.78,
+          "notes": "Bangko Sentral is a credible inflation-targeter with real autonomy, moving data-driven on shocks. (BSP MPR 2026)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.85,
+          "notes": "The peso is not a reserve currency; neutral. (BSP)"
+        },
+        "inflation": {
+          "score_near": -2,
+          "score_long": 0,
+          "score": null,
+          "weight": 0.13,
+          "confidence": 0.65,
+          "notes": "Was low (~1.7%) but a Middle East oil shock pushed it above band (~4%+), expected to re-anchor long-term. (BSP)"
+        },
+        "banking_stability": {
+          "score": 2,
+          "weight": 0.1,
+          "confidence": 0.72,
+          "notes": "Sound and remittance-supported (CAR ~16%); the BSP flags credit-concentration and cyber risk. (BSP; OECD 2026)"
+        },
+        "trade_actions_capacity": {
+          "score_near": -1,
+          "score_long": 2,
+          "score": null,
+          "weight": 0.17,
+          "confidence": 0.72,
+          "notes": "Business-process outsourcing (~8% GDP), record remittances, and electronics; no resource curse. Near-term drag from a 19% US tariff and the AI threat to BPO. (BSP; OECD)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -3.7,
+      "confidence": 0.73,
+      "skew": "negative",
+      "notes": "Weak rule of law and patronage-driven administration, with usable statistics and a press improved but still pressured.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -5,
+          "weight": 0.35,
+          "confidence": 0.78,
+          "notes": "A massive flood-control corruption scandal reaching the palace; weak courts, dynastic capture, and impunity. (Al Jazeera; Bloomberg)"
+        },
+        "statistical_integrity": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "PSA/BSP data is credible and usable, with minor caveats. (IMF SDDS)"
+        },
+        "civil_service_capacity": {
+          "score": -4,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Patronage-driven, with 1,800+ unfinished health facilities and procurement rot exposed by the flood scandal. (Inquirer)"
+        },
+        "press_freedom": {
+          "score": -4,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "Friendlier than the prior administration (RSF 114/180, up from 134) but still 'very serious': red-tagging persists and the Ressa cases linger. (RSF)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -0.4,
+      "confidence": 0.71,
+      "skew": "negative",
+      "notes": "Acute dynastic political conflict and a weak-rights legacy, against an open residency route and a genuine demographic dividend.",
+      "sub_factors": {
+        "political_stability": {
+          "score": -3,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "An acute Marcos-Duterte feud, a second VP impeachment heading to a Senate trial, and the largest protests since 2013. (TIME; SCMP)"
+        },
+        "civil_liberties": {
+          "score": -3,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "An extrajudicial-killing legacy (the drug war, now at the ICC), improving under the current administration but with weak enforcement. (Al Jazeera)"
+        },
+        "treatment_non_citizens": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.78,
+          "notes": "The SRRV retiree visa was restructured in 2025 (age lowered, streamlined, indefinite stay), favorable to US citizens; English widely spoken. Open, lawful, durable. (PRA)"
+        },
+        "social_cohesion": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "A Mindanao insurgency legacy and many private armed groups, but the BARMM peace process is advancing; fragile. (ICG)"
+        },
+        "demographics": {
+          "score": 4,
+          "weight": 0.1,
+          "confidence": 0.78,
+          "notes": "A young population and a genuine demographic dividend - a real structural positive. (World Bank/OECD)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -0.2,
+      "confidence": 0.74,
+      "skew": "negative",
+      "notes": "A deepening US alliance with an acute, ongoing South China Sea flashpoint.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 3,
+          "weight": 0.4,
+          "confidence": 0.72,
+          "notes": "A US treaty ally (MDT/EDCA), deepening materially. (CSIS)"
+        },
+        "conflict_involvement": {
+          "score": -5,
+          "weight": 0.35,
+          "confidence": 0.78,
+          "notes": "Acute, ongoing South China Sea clashes with China (water-cannon/ramming at Scarborough and Second Thomas Shoal) - a live flashpoint. (CSIS-AMTI)"
+        },
+        "sanctions_capital_controls": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Open-ish, no sanctions, relatively free capital flows. (OECD)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -3.4,
+      "confidence": 0.74,
+      "skew": "negative",
+      "notes": "Among the most disaster-exposed countries on earth, with uneven healthcare and infrastructure.",
+      "sub_factors": {
+        "climate": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Ranked the world's most disaster-exposed for 15 straight years; sea level rising ~2x the global rate; back-to-back deadly 2025 typhoons. (WorldRiskIndex 2025)"
+        },
+        "healthcare": {
+          "score": -2,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "Out-of-pocket spending ~45%; PhilHealth strained and uneven, though a medical-tourism tier exists. (World Bank)"
+        },
+        "infrastructure": {
+          "score": -2,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Improving ('Build Better More') but congested and weak, with flood-control corruption undermining delivery. (OECD; CNN)"
+        },
+        "crime_safety": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Moderate, with strong regional variation. (regional reporting)"
+        },
+        "disaster_insurance": {
+          "score": -4,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "A ~98% catastrophe protection gap against extreme exposure; very low penetration. (ADB)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -1.83,
+      "confidence": 0.73,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": -1.16,
+      "confidence": 0.73,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -0.74,
+      "confidence": 0.74,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "Fast regional growth on services, remittances, and electronics, a credible central bank, a genuine demographic dividend, and an open, English-friendly retiree-residency route. The drags are weak rule of law (a palace-level corruption scandal), acute dynastic political conflict, an extrajudicial-killing legacy, deteriorating fiscal space, and among the world's most extreme climate-disaster exposure. The South China Sea is an acute geopolitical flashpoint."
+}

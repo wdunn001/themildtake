@@ -20,7 +20,7 @@ Structured, reusable assessment data generated under the [Country Risk Assessmen
 - **Scores** range `-10` to `+10`. **Confidence** ranges `0` to `1`. **Weights** within a category sum to `1.0`.
 - **Time-sensitive sub-factors** use `score_near` (1-3y) and `score_long` (5-10y) with `score: null`. Single-horizon factors use `score` with the two horizon fields null.
 - **`skew`** records the shape of the outcome distribution (`positive` / `negative` / `symmetric` / `unknown`), which the expected-value math does not capture and which is decision-relevant.
-- **`flags`** records outstanding caveats. Every current file carries `methodology_version: "2.0-pre-source-audit"` because these scores were generated before the full v2 source-discipline re-run.
+- **`flags`** records caveats and provenance. Every current file carries `methodology_version: "2.0"`: the full v2 source-discipline re-run has been applied, plus two live-data passes (the second bias-corrected through non-Anglophone independent sources). Each file's `flags` array records what the re-run and passes changed.
 
 ## The three decisions
 
@@ -30,14 +30,15 @@ Each country is scored for three decisions, which use different category weights
 - **assets** (3-7y horizon) — weights economic and institutional factors most heavily.
 - **currency** (1-3y horizon) — weights economic factors most heavily; uses near-term scores.
 
-## Important caveat on these specific scores
+## Provenance of these scores
 
-These objects capture the scores exactly as generated in analysis, **including** the corrections made mid-process (US reserve-currency two-horizon fix; Ukraine re-scoring after recognizing under-weighted positive skew). They **predate** the full v2 source-discipline re-run, which is the highest-priority outstanding work. In particular:
+These objects reflect the **completed** v2.0 source-discipline re-run and two live-data passes (2026-05-28). In particular:
 
-- **China**: CCP-sourced data was partially absorbed and must be rebuilt from independent proxies; true scores likely skew more negative.
-- **United States**: post-2022 official data should be treated as partially-entangled (documented statistical-agency interference); confidence here may be slightly high.
+- **China**: CCP-sourced data is excluded under the hard exclusion rule and rebuilt from independent proxies (partner customs, freight, BIS/IIF debt, independent demographers); manufacturing capacity is credited via partner-observable data.
+- **United States**: post-2022 official data is discounted as partially-entangled (documented statistical-agency interference); confidence on official-data-dependent factors is lowered.
+- **All six**: trade re-weighted and scored on actions/trajectory/capacity/resource-curse; slant-balance audit run; a second pass re-validated each country through non-Anglophone independent + multilateral sources, which **largely confirmed** the scores.
 
-See each file's `flags` array and `_comparison-index.json`'s `outstanding_work` for the full list.
+See each file's `flags` array for the per-country specifics and `_comparison-index.json`'s `outstanding_work` for what remains (ongoing monitoring).
 
 ## Reuse
 

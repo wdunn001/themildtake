@@ -1,0 +1,262 @@
+{
+  "country": "Ireland",
+  "iso3": "IRL",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: triangulated across multilateral bodies (IMF Article IV, OECD, World Justice Project, RSF, Transparency International) + Irish official stats (CSO, Central Bank, Fiscal Council) + Irish press (Irish Times, RTE, The Journal).",
+    "Economic reality is read via GNI* (modified gross national income), not GDP, which multinational/IP accounting massively distorts; corporate-tax receipts are dangerously concentrated in a few US multinationals - a real fiscal vulnerability.",
+    "Caveat: Ireland is itself Anglophone, so the 'language of the place' offers no outside-language check; EU/Eurostat/ECB were the available non-Anglophone cross-checks."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 2.7,
+      "confidence": 0.8,
+      "skew": "negative",
+      "notes": "Strong headline numbers built on a concentrated, externally exposed multinational base; best read via GNI*.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": 5,
+          "score_long": 2,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Headline surpluses (2025 ~3.3% of GNI*) funded by highly concentrated multinational corporate tax; excluding that windfall the underlying balance is a deficit; two sovereign savings funds are being seeded. Read via GNI*, not GDP. (IMF 2026 Art IV; Irish Fiscal Advisory Council)"
+        },
+        "monetary_independence": {
+          "score": 5,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Eurozone - the ECB is credible and independent; no national monetary control. (ECB)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 2,
+          "weight": 0.16,
+          "confidence": 0.85,
+          "notes": "Eurozone member; the euro is the #2 global reserve currency, a modest shared benefit. (IMF COFER)"
+        },
+        "inflation": {
+          "score_near": 0,
+          "score_long": 2,
+          "score": null,
+          "weight": 0.13,
+          "confidence": 0.75,
+          "notes": "HICP ~3.6% (Apr 2026), near the euro-area top on energy; projected back toward 2% by ~2028. (CSO, Central Bank of Ireland)"
+        },
+        "banking_stability": {
+          "score": 3,
+          "weight": 0.1,
+          "confidence": 0.72,
+          "notes": "Rebuilt post-2008; a concentrated three-pillar system (AIB/BoI/PTSB) with sound liquidity; leveraged finance and commercial real estate the watch-items. (IMF; Central Bank of Ireland)"
+        },
+        "trade_actions_capacity": {
+          "score_near": -2,
+          "score_long": -1,
+          "score": null,
+          "weight": 0.17,
+          "confidence": 0.7,
+          "notes": "A pharma/tech export hub acutely exposed to US tariff and tax-reform risk (2026 Section 232 pharma tariffs; OECD Pillar Two); a handful of US multinationals drive exports and corporate-tax receipts - a real concentration vulnerability. No resource curse. (Irish Times; Fiscal Council)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 5.5,
+      "confidence": 0.79,
+      "skew": "symmetric",
+      "notes": "An excellent common-law baseline and pioneering statistics, with mild press-ownership and political-finance watch-items.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 6,
+          "weight": 0.35,
+          "confidence": 0.82,
+          "notes": "WJP #8/143; a strong common-law system; mild civil-justice weakening noted. (WJP 2025)"
+        },
+        "statistical_integrity": {
+          "score": 7,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "The CSO is independent and high-quality; it pioneered GNI* to correct the GDP distortion. (CSO, Eurostat)"
+        },
+        "civil_service_capacity": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.72,
+          "notes": "Capable, but with housing/infrastructure delivery and health-service execution gaps; Transparency International flags political-finance 'dark money'. (TI Ireland 2025; OECD)"
+        },
+        "press_freedom": {
+          "score": 4,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "RSF ~#15 (2025, 'good'), but highly concentrated media ownership, an RTE funding crisis, and a 2025 defamation reform critics call weak on anti-SLAPP. (RSF; Index on Censorship)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 3.4,
+      "confidence": 0.79,
+      "skew": "negative",
+      "notes": "A stable governing core and a standout citizenship-by-descent route, against rising migration-driven social strain.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": 5,
+          "score_long": 4,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "FF-FG coalition continuity after the Nov 2024 election; an orderly Oct 2025 presidential election; peaceful, predictable governance. (RTE, Irish Times)"
+        },
+        "civil_liberties": {
+          "score": 5,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Strong common-law protections; robust expression and assembly. (WJP, Amnesty)"
+        },
+        "treatment_non_citizens": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.82,
+          "notes": "A standout lawful, durable, English-speaking route via citizenship by descent (an Ireland-born grandparent on the Foreign Births Register confers full citizenship); general immigration is harder (Critical Skills permit, Stamp 0). (Department of Foreign Affairs; Citizens Information)"
+        },
+        "social_cohesion": {
+          "score_near": -3,
+          "score_long": -2,
+          "score": null,
+          "weight": 0.15,
+          "confidence": 0.72,
+          "notes": "A 2023 Dublin riot, 2025 anti-asylum-centre unrest, and 2026 protests with far-right involvement; but surveys find the far-right view is not the majority and attitudes trend inclusive. (RTE; Al Jazeera)"
+        },
+        "demographics": {
+          "score_near": 2,
+          "score_long": 0,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.75,
+          "notes": "Younger than EU peers (median ~39) and still growing; the acute housing shortage is the structural drag. (Eurostat, CSO)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 1,
+      "confidence": 0.77,
+      "skew": "negative",
+      "notes": "A committed EU member but militarily neutral with thin defence capacity.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 2,
+          "weight": 0.4,
+          "confidence": 0.78,
+          "notes": "A committed EU member (holding the EU Council presidency in H2 2026) but militarily neutral and non-NATO, with thin defence capacity off a very low base. (European Commission; Budget 2026)"
+        },
+        "conflict_involvement": {
+          "score": -1,
+          "weight": 0.35,
+          "confidence": 0.75,
+          "notes": "No direct conflict, but tail exposure via undersea cables (much transatlantic data passes near Irish waters) and Russian activity, with very limited naval patrol capacity. (Atlantic Council)"
+        },
+        "sanctions_capital_controls": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "EU sanctions regime; free capital mobility, no domestic controls. (EU)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -0.4,
+      "confidence": 0.75,
+      "skew": "negative",
+      "notes": "A mild climate and low violent crime, against an acute housing/health/infrastructure strain.",
+      "sub_factors": {
+        "climate": {
+          "score_near": 1,
+          "score_long": -1,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.72,
+          "notes": "Temperate, with low extreme-heat/wildfire exposure but rising flood risk (wetter winters, sea-level, storms). (EPA Climate Ireland)"
+        },
+        "healthcare": {
+          "score_near": -1,
+          "score_long": 0,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "The HSE is universal-ish but two-tier and costly, with record waiting lists breaching reform targets. (HSE; IHCA)"
+        },
+        "infrastructure": {
+          "score_near": -3,
+          "score_long": -2,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "The housing crisis is the dominant negative (completions rising but far below need); the grid is strained by data-centre demand. (CSO, ESRI, CRU)"
+        },
+        "crime_safety": {
+          "score": 4,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "Low violent crime and homicide. (CSO)"
+        },
+        "disaster_insurance": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.78,
+          "notes": "A material flood-cover gap (~1 in 20 buildings with limited or no flood insurance), projected to widen. (Central Bank of Ireland)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 3.22,
+      "confidence": 0.78,
+      "horizon": "5-10y",
+      "reading": "clear positive"
+    },
+    "assets": {
+      "score": 2.83,
+      "confidence": 0.79,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 3.02,
+      "confidence": 0.79,
+      "horizon": "1-3y",
+      "reading": "clear positive"
+    }
+  },
+  "summary": "Strong common-law institutions, a young (by European standards) and growing population, and a standout English-speaking citizenship-by-descent route, with headline budget surpluses. But the fiscal and export strength rests on a dangerously concentrated multinational corporate-tax base (best read via GNI*, not GDP) exposed to US tariff and tax-reform risk; an acute housing shortage is the dominant domestic drag; and the country is militarily neutral with thin defence capacity."
+}

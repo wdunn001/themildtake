@@ -1,0 +1,254 @@
+{
+  "country": "Italy",
+  "iso3": "ITA",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: triangulated across multilateral bodies (IMF 2026 Article IV/FSAP, EEA, RSF, Eurostat, World Justice Project) + Italian official stats (ISTAT, Banca d'Italia) + Italian press.",
+    "Severe demographic ageing (fertility ~1.14) and a high public-debt load are the standout long-term drags.",
+    "Source-lean: moderate Anglophone routing on some political color; ISTAT/Il Sole 24 Ore originals partially offset; Corriere/Repubblica not read directly this pass."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 2.9,
+      "confidence": 0.84,
+      "skew": "symmetric",
+      "notes": "A top-tier manufacturer with a large trade surplus and much-improved banks within the eurozone; a very high public-debt load the structural drag.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": -2,
+          "score_long": -1,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Debt ~137% GDP; deficit ~3% and falling with a restored primary surplus and a compressed BTP-Bund spread, but debt declines only slowly. (IMF 2026 Art IV; ISTAT)"
+        },
+        "monetary_independence": {
+          "score": 5,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Eurozone - the ECB sets policy and is credible and independent; no national monetary control. (ECB)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 2,
+          "weight": 0.16,
+          "confidence": 0.85,
+          "notes": "Eurozone member; the euro is the #2 global reserve currency, a modest shared benefit. (IMF COFER)"
+        },
+        "inflation": {
+          "score": 3,
+          "weight": 0.13,
+          "confidence": 0.8,
+          "notes": "Near target through 2025 but reaccelerated to ~2.7-2.9% (Apr 2026) on energy. (Eurostat, ISTAT)"
+        },
+        "banking_stability": {
+          "score": 5,
+          "weight": 0.1,
+          "confidence": 0.85,
+          "notes": "Record profits, gross NPLs ~2.8% at record lows, CET1 ~14%; the IMF 2026 FSAP judges the system resilient; major consolidation underway. (IMF FSAP; Banca d'Italia)"
+        },
+        "trade_actions_capacity": {
+          "score": 6,
+          "weight": 0.17,
+          "confidence": 0.85,
+          "notes": "A top-tier manufacturer with a large trade surplus (machinery, pharma, food, luxury) and record tourism; stable policy; no resource curse. (Confindustria, ISTAT)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 1.7,
+      "confidence": 0.79,
+      "skew": "negative",
+      "notes": "Credible courts and uncompromised statistics, against slow civil justice and eroding press freedom.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score_near": 0,
+          "score_long": 1,
+          "score": null,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "Slow civil justice is improving under PNRR reforms; a Meloni judicial career-separation reform was rejected in a March 2026 referendum, preserving judicial independence. (EU Rule of Law Report; ISTAT)"
+        },
+        "statistical_integrity": {
+          "score": 7,
+          "weight": 0.25,
+          "confidence": 0.9,
+          "notes": "ISTAT and the Banca d'Italia are credible, independent, and Eurostat-compliant. (ISTAT, Eurostat)"
+        },
+        "civil_service_capacity": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "Functional but uneven, with a north-south capacity gap and bureaucratic friction; PNRR delivery shows real but strained absorption capacity. (OECD)"
+        },
+        "press_freedom": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "RSF #49 (2025), downgraded to 'problematic': RAI politicization, criminal defamation, and SLAPPs. (RSF)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 2.2,
+      "confidence": 0.77,
+      "skew": "negative",
+      "notes": "An unusually durable government, against among the world's most severe demographic ageing and a narrowed ancestry-citizenship route.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 5,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "An unusually durable government since 2022 by Italian standards; a recent referendum loss and coalition friction trim the upside but there is no crisis. (GIS Reports)"
+        },
+        "civil_liberties": {
+          "score": 5,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Broadly strong rights and free elections; pressures via media interference and security/migration legislation. (RSF)"
+        },
+        "treatment_non_citizens": {
+          "score": 0,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "Lawful elective-residence (passive income) and 2024 digital-nomad visas are open and durable, but the citizenship-by-ancestry (jure sanguinis) route was sharply tightened in 2025 (a generational cap and 'genuine link' test), narrowing a major pathway. (IBA; Italian law DL 36/2025)"
+        },
+        "social_cohesion": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Generally cohesive but with a persistent north-south divide, migration politics, and youth emigration. (ISTAT)"
+        },
+        "demographics": {
+          "score_near": -4,
+          "score_long": -7,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.95,
+          "notes": "Among the world's oldest populations: fertility ~1.14 (record low), median age ~47, deaths far exceeding births; only net migration keeps the population stable. (ISTAT 2025)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 5.4,
+      "confidence": 0.8,
+      "skew": "positive",
+      "notes": "A reliable NATO/EU/G7 anchor with low direct-conflict exposure.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 7,
+          "weight": 0.4,
+          "confidence": 0.85,
+          "notes": "NATO, EU-founder, and G7; firmly transatlantic and pro-EU; reached the 2% NATO target. (IAI)"
+        },
+        "conflict_involvement": {
+          "score": 3,
+          "weight": 0.35,
+          "confidence": 0.75,
+          "notes": "No direct conflict; staunch Ukraine support; Mediterranean/migration exposure. (Kyiv Post)"
+        },
+        "sanctions_capital_controls": {
+          "score": 6,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "Aligned with the EU/G7 sanctions regime; free capital movement, no controls. (EU)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 0.7,
+      "confidence": 0.76,
+      "skew": "negative",
+      "notes": "Very low crime, against a fast-warming Mediterranean climate and a strained health service.",
+      "sub_factors": {
+        "climate": {
+          "score_near": -3,
+          "score_long": -5,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "A Mediterranean warming hotspot: recurring 40-45C heat, southern drought and wildfires, major floods (Emilia-Romagna), and Alpine glacier retreat. (EEA)"
+        },
+        "healthcare": {
+          "score_near": 0,
+          "score_long": -1,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "A universal SSN with strong outcomes (life expectancy ~83.7) but its worst structural funding crisis in decades, with waiting lists and a north-south gap. (GIMBE 2025)"
+        },
+        "infrastructure": {
+          "score": 2,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Strong in the north; PNRR is investing in weaker southern rail (a new Sicily line opened 2025); execution risk on EU deadlines. (Railway Gazette)"
+        },
+        "crime_safety": {
+          "score": 4,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "Very low violent crime (homicide ~0.5/100k); regional organized crime persists but is increasingly white-collar. (ISTAT; Europol)"
+        },
+        "disaster_insurance": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "High seismic and flood exposure, but a new 2024-2025 mandatory business catastrophe-insurance regime with public reinsurance improves resilience; household coverage still thin. (Norton Rose Fulbright)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 2.05,
+      "confidence": 0.79,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 2.76,
+      "confidence": 0.81,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 3.01,
+      "confidence": 0.82,
+      "horizon": "1-3y",
+      "reading": "clear positive"
+    }
+  },
+  "summary": "A top-tier manufacturer with a large trade surplus, record tourism, much-improved banks, and an unusually stable government, within the eurozone. The structural drags are a very high public-debt load that declines only slowly, among the world's most severe demographic ageing, a strained-but-effective health service, eroding press freedom, and a Mediterranean climate warming faster than the global average. The citizenship-by-ancestry route was sharply narrowed in 2025."
+}

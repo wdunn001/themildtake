@@ -1,0 +1,49 @@
+{
+  "source": "Integrity Index (integrityindex.us)",
+  "source_note": "integrityindex.us publishes per-member integrity grades but exposes no public API or bulk dataset. The members below are SYNTHETIC PLACEHOLDERS with illustrative scores, included only to demonstrate the aggregation — they are not real people and the scores are not attributed to anyone. Replace members[] with the real roster (manually, or via an ingestion from FEC / STOCK Act / OpenSecrets / Quiver) to make this live.",
+  "is_sample": true,
+  "updated": "2026-05-28",
+  "scale": {
+    "min": 0,
+    "max": 100,
+    "note": "0-100 integrity score; higher = fewer conflict-of-interest signals (PAC capture, lobbying ties, stock trading, disclosure gaps).",
+    "bands": [
+      { "grade": "A", "min": 90 },
+      { "grade": "B", "min": 80 },
+      { "grade": "C", "min": 70 },
+      { "grade": "D", "min": 60 },
+      { "grade": "F", "min": 0 }
+    ]
+  },
+  "thresholds": { "representative": 70, "captured": 50 },
+  "members": [
+    { "name": "Rep. Sample 01", "chamber": "house", "state": "CA", "district": 1, "party": "D", "score": 78 },
+    { "name": "Rep. Sample 02", "chamber": "house", "state": "TX", "district": 2, "party": "R", "score": 41 },
+    { "name": "Rep. Sample 03", "chamber": "house", "state": "NY", "district": 3, "party": "D", "score": 85 },
+    { "name": "Rep. Sample 04", "chamber": "house", "state": "FL", "district": 4, "party": "R", "score": 38 },
+    { "name": "Rep. Sample 05", "chamber": "house", "state": "WA", "district": 5, "party": "D", "score": 72 },
+    { "name": "Rep. Sample 06", "chamber": "house", "state": "OH", "district": 6, "party": "R", "score": 49 },
+    { "name": "Rep. Sample 07", "chamber": "house", "state": "VT", "district": 1, "party": "I", "score": 88 },
+    { "name": "Rep. Sample 08", "chamber": "house", "state": "IL", "district": 8, "party": "D", "score": 66 },
+    { "name": "Rep. Sample 09", "chamber": "house", "state": "GA", "district": 9, "party": "R", "score": 33 },
+    { "name": "Rep. Sample 10", "chamber": "house", "state": "CA", "district": 10, "party": "D", "score": 59 },
+    { "name": "Rep. Sample 11", "chamber": "house", "state": "PA", "district": 11, "party": "R", "score": 52 },
+    { "name": "Rep. Sample 12", "chamber": "house", "state": "MI", "district": 12, "party": "D", "score": 71 },
+    { "name": "Rep. Sample 13", "chamber": "house", "state": "AZ", "district": 13, "party": "R", "score": 44 },
+    { "name": "Rep. Sample 14", "chamber": "house", "state": "MA", "district": 14, "party": "D", "score": 80 },
+    { "name": "Rep. Sample 15", "chamber": "house", "state": "NC", "district": 15, "party": "R", "score": 47 },
+    { "name": "Rep. Sample 16", "chamber": "house", "state": "CO", "district": 16, "party": "D", "score": 63 },
+    { "name": "Rep. Sample 17", "chamber": "house", "state": "TN", "district": 17, "party": "R", "score": 29 },
+    { "name": "Rep. Sample 18", "chamber": "house", "state": "OR", "district": 18, "party": "D", "score": 69 },
+    { "name": "Sen. Sample 01", "chamber": "senate", "state": "CA", "party": "D", "score": 74 },
+    { "name": "Sen. Sample 02", "chamber": "senate", "state": "TX", "party": "R", "score": 36 },
+    { "name": "Sen. Sample 03", "chamber": "senate", "state": "NY", "party": "D", "score": 81 },
+    { "name": "Sen. Sample 04", "chamber": "senate", "state": "FL", "party": "R", "score": 42 },
+    { "name": "Sen. Sample 05", "chamber": "senate", "state": "VT", "party": "I", "score": 90 },
+    { "name": "Sen. Sample 06", "chamber": "senate", "state": "KY", "party": "R", "score": 31 },
+    { "name": "Sen. Sample 07", "chamber": "senate", "state": "IL", "party": "D", "score": 67 },
+    { "name": "Sen. Sample 08", "chamber": "senate", "state": "SC", "party": "R", "score": 45 },
+    { "name": "Sen. Sample 09", "chamber": "senate", "state": "MA", "party": "D", "score": 77 },
+    { "name": "Sen. Sample 10", "chamber": "senate", "state": "MO", "party": "R", "score": 39 }
+  ]
+}

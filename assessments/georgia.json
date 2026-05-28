@@ -1,0 +1,254 @@
+{
+  "country": "Georgia",
+  "iso3": "GEO",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF, World Bank, EBRD, WJP, RSF, TI, V-Dem, Freedom House, OSCE) + Georgian official (Geostat, NBG) + Georgian independent press (Civil.ge, OC Media); Russian state media excluded.",
+    "Scored governance on observable actions/data (CPI drop, RSF rank, OSCE findings, the Georgian-Dream-passed laws, the self-imposed EU-accession freeze), not opposition rhetoric; government-side strengths confirmed by neutral data (low debt, sound banks, low crime, open immigration) kept at full positive weight.",
+    "NEGATIVE-SKEW case: good fundamentals undercut by accelerating state capture, democratic backsliding, and Russia-threat exposure."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 2.9,
+      "confidence": 0.73,
+      "skew": "negative",
+      "notes": "Good fundamentals (low debt, sound banks, strong growth) that the deteriorating governance now threatens.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 6,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Public debt ~36% GDP, back to pre-pandemic levels, with the deficit under the fiscal-rule ceiling; strong recent growth. (IMF 2025/2026 Art IV)"
+        },
+        "monetary_independence": {
+          "score_near": -1,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.55,
+          "notes": "The NBG is technically competent (inflation-targeting), but management/board purges and political pressure since 2024 erode de facto independence; trajectory worsening. (IMF; NBG; Transparency Intl)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.9,
+          "notes": "The lari is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 4,
+          "weight": 0.13,
+          "confidence": 0.75,
+          "notes": "~4-5% YoY, near the 3% target, with a stable lari. (NBG)"
+        },
+        "banking_stability": {
+          "score": 5,
+          "weight": 0.1,
+          "confidence": 0.75,
+          "notes": "Well-capitalised, record profits, NPLs ~2.6%, healthy liquidity. (NBG; KPMG 2025)"
+        },
+        "trade_actions_capacity": {
+          "score": 3,
+          "weight": 0.17,
+          "confidence": 0.6,
+          "notes": "Diversified (Middle Corridor transit, tourism, wine/agri, ICT, remittances), no resource curse; heavy Russia-trade dependence and sanctions-circumvention scrutiny the risk. (IMF; CEPA)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -2.3,
+      "confidence": 0.68,
+      "skew": "negative",
+      "notes": "Documented state capture and a sharply declining press freedom; statistics still usable.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score_near": -5,
+          "score_long": -6,
+          "score": null,
+          "weight": 0.35,
+          "confidence": 0.75,
+          "notes": "Documented state capture by the Ivanishvili/Georgian Dream network, with a judiciary controlled by a judges' clan; trajectory deteriorating. (Transparency Intl; V-Dem)"
+        },
+        "statistical_integrity": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "Geostat is usable and IMF/WB-relied-upon, with emigration/occupied-area gaps. (IMF; Geostat)"
+        },
+        "civil_service_capacity": {
+          "score": 0,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "A functional administrative core, increasingly politicized/loyalty-based, with brain drain. (TI; IMF)"
+        },
+        "press_freedom": {
+          "score_near": -5,
+          "score_long": -6,
+          "score": null,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "RSF rank fell sharply; 600+ press attacks in a year and a FARA-style 'foreign agents' law (with prison terms) targeting independent media. (RSF; CPJ)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -2.7,
+      "confidence": 0.71,
+      "skew": "negative",
+      "notes": "A democratic-backsliding crisis and a crackdown on civil liberties, against a genuinely open immigration regime.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -6,
+          "score_long": -5,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "A contested Oct 2024 election (OSCE-flagged), Georgian Dream consolidation, 200+ days of protest, and an EU-accession freeze - volatile. (OSCE/ODIHR; EU Parliament; Civil.ge)"
+        },
+        "civil_liberties": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "Protest crackdowns and mass detentions, a foreign-agents law, and an anti-LGBT law. (Freedom House; HRW)"
+        },
+        "treatment_non_citizens": {
+          "score": 6,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Genuinely open: US citizens get 365-day visa-free stay, with easy residency/business setup; discounted from higher only by the rule-of-law backdrop (durability risk if a captured state weaponizes status). (travel.state.gov)"
+        },
+        "social_cohesion": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Deep, hardening polarization between a pro-EU public and the government. (EU; OC Media)"
+        },
+        "demographics": {
+          "score": -4,
+          "weight": 0.1,
+          "confidence": 0.7,
+          "notes": "Ageing with sustained youth/female emigration; population ~3.7M. (Geostat; UNFPA)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -3.5,
+      "confidence": 0.71,
+      "skew": "negative",
+      "notes": "Drifting from the West toward Russia accommodation, with ~20% of territory occupied.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score_near": -5,
+          "score_long": -5,
+          "score": null,
+          "weight": 0.4,
+          "confidence": 0.7,
+          "notes": "Drifting from the EU/US toward Russia accommodation; EU candidacy frozen, the US strategic partnership suspended, and the ruling oligarch sanctioned. (EU Parliament; US State)"
+        },
+        "conflict_involvement": {
+          "score": -5,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "~20% of territory (Abkhazia/South Ossetia) occupied since 2008, with ongoing 'borderization' and a latent Russia threat. (US State Dept; CRS)"
+        },
+        "sanctions_capital_controls": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Currently an open capital account with no controls, but elevated Western scrutiny over Russia sanctions-circumvention is a real downside risk. (US State Investment Climate 2025)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 1.6,
+      "confidence": 0.58,
+      "skew": "positive",
+      "notes": "Very low street crime and improving infrastructure, against uneven healthcare and seismic/landslide exposure.",
+      "sub_factors": {
+        "climate": {
+          "score": 1,
+          "weight": 0.2,
+          "confidence": 0.55,
+          "notes": "Mountainous and temperate, with localized flood/landslide risk. (PreventionWeb)"
+        },
+        "healthcare": {
+          "score": 1,
+          "weight": 0.3,
+          "confidence": 0.55,
+          "notes": "Privatized, cheap, and improving, but uneven in quality and coverage. (WHO-region data)"
+        },
+        "infrastructure": {
+          "score": 2,
+          "weight": 0.2,
+          "confidence": 0.55,
+          "notes": "Decent and improving (the East-West highway, transit upgrades). (IMF; EBRD)"
+        },
+        "crime_safety": {
+          "score": 6,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "A genuine strength: very low street crime, top-third on the Global Peace Index. (GPI 2025)"
+        },
+        "disaster_insurance": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Low penetration against real seismic/landslide exposure. (PreventionWeb)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -1.33,
+      "confidence": 0.68,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": -0.18,
+      "confidence": 0.7,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 0.64,
+      "confidence": 0.71,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "Genuinely strong economic fundamentals (low debt, sound banks, strong growth, low inflation), a uniquely open immigration regime for visitors, and very low street crime - undercut by an accelerating democratic-backsliding crisis: documented state capture, a foreign-agents crackdown on independent media and protest, a frozen EU-accession path, and drift toward Russia accommodation, atop ~20% of territory under Russian occupation. The outcome distribution skews negative as governance threatens the fundamentals."
+}

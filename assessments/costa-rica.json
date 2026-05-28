@@ -1,0 +1,260 @@
+{
+  "country": "Costa Rica",
+  "iso3": "CRI",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: triangulated across multilateral bodies (IMF Article IV, OECD, World Bank, IDB, World Justice Project, RSF, GI-TOC) + Costa Rican official sources (BCCR, INEC, OIJ, TSE) + Costa Rican/regional press (Tico Times, La Nación).",
+    "Source-lean: election/crime/press detail leaned heavily on the English-language Tico Times and US outlets; Spanish-language La Nación/Semanario Universidad/CRHoy were not read directly, so press-freedom and political nuance carry some Anglophone framing risk.",
+    "Rising narco-transit violence is the standout drag on an otherwise strong, demilitarized democracy."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 2.7,
+      "confidence": 0.85,
+      "skew": "positive",
+      "notes": "Credible macro management (fiscal reform plus an inflation-targeting central bank) and a diversified, resilient export sector; persistent deflation a mild nuance.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": 3,
+          "score_long": 4,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "A 2018 reform plus an IMF program drove debt below 60% GDP with a primary surplus (~1.3%) and a falling deficit; debt projected under 55% by 2030. (IMF 2025/2026 Article IV)"
+        },
+        "monetary_independence": {
+          "score": 4,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "The BCCR is a credible inflation-targeter (cut the policy rate from 9.0% to ~3.25%); now fighting deflation, undershooting target. (BCCR, IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The colón is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score_near": 2,
+          "score_long": 3,
+          "score": null,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "2025 closed at ~-1.2% and early 2026 near -2.5% (deepest deflation in decades); price stability is excellent but a persistent sub-target undershoot is a mild credibility concern. (BCCR/INEC)"
+        },
+        "banking_stability": {
+          "score": 3,
+          "weight": 0.1,
+          "confidence": 0.75,
+          "notes": "The system stayed solvent and liquid through recent shocks; the BCCR flags consumer over-indebtedness and ~27% loan dollarization as structural risks. (BCCR financial-stability report)"
+        },
+        "trade_actions_capacity": {
+          "score": 4,
+          "weight": 0.17,
+          "confidence": 0.85,
+          "notes": "Diversified, resilient exports (~$19bn, +16%): medical devices now the top export, Intel reinvestment, a nearshoring tailwind, plus services/ecotourism; not a petrostate. A strong colón squeezes exporter margins (mild drag). (PROCOMER, Wilson Center)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 3.4,
+      "confidence": 0.81,
+      "skew": "negative",
+      "notes": "Solid democratic institutions and credible statistics, under populist strain and organized-crime pressure.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score_near": 3,
+          "score_long": 2,
+          "score": null,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "Strong by regional standards (independent judiciary and electoral tribunal), but checks and balances weakened under President Chaves and organized crime is pressuring institutions - a downward long-term pressure. (World Justice Project 2024/25)"
+        },
+        "statistical_integrity": {
+          "score": 5,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "INEC, BCCR, and OIJ produce credible, transparent, independently cited data; OECD-member reporting standards. (OECD, IMF)"
+        },
+        "civil_service_capacity": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "A professional bureaucracy with strong public-health and electoral administration; weakened by a wage freeze and weak infrastructure delivery. (OECD Economic Survey 2025)"
+        },
+        "press_freedom": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "Still among the freest in the region but the RSF rank slid for four straight years amid the president's verbal attacks and ad-withholding (the Constitutional Chamber ruled against him). (RSF 2025, CPJ)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 2.5,
+      "confidence": 0.8,
+      "skew": "negative",
+      "notes": "A robust democracy with a favorable, lawful residency pathway, against sharply elevated narco-transit violence and a new single-party legislative majority.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": 2,
+          "score_long": 3,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "Feb 2026: Laura Fernández won with the first single-party Assembly majority since 1990, ending executive-legislative gridlock (stability up) but concentrating power around a populist project; peaceful transfer, high turnout. (TSE results)"
+        },
+        "civil_liberties": {
+          "score": 4,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Robust; rated 'Free,' with functioning courts protecting rights; mild erosion via press pressure. (Freedom House 2025)"
+        },
+        "treatment_non_citizens": {
+          "score": 5,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "Lawful, durable, long-popular residency routes (pensionado, rentista, inversionista); the immigration-office backlog is the main friction. (DGME)"
+        },
+        "social_violence": {
+          "score_near": -3,
+          "score_long": -2,
+          "score": null,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "Homicide ~16.8/100k (near record), driven by cocaine-transit cartels; criminal organizations grew roughly tenfold in a decade; mostly gang-on-gang, with a slight 2025 dip but structurally elevated. (OIJ, GI-TOC Org Crime Index 2025)"
+        },
+        "demographics": {
+          "score_near": 3,
+          "score_long": 1,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.75,
+          "notes": "Still favorable but ageing fast; high life expectancy and falling fertility pressure the social-security/pension system long-term. (INEC, OECD)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 5.4,
+      "confidence": 0.87,
+      "skew": "positive",
+      "notes": "A demilitarized, stable, OECD-integrated democracy with no external conflict and an open capital account.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 5,
+          "weight": 0.4,
+          "confidence": 0.85,
+          "notes": "No military since 1948, a stable US-aligned democracy and OECD member; a reliable partner. (OECD)"
+        },
+        "conflict_involvement": {
+          "score": 6,
+          "weight": 0.35,
+          "confidence": 0.9,
+          "notes": "No external conflicts and demilitarized; the only 'conflict' is internal narco-violence (scored under social_violence). (Freedom House)"
+        },
+        "sanctions_capital_controls": {
+          "score": 5,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "Open capital account, no controls, not sanctioned, OECD-integrated. (IMF AREAER, OECD)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 1,
+      "confidence": 0.8,
+      "skew": "negative",
+      "notes": "A renewable-energy and universal-healthcare leader, dragged by poor roads and rising crime atop real seismic/storm exposure.",
+      "sub_factors": {
+        "climate": {
+          "score_near": 2,
+          "score_long": 1,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "A global eco-leader with a ~98.6% renewable grid, but hydro-dependence means El Niño droughts force fossil backup; storm/flood exposure. (ICE; Climate Action Tracker)"
+        },
+        "healthcare": {
+          "score": 4,
+          "weight": 0.3,
+          "confidence": 0.85,
+          "notes": "CCSS universal coverage with strong primary-care outcomes and high life expectancy; multi-month non-emergency waits; a strong private/medical-tourism tier. (PHCPI, World Bank, OECD)"
+        },
+        "infrastructure": {
+          "score": -1,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Poor roads (among the weakest in the OECD), congestion, and weak project delivery; decent telecom; IDB/CABEI-financed upgrades underway. (OECD, IDB)"
+        },
+        "crime_safety": {
+          "score_near": -2,
+          "score_long": -2,
+          "score": null,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "Rising violence concentrated in narco-corridors and specific neighborhoods; tourist/expat zones safer but petty crime is up. (OIJ, OSAC)"
+        },
+        "disaster_insurance": {
+          "score": -1,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "High seismic (Ring of Fire) plus storm/flood exposure; the state insurer (INS) is functional; insurable but with a real catastrophe tail. (INS, USGS hazard context)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 2.75,
+      "confidence": 0.81,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 3.14,
+      "confidence": 0.83,
+      "horizon": "3-7y",
+      "reading": "clear positive"
+    },
+    "currency": {
+      "score": 3.24,
+      "confidence": 0.84,
+      "horizon": "1-3y",
+      "reading": "clear positive"
+    }
+  },
+  "summary": "A stable, demilitarized democracy with credible macro management (debt cut below 60% of GDP, an independent inflation-targeting central bank), a diversified and resilient export base (medical devices, semiconductors, ecotourism), universal healthcare, a renewable grid, and lawful long-popular residency routes. The drags are sharply rising narco-transit violence, poor road infrastructure, populist strain on institutions and the press, and real seismic/storm exposure."
+}

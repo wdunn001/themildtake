@@ -1,0 +1,260 @@
+{
+  "country": "Netherlands",
+  "iso3": "NLD",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: triangulated across multilateral bodies (IMF Article IV, OECD, World Justice Project, RSF, Transparency International, EU Commission) + Dutch official stats (CBS, DNB) + Dutch press/legal sources (NOvA, NL Times, Free Press Unlimited).",
+    "Source-lean: political and crime detail leaned on English-language outlets; balanced with native Dutch legal/press; deeper NRC/de Volkskrant/NOS reads would further de-skew political_stability and civil_liberties.",
+    "Peak political instability (the June 2025 PVV-triggered cabinet collapse) resolved via the Oct 2025 election; a centrist D66-VVD-CDA minority cabinet was sworn in Feb 2026."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 3.4,
+      "confidence": 0.81,
+      "skew": "symmetric",
+      "notes": "A very strong, low-debt fiscal position within the eurozone, sound banks, and a trade-hub economy; near-term energy-shock inflation the main wobble.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": 6,
+          "score_long": 4,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Debt ~43% GDP, deficit structurally below 3% through 2030; strong now, with ~4% of GDP of age/health/climate spending pressure building by 2050. (IMF Art IV 2026, OECD)"
+        },
+        "monetary_independence": {
+          "score": 5,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Eurozone - the ECB is credible and independent; no national monetary control. (ECB, DNB)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 2,
+          "weight": 0.16,
+          "confidence": 0.85,
+          "notes": "Eurozone member; the euro is the #2 global reserve currency, a modest shared benefit. (IMF COFER)"
+        },
+        "inflation": {
+          "score_near": 1,
+          "score_long": 3,
+          "score": null,
+          "weight": 0.13,
+          "confidence": 0.78,
+          "notes": "2025 CPI ~3.3%, HICP ~2.5-2.8% spring 2026 but projected up on energy; running above the euro-area average on tight labor/wages. (CBS, EC)"
+        },
+        "banking_stability": {
+          "score": 4,
+          "weight": 0.1,
+          "confidence": 0.72,
+          "notes": "Well-capitalized majors (ING, Rabobank, ABN AMRO); solid DNB supervision; high household mortgage debt the structural watch-item. (DNB, IMF FSAP)"
+        },
+        "trade_actions_capacity": {
+          "score_near": 0,
+          "score_long": 1,
+          "score": null,
+          "weight": 0.17,
+          "confidence": 0.72,
+          "notes": "Rotterdam is Europe's #1 container hub, but 2025 throughput slipped and exports lagged on weak EU competitiveness; Groningen gas permanently shut (now an LNG/pipeline importer); stable policy, no resource curse. (Port of Rotterdam, CBS)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 5.7,
+      "confidence": 0.82,
+      "skew": "negative",
+      "notes": "Excellent baseline (uncompromised statistics, top-tier press freedom), with a mild rule-of-law erosion trend flagged by domestic and EU bodies.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score_near": 5,
+          "score_long": 4,
+          "score": null,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "WJP #9/143, but the EU 2025 Rule of Law Report and the Dutch bar (NOvA) flag judicial-appointment/prosecution-autonomy concerns and asylum-emergency laws straining constitutional norms. (WJP, EU Commission, advocatenorde.nl)"
+        },
+        "statistical_integrity": {
+          "score": 7,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "CBS is independent, uncompromised, and high-quality. (CBS, Eurostat)"
+        },
+        "civil_service_capacity": {
+          "score": 5,
+          "weight": 0.25,
+          "confidence": 0.78,
+          "notes": "Professional and capable; nitrogen/housing permitting paralysis exposes delivery-capacity strain. (OECD 2025)"
+        },
+        "press_freedom": {
+          "score": 6,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "RSF #2 globally (2026); caveat: rising journalist threats and SLAPPs. (RSF, Free Press Unlimited)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 1,
+      "confidence": 0.73,
+      "skew": "symmetric",
+      "notes": "A functioning (if fragmented, minority) government after migration-driven instability, with a tightening migration climate, social polarization, and a housing-strained ageing population.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": 1,
+          "score_long": 2,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "Two cabinets collapsed over migration (2023, June 2025), but the Oct 2025 election and a Feb 2026 D66-VVD-CDA cabinet restored a functioning (if minority, 66/150) government; fragmentation persists. (CBS, NL Times)"
+        },
+        "civil_liberties": {
+          "score": 4,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "Strong baseline; recent asylum/migration restrictions test equal-treatment norms. (Amnesty NL, NOvA)"
+        },
+        "treatment_non_citizens": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.78,
+          "notes": "The Dutch-American Friendship Treaty (DAFT) gives US citizens a uniquely easy lawful route (~EUR 4,500 business setup), alongside the highly-skilled-migrant scheme and EU Blue Card. But the 30% expat tax ruling was cut, asylum/migration rules hardened, and naturalization may move 5->10 years; the skilled/DAFT path stays open while the overall climate tightens. (gov.nl, Dentons)"
+        },
+        "social_cohesion": {
+          "score_near": -2,
+          "score_long": -1,
+          "score": null,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Sharp migration polarization and nitrogen/farmer protests (a court ordered enforced cuts with penalty risk); a high baseline of trust cushions it. (CBS)"
+        },
+        "demographics": {
+          "score_near": -1,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.75,
+          "notes": "Population ~18.1M but deaths now exceed births; growth is entirely migration-driven; over-65s outnumber under-20s; a ~450k housing shortage worsens it. (CBS)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 2.4,
+      "confidence": 0.77,
+      "skew": "negative",
+      "notes": "A reliable NATO/EU core member; tail exposure via Russian hybrid/cyber activity and as an organized-crime logistics vector.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 6,
+          "weight": 0.4,
+          "confidence": 0.8,
+          "notes": "NATO/EU core; hosted the June 2025 Hague Summit and committed to 5% (3.5%+1.5%) by 2035. (NATO, gov.nl)"
+        },
+        "conflict_involvement": {
+          "score": -2,
+          "weight": 0.35,
+          "confidence": 0.72,
+          "notes": "No direct conflict, but Russian hybrid/cyber pressure and Rotterdam/Schiphol as a cocaine/organized-crime vector; tail exposure as a NATO member. (NATO, OC Index)"
+        },
+        "sanctions_capital_controls": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "EU sanctions regime; no domestic capital controls; free capital mobility. (EU, DNB)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 3.9,
+      "confidence": 0.77,
+      "skew": "symmetric",
+      "notes": "Top-tier healthcare and infrastructure and world-class water management, against severe structural sea-level exposure held back by exceptional defenses.",
+      "sub_factors": {
+        "climate": {
+          "score_near": 1,
+          "score_long": -2,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.72,
+          "notes": "World-class water management (Delta Works/Programme) offsets severe structural exposure: low-lying terrain, sea-level rise, ageing barriers. (Delta Programme)"
+        },
+        "healthcare": {
+          "score": 5,
+          "weight": 0.3,
+          "confidence": 0.82,
+          "notes": "Universal mandatory-insurance system; very low unmet need; top-decile outcomes at ~10% of GDP. (OECD Health at a Glance 2025)"
+        },
+        "infrastructure": {
+          "score": 6,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Top-tier ports, rail, broadband, cycling; watch-items are electricity-grid congestion and housing. (OECD, CBS)"
+        },
+        "crime_safety": {
+          "score": 3,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "Homicide ~0.7/100k and violent crime down over 2010-2024, though the long decline stalled post-2018 and organized-crime violence is concentrated. (CBS, OC Index)"
+        },
+        "disaster_insurance": {
+          "score": 3,
+          "weight": 0.15,
+          "confidence": 0.72,
+          "notes": "Strong response capacity; a known flood-insurance gap (heavy reliance on state defenses, limited private flood cover). (DNB, EC)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 3.41,
+      "confidence": 0.78,
+      "horizon": "5-10y",
+      "reading": "clear positive"
+    },
+    "assets": {
+      "score": 3.57,
+      "confidence": 0.79,
+      "horizon": "3-7y",
+      "reading": "clear positive"
+    },
+    "currency": {
+      "score": 3.59,
+      "confidence": 0.8,
+      "horizon": "1-3y",
+      "reading": "clear positive"
+    }
+  },
+  "summary": "World-class institutions, infrastructure, and water management, a very strong low-debt fiscal position within the eurozone, and a uniquely favorable lawful residency route for US citizens via the Dutch-American Friendship Treaty. The offsetting drags are serial migration-driven government instability (now past its peak), a tightening migration climate, an acute housing shortage with ageing demographics, and severe long-run sea-level exposure held back only by exceptional flood defenses."
+}

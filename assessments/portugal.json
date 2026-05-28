@@ -1,0 +1,258 @@
+{
+  "country": "Portugal",
+  "iso3": "PRT",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: triangulated across multilateral bodies (IMF, OECD 2026 Survey, World Justice Project, RSF, EEA, World Weather Attribution) + Portuguese institutions (INE, Banco de Portugal, used as independent data) + EU/Iberian press.",
+    "Source-lean: the physical/health factors leaned on alarm-toned Anglophone/expat press, partly corrected with EEA/WWA/ESA and Portuguese official data; Portuguese-language press (Público/Expresso/Observador) was not read directly this pass.",
+    "Climate is the standout negative and worsens with horizon (2025 megafire season; Feb 2026 record storms)."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 3.4,
+      "confidence": 0.8,
+      "skew": "symmetric",
+      "notes": "A sound and improving fiscal position within the eurozone, well-capitalized banks, and diversified services/tourism exports; near-term energy-shock inflation the main wobble.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": 5,
+          "score_long": 3,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Budget surpluses 2022-24; debt fell to ~89.7% GDP (2025) and still declining; slips to a small deficit as the RRF tapers; long-term pension/health pressure from ageing. (OECD 2026, IMF)"
+        },
+        "monetary_independence": {
+          "score": 5,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Eurozone - the ECB sets policy and is credible and independent; no national monetary control. (ECB)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 2,
+          "weight": 0.16,
+          "confidence": 0.85,
+          "notes": "Eurozone member; the euro is the #2 global reserve currency, a modest shared benefit. (IMF COFER)"
+        },
+        "inflation": {
+          "score_near": 2,
+          "score_long": 4,
+          "score": null,
+          "weight": 0.13,
+          "confidence": 0.7,
+          "notes": "Was converging to ~2.1%; spiked to ~3.3% YoY (Apr 2026) on an energy shock; expected back to target long-term. (Banco de Portugal, EC)"
+        },
+        "banking_stability": {
+          "score": 5,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "CET1 ~17.9%, NPL ~2.3%, strong 2025 profitability; countercyclical buffer 0.75% from Jan 2026. (Banco de Portugal FSR)"
+        },
+        "trade_actions_capacity": {
+          "score_near": 0,
+          "score_long": 1,
+          "score": null,
+          "weight": 0.17,
+          "confidence": 0.7,
+          "notes": "Diversified EU-delegated trade; goods deficit offset by tourism/services; large undeveloped lithium reserves (upside); no resource curse; mild near-term drag from energy/storm shocks. (OECD, OEC)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 4.2,
+      "confidence": 0.81,
+      "skew": "symmetric",
+      "notes": "Independent judiciary that has actively checked the executive, uncompromised official statistics, and high press freedom; civil-service trust the soft spot.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 4,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "Independent judiciary (WJP ~29/143); the Constitutional Court struck down key 2025 immigration clauses - a live check on the executive; persistent court-delay weakness. (WJP, EU Rule of Law Report)"
+        },
+        "statistical_integrity": {
+          "score": 6,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "INE is independent and ESS-compliant; uncompromised. (INE, Eurostat)"
+        },
+        "civil_service_capacity": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "Professional with strong digital government, but low public trust (~40%) and an ageing workforce. (OECD Government at a Glance 2025)"
+        },
+        "press_freedom": {
+          "score": 5,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "RSF 8th/180 (2025), 'satisfactory'; pluralistic media with some economic-precarity pressure. (RSF)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 1.4,
+      "confidence": 0.74,
+      "skew": "negative",
+      "notes": "Strong civil liberties and a favorable, lawful residency pathway, against a minority government amid a populist surge and an ageing population.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -1,
+          "score_long": 0,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "AD won the May 2025 snap election but governs as a minority; the hard-right Chega surged to ~23% (now the second party); recurring budget fragility, absorbed constitutionally. (IDEA, Atlantic Council)"
+        },
+        "civil_liberties": {
+          "score": 5,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "Strong protections; a functioning Constitutional Court; no notable rollback. (WJP, EU report)"
+        },
+        "treatment_non_citizens": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "Favorable residency pathways (D7 passive-income, D8 digital-nomad, citizenship eligibility ~5y); a 2025 law tightened family reunification and the Golden Visa real-estate route ended, but the Constitutional Court overturned the harshest clauses, keeping the pathway open and lawful (AIMA processing backlog the main friction). (Constitutional Court; Lexology)"
+        },
+        "social_cohesion": {
+          "score": 1,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "Historically cohesive and low-polarization, but rapid immigration and Chega's rise are straining it; no major unrest. (IDEA)"
+        },
+        "demographics": {
+          "score_near": -2,
+          "score_long": -4,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "TFR ~1.40, median age ~47, heavy ageing; net migration (>1M foreign residents) currently offsets decline, but the central projection falls toward ~8.3M by 2100. (INE 2025)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 3.8,
+      "confidence": 0.8,
+      "skew": "symmetric",
+      "notes": "Low conflict exposure on the Atlantic flank; reliable if small NATO/EU member; no capital controls.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 5,
+          "weight": 0.4,
+          "confidence": 0.8,
+          "notes": "NATO founding member and committed EU member; hit 2% GDP defense (2025), pledged 3.5% by 2035; reliable though a small contributor. (NATO)"
+        },
+        "conflict_involvement": {
+          "score": 3,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "Atlantic-flank geography, no border threats, no active conflict; supports Ukraine via EU/NATO. (NATO)"
+        },
+        "sanctions_capital_controls": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "EU sanctions-regime participant; no domestic capital controls (crisis-era 2010-12 controls long resolved). (EU)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 0.2,
+      "confidence": 0.76,
+      "skew": "negative",
+      "notes": "Low crime and decent infrastructure, but a worsening climate profile and a strained health service; high latent seismic risk.",
+      "sub_factors": {
+        "climate": {
+          "score_near": -3,
+          "score_long": -5,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "2025 was the worst wildfire season since 2017 with record heat; Feb 2026 storms were the largest natural disaster in ~30 years; drought/heat/fire worsen with horizon. (EEA, WWA, ESA)"
+        },
+        "healthcare": {
+          "score": 0,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "Universal SNS free at point of use, but a large operating deficit, ER/maternity closures, doctor strikes, and falling public trust; reform pressure mounting. (FNAM; Portuguese press)"
+        },
+        "infrastructure": {
+          "score": 2,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Generally good transport and broadband; the 2026 storms exposed planning gaps with repairs running into late 2026. (Euronews)"
+        },
+        "crime_safety": {
+          "score": 5,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "Low violent crime (Global Peace Index 7th, 2025); main risk is petty theft in Lisbon/Porto. (GPI; RASI)"
+        },
+        "disaster_insurance": {
+          "score_near": -2,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "High latent seismic risk (much of Lisbon predates anti-seismic code; only ~19% of homes carry quake cover) plus newly realized flood exposure; functional but underinsured. (Verisk; APS)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 2.61,
+      "confidence": 0.78,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 3.14,
+      "confidence": 0.79,
+      "horizon": "3-7y",
+      "reading": "clear positive"
+    },
+    "currency": {
+      "score": 3.54,
+      "confidence": 0.8,
+      "horizon": "1-3y",
+      "reading": "clear positive"
+    }
+  },
+  "summary": "Strong fundamentals - a sound and improving fiscal position within the eurozone, well-capitalized banks, top-tier press freedom, and an independent judiciary that has actively checked the executive - paired with favorable, lawful residency pathways. The drags are a minority government amid a hard-right surge, a strained public health service, an ageing population only offset by immigration, and a worsening climate profile (record 2025 wildfires and a severe 2026 storm season) atop high latent seismic risk."
+}

@@ -102,6 +102,17 @@ This axis **does not by itself reduce a source's weight.** Its purpose is to fee
 
 Applied **uniformly across all countries**: any data originating from an entity reporting on itself, where that entity's reporting apparatus is state-controlled or has documented compromised independence, is excluded from scoring. This rule is content-neutral and applies regardless of which country is involved, **including democracies during documented periods of statistical interference.** Consistency is the point; the rule is only defensible if applied to allies and adversaries alike.
 
+The rule extends to **state-funded broadcasters reporting on their own state** — not only adversary state media (Xinhua/CGTN, TASS/RT, IRNA/Press TV) but also Western government-funded outlets (Voice of America, Radio Free Asia) when the subject is the government that funds them. **Ownership tilt** (Gulf-state-owned pan-Arab outlets, oligarch-owned media) is a *slant to flag*, not an automatic exclusion, unless the outlet is captured on the specific subject.
+
+### Source Diversity and the Anglophone Trap
+
+A second, subtler contamination: building a country's picture only from **English-language, North-American** sources (including bias-rating tools like Ground News, which aggregate a mostly-Anglophone outlet set). This silently imports a single linguistic and geographic vantage point and is its own form of slant. To counter it:
+
+- **Anchor each country in the language of the place**, plus a neighbor's or rival's language, plus a language-neutral multilateral index. (Mexico → Mexican independents + IMF/OECD; Ukraine → Ukrainian + Russian-*exile* + European + IMF/UN.)
+- **Beware that "language of the place" sometimes has no free press.** For China there is **no neutral Mandarin-first source**: mainland media is state-controlled, Hong Kong's free press was dismantled after the 2020 National Security Law, and Taiwan — the only Mandarin-first free press — sits under existential threat from Beijing and therefore carries an anti-CCP slant *on China specifically*. So China must be read through diaspora/exile Mandarin (Initium, China Digital Times), Japanese/Korean coverage, **partner-country customs data**, and multilateral indices — never Mandarin media alone. Treat Taiwanese sources on China as a flagged tilt, not a neutral read.
+- **Lean on language-neutral multilateral references** that are independent of any single government by construction: IMF (Article IV, COFER), OECD, World Bank, BIS, V-Dem, World Justice Project, Reporters Without Borders, Transparency International, ACLED / Uppsala UCDP, and cross-border investigative networks (OCCRP, ICIJ).
+- Use only **independent** outlets in each language; exclude state-controlled ones uniformly (see above). A curated, regularly-updated list of independent sources by language lives on the project's Resources page.
+
 ---
 
 ## How Source Quality Sets Confidence
@@ -128,7 +139,8 @@ Two levels feed three decisions.
 3. **Political and Social State**
 4. **Geopolitical State**
 5. **Physical and Practical State**
-6. **Personal Fit** *(added only for an individual assessment; captures profession-specific and circumstance-specific factors country-level data cannot)*
+
+*(A sixth category, **Personal Fit**, is **deferred from the base**: it is reader-specific — profession, language, credential recognition, immigration pathway, belonging — and belongs in a future per-reader tool that asks those questions and layers the result on top of this general, country-level base. The base assessment is not calibrated to any individual.)*
 
 ### Each Sub-Factor Carries
 
@@ -246,6 +258,17 @@ A cross-country comparison is only valid if each country was assessed with **com
 
 ## Changelog
 
+### Version 2.1
+
+- Redesigned the trade factor (`trade_actions_capacity`) to score trade-policy **actions and volatility**, **trade trajectory** (export/import trends, diversity of goods and partners), **industrial capacity** (from partner-observable data so it survives source-exclusion), and **resource-curse / paradox-of-plenty** dynamics; raised its default economic weight 0.05 → 0.17 and rebalanced the other economic sub-weights.
+- Completed the full source-discipline re-run across all six countries: applied the hard exclusion rule uniformly (CCP self-reported data excluded and rebuilt from independent proxies; US post-2022 official data discounted as partially-entangled), ran the slant-balance audit, and re-examined Mexico under skew (nearshoring + demographic dividend).
+- Adopted an **actions-and-data-over-stated-values** stance: where leadership is unreliable, stated intentions carry little predictive weight, so scores lean on observable actions and independent data. The optional strict-foundational-weighting (re-weight-by-stated-values) variant is deliberately not used.
+- Added a recompute engine (`scripts/compute-scores.mjs`) so category and decision aggregates are derived mechanically from sub-factors under the formula, and an index builder (`scripts/build-index.mjs`).
+- **Source diversity, operationalized.** Reframed the source discipline away from any single bias tool (Ground News skews English / North-American) toward multilingual triangulation; added the uniform exclusion of state-funded broadcasters on their own state (incl. VOA / Radio Free Asia on the US); and added a curated independent-sources-by-language list, each annotated with its real base/jurisdiction (exile outlets included — e.g. The Moscow Times is Amsterdam-based, Meduza Riga, Initium Singapore). Noted that some places have *no* free local-language press (China: mainland captured, Hong Kong dismantled post-NSL, Taiwan existentially slanted on China).
+- Ran two live-data passes (2026-05-28); the second deliberately re-read each country through **non-Anglophone independent + multilateral** sources. The diverse-source read **largely confirmed** the scores — evidence the framework is robust to dropping the Anglophone lean — with only minor refinements (China trade-as-dependency + structural deflation, Ukraine single-cluster EU accession, a Mexico caveat that the headline homicide drop is partly a disappearances/erasure artifact).
+- **Generalized the base.** Removed the reader-specific **Personal Fit** category and de-calibrated the subject profile so the base is a general, country-level assessment; the `living` weights were rebalanced across the five remaining categories. Personal fit (profession, language, immigration pathway, belonging) is deferred to a future per-reader tool.
+- **Country files are self-contained.** A single country's `flags`, `summary`, and `notes` describe only that country — no cross-country comparisons or relative rankings. All comparative analysis lives in `_comparison-index.json`. (Referencing another state as a factual *actor* — e.g. US tariff actions affecting Canada — is fine; comparing *standings* is not.)
+
 ### Version 2
 
 Added to the v1 baseline:
@@ -275,12 +298,12 @@ These are the default sub-factors and within-category weights. They are a starti
 ### Economic State
 | Sub-factor | Default weight | Notes |
 |---|---|---|
-| fiscal_state | 0.25 | Debt-to-GDP, deficit trajectory, interest burden, reform pathway. Time-split likely. |
-| monetary_independence | 0.25 | Central-bank independence and credibility. |
-| reserve_currency_intl_monetary | 0.20 | International monetary position. Time-split: large near-term positive for reserve issuers, eroding/long-term-negative if privilege is declining. Neutral (0) for non-reserve currencies. |
-| inflation | 0.15 | Direction and management. Deflation can be worse than mild inflation in a debt-heavy economy. |
+| fiscal_state | 0.22 | Debt-to-GDP, deficit trajectory, interest burden, reform pathway. Time-split likely. |
+| monetary_independence | 0.22 | Central-bank independence and credibility. |
+| reserve_currency_intl_monetary | 0.16 | International monetary position. Time-split: large near-term positive for reserve issuers, eroding/long-term-negative if privilege is declining. Neutral (0) for non-reserve currencies. |
+| inflation | 0.13 | Direction and management. Deflation can be worse than mild inflation in a debt-heavy economy. |
 | banking_stability | 0.10 | Capitalization, hidden bad debt, regulator quality. |
-| trade_policy / trade_industrial_capacity | 0.05 | Trade exposure and, for manufacturing powers, industrial capacity. NOTE: 0.05 under-weights genuine manufacturing superpowers; raise it when industrial capacity is a country's defining economic feature, and flag the change. |
+| trade_actions_capacity | 0.17 | Trade scored on four things: (1) trade-policy **actions and volatility** — rapid, unpredictable shifts manufacture hostile foreign-trade relationships, a near-term negative beyond tariff levels; (2) **trajectory over time** — export/import growth and the diversity of goods and partners; (3) **industrial / manufacturing capacity** for manufacturing powers, scored from partner-observable data (customs, port/freight, foreign supply chains) so it survives the source-exclusion rule; (4) **resource-curse / paradox-of-plenty** — penalize resource-dependent economies where extraction crowds out institutions, but NOT resource-rich economies with strong institutions. Raised from the v2.0 default of 0.05 because trade actions move fast and matter for every country, not only manufacturing superpowers; the other economic weights were rebalanced to keep the sum at 1.0. |
 
 ### Institutional State
 | Sub-factor | Default weight | Notes |
@@ -315,17 +338,16 @@ These are the default sub-factors and within-category weights. They are a starti
 | crime_safety | 0.15 | Violent and property crime relative to peers. |
 | disaster_insurance | 0.15 | Natural-disaster exposure and insurance-market function. |
 
-### Personal Fit (individual assessments only)
-A single profession-and-circumstance sub-factor (weight 1.0 within the category) capturing how well the specific person's career and situation transfer: credential recognition, job-market depth for their specialty, language, visa/immigration pathway, salary, and belonging. Time-split where the market outlook differs by horizon.
+### Personal Fit (deferred to a future per-reader tool)
+Reader-specific fit — credential recognition, job-market depth for a specialty, language, visa/immigration pathway, salary, belonging — is **not part of the base**. It cannot be scored once for everyone, so it is deferred to a future tool that asks the reader for profession, language, and similar facts and layers a personal-fit adjustment on top of this general base. The base files carry no `personal_fit` category.
 
 ### Default category weights per decision
-Each row sums to 1.0. Tune to the subject's values; the example below weights institutions and political/social heavily for living, per a subject who prioritizes rule of law and freedom.
+Each row sums to 1.0 across the five base categories (no personal_fit). These are sensible defaults that weight institutions and political/social heavily for living; a future per-reader tool may re-weight them.
 
 | Category | living (5–10y) | assets (3–7y) | currency (1–3y) |
 |---|---|---|---|
 | economic | 0.15 | 0.40 | 0.60 |
-| institutional | 0.30 | 0.25 | 0.20 |
-| political_social | 0.25 | 0.10 | 0.05 |
+| institutional | 0.35 | 0.25 | 0.20 |
+| political_social | 0.30 | 0.10 | 0.05 |
 | geopolitical | 0.05 | 0.15 | 0.15 |
-| physical_practical | 0.10 | 0.10 | 0.00 |
-| personal_fit | 0.15 | 0.00 | 0.00 |
+| physical_practical | 0.15 | 0.10 | 0.00 |

@@ -1,0 +1,250 @@
+{
+  "country": "Switzerland",
+  "iso3": "CHE",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF Art IV, OECD, WJP, RSF, TI) + Swiss official (FSO/BFS, SNB, SECO, Federal Council) + Swiss press (NZZ, Le Temps, SRF).",
+    "Watch-items: the post-Credit-Suisse UBS too-big-to-fail capital fight, and the 14-Jun-2026 SVP population-cap referendum that could threaten EU free movement.",
+    "Source-lean: hard data from non-Anglophone Swiss primaries; real-time political color (referendum polling, UBS) leaned Anglophone."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 5.9,
+      "confidence": 0.84,
+      "skew": "symmetric",
+      "notes": "A top-tier fiscal/monetary anchor with a safe-haven currency; banking concentration and a near-deflation undershoot the watch-items.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 8,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "Debt ~38% GDP with a constitutional debt brake and a 2024 surplus; AAA. (IMF Art IV 2025)"
+        },
+        "monetary_independence": {
+          "score": 9,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "Own currency, a fully independent and highly credible SNB. (SNB)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 3,
+          "weight": 0.16,
+          "confidence": 0.85,
+          "notes": "The franc is a premier global safe haven (small reserve share); persistent appreciation pressure. (IMF COFER; SNB)"
+        },
+        "inflation": {
+          "score": 5,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "Near zero, flirting with deflation (~0.3-0.5% forecast); price stability strong, the undershoot the concern. (FSO; SNB)"
+        },
+        "banking_stability": {
+          "score": 2,
+          "weight": 0.1,
+          "confidence": 0.72,
+          "notes": "Sound but extreme concentration post-Credit-Suisse (UBS balance sheet ~2x GDP); a 2026 Federal Council push for full capital backing of foreign units is contested - too-big-to-fail unresolved. (admin.ch; finews)"
+        },
+        "trade_actions_capacity": {
+          "score_near": 4,
+          "score_long": 6,
+          "score": null,
+          "weight": 0.17,
+          "confidence": 0.75,
+          "notes": "Pharma/precision/finance export strength with stable policy and no resource curse; a 2025 US tariff shock was cut to 15%, materially de-risking it. (SECO)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 8,
+      "confidence": 0.86,
+      "skew": "symmetric",
+      "notes": "Among the world's strongest institutions - direct democracy, independent courts and statistics, strong press freedom.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 9,
+          "weight": 0.35,
+          "confidence": 0.9,
+          "notes": "Global top tier (WJP ~94.6); direct democracy and an independent judiciary. (WJP 2025)"
+        },
+        "statistical_integrity": {
+          "score": 8,
+          "weight": 0.25,
+          "confidence": 0.88,
+          "notes": "The FSO is independent and fully standards-compliant. (FSO)"
+        },
+        "civil_service_capacity": {
+          "score": 7,
+          "weight": 0.25,
+          "confidence": 0.82,
+          "notes": "A high-capacity, rule-bound federalist administration; cantonal fragmentation a minor drag. (OECD)"
+        },
+        "press_freedom": {
+          "score": 7,
+          "weight": 0.15,
+          "confidence": 0.82,
+          "notes": "Strong (RSF ~89); watch-items on investigative-reporting restrictions and public-media funding. (RSF 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 5.9,
+      "confidence": 0.82,
+      "skew": "symmetric",
+      "notes": "Exceptional stability and very strong rights; the immigration/EU free-movement debate the watch-item, and entry is hard for non-Europeans.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 9,
+          "weight": 0.3,
+          "confidence": 0.88,
+          "notes": "A consensus 'magic formula' Federal Council and direct democracy - exceptionally stable. (Swiss Federal Chancellery)"
+        },
+        "civil_liberties": {
+          "score": 8,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "A very strong rights baseline. (WJP)"
+        },
+        "treatment_non_citizens": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.78,
+          "notes": "Very high quality of life, but hard for non-EU/EFTA (annual quotas/permits, slow naturalization ~10+ yrs); EU/EFTA enjoy free movement. (SEM; OECD)"
+        },
+        "social_cohesion": {
+          "score": 6,
+          "weight": 0.15,
+          "confidence": 0.78,
+          "notes": "High institutional trust and durable multilingual/cross-confessional cohesion. (FSO)"
+        },
+        "demographics": {
+          "score_near": 0,
+          "score_long": -2,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.78,
+          "notes": "Ageing, immigration-fed; a June-2026 '10-million' population-cap referendum (polling near-even) threatens EU free movement - a key watch-item. (FSO; SRG)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 5.7,
+      "confidence": 0.81,
+      "skew": "symmetric",
+      "notes": "A stable armed-neutral state with very low conflict exposure and an open wealth hub.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 4,
+          "weight": 0.4,
+          "confidence": 0.78,
+          "notes": "Armed neutrality, non-NATO/non-EU but predictable and stable; an active neutrality-vs-sanctions debate. (FDFA)"
+        },
+        "conflict_involvement": {
+          "score": 8,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "No direct conflict, very low exposure. (observed)"
+        },
+        "sanctions_capital_controls": {
+          "score": 5,
+          "weight": 0.25,
+          "confidence": 0.82,
+          "notes": "Adopted EU Russia sanctions, a fully open capital account, a global wealth hub. (SECO)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 6.2,
+      "confidence": 0.83,
+      "skew": "symmetric",
+      "notes": "World-class infrastructure, healthcare, and safety; the long-run drag is Alpine climate change, and healthcare is expensive.",
+      "sub_factors": {
+        "climate": {
+          "score_near": 1,
+          "score_long": -2,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "Alpine glacier melt and permafrost/rockfall hazard, but highly adaptive and otherwise low extreme exposure. (FOEN/MeteoSwiss)"
+        },
+        "healthcare": {
+          "score": 6,
+          "weight": 0.3,
+          "confidence": 0.85,
+          "notes": "Excellent universal outcomes and access, but among the world's most expensive. (OECD; FOPH)"
+        },
+        "infrastructure": {
+          "score": 9,
+          "weight": 0.2,
+          "confidence": 0.88,
+          "notes": "World-class rail/road/utility reliability. (OECD; FSO)"
+        },
+        "crime_safety": {
+          "score": 8,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "Very low violent crime - a clear strength. (FSO/FEDPOL)"
+        },
+        "disaster_insurance": {
+          "score": 7,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "Strong cantonal building-insurance systems and well-managed Alpine natural-hazard mapping. (FOEN)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 6.58,
+      "confidence": 0.84,
+      "horizon": "5-10y",
+      "reading": "clear positive"
+    },
+    "assets": {
+      "score": 6.46,
+      "confidence": 0.84,
+      "horizon": "3-7y",
+      "reading": "clear positive"
+    },
+    "currency": {
+      "score": 6.31,
+      "confidence": 0.84,
+      "horizon": "1-3y",
+      "reading": "clear positive"
+    }
+  },
+  "summary": "Among the world's strongest profiles: a top-tier debt-brake fiscal position, a fully independent SNB and a safe-haven franc, world-leading rule of law and direct democracy, exceptional political stability, and world-class infrastructure, healthcare, and safety. The drags are post-Credit-Suisse banking concentration (an unresolved too-big-to-fail question), hard immigration access for non-Europeans (with a live free-movement referendum), expensive healthcare, and long-run Alpine climate change."
+}

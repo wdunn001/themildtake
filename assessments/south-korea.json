@@ -1,0 +1,258 @@
+{
+  "country": "South Korea",
+  "iso3": "KOR",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF Art IV, OECD, WJP, RSF, TI) + Korean official (Statistics Korea, Bank of Korea) + independent press.",
+    "NEGATIVE-SKEW case: the world's lowest fertility (~0.75, a locked-in population decline) plus a demonstrated institutional shock (the Dec-2024 martial-law crisis) dominate the tail.",
+    "Source-lean: moderate-to-high Anglophone on the political crisis and North Korea; economic/demographic numbers from Korean/multilateral primaries."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 2.8,
+      "confidence": 0.81,
+      "skew": "negative",
+      "notes": "A credible central bank and an export-tech powerhouse, against ageing-driven fiscal pressure and very high household debt.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": 3,
+          "score_long": -2,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Debt ~48% GDP, crossing 50% in the 2026 budget; the IMF projects ~59% by 2030 on ageing/pension pressure. (IMF 2025 Art IV)"
+        },
+        "monetary_independence": {
+          "score": 6,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "An independent, credible Bank of Korea (2% inflation target). (Bank of Korea)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score_near": 0,
+          "score_long": -1,
+          "score": null,
+          "weight": 0.16,
+          "confidence": 0.8,
+          "notes": "The won is freely traded but not a major reserve currency; no exorbitant privilege. (BoK)"
+        },
+        "inflation": {
+          "score_near": 1,
+          "score_long": 3,
+          "score": null,
+          "weight": 0.13,
+          "confidence": 0.78,
+          "notes": "Back near target (~2.6%), structurally anchored. (Bank of Korea)"
+        },
+        "banking_stability": {
+          "score": 1,
+          "weight": 0.1,
+          "confidence": 0.78,
+          "notes": "The BoK repeatedly flags very high household debt and housing imbalances as the key stability risk; macroprudential tightening underway. (Bank of Korea FSR)"
+        },
+        "trade_actions_capacity": {
+          "score_near": 3,
+          "score_long": 4,
+          "score": null,
+          "weight": 0.17,
+          "confidence": 0.74,
+          "notes": "A semiconductor/auto/shipbuilding export power, no resource curse; a 2025 US deal caps tariffs at 15% but heavy China and US exposure remains. (CRS)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 4.8,
+      "confidence": 0.81,
+      "skew": "negative",
+      "notes": "Strong courts and high state capacity that functioned through the crisis; press freedom slipped sharply.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 5,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "Strong courts (which upheld the impeachment 8-0), though chaebol entanglement and politicized-prosecution dynamics persist. (WJP 2025)"
+        },
+        "statistical_integrity": {
+          "score": 6,
+          "weight": 0.25,
+          "confidence": 0.82,
+          "notes": "Credible Statistics Korea / Bank of Korea data. (Statistics Korea)"
+        },
+        "civil_service_capacity": {
+          "score": 6,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "High competence; institutions functioned through the crisis. (OECD)"
+        },
+        "press_freedom": {
+          "score": 0,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "RSF rank fell sharply to ~61st (2025) on ownership/defamation pressure, losing regional-leader status. (RSF 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 0.2,
+      "confidence": 0.74,
+      "skew": "negative",
+      "notes": "Institutions self-corrected after a martial-law shock, against intense polarization and a locked-in fertility collapse.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": 0,
+          "score_long": 2,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "The Dec-2024 martial-law shock, Yoon's impeachment/removal, and a June-2025 snap election; institutions self-corrected, but the precedent and polarization are now demonstrated risks. (NPR)"
+        },
+        "civil_liberties": {
+          "score": 4,
+          "weight": 0.2,
+          "confidence": 0.78,
+          "notes": "A strong baseline, with some narrowing of expression noted. (WJP 2025)"
+        },
+        "treatment_non_citizens": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.72,
+          "notes": "Work/E-visas and a points-based skilled track make entry feasible, but language scoring, capped quotas, and a thin path to belonging/citizenship are real ceilings. (Korea Immigration Service)"
+        },
+        "social_cohesion": {
+          "score": 1,
+          "weight": 0.15,
+          "confidence": 0.72,
+          "notes": "Intense gender/generational polarization (a stark young-men-vs-women split) offset by high social order. (Carnegie)"
+        },
+        "demographics": {
+          "score_near": -5,
+          "score_long": -8,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.85,
+          "notes": "The world's lowest fertility (~0.75); population declining yearly from 2025, projected ~-30% by 2072. A locked-in negative skew. (Statistics Korea)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 1.2,
+      "confidence": 0.77,
+      "skew": "negative",
+      "notes": "A core US treaty ally facing a persistent North Korea standoff.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 5,
+          "weight": 0.4,
+          "confidence": 0.8,
+          "notes": "A core US treaty ally (defense spend +7.5% FY2026), with some tariff/cost-sharing friction. (CRS)"
+        },
+        "conflict_involvement": {
+          "score": -5,
+          "weight": 0.35,
+          "confidence": 0.72,
+          "notes": "A North Korea nuclear/artillery standoff and 'hostile two states' doctrine; a persistent live tail risk. (CRS; UN)"
+        },
+        "sanctions_capital_controls": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "An open capital account, G7-aligned, no domestic controls. (observed)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 3.4,
+      "confidence": 0.78,
+      "skew": "negative",
+      "notes": "World-class infrastructure, healthcare, and very low crime, against ageing-driven cost strain.",
+      "sub_factors": {
+        "climate": {
+          "score_near": -1,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.72,
+          "notes": "Typhoons and intensifying heat/flood. (observed)"
+        },
+        "healthcare": {
+          "score": 5,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "Excellent universal NHI with strong outcomes; ageing-driven cost strain (reserves projected to deplete ~2030). (OECD)"
+        },
+        "infrastructure": {
+          "score": 6,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "World-class transit, broadband, and utilities. (observed)"
+        },
+        "crime_safety": {
+          "score": 7,
+          "weight": 0.15,
+          "confidence": 0.82,
+          "notes": "A genuine strength: homicide ~0.6/100k. (World Bank)"
+        },
+        "disaster_insurance": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.72,
+          "notes": "Moderate seismic, typhoon/flood exposure with strong state response capacity. (observed)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 2.64,
+      "confidence": 0.78,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 2.68,
+      "confidence": 0.79,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 2.83,
+      "confidence": 0.8,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "An export-tech powerhouse with strong courts and state capacity, world-class infrastructure and healthcare, very low crime, and a credible central bank. But the outcome distribution skews negative: the world's lowest fertility (a locked-in population decline), a demonstrated institutional shock (the 2024 martial-law crisis), very high household debt, a persistent North Korea standoff, and a thin path to belonging for foreigners."
+}

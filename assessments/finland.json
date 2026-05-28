@@ -1,0 +1,256 @@
+{
+  "country": "Finland",
+  "iso3": "FIN",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF, OECD, Eurostat, WJP, RSF, TI) + Finnish official (Statistics Finland, Bank of Finland, Migri) + Finnish press (Yle).",
+    "Standout drags: a fiscal deterioration / weak growth, a locked-in demographic decline, and a real Russia-border tail; the world's happiest country with top-tier institutions otherwise.",
+    "Source-lean: moderate Anglophone on hybrid-threat and happiness framing; macro data from Finnish/multilateral primaries."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 2.1,
+      "confidence": 0.82,
+      "skew": "negative",
+      "notes": "Eurozone monetary credibility and sound banks, against a genuine fiscal/growth deterioration.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": -1,
+          "score_long": -2,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "A widening deficit (~4.5% GDP) and debt approaching ~95% after a 2025 technical recession; the IMF warns of eroding debt-sustainability confidence. (IMF Art IV; Bank of Finland)"
+        },
+        "monetary_independence": {
+          "score": 5,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "Eurozone - the ECB is credible and independent; no national control. (ECB)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 2,
+          "weight": 0.16,
+          "confidence": 0.85,
+          "notes": "Eurozone member; the euro is the #2 global reserve currency, a modest shared benefit. (IMF COFER)"
+        },
+        "inflation": {
+          "score": 3,
+          "weight": 0.13,
+          "confidence": 0.8,
+          "notes": "HICP near the ECB target (~2.4%), with a contained early-2026 electricity spike. (ECB; Statistics Finland)"
+        },
+        "banking_stability": {
+          "score": 4,
+          "weight": 0.1,
+          "confidence": 0.75,
+          "notes": "A sound, well-capitalised Nordic system; the watch-item is wholesale-funding reliance and Nordic-Baltic interconnection. (IMF; Bank of Finland)"
+        },
+        "trade_actions_capacity": {
+          "score_near": 0,
+          "score_long": 1,
+          "score": null,
+          "weight": 0.17,
+          "confidence": 0.7,
+          "notes": "Forestry/tech/machinery exports; the lost Russian market (absorbed) post-2022; stable policy, no resource curse. (OECD)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 7.3,
+      "confidence": 0.86,
+      "skew": "symmetric",
+      "notes": "Among the world's strongest institutions - top-tier rule of law, statistics, civil service, and press freedom.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 7,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "WJP ~#3 globally; strong judicial independence. (WJP 2026)"
+        },
+        "statistical_integrity": {
+          "score": 8,
+          "weight": 0.25,
+          "confidence": 0.9,
+          "notes": "Statistics Finland is independent and uncompromised. (WJP; EC)"
+        },
+        "civil_service_capacity": {
+          "score": 7,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "Professional, high-capacity (CPI #2 globally). (Transparency Intl 2025)"
+        },
+        "press_freedom": {
+          "score": 7,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "RSF ~#6, top-tier, with a slight global-trend dip. (RSF 2026)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 3.7,
+      "confidence": 0.81,
+      "skew": "negative",
+      "notes": "The world's happiest, highest-trust society, against labor unrest, a tightening migration stance, and a locked-in demographic decline.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 4,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "A stable Orpo center-right coalition (thin majority), with recurring multi-sector strikes over labor/strike-law reform. (Yle)"
+        },
+        "civil_liberties": {
+          "score": 7,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Consistently among the freest, with strong protections. (WJP; RSF)"
+        },
+        "treatment_non_citizens": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "A functional skilled path (EU Blue Card, specialist permits), but real 2024-26 tightening (higher pay floors, longer PR, a language test); work permits down. (Migri; TEM)"
+        },
+        "social_cohesion": {
+          "score_near": 6,
+          "score_long": 3,
+          "score": null,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "#1 World Happiness for years running with very high trust, but an immigration debate and youth-wellbeing decline pull the long horizon down. (World Happiness Report 2026)"
+        },
+        "demographics": {
+          "score_near": -3,
+          "score_long": -5,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.85,
+          "notes": "TFR ~1.26-1.3 (record-low band); the only Nordic with natural decrease - a locked-in long-term negative. (Statistics Finland)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 2.1,
+      "confidence": 0.83,
+      "skew": "negative",
+      "notes": "A strong new NATO member with a real Russia-border/hybrid-threat tail.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 6,
+          "weight": 0.4,
+          "confidence": 0.85,
+          "notes": "A NATO member since 2023, with Forward Land Forces presence forming. (NATO)"
+        },
+        "conflict_involvement": {
+          "score_near": -4,
+          "score_long": -4,
+          "score": null,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "A ~1,340 km Russia border closed indefinitely, with instrumentalized-migration and GPS-jamming hybrid threats - a real elevated tail. (Finnish Interior Ministry; Yle)"
+        },
+        "sanctions_capital_controls": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "EU regime, open capital account, no controls. (EC)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 4.7,
+      "confidence": 0.76,
+      "skew": "symmetric",
+      "notes": "Low climate exposure, excellent infrastructure, and very low crime; healthcare strong with access waits.",
+      "sub_factors": {
+        "climate": {
+          "score_near": 3,
+          "score_long": 4,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "A cold-climate relative beneficiary with low extreme-weather exposure. (World Bank CKP)"
+        },
+        "healthcare": {
+          "score": 4,
+          "weight": 0.3,
+          "confidence": 0.78,
+          "notes": "Universal and strong, but with access waits, a 2023 county-reform strain, and 2025 copay hikes. (THL; OECD)"
+        },
+        "infrastructure": {
+          "score": 6,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Excellent and reliable. (World Bank; OECD)"
+        },
+        "crime_safety": {
+          "score": 6,
+          "weight": 0.15,
+          "confidence": 0.78,
+          "notes": "Very low - a strength; a minor 2025 uptick off a low base. (Police/Statistics Finland)"
+        },
+        "disaster_insurance": {
+          "score": 5,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Low natural-catastrophe exposure; insurable. (World Bank)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 4.64,
+      "confidence": 0.82,
+      "horizon": "5-10y",
+      "reading": "clear positive"
+    },
+    "assets": {
+      "score": 3.79,
+      "confidence": 0.82,
+      "horizon": "3-7y",
+      "reading": "clear positive"
+    },
+    "currency": {
+      "score": 3.23,
+      "confidence": 0.83,
+      "horizon": "1-3y",
+      "reading": "clear positive"
+    }
+  },
+  "summary": "Among the world's strongest institutions, the highest-trust and happiest society, low crime, low climate exposure, and eurozone monetary credibility. The drags are a genuine fiscal/growth deterioration, a locked-in demographic decline (the only Nordic in natural decrease), a tightening migration stance, and a real Russia-border/hybrid-threat geopolitical tail as a new NATO member."
+}

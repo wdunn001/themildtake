@@ -1,0 +1,262 @@
+{
+  "country": "Greece",
+  "iso3": "GRC",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: triangulated across multilateral bodies (IMF, OECD, Eurostat, RSF, World Justice Project, EIOPA, EEA, ECtHR) + Greek official (ELSTAT, Bank of Greece) + Greek/EU press.",
+    "The fiscal turnaround (primary surpluses, regained investment grade) is the standout positive; the lowest press freedom in the EU, severe climate exposure, and demographics are the standout negatives.",
+    "Source-lean: press-freedom and migration factors leaned partly on rights-NGO/Anglophone framing, corroborated by RSF and European-court rulings."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 3.6,
+      "confidence": 0.81,
+      "skew": "positive",
+      "notes": "A post-crisis turnaround: large primary surpluses, fast-falling (if still high) debt, recapitalized banks, and a world-leading merchant fleet.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": 5,
+          "score_long": 4,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "A post-crisis turnaround: large primary surpluses, debt high (~150% GDP) but falling fast, and regained investment-grade ratings (2023-24). (IMF Art IV; DBRS)"
+        },
+        "monetary_independence": {
+          "score": 5,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Eurozone - the ECB is credible and independent; no national control. (ECB)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 2,
+          "weight": 0.16,
+          "confidence": 0.85,
+          "notes": "Eurozone member; the euro is the #2 global reserve currency, a modest shared benefit. (IMF COFER)"
+        },
+        "inflation": {
+          "score_near": 1,
+          "score_long": 3,
+          "score": null,
+          "weight": 0.13,
+          "confidence": 0.7,
+          "notes": "Reaccelerated to ~4.6% YoY (Apr 2026) on housing/utilities; expected to converge to target long-term. (Eurostat; ECB)"
+        },
+        "banking_stability": {
+          "score": 5,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "Four systemic banks recapitalized; NPLs down to ~3.3% (from crisis peaks above 40%), CET1 ~15%, returning to profit. (Bank of Greece FSR 2026)"
+        },
+        "trade_actions_capacity": {
+          "score_near": 2,
+          "score_long": 3,
+          "score": null,
+          "weight": 0.17,
+          "confidence": 0.75,
+          "notes": "A world-leading merchant fleet and record tourism, plus exports; stable EU-delegated policy; no resource curse; a goods-trade deficit the offset. (INSETE; UNCTAD)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 1.7,
+      "confidence": 0.79,
+      "skew": "negative",
+      "notes": "Credible (post-reform) statistics and improving digital government, against weak rule of law and the lowest press freedom in the EU.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 1,
+          "weight": 0.35,
+          "confidence": 0.75,
+          "notes": "WJP ~48/143, weak on order and security; the Predator surveillance scandal and the Tempi train-disaster accountability crisis are live concerns. (WJP 2025; HRW 2026)"
+        },
+        "statistical_integrity": {
+          "score": 5,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "ELSTAT has been independent and ESS-compliant since the post-2010 reforms, with consecutive Eurostat validations; the historical 'Greek statistics' problem is resolved. (Eurostat)"
+        },
+        "civil_service_capacity": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "EU-leading digitalization via gov.gr and RRF funds, against a deep clientelism legacy. (OECD 2025)"
+        },
+        "press_freedom": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "RSF ranks Greece low for the EU (89th, 2025): journalist surveillance, the unsolved Karaivaz murder, and ownership concentration. (RSF 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 0.4,
+      "confidence": 0.73,
+      "skew": "negative",
+      "notes": "A stable single-party majority under protest pressure, with lawful investor residency, against steep demographic decline.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": 1,
+          "score_long": 2,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "A single-party majority that survived a censure motion, but huge Tempi-disaster protests and recurring general strikes. Stable but pressured. (Al Jazeera; Euronews)"
+        },
+        "civil_liberties": {
+          "score": 0,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Speech and assembly broadly protected, but the surveillance scandal, police-violence findings, and asylum-access suspensions erode the floor. (WJP; HRW 2026)"
+        },
+        "treatment_non_citizens": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "Lawful, durable routes (a Golden Visa with 2024 threshold increases; a digital-nomad visa), with friction at the asylum margin. (EY)"
+        },
+        "social_cohesion": {
+          "score": -1,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "A migration frontline: a 2025 European-court ruling against systematic pushbacks and an asylum-access suspension; strained, not fractured. (ECtHR; Amnesty)"
+        },
+        "demographics": {
+          "score_near": -3,
+          "score_long": -5,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "Severe: fertility ~1.32, births down sharply, a shrinking and ageing population, and crisis-era brain drain of mostly young emigrants. (ELSTAT)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 2.5,
+      "confidence": 0.78,
+      "skew": "negative",
+      "notes": "A reliable NATO/EU member, with structural Turkey tensions as a recurring negative-skew tail.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 5,
+          "weight": 0.4,
+          "confidence": 0.8,
+          "notes": "A NATO and committed EU member with high defence spending and deepening regional partnerships. (NATO)"
+        },
+        "conflict_involvement": {
+          "score_near": -1,
+          "score_long": -1,
+          "score": null,
+          "weight": 0.35,
+          "confidence": 0.75,
+          "notes": "Structural tensions with Turkey (airspace, the Aegean, Cyprus, the eastern Mediterranean), periodically acute amid a fragile detente; no active conflict, but a negative-skew tail. (FDD)"
+        },
+        "sanctions_capital_controls": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "An EU sanctions participant; the 2015 capital controls were fully lifted in 2019. (EC; Bank of Greece)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -0.8,
+      "confidence": 0.76,
+      "skew": "negative",
+      "notes": "Low crime and improving (EU-funded) infrastructure, against severe and worsening climate exposure and an austerity-hollowed health system.",
+      "sub_factors": {
+        "climate": {
+          "score_near": -4,
+          "score_long": -6,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Severe and worsening: record 2023 wildfires and Storm Daniel floods, recurrent record heat; among Europe's most climate-exposed. (EEA; WWA)"
+        },
+        "healthcare": {
+          "score": -1,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "The universal ESY system was hollowed by austerity: high unmet need, low satisfaction, high out-of-pocket costs, and staffing gaps. (OECD Health Profile 2025)"
+        },
+        "infrastructure": {
+          "score_near": 1,
+          "score_long": 2,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Improving via RRF/EU funds and digital leadership, but the Tempi disaster exposed deep rail-safety neglect. Net improving. (EC)"
+        },
+        "crime_safety": {
+          "score": 4,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "Low violent crime, mostly petty theft in tourist hubs; the crime index has fallen for years. (GPI 2025)"
+        },
+        "disaster_insurance": {
+          "score_near": -3,
+          "score_long": -4,
+          "score": null,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "Among the EU's highest protection gaps - residential flood and earthquake cover very low against severe wildfire/flood/seismic exposure. (EIOPA)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 1.27,
+      "confidence": 0.77,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 2.23,
+      "confidence": 0.79,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 2.89,
+      "confidence": 0.8,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A striking post-crisis fiscal turnaround - large primary surpluses, fast-falling (if still high) debt, regained investment grade, recapitalized banks - alongside a world-leading merchant fleet and record tourism. The drags are weak rule of law (a surveillance scandal, the Tempi-disaster accountability crisis), the lowest press freedom in the EU, severe and worsening climate exposure, an austerity-hollowed health system, and steep demographic decline. Tensions with Turkey are a recurring negative-skew tail."
+}

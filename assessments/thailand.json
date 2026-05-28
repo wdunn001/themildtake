@@ -1,0 +1,258 @@
+{
+  "country": "Thailand",
+  "iso3": "THA",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF Article IV, World Bank, WJP, RSF, V-Dem) + Thai official (Bank of Thailand, NESDC) + independent/regional press (Bangkok Post, Nikkei Asia).",
+    "Media constraint: Thai domestic outlets operate under the lese-majeste (Article 112) and defamation laws; governance/politics/press were scored on observable ACTIONS (court rulings, sentences, prosecution counts) cross-checked against international rights monitors, not domestic framing.",
+    "Standout drags: chronic political/judicial instability, restricted civil liberties, an active border conflict, and a hard demographic/belonging ceiling."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 2.5,
+      "confidence": 0.83,
+      "skew": "negative",
+      "notes": "A credible central bank and a diversified export/tourism base, against slow growth, deflation risk, narrowing fiscal space, and very high household debt.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": 2,
+          "score_long": 1,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Public debt ~65% GDP and approaching the ceiling; space narrowing; 2025 stimulus targeted; the IMF urges consolidation. (IMF 2025 Art IV)"
+        },
+        "monetary_independence": {
+          "score": 5,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "The Bank of Thailand runs a credible managed float; recent easing is data-driven but coincides with government pressure to cut - genuine independence with friction. (BoT; IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.9,
+          "notes": "The baht is an own currency, not a reserve currency. (IMF)"
+        },
+        "inflation": {
+          "score": 3,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "Headline near zero/slightly negative (~-0.1% in 2025), below target; a deflationary risk slightly caps the positive. (BoT; IMF)"
+        },
+        "banking_stability": {
+          "score": 2,
+          "weight": 0.1,
+          "confidence": 0.78,
+          "notes": "Well-capitalised and judged resilient, but household debt ~90% GDP and an impaired credit channel are material risks. (IMF 2025 Art IV; BoT)"
+        },
+        "trade_actions_capacity": {
+          "score_near": 2,
+          "score_long": 3,
+          "score": null,
+          "weight": 0.17,
+          "confidence": 0.75,
+          "notes": "A diversified auto/electronics export base plus tourism, no resource curse; the US reciprocal tariff settled at 19% (off a threatened 36%); a strong baht and over-reliance on exports the offsets. (USTR; BoT)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 0.1,
+      "confidence": 0.73,
+      "skew": "negative",
+      "notes": "Usable economic data and a competent central bank, against a politicized judiciary and a constrained press.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -3,
+          "weight": 0.35,
+          "confidence": 0.75,
+          "notes": "WJP 77/143, below the regional average; the judiciary is repeatedly used to remove elected PMs and dissolve parties - politicized on political matters, though commercial law functions. (WJP 2025; HRW)"
+        },
+        "statistical_integrity": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "Economic data is IMF-validated and usable. (IMF 2025 Art IV; BoT)"
+        },
+        "civil_service_capacity": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "A competent central bank/technocracy with uneven delivery and rural gaps. (IMF; WJP)"
+        },
+        "press_freedom": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.78,
+          "notes": "RSF 85/180 (best in ASEAN) but the lese-majeste law (15-year sentences) hangs over every outlet, forcing self-censorship. (RSF 2025; OHCHR)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -1.6,
+      "confidence": 0.77,
+      "skew": "negative",
+      "notes": "Chronic instability and restricted civil liberties; easy lawful entry but a hard belonging ceiling and a serious demographic drag.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -5,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "The PM was removed by the Constitutional Court in Aug-2025 (the fifth PM ousted by judges since 2008); monarchy/military influence persists - clearly volatile. (Time; Al Jazeera 2025)"
+        },
+        "civil_liberties": {
+          "score": -4,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "285+ lese-majeste prosecutions since 2014, with multi-decade sentences and free-speech imprisonments into 2026. (HRW 2026; OHCHR)"
+        },
+        "treatment_non_citizens": {
+          "score_near": 4,
+          "score_long": -2,
+          "score": null,
+          "weight": 0.25,
+          "confidence": 0.78,
+          "notes": "LTR/Elite/retirement visas give easy lawful entry on income/wealth, but with no path to citizenship/belonging and work restrictions - a hard ceiling. (Thai visa rules)"
+        },
+        "social_cohesion": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "A persistent southern (Malay-Muslim) insurgency plus deep political/regional polarization. (HRW)"
+        },
+        "demographics": {
+          "score_near": 0,
+          "score_long": -5,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "Ageing fast with fertility ~1.0-1.2 - 'old before rich,' a real long-term drag. (UN; IMF 2025)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -0.2,
+      "confidence": 0.66,
+      "skew": "negative",
+      "notes": "A reliable-but-hedging US ally with an active border conflict.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 2,
+          "weight": 0.4,
+          "confidence": 0.6,
+          "notes": "A US treaty ally that hedges China heavily - reliable but non-aligned. (observed)"
+        },
+        "conflict_involvement": {
+          "score_near": -4,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "A 2025 Cambodia border war (100+ dead, ~500k displaced) with a fragile Dec-2025 ceasefire, Myanmar-border spillover, and the southern insurgency. (NPR/CNN Dec-2025)"
+        },
+        "sanctions_capital_controls": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "A relatively open capital account; the BoT tightened baht monitoring in 2025 but with no hard controls. (BoT; IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 2,
+      "confidence": 0.71,
+      "skew": "negative",
+      "notes": "Standout affordable universal healthcare and decent core infrastructure, against serious flood/heat exposure.",
+      "sub_factors": {
+        "climate": {
+          "score_near": -3,
+          "score_long": -6,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Recurrent floods (a 2011 mega-flood legacy), extreme heat, and Bangkok subsidence plus sea-level rise. (IMF; observed)"
+        },
+        "healthcare": {
+          "score": 6,
+          "weight": 0.3,
+          "confidence": 0.78,
+          "notes": "Strong, affordable, with universal coverage and a medical-tourism hub. (IMF; observed)"
+        },
+        "infrastructure": {
+          "score": 3,
+          "weight": 0.2,
+          "confidence": 0.72,
+          "notes": "Bangkok strong (transit, airports, telecom); rural areas uneven. (observed)"
+        },
+        "crime_safety": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "Moderate; generally safe for residents and visitors. (observed)"
+        },
+        "disaster_insurance": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Material flood exposure; the market is developing post-2011. (observed)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -0.27,
+      "confidence": 0.75,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 1.02,
+      "confidence": 0.76,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 1.49,
+      "confidence": 0.78,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "Easy lawful entry, excellent affordable universal healthcare, and a credible central bank, set against chronic political and judicial instability (PMs repeatedly removed by the courts), restricted civil liberties under the lese-majeste law, an active border conflict, and a hard demographic and belonging ceiling. Serious flood/heat exposure adds physical risk."
+}
