@@ -10,16 +10,21 @@ services:
       dockerfile: Dockerfile
       args:
         # Public origin baked into canonical URLs / JSON-LD / sitemap.
-        PUBLIC_SITE_URL: ${PUBLIC_SITE_URL:-https://themildtake.example}
+        PUBLIC_SITE_URL: ${PUBLIC_SITE_URL:-https://themildtake.com}
     image: themildtake:latest
     restart: unless-stopped
     expose:
       - "80"
     environment:
-      VIRTUAL_HOST: ${PROXY_THEMILDTAKE_HOSTS:-themildtake.example}
+      # jwilder/nginx-proxy auto-routes these hosts to this container; the
+      # acme-companion provisions the TLS cert for LETSENCRYPT_HOST. DNS for each
+      # host must resolve to the proxy host (192.168.1.198) BEFORE `compose up`,
+      # or cert issuance fails. To also serve www, set
+      # PROXY_THEMILDTAKE_HOSTS=themildtake.com,www.themildtake.com (and point www DNS).
+      VIRTUAL_HOST: ${PROXY_THEMILDTAKE_HOSTS:-themildtake.com}
       VIRTUAL_PORT: "80"
-      LETSENCRYPT_HOST: ${PROXY_THEMILDTAKE_HOSTS:-themildtake.example}
-      LETSENCRYPT_EMAIL: ${LETSENCRYPT_EMAIL:-admin@themildtake.example}
+      LETSENCRYPT_HOST: ${PROXY_THEMILDTAKE_HOSTS:-themildtake.com}
+      LETSENCRYPT_EMAIL: ${LETSENCRYPT_EMAIL:-wdunn001@gmail.com}
     networks:
       - nginx-proxy
     healthcheck:
