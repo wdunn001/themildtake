@@ -1,0 +1,250 @@
+{
+  "country": "Benin",
+  "iso3": "BEN",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF EFF/ECF/RSF reviews, World Bank, V-Dem, Freedom House, RSF, TI) + international press (Reuters, AFP, France 24, Washington Post, Al Jazeera) and UN Security Council/ICG on Sahel spillover.",
+    "Macro star, political backslider: ~7.5% growth and an on-track IMF program against a decade of Talon-era opposition exclusion, jailed opponents, and an April-2026 succession election (Wadagni ~94%) that observers called neither free nor fair; the WAEMU CFA franc is pegged to the euro.",
+    "Standout features: standout WAEMU macro performance and the GDIZ industrialization push; a hollowed-out competitive electoral process; and a sharp 2025 JNIM jihadist surge in the north (April attack the deadliest in a decade)."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 2,
+      "confidence": 0.83,
+      "skew": "positive",
+      "notes": "Standout WAEMU macro performance - ~7.5% growth, deficit at the 3% norm, low peg-anchored inflation - with cotton/oil-transit concentration the main risk.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": 3,
+          "score_long": 2,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Frontloaded consolidation cut the deficit to ~3.1% of GDP in 2024, meeting the WAEMU 3% norm a year early; debt revised up to ~60.5% of GDP but moderate-risk under an on-track EFF/ECF/RSF program. (IMF Feb-2026)"
+        },
+        "monetary_independence": {
+          "score": 2,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "The CFA-franc euro peg delivers credibility but zero autonomy under a France-guaranteed, BCEAO-pooled regime. (BCEAO/IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The CFA franc is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 4,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "Low and peg-anchored (~1-3%) - a structural strength. (IMF)"
+        },
+        "banking_stability": {
+          "score": 1,
+          "weight": 0.1,
+          "confidence": 0.65,
+          "notes": "Sound within the WAEMU framework, with sovereign-exposure concentration the main watch-item. (IMF)"
+        },
+        "trade_actions_capacity": {
+          "score": 2,
+          "weight": 0.17,
+          "confidence": 0.75,
+          "notes": "Africa's top cotton producer moving up the value chain via the GDIZ zone (raw-cotton export ban from May 2025) and a Niger-oil transit pipeline; offset by commodity concentration and the closed Niger border. (IMF; France 24; African Energy)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -0.3,
+      "confidence": 0.76,
+      "skew": "negative",
+      "notes": "Strong macro/statistical capacity and civil service, undercut by an instrumentalized judiciary and a sharply pressured press.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -3,
+          "weight": 0.35,
+          "confidence": 0.78,
+          "notes": "Courts used against opponents - the CRIET special court jailed presidential hopefuls and, in Jan-2025, sentenced Talon ally Boko and ex-minister Homeky to 20 years over an alleged coup plot. (HRW; Reuters; AFP)"
+        },
+        "statistical_integrity": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "Strong and IMF-engaged through frequent program reviews. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "Comparatively capable and reform-driven, anchoring the GDIZ and fiscal-management gains. (IMF/World Bank)"
+        },
+        "press_freedom": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "Sharply eroded over the Talon decade - digital-code prosecutions of journalists and a poor RSF standing. (RSF)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -2.3,
+      "confidence": 0.7,
+      "skew": "negative",
+      "notes": "Competitive politics hollowed out by opposition exclusion, atop a young population and a stressed northern periphery.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -4,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "An April-2026 succession election handed Talon's finance minister Wadagni ~94% with no credible opposition on the ballot - observers called it neither free nor fair; orderly but legitimacy-thin. (Washington Post; France 24)"
+        },
+        "civil_liberties": {
+          "score": -4,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Eroded - opposition figures jailed or exiled, candidacy rules (15% MP/mayor endorsements) used to lock out rivals, and curbs on assembly and expression. (Freedom House; V-Dem)"
+        },
+        "treatment_non_citizens": {
+          "score": 0,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "No systematic abuse of foreigners; regional migration and Niger-border refugee/displacement pressures are the main strain. (UNHCR; observed)"
+        },
+        "social_cohesion": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Generally cohesive, but a north-south and Fulani-grievance fault line that jihadists are exploiting. (ICG)"
+        },
+        "demographics": {
+          "score_near": 2,
+          "score_long": 0,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.75,
+          "notes": "Very young and fast-growing - a dividend with a heavy jobs strain. (UN)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -0.7,
+      "confidence": 0.77,
+      "skew": "negative",
+      "notes": "A Western-aligned ECOWAS member but on the front line of southward Sahel jihadist spillover and a Niger-border standoff.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 2,
+          "weight": 0.4,
+          "confidence": 0.75,
+          "notes": "A stable Western/EU- and US-aligned ECOWAS member, though the Niger junta dispute strained a key neighbor. (observed)"
+        },
+        "conflict_involvement": {
+          "score": -5,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "A severe 2025 JNIM surge in the north - ~35 soldiers killed in Jan, ~54 in April (the deadliest attack in a decade), drawing a UN Security Council statement. (UN; ICG; Critical Threats)"
+        },
+        "sanctions_capital_controls": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "An open WAEMU/CFA regime, unsanctioned; the closed Niger border is a bilateral friction. (IMF; observed)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -2,
+      "confidence": 0.63,
+      "skew": "negative",
+      "notes": "Improving logistics around Cotonou and the GDIZ, against flood/coastal climate exposure, a weak health system, and northern insecurity.",
+      "sub_factors": {
+        "climate": {
+          "score": -4,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "Coastal erosion, seasonal flooding, and northern drought/desertification; an IMF Resilience and Sustainability Facility addresses it. (IMF RSF; World Bank)"
+        },
+        "healthcare": {
+          "score": -3,
+          "weight": 0.3,
+          "confidence": 0.6,
+          "notes": "Weak and underfunded, with low coverage and reliance on external support. (World Bank/WHO)"
+        },
+        "infrastructure": {
+          "score": 1,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Improving - the Cotonou port, GDIZ, and the Niger transit pipeline - though northern roads and power lag. (AfDB; World Bank)"
+        },
+        "crime_safety": {
+          "score": -1,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Moderate in the south; the north carries jihadist/kidnapping and travel-advisory risk. (OSAC; observed)"
+        },
+        "disaster_insurance": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Low penetration against flood exposure. (observed)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -0.74,
+      "confidence": 0.73,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 0.28,
+      "confidence": 0.77,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 1.01,
+      "confidence": 0.8,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "Benin is a WAEMU macro star paired with a political backslider. Talon's decade delivered ~7.5% growth (its highest yet), a deficit cut to the 3% regional norm a year early, low euro-peg-anchored inflation, an on-track IMF EFF/ECF/RSF program, and a genuine industrialization push via the Glo-Djigbe (GDIZ) zone and a Niger-oil transit pipeline. But competitive politics has been hollowed out: opposition figures jailed (the CRIET court) or exiled, candidacy rules weaponized, and an April-2026 succession election that handed finance minister Wadagni ~94% with no credible opponent and was judged neither free nor fair. A sharp 2025 JNIM jihadist surge in the north - the April attack the deadliest in a decade - plus a weak health system and flood exposure round out a negatively skewed profile where strong assets/currency fundamentals sit beside poor governance and security tails."
+}

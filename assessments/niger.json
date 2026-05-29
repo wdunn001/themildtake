@@ -1,0 +1,252 @@
+{
+  "country": "Niger",
+  "iso3": "NER",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: governance/politics rebuilt from independent/multilateral sources (IMF Art IV/ECF/RSF, World Bank MPO, UN/OCHA/UNHCR, V-Dem, Freedom House 2026, RSF 2026, HRW, ACLED, Crisis Group) + international press (Reuters/AFP/Al Jazeera/France 24); junta/state media EXCLUDED on governance, rights, and security claims.",
+    "Data limitation: a data-poor conflict state; security figures and post-coup macro data are external estimates with reduced confidence; the CFA franc is euro-pegged via BCEAO with a French convertibility guarantee.",
+    "Standout drags: a July-2023 coup junta that detains ex-president Bazoum and dissolved all parties, a uranium nationalization (Somair/Orano) drawing adverse international rulings, and a Western security exit (US Agadez drone base and French troops gone) toward Russia; the oil-export ramp via the Benin pipeline is the rare upside. Net: negative."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -0.4,
+      "confidence": 0.74,
+      "skew": "negative",
+      "notes": "An oil-driven growth ramp and CFA stability, offset by high debt distress, uranium-dispute risk, and post-coup financing strain.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": -4,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.65,
+          "notes": "At 'high' risk of debt distress with ~47-52% of GDP debt, arrears, and tight financing, though oil revenue and an IMF ECF arrangement provide some anchor. (IMF ECF/Art IV 2025; World Bank MPO)"
+        },
+        "monetary_independence": {
+          "score": 2,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "The CFA-franc euro peg gives stability and a French convertibility guarantee but zero autonomy, under the regional BCEAO. (IMF/BCEAO)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The CFA franc is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 2,
+          "weight": 0.13,
+          "confidence": 0.7,
+          "notes": "Peg-anchored and receding toward the ceiling (~4% 2025, easing), elevated only by food/conflict shocks. (IMF; World Bank MPO)"
+        },
+        "banking_stability": {
+          "score": -1,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "BCEAO-supervised and peg-backed, but strained by sovereign arrears and post-coup financing conditions. (IMF)"
+        },
+        "trade_actions_capacity": {
+          "score_near": -2,
+          "score_long": 1,
+          "score": null,
+          "weight": 0.17,
+          "confidence": 0.6,
+          "notes": "Crude exports via the China-built Benin pipeline (>$2bn) plus uranium drive a growth ramp, but the Somair/Orano nationalization and an adverse ICSID ruling and recurring pipeline/Benin disputes cap upside. (S&P Global; Reuters; Manara/Discovery)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -5.5,
+      "confidence": 0.69,
+      "skew": "negative",
+      "notes": "A coup junta ruling by decree with detained ex-leadership, dissolved parties, and a repressed press.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -8,
+          "weight": 0.35,
+          "confidence": 0.78,
+          "notes": "Military rule since the July-2023 coup, all parties dissolved, ex-president Bazoum detained without trial (UN found the detention arbitrary). (Freedom House 2026; HRW; UN WGAD)"
+        },
+        "statistical_integrity": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Still IMF-engaged via ECF reviews, but post-coup disruption and oil-data novelty reduce reliability. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": -4,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Weak and underfunded, strained by sanctions-era shocks and the security burden. (World Bank; IMF)"
+        },
+        "press_freedom": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "Sharp post-coup decline, with journalists detained and foreign broadcasters curbed across the Sahel juntas. (RSF 2026; HRW)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -4.6,
+      "confidence": 0.63,
+      "skew": "negative",
+      "notes": "An entrenched junta and spreading insurgency, with large displacement and acute food insecurity.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -5,
+          "score_long": -5,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.65,
+          "notes": "Junta consolidated under Tchiani but illegitimate, with no transition timeline, dissolved parties, and a worsening western/Tillaberi insurgency. (Freedom House 2026; ICG; ACLED)"
+        },
+        "civil_liberties": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Parties dissolved, dissent suppressed, and the deposed president and associates detained. (Freedom House 2026; HRW)"
+        },
+        "treatment_non_citizens": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "Hosts refugees from Mali/Burkina/Nigeria while producing displacement; protection strained by funding cuts. (UNHCR 2025; OCHA)"
+        },
+        "social_cohesion": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Ethnic and farmer-herder tensions amplified by ISGS/ISSP and JNIM violence in the border zones. (ACLED; ICG)"
+        },
+        "demographics": {
+          "score_near": -2,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.65,
+          "notes": "Among the world's highest fertility, straining food, jobs, and services faster than the economy can absorb. (UN; World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -5.1,
+      "confidence": 0.72,
+      "skew": "negative",
+      "notes": "Pivoted from the West to Russia, exited ECOWAS into the AES, with a spreading insurgency and investment-dispute risk.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": -5,
+          "weight": 0.4,
+          "confidence": 0.78,
+          "notes": "Expelled US forces (Agadez base closed Aug-2024) and French troops, exited ECOWAS (Jan-2025) for the Russia-aligned AES - isolated from the West. (Stars and Stripes; France 24; Reuters)"
+        },
+        "conflict_involvement": {
+          "score": -6,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "Rising ISGS/ISSP and JNIM violence in Tillaberi/the tri-border, less catastrophic than Mali/Burkina but worsening. (ACLED; ICG)"
+        },
+        "sanctions_capital_controls": {
+          "score": -4,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "ECOWAS sanctions lifted, but the Somair/Orano nationalization, an adverse ICSID ruling, and immobilized uranium raise expropriation/capital risk. (Reuters; Manara)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -6.8,
+      "confidence": 0.66,
+      "skew": "negative",
+      "notes": "Extreme climate vulnerability, very weak health, sparse infrastructure, and spreading insecurity.",
+      "sub_factors": {
+        "climate": {
+          "score": -8,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Among the most climate-vulnerable states - Sahara-edge drought, desertification, and severe 2024 floods - with low adaptive capacity. (OCHA; FAO; World Bank)"
+        },
+        "healthcare": {
+          "score": -7,
+          "weight": 0.3,
+          "confidence": 0.65,
+          "notes": "Very weak with high child mortality and SAM, aid-dependent and stretched by population growth. (WHO/UNICEF; OCHA)"
+        },
+        "infrastructure": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.6,
+          "notes": "Landlocked and sparse, with the new oil pipeline a bright spot but power access and roads very low. (World Bank; AfDB)"
+        },
+        "crime_safety": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "Insecure in border regions with jihadist attacks, kidnapping, and banditry; Niamey relatively calmer. (ACLED; advisories)"
+        },
+        "disaster_insurance": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Negligible penetration against high climate and conflict exposure. (observed)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -4.51,
+      "confidence": 0.67,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -3.21,
+      "confidence": 0.7,
+      "horizon": "3-7y",
+      "reading": "clear negative"
+    },
+    "currency": {
+      "score": -2.25,
+      "confidence": 0.72,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "Niger has been ruled by a junta under General Tchiani since the July 2023 coup; it detains deposed president Bazoum (the UN found the detention arbitrary), dissolved all political parties, and curbed the press. It expelled the US (closing the $110m Agadez drone base in August 2024) and French forces, exited ECOWAS for the Russia-aligned AES, and turned to Africa Corps. The economy has a genuine upside in the oil-export ramp through the China-built Benin pipeline plus CFA-anchored low inflation, but it sits at 'high' debt distress, and the nationalization of Orano's Somair uranium mine drew an adverse international ruling and left uranium stranded. With external data, a spreading Tillaberi insurgency, extreme climate vulnerability, and very weak health, the picture is negative, though somewhat less acute than Mali or Burkina."
+}

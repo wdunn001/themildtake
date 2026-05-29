@@ -1,0 +1,249 @@
+{
+  "country": "Chad",
+  "iso3": "TCD",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: governance/rights/politics built from independent sources (IMF, World Bank, UNHCR/OCHA, V-Dem, Freedom House, RSF, HRW, Transparency International, ICG, ACLED) + international wire (Reuters/AFP/AP/Al Jazeera); Chadian state media EXCLUDED there, economics IMF-validated.",
+    "A hereditary military regime: Idriss Deby ruled 1990-2021; on his death his son Mahamat Deby took power by junta, then won a contested May 2024 election (~61%) that his own PM-rival Succes Masra rejected as rigged - a dynastic succession dressed as a transition.",
+    "Standout drags: a Sudan-war refugee influx exceeding ~1.2M in the east (one of the world's largest), the Lake Chad Basin Boko Haram/ISWAP insurgency, and among the world's worst poverty (~84% multidimensionally poor) and climate exposure; the 2025 French military withdrawal removes a long-standing security backstop and opens a Russia-courting drift.",
+    "Currency anchor: the Central African CFA franc (CEMAC), hard-pegged to the euro under a French convertibility guarantee - monetary stability without monetary sovereignty; not a reserve currency."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -0.9,
+      "confidence": 0.78,
+      "skew": "negative",
+      "notes": "A peg-anchored, low-inflation but oil-dependent and very low-income economy on an IMF program, with deep fiscal fragility and a resource-curse profile.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": -4,
+          "score_long": -5,
+          "weight": 0.22,
+          "confidence": 0.78,
+          "notes": "On a 2025 IMF ECF arrangement with debt stabilizing near ~32% of GDP and a narrowing non-oil deficit, but heavily oil-revenue-dependent with substantial downside risks. (IMF 2024 Art IV; 2025 ECF/DSA)"
+        },
+        "monetary_independence": {
+          "score": 2,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "No own monetary policy, but the CEMAC CFA franc's hard euro peg with a French convertibility guarantee delivers credible stability in a fragile region. (BEAC; IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.9,
+          "notes": "The CFA franc is a regional currency, not an international reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 3,
+          "weight": 0.13,
+          "confidence": 0.72,
+          "notes": "Low and peg-anchored near the CEMAC norm, though food-price shocks from conflict and refugee strain add volatility. (IMF)"
+        },
+        "banking_stability": {
+          "score": -1,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "Part of the COBAC-supervised CEMAC system - shallow, low credit penetration, but peg-backed. (BEAC; IMF)"
+        },
+        "trade_actions_capacity": {
+          "score": -5,
+          "weight": 0.17,
+          "confidence": 0.72,
+          "notes": "Acute resource-curse profile: oil is ~90% of exports via a single Cameroon pipeline; landlocked, undiversified, minimal industrial base. (IMF; World Bank)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -5.5,
+      "confidence": 0.7,
+      "skew": "negative",
+      "notes": "A personalized dynastic regime with weak rule of law, pervasive corruption, thin state capacity, and a repressed press.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -7,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "Personalized military rule with no judicial independence and entrenched patronage corruption (TI CPI ~21/100, among the world's worst). (Transparency International; Freedom House; V-Dem)"
+        },
+        "statistical_integrity": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Weak capacity but IMF-engaged on macro data; political and conflict-zone data unreliable. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": -5,
+          "weight": 0.25,
+          "confidence": 0.62,
+          "notes": "Patronage-laden and thinly resourced, with little reach into conflict and refugee-hosting peripheries. (World Bank)"
+        },
+        "press_freedom": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.78,
+          "notes": "Restricted press with arrests of journalists - three jailed in 2025 over alleged Wagner ties. (RSF; HRW)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -4.5,
+      "confidence": 0.74,
+      "skew": "negative",
+      "notes": "A dynastic succession over chronic instability, a vast refugee influx, and acute climate-and-conflict stress on social cohesion.",
+      "sub_factors": {
+        "political_stability": {
+          "score": -6,
+          "weight": 0.3,
+          "confidence": 0.78,
+          "notes": "Mahamat Deby inherited power by junta after his father's 2021 death and won a contested 2024 vote rejected as rigged by his rival - dynastic continuity, not a stable settlement. (HRW; Al Jazeera; Reuters)"
+        },
+        "civil_liberties": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.78,
+          "notes": "Rated 'Not Free'; the 2022 'Black Thursday' protest crackdown killed scores, with continued detentions. (Freedom House; HRW; Amnesty)"
+        },
+        "treatment_non_citizens": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.72,
+          "notes": "Hosts over ~1.2M Sudanese refugees plus Boko-Haram-displaced - relatively open borders but at a breaking point with severe underfunding. (UNHCR; OCHA)"
+        },
+        "social_cohesion": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.72,
+          "notes": "North-south and ethnic cleavages, herder-farmer conflict, and Lake Chad insurgency spillover strain an already fragile social fabric. (ICG; ACLED)"
+        },
+        "demographics": {
+          "score": 1,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "Very young and fast-growing - a potential dividend but currently a strain given ~84% multidimensional poverty. (World Bank; UNDP MPI)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -3.2,
+      "confidence": 0.69,
+      "skew": "negative",
+      "notes": "A former French security anchor drifting after the 2025 troop withdrawal, with an active internal insurgency and Sudan-war spillover.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score_near": -3,
+          "score_long": -4,
+          "weight": 0.4,
+          "confidence": 0.6,
+          "notes": "Ended the French military presence in 2025, removing a long-standing backstop and opening a Russia-courting drift, with ambiguous Sudan-conflict alignment (alleged RSF/UAE conduit). (ICG; CRS; Reuters)"
+        },
+        "conflict_involvement": {
+          "score_near": -6,
+          "score_long": -5,
+          "weight": 0.35,
+          "confidence": 0.78,
+          "notes": "Active Lake Chad Basin Boko Haram/ISWAP insurgency plus massive Sudan-war spillover on the eastern border; not a combatant state but heavily destabilized. (ACLED; ICG; UNHCR)"
+        },
+        "sanctions_capital_controls": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Not broadly sanctioned; operates within the CEMAC regional FX framework with its convertibility guarantee. (BEAC; IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -6.6,
+      "confidence": 0.66,
+      "skew": "negative",
+      "notes": "Among the world's harshest physical-risk profiles: extreme climate exposure, near-absent healthcare, minimal infrastructure, and conflict-zone insecurity.",
+      "sub_factors": {
+        "climate": {
+          "score_near": -6,
+          "score_long": -7,
+          "weight": 0.2,
+          "confidence": 0.72,
+          "notes": "Severe Sahelian drought, desertification, Lake Chad shrinkage, and recurrent flooding hit rain-fed subsistence agriculture; among the most climate-vulnerable, least-prepared states. (World Bank; ND-GAIN)"
+        },
+        "healthcare": {
+          "score": -7,
+          "weight": 0.3,
+          "confidence": 0.68,
+          "notes": "Among the world's weakest systems - roughly 3.7 doctors per 100,000, minimal services outside N'Djamena, strained further by refugee inflows. (WHO; World Bank)"
+        },
+        "infrastructure": {
+          "score": -7,
+          "weight": 0.2,
+          "confidence": 0.68,
+          "notes": "Landlocked with very low electrification, sparse paved roads, and dependence on a single export pipeline through Cameroon. (World Bank)"
+        },
+        "crime_safety": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "High insecurity from insurgency, banditry, and intercommunal violence, concentrated in the Lake Chad and eastern border zones. (ACLED; OSAC)"
+        },
+        "disaster_insurance": {
+          "score": -7,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Negligible insurance penetration against high drought/flood exposure. (inference)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -4.55,
+      "confidence": 0.72,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -3.27,
+      "confidence": 0.73,
+      "horizon": "3-7y",
+      "reading": "clear negative"
+    },
+    "currency": {
+      "score": -2.26,
+      "confidence": 0.75,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A Sahelian, landlocked, oil-dependent state run as a hereditary military regime - Idriss Deby ruled three decades until his 2021 death, after which his son Mahamat seized power by junta and legitimized it in a contested 2024 vote his own rival rejected as rigged. The forward picture is heavily negative: an insurgency on Lake Chad, a Sudan-war refugee influx exceeding 1.2 million in the east, among the world's worst poverty and climate exposure, near-absent healthcare and infrastructure, weak rule of law, and a repressed press. The 2025 French military withdrawal removes a long-standing backstop and invites a Russia-courting drift. The only meaningful offsets are the CFA-franc euro peg's monetary stability, low inflation, and an IMF-anchored fiscal program - all real but thin against a deeply fragile base."
+}
