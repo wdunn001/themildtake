@@ -174,7 +174,7 @@
     },
     "geopolitical": {
       "score": -3.8,
-      "confidence": 0.68,
+      "confidence": 0.69,
       "skew": "positive",
       "notes": "A deep US alliance and post-peak conflict with normalisation upside, against high relapse risk and growing isolation - high variance.",
       "sub_factors": {
@@ -186,11 +186,11 @@
         },
         "conflict_involvement": {
           "score_near": -8,
-          "score_long": -3,
+          "score_long": -4,
           "score": null,
           "weight": 0.35,
-          "confidence": 0.7,
-          "notes": "The 2026 US-Israel war on Iran (Operation Epic Fury, from 28 Feb): multi-front strikes across Iran, Hezbollah/Lebanon and Iraq, with ~35 Israeli dead and ~8,600 injured. The two-week 8 Apr ceasefire collapsed by late May (US renewed strikes ~25-26 May); the war has resumed and peace talks are in crisis. Long horizon still holds a normalisation tail if a settlement is eventually reached. (CNN; ISW; Al Jazeera)"
+          "confidence": 0.72,
+          "notes": "Multi-front and escalating. The 2026 US-Israel war on Iran (Operation Epic Fury, from 28 Feb) hit Iran, Hezbollah/Lebanon and Iraq, with ~35 Israeli dead and ~8,600 injured; the two-week 8 Apr ceasefire collapsed by late May (US renewed strikes ~25-26 May). Separately, on 28 May Netanyahu ordered the IDF to seize ~70% of Gaza, well beyond the truce terms and threatening that ceasefire (forces already ~11% past the Yellow Line), deepening international isolation. With both tracks expanding, the long-horizon normalisation tail has weakened. (Guardian; Times of Israel; Al Jazeera; CNN; ISW)"
         },
         "sanctions_capital_controls": {
           "score_near": -2,
@@ -249,36 +249,36 @@
   },
   "decisions": {
     "living": {
-      "score": 1.21,
+      "score": 1.19,
       "confidence": 0.7,
       "horizon": "5-10y",
       "reading": "mixed",
       "trajectory": {
-        "near": 0.59,
-        "mid": 0.9,
-        "long": 1.21
+        "near": 0.58,
+        "mid": 0.89,
+        "long": 1.19
       }
     },
     "assets": {
-      "score": 1.15,
+      "score": 1.11,
       "confidence": 0.72,
       "horizon": "3-7y",
       "reading": "mixed",
       "trajectory": {
-        "near": 0.78,
-        "mid": 1.15,
-        "long": 1.52
+        "near": 0.76,
+        "mid": 1.11,
+        "long": 1.46
       }
     },
     "currency": {
-      "score": 1.1,
+      "score": 1.09,
       "confidence": 0.73,
       "horizon": "1-3y",
       "reading": "mixed",
       "trajectory": {
-        "near": 1.1,
-        "mid": 1.5,
-        "long": 1.9
+        "near": 1.09,
+        "mid": 1.47,
+        "long": 1.84
       }
     }
   },

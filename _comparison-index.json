@@ -559,7 +559,7 @@
           "rank": 54,
           "country": "Israel",
           "iso3": "ISR",
-          "score": 1.21,
+          "score": 1.19,
           "confidence": 0.7,
           "skew": "negative",
           "transparency_tier": "mixed",
@@ -2562,16 +2562,6 @@
         },
         {
           "rank": 61,
-          "country": "Israel",
-          "iso3": "ISR",
-          "score": 1.15,
-          "confidence": 0.72,
-          "skew": "negative",
-          "transparency_tier": "mixed",
-          "transparency_trend": "stable"
-        },
-        {
-          "rank": 62,
           "country": "Paraguay",
           "iso3": "PRY",
           "score": 1.15,
@@ -2581,12 +2571,22 @@
           "transparency_trend": "stable"
         },
         {
-          "rank": 63,
+          "rank": 62,
           "country": "Peru",
           "iso3": "PER",
           "score": 1.14,
           "confidence": 0.73,
           "skew": "symmetric",
+          "transparency_tier": "mixed",
+          "transparency_trend": "stable"
+        },
+        {
+          "rank": 63,
+          "country": "Israel",
+          "iso3": "ISR",
+          "score": 1.11,
+          "confidence": 0.72,
+          "skew": "negative",
           "transparency_tier": "mixed",
           "transparency_trend": "stable"
         },
@@ -4587,20 +4587,20 @@
         },
         {
           "rank": 70,
-          "country": "Israel",
-          "iso3": "ISR",
+          "country": "Slovakia",
+          "iso3": "SVK",
           "score": 1.1,
-          "confidence": 0.73,
+          "confidence": 0.75,
           "skew": "negative",
           "transparency_tier": "mixed",
           "transparency_trend": "stable"
         },
         {
           "rank": 71,
-          "country": "Slovakia",
-          "iso3": "SVK",
-          "score": 1.1,
-          "confidence": 0.75,
+          "country": "Israel",
+          "iso3": "ISR",
+          "score": 1.09,
+          "confidence": 0.73,
           "skew": "negative",
           "transparency_tier": "mixed",
           "transparency_trend": "stable"
