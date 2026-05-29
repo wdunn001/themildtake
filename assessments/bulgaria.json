@@ -1,0 +1,246 @@
+{
+  "country": "Bulgaria",
+  "iso3": "BGR",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF Art IV, EC, Eurostat, ECB, WHO/OECD, WJP, RSF, TI, V-Dem) + Bulgarian official (NSI, Bulgarian National Bank) + Bulgarian/regional press (Novinite, Balkan Insight, OSW).",
+    "Joined the euro on 2026-01-01 (ending the currency board) and full Schengen in 2025; quietly positive macro fundamentals offset by institutional, demographic, and health weaknesses.",
+    "Standout drags: the EU's weakest rule-of-law/corruption record, chronic political instability, the world's fastest-shrinking population, and poor health outcomes; low debt and euro entry are the offsets. Source-lean: MODERATE Anglophone."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 4,
+      "confidence": 0.88,
+      "skew": "positive",
+      "notes": "Very low debt, euro entry, and diversified exports - the quiet strength of the profile.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 5,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "Debt ~30% GDP (among the EU's lowest), though the 2025 deficit (~3.5%) breached the 3% mark; currency-board-disciplined. (Eurostat; IMF Art IV)"
+        },
+        "monetary_independence": {
+          "score": 4,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "A currency board now succeeded by euro adoption (Jan 2026) - policy ECB-pooled, the central bank on the Governing Council. (ECB; BNB)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 2,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "Now a euro member, gaining shared reserve-currency status. (ECB)"
+        },
+        "inflation": {
+          "score": 3,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "Eased to ~2.7% to meet the euro criterion, with some post-changeover pass-through risk. (EC/ECB convergence reports)"
+        },
+        "banking_stability": {
+          "score": 5,
+          "weight": 0.1,
+          "confidence": 0.85,
+          "notes": "Sound, with strong credit growth, now Eurosystem-supervised. (IMF Art IV; BNB)"
+        },
+        "trade_actions_capacity": {
+          "score": 5,
+          "weight": 0.17,
+          "confidence": 0.8,
+          "notes": "Diversified exports (electronics, a large ICT sector), EU single-market and nearshoring; no resource curse. (EC; trade.gov)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -1.3,
+      "confidence": 0.82,
+      "skew": "negative",
+      "notes": "Credible statistics, against the EU's weakest rule-of-law record and oligarchic capture.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -5,
+          "weight": 0.35,
+          "confidence": 0.9,
+          "notes": "Near the EU's bottom - oligarchic capture and near-zero high-level corruption convictions; EU-monitored reform only. (TI CPI; EC Rule of Law Report)"
+        },
+        "statistical_integrity": {
+          "score": 5,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "NSI is Eurostat-compliant and usable. (Eurostat; NSI)"
+        },
+        "civil_service_capacity": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Politicised, with deadlocked appointments and some recovery-fund-driven digitalisation. (EC; BTI 2026)"
+        },
+        "press_freedom": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "Recovered from a near-bottom EU standing but slipped again (RSF ~70th), with SLAPPs and ownership opacity. (RSF 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -0.9,
+      "confidence": 0.79,
+      "skew": "negative",
+      "notes": "Chronic political churn and the world's fastest-shrinking population, against strong EU-standard liberties.",
+      "sub_factors": {
+        "political_stability": {
+          "score": -5,
+          "weight": 0.3,
+          "confidence": 0.9,
+          "notes": "Around eight elections in five years, with governments resigning amid anti-corruption protests - democratic but chronically unstable. (Wilson Center; BTI 2026)"
+        },
+        "civil_liberties": {
+          "score": 5,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "EU-standard and generally strong. (V-Dem/Freedom House class)"
+        },
+        "treatment_non_citizens": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "An EU member in full Schengen with lawful routes; emigration-heavy with modest immigration. (EC)"
+        },
+        "social_cohesion": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "Polarised, with Roma exclusion and anti-corruption and pro/anti-Russia cleavages. (BTI; OSW)"
+        },
+        "demographics": {
+          "score_near": -4,
+          "score_long": -8,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.9,
+          "notes": "Among the world's fastest-shrinking populations - deaths roughly twice births, heavy emigration, and deep ageing. (NSI; UN/OSW)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 2.3,
+      "confidence": 0.76,
+      "skew": "symmetric",
+      "notes": "A net Western-aligned NATO/EU member, with a persistent Russia-sympathetic strand and Black Sea adjacency.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 4,
+          "weight": 0.4,
+          "confidence": 0.75,
+          "notes": "A NATO and EU member and Black Sea frontline, net Western-aligned, with a persistent Russia-sympathetic strand. (multilateral)"
+        },
+        "conflict_involvement": {
+          "score": -2,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "No active war, but Ukraine/Black-Sea-adjacent spillover risk. (press)"
+        },
+        "sanctions_capital_controls": {
+          "score": 5,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "An open EU regime with free capital movement, now euro. (EC)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -3.1,
+      "confidence": 0.76,
+      "skew": "negative",
+      "notes": "Improving EU-funded infrastructure, against the EU's worst health outcomes and a coal-transition lag.",
+      "sub_factors": {
+        "climate": {
+          "score": -3,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Heat/drought and flood/hail, with a coal phase-out delayed to 2038 and toxic-air/transition risk. (World Bank; HRW)"
+        },
+        "healthcare": {
+          "score": -5,
+          "weight": 0.3,
+          "confidence": 0.9,
+          "notes": "The EU's lowest per-capita spend and highest treatable mortality, with heavy medic emigration. (WHO/OECD)"
+        },
+        "infrastructure": {
+          "score": -1,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Historically poor, improving via EU/recovery funds. (EC; OECD)"
+        },
+        "crime_safety": {
+          "score": -1,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "Low homicide but entrenched organized-crime/trafficking transit. (OC Index 2025)"
+        },
+        "disaster_insurance": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Medium seismic (including Sofia) and flood exposure against low penetration. (World Bank)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -0.53,
+      "confidence": 0.81,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 1.31,
+      "confidence": 0.83,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 2.51,
+      "confidence": 0.85,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "An EU member with quietly positive economic fundamentals - among the bloc's lowest debt, euro adoption from January 2026, sound banks, and diversified exports - whose integrated outlook is pulled down by institutional, demographic, and health weaknesses. It has the EU's weakest rule-of-law and corruption record under oligarchic capture, chronic political instability (around eight elections in five years), among the world's fastest-shrinking populations, and the EU's poorest health outcomes. NATO/EU membership anchors it westward despite a persistent Russia-sympathetic strand."
+}

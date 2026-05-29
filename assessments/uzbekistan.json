@@ -1,0 +1,244 @@
+{
+  "country": "Uzbekistan",
+  "iso3": "UZB",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: governance/rights/politics scored from independent sources (IMF Art IV, World Bank, EBRD, V-Dem, RSF, Freedom House, HRW, TI) + regional independent press (Eurasianet, RFE/RL); Uzbek state outlets used only to relay externally-corroborated neutral facts, with reform claims treated as intentions, not outcomes.",
+    "A genuine post-2016 reform opening (IMF/EBRD-validated economics, improving statistics) on a persistent authoritarian-lite base, anchored by an acute Aral Sea/water environmental burden.",
+    "Standout features: a credible reform/opening and young demographics, against a low rights ceiling and severe water stress."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 0.2,
+      "confidence": 0.79,
+      "skew": "positive",
+      "notes": "Credible reform momentum on a resource-exposed base, against elevated inflation and a managed currency.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 2,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "A consolidated deficit ~3.2% GDP with moderate debt and ample reserves; SOE/bank contingent liabilities the key risk. (IMF 2025 Art IV)"
+        },
+        "monetary_independence": {
+          "score": -1,
+          "weight": 0.22,
+          "confidence": 0.7,
+          "notes": "A managed som with a tight-policy reform attempt but limited de-facto independence - not free-floating. (IMF 2025 Art IV)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The som has no external reserve role. (definitional)"
+        },
+        "inflation": {
+          "score": -2,
+          "weight": 0.13,
+          "confidence": 0.8,
+          "notes": "Around 10% and only marginally easing after energy-price liberalisation. (IMF 2025 Art IV)"
+        },
+        "banking_stability": {
+          "score": 0,
+          "weight": 0.1,
+          "confidence": 0.75,
+          "notes": "State-dominated but actively privatising (EBRD-backed) - reform upside against concentration risk. (EBRD; IMF)"
+        },
+        "trade_actions_capacity": {
+          "score": 1,
+          "weight": 0.17,
+          "confidence": 0.7,
+          "notes": "Gold/gas/cotton exposure but diversifying, with fast-growing non-gold exports and a WTO-accession push. (IMF; EBRD)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -1.7,
+      "confidence": 0.76,
+      "skew": "negative",
+      "notes": "Reforming from a brutal base, but the ceiling stays low.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -3,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "A judiciary that is an executive instrument, with corruption and reform-by-decree. (Freedom House 2025; V-Dem)"
+        },
+        "statistical_integrity": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "Markedly improved transparency under reform; IMF-usable data. (IMF 2025)"
+        },
+        "civil_service_capacity": {
+          "score": 0,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "Reforming and executing top-down programs competently-ish, with uneven capacity. (IMF; EBRD)"
+        },
+        "press_freedom": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "RSF ~148/180, with no private TV, arrests of online critics, and routine blocking. (RSF 2025; Freedom House)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -1.4,
+      "confidence": 0.72,
+      "skew": "negative",
+      "notes": "Managed stability over genuine pluralism, with a demographic dividend the offset.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 1,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "Consolidated personalist rule (a 2023 referendum reset/extended the term); orderly top-down stability, succession-fragile. (Freedom House 2025)"
+        },
+        "civil_liberties": {
+          "score": -4,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Eased from the prior era but with no legal opposition and tight controls. (Freedom House 2025)"
+        },
+        "treatment_non_citizens": {
+          "score": -4,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "A labor-exporter (millions abroad), not a relocation destination, with an authoritarian-lite ceiling. (regional press)"
+        },
+        "social_cohesion": {
+          "score": -1,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Orderly and managed, but the 2022 Karakalpakstan unrest is a live fracture. (HRW; Freedom House)"
+        },
+        "demographics": {
+          "score": 2,
+          "weight": 0.1,
+          "confidence": 0.75,
+          "notes": "Young and growing - a dividend strained by a jobs gap driving labour migration. (World Bank; IMF)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -0.7,
+      "confidence": 0.68,
+      "skew": "negative",
+      "notes": "A pragmatic multi-vector hedger, structurally constrained by double-landlocked geography.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 0,
+          "weight": 0.4,
+          "confidence": 0.7,
+          "notes": "A multi-vector hedger (Russia/China/West), pragmatic and double-landlocked - no firm bloc. (regional analysis)"
+        },
+        "conflict_involvement": {
+          "score": -2,
+          "weight": 0.35,
+          "confidence": 0.65,
+          "notes": "No direct war, with Afghanistan-border exposure and trans-boundary water tensions. (Eurasianet)"
+        },
+        "sanctions_capital_controls": {
+          "score": 0,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Unsanctioned, with a reforming-but-not-fully-open capital account. (IMF 2025)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -2.1,
+      "confidence": 0.65,
+      "skew": "negative",
+      "notes": "An acute Aral Sea/water environmental burden anchors an otherwise improving picture.",
+      "sub_factors": {
+        "climate": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "The Aral Sea catastrophe and toxic dust, ~80% of water from trans-boundary rivers with a projected deficit, and extreme continental heat. (UNDP; Earth.Org)"
+        },
+        "healthcare": {
+          "score": -1,
+          "weight": 0.3,
+          "confidence": 0.6,
+          "notes": "A Soviet-legacy system, improving but uneven, with a severe disease burden in the Aral region. (UNDP)"
+        },
+        "infrastructure": {
+          "score": 0,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Improving (EBRD-backed) but with a double-landlocked export vulnerability. (EBRD)"
+        },
+        "crime_safety": {
+          "score": 1,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Low-to-moderate violent crime; orderly. (general)"
+        },
+        "disaster_insurance": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Very low insurance penetration, with Tashkent seismic exposure. (seismology)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -1.33,
+      "confidence": 0.73,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": -0.78,
+      "confidence": 0.75,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -0.39,
+      "confidence": 0.76,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A Central Asian state mid-way through a genuine post-2016 reform opening - IMF/EBRD-validated macro management, markedly improved statistical transparency, bank privatisation, and a WTO-accession push - resting on a young, growing population. That upside sits on a persistent authoritarian-lite political and rights ceiling (a judiciary subordinate to the executive, no legal opposition, a restricted press) and is anchored by an acute environmental burden: the Aral Sea catastrophe, severe trans-boundary water stress, and extreme continental heat. Reform claims are treated as intentions, not yet achieved outcomes."
+}

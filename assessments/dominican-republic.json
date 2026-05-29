@@ -1,0 +1,256 @@
+{
+  "country": "Dominican Republic",
+  "iso3": "DOM",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "positive",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF Art IV, World Bank, IDB, WJP, RSF, TI, V-Dem) + Dominican official (BCRD central bank, ONE) + Dominican/Spanish-language press.",
+    "A regional growth and stability standout with a credible central bank and diversified economy, against the dominant social caveat of the Haiti-border migration crisis.",
+    "Standout features: strong diversified growth, a credible inflation-targeter, and political stability, against mass Haitian deportations, electricity unreliability, and hurricane exposure. Source-lean: MODERATE; rights framing carries mild Anglophone-NGO tone."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 2.6,
+      "confidence": 0.86,
+      "skew": "positive",
+      "notes": "A credible inflation-targeter and a genuinely diversified, fast-growing economy.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": 2,
+          "score_long": 3,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "A deficit ~3.6% GDP and debt ~58-60% on a gradual downward path under a fiscal rule; electricity-subsidy reform the key lever. (IMF 2025 Art IV)"
+        },
+        "monetary_independence": {
+          "score": 4,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "A credible inflation-targeter holding rates with inflation inside the band - a genuine strength. (BCRD; IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The peso is a managed float, not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 3,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "~3.7-4% and within target, with a strong multi-year stability record. (BCRD; IMF)"
+        },
+        "banking_stability": {
+          "score": 3,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "Well-capitalised and profitable, with Basel adoption still in progress. (IMF Art IV)"
+        },
+        "trade_actions_capacity": {
+          "score": 4,
+          "weight": 0.17,
+          "confidence": 0.85,
+          "notes": "Genuinely diversified - a regional-leading tourism sector, free-zone manufacturing, gold/mining, and remittances - a nearshoring beneficiary, not a petrostate. (BCRD; World Bank; IMF)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 1.7,
+      "confidence": 0.76,
+      "skew": "positive",
+      "notes": "Improving off a low base - credible statistics and a free press, with a corruption legacy.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score_near": 1,
+          "score_long": 2,
+          "score": null,
+          "weight": 0.35,
+          "confidence": 0.75,
+          "notes": "A large recent WJP gain off a low base; functional but with a persistent corruption legacy. (WJP; TI)"
+        },
+        "statistical_integrity": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "The central bank and statistics office produce credible, IMF-cited data. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Improving (OECD integrity engagement) but with a clientelist legacy. (OECD 2025)"
+        },
+        "press_freedom": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "Free, among the region's better RSF scores, with an ownership-concentration drag. (RSF; IAPA)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 0.4,
+      "confidence": 0.81,
+      "skew": "negative",
+      "notes": "A stable democracy with strong liberties, dominated by the Haiti-migration crisis and inequality.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 4,
+          "weight": 0.3,
+          "confidence": 0.85,
+          "notes": "A stable democracy - the president was re-elected in 2024 in the first round, peaceful and pro-investment. (electoral results; observers)"
+        },
+        "civil_liberties": {
+          "score": 3,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "Generally strong and rated 'Free,' but eroded for Haitians and Dominicans of Haitian descent. (Freedom House)"
+        },
+        "treatment_non_citizens": {
+          "score": -5,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "Lawful routes exist, but the dominant fact is mass deportations of Haitians, militarised raids, a statelessness legacy, and a border wall. (Amnesty; Global Detention Project)"
+        },
+        "social_cohesion": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "High inequality and entrenched anti-Haitian sentiment, with class/regional divides. (World Bank; Amnesty)"
+        },
+        "demographics": {
+          "score": 2,
+          "weight": 0.1,
+          "confidence": 0.75,
+          "notes": "Relatively young with a favourable dependency ratio - a dividend. (World Bank; ONE)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 1.6,
+      "confidence": 0.81,
+      "skew": "symmetric",
+      "notes": "A stable pro-Western partner, against acute spillover from Haiti's collapse next door.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 4,
+          "weight": 0.4,
+          "confidence": 0.8,
+          "notes": "A stable, pro-US/Western Caribbean partner, OECD-engaged. (OECD; IMF)"
+        },
+        "conflict_involvement": {
+          "score_near": -3,
+          "score_long": -2,
+          "score": null,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "No war, but acute spillover from Haiti's state collapse and gang violence on the shared border. (PBS; UN)"
+        },
+        "sanctions_capital_controls": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "An open capital account, not sanctioned and FDI-friendly. (IMF AREAER)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -0.8,
+      "confidence": 0.76,
+      "skew": "negative",
+      "notes": "Tourism-grade zones and falling crime, against hurricane exposure and electricity unreliability.",
+      "sub_factors": {
+        "climate": {
+          "score_near": -2,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Hurricane/Atlantic-storm exposure, flooding, drought, and coastal/sea-level risk to tourism zones. (PAHO; World Bank)"
+        },
+        "healthcare": {
+          "score_near": 0,
+          "score_long": 1,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "Two-tier - a strong private/tourist-zone tier and a weak, low-spend public system. (WHO)"
+        },
+        "infrastructure": {
+          "score_near": -2,
+          "score_long": -1,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Tourism-grade in zones but uneven rurally, with chronic electricity unreliability (recent nationwide blackouts). (IDB)"
+        },
+        "crime_safety": {
+          "score": 1,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "Moderate and among the Caribbean's lowest homicide rates, with tourist zones protected. (InSight Crime 2025)"
+        },
+        "disaster_insurance": {
+          "score": -1,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "A functional hurricane market with moderate-low penetration and a real catastrophe tail. (industry/IDB)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 1.3,
+      "confidence": 0.79,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 1.84,
+      "confidence": 0.81,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 2.2,
+      "confidence": 0.83,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A regional growth and stability standout: a genuinely diversified economy (a Caribbean-leading tourism sector, free-zone manufacturing, gold mining, and remittances), a credible inflation-targeting central bank, well-capitalised banks, and a stable democracy with an improving rule-of-law trajectory. The dominant caveat is social and geopolitical: a hard-edged Haiti-migration crisis (mass deportations, a statelessness legacy, a border wall) and acute spillover from Haiti's collapse next door, alongside high inequality, hurricane exposure, and chronic electricity unreliability. The overall trajectory tilts positive."
+}

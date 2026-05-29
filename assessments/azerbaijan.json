@@ -1,0 +1,244 @@
+{
+  "country": "Azerbaijan",
+  "iso3": "AZE",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: governance/rights/politics rebuilt from independent sources (IMF, World Bank, WHO, V-Dem, RSF, Freedom House, HRW, Amnesty, CPJ, TI); Azerbaijani state/state-aligned media EXCLUDED there, with economic figures admitted only via IMF/rating-agency validation and promotional framing discarded.",
+    "A dynastic authoritarian petrostate with strong external buffers but an intensifying 2024-26 rights crackdown and a fragile post-Karabakh 'negative peace'.",
+    "Standout drags: dynastic autocracy, near-worst press freedom, a resource-curse oil model, and the 2023 displacement of ethnic Armenians from Karabakh."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -0.3,
+      "confidence": 0.81,
+      "skew": "negative",
+      "notes": "Strong oil-funded buffers and low inflation, against a declining-output resource-curse model and a de-facto peg.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 3,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Low government debt (~21-23% GDP) and large combined reserves/sovereign-fund buffers, but pro-cyclical and oil-dependent. (IMF 2026 Art IV)"
+        },
+        "monetary_independence": {
+          "score": -3,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "A de-facto USD peg since 2017, with the central bank subordinating policy to oil/FX management. (IMF; S&P)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The manat is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 2,
+          "weight": 0.13,
+          "confidence": 0.75,
+          "notes": "~5-6% and within the target band. (IMF 2026 Art IV)"
+        },
+        "banking_stability": {
+          "score": -1,
+          "weight": 0.1,
+          "confidence": 0.65,
+          "notes": "Low NPLs and recent investment-grade upgrades, against state influence and a 2015 devaluation/bank-crisis legacy. (IMF; Fitch/Moody's)"
+        },
+        "trade_actions_capacity": {
+          "score": -3,
+          "weight": 0.17,
+          "confidence": 0.8,
+          "notes": "A key non-Russian EU gas supplier but with declining oil output and a classic resource curse. (IMF; EU Council)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -4.8,
+      "confidence": 0.8,
+      "skew": "negative",
+      "notes": "A dynastic autocracy with no judicial independence and among the world's worst press repression.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -7,
+          "weight": 0.35,
+          "confidence": 0.9,
+          "notes": "A dynastic autocracy with no judicial independence, sham trials, and systemic corruption. (Freedom House; HRW 2026)"
+        },
+        "statistical_integrity": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Economic data is IMF-validated; political/governance data is opaque. (IMF; V-Dem)"
+        },
+        "civil_service_capacity": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "Oil-funded delivery capacity but clientelist and patronage-driven. (TI; HRW)"
+        },
+        "press_freedom": {
+          "score": -8,
+          "weight": 0.15,
+          "confidence": 0.95,
+          "notes": "RSF ~167/180, with ~25 journalists jailed, major outlets shuttered, and a 2025 media-law tightening. (RSF; CPJ; Amnesty)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -4.1,
+      "confidence": 0.81,
+      "skew": "negative",
+      "notes": "Entrenched suppressed stability and a severe rights crackdown, with the Karabakh displacement a recent fracture.",
+      "sub_factors": {
+        "political_stability": {
+          "score": -2,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "Entrenched with no real opposition and a post-Karabakh nationalist boost - suppressed/managed stability, brittle long-term. (Freedom House; HRW)"
+        },
+        "civil_liberties": {
+          "score": -8,
+          "weight": 0.2,
+          "confidence": 0.95,
+          "notes": "Hundreds detained, with a 2023-26 crackdown intensifying. (HRW 2026; Amnesty; Freedom House)"
+        },
+        "treatment_non_citizens": {
+          "score": -5,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "Limited legal routes, not a relocation destination, with an authoritarian ceiling. (Freedom House)"
+        },
+        "social_cohesion": {
+          "score": -4,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "Managed, with the 2023 displacement of ~100k ethnic Armenians from Karabakh. (Freedom House; HRW)"
+        },
+        "demographics": {
+          "score": 2,
+          "weight": 0.1,
+          "confidence": 0.7,
+          "notes": "A relatively young, stable population structure. (World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -1.8,
+      "confidence": 0.72,
+      "skew": "negative",
+      "notes": "A transactional hedger reliable as a gas supplier, with a fragile post-Karabakh peace.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 0,
+          "weight": 0.4,
+          "confidence": 0.65,
+          "notes": "A transactional hedger - Turkey-aligned, Russia/West-balancing, an EU gas partner - reliable as a supplier, not as a values-ally. (CGEP; EU Council)"
+        },
+        "conflict_involvement": {
+          "score": -4,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "Won the 2023 Karabakh takeover; a 2025 framework is a 'negative peace' rather than a treaty, with residual war risk. (ICTJ)"
+        },
+        "sanctions_capital_controls": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Not sanctioned (a US review act pending), with a managed capital account. (Congress.gov; IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -1.2,
+      "confidence": 0.66,
+      "skew": "negative",
+      "notes": "Oil-funded Baku modernisation, against Caspian decline and seismic exposure.",
+      "sub_factors": {
+        "climate": {
+          "score": -4,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "The Caspian fell sharply over five years (hitting ports and oil terminals), with water stress and heat. (Nature Communications Earth & Environment)"
+        },
+        "healthcare": {
+          "score": -1,
+          "weight": 0.3,
+          "confidence": 0.6,
+          "notes": "Oil-funded Baku modernisation but uneven rural access. (WHO; World Bank)"
+        },
+        "infrastructure": {
+          "score": 1,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Modern in Baku and oil-funded, but uneven nationally. (World Bank; IMF)"
+        },
+        "crime_safety": {
+          "score": 3,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Low-to-moderate street crime, with a police-state caveat. (Numbeo - soft source)"
+        },
+        "disaster_insurance": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "Baku seismic and flood exposure against low insurance penetration. (seismic-hazard literature)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -3.29,
+      "confidence": 0.78,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -2.14,
+      "confidence": 0.78,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -1.61,
+      "confidence": 0.79,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A dynastic authoritarian petrostate with genuinely strong external buffers - low debt, large oil-funded reserves, low inflation, and recent investment-grade upgrades - and a useful role as a non-Russian gas supplier to Europe. But it is run as a hardening autocracy: no judicial independence, sham trials, among the world's worst press repression with journalists jailed, and an intensifying 2024-26 rights crackdown. Its trade base is a declining-output resource curse, the 2023 takeover of Karabakh displaced ~100,000 ethnic Armenians, and the subsequent peace is fragile. Caspian decline and seismic exposure weigh on the physical side."
+}
