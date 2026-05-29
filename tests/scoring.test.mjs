@@ -1,4 +1,4 @@
-// Unit tests for the scoring engine (scripts/compute-scores.mjs).
+// Unit tests for the shared scoring engine (src/lib/scoreEngine.mjs).
 // Covers the confidence-weighted composite math, horizon resolution, the
 // readingFor thresholds, the zero-denominator guard, null-skipping, and
 // recompute determinism against the real dataset.
@@ -17,7 +17,7 @@ import {
   readingFor,
   recompute,
   HORIZON_BY_DECISION,
-} from "../scripts/compute-scores.mjs";
+} from "../src/lib/scoreEngine.mjs";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(here, "..");

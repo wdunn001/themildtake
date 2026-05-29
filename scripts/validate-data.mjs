@@ -20,7 +20,7 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 import {
   recompute,
   round,
-} from "./compute-scores.mjs";
+} from "../src/lib/scoreEngine.mjs";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(here, "..");
