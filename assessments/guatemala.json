@@ -1,0 +1,256 @@
+{
+  "country": "Guatemala",
+  "iso3": "GTM",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF Art IV, World Bank, IDB, WJP, RSF, TI, V-Dem, WFP/UNICEF) + Guatemalan official (Banguat, INE) + Guatemalan/Spanish-language press (read indirectly).",
+    "Macro stability and a reform-minded president besieged by an entrenched, corrupt establishment; a 2026 institutional reset partly eased the near-term siege.",
+    "Standout drags: a deeply captured rule of law, extreme child malnutrition/inequality, and seismic/storm exposure; prudent fiscals, a credible central bank, and a young population offset. Source-lean: MODERATE Anglophone on political detail."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 2.8,
+      "confidence": 0.85,
+      "skew": "positive",
+      "notes": "Conservative fiscals and a credible central bank, with chronic under-investment the flip side.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": 4,
+          "score_long": 3,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "Very low debt (~27-30% GDP) and a small deficit on a conservative tradition; the flip side is chronic under-spending on development. (IMF 2025 Art IV)"
+        },
+        "monetary_independence": {
+          "score": 4,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "A credible central bank with disciplined policy. (IMF; Banguat)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The quetzal is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 3,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "Low (~2-4%) and near target. (IMF; Banguat)"
+        },
+        "banking_stability": {
+          "score": 3,
+          "weight": 0.1,
+          "confidence": 0.7,
+          "notes": "Sound and well-capitalised, with IMF-flagged supervision/AML gaps. (IMF)"
+        },
+        "trade_actions_capacity": {
+          "score": 2,
+          "weight": 0.17,
+          "confidence": 0.8,
+          "notes": "Coffee/sugar/bananas plus textiles and nearshoring, with very large remittances (~19% of GDP); stable but low-value-added and remittance-dependent. (Banguat)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -1.6,
+      "confidence": 0.77,
+      "skew": "negative",
+      "notes": "A deeply captured rule of law and a criminalised press, with usable statistics.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score_near": -3,
+          "score_long": -4,
+          "score": null,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "A deeply captured 'pacto de corruptos' with weaponised prosecution; a 2026 attorney-general exit eased the near term but the courts and legislature remain captured. (TI 2025; WJP; InsightCrime)"
+        },
+        "statistical_integrity": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "Usable and IMF-cited, weaker than OECD peers. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Weak and clientelist, with a low tax take starving capacity. (World Bank; IMF)"
+        },
+        "press_freedom": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "Free in form but criminalised, with a prominent editor jailed and journalists exiled. (RSF; APG)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -1.3,
+      "confidence": 0.74,
+      "skew": "negative",
+      "notes": "A reformist president under establishment siege, against extreme malnutrition and inequality.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -1,
+          "score_long": -2,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "A reform president (elected 2023) survived coup-by-lawfare; a 2026 institutional reset partly eases the siege, but the coalition is weak and the establishment entrenched. (Atlantic Council; Americas Quarterly)"
+        },
+        "civil_liberties": {
+          "score": -1,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "Rated 'partly free' - formal freedoms with real pressure on activists and press. (Freedom House 2025)"
+        },
+        "treatment_non_citizens": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Limited routes; a 'safe third country' taking more US deportation flights. (MPI; State Dept)"
+        },
+        "social_cohesion": {
+          "score": -4,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "Among the world's highest child chronic malnutrition (especially among indigenous Maya), with high inequality and deep marginalisation. (WFP; UNICEF)"
+        },
+        "demographics": {
+          "score_near": 3,
+          "score_long": 1,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.75,
+          "notes": "Very young - a dividend if jobs materialise, else a migration/jobs strain. (World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 1.9,
+      "confidence": 0.81,
+      "skew": "positive",
+      "notes": "A pragmatic US partner with an open economy, against gang/narco-transit violence.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 3,
+          "weight": 0.4,
+          "confidence": 0.8,
+          "notes": "A pragmatic US partner on migration/security, Taiwan-recognising. (State Dept)"
+        },
+        "conflict_involvement": {
+          "score": -1,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "No war; gang/narco-transit violence (scored under crime). (ACLED)"
+        },
+        "sanctions_capital_controls": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "An open capital account, unsanctioned. (IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -2.4,
+      "confidence": 0.77,
+      "skew": "negative",
+      "notes": "Drought/storm and volcanic/seismic exposure, weak healthcare with a malnutrition crisis, and elevated crime.",
+      "sub_factors": {
+        "climate": {
+          "score_near": -3,
+          "score_long": -4,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Dry-corridor drought with food insecurity, hurricanes, and active volcanic/seismic hazard. (FEWS NET; USGS)"
+        },
+        "healthcare": {
+          "score": -3,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "Weak and uneven, with a chronic malnutrition/stunting crisis and thin rural coverage. (World Bank; WFP)"
+        },
+        "infrastructure": {
+          "score": -1,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Poor-to-moderate, with uneven roads and ports. (IDB; World Bank)"
+        },
+        "crime_safety": {
+          "score_near": -2,
+          "score_long": -2,
+          "score": null,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "A homicide rate ~16/100k and rising extortion, below the regional peak but elevated. (InsightCrime)"
+        },
+        "disaster_insurance": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "Low penetration against high seismic/storm exposure, with World-Bank contingent finance. (World Bank)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -1.06,
+      "confidence": 0.77,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 0.61,
+      "confidence": 0.81,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 1.64,
+      "confidence": 0.82,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A study in contrasts: a genuinely stable macro economy - very low debt, a credible central bank, low inflation, investment-grade-adjacent prudence, large remittances, and a young population - alongside a deeply captured rule of law. A reform-minded president elected in 2023 survived a coup-by-lawfare and a 2026 institutional reset eased the near-term siege, but the courts and legislature remain in the grip of a corrupt establishment and the press is criminalised. Among the world's highest child malnutrition (especially among indigenous Maya), deep inequality, drought, volcanic/seismic hazard, and elevated crime weigh against the macro strength."
+}

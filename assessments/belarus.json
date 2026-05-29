@@ -1,0 +1,244 @@
+{
+  "country": "Belarus",
+  "iso3": "BLR",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: governance/rights/politics rebuilt from independent sources (IMF/World Bank where available, V-Dem, RSF, Freedom House, HRW, OHCHR, Viasna, CPJ) + exile press (Zerkalo, Belsat); Belarusian state media and official statistics EXCLUDED there.",
+    "A Russia-client dictatorship and co-belligerent staging-ground for the war in Ukraine; a 2026 US-brokered prisoner deal eased some sanctions but did not reverse the structure.",
+    "Standout drags: a dictatorship with ~1,000 political prisoners, among the worst press freedom, a sanctioned Russia-tied economy, and co-belligerent war status. Overall: clearly negative."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -4.4,
+      "confidence": 0.77,
+      "skew": "negative",
+      "notes": "A sanctioned, Russia-subsidy-dependent, state-dominated economy.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -5,
+          "weight": 0.22,
+          "confidence": 0.7,
+          "notes": "Opaque and dependent on a large Russian energy subsidy, sanctioned. (IMF/FREE Network)"
+        },
+        "monetary_independence": {
+          "score": -7,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "No central-bank independence - a managed, Russia-tied, sanctioned ruble. (independent analysis)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "Not held externally. (definitional)"
+        },
+        "inflation": {
+          "score": -4,
+          "weight": 0.13,
+          "confidence": 0.7,
+          "notes": "Elevated and sticky (~6-7%). (IMF 2026)"
+        },
+        "banking_stability": {
+          "score": -6,
+          "weight": 0.1,
+          "confidence": 0.75,
+          "notes": "SWIFT-cut and Russia-propped, with only partial 2026 relief. (Atlantic Council)"
+        },
+        "trade_actions_capacity": {
+          "score": -5,
+          "weight": 0.17,
+          "confidence": 0.7,
+          "notes": "Potash, oil-refining, and machinery, but state-dominated, sanctioned, and rerouted via Russia. (Kyiv Post)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -6.1,
+      "confidence": 0.77,
+      "skew": "negative",
+      "notes": "A capable coercive apparatus atop a dictatorship with no rule of law and crushed media.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -9,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "A dictatorship with no judicial independence. (V-Dem; Freedom House)"
+        },
+        "statistical_integrity": {
+          "score": -6,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "Politicised and opaque. (independent economic consensus)"
+        },
+        "civil_service_capacity": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "A capable coercive/administrative apparatus. (Freedom House)"
+        },
+        "press_freedom": {
+          "score": -9,
+          "weight": 0.15,
+          "confidence": 0.9,
+          "notes": "Among the world's worst - dozens of journalists jailed and independent media branded 'extremist'. (RSF; CPJ)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -6.7,
+      "confidence": 0.78,
+      "skew": "negative",
+      "notes": "Entrenched dictatorship, atrocity-level repression, a weaponized border, and an educated exodus.",
+      "sub_factors": {
+        "political_stability": {
+          "score": -5,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "Entrenched since 1994, with the 2020 stolen election and crushed protests; managed/suppressed stability propped by Russia, with a succession fat-tail. (Freedom House)"
+        },
+        "civil_liberties": {
+          "score": -9,
+          "weight": 0.2,
+          "confidence": 0.9,
+          "notes": "Atrocity-level repression, with on the order of a thousand political prisoners. (Viasna; HRW)"
+        },
+        "treatment_non_citizens": {
+          "score": -8,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "A weaponized EU border and a repression state. (HRW/OHCHR)"
+        },
+        "social_cohesion": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "A society repressed or exiled (~300k+ fled), with Russification. (OSW)"
+        },
+        "demographics": {
+          "score": -5,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "Ageing and shrinking, with an exodus of the educated. (OSW)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -7.8,
+      "confidence": 0.84,
+      "skew": "negative",
+      "notes": "A Russia satellite and co-belligerent staging-ground, a pariah to the West.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": -8,
+          "weight": 0.4,
+          "confidence": 0.85,
+          "notes": "A Russia satellite hosting Russian nuclear weapons, a pariah to the West. (Atlantic Council)"
+        },
+        "conflict_involvement": {
+          "score": -8,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "A co-belligerent staging-ground for the Russia-Ukraine war, with NATO-border militarization. (Atlantic Council)"
+        },
+        "sanctions_capital_controls": {
+          "score": -7,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "Heavily Western-sanctioned with capital controls, easing only partially in 2026. (US Treasury)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -2.9,
+      "confidence": 0.63,
+      "skew": "negative",
+      "notes": "Adequate Soviet-legacy systems under sanctions strain, with a state-violence safety duality.",
+      "sub_factors": {
+        "climate": {
+          "score": -2,
+          "weight": 0.2,
+          "confidence": 0.6,
+          "notes": "Flood/heat and Chernobyl-legacy zones - moderate. (general)"
+        },
+        "healthcare": {
+          "score": -3,
+          "weight": 0.3,
+          "confidence": 0.6,
+          "notes": "Soviet-legacy, declining and sanctions-strained. (general)"
+        },
+        "infrastructure": {
+          "score": -1,
+          "weight": 0.2,
+          "confidence": 0.6,
+          "notes": "Soviet-legacy, adequate-ish but underinvested. (general)"
+        },
+        "crime_safety": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Low street crime but high state-violence risk - a duality. (Freedom House)"
+        },
+        "disaster_insurance": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "A negligible market. (general)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -5.74,
+      "confidence": 0.75,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -5.52,
+      "confidence": 0.77,
+      "horizon": "3-7y",
+      "reading": "clear negative"
+    },
+    "currency": {
+      "score": -5.43,
+      "confidence": 0.78,
+      "horizon": "1-3y",
+      "reading": "clear negative"
+    }
+  },
+  "summary": "A Russia-client dictatorship entrenched since 1994, with no judicial independence, atrocity-level repression and on the order of a thousand political prisoners, among the world's worst press freedom, and a society either repressed or exiled. The economy is sanctioned, Russia-subsidy-dependent, and state-dominated, with a managed Russia-tied currency. It is a co-belligerent staging-ground for the war in Ukraine and a pariah to the West, hosting Russian nuclear weapons. A 2026 US-brokered prisoner deal eased some sanctions but left the structural picture clearly negative."
+}

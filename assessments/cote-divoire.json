@@ -1,0 +1,250 @@
+{
+  "country": "Côte d'Ivoire",
+  "iso3": "CIV",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF Art IV/EFF, World Bank, AfDB, WJP, RSF, TI, V-Dem) + Ivorian/French-language and international press (France 24, ICG).",
+    "A fast-growing West African anchor with a live political-succession tail (a contested 2025 election with leading rivals barred) and cocoa-concentration risk; the CFA franc is pegged to the euro.",
+    "Standout features: strong growth, low peg-anchored inflation, and good regional infrastructure, against an electoral/succession tail, north-south cleavages, and cocoa dependence. Source-lean: good Franco/Anglophone balance."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 1.8,
+      "confidence": 0.84,
+      "skew": "positive",
+      "notes": "Strong growth and low peg-anchored inflation, with cocoa concentration the main risk.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": 1,
+          "score_long": 3,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Moderate debt risk with ~6% growth and the deficit converging to the regional ceiling, meeting all IMF program criteria. (IMF Dec-2025)"
+        },
+        "monetary_independence": {
+          "score": 2,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "The CFA-franc euro peg delivers stability and credibility but zero autonomy, under a France-guaranteed, regionally-pooled regime. (BCEAO/IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The CFA franc is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 4,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "Low and peg-anchored (~2-3%) - a structural strength. (IMF)"
+        },
+        "banking_stability": {
+          "score": 2,
+          "weight": 0.1,
+          "confidence": 0.7,
+          "notes": "Sound, with the capital serving as the regional banking hub. (IMF)"
+        },
+        "trade_actions_capacity": {
+          "score": 3,
+          "weight": 0.17,
+          "confidence": 0.8,
+          "notes": "The world's #1 cocoa producer plus a new oil/gas ramp and agri-processing/services diversification; cocoa price/weather concentration partly offset. (USDA; Bloomberg)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 0,
+      "confidence": 0.71,
+      "skew": "negative",
+      "notes": "Improving from a civil-war legacy but still weak, with a pressured press.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -1,
+          "weight": 0.35,
+          "confidence": 0.75,
+          "notes": "Improving from the civil-war legacy but weak, with contested courts and persistent corruption. (TI; WJP)"
+        },
+        "statistical_integrity": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Usable and IMF-engaged through program reviews. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Improving, with mixed delivery. (World Bank/IMF)"
+        },
+        "press_freedom": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "A declining RSF standing amid a Francophone-Africa-wide trend and election-period pressure. (RSF)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -1.8,
+      "confidence": 0.71,
+      "skew": "negative",
+      "notes": "Stable but succession-fragile, with north-south and reconciliation cleavages.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -3,
+          "score_long": -1,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "A contested 2025 election with leading rivals barred and dozens killed in election violence revived civil-war fears - stable but succession-fragile. (Al Jazeera; ReliefWeb; Freedom House)"
+        },
+        "civil_liberties": {
+          "score": -2,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "Eroded in 2025, with a crackdown on protest and expression. (Freedom House)"
+        },
+        "treatment_non_citizens": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "A large cocoa migrant-worker population, but the historical 'Ivoirite' nationality cleavage is a recurring tail. (Freedom House)"
+        },
+        "social_cohesion": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "North-south/ethnic and unfinished post-civil-war reconciliation cleavages. (ICG)"
+        },
+        "demographics": {
+          "score_near": 2,
+          "score_long": 1,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.75,
+          "notes": "Very young and fast-growing - a dividend with a jobs strain. (UN)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 1,
+      "confidence": 0.76,
+      "skew": "symmetric",
+      "notes": "A stable Western-aligned ECOWAS pillar, against Sahel-spillover and the election tail.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 3,
+          "weight": 0.4,
+          "confidence": 0.8,
+          "notes": "A stable Francophone-Western/US-aligned ECOWAS pillar against the Sahel juntas. (observed)"
+        },
+        "conflict_involvement": {
+          "score": -2,
+          "weight": 0.35,
+          "confidence": 0.75,
+          "notes": "No active war, but the first deadly jihadist border attack since 2021 plus the election tail. (France 24; ICG)"
+        },
+        "sanctions_capital_controls": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "An open WAEMU/CFA regime, unsanctioned. (IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -1.1,
+      "confidence": 0.64,
+      "skew": "negative",
+      "notes": "Relatively good regional infrastructure, against coastal-erosion/flood and weak healthcare.",
+      "sub_factors": {
+        "climate": {
+          "score": -4,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Coastal erosion, capital flooding, northern drought, and cocoa-belt climate risk. (IMF; Mongabay)"
+        },
+        "healthcare": {
+          "score": -1,
+          "weight": 0.3,
+          "confidence": 0.6,
+          "notes": "A universal-health scheme expanding but weak and underfunded. (World Bank)"
+        },
+        "infrastructure": {
+          "score": 2,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Relatively good and improving regionally - the capital's transport, the port, roads, and power. (AfDB; World Bank)"
+        },
+        "crime_safety": {
+          "score": 0,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Moderate. (observed)"
+        },
+        "disaster_insurance": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Low penetration against flood exposure. (observed)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -0.07,
+      "confidence": 0.72,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 0.82,
+      "confidence": 0.76,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 1.23,
+      "confidence": 0.8,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A fast-growing West African anchor - around 6% growth, low CFA-franc/euro-peg-anchored inflation, an IMF program on track, the world's #1 cocoa producer with a new oil/gas ramp, and relatively good regional infrastructure as the BCEAO banking hub. The live risk is political: a contested 2025 election with leading rivals barred and deadly violence revived 2010-11 civil-war fears, atop north-south and reconciliation cleavages and a recurring 'Ivoirite' nationality dispute. Coastal-erosion/flood exposure, weak healthcare, and Sahel-jihadist spillover weigh further; the euro peg trades monetary autonomy for stability. Net, a balanced outcome distribution."
+}

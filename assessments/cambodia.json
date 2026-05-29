@@ -1,0 +1,246 @@
+{
+  "country": "Cambodia",
+  "iso3": "KHM",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: governance/rights/politics rebuilt from independent sources (IMF Art IV 2025, World Bank, ADB, V-Dem, RSF, Freedom House, HRW, Amnesty, TI, CSIS) + independent/exile press; Cambodian state media EXCLUDED there.",
+    "An entrenched one-party Hun dynasty, heavily China-aligned, with a notorious online-scam-center industry a major illicit and reputational drag.",
+    "Standout drags: no judicial independence, a jailed/exiled opposition, a scam-economy/trafficking hub, and China-alignment; low dollar-anchored inflation and a young population are offsets."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -0.7,
+      "confidence": 0.85,
+      "skew": "negative",
+      "notes": "Low debt and dollar-anchored inflation, against a dollarized no-policy-lever model and property/scam-economy risk.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 3,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Low debt with a low distress risk, but a widening primary deficit, a narrow revenue base, and LDC-graduation finance loss ahead. (IMF Art IV 2025; World Bank)"
+        },
+        "monetary_independence": {
+          "score": -5,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Heavy deposit dollarization leaves little real monetary lever; de-dollarization stalled. (IMF Art IV 2025)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The riel is not held externally. (IMF)"
+        },
+        "inflation": {
+          "score": 5,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "~1-2%, dollar-anchored stability. (World Bank; IMF)"
+        },
+        "banking_stability": {
+          "score": -5,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "Rising NPLs, property oversupply, a fast prior credit cycle, and no lender of last resort under dollarization. (IMF Art IV 2025)"
+        },
+        "trade_actions_capacity": {
+          "score": -3,
+          "weight": 0.17,
+          "confidence": 0.8,
+          "notes": "Garments, tourism, and construction, but a vast online-scam economy and an LDC/tariff risk, with growth slowing. (IMF; UNODC; CSIS)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -4.7,
+      "confidence": 0.77,
+      "skew": "negative",
+      "notes": "No judicial independence and among the worst press environments.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -7,
+          "weight": 0.35,
+          "confidence": 0.9,
+          "notes": "No judicial independence, entrenched party patronage, and deep corruption. (Freedom House 2025; TI)"
+        },
+        "statistical_integrity": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "IMF-engaged macro data usable; opacity beyond it. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Patronage-driven and weak, with cosmetic anti-corruption purges. (Freedom House 2025)"
+        },
+        "press_freedom": {
+          "score": -8,
+          "weight": 0.15,
+          "confidence": 0.9,
+          "notes": "Independent media shut, accreditation tightening, and a journalist killed - a very poor RSF standing. (RSF; Freedom House)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -1,
+      "confidence": 0.79,
+      "skew": "negative",
+      "notes": "An entrenched but brittle dynasty with a crushed opposition, against a young population.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": 3,
+          "score_long": -4,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.85,
+          "notes": "A Hun dynasty (a 2023 succession) entrenched after dissolving the opposition - stable now but brittle and succession-dependent. (Freedom House 2025)"
+        },
+        "civil_liberties": {
+          "score": -8,
+          "weight": 0.2,
+          "confidence": 0.9,
+          "notes": "The opposition jailed or exiled, with no real assembly or association. (Freedom House; HRW)"
+        },
+        "treatment_non_citizens": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Easy affluent residency but no path to belonging under an authoritarian ceiling. (observed)"
+        },
+        "social_cohesion": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "Managed, with land-rights and inequality grievances. (HRW)"
+        },
+        "demographics": {
+          "score": 5,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "A young population with a favourable dependency ratio. (World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -4.5,
+      "confidence": 0.8,
+      "skew": "negative",
+      "notes": "Heavily China-aligned, with a 2025 border flare-up and scam-center friction.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": -5,
+          "weight": 0.4,
+          "confidence": 0.8,
+          "notes": "Heavily China-aligned (the Ream naval base, BRI) and an ASEAN outlier. (CSIS; Crisis Group)"
+        },
+        "conflict_involvement": {
+          "score": -5,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "A July-2025 Thai-border armed clash (a fragile ceasefire) and scam-center diplomatic friction. (CSIS; ICG)"
+        },
+        "sanctions_capital_controls": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "Targeted Western sanctions on scam-linked individuals; open-ish capital. (US Treasury)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -4.3,
+      "confidence": 0.78,
+      "skew": "negative",
+      "notes": "Mekong climate exposure and weak healthcare, with a scam/trafficking-hub crime concern.",
+      "sub_factors": {
+        "climate": {
+          "score": -5,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Mekong flood/drought and high agricultural climate exposure. (ADB; ICG)"
+        },
+        "healthcare": {
+          "score": -5,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "Low public spend and a weak system. (World Bank)"
+        },
+        "infrastructure": {
+          "score": -1,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Improving via Chinese BRI investment but uneven and debt-tied. (World Bank)"
+        },
+        "crime_safety": {
+          "score": -4,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "Moderate street crime plus a major online-scam-center and trafficking hub. (UNODC; CSIS)"
+        },
+        "disaster_insurance": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Very low penetration. (sector data)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -3.58,
+      "confidence": 0.79,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -2.72,
+      "confidence": 0.81,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -2.05,
+      "confidence": 0.83,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "An entrenched one-party state run as a family dynasty after dissolving the opposition, heavily China-aligned, with low debt and dollar-anchored low inflation but a dollarized economy that lacks a monetary lever and carries property and banking risk. A notorious online-scam-center industry is a major illicit and reputational drag, drawing targeted Western sanctions, and a 2025 armed clash on the Thai border added a conflict tail. No judicial independence, a jailed/exiled opposition, among the worst press environments, weak healthcare, and Mekong climate exposure round out a negative profile; a young population is the main offset."
+}
