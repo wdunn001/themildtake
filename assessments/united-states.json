@@ -19,7 +19,8 @@
     "Trade re-weighted 0.05 -> 0.17 and scored on ACTIONS: the volatile tariff regime manufactures hostile foreign-trade relationships and pushes partners to diversify away from the US - a near- AND long-term cost, not merely a price effect.",
     "Reserve-currency factor kept two-horizon (+5 near / -2 long): a large near-term privilege that becomes a long-term structural dependency as the institutions it shielded are exposed.",
     "Slant-balance audit: negatives are independently sourced (RWB, ASA, OECD, courts); reserve-currency and personal-market strengths credited at full near-term weight to avoid an anti-subject lean.",
-    "Scored on observable ACTIONS/DATA over stated intentions; the optional strict-foundational-weighting variant was NOT applied."
+    "Scored on observable ACTIONS/DATA over stated intentions; the optional strict-foundational-weighting variant was NOT applied.",
+    "Media-ownership capture flagged (2026): in the prior year major US outlets passed to administration-aligned owners with board/editorial appointees close to the administration (e.g. CBS/Paramount via the Skydance-Ellison acquisition). This weakens the 'independent diversified press' assumption - such captured US outlets are treated as ownership-tilted (partially-entangled), not neutral, when they inform any score; press_freedom lowered accordingly."
   ],
   "category_weights_by_decision": {
     "living": {
@@ -98,8 +99,8 @@
       }
     },
     "institutional": {
-      "score": -5.7,
-      "confidence": 0.74,
+      "score": -5.8,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "Most clearly negative category; multiple independent sub-factors point consistently down. The statistical-integrity finding is the documented basis for the economic-category entanglement discount. Long-term composite degrades further.",
       "sub_factors": {
@@ -122,10 +123,10 @@
           "notes": "Schedule F reclassification, RIFs, loss of technical expertise, politicization of appointments."
         },
         "press_freedom": {
-          "score": -4,
+          "score": -5,
           "weight": 0.15,
-          "confidence": 0.65,
-          "notes": "RWB ranking down; legal/FCC pressure on outlets; access restrictions. Diversity remains; no formal censorship."
+          "confidence": 0.7,
+          "notes": "RWB ranking down; legal/FCC pressure on outlets and access restrictions; now compounded by ownership capture - major outlets (e.g. CBS/Paramount via the Skydance-Ellison acquisition) passing to administration-aligned owners with board/editorial appointees close to the administration. The 'media diversity remains' offset is eroding toward an ownership-tilt concern; still no formal state censorship."
         }
       }
     },
@@ -238,19 +239,19 @@
   },
   "decisions": {
     "living": {
-      "score": -5.31,
+      "score": -5.35,
       "confidence": 0.73,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -4.73,
+      "score": -4.76,
       "confidence": 0.73,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -4.02,
+      "score": -4.05,
       "confidence": 0.73,
       "horizon": "1-3y",
       "reading": "clear negative"

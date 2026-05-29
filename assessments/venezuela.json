@@ -14,8 +14,8 @@
   },
   "flags": [
     "Generated 2026-05-28 under v2.0: governance/rights/economics rebuilt from independent sources (IMF/World Bank estimates, V-Dem, RSF, TI, Freedom House, HRW, Amnesty, OHCHR, CPJ + Efecto Cocuyo/Armando.info); Venezuelan state media and official statistics EXCLUDED there.",
-    "Scored on corroborated facts: the July-2024 election widely regarded as stolen (the opposition broadly seen to have won), intensified repression, a ~7.9M migrant exodus, oil-output collapse, and heavy sanctions. Any near-term political transition is treated as a fat-tail uncertainty, not stated history.",
-    "Standout drags: a collapsed economy, authoritarian repression, a humanitarian-scale exodus, and degraded healthcare/infrastructure. Overall outcome distribution: negative."
+    "Scored on corroborated facts: the July-2024 election widely regarded as stolen (the opposition broadly seen to have won), intensified repression, a ~7.9M migrant exodus, oil-output collapse, and heavy sanctions. Maduro was captured by US forces in January 2026 - the post-Maduro transition is now the dominant uncertainty (a chaotic Chavista/military holdover vs an opposition opening), treated as a fat tail, not a settled outcome.",
+    "Standout drags: a collapsed economy, a hollowed repressive state, a humanitarian-scale exodus, and degraded healthcare/infrastructure - now compounded by an abrupt, unresolved leadership vacuum. Overall outcome distribution: negative with a wide two-sided tail."
   ],
   "category_weights_by_decision": {
     "living": {
@@ -135,7 +135,7 @@
           "score": null,
           "weight": 0.3,
           "confidence": 0.45,
-          "notes": "The July-2024 election was widely regarded as stolen (the opposition broadly seen to have won); repression intensified and the authoritarian government clings to power - suppressed stability with a large two-sided fat tail. (CSIS; Al Jazeera)"
+          "notes": "The July-2024 election was widely regarded as stolen (the opposition broadly seen to have won); Maduro's capture by US forces in Jan 2026 abruptly ended his rule, leaving an unresolved transition (Chavista/military holdover vs an opposition opening) - a large two-sided fat tail. (CSIS; Al Jazeera; CNBC)"
         },
         "civil_liberties": {
           "score_near": -7,
@@ -183,7 +183,7 @@
           "score": -6,
           "weight": 0.35,
           "confidence": 0.6,
-          "notes": "No interstate war, but the Essequibo/Guyana territorial dispute escalated in 2023-25 alongside armed-group violence. (CSIS; Inter-American Dialogue)"
+          "notes": "The Essequibo/Guyana dispute escalated in 2023-25, but US Caribbean military operations culminating in Maduro's Jan 2026 capture reset the picture - direct US action on Venezuelan soil, with an uncertain successor posture. (CSIS; CNBC; Inter-American Dialogue)"
         },
         "sanctions_capital_controls": {
           "score_near": -5,

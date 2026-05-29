@@ -1363,18 +1363,18 @@
         },
         {
           "rank": 168,
-          "country": "United States",
-          "iso3": "USA",
-          "score": -5.31,
-          "confidence": 0.73,
-          "skew": "negative"
-        },
-        {
-          "rank": 169,
           "country": "Turkmenistan",
           "iso3": "TKM",
           "score": -5.35,
           "confidence": 0.63,
+          "skew": "negative"
+        },
+        {
+          "rank": 169,
+          "country": "United States",
+          "iso3": "USA",
+          "score": -5.35,
+          "confidence": 0.73,
           "skew": "negative"
         },
         {
@@ -2874,7 +2874,7 @@
           "rank": 168,
           "country": "United States",
           "iso3": "USA",
-          "score": -4.73,
+          "score": -4.76,
           "confidence": 0.73,
           "skew": "negative"
         },
@@ -4357,17 +4357,17 @@
         },
         {
           "rank": 165,
-          "country": "United States",
-          "iso3": "USA",
-          "score": -4.02,
+          "country": "Russia",
+          "iso3": "RUS",
+          "score": -4.03,
           "confidence": 0.73,
           "skew": "negative"
         },
         {
           "rank": 166,
-          "country": "Russia",
-          "iso3": "RUS",
-          "score": -4.03,
+          "country": "United States",
+          "iso3": "USA",
+          "score": -4.05,
           "confidence": 0.73,
           "skew": "negative"
         },
