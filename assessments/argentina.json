@@ -249,19 +249,34 @@
       "score": 1.43,
       "confidence": 0.73,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.18,
+        "mid": 1.31,
+        "long": 1.43
+      }
     },
     "assets": {
       "score": 1.87,
       "confidence": 0.74,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.89,
+        "mid": 1.87,
+        "long": 1.86
+      }
     },
     "currency": {
       "score": 2.25,
       "confidence": 0.74,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.25,
+        "mid": 2.17,
+        "long": 2.08
+      }
     }
   },
   "summary": "A high-variance, positive-skew reform-turnaround: a first fiscal surplus in two decades, inflation collapsing from ~211% toward ~31%, lifted capital controls, restored statistical credibility, an open and welcoming residency regime, and real resource upside (Vaca Muerta shale, lithium, agriculture). The crisis tail is real - a fragile monetary framework and weak track record, a historically weak judiciary, press-freedom backsliding, decaying infrastructure, and reform politics dependent on fragile coalitions.",

@@ -238,19 +238,34 @@
       "score": 1.16,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.07,
+        "mid": 1.11,
+        "long": 1.16
+      }
     },
     "assets": {
       "score": 1.6,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.08,
+        "mid": 1.6,
+        "long": 2.12
+      }
     },
     "currency": {
       "score": 0.76,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.76,
+        "mid": 1.55,
+        "long": 2.33
+      }
     }
   },
   "summary": "One of the world's strongest fiscal positions - twin surpluses, low debt, vast LNG revenue, a large sovereign fund, and an LNG expansion - with sound banks, low inflation, world-class infrastructure and healthcare, very low crime, and high geopolitical centrality as a major US partner and regional mediator. The offsets are an absolute-monarchy rights ceiling (no political rights, restricted expression, criminalised same-sex relations), a migrant-majority workforce under kafala-legacy controls with no path to citizenship, a USD peg that surrenders monetary autonomy for stability, and a long-term extreme-heat and water-scarcity tail.",

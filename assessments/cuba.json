@@ -231,19 +231,34 @@
       "score": -6.22,
       "confidence": 0.58,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -6.02,
+        "mid": -6.12,
+        "long": -6.22
+      }
     },
     "assets": {
       "score": -5.95,
       "confidence": 0.59,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -5.91,
+        "mid": -5.95,
+        "long": -6
+      }
     },
     "currency": {
       "score": -5.86,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -5.86,
+        "mid": -5.87,
+        "long": -5.87
+      }
     }
   },
   "summary": "A one-party communist state in deep economic collapse: a botched 2021 currency unification, default to creditors, an FX shortage, and a food-and-fuel crisis under the long US embargo (compounded by relisting as a state-sponsor of terrorism). Repression is severe with hundreds of 2021 protesters still jailed, the press is among the worst-treated in the Americas, and the country faces a demographic crisis - among the fastest-ageing, with over a million mostly working-age people having emigrated since 2021. The once-vaunted health system is degraded and the electricity grid suffers repeated nationwide failures. Clearly negative.",

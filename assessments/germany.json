@@ -239,19 +239,34 @@
       "score": 3.16,
       "confidence": 0.79,
       "horizon": "5-10y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.14,
+        "mid": 3.15,
+        "long": 3.16
+      }
     },
     "assets": {
       "score": 3.21,
       "confidence": 0.8,
       "horizon": "3-7y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.22,
+        "mid": 3.21,
+        "long": 3.2
+      }
     },
     "currency": {
       "score": 3.31,
       "confidence": 0.8,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.31,
+        "mid": 3.26,
+        "long": 3.22
+      }
     }
   },
   "summary": "A low-debt fiscal anchor now deliberately expanding (the 2025 debt-brake reform and a EUR 500B infrastructure/defence fund), top-tier institutions and statistics, strong universal healthcare, and a reliable NATO/EU role. The drags are an export/industrial economy in structural stress (autos, energy costs, China competition), deep political polarization with a surging hard right, notably degraded infrastructure (now targeted for repair), and ageing demographics.",

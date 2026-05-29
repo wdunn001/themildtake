@@ -229,19 +229,34 @@
       "score": -7.81,
       "confidence": 0.5,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -7.56,
+        "mid": -7.69,
+        "long": -7.81
+      }
     },
     "assets": {
       "score": -7.4,
       "confidence": 0.5,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -7.36,
+        "mid": -7.4,
+        "long": -7.45
+      }
     },
     "currency": {
       "score": -7.12,
       "confidence": 0.49,
       "horizon": "1-3y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -7.12,
+        "mid": -7.14,
+        "long": -7.16
+      }
     }
   },
   "summary": "A totalitarian dynastic dictatorship with among the world's worst rights record - political-prison camps, total social control, and dead-last press freedom - and a collapsed, sanctioned command economy with a state-set currency, no real banking system, and chronic food insecurity. Internationally it is a nuclear-armed pariah under the heaviest sanctions, now supplying munitions and troops to Russia's war. Healthcare and infrastructure are collapsed and electricity-starved. All figures are external estimates with no usable internal data; the profile sits among the most negative in the dataset.",

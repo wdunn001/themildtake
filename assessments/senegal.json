@@ -237,19 +237,34 @@
       "score": 0.2,
       "confidence": 0.68,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.46,
+        "mid": -0.13,
+        "long": 0.2
+      }
     },
     "assets": {
       "score": 0.13,
       "confidence": 0.71,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.15,
+        "mid": 0.13,
+        "long": 0.41
+      }
     },
     "currency": {
       "score": 0.03,
       "confidence": 0.72,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.03,
+        "mid": 0.35,
+        "long": 0.68
+      }
     }
   },
   "summary": "One of West Africa's strongest democratic traditions, which passed a 2024 turnover test under near-crisis conditions and is now bringing new oil and LNG online with low CFA-franc/euro-peg-anchored inflation and relatively good regional infrastructure. The dominant near-term shock is fiscal: a 2024 audit revealed hidden debt far above what had been reported (IMF-consolidated debt ~132% of GDP), freezing the IMF program and badly denting data integrity, atop fresh 2026 governing-coalition friction, Sahel-spillover risk, and severe coastal-erosion/drought exposure. The euro peg trades monetary autonomy for stability.",

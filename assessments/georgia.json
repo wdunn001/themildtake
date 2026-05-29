@@ -237,19 +237,34 @@
       "score": -1.33,
       "confidence": 0.59,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.15,
+        "mid": -1.24,
+        "long": -1.33
+      }
     },
     "assets": {
       "score": -0.25,
       "confidence": 0.59,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.11,
+        "mid": -0.25,
+        "long": -0.39
+      }
     },
     "currency": {
       "score": 0.58,
       "confidence": 0.59,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.58,
+        "mid": 0.41,
+        "long": 0.25
+      }
     }
   },
   "summary": "Genuinely strong economic fundamentals (low debt, sound banks, strong growth, low inflation), a uniquely open immigration regime for visitors, and very low street crime - undercut by an accelerating democratic-backsliding crisis: documented state capture, a foreign-agents crackdown on independent media and protest, a frozen EU-accession path, and drift toward Russia accommodation, atop ~20% of territory under Russian occupation. The outcome distribution skews negative as governance threatens the fundamentals.",

@@ -229,19 +229,34 @@
       "score": -5.92,
       "confidence": 0.59,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -5.98,
+        "mid": -5.95,
+        "long": -5.92
+      }
     },
     "assets": {
       "score": -5.19,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -5.2,
+        "mid": -5.19,
+        "long": -5.19
+      }
     },
     "currency": {
       "score": -4.58,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -4.58,
+        "mid": -4.57,
+        "long": -4.57
+      }
     }
   },
   "summary": "A fragile federal state whose government controls only part of its territory, with a 2025 al-Shabaab offensive reversing prior gains and pushing the insurgency back toward Mogadishu while ISIS-Somalia holds out in Puntland. Security depends on the AU's AUSSOM mission, in acute funding crisis after the UN failed to secure assessed financing by mid-2025. The one clear bright spot is debt: the 2023 HIPC completion slashed external debt below 6% of GDP and an IMF program anchors reform, with dollarization keeping inflation relatively contained. But recurrent drought (a November 2025 national emergency), famine-level malnutrition, clan fragmentation, and federal-state friction keep the picture clearly negative; most figures rely on external estimation.",

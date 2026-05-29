@@ -235,19 +235,34 @@
       "score": 2.8,
       "confidence": 0.82,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.88,
+        "mid": 2.84,
+        "long": 2.8
+      }
     },
     "assets": {
       "score": 3.29,
       "confidence": 0.83,
       "horizon": "3-7y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.31,
+        "mid": 3.29,
+        "long": 3.28
+      }
     },
     "currency": {
       "score": 3.5,
       "confidence": 0.85,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.5,
+        "mid": 3.5,
+        "long": 3.49
+      }
     }
   },
   "summary": "Among the most prudently managed economies in its region - a structural-balance fiscal rule, a highly credible central bank, sound banks, and world-leading copper/lithium endowments managed within strong institutions. The drags are rising organized crime (a new security politics), a tightening migration stance, a seismic/megadrought/wildfire climate tail, press-ownership concentration, and a steep long-term demographic decline. Institutions proved resilient through two failed constitutional rewrites and an orderly 2025 transfer of power.",

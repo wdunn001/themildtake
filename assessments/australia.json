@@ -235,19 +235,34 @@
       "score": 2.88,
       "confidence": 0.77,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 3.02,
+        "mid": 2.95,
+        "long": 2.88
+      }
     },
     "assets": {
       "score": 2.49,
       "confidence": 0.77,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.51,
+        "mid": 2.49,
+        "long": 2.47
+      }
     },
     "currency": {
       "score": 2.32,
       "confidence": 0.78,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.32,
+        "mid": 2.33,
+        "long": 2.34
+      }
     }
   },
   "summary": "A durable democracy with strong rule of law, low public debt, a credible central bank, universal healthcare, and low crime. The drags are heavy economic concentration in commodity exports to a single dominant buyer, hyper-concentrated media ownership, a deliberately tightening (if lawful) migration system, and severe, worsening climate exposure with eroding insurance affordability. Front-line Indo-Pacific geography adds latent geopolitical risk.",

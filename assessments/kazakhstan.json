@@ -229,19 +229,34 @@
       "score": -2.12,
       "confidence": 0.59,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.72,
+        "mid": -1.92,
+        "long": -2.12
+      }
     },
     "assets": {
       "score": -1.67,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.6,
+        "mid": -1.67,
+        "long": -1.74
+      }
     },
     "currency": {
       "score": -1.48,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.48,
+        "mid": -1.51,
+        "long": -1.54
+      }
     }
   },
   "summary": "A resource-rich economy with fiscal buffers (a large oil-funded sovereign fund), a strong commodity base in oil, gas, uranium, and minerals, and young demographics - offset by entrenched authoritarian institutions with no judicial independence, state-controlled media, sticky double-digit inflation with limited monetary autonomy, and a classic resource-curse dynamic. Its core external vulnerability is a single-point dependence on a Russia-transit oil-export pipeline that was repeatedly struck in 2025, atop severe water and climate degradation and landlocked geography.",

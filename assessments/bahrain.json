@@ -236,19 +236,34 @@
       "score": -1.07,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.09,
+        "mid": -1.08,
+        "long": -1.07
+      }
     },
     "assets": {
       "score": -0.2,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.42,
+        "mid": -0.2,
+        "long": 0.02
+      }
     },
     "currency": {
       "score": -0.66,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.66,
+        "mid": -0.37,
+        "long": -0.07
+      }
     }
   },
   "summary": "A small Gulf monarchy with a strong financial-services sector, peg-anchored low inflation, modern healthcare and infrastructure, low crime, and a US-anchored alliance (the 5th Fleet). Those are offset by the weakest fiscal position in the Gulf (debt ~120%+ of GDP, reliant on GCC support), and - more structurally - a Sunni monarchy ruling a Shia-majority population whose 2011 uprising was crushed, leaving mass political imprisonment, a dissolved opposition, a near-worst press environment, and a sectarian fat-tail. A USD peg trades monetary autonomy for stability.",

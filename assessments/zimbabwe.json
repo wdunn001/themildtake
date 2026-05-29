@@ -227,19 +227,34 @@
       "score": -5.16,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -5.13,
+        "mid": -5.15,
+        "long": -5.16
+      }
     },
     "assets": {
       "score": -4.95,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -4.94,
+        "mid": -4.95,
+        "long": -4.96
+      }
     },
     "currency": {
       "score": -4.79,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -4.79,
+        "mid": -4.79,
+        "long": -4.79
+      }
     }
   },
   "summary": "An economy defined by serial currency collapses - the 2024 gold-backed ZiG is the latest struggling attempt - and ~25 years of arrears that lock it out of IMF financing, under entrenched ZANU-PF rule with no judicial independence, a land-seizure property legacy, and a term-extension push stoking violence. A top-tier mineral endowment (Africa's largest lithium reserves) is undercut by an export ban, Chinese-dominated mining, and smuggling. A severe 2024 drought drove a national power crisis, the health system has collapsed amid cholera and a medic exodus, and the country is isolated from Western finance. Negative throughout.",

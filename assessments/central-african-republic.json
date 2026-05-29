@@ -229,19 +229,34 @@
       "score": -5.15,
       "confidence": 0.55,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -5.22,
+        "mid": -5.19,
+        "long": -5.15
+      }
     },
     "assets": {
       "score": -4.27,
       "confidence": 0.55,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -4.28,
+        "mid": -4.27,
+        "long": -4.27
+      }
     },
     "currency": {
       "score": -3.35,
       "confidence": 0.54,
       "horizon": "1-3y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -3.35,
+        "mid": -3.34,
+        "long": -3.34
+      }
     }
   },
   "summary": "One of the planet's poorest and most fragile states - HDI near the global floor, roughly two-thirds in extreme poverty, and a state whose security and key extractive sectors are mortgaged to Russia's Wagner/Africa Corps. The December 2025 election cemented Touadera's open-ended rule after the 2023 term-limit removal, against a boycotting, repressed opposition. Macro signals are modestly less bad (an IMF ECF on track, easing inflation under the CFA peg), but these sit atop active multi-front conflict, near-total institutional absence outside Bangui, and acute humanitarian need. The distribution is negatively skewed: the modal path is grinding fragility, with a fat tail toward renewed civil war or a rupture in the Russia relationship.",

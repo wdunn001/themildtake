@@ -238,19 +238,34 @@
       "score": -5.09,
       "confidence": 0.58,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -5.2,
+        "mid": -5.15,
+        "long": -5.09
+      }
     },
     "assets": {
       "score": -4.98,
       "confidence": 0.59,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -5.23,
+        "mid": -4.98,
+        "long": -4.73
+      }
     },
     "currency": {
       "score": -5.13,
       "confidence": 0.59,
       "horizon": "1-3y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -5.13,
+        "mid": -4.77,
+        "long": -4.4
+      }
     }
   },
   "summary": "A clearly-negative oil rentier: roughly 90% of state revenue comes from oil, with almost no diversification, a bloated payroll, a weak cash-based banking sector, and a managed dinar dogged by dollar-access frictions tied to Iran-sanctions enforcement. Institutions are corruption- and militia-captured under a fragile sectarian power-sharing system caught between the US and Iran, with residual insurgency and Baghdad-Kurdistan disputes. The standout physical drags are a severe water and extreme-heat crisis and chronic electricity failure despite the oil wealth.",

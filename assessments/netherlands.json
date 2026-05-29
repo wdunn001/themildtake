@@ -241,19 +241,34 @@
       "score": 3.44,
       "confidence": 0.78,
       "horizon": "5-10y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.57,
+        "mid": 3.5,
+        "long": 3.44
+      }
     },
     "assets": {
       "score": 3.58,
       "confidence": 0.79,
       "horizon": "3-7y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.65,
+        "mid": 3.58,
+        "long": 3.52
+      }
     },
     "currency": {
       "score": 3.59,
       "confidence": 0.8,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.59,
+        "mid": 3.54,
+        "long": 3.49
+      }
     }
   },
   "summary": "World-class institutions, infrastructure, and water management, a very strong low-debt fiscal position within the eurozone, and a uniquely favorable lawful residency route for US citizens via the Dutch-American Friendship Treaty. The offsetting drags are serial migration-driven government instability (now past its peak), a tightening migration climate, an acute housing shortage with ageing demographics, and severe long-run sea-level exposure held back only by exceptional flood defenses.",

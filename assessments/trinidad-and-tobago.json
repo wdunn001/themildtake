@@ -247,19 +247,34 @@
       "score": 0.49,
       "confidence": 0.72,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.22,
+        "mid": 0.35,
+        "long": 0.49
+      }
     },
     "assets": {
       "score": 0.28,
       "confidence": 0.72,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.09,
+        "mid": 0.28,
+        "long": 0.46
+      }
     },
     "currency": {
       "score": 0.05,
       "confidence": 0.73,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.05,
+        "mid": 0.25,
+        "long": 0.46
+      }
     }
   },
   "summary": "The wealthiest-per-capita Caribbean economy, anchored by oil/gas/LNG/petrochemicals and a substantial ~US$6.4bn Heritage & Stabilisation Fund, with low inflation and a stable two-party democracy that delivered an orderly handover to the UNC's Kamla Persad-Bissessar in April 2025. But the structural picture is negative: mature-field gas output keeps declining, diversification has stalled, growth is stuck near 0.8%, and defending the de-facto USD peg has drained reserves to a decades-low ~5.4 months of imports amid chronic FX rationing the IMF wants addressed. Compounding this are a severe gang-violence problem (a record-deadly 2024 and a late-2024 state of emergency) and an acutely volatile Venezuela border - migrant crackdowns, a diplomatic rupture, and OFAC-dependent cross-border gas (Dragon). A rich but resource-trapped state whose fortunes are tightly bound to energy prices and Venezuela.",

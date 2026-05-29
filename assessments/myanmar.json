@@ -233,19 +233,34 @@
       "score": -7.59,
       "confidence": 0.58,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -7.64,
+        "mid": -7.61,
+        "long": -7.59
+      }
     },
     "assets": {
       "score": -7.07,
       "confidence": 0.58,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -7.07,
+        "mid": -7.07,
+        "long": -7.07
+      }
     },
     "currency": {
       "score": -6.73,
       "confidence": 0.58,
       "horizon": "1-3y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -6.73,
+        "mid": -6.75,
+        "long": -6.76
+      }
     }
   },
   "summary": "A collapsed conflict state. A 2021 coup triggered a nationwide civil war in which the military junta has lost control of much of the country; the economy is collapsed and sanctioned with a broken currency and banking system, and a planned election is treated as a sham. Institutions offer no rule of law, no credible data, and among the world's worst press repression, atop atrocity-level violence, a Rohingya-genocide legacy, and millions displaced. The catastrophic March-2025 earthquake compounded a collapsed health system and infrastructure. This is among the most negative profiles in the dataset.",

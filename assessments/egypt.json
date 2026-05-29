@@ -240,19 +240,34 @@
       "score": -2.7,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.17,
+        "mid": -2.43,
+        "long": -2.7
+      }
     },
     "assets": {
       "score": -2.11,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.23,
+        "mid": -2.11,
+        "long": -1.99
+      }
     },
     "currency": {
       "score": -2.55,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.55,
+        "mid": -2.25,
+        "long": -1.94
+      }
     }
   },
   "summary": "A US/Gulf-courted regional power and pivotal Gaza mediator with a young population and a landmark Hepatitis-C public-health win - but the profile is dominated by drags: a debt-distress economy on IMF and Gulf life-support, a constrained post-float currency, a Suez Canal earner gutted by Red Sea reroutes, no judicial independence or independent press (a top jailer of journalists), mass political imprisonment, refugee-host strain with no path to belonging, and a severe water and climate tail centred on Nile dependence and a sinking Delta. A military-dominated economy crowds out the private sector throughout.",

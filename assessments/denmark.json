@@ -231,19 +231,34 @@
       "score": 5.12,
       "confidence": 0.81,
       "horizon": "5-10y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 5.26,
+        "mid": 5.19,
+        "long": 5.12
+      }
     },
     "assets": {
       "score": 4.73,
       "confidence": 0.81,
       "horizon": "3-7y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 4.79,
+        "mid": 4.73,
+        "long": 4.68
+      }
     },
     "currency": {
       "score": 4.56,
       "confidence": 0.81,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 4.56,
+        "mid": 4.52,
+        "long": 4.47
+      }
     }
   },
   "summary": "An exceptionally strong fiscal position with a credible euro-peg, the world's top-ranked rule of law and least corruption, effective digital government, high social trust, and excellent healthcare, infrastructure, and safety. The drags are among the EU's strictest immigration stance, single-firm (pharma) export concentration, and acute US/Greenland-sovereignty friction that dents the alliance-as-protection premise.",

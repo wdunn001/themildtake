@@ -233,19 +233,34 @@
       "score": -3.42,
       "confidence": 0.61,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -3.57,
+        "mid": -3.49,
+        "long": -3.42
+      }
     },
     "assets": {
       "score": -2.67,
       "confidence": 0.63,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.71,
+        "mid": -2.67,
+        "long": -2.63
+      }
     },
     "currency": {
       "score": -2.16,
       "confidence": 0.65,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.16,
+        "mid": -2.12,
+        "long": -2.09
+      }
     }
   },
   "summary": "A structural-poverty outlier - among the world's poorest by income despite never fighting a major war - where chronic state failure, exemplified by years of JIRAMA blackouts, boiled over into a Gen Z protest movement and an October 2025 CAPSAT military coup that ousted Andry Rajoelina and installed an AU-suspended interim government. The economy has thin offsets (an IMF ECF/RSF program, moderating inflation, Ambatovy nickel/cobalt and vanilla earnings) but a narrow export base and a widening current account. Physical risk is severe: relentless cyclones and a Grand Sud drought-and-famine emergency affecting roughly 1.7 million. The near-term political picture is acutely uncertain; confidence is reduced by the freshness of the coup.",

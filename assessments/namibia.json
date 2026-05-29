@@ -229,19 +229,34 @@
       "score": 3.08,
       "confidence": 0.71,
       "horizon": "5-10y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.04,
+        "mid": 3.06,
+        "long": 3.08
+      }
     },
     "assets": {
       "score": 2.74,
       "confidence": 0.74,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.66,
+        "mid": 2.74,
+        "long": 2.82
+      }
     },
     "currency": {
       "score": 2.37,
       "confidence": 0.77,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.37,
+        "mid": 2.5,
+        "long": 2.63
+      }
     }
   },
   "summary": "A stable, well-governed democracy - the March 2025 inauguration of Netumbo Nandi-Ndaitwah (its first female president, SWAPO continuity) capped a clean electoral cycle, and the country is an African leader on press freedom. The macro picture is steady but constrained: the rand peg caps monetary independence, growth is mineral-dependent and was dented by weak diamond demand and a severe 2024 drought, and the binding problem is among the world's worst inequality with ~36% unemployment. The major swing factor is Orange-Basin oil and green-hydrogen optionality - potentially transformational but time-distant (first oil ~2029-30) and not yet de-risked - leaving a symmetric skew with a positive long-tail.",

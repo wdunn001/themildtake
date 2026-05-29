@@ -231,19 +231,34 @@
       "score": 0.54,
       "confidence": 0.58,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.57,
+        "mid": 0.55,
+        "long": 0.54
+      }
     },
     "assets": {
       "score": 0.34,
       "confidence": 0.61,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.31,
+        "mid": 0.34,
+        "long": 0.38
+      }
     },
     "currency": {
       "score": 0.44,
       "confidence": 0.63,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.44,
+        "mid": 0.52,
+        "long": 0.6
+      }
     }
   },
   "summary": "A stable twin-island democracy whose tourism-led economy has fully recovered past pre-pandemic levels (growth ~3% in 2025) and whose public debt has fallen to ~68% of GDP. Its core vulnerabilities are fiscal-financial: persistent Paris Club and domestic arrears (the latter of 'uncertain size'), elevated financing needs, and heavy reliance on a Citizenship-by-Investment program worth ~1% of GDP that now faces an EU regulation threatening visa-free Schengen access. Currency stability is borrowed from the robustly reserved ECCB union, and the standout physical risk is acute hurricane exposure exemplified by Barbuda's near-total destruction in Irma (2017). Net profile is neutral-to-slightly-positive, gated by data opacity and CIP-revenue fragility.",

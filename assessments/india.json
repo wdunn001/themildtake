@@ -236,19 +236,34 @@
       "score": -1.13,
       "confidence": 0.7,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.08,
+        "mid": -1.11,
+        "long": -1.13
+      }
     },
     "assets": {
       "score": -0.48,
       "confidence": 0.71,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.58,
+        "mid": -0.48,
+        "long": -0.37
+      }
     },
     "currency": {
       "score": -0.12,
       "confidence": 0.72,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.12,
+        "mid": 0.09,
+        "long": 0.3
+      }
     }
   },
   "summary": "A fast-growing economy with a genuine demographic dividend - a young, large workforce - plus a credible central bank, cleaned-up banks, and inflation within target. The drags are a high public-debt load, democratic backsliding (an electoral-autocracy classification, internet shutdowns, criminalised dissent), a very low press-freedom standing, severe climate and air-quality exposure, and weak public healthcare. Strategic autonomy keeps it non-aligned amid live tensions with Pakistan and along the China border.",

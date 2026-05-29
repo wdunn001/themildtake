@@ -233,19 +233,34 @@
       "score": -0.53,
       "confidence": 0.67,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.77,
+        "mid": -0.65,
+        "long": -0.53
+      }
     },
     "assets": {
       "score": -0.7,
       "confidence": 0.69,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.11,
+        "mid": -0.7,
+        "long": -0.29
+      }
     },
     "currency": {
       "score": -1.25,
       "confidence": 0.7,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.25,
+        "mid": -0.6,
+        "long": 0.06
+      }
     }
   },
   "summary": "A genuine post-default turnaround - the first IMF program Suriname ever completed (March 2025), with debt restructured and inflation brought down from hyperinflation - sitting under a transformative offshore-oil tail (the GranMorgu FID 2024, first oil ~2028) that could deliver a Guyana-style windfall. But the near-term is shakier than the headline: the new Simons government has already let fiscal and monetary discipline slip, pushing inflation back above 10% and debt to ~106% of GDP, prompting an IMF call for a policy reset. Institutions remain the binding weakness - pervasive corruption, low civil-service capacity, and a textbook resource-curse risk as oil money meets a fragile state. The skew is positive and high-variance: large upside if the windfall is well-governed, a real downside if it is not.",

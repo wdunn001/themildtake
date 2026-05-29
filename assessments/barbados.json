@@ -233,19 +233,34 @@
       "score": 2.43,
       "confidence": 0.79,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.49,
+        "mid": 2.46,
+        "long": 2.43
+      }
     },
     "assets": {
       "score": 2.11,
       "confidence": 0.81,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.09,
+        "mid": 2.11,
+        "long": 2.13
+      }
     },
     "currency": {
       "score": 1.89,
       "confidence": 0.83,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.89,
+        "mid": 1.95,
+        "long": 2.01
+      }
     }
   },
   "summary": "The strongest governance-and-macro profile in the Eastern Caribbean - a stable, mature democracy (a republic since 2021) with capable institutions, low corruption by regional standards, an independent judiciary, and a free press, paired with a genuinely successful IMF EFF/RSF program that rebuilt reserves to ~US$1.6bn, ran large primary surpluses, and put debt on a credible glide path from ~100% toward 60% of GDP by 2035. PM Mottley's global climate-finance leadership (the Bridgetown Initiative) reflects unusually high institutional quality for a small state. The drags are a still-high (if falling) debt load, an aging population with skilled emigration as a long-term compounding risk, rising violent crime off a low base (a record 50 murders in 2024), and hurricane exposure made concrete by Beryl in July 2024. Strongly positive expected value with a narrow, hurricane-driven negative tail.",

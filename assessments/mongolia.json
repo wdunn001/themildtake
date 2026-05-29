@@ -233,19 +233,34 @@
       "score": -0.91,
       "confidence": 0.65,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.07,
+        "mid": -0.99,
+        "long": -0.91
+      }
     },
     "assets": {
       "score": -1.48,
       "confidence": 0.66,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.38,
+        "mid": -1.48,
+        "long": -1.58
+      }
     },
     "currency": {
       "score": -1.38,
       "confidence": 0.68,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.38,
+        "mid": -1.56,
+        "long": -1.74
+      }
     }
   },
   "summary": "A genuine parliamentary democracy - a rarity in its neighbourhood - with a young population and improved public finances, but squeezed between Russia and China on an economy that depends on mining and sends roughly 90% of its exports to a single buyer, a classic resource-curse and single-buyer risk. Pervasive corruption (a major coal-theft scandal), a commodity-managed currency, and severe climate exposure - dzud winters, desertification, and the capital's world-worst winter air pollution - weigh against the democratic strength, leaving a balanced outcome distribution.",

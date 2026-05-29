@@ -227,19 +227,34 @@
       "score": -1.11,
       "confidence": 0.53,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.03,
+        "mid": -1.07,
+        "long": -1.11
+      }
     },
     "assets": {
       "score": -0.89,
       "confidence": 0.58,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.86,
+        "mid": -0.89,
+        "long": -0.91
+      }
     },
     "currency": {
       "score": -0.72,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.72,
+        "mid": -0.72,
+        "long": -0.72
+      }
     }
   },
   "summary": "The world's 4th-smallest country (~11,000 people) facing the same existential sea-level threat as Kiribati, but with a genuinely unique mitigant: the Falepili Union treaty (in force Aug 2024), under which Australia recognises Tuvalu's continuing statehood, offers up to 280 permanent climate-migration visas a year, and provides a security guarantee - in exchange for an effective veto over Tuvalu's third-party security deals. Its institutions are small but broadly democratic and rule-of-law-respecting, and it remains a loyal Taiwan ally. The skew stays negative because the long-run climate verdict and a likely emigration drain dominate, but Tuvalu is materially better hedged than its peers thanks to the Australian backstop, the Trust Fund, and '.tv'/fishing revenue.",

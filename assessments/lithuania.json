@@ -235,19 +235,34 @@
       "score": 4.01,
       "confidence": 0.79,
       "horizon": "5-10y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 4.16,
+        "mid": 4.09,
+        "long": 4.01
+      }
     },
     "assets": {
       "score": 3.46,
       "confidence": 0.81,
       "horizon": "3-7y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.56,
+        "mid": 3.46,
+        "long": 3.36
+      }
     },
     "currency": {
       "score": 3.19,
       "confidence": 0.82,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.19,
+        "mid": 3.07,
+        "long": 2.94
+      }
     }
   },
   "summary": "A low-debt EU and eurozone democracy with strong, EU-standard institutions, high-value export niches (lasers, biotech, the EU's top fintech hub), a top-tier NATO defence commitment (~5.4% of GDP, hosting a permanent German brigade), and energy independence from Russia after the 2025 Baltic grid synchronisation. The dominant tail is geopolitical: frontline exposure to the Russia-Ukraine war via the Kaliningrad/Suwalki gap and the Belarus border, with repeated drone incursions. Very low fertility and ageing are the main structural drag, leaving a balanced outcome distribution.",

@@ -238,19 +238,34 @@
       "score": -0.87,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.6,
+        "mid": -0.73,
+        "long": -0.87
+      }
     },
     "assets": {
       "score": -0.51,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.78,
+        "mid": -0.51,
+        "long": -0.23
+      }
     },
     "currency": {
       "score": -1.13,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.13,
+        "mid": -0.68,
+        "long": -0.23
+      }
     }
   },
   "summary": "An oil-rich economy with sound, well-capitalised banks, low inflation, very low crime, modern urban infrastructure and healthcare, a large sovereign-fund buffer, and a young population. But it is an absolute monarchy: no political rights, severe repression and among the world's highest execution counts, no independent media, and a workforce resting on a structurally rights-deprived expatriate majority. A USD peg surrenders monetary autonomy for stability, and the long-term tail is a hard oil transition atop extreme heat and water scarcity. Easy residency and no income tax come with no path to belonging.",

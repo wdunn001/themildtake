@@ -235,19 +235,34 @@
       "score": -0.5,
       "confidence": 0.7,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.87,
+        "mid": -0.69,
+        "long": -0.5
+      }
     },
     "assets": {
       "score": -0.67,
       "confidence": 0.72,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.98,
+        "mid": -0.67,
+        "long": -0.35
+      }
     },
     "currency": {
       "score": -1.02,
       "confidence": 0.72,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.02,
+        "mid": -0.59,
+        "long": -0.16
+      }
     }
   },
   "summary": "Dollarized stability (low inflation, no devaluation or convertibility risk, an open capital account), a large international banking and logistics hub, a favorable Friendly Nations residency pathway, and favorable demographics. The drags are weak rule of law and entrenched corruption, a fiscal hole opened by the 2024 copper-mine closure, contested politics after 2025 pension-reform unrest, a structural canal-watershed drought, and a US relationship turned coercive over canal and port sovereignty.",

@@ -227,19 +227,34 @@
       "score": -5.61,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -5.55,
+        "mid": -5.58,
+        "long": -5.61
+      }
     },
     "assets": {
       "score": -4.12,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -4.1,
+        "mid": -4.12,
+        "long": -4.14
+      }
     },
     "currency": {
       "score": -3.19,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -3.19,
+        "mid": -3.19,
+        "long": -3.19
+      }
     }
   },
   "summary": "A consolidated family dictatorship - co-presidents under a 2025 constitutional rewrite - that crushed the 2018 uprising and faces UN findings of crimes against humanity: hundreds denationalised and exiled, thousands of NGOs shut, and the Church, universities, and independent media dismantled (with journalists stripped of citizenship). It is an isolated, sanctioned pariah leaning on Russia, China, and Iran. The lone bright spot is IMF-validated macro stability (surpluses, reserves, low inflation), but that sits atop an atrocity-level repressive state and caps any forward upside. Clearly negative.",

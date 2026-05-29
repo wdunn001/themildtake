@@ -233,19 +233,34 @@
       "score": 0.79,
       "confidence": 0.67,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.3,
+        "mid": 0.54,
+        "long": 0.79
+      }
     },
     "assets": {
       "score": 0.77,
       "confidence": 0.7,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.61,
+        "mid": 0.77,
+        "long": 0.93
+      }
     },
     "currency": {
       "score": 1.11,
       "confidence": 0.73,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.11,
+        "mid": 1.23,
+        "long": 1.36
+      }
     }
   },
   "summary": "A reforming post-2018 democracy with prudent macro management, a credible central bank, low inflation, a free-ish press, and an openness that absorbed both Karabakh refugees and Russians fleeing in 2022. But it is under acute geopolitical strain: defeated by Azerbaijan in 2023 with the loss of Nagorno-Karabakh, blockaded by two neighbours, energy-dependent on Russia and Iran, and now attempting a risky pivot from Russia toward the EU and the West. Social-cohesion trauma, an unresolved/coerced peace with residual war risk, major seismic exposure, and emigration leave the outcome distribution negative.",

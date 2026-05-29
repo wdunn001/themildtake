@@ -227,19 +227,34 @@
       "score": 6.42,
       "confidence": 0.83,
       "horizon": "5-10y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 6.45,
+        "mid": 6.44,
+        "long": 6.42
+      }
     },
     "assets": {
       "score": 5.89,
       "confidence": 0.83,
       "horizon": "3-7y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 5.9,
+        "mid": 5.89,
+        "long": 5.88
+      }
     },
     "currency": {
       "score": 5.44,
       "confidence": 0.84,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 5.44,
+        "mid": 5.44,
+        "long": 5.44
+      }
     }
   },
   "summary": "A tiny, ultra-wealthy AAA-rated eurozone state with among the world's strongest institutions, excellent healthcare and infrastructure, low crime, very low public debt, and an exceptionally open, high-income, foreign-majority labour market. Its economy is a high-value-added fund-management and financial-services hub, which is also its main vulnerability: a vast non-bank fund sector poses liquidity-mismatch and contagion risk, and a residual tax-secrecy reputation lingers. Housing-cost strain and a 2025 fiscal slip are the domestic watch-items. A reliable NATO/EU founder and institution host.",

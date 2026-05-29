@@ -229,19 +229,34 @@
       "score": 0.55,
       "confidence": 0.7,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.74,
+        "mid": 0.65,
+        "long": 0.55
+      }
     },
     "assets": {
       "score": 1.9,
       "confidence": 0.71,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.94,
+        "mid": 1.9,
+        "long": 1.86
+      }
     },
     "currency": {
       "score": 2.75,
       "confidence": 0.72,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.75,
+        "mid": 2.74,
+        "long": 2.73
+      }
     }
   },
   "summary": "A NATO member and EU-accession-negotiating Balkan state riding a tourism boom, with falling debt, low inflation, sound foreign-owned banks, and a strongly pro-Western anchor. The countervailing weight is institutional and structural: entrenched corruption and organized-crime infiltration (EU justice-vetting is underway but incomplete), media concentrated among politically-connected owners, high seismic risk, and one of Europe's steepest depopulation trends from mass emigration. Net, a balanced outcome distribution.",

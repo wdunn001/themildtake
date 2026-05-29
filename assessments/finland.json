@@ -237,19 +237,34 @@
       "score": 4.64,
       "confidence": 0.82,
       "horizon": "5-10y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 4.86,
+        "mid": 4.75,
+        "long": 4.64
+      }
     },
     "assets": {
       "score": 3.81,
       "confidence": 0.83,
       "horizon": "3-7y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.86,
+        "mid": 3.81,
+        "long": 3.75
+      }
     },
     "currency": {
       "score": 3.23,
       "confidence": 0.83,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.23,
+        "mid": 3.19,
+        "long": 3.15
+      }
     }
   },
   "summary": "Among the world's strongest institutions, the highest-trust and happiest society, low crime, low climate exposure, and eurozone monetary credibility. The drags are a genuine fiscal/growth deterioration, a locked-in demographic decline (the only Nordic in natural decrease), a tightening migration stance, and a real Russia-border/hybrid-threat geopolitical tail as a new NATO member.",

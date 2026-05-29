@@ -233,19 +233,34 @@
       "score": 0.6,
       "confidence": 0.68,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.17,
+        "mid": 0.38,
+        "long": 0.6
+      }
     },
     "assets": {
       "score": 0.84,
       "confidence": 0.7,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.54,
+        "mid": 0.84,
+        "long": 1.14
+      }
     },
     "currency": {
       "score": 0.76,
       "confidence": 0.71,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.76,
+        "mid": 1.14,
+        "long": 1.51
+      }
     }
   },
   "summary": "A country climbing out of a deep hole: after a 2022 sovereign default and mass uprising, an IMF program and near-complete debt restructuring have returned a primary surplus, the newly-independent central bank has crushed inflation from a ~70% peak to near target, and a 2024 election delivered a reform/anti-corruption government with a parliamentary supermajority - a genuine democratic reset. The overhang is real: still-high debt, stalled Tamil reconciliation, an ageing population with heavy skilled emigration, and severe climate exposure (a destructive 2025 cyclone) against very thin catastrophe insurance. The outcome distribution is balanced between recovery upside and structural drag.",

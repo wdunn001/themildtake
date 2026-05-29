@@ -228,19 +228,34 @@
       "score": -1.83,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.77,
+        "mid": -1.8,
+        "long": -1.83
+      }
     },
     "assets": {
       "score": -1.15,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.13,
+        "mid": -1.15,
+        "long": -1.17
+      }
     },
     "currency": {
       "score": -1.28,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.28,
+        "mid": -1.28,
+        "long": -1.28
+      }
     }
   },
   "summary": "A remarkably stable, Western-aligned monarchy that anchors a turbulent region - a reliable US ally with a peace treaty with Israel, a USD-pegged dinar delivering low inflation, a conservative well-capitalised banking sector, strong healthcare, and low crime. Those genuine strengths are offset by a high public-debt load and deep aid dependence, a resource-poor economy, restricted civil liberties (a cybercrime law and the 2025 Muslim-Brotherhood ban), heavy refugee-host strain with high youth unemployment, and - structurally - some of the world's most extreme water scarcity, atop acute exposure to the surrounding conflict.",

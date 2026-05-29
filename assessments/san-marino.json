@@ -227,19 +227,34 @@
       "score": 4.05,
       "confidence": 0.69,
       "horizon": "5-10y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 4.09,
+        "mid": 4.07,
+        "long": 4.05
+      }
     },
     "assets": {
       "score": 2.69,
       "confidence": 0.72,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.71,
+        "mid": 2.69,
+        "long": 2.68
+      }
     },
     "currency": {
       "score": 1.73,
       "confidence": 0.75,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.73,
+        "mid": 1.73,
+        "long": 1.73
+      }
     }
   },
   "summary": "The world's oldest republic - a stable, democratic, low-crime microstate (FH 97/100, the highest of the cohort) embedded inside Italy and using the euro. Its distinguishing weakness is economic: a banking-and-manufacturing economy still carrying a banking-crisis legacy (NPLs ~17% end-2024, tightly capitalized banks), high-but-declining public debt (~60-63% of GDP), thin fiscal buffers, and heavy dependence on Italy. The EU Association Agreement would raise long-run growth but also bank compliance costs and Italian-bank competition. Strong institutions and social cohesion, but the thinnest and most financially fragile economy of the European microstates - symmetric to mildly negative skew.",

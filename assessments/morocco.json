@@ -231,19 +231,34 @@
       "score": 0.71,
       "confidence": 0.73,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.7,
+        "mid": 0.71,
+        "long": 0.71
+      }
     },
     "assets": {
       "score": 1.65,
       "confidence": 0.74,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.64,
+        "mid": 1.65,
+        "long": 1.66
+      }
     },
     "currency": {
       "score": 2.24,
       "confidence": 0.74,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.24,
+        "mid": 2.23,
+        "long": 2.23
+      }
     }
   },
   "summary": "A stable monarchy with a genuinely diversified economy - autos, aerospace, phosphates, solar, and tourism - a credible managed-peg central bank, low inflation, strong and improving infrastructure, and a Western-aligned foreign policy with growing backing on Western Sahara. The offsets are a king-dominated rule of law with constrained press freedom (prosecutions and spyware concerns), limited political rights with red lines on the monarchy and Islam, and a structural water-scarcity and seismic-hazard tail. A universal-health reform is expanding coverage from an uneven base.",

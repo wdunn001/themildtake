@@ -229,19 +229,34 @@
       "score": -0.5,
       "confidence": 0.61,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.47,
+        "mid": -0.48,
+        "long": -0.5
+      }
     },
     "assets": {
       "score": -0.76,
       "confidence": 0.64,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.81,
+        "mid": -0.76,
+        "long": -0.71
+      }
     },
     "currency": {
       "score": -0.7,
       "confidence": 0.67,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.7,
+        "mid": -0.63,
+        "long": -0.55
+      }
     }
   },
   "summary": "The strongest of the COFA trio on civil/political freedom (FH 93/100), with a renewed ~$2.3bn COFA plus a now-drawdown-funded UBI scheme, but it carries the heaviest negative tail. It is existentially climate-threatened - average elevation ~2m, with a 1m rise inundating ~40% of Majuro - driving steady depopulation to the US. It still bears the unresolved US nuclear legacy, including the cracking, leaking Runit Dome that the country lacks the capacity to manage, and it has elevated financial-integrity risk from its flag-of-convenience ship registry plus untested digital-currency experiments (the SOV was repealed Aug 2025, but a new USDM1 UBI launched Dec 2025 over IMF objections). The skew is clearly negative: a sound democracy and a real Compact backstop against climate, capacity, and integrity risks that are genuinely severe.",

@@ -36,6 +36,8 @@ export interface Decision {
   horizon: string;
   /** Threshold interpretation: clear positive / mixed / clear negative. */
   reading: string;
+  /** Same weighting projected across horizons (near 1-3y, mid 3-7y, long 5-10y). */
+  trajectory?: { near: number; mid: number; long: number };
 }
 
 export interface SubjectProfile {

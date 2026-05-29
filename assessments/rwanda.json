@@ -227,19 +227,34 @@
       "score": -0.75,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.72,
+        "mid": -0.73,
+        "long": -0.75
+      }
     },
     "assets": {
       "score": -1.19,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.18,
+        "mid": -1.19,
+        "long": -1.2
+      }
     },
     "currency": {
       "score": -1.49,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.49,
+        "mid": -1.49,
+        "long": -1.49
+      }
     }
   },
   "summary": "A developmental-state standout on delivery - genuinely low corruption, high state capacity, a successful community-health system, among Africa's lowest crime, good infrastructure, and strong growth - sitting on a hard authoritarian ceiling: no political-sphere rule of law, a leader re-elected with ~99%, severely restricted liberties, and transnational repression of exiles. The decisive forward risk is geopolitical: deep, UN-documented involvement in the DRC conflict (backing the M23 rebels who seized Goma in 2025) has drawn 2025 Western sanctions and aid cuts, atop rising debt and inflation. The delivery strengths are real, but the DRC-war/sanctions tail and authoritarian ceiling tilt the outcome distribution negative.",

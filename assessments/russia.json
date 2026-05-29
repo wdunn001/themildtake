@@ -231,19 +231,34 @@
       "score": -5.32,
       "confidence": 0.57,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -4.65,
+        "mid": -4.99,
+        "long": -5.32
+      }
     },
     "assets": {
       "score": -4.64,
       "confidence": 0.58,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -4.24,
+        "mid": -4.64,
+        "long": -5.03
+      }
     },
     "currency": {
       "score": -3.84,
       "confidence": 0.59,
       "horizon": "1-3y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -3.84,
+        "mid": -4.34,
+        "long": -4.83
+      }
     }
   },
   "summary": "A heavily sanctioned war-economy: low headline public debt masks a budget dominated by war spending that is draining the sovereign-wealth fund, a fragile and opaque banking sector, and a petrostate export model rerouted to China and India at steep discounts. Institutions offer a capable coercive apparatus but no judicial independence, politicised statistics, and near-total press control. The country is the aggressor in an ongoing war, a Western pariah under the heaviest sanctions of any major economy, and faces severe repression and a deepening demographic crisis. The dominant risk is fat-tail downside.",

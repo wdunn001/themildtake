@@ -235,19 +235,34 @@
       "score": 3.79,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 4.59,
+        "mid": 4.19,
+        "long": 3.79
+      }
     },
     "assets": {
       "score": 5.07,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 5.23,
+        "mid": 5.07,
+        "long": 4.9
+      }
     },
     "currency": {
       "score": 5.59,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 5.59,
+        "mid": 5.5,
+        "long": 5.41
+      }
     }
   },
   "summary": "A world-class financial/trade hub with deep fiscal buffers, a uniquely credible monetary regime, the strongest state capacity and anti-corruption record, world-class infrastructure and healthcare, and among the lowest crime anywhere. The offsets are a dominant-party state with low press freedom, restricted civil liberties (caning, drug-offence executions), a hard path to citizenship/belonging for its large foreign workforce, very low fertility, and rising sea-level exposure for a low island.",

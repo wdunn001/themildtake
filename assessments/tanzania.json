@@ -227,19 +227,34 @@
       "score": -2.16,
       "confidence": 0.59,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.22,
+        "mid": -2.19,
+        "long": -2.16
+      }
     },
     "assets": {
       "score": -0.62,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.63,
+        "mid": -0.62,
+        "long": -0.61
+      }
     },
     "currency": {
       "score": 0.41,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.41,
+        "mid": 0.42,
+        "long": 0.42
+      }
     }
   },
   "summary": "A solid, well-managed growth economy - low and falling debt, well-anchored inflation, a diversifying gold/tourism/LNG base, and a young population - dragged down by a sharp 2025 authoritarian turn. The party that has ruled since 1961 barred the main opposition and charged its leader, and the October-2025 election brought a deadly crackdown and post-election violence; the post-2021 press reopening has been reversed. Weak healthcare, drought/flood exposure, and still-poor power access weigh on the physical side, with jihadist spillover from the south a geopolitical tail. The outcome distribution tilts negative.",

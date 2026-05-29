@@ -6,6 +6,7 @@ import {
   DECISION_ORDER,
   DECISION_LABELS,
   categoryLabel,
+  formatScore,
   readingFor,
   sentimentFor,
   TRANSPARENCY_LABELS,
@@ -18,6 +19,15 @@ import ConfidenceBar from "./ConfidenceBar";
 import CategoryCard from "./CategoryCard";
 import CategoryRadar from "./CategoryRadar";
 import DecisionBars from "./DecisionBars";
+import HorizonTrajectory from "./HorizonTrajectory";
+
+const TRAJ_COLOR: Record<string, string> = { living: "#3B82F6", assets: "#8B5CF6", currency: "#22D3EE" };
+const NATIVE_IDX: Record<string, number> = { currency: 0, assets: 1, living: 2 };
+const HORIZON_ROWS: [DecisionKey, string, string, string][] = [
+  ["currency", "Currency", "~1–3y", "near-term"],
+  ["assets", "Assets", "~3–7y", "interpolated"],
+  ["living", "Living", "~5–10y", "long-term"],
+];
 
 interface Props {
   iso3: string;
@@ -46,6 +56,18 @@ export default function CountryDetail({ iso3 }: Props) {
     },
   ];
   const decisionScores = decisionKeys.map((dk) => data.decisions[dk].score);
+
+  const trajLines = decisionKeys
+    .filter((dk) => data.decisions[dk].trajectory)
+    .map((dk) => {
+      const tr = data.decisions[dk].trajectory!;
+      return {
+        name: DECISION_LABELS[dk],
+        points: [tr.near, tr.mid, tr.long] as [number, number, number],
+        nativeIndex: NATIVE_IDX[dk],
+        color: TRAJ_COLOR[dk],
+      };
+    });
 
   return (
     <div class="cd">
@@ -101,6 +123,46 @@ export default function CountryDetail({ iso3 }: Props) {
         </figure>
       </div>
 
+      {trajLines.length > 0 && (
+        <section class="cd__traj">
+          <h2 class="cd__h">Trajectory over the horizon</h2>
+          <p class="cd__hint">
+            Each decision's score projected from near- to long-term. The enlarged point is the
+            horizon that decision actually reports.
+          </p>
+          <div class="cd__trajgrid">
+            <figure class="cd__chart">
+              <HorizonTrajectory lines={trajLines} height={300} />
+            </figure>
+            <table class="cd__htable">
+              <thead>
+                <tr>
+                  <th>Decision</th>
+                  <th>Horizon</th>
+                  <th class="cd__hnum">Score used</th>
+                </tr>
+              </thead>
+              <tbody>
+                {HORIZON_ROWS.filter(([dk]) => data.decisions[dk]).map(([dk, label, hz, used]) => (
+                  <tr>
+                    <th scope="row">
+                      {label}
+                      <span class="cd__hsub"> {used}</span>
+                    </th>
+                    <td class="cd__hhz">{hz}</td>
+                    <td class="cd__hnum">
+                      <span class={`cd__hscore cd__hscore--${sentimentFor(data.decisions[dk].score)}`}>
+                        {formatScore(data.decisions[dk].score)}
+                      </span>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
+
       <h2 class="cd__h">Category breakdown</h2>
       <p class="cd__hint">Click a category to expand its sub-factors.</p>
       <div class="cd__cats">
@@ -152,6 +214,18 @@ export default function CountryDetail({ iso3 }: Props) {
         @media (min-width: 760px) { .cd__charts { grid-template-columns: 1fr 1fr; } }
         .cd__chart { margin: 0; border: 1px solid var(--border); border-radius: 10px; background: var(--bg-elev); padding: 1rem; }
         .cd__chart figcaption { font-family: var(--font-mono); font-size: 0.6875rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--fg-faint); margin-bottom: 0.5rem; }
+
+        .cd__traj { margin: 0 0 2.5rem; }
+        .cd__trajgrid { display: grid; gap: 1.5rem; grid-template-columns: 1fr; align-items: start; }
+        @media (min-width: 760px) { .cd__trajgrid { grid-template-columns: 1.5fr 1fr; } }
+        .cd__htable { width: 100%; border-collapse: collapse; font-family: var(--font-mono); font-size: 0.8125rem; }
+        .cd__htable th, .cd__htable td { padding: 0.55rem 0.6rem; border-bottom: 1px solid var(--border); text-align: left; }
+        .cd__htable thead th { color: var(--fg-faint); font-size: 0.6875rem; text-transform: uppercase; letter-spacing: 0.05em; }
+        .cd__hsub { color: var(--fg-faint); font-size: 0.6875rem; }
+        .cd__hhz { color: var(--fg-muted); }
+        .cd__hnum { text-align: right; }
+        .cd__hscore { font-weight: 700; }
+        .cd__hscore--pos { color: var(--pos); } .cd__hscore--neg { color: var(--neg); } .cd__hscore--mixed { color: var(--mixed); }
 
         .cd__h { font-size: 1.05rem; font-family: var(--font-mono); color: var(--fg); margin: 0 0 0.5rem; }
         .cd__hint { font-size: 0.8125rem; color: var(--fg-faint); margin: 0 0 1rem; }

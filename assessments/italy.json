@@ -235,19 +235,34 @@
       "score": 2.03,
       "confidence": 0.73,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.07,
+        "mid": 2.05,
+        "long": 2.03
+      }
     },
     "assets": {
       "score": 2.71,
       "confidence": 0.74,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.67,
+        "mid": 2.71,
+        "long": 2.75
+      }
     },
     "currency": {
       "score": 2.98,
       "confidence": 0.74,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.98,
+        "mid": 3.07,
+        "long": 3.17
+      }
     }
   },
   "summary": "A top-tier manufacturer with a large trade surplus, record tourism, much-improved banks, and an unusually stable government, within the eurozone. The structural drags are a very high public-debt load that declines only slowly, among the world's most severe demographic ageing, a strained-but-effective health service, eroding press freedom, and a Mediterranean climate warming faster than the global average. The citizenship-by-ancestry route was sharply narrowed in 2025.",

@@ -231,19 +231,34 @@
       "score": 0.97,
       "confidence": 0.64,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.99,
+        "mid": 0.98,
+        "long": 0.97
+      }
     },
     "assets": {
       "score": 0.54,
       "confidence": 0.66,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.49,
+        "mid": 0.54,
+        "long": 0.58
+      }
     },
     "currency": {
       "score": 0.61,
       "confidence": 0.69,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.61,
+        "mid": 0.7,
+        "long": 0.79
+      }
     }
   },
   "summary": "A stable parliamentary democracy that has executed one of the region's most credible debt turnarounds, cutting public debt from over 100% to ~61% of GDP via its 2021 blue-bond debt-for-nature swap, with strong post-pandemic growth and inflation now near 1%. The principal risks are structural rather than political: thin foreign reserves (below the IMF's adequacy metric), heavy reliance on tourism and agriculture, acute correspondent-banking de-risking, and high hurricane exposure. Elevated but declining gang-driven crime in Belize City and the unresolved Guatemala territorial claim - now before the ICJ - are the standout tail-risks. Overall a moderately positive, improving profile constrained by small-state vulnerability.",

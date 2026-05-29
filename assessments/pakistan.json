@@ -229,19 +229,34 @@
       "score": -4.82,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -4.68,
+        "mid": -4.75,
+        "long": -4.82
+      }
     },
     "assets": {
       "score": -4.11,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -3.99,
+        "mid": -4.11,
+        "long": -4.24
+      }
     },
     "currency": {
       "score": -3.49,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -3.49,
+        "mid": -3.65,
+        "long": -3.8
+      }
     }
   },
   "summary": "A distressed economy held together by an IMF program: a heavy debt load with crushing debt-service, a narrow textile-dependent export base, and a remittance lifeline, with inflation down sharply from a peak but fragile. Institutions are weak under military influence, the Feb-2024 election left a legitimacy crisis with the main opposition leader jailed, and resurgent terrorism plus tense India and Afghanistan borders weigh heavily. Catastrophic climate exposure - the 2022 floods submerged a third of the country - a chronic power crisis, and weak healthcare round out a negative profile.",

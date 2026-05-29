@@ -241,19 +241,34 @@
       "score": -5.98,
       "confidence": 0.58,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -6.61,
+        "mid": -6.3,
+        "long": -5.98
+      }
     },
     "assets": {
       "score": -5.77,
       "confidence": 0.58,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -6.21,
+        "mid": -5.77,
+        "long": -5.33
+      }
     },
     "currency": {
       "score": -5.95,
       "confidence": 0.58,
       "horizon": "1-3y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -5.95,
+        "mid": -5.37,
+        "long": -4.79
+      }
     }
   },
   "summary": "A catastrophically mismanaged oil state: the world's largest reserves but output collapsed ~80% from peak, a defaulted and opaque budget, a hyperinflation legacy with informal dollarization, and a broken banking system. Politically it is authoritarian - the July-2024 election was widely regarded as stolen, with intensified repression, crimes-against-humanity findings, and hundreds of political prisoners - and it has produced a humanitarian-scale exodus of nearly a quarter of its population. Heavily sanctioned and isolated, with a collapsed health system and chronic blackouts, the dominant risk is fat-tail and the outcome distribution negative.",

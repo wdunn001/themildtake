@@ -225,19 +225,34 @@
       "score": -0.37,
       "confidence": 0.71,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.37,
+        "mid": -0.37,
+        "long": -0.37
+      }
     },
     "assets": {
       "score": 0.47,
       "confidence": 0.72,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.47,
+        "mid": 0.47,
+        "long": 0.47
+      }
     },
     "currency": {
       "score": 0.92,
       "confidence": 0.73,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.92,
+        "mid": 0.92,
+        "long": 0.92
+      }
     }
   },
   "summary": "A regional economic hub with genuine strengths - a credible central bank, well-anchored inflation, a sophisticated banking sector, a strong 2010 constitution and assertive judiciary, a vibrant press, and a fintech-led services economy - set against a heavy debt overhang, entrenched corruption, and the strain of the deadly 2024 anti-tax protests and 2025 unrest. Climate exposure (drought and flood), an underfunded health system, elevated urban and border-zone crime, and ethnic-bloc politics weigh on the other side, leaving a genuinely two-sided profile.",

@@ -245,19 +245,34 @@
       "score": -5.29,
       "confidence": 0.71,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -4.99,
+        "mid": -5.14,
+        "long": -5.29
+      }
     },
     "assets": {
       "score": -4.78,
       "confidence": 0.71,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -4.49,
+        "mid": -4.78,
+        "long": -5.07
+      }
     },
     "currency": {
       "score": -4.1,
       "confidence": 0.71,
       "horizon": "1-3y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -4.1,
+        "mid": -4.54,
+        "long": -4.98
+      }
     }
   },
   "summary": "Institutional erosion from a high baseline - pressure on the courts, documented statistical-agency interference, civil-service politicization - combined with reserve-currency erosion, alliance decay, and harsh treatment of non-citizens drive a strongly negative living read. Post-2022 official data is discounted as partially-entangled (confidence on inflation and fiscal lowered), and trade is scored on the hostility its volatile tariff actions create rather than on tariff levels alone, which pushes the economic read worse. The reserve-currency privilege is a large near-term cushion that erodes over the long term as the institutions it shielded are exposed.",

@@ -227,19 +227,34 @@
       "score": -1.46,
       "confidence": 0.69,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.43,
+        "mid": -1.44,
+        "long": -1.46
+      }
     },
     "assets": {
       "score": -1.99,
       "confidence": 0.73,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.98,
+        "mid": -1.99,
+        "long": -2
+      }
     },
     "currency": {
       "score": -2.16,
       "confidence": 0.76,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.16,
+        "mid": -2.16,
+        "long": -2.16
+      }
     }
   },
   "summary": "Southeast Asia's democratic and press-freedom standout - RSF's highest-ranked ASEAN state, with peaceful transfers of power and a 2025 accession to ASEAN as its 11th member. But it sits on a hard fiscal cliff: the economy depends almost entirely on an unsustainable drawdown from a ~$18bn Petroleum Fund that the IMF warns could be exhausted by the late 2030s, while its salvation field (Greater Sunrise) stays stalled over the pipeline dispute with Australia and Bayu-Undan has stopped producing. Despite oil wealth, ~42% live in poverty and ~47% of young children are stunted, exposing a deep development failure and weak healthcare/infrastructure. The skew is negative - strong freedoms and political maturity cannot offset an oncoming revenue collapse, near-total resource dependence, and severe human-development deficits.",

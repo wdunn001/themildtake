@@ -237,19 +237,34 @@
       "score": 4.51,
       "confidence": 0.82,
       "horizon": "5-10y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 4.67,
+        "mid": 4.59,
+        "long": 4.51
+      }
     },
     "assets": {
       "score": 3.87,
       "confidence": 0.82,
       "horizon": "3-7y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.93,
+        "mid": 3.87,
+        "long": 3.82
+      }
     },
     "currency": {
       "score": 3.4,
       "confidence": 0.83,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.4,
+        "mid": 3.35,
+        "long": 3.29
+      }
     }
   },
   "summary": "A standout on institutions: world-leading digital government, top-tier rule of law, the EU's lowest debt, and the world's second-freest press, in a stable EU/eurozone democracy. The countervailing tails are geopolitical and structural - frontline exposure to the Russia-Ukraine war along a long Russia border (with GPS-jamming and border incidents), a 2023-25 recession with a defence-driven rising deficit, a security-sharpened Russian-minority cleavage and disenfranchisement measures, and very low fertility with a shrinking population. Net, a balanced outcome distribution.",

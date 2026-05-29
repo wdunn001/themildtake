@@ -233,19 +233,34 @@
       "score": -1.2,
       "confidence": 0.62,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.33,
+        "mid": -1.26,
+        "long": -1.2
+      }
     },
     "assets": {
       "score": -1.36,
       "confidence": 0.65,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.42,
+        "mid": -1.36,
+        "long": -1.31
+      }
     },
     "currency": {
       "score": -1.27,
       "confidence": 0.67,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.27,
+        "mid": -1.18,
+        "long": -1.08
+      }
     }
   },
   "summary": "The world's most disaster-exposed state, and the December 2024 M7.3 Port Vila earthquake - atop the 2023 twin cyclones and the 2024 Air Vanuatu collapse - exposed how a single shock cascades through revenue, infrastructure, and connectivity at once. Its fiscal model leans heavily on a now-impaired 'golden passport' scheme (EU visa-free access permanently revoked in December 2024, revenue down ~50% from peak, AML scrutiny ongoing), leaving a thin subsistence-and-tourism base propped up by Australian and Chinese aid. The chronic political churn that defined it for decades may finally be easing under the 2023/24 anti-floor-crossing constitutional reform, which has held through 2025. The skew is firmly negative: a broadly free, cohesive society cannot offset catastrophic and correlated physical risk plus a structurally fragile revenue base.",

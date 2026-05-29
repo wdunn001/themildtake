@@ -235,19 +235,34 @@
       "score": -5.02,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -5.23,
+        "mid": -5.13,
+        "long": -5.02
+      }
     },
     "assets": {
       "score": -3.47,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -3.57,
+        "mid": -3.47,
+        "long": -3.37
+      }
     },
     "currency": {
       "score": -2.22,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.22,
+        "mid": -2.09,
+        "long": -1.96
+      }
     }
   },
   "summary": "Burkina Faso, under Captain Ibrahim Traore since the 2022 coups, faces the Sahel's deadliest jihadist war: roughly 40% or more of the territory is contested, civilian killings have risen sharply, and some 2 million people are internally displaced. The junta runs a personalist consolidation - a five-year renewable term, indefinitely postponed elections, abducted or forcibly conscripted critics, suspended foreign media - while pivoting to Russia and exiting ECOWAS for the AES. The rare bright spot is the economy: an IMF ECF program is on track with ~5% growth and unusually low (near-zero) CFA-peg-anchored inflation, funded by gold (~75% of exports), though the nationalization of five mines into state-owned SOPAMIB raises investor risk. With external data and contested security figures, the assessment is clearly negative with a meaningful state-erosion tail.",

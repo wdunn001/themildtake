@@ -242,19 +242,34 @@
       "score": -2.16,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.05,
+        "mid": -2.1,
+        "long": -2.16
+      }
     },
     "assets": {
       "score": -1.29,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.27,
+        "mid": -1.29,
+        "long": -1.32
+      }
     },
     "currency": {
       "score": -0.91,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.91,
+        "mid": -0.94,
+        "long": -0.96
+      }
     }
   },
   "summary": "A diversified manufacturing economy mid-way through a genuine orthodox re-stabilisation - sharp rate hikes, the FX-protected-deposit scheme wound down, inflation falling from extreme highs - sitting on a low debt base and an EU customs union. But the dominant drags are institutional and political: a politicised judiciary, the 2025 arrest of the lead opposition figure and the protests it triggered, very low press freedom, and disputed official inflation data, all atop a catastrophic Istanbul seismic tail. The 2025 Kurdish disarmament process is the one structural positive on social cohesion.",

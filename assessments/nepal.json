@@ -231,19 +231,34 @@
       "score": -2.44,
       "confidence": 0.72,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.7,
+        "mid": -2.57,
+        "long": -2.44
+      }
     },
     "assets": {
       "score": -2.28,
       "confidence": 0.72,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.32,
+        "mid": -2.28,
+        "long": -2.23
+      }
     },
     "currency": {
       "score": -2.19,
       "confidence": 0.73,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.19,
+        "mid": -2.16,
+        "long": -2.12
+      }
     }
   },
   "summary": "A young federal democracy whose chronic political churn - a revolving door of coalition governments since the 2008 republic, with recurring 2024-25 instability and protests - sits alongside a weak, narrow, remittance-dependent economy whose monetary policy is effectively imported through an Indian-rupee peg. The dominant physical drag is severe Himalayan exposure: glacial-melt floods, catastrophic earthquake risk, monsoon landslides, and the capital's extreme air pollution, against very thin disaster insurance. A relatively free press and substantial hydropower-export potential to India are the genuine offsets, leaving a balanced outcome distribution.",

@@ -235,19 +235,34 @@
       "score": -2.81,
       "confidence": 0.67,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.65,
+        "mid": -2.73,
+        "long": -2.81
+      }
     },
     "assets": {
       "score": -1.48,
       "confidence": 0.68,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.43,
+        "mid": -1.48,
+        "long": -1.53
+      }
     },
     "currency": {
       "score": -0.51,
       "confidence": 0.69,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.51,
+        "mid": -0.54,
+        "long": -0.57
+      }
     }
   },
   "summary": "The archetypal resource-curse state - substantial LNG, gold, and copper wealth (Porgera restarted, Papua LNG/P'nyang pending) sitting atop weak institutions (CPI 26/100), chronic FX shortages now easing under a credible IMF program, and some of the world's worst security and health outcomes. 2024 was a violent inflection: the January 'Black Wednesday' riots (22+ dead) and the February Enga massacre (~44+) underscored escalating violence, while a 2025 polio outbreak and high maternal mortality signal deep human-development failure. Politics is superficially stabilizing - Marape entrenched via an 18-month no-confidence immunity - but that stability is bought by weakening checks. The skew is negative: the IMF reform story is genuine upside, but dwarfed by correlated downside in security, health, governance, and disaster exposure.",

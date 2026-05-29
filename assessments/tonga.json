@@ -231,19 +231,34 @@
       "score": -1.36,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.22,
+        "mid": -1.29,
+        "long": -1.36
+      }
     },
     "assets": {
       "score": -1.44,
       "confidence": 0.62,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.36,
+        "mid": -1.44,
+        "long": -1.52
+      }
     },
     "currency": {
       "score": -1.27,
       "confidence": 0.63,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.27,
+        "mid": -1.35,
+        "long": -1.43
+      }
     }
   },
   "summary": "A small (~100k) constitutional monarchy that democratized in 2010 but where nobles still hold 9 of 26 parliamentary seats and the King retains veto, dissolution, and appointment powers - friction that surfaced openly when PM Sovaleni resigned in December 2024 amid a royal rift, succeeded by King-appointed PM 'Aisake Eke. The economy is recovering from the catastrophic January 2022 Hunga Tonga eruption and tsunami (damage ~18-36% of GDP, the sole undersea cable severed) on the back of reconstruction, tourism, and remittances worth ~38-45% of GDP - among the world's highest, and a defining single-point external dependency. It is at high risk of debt distress, carries the Pacific's heaviest NCD/obesity burden, and faces extreme, largely uninsurable disaster exposure. The skew is negative: a cohesive, stable-enough society sits over a fragile fiscal position, a constrained democracy, and correlated catastrophic physical risk.",

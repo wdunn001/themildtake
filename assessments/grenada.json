@@ -227,19 +227,34 @@
       "score": 2.34,
       "confidence": 0.66,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.41,
+        "mid": 2.37,
+        "long": 2.34
+      }
     },
     "assets": {
       "score": 2.03,
       "confidence": 0.71,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.05,
+        "mid": 2.03,
+        "long": 2
+      }
     },
     "currency": {
       "score": 2.18,
       "confidence": 0.75,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.18,
+        "mid": 2.18,
+        "long": 2.18
+      }
     }
   },
   "summary": "The fiscal standout of the Eastern Caribbean, with record CBI inflows building large government buffers and a credible glidepath to the ECCU 60%-of-GDP debt target by ~2033, even after suspending fiscal rules to fund Hurricane Beryl reconstruction. Its institutions are stable, democratic, and 'Free', and the 1983 intervention legacy is irrelevant to present risk. The dominant downside is physical: Beryl's near-total destruction of Carriacou in 2024 shows how a single storm can wipe out >16% of GDP, against limited catastrophe insurance. Net skew is moderately positive, anchored by strong public finances but capped by concentrated climate exposure and CBI/EU dependence.",

@@ -227,19 +227,34 @@
       "score": 3.29,
       "confidence": 0.73,
       "horizon": "5-10y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.32,
+        "mid": 3.3,
+        "long": 3.29
+      }
     },
     "assets": {
       "score": 2.36,
       "confidence": 0.76,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.37,
+        "mid": 2.36,
+        "long": 2.35
+      }
     },
     "currency": {
       "score": 1.78,
       "confidence": 0.78,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.78,
+        "mid": 1.78,
+        "long": 1.78
+      }
     }
   },
   "summary": "One of Africa's institutional standouts - the October 2024 election produced the country's first-ever peaceful party turnover after ~58 years of BDP rule, reinforcing rule of law and civil liberties. But the economy is in a genuine crisis: the global diamond slump pushed real GDP into contraction in 2025, opened one of sub-Saharan Africa's widest fiscal deficits (~8-11% of GDP), and cut reserves by roughly a quarter. Deep structural vulnerabilities - extreme single-commodity dependence, ~21% adult HIV prevalence, very high inequality, and chronic drought - make the near-term skew negative even though the long-run governance base is strong.",

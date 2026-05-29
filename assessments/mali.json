@@ -235,19 +235,34 @@
       "score": -4.95,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -5.16,
+        "mid": -5.06,
+        "long": -4.95
+      }
     },
     "assets": {
       "score": -3.8,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -3.92,
+        "mid": -3.8,
+        "long": -3.67
+      }
     },
     "currency": {
       "score": -2.89,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.89,
+        "mid": -2.71,
+        "long": -2.53
+      }
     }
   },
   "summary": "Mali is a coup-belt junta whose security situation deteriorated sharply through 2025-26: a JNIM fuel blockade besieged Bamako and a Tuareg-led FLA/JNIM offensive forced the army and Russia's Africa Corps to abandon the Kidal region, while documented Africa-Corps/army atrocities deepen grievance. Politically the junta dissolved all parties in May 2025 and granted Goita a renewable five-year term, exited ECOWAS for the Russia-aligned AES, and severely curbed the press. The economy has a rare stabilizer in the euro-pegged CFA franc and large gold/cotton output, but the state's seizure of Barrick's Loulo-Gounkoto, aid cuts, and above-ceiling conflict-driven inflation cloud the outlook. With external data and contested security figures, confidence is reduced; the distribution is clearly negative with a real state-collapse tail.",

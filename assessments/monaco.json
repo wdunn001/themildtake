@@ -227,19 +227,34 @@
       "score": 4.23,
       "confidence": 0.69,
       "horizon": "5-10y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 4.27,
+        "mid": 4.25,
+        "long": 4.23
+      }
     },
     "assets": {
       "score": 3.67,
       "confidence": 0.71,
       "horizon": "3-7y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.69,
+        "mid": 3.67,
+        "long": 3.65
+      }
     },
     "currency": {
       "score": 3.13,
       "confidence": 0.74,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.13,
+        "mid": 3.13,
+        "long": 3.13
+      }
     }
   },
   "summary": "An ultra-high-income constitutional monarchy under Prince Albert II with one of the world's strongest public balance sheets - no public debt, a multi-billion-euro reserve fund, recurring surpluses, no personal income tax, and very low crime. Its key live risk is reputational/financial: it was grey-listed by the FATF in June 2024 and, as of late 2025, was judged to have 'largely addressed' the action plan but had not yet been removed, with delisting targeted for mid-2026. Structurally, the economy is narrow and tied to the global-wealth cycle, the franchise is constrained (the Prince appoints a government answerable only to him), and wealth/nationality stratification is extreme. It uses the euro with no monetary autonomy; the profile is broadly symmetric.",

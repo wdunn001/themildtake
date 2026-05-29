@@ -231,19 +231,34 @@
       "score": -3.64,
       "confidence": 0.59,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -3.63,
+        "mid": -3.63,
+        "long": -3.64
+      }
     },
     "assets": {
       "score": -2.36,
       "confidence": 0.59,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.37,
+        "mid": -2.36,
+        "long": -2.35
+      }
     },
     "currency": {
       "score": -1.64,
       "confidence": 0.59,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.64,
+        "mid": -1.6,
+        "long": -1.56
+      }
     }
   },
   "summary": "A resource-rich West African state whose 2021 coup leader, Col. Mamadi Doumbouya, has converted a stalled transition into entrenched rule - a 2025 referendum let military men run and lengthened the term, and he won an ~87% December 2025 vote the UN flagged for intimidation. The economic story is genuinely strong and improving: ~7%+ growth, easing inflation, a top-tier global bauxite position, and the long-delayed world-class Simandou iron-ore project shipping first ore in December 2025 - which gives the economic axis a rare positive skew. But that boom sits atop autocratic governance, with no judicial independence, opposition leaders forcibly disappeared, banned protests met by lethal force, and the world's sharpest 2025 press-freedom decline. The net forward picture is negative: a paradox-of-plenty where mineral upside is captured by an unaccountable junta, leaving rights, rule of law, and resource rents the dominant risks.",

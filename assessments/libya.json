@@ -233,19 +233,34 @@
       "score": -6.06,
       "confidence": 0.53,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -6.25,
+        "mid": -6.15,
+        "long": -6.06
+      }
     },
     "assets": {
       "score": -5.55,
       "confidence": 0.53,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -5.6,
+        "mid": -5.55,
+        "long": -5.5
+      }
     },
     "currency": {
       "score": -5.24,
       "confidence": 0.53,
       "horizon": "1-3y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -5.24,
+        "mid": -5.19,
+        "long": -5.15
+      }
     }
   },
   "summary": "A de-facto partitioned petrostate, divided since 2014 between a Tripoli-based government in the west and a Haftar/LNA-aligned east, with rival governments, a contested central bank, and oil revenue (~95% of exports) that is repeatedly halted by blockades and looted between factions - a resource curse that fuels the conflict. Militia rule means no judicial independence, documented migrant enslavement is among the world's worst, and periodic warfare persists amid a foreign-mercenary presence. Extreme heat and the catastrophic 2023 Derna flood weigh on the physical side. Data is fragmentary; the picture is clearly negative.",

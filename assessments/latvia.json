@@ -227,19 +227,34 @@
       "score": 3.62,
       "confidence": 0.8,
       "horizon": "5-10y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.64,
+        "mid": 3.63,
+        "long": 3.62
+      }
     },
     "assets": {
       "score": 3.78,
       "confidence": 0.82,
       "horizon": "3-7y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.79,
+        "mid": 3.78,
+        "long": 3.77
+      }
     },
     "currency": {
       "score": 3.97,
       "confidence": 0.83,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.97,
+        "mid": 3.97,
+        "long": 3.97
+      }
     }
   },
   "summary": "A low-debt EU and eurozone democracy with solid, EU-standard institutions, a cleaned-up banking sector, a free press, and top-tier NATO alliance value as a frontline state. The countervailing tails are a Russia-border war and hybrid risk (a long frontier, Baltic drone incidents, undersea-cable sabotage), a real Russian-minority cleavage compounded by tightened residency rules, an underfunded health system, and among the EU's steepest demographic declines. Net, a balanced outcome distribution.",

@@ -227,19 +227,34 @@
       "score": 1.37,
       "confidence": 0.64,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.45,
+        "mid": 1.41,
+        "long": 1.37
+      }
     },
     "assets": {
       "score": 0.75,
       "confidence": 0.69,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.77,
+        "mid": 0.75,
+        "long": 0.73
+      }
     },
     "currency": {
       "score": 0.62,
       "confidence": 0.72,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.62,
+        "mid": 0.62,
+        "long": 0.62
+      }
     }
   },
   "summary": "Saint Vincent and the Grenadines carries the heaviest debt load of the OECS cohort (~113% of GDP) and a violent-crime problem with one of the world's highest per-capita homicide rates, and it has absorbed two major disasters in three years (the 2021 La Soufriere eruption, 2024 Hurricane Beryl). Yet it just demonstrated exceptional democratic resilience: the November 2025 landslide that ended Ralph Gonsalves' 24-year tenure and installed Godwin Friday's NDP was peaceful and orderly, removing the prior dominant-PM risk. Uniquely among CBI-eligible peers it runs no golden-passport program, so it forgoes that revenue but also avoids EU passport-sanction exposure. Net skew is roughly neutral - institutional strength and the new government's reform mandate offset against high debt, crime, and severe climate exposure.",

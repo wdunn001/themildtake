@@ -231,19 +231,34 @@
       "score": -2.26,
       "confidence": 0.59,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.14,
+        "mid": -2.2,
+        "long": -2.26
+      }
     },
     "assets": {
       "score": -0.57,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.57,
+        "mid": -0.57,
+        "long": -0.57
+      }
     },
     "currency": {
       "score": 0.46,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.46,
+        "mid": 0.51,
+        "long": 0.55
+      }
     }
   },
   "summary": "An EU-candidate with quietly sound macro fundamentals - prudent fiscals, a credibly managed dinar, low inflation, and well-capitalised banks - but those are outweighed by democratic backsliding. Institutions are captured (compromised courts, pressured prosecutors, heavily controlled media), and a live legitimacy crisis is underway: the 2024 Novi Sad station-canopy collapse that killed 16 triggered the largest protests in decades, met with crackdowns and a refusal to call elections. Belgrade refuses to sanction Russia and hedges between the EU, Russia, and China, the Kosovo dispute is unresolved, air pollution is severe, and the population is in steep demographic decline.",

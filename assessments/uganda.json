@@ -229,19 +229,34 @@
       "score": -3.06,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -2.91,
+        "mid": -2.99,
+        "long": -3.06
+      }
     },
     "assets": {
       "score": -2.43,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.4,
+        "mid": -2.43,
+        "long": -2.46
+      }
     },
     "currency": {
       "score": -1.87,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.87,
+        "mid": -1.88,
+        "long": -1.89
+      }
     }
   },
   "summary": "A fast-growing economy with notably low inflation and Africa's largest, most progressive refugee-host record, undercut by entrenched authoritarian governance: a leader in power since 1986 re-elected in January 2026 amid an opposition crackdown and internet shutdown, his son positioned to succeed, a 2025 law restoring military trials of civilians, a draconian anti-LGBT law, and a heavily pressured press. Recurrent Ebola/Marburg outbreaks, ADF/ISIS-linked conflict and a DRC intervention, and oil/EACOP-concentration risks round out a negative profile.",

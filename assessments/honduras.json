@@ -235,19 +235,34 @@
       "score": -2.04,
       "confidence": 0.72,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.09,
+        "mid": -2.07,
+        "long": -2.04
+      }
     },
     "assets": {
       "score": -1.08,
       "confidence": 0.73,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.06,
+        "mid": -1.08,
+        "long": -1.09
+      }
     },
     "currency": {
       "score": -0.43,
       "confidence": 0.73,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.43,
+        "mid": -0.46,
+        "long": -0.49
+      }
     }
   },
   "summary": "A Central American economy whose lone bright spot is IMF-anchored, remittance-cushioned macro stability (falling debt, easing inflation) on a narrow base dangerously dependent on remittances (~30% of GDP). The drags dominate: a narco-state legacy with a former president convicted in the US and captured courts, one of the most dangerous press environments, a razor-thin and contested November-2025 election and transition, extreme inequality and gang presence, high (if falling) homicide, and among the world's highest climate vulnerability to hurricanes and drought.",

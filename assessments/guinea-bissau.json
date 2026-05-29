@@ -233,19 +233,34 @@
       "score": -3.17,
       "confidence": 0.65,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -3.23,
+        "mid": -3.2,
+        "long": -3.17
+      }
     },
     "assets": {
       "score": -1.98,
       "confidence": 0.67,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.94,
+        "mid": -1.98,
+        "long": -2.02
+      }
     },
     "currency": {
       "score": -1.14,
       "confidence": 0.69,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.14,
+        "mid": -1.2,
+        "long": -1.26
+      }
     }
   },
   "summary": "A deeply negatively-skewed fragile state: cashew-dependent (~80% of exports), a WAEMU CFA member whose euro peg and ~2% inflation are its only firm anchors, and a long-running South America-to-Europe cocaine-transit hub whose trafficking money has captured politics and security. Its defining 2025 fact is the November military takeover - the army seized power a day before results of a disputed Nov 23 election (both Embalo and opposition candidate Dias claimed victory, the PAIGC was barred, and the count was reportedly destroyed), drawing ECOWAS and AU suspension. Credible voices allege the coup was staged by Embalo to rule by proxy - encoded here as a serious allegation, while the takeover itself is corroborated. With rule of law near the floor and among the world's weakest health and infrastructure, the only realistic upside is a genuine ECOWAS-brokered democratic reset.",

@@ -239,19 +239,34 @@
       "score": 0.37,
       "confidence": 0.75,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.22,
+        "mid": 0.07,
+        "long": 0.37
+      }
     },
     "assets": {
       "score": 0.66,
       "confidence": 0.79,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.37,
+        "mid": 0.66,
+        "long": 0.94
+      }
     },
     "currency": {
       "score": 0.46,
       "confidence": 0.83,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.46,
+        "mid": 0.77,
+        "long": 1.08
+      }
     }
   },
   "summary": "The strongest performer in the Western Balkans and the EU's accession frontrunner, with a credible 2028 membership target (14 chapters provisionally closed as of early 2026), NATO membership, full Western alignment on Russia, a healthy and well-capitalized banking sector, and moderate public debt - giving a positive, upside-asymmetric skew anchored by the EU-convergence catalyst. The dominant downside risks are structural and concentrated: entrenched organized crime (the Kavac-Skaljari cocaine wars and institutional capture) with weak judicial capacity that gates the final, hardest accession chapters, and a unilateral euroization that eliminates monetary independence and any lender of last resort. Secondary vulnerabilities include a deep Serb-Montenegrin identity cleavage, a fragile fragmented coalition with pro-Russian/pro-Serb elements, heavy tourism dependence with a wide current-account deficit, adverse demographics, and high seismic/flood exposure.",

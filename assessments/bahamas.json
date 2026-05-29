@@ -233,19 +233,34 @@
       "score": 1.47,
       "confidence": 0.79,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.5,
+        "mid": 1.49,
+        "long": 1.47
+      }
     },
     "assets": {
       "score": 1.43,
       "confidence": 0.81,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.4,
+        "mid": 1.43,
+        "long": 1.46
+      }
     },
     "currency": {
       "score": 1.4,
       "confidence": 0.83,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.4,
+        "mid": 1.47,
+        "long": 1.53
+      }
     }
   },
   "summary": "A high-income, well-governed Westminster democracy with credible institutions, a stable USD peg, very low inflation, healthy banks, and a fiscal trajectory that is genuinely improving - debt down to ~74% of GDP on three straight primary surpluses, off the EU tax grey list and FATF-compliant - confirmed by a decisive May-2026 re-election of the Davis government. The dominant risk is physical, not political: with ~80% of its land barely above sea level and a Dorian-class hurricane able to wipe out years of progress in days, climate/disaster exposure defines the negative skew. Secondary drags are still-elevated (if falling) Nassau crime and hard-edged treatment of Haitian migrants. Solid expected value, fat catastrophe tail.",

@@ -229,19 +229,34 @@
       "score": 1.5,
       "confidence": 0.62,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.45,
+        "mid": 1.47,
+        "long": 1.5
+      }
     },
     "assets": {
       "score": 1.07,
       "confidence": 0.69,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.94,
+        "mid": 1.07,
+        "long": 1.2
+      }
     },
     "currency": {
       "score": 0.87,
       "confidence": 0.72,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.87,
+        "mid": 1.09,
+        "long": 1.31
+      }
     }
   },
   "summary": "The region's highest-income state and pioneer of the 'golden passport', but 2024 exposed its core vulnerability: CBI revenue more than halved (from ~22% to ~8% of GDP) after EU-driven price floors and tighter due diligence, blowing the fiscal deficit out to ~11% of GDP. The saving grace is a low debt stock (~61% of GDP) built from past CBI windfalls, giving room to consolidate. It carries the heaviest CBI-related external scrutiny of the cohort and a severe violent-crime problem (homicide rate ~60/100k), while the federation's constitutional Nevis-secession option remains a dormant structural tail risk. Net skew is neutral with a near-term negative tilt as the economy adjusts to permanently lower passport income.",

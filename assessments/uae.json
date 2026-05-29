@@ -242,19 +242,34 @@
       "score": 0.25,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.87,
+        "mid": 0.56,
+        "long": 0.25
+      }
     },
     "assets": {
       "score": 0.61,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.39,
+        "mid": 0.61,
+        "long": 0.84
+      }
     },
     "currency": {
       "score": 0.14,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.14,
+        "mid": 0.58,
+        "long": 1.02
+      }
     }
   },
   "summary": "World-class infrastructure, very low crime, excellent hub healthcare, deep fiscal buffers from sovereign wealth, dollar-pegged monetary stability, and uniquely easy, tax-free residency for professionals. The offsetting floor is authoritarian: no judicial independence on political matters, among the world's lowest press freedom, sharply restricted civil liberties, and no path to citizenship or political rights for the ~88% expatriate population (residency tied to employment). Active regional-conflict exposure and severe long-run climate/water stress add risk, and the economy carries a rentier, oil-dependent tail.",

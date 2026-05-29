@@ -243,19 +243,34 @@
       "score": 1.24,
       "confidence": 0.74,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.23,
+        "mid": 1.23,
+        "long": 1.24
+      }
     },
     "assets": {
       "score": 2.17,
       "confidence": 0.74,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.14,
+        "mid": 2.17,
+        "long": 2.19
+      }
     },
     "currency": {
       "score": 2.82,
       "confidence": 0.74,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.82,
+        "mid": 2.88,
+        "long": 2.94
+      }
     }
   },
   "summary": "A striking post-crisis fiscal turnaround - large primary surpluses, fast-falling (if still high) debt, regained investment grade, recapitalized banks - alongside a world-leading merchant fleet and record tourism. The drags are weak rule of law (a surveillance scandal, the Tempi-disaster accountability crisis), the lowest press freedom in the EU, severe and worsening climate exposure, an austerity-hollowed health system, and steep demographic decline. Tensions with Turkey are a recurring negative-skew tail.",

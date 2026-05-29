@@ -233,19 +233,34 @@
       "score": 0.21,
       "confidence": 0.71,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.36,
+        "mid": 0.28,
+        "long": 0.21
+      }
     },
     "assets": {
       "score": 0.38,
       "confidence": 0.72,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.41,
+        "mid": 0.38,
+        "long": 0.36
+      }
     },
     "currency": {
       "score": 0.55,
       "confidence": 0.72,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.55,
+        "mid": 0.56,
+        "long": 0.57
+      }
     }
   },
   "summary": "An independent, credible central bank, sound banks, courts that defended democracy after a coup attempt, and lawful residency routes. But the outcome distribution skews negative: a worsening public-debt trajectory with a high interest burden, deep political polarization, very high inequality and violent crime, weak logistics, and Amazon/climate exposure.",

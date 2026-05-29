@@ -229,19 +229,34 @@
       "score": -0.2,
       "confidence": 0.73,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.05,
+        "mid": -0.13,
+        "long": -0.2
+      }
     },
     "assets": {
       "score": 0.95,
       "confidence": 0.73,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.98,
+        "mid": 0.95,
+        "long": 0.92
+      }
     },
     "currency": {
       "score": 1.59,
       "confidence": 0.74,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.59,
+        "mid": 1.58,
+        "long": 1.57
+      }
     }
   },
   "summary": "A NATO member and EU candidate with sound, well-capitalised banks, a de-facto euro peg delivering stability, and an EU-integrated auto-components export base. Its defining frustration is an EU accession stalled for years by a neighbour's identity/constitution veto, which has fed deep public disillusion and political stalemate, atop stagnant corruption, a managed Macedonian/Albanian ethnic cleavage, the capital's severe winter air pollution, and steep depopulation. Net, a balanced outcome distribution leaning on the pro-Western anchor.",

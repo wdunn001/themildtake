@@ -229,19 +229,34 @@
       "score": -0.51,
       "confidence": 0.73,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.33,
+        "mid": -0.42,
+        "long": -0.51
+      }
     },
     "assets": {
       "score": 1.28,
       "confidence": 0.74,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.32,
+        "mid": 1.28,
+        "long": 1.24
+      }
     },
     "currency": {
       "score": 2.49,
       "confidence": 0.74,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.49,
+        "mid": 2.48,
+        "long": 2.47
+      }
     }
   },
   "summary": "An EU member with quietly positive economic fundamentals - among the bloc's lowest debt, euro adoption from January 2026, sound banks, and diversified exports - whose integrated outlook is pulled down by institutional, demographic, and health weaknesses. It has the EU's weakest rule-of-law and corruption record under oligarchic capture, chronic political instability (around eight elections in five years), among the world's fastest-shrinking populations, and the EU's poorest health outcomes. NATO/EU membership anchors it westward despite a persistent Russia-sympathetic strand.",

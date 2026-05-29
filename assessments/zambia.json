@@ -235,19 +235,34 @@
       "score": 0.84,
       "confidence": 0.7,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.68,
+        "mid": 0.76,
+        "long": 0.84
+      }
     },
     "assets": {
       "score": 1.28,
       "confidence": 0.71,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.22,
+        "mid": 1.28,
+        "long": 1.33
+      }
     },
     "currency": {
       "score": 1.71,
       "confidence": 0.73,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.71,
+        "mid": 1.78,
+        "long": 1.85
+      }
     }
   },
   "summary": "A copper economy climbing out of its 2020 default: a landmark G20-Common-Framework debt restructuring and IMF program completed, a credible disinflation (the kwacha among the region's strongest), and a copper-output expansion courted for the energy transition. It is a functioning democracy with a 2021 peaceful turnover, but democratic backsliding is rising ahead of the 2026 vote (opposition arrests, a constitutional-amendment push). The severe 2024 drought exposed dangerous hydropower over-reliance, and poverty remains high - leaving a balanced, recovery-tilted outcome distribution.",

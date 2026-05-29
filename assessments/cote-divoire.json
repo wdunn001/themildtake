@@ -233,19 +233,34 @@
       "score": -0.11,
       "confidence": 0.69,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.31,
+        "mid": -0.21,
+        "long": -0.11
+      }
     },
     "assets": {
       "score": 0.79,
       "confidence": 0.71,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.68,
+        "mid": 0.79,
+        "long": 0.9
+      }
     },
     "currency": {
       "score": 1.22,
       "confidence": 0.73,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.22,
+        "mid": 1.37,
+        "long": 1.51
+      }
     }
   },
   "summary": "A fast-growing West African anchor - around 6% growth, low CFA-franc/euro-peg-anchored inflation, an IMF program on track, the world's #1 cocoa producer with a new oil/gas ramp, and relatively good regional infrastructure as the BCEAO banking hub. The live risk is political: a contested 2025 election with leading rivals barred and deadly violence revived 2010-11 civil-war fears, atop north-south and reconciliation cleavages and a recurring 'Ivoirite' nationality dispute. Coastal-erosion/flood exposure, weak healthcare, and Sahel-jihadist spillover weigh further; the euro peg trades monetary autonomy for stability. Net, a balanced outcome distribution.",

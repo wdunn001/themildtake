@@ -235,19 +235,34 @@
       "score": -2.34,
       "confidence": 0.66,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.44,
+        "mid": -2.39,
+        "long": -2.34
+      }
     },
     "assets": {
       "score": -1.81,
       "confidence": 0.67,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.82,
+        "mid": -1.81,
+        "long": -1.81
+      }
     },
     "currency": {
       "score": -1.39,
       "confidence": 0.68,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.39,
+        "mid": -1.39,
+        "long": -1.39
+      }
     }
   },
   "summary": "Sierra Leone is a fragile post-civil-war democracy in a stabilization phase. A disputed June-2023 election (Bio re-elected ~56%, with the opposition and observers flagging tabulation opacity) and a failed November-2023 coup - a mass prison break followed by 2024 treason trials that convicted dozens and saw ex-President Koroma charged - exposed thin institutions and politicized justice. The brighter story is macro: a cost-of-living crisis that pushed inflation past 50% in 2023 has reversed sharply (to ~4-8% in 2025-26) under a stable leone and an on-track IMF ECF, though the economy stays low-income, commodity-dependent (diamonds, iron ore), and own-currency-volatile. Physical fragility is the standout weakness - a weak, Ebola-scarred health system overwhelmed by Africa's largest 2025 mpox outbreak, plus severe flood/landslide exposure (the 2017 Freetown mudslide) - making for a negatively skewed profile with recovery upside but deep structural and disaster tails.",

@@ -239,19 +239,34 @@
       "score": 2.59,
       "confidence": 0.78,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.66,
+        "mid": 2.63,
+        "long": 2.59
+      }
     },
     "assets": {
       "score": 3.13,
       "confidence": 0.79,
       "horizon": "3-7y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.17,
+        "mid": 3.13,
+        "long": 3.09
+      }
     },
     "currency": {
       "score": 3.54,
       "confidence": 0.8,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.54,
+        "mid": 3.51,
+        "long": 3.48
+      }
     }
   },
   "summary": "Strong fundamentals - a sound and improving fiscal position within the eurozone, well-capitalized banks, top-tier press freedom, and an independent judiciary that has actively checked the executive - paired with favorable, lawful residency pathways. The drags are a minority government amid a hard-right surge, a strained public health service, an ageing population only offset by immigration, and a worsening climate profile (record 2025 wildfires and a severe 2026 storm season) atop high latent seismic risk.",

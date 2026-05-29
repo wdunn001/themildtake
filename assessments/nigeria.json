@@ -229,19 +229,34 @@
       "score": -3.17,
       "confidence": 0.71,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -3.23,
+        "mid": -3.2,
+        "long": -3.17
+      }
     },
     "assets": {
       "score": -2.76,
       "confidence": 0.72,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.76,
+        "mid": -2.76,
+        "long": -2.75
+      }
     },
     "currency": {
       "score": -2.23,
       "confidence": 0.72,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.23,
+        "mid": -2.22,
+        "long": -2.22
+      }
     }
   },
   "summary": "A large, young, fast-growing economy mid-way through a painful but real reform cycle - a naira float, fuel-subsidy removal, a concluded bank recapitalisation, reserves at a multi-year high, and a major new refinery - with inflation easing from a post-reform shock. The profile is nonetheless dominated by drags: a crushing debt-service burden and a resource-curse oil model, entrenched corruption and weak delivery, a chronic power and infrastructure crisis, weak healthcare with heavy doctor emigration, very high violent crime and kidnapping, severe flooding, and severe internal insecurity from jihadist, bandit, and separatist violence.",

@@ -239,19 +239,34 @@
       "score": -0.27,
       "confidence": 0.73,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.21,
+        "mid": -0.03,
+        "long": -0.27
+      }
     },
     "assets": {
       "score": 0.97,
       "confidence": 0.73,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.05,
+        "mid": 0.97,
+        "long": 0.9
+      }
     },
     "currency": {
       "score": 1.44,
       "confidence": 0.73,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.44,
+        "mid": 1.41,
+        "long": 1.39
+      }
     }
   },
   "summary": "Easy lawful entry, excellent affordable universal healthcare, and a credible central bank, set against chronic political and judicial instability (PMs repeatedly removed by the courts), restricted civil liberties under the lese-majeste law, an active border conflict, and a hard demographic and belonging ceiling. Serious flood/heat exposure adds physical risk.",

@@ -245,19 +245,34 @@
       "score": 0.73,
       "confidence": 0.71,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.49,
+        "mid": 0.12,
+        "long": 0.73
+      }
     },
     "assets": {
       "score": 0.73,
       "confidence": 0.72,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.24,
+        "mid": 0.73,
+        "long": 1.22
+      }
     },
     "currency": {
       "score": 0.43,
       "confidence": 0.73,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.43,
+        "mid": 0.88,
+        "long": 1.33
+      }
     }
   },
   "summary": "An EU economy with a strong auto/manufacturing export base, easing inflation, EU-upgraded infrastructure, and low crime, carrying a legacy of deep rule-of-law erosion - an Article 7 procedure, frozen EU funds, captured media, and a hostile asylum regime. The defining 2026 event is a high-turnout democratic alternation out of long-entrenched rule, with the incoming government pledging restored judicial independence, fund unfreezing, and EU/NATO re-anchoring. That gives the country an asymmetric reform/recovery upside, but the turn is promised rather than delivered, so near-term institutional and civil-liberty scores remain negative.",

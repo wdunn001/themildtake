@@ -229,19 +229,34 @@
       "score": -0.93,
       "confidence": 0.59,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.9,
+        "mid": -0.92,
+        "long": -0.93
+      }
     },
     "assets": {
       "score": -0.6,
       "confidence": 0.62,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.63,
+        "mid": -0.6,
+        "long": -0.57
+      }
     },
     "currency": {
       "score": -0.43,
       "confidence": 0.65,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.43,
+        "mid": -0.38,
+        "long": -0.33
+      }
     }
   },
   "summary": "FSM pairs a remarkably strong sovereign balance sheet - trust-fund assets near 510% of GDP, debt under 9% - with structurally weak governance: a loose four-state federation with persistent Chuuk secessionism (now stalled but recently violent), very low civil-service capacity, and chronic outmigration. The renewed ~$3.3bn COFA secures long-term financing and the country has stayed firmly US-aligned, but FY24 funding delays forced bridge drawdowns and growth has slowed to ~1.1% amid implementation bottlenecks. Climate exposure across dispersed low islands is acute. The skew is symmetric: an exceptional fiscal cushion is genuinely offset by fragile cohesion, thin capacity, and demographic erosion.",

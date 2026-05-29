@@ -237,19 +237,34 @@
       "score": -1.19,
       "confidence": 0.73,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.83,
+        "mid": -1.01,
+        "long": -1.19
+      }
     },
     "assets": {
       "score": 0.48,
       "confidence": 0.74,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.62,
+        "mid": 0.48,
+        "long": 0.35
+      }
     },
     "currency": {
       "score": 1.6,
       "confidence": 0.74,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.6,
+        "mid": 1.48,
+        "long": 1.37
+      }
     }
   },
   "summary": "A study in contrasts: a genuinely stable macro economy - very low debt, a credible central bank, low inflation, investment-grade-adjacent prudence, large remittances, and a young population - alongside a deeply captured rule of law. A reform-minded president elected in 2023 survived a coup-by-lawfare and a 2026 institutional reset eased the near-term siege, but the courts and legislature remain in the grip of a corrupt establishment and the press is criminalised. Among the world's highest child malnutrition (especially among indigenous Maya), deep inequality, drought, volcanic/seismic hazard, and elevated crime weigh against the macro strength.",

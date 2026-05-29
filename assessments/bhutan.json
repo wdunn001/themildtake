@@ -227,19 +227,34 @@
       "score": 0.73,
       "confidence": 0.67,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.79,
+        "mid": 0.76,
+        "long": 0.73
+      }
     },
     "assets": {
       "score": -0.14,
       "confidence": 0.68,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.12,
+        "mid": -0.14,
+        "long": -0.16
+      }
     },
     "currency": {
       "score": -0.56,
       "confidence": 0.7,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.56,
+        "mid": -0.56,
+        "long": -0.56
+      }
     }
   },
   "summary": "A rare small-state governance success - a consolidated constitutional democracy (Freedom House upgraded it to 'Free' in 2025) with low corruption (18th on the CPI), genuine political stability under returned PM Tobgay, and a carbon-negative, hydropower-funded economy. The defining risks are not political but economic and demographic: near-total dependence on India (currency peg, security, the single hydropower export), thin FX reserves, below-replacement fertility, and a mass youth exodus to Australia that the government itself calls existential. Physical exposure to glacial-lake-outburst floods is severe and worsening. The skew is positive because institutional quality and stability anchor the downside, with the $100bn Gelephu Mindfulness City representing genuine (if speculative) upside.",

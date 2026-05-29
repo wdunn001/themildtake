@@ -231,19 +231,34 @@
       "score": -3.88,
       "confidence": 0.56,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -3.38,
+        "mid": -3.63,
+        "long": -3.88
+      }
     },
     "assets": {
       "score": -2.45,
       "confidence": 0.57,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.35,
+        "mid": -2.45,
+        "long": -2.54
+      }
     },
     "currency": {
       "score": -1.63,
       "confidence": 0.57,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.63,
+        "mid": -1.66,
+        "long": -1.7
+      }
     }
   },
   "summary": "An entrenched personalist autocracy where Rahmon, in power since 1992, is steering a dynastic handover to his son Rustam Emomali, against a backdrop of severe repression - near-floor civil liberties, jailed/exiled journalists, and systematic erasure of the Pamiri (GBAO) minority. Its economy is the world's most remittance-dependent (~45% of GDP, almost all from Russia), an exposure made acute by Russia's post-Crocus crackdown on the ~1m Tajik migrants who sustain it. The headline macro picture is decent (low debt ~25% of GDP, ~2.8% inflation, an on-track IMF program), and the Rogun mega-dam is the long-term development bet, but Rogun needs ~$6.4bn the World Bank won't yet fund. Escalating ISKP attacks from Afghanistan, chronic hydro-driven winter energy crises, and a contested succession make the medium-term outlook clearly negative.",

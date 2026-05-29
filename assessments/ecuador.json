@@ -227,19 +227,34 @@
       "score": -2.12,
       "confidence": 0.71,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.09,
+        "mid": -2.11,
+        "long": -2.12
+      }
     },
     "assets": {
       "score": -1.12,
       "confidence": 0.72,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.11,
+        "mid": -1.12,
+        "long": -1.13
+      }
     },
     "currency": {
       "score": -0.33,
       "confidence": 0.73,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.33,
+        "mid": -0.33,
+        "long": -0.33
+      }
     }
   },
   "summary": "A fully dollarized economy whose genuine strengths - dollar-anchored stability, low inflation, no local-currency devaluation risk, and an open capital account - are dominated by a catastrophic security collapse: a declared internal armed conflict against cartels, a homicide rate that exploded to among the region's highest, and a justice system infiltrated by organized crime. High fiscal financing needs under an IMF program, structural oil decline, a 2024 drought-driven electricity crisis, political volatility, and seismic/climate exposure round out a negative profile. Dollarization removes the FX-crisis lever but also any monetary flexibility.",

@@ -227,19 +227,34 @@
       "score": 3.55,
       "confidence": 0.71,
       "horizon": "5-10y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.61,
+        "mid": 3.58,
+        "long": 3.55
+      }
     },
     "assets": {
       "score": 3.35,
       "confidence": 0.72,
       "horizon": "3-7y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.37,
+        "mid": 3.35,
+        "long": 3.34
+      }
     },
     "currency": {
       "score": 3.06,
       "confidence": 0.73,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.06,
+        "mid": 3.06,
+        "long": 3.06
+      }
     }
   },
   "summary": "Africa's governance and income leader - the November 2024 election delivered a clean landslide turnover (the Alliance du Changement, ~62.6%) that ousted the incumbent amid the 'Missie Moustass' wiretapping scandal, and the 2024 UK-Mauritius Chagos agreement resolved a decades-old sovereignty dispute on favourable terms. Strong institutions, a diversified services economy, an own managed-float rupee, and removal from the FATF grey list (2021) anchor a positive skew. The watch items are real: public debt near 87-88% of GDP (above the legal ceiling) now forcing austerity, an aging population (TFR ~1.4), acute cyclone exposure, and a genuine press-freedom/civil-liberties wobble that several monitors read as democratic-quality erosion.",

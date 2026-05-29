@@ -229,19 +229,34 @@
       "score": -1.85,
       "confidence": 0.59,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.92,
+        "mid": -1.89,
+        "long": -1.85
+      }
     },
     "assets": {
       "score": -0.88,
       "confidence": 0.59,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.89,
+        "mid": -0.88,
+        "long": -0.88
+      }
     },
     "currency": {
       "score": -0.66,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.66,
+        "mid": -0.66,
+        "long": -0.65
+      }
     }
   },
   "summary": "Africa's last absolute monarchy, where banned political parties, the violently suppressed 2021 uprising, and the still-uninvestigated 2023 assassination of Thulani Maseko define a deeply repressive profile (Freedom House 17/100, 'Not Free'). The economy is small and exposed: a ~21% SACU-revenue drop is widening the deficit toward ~4.7% of GDP, while the rand peg removes any monetary buffer. Its standout positive is a world-class HIV/ART program that has cut incidence dramatically - but that gain rests on donor funding now being cut, and coexists with the planet's highest HIV prevalence and extreme inequality. The skew is negative: surface stability is repression-enforced rather than durable, and the near-term fiscal and health-funding shocks are material.",

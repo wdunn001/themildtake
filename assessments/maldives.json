@@ -229,19 +229,34 @@
       "score": -1.9,
       "confidence": 0.67,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.98,
+        "mid": -1.94,
+        "long": -1.9
+      }
     },
     "assets": {
       "score": -1.73,
       "confidence": 0.69,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.9,
+        "mid": -1.73,
+        "long": -1.56
+      }
     },
     "currency": {
       "score": -2.04,
       "confidence": 0.71,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.04,
+        "mid": -1.76,
+        "long": -1.48
+      }
     }
   },
   "summary": "A high-income luxury-tourism economy gripped by an acute external and debt crisis: reserves fell to roughly $440m against far larger 2025-26 obligations, twin 2024 downgrades cut market access, and a first-ever sovereign sukuk default was only narrowly averted by Indian support (a $400m swap and $565m credit line). Governance is backsliding - a September 2025 media-control law, attacks on the press, weakened oversight bodies, and large anti-corruption protests - alongside severe abuse of its large Bangladeshi migrant workforce and creeping Islamist-conservative pressure. Geopolitically it whipsawed from Muizzu's 'India Out'/pro-China tilt to renewed reliance on India in 2025. Above all, as the world's lowest-lying nation it faces an existential long-run climate threat, making the overall skew firmly negative.",

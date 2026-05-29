@@ -233,19 +233,34 @@
       "score": 2.75,
       "confidence": 0.81,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.72,
+        "mid": 2.74,
+        "long": 2.75
+      }
     },
     "assets": {
       "score": 2.88,
       "confidence": 0.81,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.93,
+        "mid": 2.88,
+        "long": 2.84
+      }
     },
     "currency": {
       "score": 2.63,
       "confidence": 0.82,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.63,
+        "mid": 2.57,
+        "long": 2.51
+      }
     }
   },
   "summary": "Strong institutions, world-class infrastructure (high-speed rail, a low-carbon nuclear grid), one of the strongest universal health systems, a leading NATO/EU and nuclear power, and controlled inflation. The dominant drag is a reinforcing fiscal-political crisis: a ~5%-of-GDP deficit and rising debt under the EU excessive-deficit procedure, with a hung parliament producing serial government collapses and budget paralysis. Recurring social unrest and press-ownership concentration are secondary negatives.",

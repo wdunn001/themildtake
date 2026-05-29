@@ -12,14 +12,16 @@ tags:
   - institutions
 ---
 
+import CountryTrajectory from "../../components/ratings/CountryTrajectory";
+
 ## Abstract
 
 For the **living** decision — a 5–10 year read on where a person might choose to
 be — the United States ranks **173rd of 193** UN members in this dataset, with a
-composite of **−5.35** and a **negative skew**. It sits between Syria and
-Turkmenistan, just above Russia (#175), and *below* China (#159), Pakistan
-(#165), Iraq (#169), and Zimbabwe (#171). On **assets** it is #172 (−4.83); on
-**currency** #172 (−4.16). This is the single most counter-intuitive result the
+composite of **−5.29** and a **negative skew**. It sits between Equatorial Guinea
+and Belarus, just above Russia (#175), and *below* China (#157), Pakistan
+(#165), Iraq (#169), and Zimbabwe (#171). On **assets** it is #173 (−4.78); on
+**currency** #171 (−4.10). This is the single most counter-intuitive result the
 framework produces, so it deserves the most careful explanation. The short
 version: the model scores **trajectory and trustworthiness for a specific set of
 decisions**, not current prosperity — and on those axes the US is now being
@@ -40,7 +42,7 @@ the slope matters.
 That design is why a rich country can score like a fragile one. The number is a
 *directional risk read*, not a verdict on how good life is today.
 
-## Where the −5.35 comes from
+## Where the −5.29 comes from
 
 The composite is a confidence-weighted average across five categories. Four of
 the five are deeply negative, and they reinforce each other.
@@ -62,9 +64,11 @@ detainees without convictions, a $100k H-1B fee, court review of visa
 revocations curtailed. For a *relocation* decision, how a state treats people
 who are not its citizens is directly load-bearing.
 
-**Geopolitical (−5.0).** `alliance_reliability` **−6** and `conflict_involvement`
-**−5**: allies are visibly hedging and diversifying away from dependence on US
-commitments.
+**Geopolitical (deeply negative).** `alliance_reliability` is **−6** (allies
+visibly hedging and diversifying away from dependence on US commitments) and
+`conflict_involvement` is **−7 near / −5 long** — the US is now the lead
+belligerent in the 2026 Iran war, enforcing a Gulf naval blockade with documented
+munitions strain.
 
 **Economic (−3.1).** Two mechanics do the work. First, **post-2022 official data
 is discounted as partially entangled** — inflation and fiscal confidence are
@@ -83,7 +87,7 @@ which is precisely what produces the **negative skew**.
 
 ## Discussion: the US and China, opposite routes to the same neighborhood
 
-The most instructive comparison is China (#159), which ranks *above* the US on
+The most instructive comparison is China (#157), which ranks *above* the US on
 living. They arrive near each other from opposite directions: China is an
 **authoritarian baseline that was never high**, with a negative tail of its own;
 the US is **erosion from a very high baseline**. The framework does not reward
@@ -91,6 +95,17 @@ the high baseline retroactively — it prices the *direction of travel*. An
 American reading this will find the China comparison provocative; that is the
 point of scoring actions over reputation. (China's own assets/currency scores
 sit below the US's near-term, because the dollar cushion is real today.)
+
+Projected across the horizon, the two converge downward: China starts higher in
+the near term but slides toward the US's level, while the US stays pinned near the
+bottom — two negative slopes meeting in the same neighborhood.
+
+<CountryTrajectory
+  countries="usa,chn"
+  decision="living"
+  caption="Living score projected near → long: China starts higher but slides toward the US's level; the US stays pinned near the bottom."
+  client:visible
+/>
 
 ## Limitations — read these before you quote the rank
 
@@ -102,8 +117,10 @@ sit below the US's near-term, because the dollar cushion is real today.)
 - **It is decision-specific.** "Don't live there" is a far stronger claim than
   the data supports; "treat US institutional and currency risk as elevated and
   rising" is what the numbers actually say.
-- **Confidence is ~0.72–0.75, not 0.9.** This is a contested, fast-moving call,
-  and the framework flags it as such rather than asserting precision.
+- **Confidence is ~0.71, not 0.9** — and capped, because the US now reads as
+  *mixed–declining* on transparency: a free press still surfaces the truth, but
+  the state's own data has been compromised. This is a contested, fast-moving
+  call, and the framework flags it rather than asserting precision.
 - **This is a model, not a measurement.** The ranking is the output of explicit,
   arguable scoring rules. The value is that you can audit and disagree with every
   input on the [assessment itself](/ratings/usa/).

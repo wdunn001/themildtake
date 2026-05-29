@@ -231,19 +231,34 @@
       "score": 2.3,
       "confidence": 0.75,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.41,
+        "mid": 2.35,
+        "long": 2.3
+      }
     },
     "assets": {
       "score": 2.03,
       "confidence": 0.76,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.03,
+        "mid": 2.03,
+        "long": 2.02
+      }
     },
     "currency": {
       "score": 1.82,
       "confidence": 0.76,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.82,
+        "mid": 1.85,
+        "long": 1.88
+      }
     }
   },
   "summary": "A stable, peaceful MMP democracy with world-class rule of law, a credible pioneering central bank, very low crime, and a lawful (if selective) migration system. The drags are a recent recession with high household/housing debt, youth emigration and ageing eroding the long-term population base, a strained public-health system and infrastructure deficit, and seismic-plus-climate disaster exposure.",

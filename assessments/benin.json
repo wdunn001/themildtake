@@ -233,19 +233,34 @@
       "score": -0.79,
       "confidence": 0.7,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.76,
+        "mid": -0.77,
+        "long": -0.79
+      }
     },
     "assets": {
       "score": 0.25,
       "confidence": 0.72,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.3,
+        "mid": 0.25,
+        "long": 0.2
+      }
     },
     "currency": {
       "score": 1.01,
       "confidence": 0.73,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.01,
+        "mid": 0.95,
+        "long": 0.88
+      }
     }
   },
   "summary": "Benin is a WAEMU macro star paired with a political backslider. Talon's decade delivered ~7.5% growth (its highest yet), a deficit cut to the 3% regional norm a year early, low euro-peg-anchored inflation, an on-track IMF EFF/ECF/RSF program, and a genuine industrialization push via the Glo-Djigbe (GDIZ) zone and a Niger-oil transit pipeline. But competitive politics has been hollowed out: opposition figures jailed (the CRIET court) or exiled, candidacy rules weaponized, and an April-2026 succession election that handed finance minister Wadagni ~94% with no credible opponent and was judged neither free nor fair. A sharp 2025 JNIM jihadist surge in the north - the April attack the deadliest in a decade - plus a weak health system and flood exposure round out a negatively skewed profile where strong assets/currency fundamentals sit beside poor governance and security tails.",

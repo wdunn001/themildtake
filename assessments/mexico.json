@@ -239,19 +239,34 @@
       "score": -2.35,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.28,
+        "mid": -2.31,
+        "long": -2.35
+      }
     },
     "assets": {
       "score": -1.31,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.45,
+        "mid": -1.31,
+        "long": -1.17
+      }
     },
     "currency": {
       "score": -0.91,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.91,
+        "mid": -0.64,
+        "long": -0.38
+      }
     }
   },
   "summary": "A genuine nearshoring tailwind and a favourable demographic profile sit against serious institutional deterioration (the 2024 elected-judiciary reform) and acute cartel violence. The economic picture carries positive skew: record FDI and a diversification trajectory credited as durable upside. The headline homicide decline is real but partly a disappearances/erasure artifact, so confidence in the improvement is held moderate. Welcoming to foreign professionals on paper, though local sentiment toward newcomers has cooled.",

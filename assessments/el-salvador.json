@@ -229,19 +229,34 @@
       "score": -1.22,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.53,
+        "mid": -0.87,
+        "long": -1.22
+      }
     },
     "assets": {
       "score": 0.62,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.74,
+        "mid": 0.62,
+        "long": 0.49
+      }
     },
     "currency": {
       "score": 1.33,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.33,
+        "mid": 1.27,
+        "long": 1.22
+      }
     }
   },
   "summary": "A country delivering tangible safety and macro-stability dividends while hollowing out the rule of law - the central tension a reader must weigh. The gang-violence collapse is real and dramatic (homicides fell from among the world's highest to ~1/100k), inflation is low under dollarization, and a 2025 IMF program anchors a high-debt budget. The cost is a multi-year state of exception with tens of thousands detained without due process, court-packing that enabled indefinite re-election, and a press driven partly into exile. Scored as distinct, both-large effects rather than netted away.",

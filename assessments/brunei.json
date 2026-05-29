@@ -227,19 +227,34 @@
       "score": -1.02,
       "confidence": 0.59,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.96,
+        "mid": -0.99,
+        "long": -1.02
+      }
     },
     "assets": {
       "score": -0.85,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.83,
+        "mid": -0.85,
+        "long": -0.87
+      }
     },
     "currency": {
       "score": -1.18,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.18,
+        "mid": -1.18,
+        "long": -1.18
+      }
     }
   },
   "summary": "A wealthy, stable, low-crime absolute monarchy that delivers genuine material comfort - no income tax, cradle-to-grave welfare, top-tier healthcare for citizens, and a sound peg to the Singapore dollar. But it is structurally fragile in two ways: an economy almost wholly dependent on declining oil and gas (~90% of exports, with a large and growing fiscal deficit), and an absence of political freedom - no elections, an essentially non-existent free press, and a 2014-19 sharia penal code with stoning provisions that only a revocable moratorium holds in check. Stateless ethnic-Chinese residents are systematically excluded from the welfare bargain. The skew is negative: stability and wealth are real but rest on a single ruler and a depleting resource, with civil liberties scoring catastrophically.",

@@ -231,19 +231,34 @@
       "score": 2.28,
       "confidence": 0.73,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.32,
+        "mid": 2.3,
+        "long": 2.28
+      }
     },
     "assets": {
       "score": 1.7,
       "confidence": 0.75,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.67,
+        "mid": 1.7,
+        "long": 1.72
+      }
     },
     "currency": {
       "score": 1.42,
       "confidence": 0.78,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.42,
+        "mid": 1.48,
+        "long": 1.55
+      }
     }
   },
   "summary": "A well-governed outlier - among Africa's strongest democracies (top-tier Freedom House 'Free', repeated peaceful alternations, free press, a capable technocratic state) with a tourism-and-remittance, services-led economy that grew ~6.3% in 2025 on record arrivals, with ~2.3% euro-peg-anchored inflation. Its escudo is hard-pegged to the euro under a Portuguese Treasury credit line, trading monetary autonomy for stability; public debt is high (~105% of GDP) but declining on a firm path under an on-track IMF ECF/RSF program. The structural risks are economic and physical rather than political: deep dependence on European tourism and imported food/fuel, and an arid, water-scarce archipelago facing chronic drought (managed via costly desalination) plus rare Fogo volcanic hazard.",

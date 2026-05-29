@@ -238,19 +238,34 @@
       "score": 3.01,
       "confidence": 0.74,
       "horizon": "5-10y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.32,
+        "mid": 3.16,
+        "long": 3.01
+      }
     },
     "assets": {
       "score": 3.06,
       "confidence": 0.75,
       "horizon": "3-7y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.34,
+        "mid": 3.06,
+        "long": 2.77
+      }
     },
     "currency": {
       "score": 3.36,
       "confidence": 0.75,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.36,
+        "mid": 2.96,
+        "long": 2.56
+      }
     }
   },
   "summary": "Strong courts and state capacity, world-class infrastructure and healthcare, very low crime, a credible central bank, and a safe-haven reserve currency now exiting deflation. But the outcome distribution skews negative: among the world's worst demographics (a locked-in population decline) and the highest major-economy debt (with debt-service costs worsening as rates normalize), a low immigration ceiling, mediocre press freedom, and an elevated regional-conflict tail. Seismic risk is the standout physical hazard, offset by world-best preparedness.",

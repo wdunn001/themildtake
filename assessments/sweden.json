@@ -240,19 +240,34 @@
       "score": 3.67,
       "confidence": 0.78,
       "horizon": "5-10y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.64,
+        "mid": 3.66,
+        "long": 3.67
+      }
     },
     "assets": {
       "score": 3.62,
       "confidence": 0.78,
       "horizon": "3-7y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.57,
+        "mid": 3.62,
+        "long": 3.67
+      }
     },
     "currency": {
       "score": 3.45,
       "confidence": 0.78,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.45,
+        "mid": 3.52,
+        "long": 3.6
+      }
     }
   },
   "summary": "An exceptionally strong institutional baseline - top-tier rule of law, statistical integrity, civil-service independence, and press freedom - paired with a strong, low-debt economy. The drags are a near-neutral social state (gang and bombing violence concentrated in specific metro suburbs, plus immigration restrictiveness, though the skilled-professional path stays functional) and direct Russia conflict-exposure as a Baltic-adjacent NATO member - a real tail risk rather than a base case. Inflation is currently undershooting target.",

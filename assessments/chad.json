@@ -231,19 +231,34 @@
       "score": -4.55,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -4.49,
+        "mid": -4.52,
+        "long": -4.55
+      }
     },
     "assets": {
       "score": -3.36,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -3.31,
+        "mid": -3.36,
+        "long": -3.42
+      }
     },
     "currency": {
       "score": -2.34,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.34,
+        "mid": -2.41,
+        "long": -2.48
+      }
     }
   },
   "summary": "A Sahelian, landlocked, oil-dependent state run as a hereditary military regime - Idriss Deby ruled three decades until his 2021 death, after which his son Mahamat seized power by junta and legitimized it in a contested 2024 vote his own rival rejected as rigged. The forward picture is heavily negative: an insurgency on Lake Chad, a Sudan-war refugee influx exceeding 1.2 million in the east, among the world's worst poverty and climate exposure, near-absent healthcare and infrastructure, weak rule of law, and a repressed press. The 2025 French military withdrawal removes a long-standing backstop and invites a Russia-courting drift. The only meaningful offsets are the CFA-franc euro peg's monetary stability, low inflation, and an IMF-anchored fiscal program - all real but thin against a deeply fragile base.",

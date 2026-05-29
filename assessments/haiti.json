@@ -227,19 +227,34 @@
       "score": -8.49,
       "confidence": 0.56,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -8.46,
+        "mid": -8.47,
+        "long": -8.49
+      }
     },
     "assets": {
       "score": -7.61,
       "confidence": 0.57,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -7.6,
+        "mid": -7.61,
+        "long": -7.62
+      }
     },
     "currency": {
       "score": -7.05,
       "confidence": 0.57,
       "horizon": "1-3y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -7.05,
+        "mid": -7.05,
+        "long": -7.05
+      }
     }
   },
   "summary": "A state in collapse: no elected government since the 2021 presidential assassination, gangs controlling roughly 85% of the capital (taxing and 'judging'), and a UN-backed security mission struggling to hold. The economy is hyperinflationary and aid-dependent with the capital's port strangled; the health system has collapsed amid cholera and famine pockets; and crime is catastrophic, with mass displacement (~1.4M) and sexual violence. Figures rely on UN/INGO estimation in gang-inaccessible areas; the profile is among the most negative in the dataset.",

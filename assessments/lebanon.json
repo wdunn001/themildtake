@@ -232,19 +232,34 @@
       "score": -5.96,
       "confidence": 0.73,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -6.27,
+        "mid": -6.11,
+        "long": -5.96
+      }
     },
     "assets": {
       "score": -6.29,
       "confidence": 0.74,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -6.42,
+        "mid": -6.29,
+        "long": -6.17
+      }
     },
     "currency": {
       "score": -6.48,
       "confidence": 0.74,
       "horizon": "1-3y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -6.48,
+        "mid": -6.33,
+        "long": -6.17
+      }
     }
   },
   "summary": "A state in structural collapse: defaulted since 2020, an insolvent banking system that has locked depositors out since 2019, a currency that lost most of its value, de-facto dollarization, and no productive base. Institutions are sectarian-captured and paralysed - though the independent press remains relatively strong - and society is fragmented by deep confessional cleavages, a Hezbollah-state duality, mass brain-drain emigration, and among the world's highest refugee loads. The 2024 war with Israel devastated the south, with a fragile ceasefire, ongoing strikes, and disarmament friction leaving high re-escalation risk; the lone upside is a fragile early-2025 reform window.",

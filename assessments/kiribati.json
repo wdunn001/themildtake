@@ -227,19 +227,34 @@
       "score": -2.2,
       "confidence": 0.57,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.12,
+        "mid": -2.16,
+        "long": -2.2
+      }
     },
     "assets": {
       "score": -1.84,
       "confidence": 0.61,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.81,
+        "mid": -1.84,
+        "long": -1.86
+      }
     },
     "currency": {
       "score": -1.58,
       "confidence": 0.63,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.58,
+        "mid": -1.58,
+        "long": -1.58
+      }
     }
   },
   "summary": "A 130k-person, 33-atoll micro-state facing one of the planet's clearest existential climate threats - average elevation under two metres, with relocation land already bought in Fiji. Its standout strength is unusual fiscal cushioning for its size: the Revenue Equalisation Reserve Fund (~330% of GDP) plus volatile fishing-license fees, though deficits run double-digit and only RERF drawdowns and aid keep it solvent. The 2022 judicial crisis - the attempted deportation of a foreign High Court judge and suspension of the entire Court of Appeal under President Maamau (re-elected in 2024) - inflicts the deepest institutional damage and drives the negative skew, compounded by a transactional pivot to China since 2019. The near-term outlook is poor-but-stable; the long-term outlook is dominated by sea-level rise.",

@@ -227,19 +227,34 @@
       "score": -1.05,
       "confidence": 0.73,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.99,
+        "mid": -1.02,
+        "long": -1.05
+      }
     },
     "assets": {
       "score": 1.14,
       "confidence": 0.73,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.16,
+        "mid": 1.14,
+        "long": 1.12
+      }
     },
     "currency": {
       "score": 2.63,
       "confidence": 0.74,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.63,
+        "mid": 2.63,
+        "long": 2.63
+      }
     }
   },
   "summary": "A country split between a remarkably credible macro core and a dysfunctional political one. On the strong side: an autonomous, standout-credible central bank, low public debt, low anchored inflation, sound banks, a very open economy, and trusted statistics. On the weak side: chronic political instability (a revolving door of presidents and impeachments, a discredited Congress), weak rule of law with pervasive corruption, a declining press environment, deep Lima-versus-interior cleavages, seismic and climate exposure, and a sharply deteriorating crime wave. The macro strength is real but increasingly hostage to state incapacity.",

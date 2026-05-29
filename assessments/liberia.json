@@ -229,19 +229,34 @@
       "score": -2.28,
       "confidence": 0.62,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.25,
+        "mid": -2.26,
+        "long": -2.28
+      }
     },
     "assets": {
       "score": -1.78,
       "confidence": 0.64,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.77,
+        "mid": -1.78,
+        "long": -1.79
+      }
     },
     "currency": {
       "score": -1.35,
       "confidence": 0.65,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.35,
+        "mid": -1.35,
+        "long": -1.35
+      }
     }
   },
   "summary": "A post-civil-war democracy that has delivered two consecutive peaceful electoral turnovers - most recently Joseph Boakai's defeat of George Weah in 2023, taking office in 2024 - and is pursuing transitional justice via a War and Economic Crimes Court that, as of 2025, exists as an office and draft bills but not yet a functioning tribunal. The heavily dollarized economy is growing ~5% on an ArcelorMittal-led iron-ore expansion with contained inflation and an on-track IMF ECF, but rests on a narrow commodity base and the US dollar substitutes for genuine monetary sovereignty. The binding constraints are physical and institutional: an Ebola-scarred health system among the world's weakest, near-absent electrification and roads, deep rural poverty, and persistent corruption. Negative overall, with a modest near-term positive tilt.",

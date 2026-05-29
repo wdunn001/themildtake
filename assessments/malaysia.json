@@ -239,19 +239,34 @@
       "score": 0.99,
       "confidence": 0.73,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.35,
+        "mid": 1.17,
+        "long": 0.99
+      }
     },
     "assets": {
       "score": 1.91,
       "confidence": 0.73,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.89,
+        "mid": 1.91,
+        "long": 1.93
+      }
     },
     "currency": {
       "score": 2.19,
       "confidence": 0.73,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.19,
+        "mid": 2.32,
+        "long": 2.45
+      }
     }
   },
   "summary": "A middle-income economy with sound macro management - a credible central bank, anchored inflation, sound banks, and fiscal consolidation on a credible track - plus standout affordable, near-universal healthcare, good infrastructure, and an English-friendly long-stay regime that is durable for the affluent. The drags are a rule-of-law legacy (the 1MDB aftermath) and constrained press freedom under new online-content powers, a fragile multi-coalition government with a rising Islamist opposition, bumiputera affirmative-action and religious-conservatism tensions, and recurrent monsoon flooding. Citizenship remains hard to obtain.",

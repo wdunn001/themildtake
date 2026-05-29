@@ -231,19 +231,34 @@
       "score": 0.16,
       "confidence": 0.63,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.34,
+        "mid": 0.25,
+        "long": 0.16
+      }
     },
     "assets": {
       "score": 0.34,
       "confidence": 0.65,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.47,
+        "mid": 0.34,
+        "long": 0.21
+      }
     },
     "currency": {
       "score": 0.81,
       "confidence": 0.66,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.81,
+        "mid": 0.66,
+        "long": 0.51
+      }
     }
   },
   "summary": "The region's resilience story: it absorbed both the tense 2021 transfer that ended decades of HRPP rule and a sharp 2025 mid-term crisis - a FAST party split, a budget voted down, and an August snap election that installed La'auli Schmidt as PM - entirely through courts and ballots, without violence. Macro fundamentals are the strongest in this group: public debt at a two-decade low (~27.7% of GDP), an upgraded debt-distress rating, inflation back near target, and ample reserves, though the economy stays tiny, remittance-dependent, and undiversified. The clear deteriorations are a steep press-freedom slide (RSF 22-to-44 in one year, amid threats against journalists) and a crushing NCD/obesity health burden. The skew is roughly symmetric with a modest negative disaster tail.",

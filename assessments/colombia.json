@@ -227,19 +227,34 @@
       "score": -0.58,
       "confidence": 0.73,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.55,
+        "mid": -0.56,
+        "long": -0.58
+      }
     },
     "assets": {
       "score": -0.65,
       "confidence": 0.73,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.64,
+        "mid": -0.65,
+        "long": -0.66
+      }
     },
     "currency": {
       "score": -0.25,
       "confidence": 0.74,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.25,
+        "mid": -0.25,
+        "long": -0.25
+      }
     }
   },
   "summary": "A middle-income economy whose genuine institutional strengths - a credible, independent central bank, sound banks, a strong constitutional court, robust civil liberties, and a landmark lawful regularisation of Venezuelan migrants - are offset by a fiscal deterioration (the suspended fiscal rule), an internal armed conflict with resurgent ELN and FARC-dissident groups, elevated crime, a healthcare-system crisis, and a 2025 rupture in the historic US alliance. Politics are polarised and gridlocked, marked by the assassination of a presidential candidate, with tail risks running both ways into the May-2026 election.",

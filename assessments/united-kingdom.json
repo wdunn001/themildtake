@@ -235,19 +235,34 @@
       "score": 2.33,
       "confidence": 0.8,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.28,
+        "mid": 2.31,
+        "long": 2.33
+      }
     },
     "assets": {
       "score": 2.75,
       "confidence": 0.81,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.74,
+        "mid": 2.75,
+        "long": 2.76
+      }
     },
     "currency": {
       "score": 2.71,
       "confidence": 0.82,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.71,
+        "mid": 2.72,
+        "long": 2.72
+      }
     }
   },
   "summary": "Strong common-law institutions, a credible central bank and reserve currency, well-regulated banks, and a top-tier security role (NATO/Five Eyes/AUKUS, nuclear, UNSC). The drags are high debt with persistent deficits and thin fiscal headroom, dented official-statistics credibility, thin governing legitimacy amid a polarizing political surge, migration-driven social strain, and a deeply strained (if improving) NHS with ageing infrastructure.",

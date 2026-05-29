@@ -227,19 +227,34 @@
       "score": 0.08,
       "confidence": 0.73,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.11,
+        "mid": 0.1,
+        "long": 0.08
+      }
     },
     "assets": {
       "score": 1.15,
       "confidence": 0.74,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.16,
+        "mid": 1.15,
+        "long": 1.15
+      }
     },
     "currency": {
       "score": 2.14,
       "confidence": 0.74,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.14,
+        "mid": 2.14,
+        "long": 2.14
+      }
     }
   },
   "summary": "A quiet macro-stability standout: low debt, a credible inflation-targeting central bank, low inflation, investment grade, and a young population with a favourable dependency ratio, in a durable democracy with open lawful residency. Those strengths are offset by weak rule of law - pervasive corruption under a one-party machine that has dominated for decades, with US-sanctioned figures - a soy/beef/hydropower economy exposed to commodity and weather swings, a weak public health system, drought, and rising narco-border violence. Net, a balanced outcome distribution.",

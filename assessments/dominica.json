@@ -229,19 +229,34 @@
       "score": 0.79,
       "confidence": 0.61,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.96,
+        "mid": 0.88,
+        "long": 0.79
+      }
     },
     "assets": {
       "score": 0.47,
       "confidence": 0.67,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.5,
+        "mid": 0.47,
+        "long": 0.43
+      }
     },
     "currency": {
       "score": 0.46,
       "confidence": 0.71,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.46,
+        "mid": 0.45,
+        "long": 0.45
+      }
     }
   },
   "summary": "The poorest and most disaster-vulnerable of the Eastern Caribbean cohort, still rebuilding from Hurricane Maria's 2017 devastation, with debt near 100% of GDP at high risk of distress and heavy reliance on CBI revenue that is now declining (from ~32% of GDP in 2020-2022 toward ~15% by 2025). Its standout positive is a genuinely ambitious, multilaterally-backed climate-resilience strategy - including a geothermal plant commissioning around 2025-2026 aimed at ending diesel dependence by 2030. Governance is the soft spot: a 20-year Skerrit incumbency, an opposition-boycotted 2022 vote, and electoral-reform legislation pushed through in March 2025 amid protests give it the weakest legitimacy signal of the cohort despite the region's highest civil-liberties score. Net skew is slightly negative - strong civil liberties and a credible resilience plan are outweighed by debt, disaster exposure, CBI dependence, and electoral tension.",

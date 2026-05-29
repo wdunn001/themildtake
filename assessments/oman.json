@@ -238,19 +238,34 @@
       "score": 0.56,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.57,
+        "mid": 0.57,
+        "long": 0.56
+      }
     },
     "assets": {
       "score": 1.08,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.73,
+        "mid": 1.08,
+        "long": 1.42
+      }
     },
     "currency": {
       "score": 0.69,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.69,
+        "mid": 1.23,
+        "long": 1.78
+      }
     }
   },
   "summary": "A stable sultanate that has pulled off a genuine fiscal repair - turning deficits to surplus, cutting debt sharply, and earning an investment-grade upgrade - while pursuing a credible Vision-2040 diversification and punching above its weight as a trusted neutral mediator. The offsets are an absolute-monarchy rights ceiling with no political parties and criminalised criticism, a restricted press, a migrant-majority workforce under kafala-legacy controls with no path to belonging, and an extreme heat, water-scarcity, and Arabian Sea cyclone tail. A USD peg trades monetary autonomy for stability. Very low crime is a clear strength.",

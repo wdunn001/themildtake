@@ -233,19 +233,34 @@
       "score": 3.55,
       "confidence": 0.8,
       "horizon": "5-10y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.51,
+        "mid": 3.53,
+        "long": 3.55
+      }
     },
     "assets": {
       "score": 3.93,
       "confidence": 0.82,
       "horizon": "3-7y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.87,
+        "mid": 3.93,
+        "long": 3.98
+      }
     },
     "currency": {
       "score": 4.08,
       "confidence": 0.85,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 4.08,
+        "mid": 4.14,
+        "long": 4.19
+      }
     }
   },
   "summary": "A prudently managed, export-driven economy - low debt, a credible central bank, sound banks, deep German supply-chain integration - with strong, EU-compliant institutions, an integrated Ukrainian-refugee population, low crime, and good infrastructure. The 2025 election produced a democratic but populist-leaning turn that raises EU-friction risk and an observable near-term defence/alliance recalibration, and the long-run demographic decline is a real drag. Media-ownership concentration and the incoming prime minister's business conflict-of-interest are the institutional watch-items.",

@@ -227,19 +227,34 @@
       "score": -5.31,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -5.28,
+        "mid": -5.29,
+        "long": -5.31
+      }
     },
     "assets": {
       "score": -5.25,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -5.24,
+        "mid": -5.25,
+        "long": -5.26
+      }
     },
     "currency": {
       "score": -5.36,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -5.36,
+        "mid": -5.36,
+        "long": -5.36
+      }
     }
   },
   "summary": "A Russia-client dictatorship entrenched since 1994, with no judicial independence, atrocity-level repression and on the order of a thousand political prisoners, among the world's worst press freedom, and a society either repressed or exiled. The economy is sanctioned, Russia-subsidy-dependent, and state-dominated, with a managed Russia-tied currency. It is a co-belligerent staging-ground for the war in Ukraine and a pariah to the West, hosting Russian nuclear weapons. A 2026 US-brokered prisoner deal eased some sanctions but left the structural picture clearly negative.",

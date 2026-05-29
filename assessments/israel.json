@@ -252,19 +252,34 @@
       "score": 1.21,
       "confidence": 0.7,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.59,
+        "mid": 0.9,
+        "long": 1.21
+      }
     },
     "assets": {
       "score": 1.15,
       "confidence": 0.72,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.78,
+        "mid": 1.15,
+        "long": 1.52
+      }
     },
     "currency": {
       "score": 1.1,
       "confidence": 0.73,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.1,
+        "mid": 1.5,
+        "long": 1.9
+      }
     }
   },
   "summary": "A world-class high-tech economy with a credible central bank, sound banks, credible statistics, and an unusually young, growing population for a developed country. The drags are an eroding rule-of-law trajectory (the judicial-overhaul crisis, bills subordinating legal advisers, the prime minister's corruption trial), war-widened deficits, deep social cleavages and war trauma, and a high-variance multi-front security picture - past its peak after 2026 ceasefires but with real relapse risk - alongside growing international isolation. The Law of Return makes citizenship near-automatic for Jewish immigrants while the regime is restrictive for others.",

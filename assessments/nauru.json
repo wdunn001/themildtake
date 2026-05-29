@@ -227,19 +227,34 @@
       "score": -2.81,
       "confidence": 0.56,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.74,
+        "mid": -2.77,
+        "long": -2.81
+      }
     },
     "assets": {
       "score": -2.17,
       "confidence": 0.59,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.14,
+        "mid": -2.17,
+        "long": -2.19
+      }
     },
     "currency": {
       "score": -1.91,
       "confidence": 0.61,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.91,
+        "mid": -1.91,
+        "long": -1.91
+      }
     }
   },
   "summary": "The world's smallest republic (~12,000 people) and the archetypal resource-curse collapse - a phosphate boom left ~80% of the island mined-out and the sovereign fund squandered, leaving an economy with essentially no productive base. It now survives on rents from Australia: the offshore asylum-processing centre has supplied the majority of government revenue, and a new 30-year A$2.5bn deal (Aug 2025) to warehouse Australia's criminal-deportee 'NZYQ' cohort deepens that dependence, even as a decade of documented harm to asylum seekers weighs heavily. It pivoted from Taiwan to China in January 2024 for aid while granting Australia an effective security veto, and launched a world-first 'golden passport' scheme nominally funding climate relocation - carrying real integrity risk. With one of the planet's worst diabetes/obesity profiles and a life expectancy near 62, the skew is firmly negative, mitigated only by the Australia-backed fiscal lifeline and the recovering Intergenerational Trust Fund.",

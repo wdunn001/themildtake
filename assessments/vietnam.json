@@ -237,19 +237,34 @@
       "score": -0.63,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.01,
+        "mid": -0.31,
+        "long": -0.63
+      }
     },
     "assets": {
       "score": 0.32,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.38,
+        "mid": 0.32,
+        "long": 0.26
+      }
     },
     "currency": {
       "score": 0.84,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.84,
+        "mid": 0.88,
+        "long": 0.92
+      }
     }
   },
   "summary": "A fast-growing manufacturing export powerhouse and China+1 beneficiary with genuinely prudent public finances (low debt, controlled inflation), a capable developmental state, and very low street crime. The drags are political and structural: a one-party state with no judicial independence, very low press freedom and 'Not Free' civil liberties, a banking mega-fraud aftermath requiring large central-bank support, heavy single-market US-tariff exposure, severe Mekong-Delta and typhoon climate exposure, and a window that closes as it ages before getting rich. Professionals can work but cannot belong.",

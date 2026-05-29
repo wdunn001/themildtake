@@ -227,19 +227,34 @@
       "score": -2.98,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.95,
+        "mid": -2.96,
+        "long": -2.98
+      }
     },
     "assets": {
       "score": -1.96,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.95,
+        "mid": -1.96,
+        "long": -1.97
+      }
     },
     "currency": {
       "score": -1.53,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.53,
+        "mid": -1.53,
+        "long": -1.53
+      }
     }
   },
   "summary": "A dynastic authoritarian petrostate with genuinely strong external buffers - low debt, large oil-funded reserves, low inflation, and recent investment-grade upgrades - and a useful role as a non-Russian gas supplier to Europe. But it is run as a hardening autocracy: no judicial independence, sham trials, among the world's worst press repression with journalists jailed, and an intensifying 2024-26 rights crackdown. Its trade base is a declining-output resource curse, the 2023 takeover of Karabakh displaced ~100,000 ethnic Armenians, and the subsequent peace is fragile. Caspian decline and seismic exposure weigh on the physical side.",

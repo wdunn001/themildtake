@@ -229,19 +229,34 @@
       "score": 4.28,
       "confidence": 0.73,
       "horizon": "5-10y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 4.43,
+        "mid": 4.35,
+        "long": 4.28
+      }
     },
     "assets": {
       "score": 3.49,
       "confidence": 0.75,
       "horizon": "3-7y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.52,
+        "mid": 3.49,
+        "long": 3.46
+      }
     },
     "currency": {
       "score": 2.77,
       "confidence": 0.77,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.77,
+        "mid": 2.76,
+        "long": 2.75
+      }
     }
   },
   "summary": "A very safe, high-income, well-governed co-principality with strong institutions (FH 93/100, RSF #5), a resilient diversifying tourism/retail/banking economy, a prudent fiscal rule, and very high life expectancy. The headline upside is the EU Association Agreement concluded at Council level in December 2025, which would grant near-EEA single-market access - but it still needs EU national ratifications and an Andorran referendum where opinion is roughly split, so it is upside, not a done deal. The main long-run risk is demographic: ultra-low fertility and rapid aging will erode growth and load pension/healthcare costs. It uses the euro with no monetary autonomy; overall positively skewed and stable.",

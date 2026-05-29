@@ -227,19 +227,34 @@
       "score": 0.58,
       "confidence": 0.64,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.63,
+        "mid": 0.6,
+        "long": 0.58
+      }
     },
     "assets": {
       "score": 0.17,
       "confidence": 0.7,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.19,
+        "mid": 0.17,
+        "long": 0.16
+      }
     },
     "currency": {
       "score": -0.03,
       "confidence": 0.74,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.03,
+        "mid": -0.03,
+        "long": -0.03
+      }
     }
   },
   "summary": "A rare, durable small-island democracy - consistently 'Free', with a relatively open press and repeated peaceful turnovers - but its institutions are shallow and were tested by a November 2022 coup attempt and subsequent custody-abuse allegations. Economically it is tiny, poor, and structurally import- and aid-dependent, with the chronic electricity crisis (inefficient EMAE diesel plants) the single biggest brake on growth; long-promised offshore oil has not materialized. The euro-pegged dobra delivers an inflation anchor at the cost of monetary autonomy, while an on-track IMF ECF program is stabilizing the fiscal/external position. Net skew is positive on the strength of governance, with material physical/economic fragility.",

@@ -231,19 +231,34 @@
       "score": -1.86,
       "confidence": 0.71,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.94,
+        "mid": -1.9,
+        "long": -1.86
+      }
     },
     "assets": {
       "score": -1.16,
       "confidence": 0.72,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.29,
+        "mid": -1.16,
+        "long": -1.02
+      }
     },
     "currency": {
       "score": -0.74,
       "confidence": 0.72,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.74,
+        "mid": -0.52,
+        "long": -0.3
+      }
     }
   },
   "summary": "Fast regional growth on services, remittances, and electronics, a credible central bank, a genuine demographic dividend, and an open, English-friendly retiree-residency route. The drags are weak rule of law (a palace-level corruption scandal), acute dynastic political conflict, an extrajudicial-killing legacy, deteriorating fiscal space, and among the world's most extreme climate-disaster exposure. The South China Sea is an acute geopolitical flashpoint.",

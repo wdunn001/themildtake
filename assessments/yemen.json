@@ -236,19 +236,34 @@
       "score": -7.72,
       "confidence": 0.54,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -8.05,
+        "mid": -7.89,
+        "long": -7.72
+      }
     },
     "assets": {
       "score": -7.58,
       "confidence": 0.55,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -7.81,
+        "mid": -7.58,
+        "long": -7.35
+      }
     },
     "currency": {
       "score": -7.51,
       "confidence": 0.55,
       "horizon": "1-3y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -7.51,
+        "mid": -7.26,
+        "long": -7
+      }
     }
   },
   "summary": "A de-facto partitioned war state - a Houthi-controlled north versus an internationally-recognized but fractured southern coalition - locked in one of the world's worst humanitarian crises. The economy is collapsed and split with no unified central bank and a fractured currency, the health system has collapsed amid recurrent cholera and famine-adjacent malnutrition, and infrastructure is war-destroyed. Houthi Red Sea and Israel attacks have drawn US, UK, and Israeli strikes. Data is fragmentary and figures are external proxies; the picture is clearly negative.",

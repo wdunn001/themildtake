@@ -227,19 +227,34 @@
       "score": 3.74,
       "confidence": 0.8,
       "horizon": "5-10y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.8,
+        "mid": 3.77,
+        "long": 3.74
+      }
     },
     "assets": {
       "score": 3.77,
       "confidence": 0.82,
       "horizon": "3-7y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.79,
+        "mid": 3.77,
+        "long": 3.75
+      }
     },
     "currency": {
       "score": 4.08,
       "confidence": 0.83,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 4.08,
+        "mid": 4.08,
+        "long": 4.08
+      }
     }
   },
   "summary": "A eurozone democracy that staged a strong recovery from its 2013 banking crisis - debt down sharply with surpluses, rebuilt banks, low crime, a new universal-health system, and a services economy (tourism, shipping, finance, tech relocation) with East-Med gas upside. The offsets are persistent corruption and a weakly-prosecuted golden-passport legacy, an unresolved frozen division with Turkish troops in the north since 1974, frontline asylum pressure, and acute water scarcity and heat. Membership of the euro pools monetary policy at a credible ECB; the island is an EU but non-NATO state deepening Eastern-Mediterranean partnerships.",

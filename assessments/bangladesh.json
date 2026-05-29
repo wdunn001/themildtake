@@ -231,19 +231,34 @@
       "score": -3.3,
       "confidence": 0.72,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -3.53,
+        "mid": -3.41,
+        "long": -3.3
+      }
     },
     "assets": {
       "score": -3.24,
       "confidence": 0.73,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -3.29,
+        "mid": -3.24,
+        "long": -3.19
+      }
     },
     "currency": {
       "score": -3.09,
       "confidence": 0.73,
       "horizon": "1-3y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -3.09,
+        "mid": -3.04,
+        "long": -3
+      }
     }
   },
   "summary": "A garment-export powerhouse with a genuine demographic dividend, navigating a post-revolution transition: the 2024 student uprising ousted the long-ruling prime minister, an interim government ran reforms, and early-2026 polls produced an elected government, with a real (if fragile) opening for the press and rule of law. The drags are a fraud-exposed banking sector with very high non-performing loans, a thin tax base under IMF dependence, extreme delta-climate vulnerability with near-nil catastrophe insurance, refugee-camp strain, and social-revenge volatility. The outcome distribution is balanced between reform upside and instability/climate downside.",

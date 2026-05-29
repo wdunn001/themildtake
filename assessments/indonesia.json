@@ -227,19 +227,34 @@
       "score": 0.01,
       "confidence": 0.7,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.08,
+        "mid": 0.05,
+        "long": 0.01
+      }
     },
     "assets": {
       "score": 1.23,
       "confidence": 0.71,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.25,
+        "mid": 1.23,
+        "long": 1.2
+      }
     },
     "currency": {
       "score": 2.03,
       "confidence": 0.72,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.03,
+        "mid": 2.03,
+        "long": 2.03
+      }
     }
   },
   "summary": "A large, demographically favourable economy with prudent macro management - low debt under a legal ceiling, a credible central bank, and low inflation - and a non-aligned ASEAN-leadership posture. The drags are weak rule of law and endemic corruption, declining civil liberties and press freedom under a new government, rising state intervention in resource exports, and extreme natural-disaster exposure capped by very thin catastrophe insurance. Near-universal health coverage and improving infrastructure are real positives.",

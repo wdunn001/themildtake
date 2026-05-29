@@ -233,19 +233,34 @@
       "score": 6.67,
       "confidence": 0.85,
       "horizon": "5-10y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 6.73,
+        "mid": 6.7,
+        "long": 6.67
+      }
     },
     "assets": {
       "score": 6.16,
       "confidence": 0.86,
       "horizon": "3-7y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 6.1,
+        "mid": 6.16,
+        "long": 6.23
+      }
     },
     "currency": {
       "score": 5.84,
       "confidence": 0.86,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 5.84,
+        "mid": 5.97,
+        "long": 6.09
+      }
     }
   },
   "summary": "Extraordinary fiscal strength (the world's largest sovereign wealth fund, no net debt) with prudently managed resource wealth - the anti-resource-curse - alongside top-tier institutions, the world's freest press, very high social trust, and excellent healthcare, infrastructure, and safety. The main drag is a real Russia-border/High North geopolitical tail; the krone is small and volatile, and inflation runs a bit above target.",

@@ -231,19 +231,34 @@
       "score": 6.6,
       "confidence": 0.84,
       "horizon": "5-10y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 6.66,
+        "mid": 6.63,
+        "long": 6.6
+      }
     },
     "assets": {
       "score": 6.46,
       "confidence": 0.84,
       "horizon": "3-7y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 6.43,
+        "mid": 6.46,
+        "long": 6.5
+      }
     },
     "currency": {
       "score": 6.31,
       "confidence": 0.84,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 6.31,
+        "mid": 6.39,
+        "long": 6.48
+      }
     }
   },
   "summary": "Among the world's strongest profiles: a top-tier debt-brake fiscal position, a fully independent SNB and a safe-haven franc, world-leading rule of law and direct democracy, exceptional political stability, and world-class infrastructure, healthcare, and safety. The drags are post-Credit-Suisse banking concentration (an unresolved too-big-to-fail question), hard immigration access for non-Europeans (with a live free-movement referendum), expensive healthcare, and long-run Alpine climate change.",

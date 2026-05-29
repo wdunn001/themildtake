@@ -229,19 +229,34 @@
       "score": -5.02,
       "confidence": 0.54,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -4.59,
+        "mid": -4.81,
+        "long": -5.02
+      }
     },
     "assets": {
       "score": -3.59,
       "confidence": 0.54,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -3.51,
+        "mid": -3.59,
+        "long": -3.67
+      }
     },
     "currency": {
       "score": -3,
       "confidence": 0.55,
       "horizon": "1-3y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -3,
+        "mid": -3.03,
+        "long": -3.06
+      }
     }
   },
   "summary": "Among the most closed and repressive states on the planet, run as a personality-cult dynastic duopoly in which President Serdar Berdimuhamedov is subordinate to his father Gurbanguly's People's Council. Its economy rests almost entirely on gas exports to a single buyer (China), behind a fixed manat that trades at a ~5-6x black-market premium under draconian capital controls, with TAPI diversification still stalled. Headline IMF data (very low debt, sub-2% inflation) look benign but are unverifiable amid near-total information control, food shortages, and a public-health crisis. Every score carries a heavy opacity discount; the long-run risk is a brittle dynastic succession layered over Caspian/desert climate stress.",

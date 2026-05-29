@@ -229,19 +229,34 @@
       "score": 0.7,
       "confidence": 0.64,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.73,
+        "mid": 0.71,
+        "long": 0.7
+      }
     },
     "assets": {
       "score": 0.14,
       "confidence": 0.68,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.11,
+        "mid": 0.14,
+        "long": 0.17
+      }
     },
     "currency": {
       "score": -0.07,
       "confidence": 0.72,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.07,
+        "mid": -0.02,
+        "long": 0.03
+      }
     }
   },
   "summary": "A genuine, well-functioning democracy (FH 92/100) whose fiscal position has materially strengthened - debt cut to ~56% of GDP and a ~2.9%-of-GDP primary surplus, underpinned by the renewed ~$890m CRA-23 Compact. Its risks are concentrated and external: a tourism-mono economy that China actively weaponizes, frontline status in US-China competition (it now hosts the US TACMOR radar), and acute reef/climate exposure. US-funding delays in FY24 briefly forced trust-fund drawdowns and dented the 'reliable-partner' narrative, but alliance reliability improves over the longer horizon. The positive skew rests on institutional quality; the negative tail is geopolitical and climatic.",

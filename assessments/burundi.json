@@ -235,19 +235,34 @@
       "score": -4.66,
       "confidence": 0.53,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -4.59,
+        "mid": -4.62,
+        "long": -4.66
+      }
     },
     "assets": {
       "score": -4.23,
       "confidence": 0.53,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -4.22,
+        "mid": -4.23,
+        "long": -4.25
+      }
     },
     "currency": {
       "score": -3.82,
       "confidence": 0.53,
       "horizon": "1-3y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -3.82,
+        "mid": -3.83,
+        "long": -3.84
+      }
     }
   },
   "summary": "Among the world's poorest countries (GDP per capita ~$486; poverty ~74%), now in an acute external crisis: chronic fuel shortages, a forex squeeze with a ~100% parallel-market premium, and reserves near one-and-a-half months of imports. Politics are effectively closed - the CNDD-FDD took virtually all seats in June 2025 amid documented Imbonerakure abuses - while a sharp rupture with Rwanda (border closed, deportations) adds interstate-conflict risk on top of involvement in eastern DRC. Thin positives (an IMF ECF anchor, a reported inflation deceleration into 2026, partial press-law liberalization, a new malaria vaccine) are fragile and policy-dependent. The skew is negative: the realistic downside outweighs constrained upside.",

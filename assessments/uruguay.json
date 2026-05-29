@@ -235,19 +235,34 @@
       "score": 3.74,
       "confidence": 0.84,
       "horizon": "5-10y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.84,
+        "mid": 3.79,
+        "long": 3.74
+      }
     },
     "assets": {
       "score": 3.75,
       "confidence": 0.85,
       "horizon": "3-7y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.77,
+        "mid": 3.75,
+        "long": 3.72
+      }
     },
     "currency": {
       "score": 3.7,
       "confidence": 0.85,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.7,
+        "mid": 3.7,
+        "long": 3.69
+      }
     }
   },
   "summary": "A regional leader on rule of law, low corruption, press freedom, and democratic stability, with credible macro management (a binding fiscal rule, inflation brought within target by an independent central bank), diversified agri-commodity exports, an open and welcoming residency regime, and strong universal healthcare. The drags are rising cocaine-transit violence (elevated homicides), a steep long-term demographic decline (an ageing population and youth emigration), and a recent drought-driven water crisis.",

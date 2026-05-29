@@ -264,19 +264,34 @@
       "score": -0.19,
       "confidence": 0.65,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.72,
+        "mid": -1.46,
+        "long": -0.19
+      }
     },
     "assets": {
       "score": -1.4,
       "confidence": 0.67,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.4,
+        "mid": -1.4,
+        "long": -0.4
+      }
     },
     "currency": {
       "score": -1.99,
       "confidence": 0.68,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.99,
+        "mid": -1.17,
+        "long": -0.36
+      }
     }
   },
   "summary": "A high-variance, positive-skew case. Near-term factors are dominated by an active war - catastrophic on conflict, fiscal, infrastructure, and demographics - but the long-horizon trajectory points up: a war that must eventually end, an EU-accession path now unblocking, large reconstruction demand, rich agricultural and mineral export capacity, and monetary institutions that have held up under wartime stress. Assets are genuine high-risk/high-return and the hryvnia's downside is limited short of losing the war. The catastrophic individual tail risks (conscription, mortality, displacement) deserve weight beyond their probability.",

@@ -227,19 +227,34 @@
       "score": -8.95,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -8.92,
+        "mid": -8.93,
+        "long": -8.95
+      }
     },
     "assets": {
       "score": -8.42,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -8.41,
+        "mid": -8.42,
+        "long": -8.43
+      }
     },
     "currency": {
       "score": -8.09,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -8.09,
+        "mid": -8.09,
+        "long": -8.09
+      }
     }
   },
   "summary": "A country consumed by an active, catastrophic civil war since April 2023 between two military factions, with no functioning government, documented atrocities and ethnic massacres (a UN mission has found genocidal intent), and the world's largest displacement crisis (12M+). The economy has collapsed into hyperinflation and a shadow banking system, gold is smuggled to fund the war, agriculture is destroyed, and an IPC-5 famine and cholera ravage a health system with most hospitals out of service. Among the most negative profiles in the dataset; figures are external estimates.",

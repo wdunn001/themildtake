@@ -2,7 +2,7 @@
 // ratings app uses are pulled in, with the SVG renderer (crisp, light, matches
 // the static dark aesthetic). Import `echarts` from here, never from "echarts".
 import * as echarts from "echarts/core";
-import { BarChart, RadarChart } from "echarts/charts";
+import { BarChart, RadarChart, LineChart } from "echarts/charts";
 import {
   GridComponent,
   TooltipComponent,
@@ -15,6 +15,7 @@ import { SVGRenderer } from "echarts/renderers";
 echarts.use([
   BarChart,
   RadarChart,
+  LineChart,
   GridComponent,
   TooltipComponent,
   LegendComponent,

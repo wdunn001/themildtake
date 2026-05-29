@@ -227,19 +227,34 @@
       "score": -1.3,
       "confidence": 0.7,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.24,
+        "mid": -1.27,
+        "long": -1.3
+      }
     },
     "assets": {
       "score": -0.76,
       "confidence": 0.71,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.74,
+        "mid": -0.76,
+        "long": -0.79
+      }
     },
     "currency": {
       "score": -0.4,
       "confidence": 0.72,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.4,
+        "mid": -0.4,
+        "long": -0.4
+      }
     }
   },
   "summary": "A Central Asian state mid-way through a genuine post-2016 reform opening - IMF/EBRD-validated macro management, markedly improved statistical transparency, bank privatisation, and a WTO-accession push - resting on a young, growing population. That upside sits on a persistent authoritarian-lite political and rights ceiling (a judiciary subordinate to the executive, no legal opposition, a restricted press) and is anchored by an acute environmental burden: the Aral Sea catastrophe, severe trans-boundary water stress, and extreme continental heat. Reform claims are treated as intentions, not yet achieved outcomes.",

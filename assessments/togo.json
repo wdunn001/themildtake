@@ -233,19 +233,34 @@
       "score": -1.48,
       "confidence": 0.68,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.46,
+        "mid": -1.47,
+        "long": -1.48
+      }
     },
     "assets": {
       "score": -0.3,
       "confidence": 0.7,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.37,
+        "mid": -0.3,
+        "long": -0.22
+      }
     },
     "currency": {
       "score": 0.31,
       "confidence": 0.71,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.31,
+        "mid": 0.44,
+        "long": 0.57
+      }
     }
   },
   "summary": "Togo pairs decent WAEMU macro performance with one of West Africa's most entrenched autocracies. The economy grows steadily (~5.3%), inflation is low and euro-peg-anchored, an IMF ECF is on track, and the Lome deep-water port plus phosphates give a regional logistics-and-mining base. The dominant story is political: the Gnassingbe family has ruled since 1967, and a 2024-25 constitutional rewrite to a parliamentary system made Faure Gnassingbe an indefinitely renewable President of the Council of Ministers - an opposition-branded 'constitutional coup' that triggered mid-2025 Lome protests and a crackdown killing at least five. Rising-but-still-contained JNIM spillover into the northern Savanes region, a squeezed press (RSF 121/180), coastal-erosion exposure, and a weak health system reinforce a negatively skewed profile: stable cash-flow fundamentals against poor governance, civil-liberties, and security tails.",

@@ -227,19 +227,34 @@
       "score": 5.38,
       "confidence": 0.73,
       "horizon": "5-10y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 5.4,
+        "mid": 5.39,
+        "long": 5.38
+      }
     },
     "assets": {
       "score": 4.8,
       "confidence": 0.76,
       "horizon": "3-7y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 4.81,
+        "mid": 4.8,
+        "long": 4.79
+      }
     },
     "currency": {
       "score": 4.29,
       "confidence": 0.79,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 4.29,
+        "mid": 4.29,
+        "long": 4.29
+      }
     }
   },
   "summary": "A wealthy, very stable constitutional monarchy with AAA-equivalent fiscal strength - virtually zero public debt and financial assets near 100% of GDP - anchored to the Swiss franc and uniquely holding EEA single-market membership while Switzerland does not. Its economy combines a sound ~20%-of-GDP financial center with world-class high-value manufacturing (Hilti and others), and it scores top-tier on safety, press freedom (RSF #7), and institutions (FH 90/100). The one genuine caveat is democratic: the Prince retains unusually strong powers - veto over legislation and even popular votes, plus the right to dismiss the government, confirmed by the contested 2003 referendum - though day-to-day politics are calm (a renewed coalition under the country's first female PM took office in April 2025). It imports SNB monetary policy but benefits from the safe-haven CHF; overall clearly positive skew.",

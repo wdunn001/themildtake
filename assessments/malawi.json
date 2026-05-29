@@ -229,19 +229,34 @@
       "score": -2.34,
       "confidence": 0.63,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.34,
+        "mid": -2.34,
+        "long": -2.34
+      }
     },
     "assets": {
       "score": -2.59,
       "confidence": 0.65,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.63,
+        "mid": -2.59,
+        "long": -2.55
+      }
     },
     "currency": {
       "score": -2.81,
       "confidence": 0.67,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.81,
+        "mid": -2.74,
+        "long": -2.67
+      }
     }
   },
   "summary": "One of the world's poorest, most aid- and tobacco-dependent economies, now in acute macro-financial distress: ~33% inflation, a kwacha devalued 44% in 2023 that still trades at a steep parallel-market premium, an IMF ECF that lapsed in May 2025, and external debt distress with public debt near 88% of GDP. Politically it remains a genuine if fragile democracy - the September 2025 election produced a peaceful turnover amid cost-of-living anger - and scores comparatively well on rule of law and civil liberties for the region. Its sharpest non-economic drag is climate exposure, underscored by Cyclone Freddy's 2023 devastation. The net picture is negative, weighed down by the economy and disaster risk rather than repression or conflict.",

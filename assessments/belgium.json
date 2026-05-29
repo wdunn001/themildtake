@@ -227,19 +227,34 @@
       "score": 3.56,
       "confidence": 0.84,
       "horizon": "5-10y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.59,
+        "mid": 3.57,
+        "long": 3.56
+      }
     },
     "assets": {
       "score": 3.87,
       "confidence": 0.86,
       "horizon": "3-7y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.88,
+        "mid": 3.87,
+        "long": 3.86
+      }
     },
     "currency": {
       "score": 3.58,
       "confidence": 0.87,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.58,
+        "mid": 3.58,
+        "long": 3.58
+      }
     }
   },
   "summary": "A wealthy, open trade-hub economy with strong, independent institutions, a free press, excellent healthcare, and a reliable NATO/EU-core role hosting both blocs' headquarters. The drags are a high public-debt load and the eurozone's largest deficit (with automatic wage indexation a structural feature), chronic political fragmentation along the Flemish-Walloon divide, a severe asylum-reception crisis that courts repeatedly find unlawful, and Brussels/Antwerp narco-violence. Euro membership pools monetary policy at a credible ECB.",

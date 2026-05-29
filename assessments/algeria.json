@@ -227,19 +227,34 @@
       "score": -4.07,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -4.04,
+        "mid": -4.05,
+        "long": -4.07
+      }
     },
     "assets": {
       "score": -3.7,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -3.69,
+        "mid": -3.7,
+        "long": -3.71
+      }
     },
     "currency": {
       "score": -3.68,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -3.68,
+        "mid": -3.68,
+        "long": -3.68
+      }
     }
   },
   "summary": "A near-total hydrocarbon rentier - a major European gas supplier but with ~95% of exports from oil and gas, failed diversification, and a statist economy - whose 2024 deficit blew out on falling revenue, cushioned by an eroding reserve buffer. The military dominates a corruption-ridden, opaque state with a figurehead president, suppressed liberties after the crushed Hirak movement, and documented mass expulsions of sub-Saharan migrants. Severe water scarcity, extreme heat, and recurrent wildfires weigh on the physical side, partly offset by relatively low violent crime.",

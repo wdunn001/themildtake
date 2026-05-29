@@ -140,6 +140,14 @@ export function recompute(doc) {
     decision.score = round(comp.score, 2);
     decision.confidence = round(comp.confidence, 2);
     decision.reading = readingFor(decision.score, decision.confidence);
+    // Same weighting projected across all three horizons, so the detail page can
+    // chart the near->long trajectory. The decision's reported score is the
+    // point at its native horizon (currency=near, assets=mid, living=long).
+    decision.trajectory = {
+      near: round(decisionComposite(doc.categories, weights, "near", cap).score, 2),
+      mid: round(decisionComposite(doc.categories, weights, "mid", cap).score, 2),
+      long: round(decisionComposite(doc.categories, weights, "long", cap).score, 2),
+    };
   }
   return doc;
 }

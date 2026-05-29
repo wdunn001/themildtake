@@ -233,19 +233,34 @@
       "score": 2.52,
       "confidence": 0.76,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.58,
+        "mid": 2.55,
+        "long": 2.52
+      }
     },
     "assets": {
       "score": 1.75,
       "confidence": 0.77,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.71,
+        "mid": 1.75,
+        "long": 1.8
+      }
     },
     "currency": {
       "score": 1.14,
       "confidence": 0.78,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.14,
+        "mid": 1.24,
+        "long": 1.34
+      }
     }
   },
   "summary": "Strong institutions across the board - independent courts, a respected statistical agency, high press freedom - a positive political/social state, and a sound fiscal position with the lowest debt burden in the G7. The main weaknesses are involuntary exposure to volatile US tariff actions and a degraded alliance position from being directly targeted, now partly offset by a concrete pivot to EU/Nordic frameworks. Resource wealth paired with strong institutions is a managed asset, not a curse.",

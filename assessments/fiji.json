@@ -229,19 +229,34 @@
       "score": 0.74,
       "confidence": 0.67,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.74,
+        "mid": 0.74,
+        "long": 0.74
+      }
     },
     "assets": {
       "score": 0.91,
       "confidence": 0.71,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.83,
+        "mid": 0.91,
+        "long": 0.98
+      }
     },
     "currency": {
       "score": 1.02,
       "confidence": 0.73,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.02,
+        "mid": 1.16,
+        "long": 1.31
+      }
     }
   },
   "summary": "The most developed and best-governed Melanesian state - a diversified, tourism-led economy (output above pre-pandemic levels), the region's strongest institutions (CPI 55/100), and a genuine democratic and press-freedom restoration since the December 2022 election that ended 16 years of Bainimarama rule (RSF rank leapt to 24th in 2026). The main drags are an elevated ~80%-of-GDP public debt on a slow consolidation path, severe cyclone/sea-level exposure, and a fast-escalating methamphetamine and organized-crime problem that has corrupted parts of the police. A latent iTaukei/Indo-Fijian cleavage and a coup-prone history remain tail risks rather than active threats, with high everyday inter-ethnic trust. The skew is roughly symmetric: a credibly improving institutional story balanced against environmental, organized-crime, and historical-instability tails.",

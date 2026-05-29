@@ -241,19 +241,34 @@
       "score": 2.63,
       "confidence": 0.81,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.64,
+        "mid": 2.64,
+        "long": 2.63
+      }
     },
     "assets": {
       "score": 3.06,
       "confidence": 0.83,
       "horizon": "3-7y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.02,
+        "mid": 3.06,
+        "long": 3.09
+      }
     },
     "currency": {
       "score": 3.24,
       "confidence": 0.84,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.24,
+        "mid": 3.32,
+        "long": 3.4
+      }
     }
   },
   "summary": "A stable, demilitarized democracy with credible macro management (debt cut below 60% of GDP, an independent inflation-targeting central bank), a diversified and resilient export base (medical devices, semiconductors, ecotourism), universal healthcare, a renewable grid, and lawful long-popular residency routes. The drags are sharply rising narco-transit violence, poor road infrastructure, populist strain on institutions and the press, and real seismic/storm exposure.",

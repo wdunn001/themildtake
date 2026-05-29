@@ -238,19 +238,34 @@
       "score": -0.69,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.86,
+        "mid": -0.78,
+        "long": -0.69
+      }
     },
     "assets": {
       "score": -0.19,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.64,
+        "mid": -0.19,
+        "long": 0.25
+      }
     },
     "currency": {
       "score": -0.94,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.94,
+        "mid": -0.28,
+        "long": 0.39
+      }
     }
   },
   "summary": "A wealthy, low-crime, US-allied oil state with one of the world's largest sovereign funds (driving a large general-government surplus despite a flow deficit) and sound, highly-rated banks. The offsets are near-total oil dependence and the Gulf's most gridlocked policymaking, a 2024 governance regression in which the emir suspended parliament, a declining press, a citizen-minority workforce with no path to belonging (and a stateless 'Bidoon' population), and an extreme heat and water-scarcity tail. A basket peg trades monetary autonomy for stability.",

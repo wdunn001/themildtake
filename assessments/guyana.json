@@ -253,19 +253,34 @@
       "score": 0.02,
       "confidence": 0.67,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.07,
+        "mid": -0.03,
+        "long": 0.02
+      }
     },
     "assets": {
       "score": 0.86,
       "confidence": 0.68,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.95,
+        "mid": 0.86,
+        "long": 0.78
+      }
     },
     "currency": {
       "score": 1.83,
       "confidence": 0.69,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.83,
+        "mid": 1.63,
+        "long": 1.43
+      }
     }
   },
   "summary": "The world's fastest-growing economy - ~19% real GDP growth in 2025 on an Exxon-led offshore oil boom scaling past ~900k bbl/d toward ~1.7m by 2030, transforming a once-poor nation of ~0.8m people with surging fiscal revenue, a sovereign Natural Resource Fund, low inflation, a stable managed currency, and comparatively low crime. The boom is genuine and transformational, but the downside tails are equally large: weak institutions with documented 'state-capture' and corruption concerns (TI CPI ~39/100), thin civil-service absorptive capacity, deep Indo-/Afro-Guyanese ethnic polarization, an existentially exposed below-sea-level coastline, and above all the Essequibo territorial dispute with Venezuela, which escalated sharply through 2023-2025 and is now before the ICJ. Net symmetric: rarely is such enormous upside paired with such concentrated existential risk.",

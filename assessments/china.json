@@ -254,19 +254,34 @@
       "score": -4.07,
       "confidence": 0.59,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -3.09,
+        "mid": -3.58,
+        "long": -4.07
+      }
     },
     "assets": {
       "score": -2.91,
       "confidence": 0.59,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.62,
+        "mid": -2.91,
+        "long": -3.2
+      }
     },
     "currency": {
       "score": -2.7,
       "confidence": 0.59,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.7,
+        "mid": -2.9,
+        "long": -3.09
+      }
     }
   },
   "summary": "Very weak on institutional quality and civil liberties - no independent judiciary, comprehensive censorship and surveillance, structurally closed to immigration - against a largely locked-in demographic collapse. Under the hard exclusion rule, CCP self-reported economics are excluded and rebuilt from independent proxies (lowering confidence); the genuine, externally verifiable strength is manufacturing dominance, now weighted 0.17 and confirmed through partner customs data, which keeps the economic score from collapsing even as structural deflation and decoupling weigh on the long term. The outcome distribution carries negative skew - locked-in demographics and intensifying authoritarianism, with no positive-skew pathway.",

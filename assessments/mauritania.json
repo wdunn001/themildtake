@@ -231,19 +231,34 @@
       "score": -1.87,
       "confidence": 0.66,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.82,
+        "mid": -1.84,
+        "long": -1.87
+      }
     },
     "assets": {
       "score": -0.86,
       "confidence": 0.66,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.81,
+        "mid": -0.86,
+        "long": -0.9
+      }
     },
     "currency": {
       "score": -0.09,
       "confidence": 0.67,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.09,
+        "mid": -0.11,
+        "long": -0.13
+      }
     }
   },
   "summary": "By regional standards Mauritania is comparatively stable and well-managed: President Ghazouani won a 2024 second term after the country's first peaceful elected-to-elected handover in 2019, the IMF praises prudent fiscal and monetary policy (deficit near balance, falling debt, ~1.5-2.5% inflation), and new offshore GTA gas (first LNG export 2025) adds to iron ore and rich fishing - a positive economic skew. It is also a rare Sahel security success, with no jihadist attack since around 2011 and a reliable Western counterterrorism partnership, though JNIM's advance into Mali's neighboring Kayes region now pressures its remote eastern border. The dominant drags are social and institutional rather than economic: a persistent descent-based chattel-slavery legacy (~149,000 still enslaved) atop a rigid ethnic-caste hierarchy, ongoing arrests of anti-slavery activists, military-rooted governance with limited rule of law, weak human capital, and a harsh desert climate. Net negative overall, but materially less so - and with a better trajectory - than its junta-run, conflict-torn neighbors.",

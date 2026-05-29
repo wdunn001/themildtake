@@ -231,19 +231,34 @@
       "score": -2.04,
       "confidence": 0.54,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.69,
+        "mid": -1.86,
+        "long": -2.04
+      }
     },
     "assets": {
       "score": -1.21,
       "confidence": 0.55,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.21,
+        "mid": -1.21,
+        "long": -1.21
+      }
     },
     "currency": {
       "score": -0.95,
       "confidence": 0.56,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.95,
+        "mid": -0.88,
+        "long": -0.81
+      }
     }
   },
   "summary": "The rare Horn-of-Africa state that combines genuine macro stability - a 50-year-credible dollar currency board, low inflation, a regional banking and ports hub - with acute structural vulnerabilities: a port/logistics economy (~70% of GDP) over-concentrated on Ethiopia and exposed to Red Sea/Houthi disruption (traffic down ~10% in 2025), and debt the IMF calls unsustainable, more than 70% owed to China and only manageable via a moratorium to 2027. Its real 'oil' is geography: rents from US, French, Chinese, Japanese, and Italian bases at Bab-el-Mandeb underwrite a deliberately multi-aligned foreign policy. Domestically it is stable but firmly authoritarian - Guelleh secured a sixth term in April 2026 after a 2025 age-limit removal, the press is among the world's least free, and an eventual succession plus Issa-Afar asymmetry are the key latent risks.",

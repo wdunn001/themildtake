@@ -233,19 +233,34 @@
       "score": 2.13,
       "confidence": 0.74,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.94,
+        "mid": 2.03,
+        "long": 2.13
+      }
     },
     "assets": {
       "score": 2.42,
       "confidence": 0.74,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.31,
+        "mid": 2.42,
+        "long": 2.53
+      }
     },
     "currency": {
       "score": 2.32,
       "confidence": 0.75,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.32,
+        "mid": 2.45,
+        "long": 2.58
+      }
     }
   },
   "summary": "A fast-growing, EU-integrated economy with sound banks, a credible central bank, low crime, and strongly upgraded infrastructure, and a top-tier NATO frontline role. The drags are a deteriorating fiscal position on heavy defence spending, a cohabitation standoff between a pro-EU government and a PiS-aligned president that paralyses reform, a strained health system, long-term demographic decline, and - most consequentially - frontline exposure to the Russia-Ukraine war, with drone incursions and border pressure a real tail risk. Rule-of-law and press recovery is genuine but blocked by presidential veto.",

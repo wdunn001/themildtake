@@ -227,19 +227,34 @@
       "score": -2.7,
       "confidence": 0.7,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.67,
+        "mid": -2.69,
+        "long": -2.7
+      }
     },
     "assets": {
       "score": -1.37,
       "confidence": 0.72,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.36,
+        "mid": -1.37,
+        "long": -1.38
+      }
     },
     "currency": {
       "score": -0.53,
       "confidence": 0.73,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.53,
+        "mid": -0.53,
+        "long": -0.53
+      }
     }
   },
   "summary": "A state held together by the dysfunctional Dayton ethnic power-sharing settlement, where a euro-pegged currency board delivers low debt and inflation and EU-owned banks are sound - but those macro positives are outweighed by governance paralysis, pervasive corruption (still under an international High Representative), and, most consequentially, an active Republika Srpska secession push that defies the state and is stoked by Russia and Serbia. Deep Bosniak/Serb/Croat division, severe depopulation, flood/seismic exposure, and coal-driven air pollution complete a negative profile.",

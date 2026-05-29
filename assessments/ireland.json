@@ -243,19 +243,34 @@
       "score": 3.28,
       "confidence": 0.78,
       "horizon": "5-10y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.39,
+        "mid": 3.34,
+        "long": 3.28
+      }
     },
     "assets": {
       "score": 2.86,
       "confidence": 0.79,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.93,
+        "mid": 2.86,
+        "long": 2.8
+      }
     },
     "currency": {
       "score": 3.02,
       "confidence": 0.79,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.02,
+        "mid": 2.92,
+        "long": 2.81
+      }
     }
   },
   "summary": "Strong common-law institutions, a young (by European standards) and growing population, and a standout English-speaking citizenship-by-descent route, with headline budget surpluses. But the fiscal and export strength rests on a dangerously concentrated multinational corporate-tax base (best read via GNI*, not GDP) exposed to US tariff and tax-reform risk; an acute housing shortage is the dominant domestic drag; and the country is militarily neutral with thin defence capacity.",

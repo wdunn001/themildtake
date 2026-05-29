@@ -227,19 +227,34 @@
       "score": -4.13,
       "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -4.1,
+        "mid": -4.11,
+        "long": -4.13
+      }
     },
     "assets": {
       "score": -3.59,
       "confidence": 0.6,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -3.58,
+        "mid": -3.59,
+        "long": -3.6
+      }
     },
     "currency": {
       "score": -3.22,
       "confidence": 0.6,
       "horizon": "1-3y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -3.22,
+        "mid": -3.22,
+        "long": -3.22
+      }
     }
   },
   "summary": "A very large, young economy mid-way through a genuine but fragile reform - a 2024 currency float, an IMF program and debt restructuring, the GERD dam now generating, and disinflation from a high base. That story is dominated by conflict: after the Tigray war ended in 2022, new Amhara and Oromia insurgencies persist amid emergency measures and a delayed election, and an acute Eritrea war-risk plus a Red-Sea sea-access push strain regional ties. Deep ethnic-federal cleavages, a reversed press opening, weak healthcare, and half the population lacking electricity weigh heavily, with the demographic dividend the main offset.",

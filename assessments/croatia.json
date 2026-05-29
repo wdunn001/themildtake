@@ -227,19 +227,34 @@
       "score": 2.7,
       "confidence": 0.8,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 2.75,
+        "mid": 2.73,
+        "long": 2.7
+      }
     },
     "assets": {
       "score": 3.34,
       "confidence": 0.82,
       "horizon": "3-7y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.35,
+        "mid": 3.34,
+        "long": 3.32
+      }
     },
     "currency": {
       "score": 3.65,
       "confidence": 0.83,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.65,
+        "mid": 3.65,
+        "long": 3.65
+      }
     }
   },
   "summary": "A stable EU democracy and eurozone/Schengen member with a sharply improved fiscal trajectory (debt down from a ~87% peak to ~57%), sound, well-capitalised banks, an export- and tourism-driven economy, reliable NATO/EU anchoring, and low crime. The drags are a severe demographic decline (a ~20% population loss since independence on mass post-accession emigration), entrenched corruption and a slow judiciary, and real climate and seismic exposure. Euro membership pools monetary policy at a credible ECB.",

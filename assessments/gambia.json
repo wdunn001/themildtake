@@ -233,19 +233,34 @@
       "score": 0.07,
       "confidence": 0.66,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.13,
+        "mid": 0.1,
+        "long": 0.07
+      }
     },
     "assets": {
       "score": 0.37,
       "confidence": 0.67,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.43,
+        "mid": 0.37,
+        "long": 0.31
+      }
     },
     "currency": {
       "score": 0.71,
       "confidence": 0.69,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.71,
+        "mid": 0.64,
+        "long": 0.57
+      }
     }
   },
   "summary": "A small, poor, positively-skewed recovery story: a managed-float dalasi economy of tourism (~20% of GDP), remittances (~a third of GDP), and agriculture, enclaved within Senegal, growing ~6% with single-digit inflation and falling debt under an on-track IMF ECF/RSF program. Its standout asset is a real democratic transition with active transitional justice - the TRRC's 16-volume report and the first-ever ECOWAS hybrid Special Tribunal to try Jammeh-era atrocities. The principal risk is concentrated and political: President Barrow abandoned his single-term pledge, blocked term-limit reform, and is seeking a third term in the December 2026 election. Physical fundamentals (weak healthcare, flood exposure, thin infrastructure) remain poor, but the absence of conflict and the improving institutional trajectory keep the overall shape favorable.",

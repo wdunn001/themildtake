@@ -231,19 +231,34 @@
       "score": -5.21,
       "confidence": 0.58,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -4.96,
+        "mid": -5.09,
+        "long": -5.21
+      }
     },
     "assets": {
       "score": -3.63,
       "confidence": 0.58,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "clear negative",
+      "trajectory": {
+        "near": -3.55,
+        "mid": -3.63,
+        "long": -3.72
+      }
     },
     "currency": {
       "score": -2.82,
       "confidence": 0.59,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.82,
+        "mid": -2.9,
+        "long": -2.99
+      }
     }
   },
   "summary": "The most closed and repressive of the Central African petrostates: Obiang has ruled since 1979 (the world's longest-serving non-royal head of state), oil wealth is captured by his family, and the state scores among the world's worst on corruption (CPI 13/100) and press freedom, with routine torture documented at Black Beach prison. It embodies the paradox of plenty - among the highest GDP-per-capita in sub-Saharan Africa alongside majority poverty - now compounded by a sharp 2025 contraction (~-6.4%) as hydrocarbons decline, with the country on an IMF Staff-Monitored Program. The 2024 Engonga scandal offered a rare window into elite rot. The CFA euro peg and low inflation are the only structural positives; the skew is sharply negative, with eventual family succession the dominant unresolved tail risk.",

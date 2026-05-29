@@ -227,19 +227,34 @@
       "score": 5.1,
       "confidence": 0.83,
       "horizon": "5-10y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 5.13,
+        "mid": 5.11,
+        "long": 5.1
+      }
     },
     "assets": {
       "score": 4.28,
       "confidence": 0.84,
       "horizon": "3-7y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 4.29,
+        "mid": 4.28,
+        "long": 4.28
+      }
     },
     "currency": {
       "score": 3.55,
       "confidence": 0.85,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "clear positive",
+      "trajectory": {
+        "near": 3.55,
+        "mid": 3.55,
+        "long": 3.55
+      }
     }
   },
   "summary": "A high-income country with excellent institutions, healthcare, infrastructure, and personal safety, and an advanced, German-integrated export economy. The drags are a recent fiscal deterioration (an EU excessive-deficit procedure after the EU's last recession), a sticky inflation legacy, and a far-right political rise - though that party was kept from power by an orderly, if fragmented, three-party coalition. Membership of the euro pools monetary policy at a credible ECB, while constitutional neutrality keeps the hard-security commitment limited.",

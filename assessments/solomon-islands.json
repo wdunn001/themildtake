@@ -237,19 +237,34 @@
       "score": -2.82,
       "confidence": 0.61,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -2.69,
+        "mid": -2.75,
+        "long": -2.82
+      }
     },
     "assets": {
       "score": -2.12,
       "confidence": 0.62,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.99,
+        "mid": -2.12,
+        "long": -2.25
+      }
     },
     "currency": {
       "score": -1.41,
       "confidence": 0.63,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.41,
+        "mid": -1.56,
+        "long": -1.72
+      }
     }
   },
   "summary": "A small, aid-dependent, logging-driven economy that became a great-power flashpoint after its 2019 switch from Taiwan to China and the controversial 2022 security pact, then swung again in May 2026 when PM Manele was ousted and pact-critic Matthew Wale became prime minister - a likely tilt back toward Australia, though the new government is untested and the transition came only after an eight-week constitutional crisis the courts had to resolve. Fiscally it is fragile rather than insolvent: public debt is low (~20% of GDP) but has tripled since the pandemic while the logging revenue base depletes. Deep structural risks persist - the Malaita/Guadalcanal 'Tensions' legacy, the 2021 anti-China Honiara riots, weak health and infrastructure, and acute climate vulnerability (low-lying islands literally disappearing). The skew is negative: democracy held and the West-tilting leadership change is a near-term positive, but it sits atop chronic instability, resource depletion, and existential climate exposure.",

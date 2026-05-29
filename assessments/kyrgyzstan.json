@@ -231,19 +231,34 @@
       "score": -1.81,
       "confidence": 0.63,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -1.63,
+        "mid": -1.72,
+        "long": -1.81
+      }
     },
     "assets": {
       "score": -0.93,
       "confidence": 0.63,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.85,
+        "mid": -0.93,
+        "long": -1.02
+      }
     },
     "currency": {
       "score": -0.26,
       "confidence": 0.64,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": -0.26,
+        "mid": -0.32,
+        "long": -0.38
+      }
     }
   },
   "summary": "Central Asia's historically freest state now sliding toward its neighbours' norm: President Japarov's 2021 super-presidential constitution and a sustained 2024-2025 crackdown (Kloop shut, journalists jailed, 'foreign-agents' and media-registration laws) have gutted what was a regional press-freedom haven, even as it still tops the region on RSF. The economy is booming (~9-11% growth) but on fragile pillars - Russia-bound re-exports, remittances, and Kumtor gold - that carry sanctions-circumvention and overheating risk. A landmark March 2025 border-demarcation treaty with Tajikistan defused the deadliest external flashpoint, but the 2026 collapse of the Japarov-Tashiyev tandem and a history of three revolutions keep elite instability elevated, compounded by chronic hydropower-driven winter energy crises.",

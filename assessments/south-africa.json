@@ -227,19 +227,34 @@
       "score": 0.67,
       "confidence": 0.78,
       "horizon": "5-10y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 0.7,
+        "mid": 0.69,
+        "long": 0.67
+      }
     },
     "assets": {
       "score": 0.99,
       "confidence": 0.79,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1,
+        "mid": 0.99,
+        "long": 0.98
+      }
     },
     "currency": {
       "score": 1.4,
       "confidence": 0.81,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "mixed",
+      "trajectory": {
+        "near": 1.4,
+        "mid": 1.4,
+        "long": 1.4
+      }
     }
   },
   "summary": "A country of strong institutions and weak delivery: a genuinely credible independent central bank, an assertive judiciary that pursued state-capture accountability, respected statistics, a free press, sophisticated banks, and strong constitutional protections - set against a deteriorating fiscal path, a state-capture-hollowed civil service, very high violent crime, among the world's highest inequality and unemployment, two-tier healthcare, and fragile (if improved) electricity and logistics. The 2024 unity-government coalition is a functioning but tense democratic test, and 2025 brought significant friction with the US.",
