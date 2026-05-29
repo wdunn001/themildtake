@@ -18,6 +18,9 @@ import DecisionBars from "./DecisionBars";
 export default function CompareView() {
   const index = useAsync(() => getComparisonIndex(), []);
   const [selected, setSelected] = useState<string[]>([]);
+  const [query, setQuery] = useState("");
+  const [open, setOpen] = useState(false);
+  const [activeIdx, setActiveIdx] = useState(0);
 
   const allCountries = useMemo(
     () => (index.data ? pivotIndex(index.data).map((r) => ({ country: r.country, iso3: r.iso3.toLowerCase() })) : []),
@@ -42,6 +45,41 @@ export default function CompareView() {
 
   const toggle = (iso: string) =>
     setSelected((prev) => (prev.includes(iso) ? prev.filter((x) => x !== iso) : [...prev, iso]));
+
+  const nameOf = (iso: string) => allCountries.find((c) => c.iso3 === iso)?.country ?? iso;
+
+  // Type-ahead matches: unselected countries filtered by name or iso3, capped.
+  const matches = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    const pool = allCountries.filter((c) => !selected.includes(c.iso3));
+    const f = q ? pool.filter((c) => c.country.toLowerCase().includes(q) || c.iso3.includes(q)) : pool;
+    return f.slice(0, 8);
+  }, [allCountries, selected, query]);
+
+  const addCountry = (iso: string) => {
+    setSelected((prev) => (prev.includes(iso) ? prev : [...prev, iso]));
+    setQuery("");
+    setActiveIdx(0);
+  };
+
+  const onKey = (e: KeyboardEvent) => {
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      setOpen(true);
+      setActiveIdx((i) => Math.min(i + 1, matches.length - 1));
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      setActiveIdx((i) => Math.max(i - 1, 0));
+    } else if (e.key === "Enter") {
+      e.preventDefault();
+      const m = matches[activeIdx];
+      if (m) addCountry(m.iso3);
+    } else if (e.key === "Escape") {
+      setOpen(false);
+    } else if (e.key === "Backspace" && !query && selected.length) {
+      toggle(selected[selected.length - 1]);
+    }
+  };
 
   // Common categories (intersection, canonical order) so radar axes align.
   const sharedCategoryKeys = useMemo(() => {
@@ -77,20 +115,67 @@ export default function CompareView() {
   return (
     <div class="cmp">
       <div class="cmp__picker">
-        {index.loading && <span class="cmp__status">Loading…</span>}
-        {allCountries.map((c) => {
-          const active = selected.includes(c.iso3);
-          return (
-            <button
-              class={`cmp__chip${active ? " cmp__chip--on" : ""}`}
-              style={active ? { borderColor: colorOf(c.iso3), color: colorOf(c.iso3) } : undefined}
-              onClick={() => toggle(c.iso3)}
-              aria-pressed={active}
-            >
-              {c.country}
-            </button>
-          );
-        })}
+        <div class="cmp__combo">
+          <input
+            class="cmp__input"
+            type="text"
+            value={query}
+            placeholder={index.loading ? "Loading countries…" : "Search countries to add…"}
+            disabled={index.loading}
+            role="combobox"
+            aria-expanded={open}
+            aria-controls="cmp-listbox"
+            autocomplete="off"
+            onInput={(e) => {
+              setQuery((e.target as HTMLInputElement).value);
+              setOpen(true);
+              setActiveIdx(0);
+            }}
+            onFocus={() => setOpen(true)}
+            onBlur={() => setOpen(false)}
+            onKeyDown={onKey}
+          />
+          {open && matches.length > 0 && (
+            <ul class="cmp__menu" id="cmp-listbox" role="listbox">
+              {matches.map((c, i) => (
+                <li role="option" aria-selected={i === activeIdx}>
+                  <button
+                    type="button"
+                    class={`cmp__opt${i === activeIdx ? " cmp__opt--active" : ""}`}
+                    // mousedown (not click) + preventDefault so the input keeps
+                    // focus and the option fires before the input's blur closes the menu.
+                    onMouseDown={(e) => {
+                      e.preventDefault();
+                      addCountry(c.iso3);
+                    }}
+                    onMouseEnter={() => setActiveIdx(i)}
+                  >
+                    <span>{c.country}</span>
+                    <span class="cmp__opt-iso">{c.iso3.toUpperCase()}</span>
+                  </button>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+
+        {selected.length > 0 && (
+          <div class="cmp__badges">
+            {selected.map((iso) => (
+              <span class="cmp__badge" style={{ borderColor: colorOf(iso), color: colorOf(iso) }}>
+                {nameOf(iso)}
+                <button
+                  type="button"
+                  class="cmp__badge-x"
+                  aria-label={`Remove ${nameOf(iso)}`}
+                  onClick={() => toggle(iso)}
+                >
+                  ×
+                </button>
+              </span>
+            ))}
+          </div>
+        )}
       </div>
 
       {selected.length < 2 ? (
@@ -142,13 +227,40 @@ export default function CompareView() {
       )}
 
       <style>{`
-        .cmp__picker { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem; }
-        .cmp__chip {
-          background: var(--bg-elev); border: 1px solid var(--border-strong); color: var(--fg-muted);
-          font-family: var(--font-mono); font-size: 0.8125rem; padding: 0.35rem 0.75rem; border-radius: 999px; cursor: pointer;
+        .cmp__picker { margin-bottom: 1.5rem; }
+        .cmp__combo { position: relative; max-width: 28rem; }
+        .cmp__input {
+          width: 100%; box-sizing: border-box;
+          background: var(--bg-elev); border: 1px solid var(--border-strong); color: var(--fg);
+          font-family: var(--font-mono); font-size: 0.875rem; padding: 0.55rem 0.85rem; border-radius: 8px;
         }
-        .cmp__chip:hover { color: var(--fg); }
-        .cmp__chip--on { background: var(--surface); font-weight: 600; }
+        .cmp__input:focus { outline: none; border-color: var(--fg-muted); }
+        .cmp__input::placeholder { color: var(--fg-faint); }
+        .cmp__input:disabled { opacity: 0.6; cursor: wait; }
+        .cmp__menu {
+          position: absolute; z-index: 20; top: calc(100% + 4px); left: 0; right: 0; margin: 0; padding: 0.25rem;
+          list-style: none; background: var(--bg-elev); border: 1px solid var(--border-strong); border-radius: 8px;
+          box-shadow: 0 8px 24px rgba(0,0,0,0.25); max-height: 16rem; overflow-y: auto;
+        }
+        .cmp__menu li { margin: 0; }
+        .cmp__opt {
+          display: flex; justify-content: space-between; align-items: center; gap: 1rem; width: 100%;
+          background: none; border: none; cursor: pointer; text-align: left; color: var(--fg);
+          font-family: var(--font-mono); font-size: 0.8125rem; padding: 0.4rem 0.6rem; border-radius: 6px;
+        }
+        .cmp__opt--active, .cmp__opt:hover { background: var(--surface); }
+        .cmp__opt-iso { color: var(--fg-faint); font-size: 0.6875rem; }
+        .cmp__badges { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.85rem; }
+        .cmp__badge {
+          display: inline-flex; align-items: center; gap: 0.4rem;
+          background: var(--surface); border: 1px solid var(--border-strong);
+          font-family: var(--font-mono); font-size: 0.8125rem; font-weight: 600; padding: 0.3rem 0.3rem 0.3rem 0.7rem; border-radius: 999px;
+        }
+        .cmp__badge-x {
+          display: inline-flex; align-items: center; justify-content: center; width: 1.15rem; height: 1.15rem;
+          background: none; border: none; color: inherit; cursor: pointer; font-size: 1rem; line-height: 1; border-radius: 999px; opacity: 0.7;
+        }
+        .cmp__badge-x:hover { opacity: 1; background: var(--bg); }
         .cmp__hint, .cmp__status { font-family: var(--font-mono); color: var(--fg-faint); }
         .cmp__status--err { color: var(--neg); }
         .cmp__charts { display: grid; gap: 1.5rem; grid-template-columns: 1fr; margin-bottom: 2rem; }

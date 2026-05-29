@@ -29,7 +29,7 @@ const dataset = {
 ---
 <Base
   title={`Country ratings — ${SITE_NAME}`}
-  description="Interactive country-risk ratings: a grid of every country across living, asset, and currency decisions, with rankings and confidence."
+  description="Interactive country-risk ratings: a sortable grid of every country across living, asset, and currency decisions, with skew and confidence."
   extraGraph={[dataset]}
 >
   <section class="container ratings">
@@ -38,8 +38,8 @@ const dataset = {
       <h1>Country risk ratings</h1>
       <p class="ratings__lead">
         Directional scores from <strong>&minus;10 to +10</strong>, each paired with a
-        confidence level. Switch decisions, sort the grid, or open a country for the full
-        breakdown. <a href="/ratings/compare/">Compare countries &rarr;</a>
+        confidence level and a skew. Sort the grid by any decision, or open a country for
+        the full breakdown. <a href="/ratings/compare/">Compare countries &rarr;</a>
       </p>
       <ul class="ratings__legend">
         <li><span class="dot dot--pos"></span> clear positive (&ge; +3)</li>
