@@ -1122,4 +1122,186 @@ export const PATHWAYS = {
     credentials: { note: "English-speaking; stable, with a digital-nomad route.", url: "https://mhaiss.gov.na/" },
     links: { immigration: "https://mhaiss.gov.na/", investment: "https://www.nipdb.com/", centralBank: "https://www.bon.com.na/" },
   },
+
+  EGY: {
+    iso3: "EGY", country: "Egypt", languages: ["Arabic"], demandProfessions: ["engineering", "tech", "tourism", "any"],
+    immigration: [
+      { name: "Property-linked / investor residence", type: "investor", eligibility: { minCapitalUsd: 50000, professions: ["any"], languageReq: "none" }, difficulty: "moderate", timeToPrYears: 5, timeToCitizenshipYears: 10, officialUrl: "https://emoves.moi.gov.eg/en" },
+      { name: "Work + residence permit", type: "skilled", eligibility: { minCapitalUsd: 0, professions: ["engineering", "tech", "any"], languageReq: "none" }, difficulty: "moderate", timeToPrYears: 5, timeToCitizenshipYears: 10, officialUrl: "https://emoves.moi.gov.eg/en" },
+    ],
+    assets: { foreignPropertyOwnership: "open", foreignSecurities: "open", nonResidentBrokerage: "hard", note: "Foreigners can own property (limits on number/area); repeated devaluations and FX shortages.", officialUrl: "https://www.cbe.org.eg/en" },
+    currency: { capitalAccountOpen: false, nonResidentBanking: "hard", fxControls: "strict", centralBankUrl: "https://www.cbe.org.eg/en" },
+    credentials: { note: "Arabic helps; cheap living, but currency instability is the catch.", url: "https://emoves.moi.gov.eg/en" },
+    links: { immigration: "https://emoves.moi.gov.eg/en", investment: "https://www.gafi.gov.eg/English/", centralBank: "https://www.cbe.org.eg/en" },
+  },
+  KEN: {
+    iso3: "KEN", country: "Kenya", languages: ["English", "Swahili"], demandProfessions: ["tech", "finance", "medical", "any"],
+    immigration: [
+      { name: "Work permit (eCitizen, employer/self)", type: "skilled", eligibility: { minCapitalUsd: 0, professions: ["tech", "finance", "medical", "any"], languageReq: "none" }, difficulty: "moderate", timeToPrYears: 7, timeToCitizenshipYears: 7, officialUrl: "https://immigration.go.ke/work-permits-and-passes/" },
+      { name: "Investor permit", type: "investor", eligibility: { minCapitalUsd: 100000, professions: ["any"], languageReq: "none" }, difficulty: "moderate", timeToPrYears: 7, timeToCitizenshipYears: 7, officialUrl: "https://immigration.go.ke/work-permits-and-passes/" },
+    ],
+    assets: { foreignPropertyOwnership: "restricted", foreignSecurities: "open", nonResidentBrokerage: "yes", note: "Foreigners get leasehold (not freehold) land; English-speaking East-African tech hub.", officialUrl: "https://www.centralbank.go.ke/" },
+    currency: { capitalAccountOpen: true, nonResidentBanking: "moderate", fxControls: "some", centralBankUrl: "https://www.centralbank.go.ke/" },
+    credentials: { note: "English-speaking; 'Silicon Savannah' draws tech and development workers.", url: "https://immigration.go.ke/work-permits-and-passes/" },
+    links: { immigration: "https://immigration.go.ke/work-permits-and-passes/", investment: "https://www.kenyainvest.go.ke/", centralBank: "https://www.centralbank.go.ke/" },
+  },
+  RWA: {
+    iso3: "RWA", country: "Rwanda", languages: ["Kinyarwanda", "English", "French"], demandProfessions: ["tech", "finance", "any"],
+    immigration: [
+      { name: "Work + residence permit", type: "skilled", eligibility: { minCapitalUsd: 0, professions: ["tech", "finance", "any"], languageReq: "none" }, difficulty: "easy", timeToPrYears: 5, timeToCitizenshipYears: 5, officialUrl: "https://www.migration.gov.rw/" },
+      { name: "Investor residence", type: "investor", eligibility: { minCapitalUsd: 250000, professions: ["any"], languageReq: "none" }, difficulty: "easy", timeToPrYears: 5, timeToCitizenshipYears: 5, officialUrl: "https://www.migration.gov.rw/" },
+    ],
+    assets: { foreignPropertyOwnership: "restricted", foreignSecurities: "open", nonResidentBrokerage: "yes", note: "Leasehold for foreigners; clean, low-corruption Kigali business hub.", officialUrl: "https://www.bnr.rw/" },
+    currency: { capitalAccountOpen: true, nonResidentBanking: "moderate", fxControls: "some", centralBankUrl: "https://www.bnr.rw/" },
+    credentials: { note: "English/French used; orderly, business-friendly, but tightly governed.", url: "https://www.migration.gov.rw/" },
+    links: { immigration: "https://www.migration.gov.rw/", investment: "https://rdb.rw/", centralBank: "https://www.bnr.rw/" },
+  },
+  AZE: {
+    iso3: "AZE", country: "Azerbaijan", languages: ["Azerbaijani"], demandProfessions: ["energy", "engineering", "any"],
+    immigration: [
+      { name: "Work + temporary residence", type: "skilled", eligibility: { minCapitalUsd: 0, professions: ["energy", "engineering", "any"], languageReq: "none" }, difficulty: "moderate", timeToPrYears: 5, timeToCitizenshipYears: 5, officialUrl: "https://migration.gov.az/en" },
+      { name: "Investor / property residence", type: "investor", eligibility: { minCapitalUsd: 150000, professions: ["any"], languageReq: "none" }, difficulty: "moderate", timeToPrYears: 5, timeToCitizenshipYears: 5, officialUrl: "https://migration.gov.az/en" },
+    ],
+    assets: { foreignPropertyOwnership: "restricted", foreignSecurities: "open", nonResidentBrokerage: "yes", note: "Foreigners may own apartments, not land; oil-and-gas economy.", officialUrl: "https://www.cbar.az/?language=en" },
+    currency: { capitalAccountOpen: true, nonResidentBanking: "moderate", fxControls: "some", centralBankUrl: "https://www.cbar.az/?language=en" },
+    credentials: { note: "Azerbaijani/Russian help; energy-sector demand drives most relocation.", url: "https://migration.gov.az/en" },
+    links: { immigration: "https://migration.gov.az/en", investment: "https://azpromo.az/en", centralBank: "https://www.cbar.az/?language=en" },
+  },
+  BIH: {
+    iso3: "BIH", country: "Bosnia and Herzegovina", languages: ["Bosnian"], demandProfessions: ["tech", "manufacturing", "any"],
+    immigration: [
+      { name: "Work + residence permit", type: "skilled", eligibility: { minCapitalUsd: 0, professions: ["tech", "manufacturing", "any"], languageReq: "none" }, difficulty: "moderate", timeToPrYears: 5, timeToCitizenshipYears: 8, officialUrl: "https://sps.gov.ba/?lang=en" },
+    ],
+    assets: { foreignPropertyOwnership: "open", foreignSecurities: "open", nonResidentBrokerage: "yes", note: "Open to foreign owners (reciprocity); EU candidate; low costs.", officialUrl: "https://www.cbbh.ba/?lang=en" },
+    currency: { capitalAccountOpen: true, nonResidentBanking: "moderate", fxControls: "none", centralBankUrl: "https://www.cbbh.ba/?lang=en" },
+    credentials: { note: "Bosnian helpful; EU candidate, very low cost of living.", url: "https://sps.gov.ba/?lang=en" },
+    links: { immigration: "https://sps.gov.ba/?lang=en", investment: "https://fipa.gov.ba/en", centralBank: "https://www.cbbh.ba/?lang=en" },
+  },
+  GUY: {
+    iso3: "GUY", country: "Guyana", languages: ["English"], demandProfessions: ["energy", "engineering", "any"],
+    immigration: [
+      { name: "Work / employment visa", type: "skilled", eligibility: { minCapitalUsd: 0, professions: ["energy", "engineering", "any"], languageReq: "none" }, difficulty: "moderate", timeToPrYears: 7, timeToCitizenshipYears: 7, officialUrl: "https://moha.gov.gy/" },
+    ],
+    assets: { foreignPropertyOwnership: "open", foreignSecurities: "open", nonResidentBrokerage: "yes", note: "Open to foreign owners; English-speaking; oil-driven boom economy.", officialUrl: "https://www.bankofguyana.org.gy/" },
+    currency: { capitalAccountOpen: true, nonResidentBanking: "moderate", fxControls: "some", centralBankUrl: "https://www.bankofguyana.org.gy/" },
+    credentials: { note: "English-speaking; the fastest-growing economy on the back of offshore oil.", url: "https://moha.gov.gy/" },
+    links: { immigration: "https://moha.gov.gy/", investment: "https://goinvest.gov.gy/", centralBank: "https://www.bankofguyana.org.gy/" },
+  },
+  FJI: {
+    iso3: "FJI", country: "Fiji", languages: ["English", "Fijian"], demandProfessions: ["tourism", "tech", "any"],
+    immigration: [
+      { name: "Work permit (employer-sponsored)", type: "skilled", eligibility: { minCapitalUsd: 0, professions: ["tourism", "tech", "any"], languageReq: "none" }, difficulty: "moderate", timeToPrYears: 5, timeToCitizenshipYears: 5, officialUrl: "https://www.immigration.gov.fj/" },
+      { name: "Investor permit", type: "investor", eligibility: { minCapitalUsd: 125000, professions: ["any"], languageReq: "none" }, difficulty: "moderate", timeToPrYears: 5, timeToCitizenshipYears: 5, officialUrl: "https://www.immigration.gov.fj/" },
+    ],
+    assets: { foreignPropertyOwnership: "restricted", foreignSecurities: "open", nonResidentBrokerage: "yes", note: "Foreign freehold restricted (much land is native title); English-speaking Pacific hub.", officialUrl: "https://www.rbf.gov.fj/" },
+    currency: { capitalAccountOpen: true, nonResidentBanking: "moderate", fxControls: "some", centralBankUrl: "https://www.rbf.gov.fj/" },
+    credentials: { note: "English-speaking; the most developed and connected Pacific island state.", url: "https://www.immigration.gov.fj/" },
+    links: { immigration: "https://www.immigration.gov.fj/", investment: "https://www.investmentfiji.org.fj/", centralBank: "https://www.rbf.gov.fj/" },
+  },
+  NPL: {
+    iso3: "NPL", country: "Nepal", languages: ["Nepali"], demandProfessions: ["tourism", "any"],
+    immigration: [
+      { name: "Non-Tourist / work residence visa", type: "skilled", eligibility: { minCapitalUsd: 0, professions: ["any"], languageReq: "none" }, difficulty: "moderate", timeToPrYears: 0, timeToCitizenshipYears: 15, officialUrl: "https://www.immigration.gov.np/en/" },
+      { name: "Business / investor residence", type: "investor", eligibility: { minCapitalUsd: 100000, professions: ["any"], languageReq: "none" }, difficulty: "moderate", timeToPrYears: 0, timeToCitizenshipYears: 15, officialUrl: "https://www.immigration.gov.np/en/" },
+    ],
+    assets: { foreignPropertyOwnership: "prohibited", foreignSecurities: "restricted", nonResidentBrokerage: "hard", note: "Foreigners cannot own land; tight capital controls; long, hard citizenship path.", officialUrl: "https://www.nrb.org.np/" },
+    currency: { capitalAccountOpen: false, nonResidentBanking: "hard", fxControls: "strict", centralBankUrl: "https://www.nrb.org.np/" },
+    credentials: { note: "Nepali helpful; no foreign land ownership and strict controls limit relocation.", url: "https://www.immigration.gov.np/en/" },
+    links: { immigration: "https://www.immigration.gov.np/en/", investment: "https://ibn.gov.np/", centralBank: "https://www.nrb.org.np/" },
+  },
+  MDV: {
+    iso3: "MDV", country: "Maldives", languages: ["Dhivehi"], demandProfessions: ["tourism", "medical", "any"],
+    immigration: [
+      { name: "Work visa (employer-sponsored)", type: "skilled", eligibility: { minCapitalUsd: 0, professions: ["tourism", "medical", "any"], languageReq: "none" }, difficulty: "moderate", timeToPrYears: 0, timeToCitizenshipYears: 0, officialUrl: "https://immigration.gov.mv/" },
+    ],
+    assets: { foreignPropertyOwnership: "prohibited", foreignSecurities: "restricted", nonResidentBrokerage: "hard", note: "Foreigners cannot own land (long leases only); citizenship is closed (Muslim-only constitution).", officialUrl: "https://www.mma.gov.mv/" },
+    currency: { capitalAccountOpen: false, nonResidentBanking: "hard", fxControls: "strict", centralBankUrl: "https://www.mma.gov.mv/" },
+    credentials: { note: "Work-permit-only; no land ownership and no citizenship path. Tourism economy.", url: "https://immigration.gov.mv/" },
+    links: { immigration: "https://immigration.gov.mv/", investment: "https://investment.gov.mv/", centralBank: "https://www.mma.gov.mv/" },
+  },
+  BTN: {
+    iso3: "BTN", country: "Bhutan", languages: ["Dzongkha"], demandProfessions: ["any"],
+    immigration: [
+      { name: "Work permit (employer-sponsored, rare)", type: "skilled", eligibility: { minCapitalUsd: 0, professions: ["any"], languageReq: "none" }, difficulty: "hard", timeToPrYears: 0, timeToCitizenshipYears: 20, officialUrl: "https://www.immi.gov.bt/" },
+    ],
+    assets: { foreignPropertyOwnership: "prohibited", foreignSecurities: "restricted", nonResidentBrokerage: "no", note: "Among the world's most closed to migration; no foreign land ownership; citizenship effectively closed.", officialUrl: "https://www.rma.org.bt/" },
+    currency: { capitalAccountOpen: false, nonResidentBanking: "hard", fxControls: "strict", centralBankUrl: "https://www.rma.org.bt/" },
+    credentials: { note: "Highly restrictive by design (high-value, low-volume tourism); relocation is impractical for most.", url: "https://www.immi.gov.bt/" },
+    links: { immigration: "https://www.immi.gov.bt/", investment: "https://www.doi.gov.bt/", centralBank: "https://www.rma.org.bt/" },
+  },
+  BRN: {
+    iso3: "BRN", country: "Brunei", languages: ["Malay"], demandProfessions: ["energy", "engineering", "any"],
+    immigration: [
+      { name: "Employment pass (employer-sponsored)", type: "skilled", eligibility: { minCapitalUsd: 0, professions: ["energy", "engineering", "any"], languageReq: "none" }, difficulty: "moderate", timeToPrYears: 0, timeToCitizenshipYears: 30, officialUrl: "https://www.imm.gov.bn/" },
+    ],
+    assets: { foreignPropertyOwnership: "prohibited", foreignSecurities: "open", nonResidentBrokerage: "yes", note: "Foreigners cannot own land; no income tax; oil-wealth economy. Citizenship near-closed.", officialUrl: "https://www.bdcb.gov.bn/" },
+    currency: { capitalAccountOpen: true, nonResidentBanking: "moderate", fxControls: "none", centralBankUrl: "https://www.bdcb.gov.bn/" },
+    credentials: { note: "Sponsor-based residence only; no land ownership, no real settlement path.", url: "https://www.imm.gov.bn/" },
+    links: { immigration: "https://www.imm.gov.bn/", investment: "https://www.bedb.com.bn/", centralBank: "https://www.bdcb.gov.bn/" },
+  },
+  GTM: {
+    iso3: "GTM", country: "Guatemala", languages: ["Spanish"], demandProfessions: ["any"],
+    immigration: [
+      { name: "Rentista / pensioner residence", type: "income", eligibility: { minCapitalUsd: 0, professions: ["any"], languageReq: "none" }, difficulty: "easy", timeToPrYears: 5, timeToCitizenshipYears: 5, officialUrl: "https://igm.gob.gt/" },
+      { name: "Work residence", type: "skilled", eligibility: { minCapitalUsd: 0, professions: ["any"], languageReq: "none" }, difficulty: "moderate", timeToPrYears: 5, timeToCitizenshipYears: 5, officialUrl: "https://igm.gob.gt/" },
+    ],
+    assets: { foreignPropertyOwnership: "open", foreignSecurities: "open", nonResidentBrokerage: "yes", note: "Open to foreign owners; low cost of living; CA-4 free movement with neighbors.", officialUrl: "https://www.banguat.gob.gt/" },
+    currency: { capitalAccountOpen: true, nonResidentBanking: "moderate", fxControls: "none", centralBankUrl: "https://www.banguat.gob.gt/" },
+    credentials: { note: "Spanish needed; low costs, CA-4 regional mobility.", url: "https://igm.gob.gt/" },
+    links: { immigration: "https://igm.gob.gt/", investment: "https://www.investinguatemala.org/", centralBank: "https://www.banguat.gob.gt/" },
+  },
+  SLV: {
+    iso3: "SLV", country: "El Salvador", languages: ["Spanish"], demandProfessions: ["tech", "any"],
+    immigration: [
+      { name: "Residence (work / rentista)", type: "income", eligibility: { minCapitalUsd: 0, professions: ["any"], languageReq: "none" }, difficulty: "easy", timeToPrYears: 2, timeToCitizenshipYears: 5, officialUrl: "https://www.migracion.gob.sv/" },
+      { name: "Freedom Visa (large crypto/USD investment)", type: "investor", eligibility: { minCapitalUsd: 1000000, professions: ["any"], languageReq: "none" }, difficulty: "easy", timeToPrYears: 0, timeToCitizenshipYears: 0, officialUrl: "https://www.migracion.gob.sv/" },
+    ],
+    assets: { foreignPropertyOwnership: "open", foreignSecurities: "open", nonResidentBrokerage: "yes", note: "Open to foreign owners; uses the US dollar; Bitcoin is legal tender. Sharp recent security turnaround.", officialUrl: "https://www.bcr.gob.sv/" },
+    currency: { capitalAccountOpen: true, nonResidentBanking: "moderate", fxControls: "none", centralBankUrl: "https://www.bcr.gob.sv/" },
+    credentials: { note: "Spanish needed; dollarized, crypto-friendly, with a fast-track investor citizenship.", url: "https://www.migracion.gob.sv/" },
+    links: { immigration: "https://www.migracion.gob.sv/", investment: "https://www.investinelsalvador.gob.sv/", centralBank: "https://www.bcr.gob.sv/" },
+  },
+  HND: {
+    iso3: "HND", country: "Honduras", languages: ["Spanish"], demandProfessions: ["any"],
+    immigration: [
+      { name: "Rentista / pensioner residence", type: "income", eligibility: { minCapitalUsd: 0, professions: ["any"], languageReq: "none" }, difficulty: "easy", timeToPrYears: 3, timeToCitizenshipYears: 3, officialUrl: "https://inm.gob.hn/" },
+      { name: "Investor residence", type: "investor", eligibility: { minCapitalUsd: 50000, professions: ["any"], languageReq: "none" }, difficulty: "moderate", timeToPrYears: 3, timeToCitizenshipYears: 3, officialUrl: "https://inm.gob.hn/" },
+    ],
+    assets: { foreignPropertyOwnership: "restricted", foreignSecurities: "open", nonResidentBrokerage: "yes", note: "Coastal/border property limits; CA-4 regional mobility; low costs.", officialUrl: "https://www.bch.hn/" },
+    currency: { capitalAccountOpen: true, nonResidentBanking: "moderate", fxControls: "some", centralBankUrl: "https://www.bch.hn/" },
+    credentials: { note: "Spanish needed; low costs, but security varies by region.", url: "https://inm.gob.hn/" },
+    links: { immigration: "https://inm.gob.hn/", investment: "https://www.honduras.gob.hn/", centralBank: "https://www.bch.hn/" },
+  },
+  ZMB: {
+    iso3: "ZMB", country: "Zambia", languages: ["English"], demandProfessions: ["mining", "engineering", "medical", "any"],
+    immigration: [
+      { name: "Employment permit", type: "skilled", eligibility: { minCapitalUsd: 0, professions: ["mining", "engineering", "medical", "any"], languageReq: "none" }, difficulty: "moderate", timeToPrYears: 10, timeToCitizenshipYears: 10, officialUrl: "https://www.zambiaimmigration.gov.zm/" },
+      { name: "Investor permit", type: "investor", eligibility: { minCapitalUsd: 250000, professions: ["any"], languageReq: "none" }, difficulty: "moderate", timeToPrYears: 10, timeToCitizenshipYears: 10, officialUrl: "https://www.zambiaimmigration.gov.zm/" },
+    ],
+    assets: { foreignPropertyOwnership: "restricted", foreignSecurities: "open", nonResidentBrokerage: "yes", note: "Leasehold land for foreigners; English-speaking; copper economy.", officialUrl: "https://www.boz.zm/" },
+    currency: { capitalAccountOpen: true, nonResidentBanking: "moderate", fxControls: "some", centralBankUrl: "https://www.boz.zm/" },
+    credentials: { note: "English-speaking; mining-sector demand drives most relocation.", url: "https://www.zambiaimmigration.gov.zm/" },
+    links: { immigration: "https://www.zambiaimmigration.gov.zm/", investment: "https://www.zda.org.zm/", centralBank: "https://www.boz.zm/" },
+  },
+  ISR: {
+    iso3: "ISR", country: "Israel", languages: ["Hebrew", "Arabic"], demandProfessions: ["tech", "engineering", "medical", "academic"],
+    immigration: [
+      { name: "Aliyah (Law of Return, for those of Jewish descent)", type: "ancestry", eligibility: { minCapitalUsd: 0, professions: ["any"], languageReq: "none" }, difficulty: "easy", timeToPrYears: 0, timeToCitizenshipYears: 0, officialUrl: "https://www.jewishagency.org/aliyah/" },
+      { name: "Expert / work visa (B-1)", type: "skilled", eligibility: { minCapitalUsd: 0, professions: ["tech", "engineering", "medical"], languageReq: "none" }, difficulty: "moderate", timeToPrYears: 5, timeToCitizenshipYears: 5, officialUrl: "https://www.gov.il/en/departments/population_and_immigration_authority" },
+    ],
+    assets: { foreignPropertyOwnership: "open", foreignSecurities: "open", nonResidentBrokerage: "yes", note: "Foreigners can own property; world-class tech sector. Note the high-variance security picture in the ratings (active 2026 conflicts).", officialUrl: "https://www.boi.org.il/en/" },
+    currency: { capitalAccountOpen: true, nonResidentBanking: "moderate", fxControls: "none", centralBankUrl: "https://www.boi.org.il/en/" },
+    credentials: { note: "The Law of Return gives near-automatic citizenship to people of Jewish descent; otherwise residence is employment-based. Hebrew aids settlement.", url: "https://www.gov.il/en/departments/population_and_immigration_authority" },
+    links: { immigration: "https://www.gov.il/en/departments/population_and_immigration_authority", investment: "https://investinisrael.gov.il/", centralBank: "https://www.boi.org.il/en/" },
+  },
 };
+
+// Deliberately not covered (graceful "personalization data not yet available"):
+// the Pacific micro-states (Palau, Samoa, Marshall Is, Micronesia, Tuvalu,
+// Vanuatu, Tonga, Kiribati, Nauru, PNG, Solomon Is, Timor-Leste), several small
+// or fragile African states (Cabo Verde, Sao Tome, Senegal, Gambia, Cote
+// d'Ivoire, Lesotho, Benin, Togo, Eswatini, Mauritania, Djibouti, Comoros,
+// Tanzania, Gabon, Liberia, Malawi, Sierra Leone), St Vincent, Kyrgyzstan,
+// Morocco, and Syria - each lacks a clean official English immigration portal
+// and/or is very low relocation demand, so per the no-go-skip rule we link no
+// pathway data rather than invent URLs. They still appear in the base ratings.
