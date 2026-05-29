@@ -9,6 +9,9 @@ interface Props {
   canonical?: string;
   ogType?: "website" | "article";
   ogImage?: string;
+  publishedTime?: string;
+  modifiedTime?: string;
+  section?: string;
   extraGraph?: Record<string, unknown>[];
 }
 
@@ -18,6 +21,9 @@ const {
   canonical,
   ogType,
   ogImage,
+  publishedTime,
+  modifiedTime,
+  section,
   extraGraph,
 } = Astro.props;
 
@@ -29,7 +35,9 @@ const year = new Date().getFullYear();
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#0A0A0A" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
     <link rel="alternate" type="application/rss+xml" title={`${SITE_NAME} - Analysis`} href="/news/rss.xml" />
     <Seo
       title={title}
@@ -37,6 +45,9 @@ const year = new Date().getFullYear();
       canonical={canonical}
       ogType={ogType}
       ogImage={ogImage}
+      publishedTime={publishedTime}
+      modifiedTime={modifiedTime}
+      section={section}
       extraGraph={extraGraph}
     />
   </head>

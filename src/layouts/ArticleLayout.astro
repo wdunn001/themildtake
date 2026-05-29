@@ -57,6 +57,9 @@ const extraGraph = buildArticleGraph({
   description={description}
   ogType="article"
   ogImage={heroImage ? heroImage.src : undefined}
+  publishedTime={datePublished}
+  modifiedTime={dateModified ?? datePublished}
+  section={section}
   extraGraph={extraGraph}
 >
   <article class="article container">
