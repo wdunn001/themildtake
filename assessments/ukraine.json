@@ -47,7 +47,7 @@
   },
   "categories": {
     "economic": {
-      "score": -1.7,
+      "score": -1.5,
       "confidence": 0.72,
       "skew": "positive",
       "notes": "Catastrophic wartime fiscal state offset by remarkably well-managed monetary/banking institutions and a large asymmetric upside (resources, EU accession, reconstruction, strategic manufacturing/logistics). Trade re-weight strengthens the long-term positive-skew read.",
@@ -87,12 +87,12 @@
           "notes": "Operational throughout the war (remarkable); NBU supervision maintained; capital controls necessary but distorting."
         },
         "trade_actions_capacity": {
-          "score_near": -3,
-          "score_long": 3,
+          "score_near": -2,
+          "score_long": 5,
           "score": null,
           "weight": 0.17,
           "confidence": 0.6,
-          "notes": "Black Sea export corridors disrupted near-term, but EU accession, Association Agreement integration, reconstruction demand, and large agricultural + critical-mineral export capacity make this a major long-term positive-skew trade opportunity. Resource-rich but war-gated: the upside is real and contingent on resolution."
+          "notes": "Black Sea corridors disrupted near-term, but a war-forged defense industry has become a world leader in drone and electronic-warfare technology — battlefield-proven systems now sought abroad, with the 2026 arms-export ban lifting, buyers lining up, and Ukraine opening weapons-production lines and ~10 export centers in partner states. Drones are its flagship export. Alongside EU accession, reconstruction demand, and large agricultural + critical-mineral capacity, this is a major industrial story — and the defense-tech edge is a present-tense strength, not only a post-war hope. (Dentons; Lawfare; Kyiv Independent)"
         }
       }
     },
@@ -181,18 +181,18 @@
       }
     },
     "geopolitical": {
-      "score": -5.6,
+      "score": -5.2,
       "confidence": 0.75,
       "skew": "positive",
       "notes": "Maximum conflict exposure near-term (active war); post-war could be a NATO-aligned, EU-integrated, security-guaranteed state.",
       "sub_factors": {
         "alliance_reliability": {
-          "score_near": -3,
-          "score_long": 0,
+          "score_near": -2,
+          "score_long": 2,
           "score": null,
           "weight": 0.4,
           "confidence": 0.7,
-          "notes": "Strong EU/UK/Canada/Nordic support; unreliable US support under the current administration; EU accession proceeding; cannot self-defend without external support."
+          "notes": "Strong EU/UK/Canada/Nordic support and deepening defense-industrial partnerships — as the leading practitioner of modern drone/EW warfare, Ukraine is now a capability partner allies rely on and co-produce with, not only a recipient, which raises its strategic value. US support unreliable under the current administration; EU accession proceeding; still cannot fully self-defend without external support."
         },
         "conflict_involvement": {
           "score_near": -10,
@@ -261,19 +261,19 @@
   },
   "decisions": {
     "living": {
-      "score": -0.32,
+      "score": -0.23,
       "confidence": 0.66,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.64,
+      "score": -1.46,
       "confidence": 0.69,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -2.19,
+      "score": -2.04,
       "confidence": 0.7,
       "horizon": "1-3y",
       "reading": "mixed"

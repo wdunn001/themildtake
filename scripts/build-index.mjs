@@ -62,20 +62,20 @@ async function main() {
     },
     decisions,
     headline_findings: [
-      "Sweden and Canada remain the two clear-positive destinations across all three decisions; effectively tied for living once personal fit is included.",
-      "The v2.0 source-discipline re-run sharpens, but does not reverse, the order: the US and China still occupy the bottom for living, reached by opposite routes (democratic erosion vs authoritarian baseline).",
-      "On the economic-heavy decisions (assets, currency) the US now scores BELOW China: scoring trade on actions penalizes the US's self-inflicted tariff volatility, the official-data entanglement discount lowers US confidence, and China's independently-verified manufacturing capacity (trade re-weighted to 0.17) is credited even after CCP-data exclusion.",
-      "Mexico improves on living and assets after the skew re-examination credits its nearshoring trajectory and demographic dividend as real, durable upsides.",
-      "Skew direction stays decision-relevant: Ukraine and Mexico carry positive skew (war resolution / nearshoring), China and the US negative (locked-in demographics / institutional drift).",
+      "The top of the board is small, stable, and institutionally deep: Norway, Switzerland, and Luxembourg lead living, with Switzerland and Singapore topping the money decisions. They win by having no weak category rather than one standout.",
+      "The floor is conflict and state collapse — Sudan, Haiti, North Korea, Yemen, Myanmar — where the read is unanimous across all three decisions.",
+      "The marquee outlier is the United States at living #173: a wealthy democracy in the bottom decile, driven by institutional drift (statistical-agency capture, court defiance, alliance decay) scored on observable actions rather than reputation. On the economic-heavy assets and currency decisions it now scores BELOW China.",
+      "The 2026 Iran war and the Strait of Hormuz closure recalibrated the Middle East: the Gulf petrostates drop on the near-term currency and mid-horizon assets decisions (oil/LNG export blockade, regional strikes, attacks and threats on desalination), while the longer-horizon living read moves less.",
+      "Skew is decision-relevant: a positive-skew recovery cluster (Ukraine, Argentina, Syria) leans up on resolution and reform — Ukraine's war-forged, world-leading drone/EW defense industry is now an emerging export strength — while the negative-skew majors (US, China, Russia) lean down on institutional drift and structural tails.",
     ],
     outstanding_work: [
+      "Track the 2026 Iran war / Strait of Hormuz status (ceasefire durability, strait reopening) and re-score the Gulf exporters + energy importers as the shock resolves or escalates.",
+      "Re-check the US official-data entanglement discount after each major statistical-agency development (BLS leadership, FOMC behavior, court compliance).",
       "Continue monitoring China via independent proxies (electricity, freight, partner customs, foreign-firm earnings); revisit if proxy signals diverge from current estimates.",
-      "Re-check the US official-data entanglement discount after each major statistical-agency development (e.g. BLS leadership, FOMC behavior).",
-      "Watch the Sept 2026 Swedish election and the Russia tail risk for Sweden's political/social and geopolitical scores.",
-      "Refresh trade scores as tariff actions and partner diversification evolve (the factor is now action-driven and will move faster than structural factors).",
+      "Refresh trade scores as tariff actions and partner diversification evolve (action-driven, faster-moving than structural factors); watch Ukraine's emerging defense-export industry as a positive-skew driver.",
     ],
     notes:
-      "v2.0: hard exclusion rule applied uniformly (CCP self-reported data excluded and rebuilt from independent proxies; US post-2022 official data discounted as partially-entangled); trade/industrial-capacity re-weighted 0.05 -> 0.17 and scored on actions + trajectory + capacity + resource-curse; slant-balance audit run on all six; Mexico re-examined under skew. The optional strict-foundational-weighting variant was deliberately NOT applied: per subject direction, scoring leans on observable actions and independent data rather than stated values or unreliable leadership rhetoric.",
+      "v2.0: all 193 UN members assessed on observable actions + independent data. Hard exclusion applied uniformly (CCP self-reported data rebuilt from independent proxies; US post-2022 official data discounted as partially-entangled). Trade/industrial capacity weighted 0.17 and scored on actions + trajectory + capacity + resource-curse; the climate sub-factor anchored to ND-GAIN/IPCC with windowed high-latitude effects; the Middle East recalibrated for the 2026 Iran war + Strait of Hormuz crisis. The optional strict-foundational-weighting variant was deliberately NOT applied: scoring leans on observable actions and independent data rather than stated values or leadership rhetoric.",
   };
 
   await fs.writeFile(path.join(repoRoot, "_comparison-index.json"), JSON.stringify(index, null, 2) + "\n");
