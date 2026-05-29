@@ -1,0 +1,252 @@
+{
+  "country": "Vanuatu",
+  "iso3": "VUT",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF, World Bank, ADB, Freedom House, RSF, Lowy, WorldRiskIndex) + international press; state media EXCLUDED on governance.",
+    "The world's single most disaster-exposed country (WorldRiskIndex #1), compounded by the deadly M7.3 Dec 2024 Port Vila earthquake on top of the 2023 twin cyclones.",
+    "Standout drags: extreme/correlated disaster exposure, a structurally impaired 'golden passport' revenue base (EU visa-free access revoked Dec 2024), and chronic-though-newly-curbed political churn; offsets are a broadly free, cohesive society."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -2,
+      "confidence": 0.72,
+      "skew": "negative",
+      "notes": "A fragile, aid-reliant subsistence base with an impaired citizenship-revenue pillar and quake-rebuild deficits.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": -5,
+          "score_long": -4,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "Deficit widening to ~5% of GDP in 2025 on quake rebuild plus falling citizenship revenue; donor grants cushion but the base is fragile. (IMF Art IV 2025)"
+        },
+        "monetary_independence": {
+          "score": 0,
+          "weight": 0.22,
+          "confidence": 0.6,
+          "notes": "The Reserve Bank of Vanuatu manages the vatu against an undisclosed basket - limited but real autonomy with thin instruments. (IMF; RBV)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The vatu is not a reserve currency; reserves are adequate but on a downward trajectory. (definitional; IMF 2025)"
+        },
+        "inflation": {
+          "score": 2,
+          "weight": 0.13,
+          "confidence": 0.65,
+          "notes": "Easing toward target after post-shock spikes, with small-economy import-price volatility. (IMF 2025)"
+        },
+        "banking_stability": {
+          "score": 0,
+          "weight": 0.1,
+          "confidence": 0.5,
+          "notes": "Commercial banks reportedly well-capitalized/liquid, but a small, partly-offshore system with thin supervisory data. (RBV; ADB)"
+        },
+        "trade_actions_capacity": {
+          "score": -6,
+          "weight": 0.17,
+          "confidence": 0.75,
+          "notes": "A tiny, undiversified subsistence/copra/kava/tourism economy, structurally import-dependent and aid-reliant. (World Bank; IMF)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -1.3,
+      "confidence": 0.57,
+      "skew": "negative",
+      "notes": "A largely independent judiciary against land-deal corruption, with a stretched bureaucracy and free-ish press.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -1,
+          "weight": 0.35,
+          "confidence": 0.6,
+          "notes": "A largely independent judiciary has jailed officials, but land-deal corruption and abuse of office are serious. (Freedom House 2025; TI)"
+        },
+        "statistical_integrity": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.5,
+          "notes": "A functioning but capacity-thin statistics office reliant on donor support. (IMF; World Bank)"
+        },
+        "civil_service_capacity": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "A small, stretched bureaucracy strained by serial government turnover and recurrent disaster response. (Freedom House 2025)"
+        },
+        "press_freedom": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "A generally free press, but officials have occasionally threatened journalists over critical coverage. (Freedom House 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 0.9,
+      "confidence": 0.58,
+      "skew": "symmetric",
+      "notes": "Chronic churn now curbed by reform, over a broadly free and cohesive kastom society.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -1,
+          "score_long": 1,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.65,
+          "notes": "Historically among the Pacific's most unstable, but the 2023/24 anti-floor-crossing reform has held (Napat survived a Dec 2025 no-confidence motion 36-12). (RFA; ConstitutionNet)"
+        },
+        "civil_liberties": {
+          "score": 4,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Broadly respected speech, assembly, and religion in a functioning democracy. (Freedom House 2025)"
+        },
+        "treatment_non_citizens": {
+          "score": 0,
+          "weight": 0.25,
+          "confidence": 0.45,
+          "notes": "Not a major migration destination; the CBI gives easy citizenship-access but no notable mistreatment record. (inference; Freedom House 2025)"
+        },
+        "social_cohesion": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "A largely cohesive ni-Vanuatu society with strong customary/kastom structures and localized land/inter-island tensions. (Freedom House 2025)"
+        },
+        "demographics": {
+          "score_near": 0,
+          "score_long": -1,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.55,
+          "notes": "Young and growing - a potential dividend but a jobs/services burden amid skilled out-migration. (World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 1.7,
+      "confidence": 0.62,
+      "skew": "symmetric",
+      "notes": "Non-aligned and hedging Australia against China, with AML scrutiny on the citizenship scheme.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 1,
+          "weight": 0.4,
+          "confidence": 0.6,
+          "notes": "Non-aligned, playing Australia (top donor) against China (expanded police/grant ties) - pragmatic hedging carries some leverage. (Lowy Pacific Aid Map 2025)"
+        },
+        "conflict_involvement": {
+          "score": 4,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "No military conflict; far from any war theatre. (inference; Lowy)"
+        },
+        "sanctions_capital_controls": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "Not sanctioned, but the CBI scheme draws AML scrutiny (EU action; an FATF re-evaluation due 2026) - reputational/de-risking exposure. (EU Council 2024; FATF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -5.3,
+      "confidence": 0.72,
+      "skew": "negative",
+      "notes": "The world's #1 disaster-risk profile, with weak health/infrastructure and near-zero catastrophe insurance.",
+      "sub_factors": {
+        "climate": {
+          "score_near": -7,
+          "score_long": -8,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Extreme and worsening cyclone exposure (Pam 2015, twin cyclones 2023) plus sea-level rise, with minimal adaptation capacity. (UNEP; WorldRiskIndex)"
+        },
+        "healthcare": {
+          "score": -5,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "A weak system with a high NCD burden and thin specialist care, reliant on overseas referral. (WHO; World Bank)"
+        },
+        "infrastructure": {
+          "score": -5,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Poor roads/grid/water outside Port Vila, worsened by the Dec 2024 quake and the 2024 Air Vanuatu collapse. (IMF 2025; UNDP)"
+        },
+        "crime_safety": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Generally low violent crime, with petty theft and post-disaster strain. (inference; Freedom House 2025)"
+        },
+        "disaster_insurance": {
+          "score": -9,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "The world's #1 disaster-risk country with negligible catastrophe-insurance penetration - existential exposure. (WorldRiskIndex; inference)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -1.21,
+      "confidence": 0.62,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": -1.38,
+      "confidence": 0.65,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -1.27,
+      "confidence": 0.67,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "The world's most disaster-exposed state, and the December 2024 M7.3 Port Vila earthquake - atop the 2023 twin cyclones and the 2024 Air Vanuatu collapse - exposed how a single shock cascades through revenue, infrastructure, and connectivity at once. Its fiscal model leans heavily on a now-impaired 'golden passport' scheme (EU visa-free access permanently revoked in December 2024, revenue down ~50% from peak, AML scrutiny ongoing), leaving a thin subsistence-and-tourism base propped up by Australian and Chinese aid. The chronic political churn that defined it for decades may finally be easing under the 2023/24 anti-floor-crossing constitutional reform, which has held through 2025. The skew is firmly negative: a broadly free, cohesive society cannot offset catastrophic and correlated physical risk plus a structurally fragile revenue base."
+}

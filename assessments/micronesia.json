@@ -1,0 +1,246 @@
+{
+  "country": "Federated States of Micronesia",
+  "iso3": "FSM",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF, World Bank, US GAO/CRS, Freedom House, Lowy) + international press; state media EXCLUDED. Tiny (~105k population) and data-thin; press not separately RSF-ranked. Fully dollarized (uses the US dollar).",
+    "An exceptionally strong sovereign balance sheet (trust-fund assets ~510% of GDP, debt ~9%) paired with weak federal cohesion (stalled Chuuk secessionism, March 2025 Chuuk political violence) and a renewed ~$3.3bn COFA.",
+    "Standout features: a Free democracy and an enormous fiscal buffer, against fragile four-state cohesion, very low capacity, chronic outmigration, and acute dispersed-atoll climate exposure."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -0.7,
+      "confidence": 0.76,
+      "skew": "positive",
+      "notes": "A remarkably strong balance sheet against stagnant growth and negligible export diversity; fully dollarized.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 4,
+          "weight": 0.22,
+          "confidence": 0.7,
+          "notes": "Trust-fund assets ~510% of GDP and debt ~8.9% of GDP - very strong buffers despite a narrowing surplus. (IMF 2026 Art IV)"
+        },
+        "monetary_independence": {
+          "score": -3,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "Fully dollarized. (definitional)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "Uses the USD, issues none. (definitional)"
+        },
+        "inflation": {
+          "score": 1,
+          "weight": 0.13,
+          "confidence": 0.7,
+          "notes": "Slowed to ~3.2% (FY25) as commodity prices and US inflation eased. (IMF 2026)"
+        },
+        "banking_stability": {
+          "score": -1,
+          "weight": 0.1,
+          "confidence": 0.5,
+          "notes": "'Sound' per the IMF but with rising NPLs flagged; correspondent-banking de-risking and thin credit access are structural. (IMF 2026)"
+        },
+        "trade_actions_capacity": {
+          "score": -5,
+          "weight": 0.17,
+          "confidence": 0.7,
+          "notes": "Reliant on fishing-license fees plus COFA grants, with negligible export diversity and credit constrained by informality. (IMF 2026)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -0.8,
+      "confidence": 0.57,
+      "skew": "negative",
+      "notes": "A Free rating and independent judiciary undercut by Chuuk political violence and very low capacity.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 1,
+          "weight": 0.35,
+          "confidence": 0.6,
+          "notes": "An independent judiciary and Free rating, but Chuuk political violence/arrests (Mar 2025) and weak enforcement reduce it. (FH 2025; IMF)"
+        },
+        "statistical_integrity": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "Persistent data gaps; the IMF urges closing 'information gaps'. (IMF 2026)"
+        },
+        "civil_service_capacity": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Very low - a four-state federal structure with delayed infrastructure rollout and audit/disbursement problems. (GAO; IMF 2026)"
+        },
+        "press_freedom": {
+          "score": 1,
+          "weight": 0.15,
+          "confidence": 0.45,
+          "notes": "Freedom House: civil liberties generally respected; not RSF-ranked, with small/limited media. (FH 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -0.6,
+      "confidence": 0.58,
+      "skew": "negative",
+      "notes": "Stable nationally but with recurring secessionist strain and Chuuk-level factional violence.",
+      "sub_factors": {
+        "political_stability": {
+          "score": -1,
+          "weight": 0.3,
+          "confidence": 0.6,
+          "notes": "Stable democracy nationally, but recurring secessionist strain and Chuuk-level violence/factionalism. (FH 2025; Pacific Island Times 2025)"
+        },
+        "civil_liberties": {
+          "score": 3,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Generally respected (CL 55/60). (FH 2025)"
+        },
+        "treatment_non_citizens": {
+          "score": 0,
+          "weight": 0.25,
+          "confidence": 0.45,
+          "notes": "Limited data; generally non-discriminatory. (inference)"
+        },
+        "social_cohesion": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Weak inter-state cohesion (Yap/Chuuk/Pohnpei/Kosrae), recurrent Chuuk secession talk, and deep factionalism. (Nationalia; FH)"
+        },
+        "demographics": {
+          "score": -4,
+          "weight": 0.1,
+          "confidence": 0.65,
+          "notes": "Heavy, sustained emigration to the US (population ~105k and falling), with labor shortages. (IMF; GAO)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 1,
+      "confidence": 0.57,
+      "skew": "positive",
+      "notes": "US-aligned and COFA-secured, less of a militarized frontline than Palau.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score_near": 2,
+          "score_long": 4,
+          "score": null,
+          "weight": 0.4,
+          "confidence": 0.55,
+          "notes": "Stayed US-aligned after flirting with China; the renewed COFA secures it, with the near-term dinged by US-funding delays. (GAO; RNZ; State Dept)"
+        },
+        "conflict_involvement": {
+          "score": 0,
+          "weight": 0.35,
+          "confidence": 0.6,
+          "notes": "Remote and not a militarized frontline like Palau - low direct conflict exposure. (inference)"
+        },
+        "sanctions_capital_controls": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "Open, dollarized, and unsanctioned; de-risking the main friction. (IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -3,
+      "confidence": 0.57,
+      "skew": "negative",
+      "notes": "Acute dispersed-atoll climate exposure and weak, remote services.",
+      "sub_factors": {
+        "climate": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Low-lying islands/atolls with sea-level and storm exposure and high adaptation costs. (World Bank; inference)"
+        },
+        "healthcare": {
+          "score": -3,
+          "weight": 0.3,
+          "confidence": 0.55,
+          "notes": "Weak and dispersed across four states, with serious cases referred off-island. (inference)"
+        },
+        "infrastructure": {
+          "score": -3,
+          "weight": 0.2,
+          "confidence": 0.6,
+          "notes": "Remote, dispersed geography with delayed new projects and thin connectivity. (IMF 2026; GAO)"
+        },
+        "crime_safety": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Generally low violent crime, but Chuuk political violence is a localized exception. (FH; Pacific Island Times)"
+        },
+        "disaster_insurance": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.45,
+          "notes": "A thin market against high exposure, donor-dependent. (inference)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -0.9,
+      "confidence": 0.6,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": -0.63,
+      "confidence": 0.65,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -0.49,
+      "confidence": 0.69,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "FSM pairs a remarkably strong sovereign balance sheet - trust-fund assets near 510% of GDP, debt under 9% - with structurally weak governance: a loose four-state federation with persistent Chuuk secessionism (now stalled but recently violent), very low civil-service capacity, and chronic outmigration. The renewed ~$3.3bn COFA secures long-term financing and the country has stayed firmly US-aligned, but FY24 funding delays forced bridge drawdowns and growth has slowed to ~1.1% amid implementation bottlenecks. Climate exposure across dispersed low islands is acute. The skew is symmetric: an exceptional fiscal cushion is genuinely offset by fragile cohesion, thin capacity, and demographic erosion."
+}

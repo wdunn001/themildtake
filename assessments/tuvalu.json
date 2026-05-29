@@ -1,0 +1,246 @@
+{
+  "country": "Tuvalu",
+  "iso3": "TUV",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF, World Bank, DFAT, Carnegie, Freedom House, Lowy) + international press; state media EXCLUDED. Extremely data-thin (~11,000 population); many factors are low-confidence inference. Uses the Australian dollar.",
+    "The world's 4th-smallest state, existentially threatened by sea-level rise (pursuing a 'digital nation'), but uniquely hedged by the 2023 Falepili Union treaty with Australia (climate-migration visas + statehood recognition + an Australian security guarantee/veto).",
+    "Standout features: a uniquely favorable Australian migration/security backstop and a loyal Taiwan ally, against existential sea-level rise and a likely emigration drain; broadly democratic and rule-of-law-respecting."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -1.5,
+      "confidence": 0.71,
+      "skew": "symmetric",
+      "notes": "A minuscule, fishing-fee/'.tv'/Trust-Fund-financed economy using the Australian dollar.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -2,
+          "weight": 0.22,
+          "confidence": 0.65,
+          "notes": "Volatile balances reliant on fishing fees plus grants; an IMF path targets ~2.3% deficit by 2030 using Trust Fund returns, with low debt. (IMF 2025 Art IV)"
+        },
+        "monetary_independence": {
+          "score": -3,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Uses the Australian dollar - no monetary autonomy. (definitional)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "No own currency. (definitional)"
+        },
+        "inflation": {
+          "score": 2,
+          "weight": 0.13,
+          "confidence": 0.6,
+          "notes": "Imported via the AUD, with no domestic driver. (IMF)"
+        },
+        "banking_stability": {
+          "score": -1,
+          "weight": 0.1,
+          "confidence": 0.4,
+          "notes": "One dominant national bank, very shallow and undiversified, with limited supervision. (inference; IMF)"
+        },
+        "trade_actions_capacity": {
+          "score": -3,
+          "weight": 0.17,
+          "confidence": 0.65,
+          "notes": "Almost no exports - income is fishing fees, '.tv' royalties, and aid, diversified-for-its-size but minuscule and externally driven. (IMF)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -0.9,
+      "confidence": 0.48,
+      "skew": "symmetric",
+      "notes": "A functioning Westminster/common-law system with very small capacity and a government-linked press.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 1,
+          "weight": 0.35,
+          "confidence": 0.45,
+          "notes": "A functioning Westminster/common-law system, generally respected, with very small capacity. (inference; Freedom House framing)"
+        },
+        "statistical_integrity": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.5,
+          "notes": "IMF-engaged - usable but minimal-capacity statistics for an 11k-population state. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "An extremely thin administration; donor technical assistance fills gaps. (World Bank; inference)"
+        },
+        "press_freedom": {
+          "score": -1,
+          "weight": 0.15,
+          "confidence": 0.4,
+          "notes": "A small, largely government-linked media with little independent press but no systematic repression; not RSF-ranked. (inference)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 0.4,
+      "confidence": 0.5,
+      "skew": "symmetric",
+      "notes": "A stable, rights-respecting, homogeneous society where emigration is the main centrifugal force.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 0,
+          "weight": 0.3,
+          "confidence": 0.55,
+          "notes": "A stable democracy but with fluid no-party parliamentary politics - PM changes via floor votes (Teo replaced Natano, 2024). (Al Jazeera; The Diplomat)"
+        },
+        "civil_liberties": {
+          "score": 2,
+          "weight": 0.2,
+          "confidence": 0.5,
+          "notes": "A broadly free, rights-respecting society. (inference; Freedom House framing)"
+        },
+        "treatment_non_citizens": {
+          "score": 0,
+          "weight": 0.25,
+          "confidence": 0.35,
+          "notes": "A negligible foreign population - the story is out-migration, not in-migration. (inference)"
+        },
+        "social_cohesion": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "A highly homogeneous, church/community-centred society, with emigration the main centrifugal force. (inference)"
+        },
+        "demographics": {
+          "score": -3,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "Tiny and draining via accelerating emigration (the Falepili visa likely to drain working-age population). (IMF; Devpolicy)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 2.8,
+      "confidence": 0.59,
+      "skew": "positive",
+      "notes": "Tightly bound to Australia by the Falepili Union (a guarantee that also constrains sovereignty), a loyal Taiwan ally.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 3,
+          "weight": 0.4,
+          "confidence": 0.6,
+          "notes": "The Falepili Union binds it tightly to Australia (security guarantee + statehood recognition) and it loyally retains Taiwan ties - predictable, Western-aligned. (DFAT; The Diplomat)"
+        },
+        "conflict_involvement": {
+          "score": 3,
+          "weight": 0.35,
+          "confidence": 0.6,
+          "notes": "No conflict; the Australian security clause is a guarantee but also constrains sovereignty. (DFAT; Carnegie)"
+        },
+        "sanctions_capital_controls": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "No sanctions; AUD use means open flows, with a trivial financial footprint. (inference)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -3.4,
+      "confidence": 0.59,
+      "skew": "negative",
+      "notes": "An existential sea-level threat partly backstopped by the Australian migration pathway.",
+      "sub_factors": {
+        "climate": {
+          "score_near": -4,
+          "score_long": -9,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Existential sea-level threat across nine low atolls/reef islands; pursuing coastal reclamation and a 'digital nation', with statehood now treaty-recognised by Australia. (Carnegie; DFAT; IMF)"
+        },
+        "healthcare": {
+          "score": -4,
+          "weight": 0.3,
+          "confidence": 0.55,
+          "notes": "Minimal local services with heavy overseas-referral dependence; the Falepili visa grants Medicare access in Australia as a partial backstop. (Earth.org; inference)"
+        },
+        "infrastructure": {
+          "score": -3,
+          "weight": 0.2,
+          "confidence": 0.55,
+          "notes": "Improving via the Australian-funded first undersea cable and airport works, but a very basic baseline. (DFAT; IMF)"
+        },
+        "crime_safety": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.4,
+          "notes": "Very low crime - among the safer societies by baseline. (inference)"
+        },
+        "disaster_insurance": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Acute sea-level/cyclone/king-tide hazard with negligible insurance; relies on aid, the Trust Fund, and the migration backstop. (inference; IMF)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -1.09,
+      "confidence": 0.54,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": -0.85,
+      "confidence": 0.6,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -0.74,
+      "confidence": 0.64,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "The world's 4th-smallest country (~11,000 people) facing the same existential sea-level threat as Kiribati, but with a genuinely unique mitigant: the Falepili Union treaty (in force Aug 2024), under which Australia recognises Tuvalu's continuing statehood, offers up to 280 permanent climate-migration visas a year, and provides a security guarantee - in exchange for an effective veto over Tuvalu's third-party security deals. Its institutions are small but broadly democratic and rule-of-law-respecting, and it remains a loyal Taiwan ally. The skew stays negative because the long-run climate verdict and a likely emigration drain dominate, but Tuvalu is materially better hedged than its peers thanks to the Australian backstop, the Trust Fund, and '.tv'/fishing revenue."
+}

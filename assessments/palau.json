@@ -1,0 +1,246 @@
+{
+  "country": "Palau",
+  "iso3": "PLW",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "positive",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF, World Bank, US GAO/CRS, Freedom House, Lowy) + international press; state media EXCLUDED. Tiny (~18k population) and data-thin; press not separately RSF-ranked. Fully dollarized (uses the US dollar).",
+    "A 'Free' democracy (President Whipps Jr. re-elected Nov 2024), staunchly pro-US and one of Taiwan's ~12 remaining diplomatic allies, hosting the US TACMOR over-the-horizon radar.",
+    "Standout features: a Free democracy, strong fiscal recovery (debt ~56% of GDP), and the renewed ~$890m COFA, against a fat negative tail of Chinese 'grey-zone' coercion, tourism mono-dependence, and reef/climate exposure."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -0.6,
+      "confidence": 0.79,
+      "skew": "symmetric",
+      "notes": "A strong fiscal recovery and low inflation, against extreme tourism mono-dependence; fully dollarized.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 3,
+          "weight": 0.22,
+          "confidence": 0.75,
+          "notes": "Debt fell to ~56% of GDP (FY25), a primary surplus ~2.9%, net financial worth ~80% of GDP, all CRA-23-supported. (IMF 2025 Art IV)"
+        },
+        "monetary_independence": {
+          "score": -3,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "Fully dollarized - no monetary policy. (definitional/IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "Uses the USD, issues none. (definitional)"
+        },
+        "inflation": {
+          "score": 3,
+          "weight": 0.13,
+          "confidence": 0.75,
+          "notes": "Fell to ~0.2% (FY25) on lower commodity/utility costs - imported from the US. (IMF 2025)"
+        },
+        "banking_stability": {
+          "score": 0,
+          "weight": 0.1,
+          "confidence": 0.5,
+          "notes": "Tiny and USD-based with no central bank/lender of last resort; correspondent-banking de-risking is the structural fragility. (IMF; inference)"
+        },
+        "trade_actions_capacity": {
+          "score": -5,
+          "weight": 0.17,
+          "confidence": 0.75,
+          "notes": "Extreme tourism mono-dependence (high-end diving) externally weaponized by China, with a minimal export base. (IMF; VOA/Al Jazeera 2024)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 0.7,
+      "confidence": 0.61,
+      "skew": "positive",
+      "notes": "An independent judiciary and Free rating, with thin small-state capacity.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 3,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "An independent judiciary, regular peaceful transfers, 'Free'; small-state patronage/capacity limits temper it. (Freedom House 2025)"
+        },
+        "statistical_integrity": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "IMF Art IV produced, but data are thin/lagged, typical micro-state gaps. (IMF 2025)"
+        },
+        "civil_service_capacity": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Thin administrative depth and labor shortages; COFA-implementation delays expose limits. (GAO; IMF)"
+        },
+        "press_freedom": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.5,
+          "notes": "Freedom House calls media independent; not separately RSF-ranked, with PRC disinformation flagged around the 2024 election. (FH 2025; IPDF)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 2.4,
+      "confidence": 0.64,
+      "skew": "positive",
+      "notes": "A stable democracy with a decisive 2024 re-election, eroded only at the margin by emigration.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 4,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "A stable democracy with a decisive 2024 re-election and durable institutions. (FH 2025; Al Jazeera)"
+        },
+        "civil_liberties": {
+          "score": 4,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Generally upheld (CL 55/60), with minor small-society constraints. (FH 2025)"
+        },
+        "treatment_non_citizens": {
+          "score": 0,
+          "weight": 0.25,
+          "confidence": 0.5,
+          "notes": "A significant foreign-worker share (Filipino/Bangladeshi), generally orderly with limited monitoring. (inference; State Dept)"
+        },
+        "social_cohesion": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "A cohesive, homogeneous society, with outmigration pressure the main strain. (inference)"
+        },
+        "demographics": {
+          "score": -2,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "Tiny (~18k), aging, with persistent emigration to the US under COFA. (IMF; GAO)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 0.5,
+      "confidence": 0.62,
+      "skew": "negative",
+      "notes": "Deep US/Taiwan alignment, but a frontline of US-China competition facing PRC grey-zone coercion.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score_near": 3,
+          "score_long": 5,
+          "score": null,
+          "weight": 0.4,
+          "confidence": 0.6,
+          "notes": "Deep US treaty/defense alignment plus Taiwan ties; near-term dinged by US COFA-funding delays denting the 'reliable partner' credibility. (GAO; RNZ; Diplomat)"
+        },
+        "conflict_involvement": {
+          "score": -3,
+          "weight": 0.35,
+          "confidence": 0.65,
+          "notes": "Not at war, but a frontline of US-China competition - hosts US radar, faces PRC grey-zone coercion/incursions, first-island-chain exposure. (Naval News 2025; IPDF)"
+        },
+        "sanctions_capital_controls": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Open, dollarized, and unsanctioned; de-risking is the real friction. (IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -1.5,
+      "confidence": 0.6,
+      "skew": "negative",
+      "notes": "Very low crime and functional core infrastructure, against acute reef/climate exposure.",
+      "sub_factors": {
+        "climate": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Severe reef/ocean-acidification and sea-level exposure - the tourism economy is directly reef-dependent. (World Bank; inference)"
+        },
+        "healthcare": {
+          "score": -2,
+          "weight": 0.3,
+          "confidence": 0.6,
+          "notes": "Basic local care with serious cases referred off-island (Guam/Philippines/Taiwan/Hawaii). (inference; State Dept)"
+        },
+        "infrastructure": {
+          "score": 0,
+          "weight": 0.2,
+          "confidence": 0.55,
+          "notes": "A functional core but thin/aid-financed, with construction delays from COFA-fund timing. (IMF; GAO)"
+        },
+        "crime_safety": {
+          "score": 5,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "Low crime and very safe, with minor transnational/drug-transit concerns. (observed)"
+        },
+        "disaster_insurance": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.45,
+          "notes": "A thin commercial market against high climate/typhoon exposure, reliant on a donor/US backstop. (inference)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 0.7,
+      "confidence": 0.64,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 0.12,
+      "confidence": 0.68,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -0.07,
+      "confidence": 0.72,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A genuine, well-functioning democracy (FH 92/100) whose fiscal position has materially strengthened - debt cut to ~56% of GDP and a ~2.9%-of-GDP primary surplus, underpinned by the renewed ~$890m CRA-23 Compact. Its risks are concentrated and external: a tourism-mono economy that China actively weaponizes, frontline status in US-China competition (it now hosts the US TACMOR radar), and acute reef/climate exposure. US-funding delays in FY24 briefly forced trust-fund drawdowns and dented the 'reliable-partner' narrative, but alliance reliability improves over the longer horizon. The positive skew rests on institutional quality; the negative tail is geopolitical and climatic."
+}

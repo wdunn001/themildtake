@@ -1,0 +1,246 @@
+{
+  "country": "Marshall Islands",
+  "iso3": "MHL",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF, World Bank, US GAO, DOE/PNNL, FATF/APG, Freedom House) + international press; state media EXCLUDED. Tiny (~42k population) and data-thin; press not separately RSF-ranked. Fully dollarized (uses the US dollar).",
+    "The highest-scoring Free democracy of the COFA trio, but carrying the heaviest negative tail: existential climate threat (avg elevation ~2m), the unresolved US nuclear-testing legacy (the leaking Runit Dome), and elevated financial-integrity risk (ship registry + untested digital-currency experiments).",
+    "Standout drags: existential sea-level rise driving depopulation, the Runit Dome grievance, and FATF-flagged ML/TF risk (a new USDM1 digital UBI launched Dec 2025 over IMF warnings); the renewed ~$2.3bn COFA is the backstop."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -1,
+      "confidence": 0.74,
+      "skew": "symmetric",
+      "notes": "A COFA/trust-fund-backed economy with a drawdown-financed UBI risk and elevated registry-driven integrity risk; fully dollarized.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 2,
+          "weight": 0.22,
+          "confidence": 0.65,
+          "notes": "The renewed ~$2.3bn COFA plus a trust fund (now permitting annual drawdowns; a UBI approved Aug 2025); growth ~3% FY24-26. The drawdown-financed UBI is a forward risk. (IMF 2025 Art IV)"
+        },
+        "monetary_independence": {
+          "score": -3,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "Fully dollarized. (definitional)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "Uses the USD; the USDM1 digital instrument is a USD-Treasury-backed sovereign obligation, not a reserve currency. (definitional; Lowy)"
+        },
+        "inflation": {
+          "score": 1,
+          "weight": 0.13,
+          "confidence": 0.65,
+          "notes": "Easing with US inflation/commodity prices. (IMF 2025)"
+        },
+        "banking_stability": {
+          "score": -2,
+          "weight": 0.1,
+          "confidence": 0.5,
+          "notes": "A tiny banking sector plus elevated AML/CFT risk from the offshore registry and untested USDM1/DAO experiments. (IMF 2025; FATF/APG 2024)"
+        },
+        "trade_actions_capacity": {
+          "score": -4,
+          "weight": 0.17,
+          "confidence": 0.65,
+          "notes": "Fisheries plus ship-registry fees are the revenue base, with minimal goods exports and aid dependence. (IMF 2025)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -0.3,
+      "confidence": 0.57,
+      "skew": "negative",
+      "notes": "A Free democracy and independent judiciary, pulled down by offshore-registry opacity and weak AML oversight.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 2,
+          "weight": 0.35,
+          "confidence": 0.6,
+          "notes": "A Free democracy with an independent judiciary, but offshore-registry opacity and weak AML oversight pull it down. (FH 2025; FATF/APG 2024)"
+        },
+        "statistical_integrity": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "Data-thin; the IMF flags gaps, and novel digital schemes outpace reporting. (IMF 2025)"
+        },
+        "civil_service_capacity": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Low - it explicitly lacks the technical/financial capacity to manage the Runit Dome, with COFA-implementation/audit issues. (GAO; ScienceAlert)"
+        },
+        "press_freedom": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.45,
+          "notes": "Freedom House: media independent/civil liberties upheld (the highest of the three, 93/100); not RSF-ranked. (FH 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 1.4,
+      "confidence": 0.61,
+      "skew": "negative",
+      "notes": "A stable, high-freedom democracy hollowed by a severe climate-driven exodus.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 3,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "A stable parliamentary democracy with peaceful transfers (CL/PR among the region's best). (FH 2025)"
+        },
+        "civil_liberties": {
+          "score": 4,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Generally upheld (CL 55/60); FH 93/100, the highest of the three. (FH 2025)"
+        },
+        "treatment_non_citizens": {
+          "score": 0,
+          "weight": 0.25,
+          "confidence": 0.45,
+          "notes": "Limited data; generally non-discriminatory. (inference)"
+        },
+        "social_cohesion": {
+          "score": 0,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "More unitary than FSM, but Kwajalein/Ebeye inequities and nuclear-affected-community grievances are fault lines. (inference; GAO)"
+        },
+        "demographics": {
+          "score": -5,
+          "weight": 0.1,
+          "confidence": 0.7,
+          "notes": "Among the most severe - a large, sustained climate-/economic-driven exodus to the US, hollowing the population. (Grist; USGS; IMF)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -0.2,
+      "confidence": 0.56,
+      "skew": "symmetric",
+      "notes": "Pro-US/pro-Taiwan and COFA-renewed, but strained by the unresolved nuclear-legacy grievance.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score_near": 1,
+          "score_long": 4,
+          "score": null,
+          "weight": 0.4,
+          "confidence": 0.55,
+          "notes": "Pro-US, pro-Taiwan, COFA-renewed, but the unresolved nuclear-legacy grievance and FY24 funding delays strain the near-term relationship. (GAO; RNZ)"
+        },
+        "conflict_involvement": {
+          "score": -1,
+          "weight": 0.35,
+          "confidence": 0.6,
+          "notes": "Hosts the US Reagan Test Site at Kwajalein (a strategic asset/target), but not a grey-zone hotspot like Palau. (GAO; inference)"
+        },
+        "sanctions_capital_controls": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.5,
+          "notes": "Open and dollarized, but the FATF-flagged offshore/DAO sector raises de-risking and integrity-related access risk. (FATF/APG 2024; IMF 2025)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -4.3,
+      "confidence": 0.62,
+      "skew": "negative",
+      "notes": "The single most existential climate threat, plus the uniquely severe Runit Dome legacy.",
+      "sub_factors": {
+        "climate": {
+          "score": -9,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "The single most existential factor - ~2m elevation, a 1m rise inundates ~40% of Majuro, with chronic flooding/saltwater intrusion. (USGS; World Bank; Grist)"
+        },
+        "healthcare": {
+          "score": -4,
+          "weight": 0.3,
+          "confidence": 0.6,
+          "notes": "A weak system, an NCD crisis, plus the unresolved radiogenic-illness legacy; serious cases referred off-island. (inference; GAO)"
+        },
+        "infrastructure": {
+          "score": -3,
+          "weight": 0.2,
+          "confidence": 0.6,
+          "notes": "Thin and climate-exposed; the leaking Runit Dome is a uniquely severe legacy liability. (DOE/PNNL 2024; ScienceAlert)"
+        },
+        "crime_safety": {
+          "score": 3,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Generally low violent crime, with some urban (Majuro/Ebeye) social stress. (inference)"
+        },
+        "disaster_insurance": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.5,
+          "notes": "Among the world's least-insurable risk profiles, with near-total reliance on a donor/US backstop. (inference)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -0.48,
+      "confidence": 0.61,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": -0.77,
+      "confidence": 0.64,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -0.7,
+      "confidence": 0.67,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "The strongest of the COFA trio on civil/political freedom (FH 93/100), with a renewed ~$2.3bn COFA plus a now-drawdown-funded UBI scheme, but it carries the heaviest negative tail. It is existentially climate-threatened - average elevation ~2m, with a 1m rise inundating ~40% of Majuro - driving steady depopulation to the US. It still bears the unresolved US nuclear legacy, including the cracking, leaking Runit Dome that the country lacks the capacity to manage, and it has elevated financial-integrity risk from its flag-of-convenience ship registry plus untested digital-currency experiments (the SOV was repealed Aug 2025, but a new USDM1 UBI launched Dec 2025 over IMF objections). The skew is clearly negative: a sound democracy and a real Compact backstop against climate, capacity, and integrity risks that are genuinely severe."
+}

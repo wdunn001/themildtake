@@ -1,0 +1,250 @@
+{
+  "country": "Tonga",
+  "iso3": "TON",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF, World Bank, ADB, Freedom House, RSF, Lowy, WHO) + international press; state media EXCLUDED on governance.",
+    "Among the world's most remittance-dependent economies (~38-45% of GDP), recovering from the catastrophic Jan 2022 Hunga Tonga eruption/tsunami (damage ~18-36% of GDP, the sole undersea cable severed) at high risk of debt distress.",
+    "Standout drags: catastrophic and largely uninsurable disaster exposure, a single-point remittance dependency, recurring palace-vs-elected-government friction, and the Pacific's heaviest NCD burden; a cohesive society is the offset."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -2.2,
+      "confidence": 0.71,
+      "skew": "negative",
+      "notes": "A tiny, remittance-and-grant-dependent economy at high debt-distress risk with sticky core inflation.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": -4,
+          "score_long": -5,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "High risk of debt distress - long-term ratios projected above thresholds, with legacy Chinese loans; reconstruction-driven and grant-dependent. (IMF Art IV 2025)"
+        },
+        "monetary_independence": {
+          "score": 0,
+          "weight": 0.22,
+          "confidence": 0.55,
+          "notes": "The National Reserve Bank of Tonga manages the pa'anga against a basket - limited autonomy, thin instruments. (IMF; NRBT)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The pa'anga is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": -1,
+          "weight": 0.13,
+          "confidence": 0.65,
+          "notes": "Headline eased below the 5% reference rate, but core inflation rose to ~10% on reconstruction demand. (IMF Art IV 2025)"
+        },
+        "banking_stability": {
+          "score": 0,
+          "weight": 0.1,
+          "confidence": 0.45,
+          "notes": "A small, shallow, foreign-bank-influenced system with thin supervisory data. (IMF; ADB)"
+        },
+        "trade_actions_capacity": {
+          "score": -6,
+          "weight": 0.17,
+          "confidence": 0.75,
+          "notes": "A tiny, undiversified base (squash, fish, vanilla, tourism), heavily import- and remittance-dependent. (IMF; World Bank)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -1.2,
+      "confidence": 0.54,
+      "skew": "negative",
+      "notes": "Functioning courts but late-arriving anti-corruption capacity and discriminatory land law.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -1,
+          "weight": 0.35,
+          "confidence": 0.55,
+          "notes": "Functioning courts, but official corruption is a concern, land laws discriminate against women, and an Anti-Corruption Commissioner only became operational in 2024. (Freedom House 2025)"
+        },
+        "statistical_integrity": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.5,
+          "notes": "A functioning but capacity-thin statistics office reliant on donor support. (IMF; World Bank)"
+        },
+        "civil_service_capacity": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "A small, stretched bureaucracy strained by post-eruption reconstruction. (World Bank; IMF)"
+        },
+        "press_freedom": {
+          "score": 1,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Generally free media with periodic political/palace pressure in a small market. (Freedom House 2025; RSF)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 1,
+      "confidence": 0.58,
+      "skew": "negative",
+      "notes": "A constrained democracy with palace friction, over a cohesive but emigration-drained society.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 0,
+          "weight": 0.3,
+          "confidence": 0.65,
+          "notes": "A stable society but with recurring elected-government-vs-palace friction - PM Sovaleni resigned Dec 2024 in a royal rift, succeeded by King-appointed 'Aisake Eke. (Al Jazeera; VOA)"
+        },
+        "civil_liberties": {
+          "score": 3,
+          "weight": 0.2,
+          "confidence": 0.6,
+          "notes": "Generally protected, with caveats on women's land rights and the noble-reserved seats. (Freedom House 2025)"
+        },
+        "treatment_non_citizens": {
+          "score": 0,
+          "weight": 0.25,
+          "confidence": 0.45,
+          "notes": "Not a major migration destination, with some land/ownership restrictions on non-Tongans. (inference; Freedom House 2025)"
+        },
+        "social_cohesion": {
+          "score": 3,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "A cohesive, homogeneous society with strong church/kinship structures and no recent political violence. (Freedom House 2025)"
+        },
+        "demographics": {
+          "score_near": -1,
+          "score_long": -2,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "Very small (~100k) with heavy youth out-migration to NZ/Australia/US - remittance-positive but a structural workforce drain. (World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 2.2,
+      "confidence": 0.64,
+      "skew": "symmetric",
+      "notes": "Balancing China (legacy loans/aid) against NZ/Australia, conflict-free but debt-exposed.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 1,
+          "weight": 0.4,
+          "confidence": 0.6,
+          "notes": "Recognizes Beijing and balances China (legacy loans, post-eruption aid) against NZ/Australia - pragmatic but debt-exposed to China. (Lowy 2025)"
+        },
+        "conflict_involvement": {
+          "score": 4,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "No military conflict; remote from any war theatre. (inference)"
+        },
+        "sanctions_capital_controls": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Unsanctioned and open; the China-loan overhang is a debt-distress risk, not a sanctions one. (IMF; Lowy 2025)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -5.2,
+      "confidence": 0.71,
+      "skew": "negative",
+      "notes": "Recently-realized catastrophic disaster exposure and the Pacific's heaviest NCD burden.",
+      "sub_factors": {
+        "climate": {
+          "score_near": -7,
+          "score_long": -8,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Extreme exposure - volcanic (the Jan 2022 Hunga Tonga eruption/tsunami), cyclones, and sea-level rise, with very low adaptation capacity. (IMF; UNEP)"
+        },
+        "healthcare": {
+          "score": -6,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "The Pacific's heaviest NCD burden (~69% adult obesity, very high diabetes), with thin specialist care reliant on overseas referral. (WHO; World Diabetes Foundation)"
+        },
+        "infrastructure": {
+          "score": -4,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Improving via reconstruction (the Fanga'uta Lagoon Bridge, the Hawaiki cable) but the 2022 eruption severed the sole undersea cable, exposing acute single-point fragility. (IMF 2025)"
+        },
+        "crime_safety": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Low violent crime, with rising property crime/break-ins. (CountryReports; inference)"
+        },
+        "disaster_insurance": {
+          "score": -8,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Catastrophic, recently-realized hazard (eruption damage ~18-36% of GDP) with negligible catastrophe-insurance penetration. (IMF; inference)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -1.4,
+      "confidence": 0.61,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": -1.46,
+      "confidence": 0.64,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -1.26,
+      "confidence": 0.66,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A small (~100k) constitutional monarchy that democratized in 2010 but where nobles still hold 9 of 26 parliamentary seats and the King retains veto, dissolution, and appointment powers - friction that surfaced openly when PM Sovaleni resigned in December 2024 amid a royal rift, succeeded by King-appointed PM 'Aisake Eke. The economy is recovering from the catastrophic January 2022 Hunga Tonga eruption and tsunami (damage ~18-36% of GDP, the sole undersea cable severed) on the back of reconstruction, tourism, and remittances worth ~38-45% of GDP - among the world's highest, and a defining single-point external dependency. It is at high risk of debt distress, carries the Pacific's heaviest NCD/obesity burden, and faces extreme, largely uninsurable disaster exposure. The skew is negative: a cohesive, stable-enough society sits over a fragile fiscal position, a constrained democracy, and correlated catastrophic physical risk."
+}

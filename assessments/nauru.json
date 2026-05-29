@@ -1,0 +1,246 @@
+{
+  "country": "Nauru",
+  "iso3": "NRU",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF, World Bank, WHO, HRW, UNSW Kaldor Centre, Lowy, RSF) + international press; state media EXCLUDED. Extremely data-thin (~12,000 population); many factors are low-confidence inference. Uses the Australian dollar.",
+    "The world's smallest republic - a phosphate boom-and-bust left ~80% of the island mined-out and a squandered sovereign fund; now survives on rents from hosting Australia's offshore asylum/deportee processing plus fishing licenses.",
+    "Standout drags: near-total dependence on Australian rents (a new 30-year A$2.5bn deportee deal), documented harm to asylum seekers, a transactional 2024 China pivot + 'golden passport' scheme, and among the world's worst diabetes/obesity profiles."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -2.1,
+      "confidence": 0.71,
+      "skew": "negative",
+      "notes": "An economy with essentially no productive base, surviving on Australian rents and using the Australian dollar.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -2,
+          "weight": 0.22,
+          "confidence": 0.65,
+          "notes": "Improved on the late-2024 Australia treaty plus an RPC revival - public debt ~15% of GDP, moderate distress risk, but utterly dependent on Australian rents. (IMF 2025 Art IV)"
+        },
+        "monetary_independence": {
+          "score": -3,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Uses the Australian dollar - no monetary autonomy. (definitional)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "No own currency. (definitional)"
+        },
+        "inflation": {
+          "score": 0,
+          "weight": 0.13,
+          "confidence": 0.6,
+          "notes": "Elevated for the AUD bloc (~6%+ FY2025 moderating to ~4.5%) on import/supply factors. (IMF 2025)"
+        },
+        "banking_stability": {
+          "score": -2,
+          "weight": 0.1,
+          "confidence": 0.4,
+          "notes": "Historically had no commercial bank for years - thin, fragile financial access with a high SOE subsidy burden. (IMF; inference)"
+        },
+        "trade_actions_capacity": {
+          "score": -5,
+          "weight": 0.17,
+          "confidence": 0.65,
+          "notes": "Effectively no productive export base post-phosphate - income is asylum-centre rent, fishing fees, passport sales, and aid. (IMF; Lowy)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -2.9,
+      "confidence": 0.53,
+      "skew": "negative",
+      "notes": "A history of judicial interference and opposition crackdowns, with no independent media.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -3,
+          "weight": 0.35,
+          "confidence": 0.55,
+          "notes": "A history of judicial interference, opposition crackdowns, and a magistrate/judge expulsion episode, with corruption concerns around the deportee deal. (Lowy; inference)"
+        },
+        "statistical_integrity": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.5,
+          "notes": "IMF-engaged but minimal-capacity, with opaque public-finance reporting. (IMF; inference)"
+        },
+        "civil_service_capacity": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "A tiny administration heavily Australia/donor-supported, with large SOE distortions. (IMF; inference)"
+        },
+        "press_freedom": {
+          "score": -4,
+          "weight": 0.15,
+          "confidence": 0.5,
+          "notes": "RSF excludes Nauru as having no independent media; a history of restrictive measures (prohibitive media-visa fees, social-media bans). (RSF; inference)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -2.9,
+      "confidence": 0.55,
+      "skew": "negative",
+      "notes": "Historically volatile politics with a documented decade of harm to asylum seekers and a severe NCD crisis.",
+      "sub_factors": {
+        "political_stability": {
+          "score": -2,
+          "weight": 0.3,
+          "confidence": 0.55,
+          "notes": "Historically volatile (frequent leadership turnover, past constitutional crises); President Adeang in office since Oct 2023, currently a stable patch. (Al Jazeera; inference)"
+        },
+        "civil_liberties": {
+          "score": -2,
+          "weight": 0.2,
+          "confidence": 0.5,
+          "notes": "Restrictions on press and protest historically; broadly tolerated personal life but weak political-expression space. (RSF; inference)"
+        },
+        "treatment_non_citizens": {
+          "score": -5,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "A decade-plus of documented harm/medical neglect of asylum seekers in the RPC; the new deportee deal strips procedural fairness. (HRW; UNSW Kaldor Centre; RNZ)"
+        },
+        "social_cohesion": {
+          "score": 0,
+          "weight": 0.15,
+          "confidence": 0.45,
+          "notes": "A small homogeneous Nauruan society, but an acute public-health crisis and a 'two-tier' dynamic around the detained/deportee population. (inference)"
+        },
+        "demographics": {
+          "score": -4,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "Among the world's worst NCD profiles - diabetes ~21.8%, obesity >60%, life expectancy ~62 - a severe human-capital drag. (Global Obesity Observatory; WHO)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 1,
+      "confidence": 0.52,
+      "skew": "symmetric",
+      "notes": "Transactional - pivoted to China for aid while giving Australia an effective security veto.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 0,
+          "weight": 0.4,
+          "confidence": 0.5,
+          "notes": "Transactional - pivoted to China (Jan 2024) for aid yet simultaneously gave Australia an effective veto over security/infrastructure deals. (Washington Post; Lowy)"
+        },
+        "conflict_involvement": {
+          "score": 3,
+          "weight": 0.35,
+          "confidence": 0.6,
+          "notes": "No conflict; a small contested piece in Pacific great-power competition. (inference)"
+        },
+        "sanctions_capital_controls": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.45,
+          "notes": "No sanctions, but the golden-passport program and a past offshore-banking history create AML/integrity and reputational risk. (ANU; Henley; inference)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -3.7,
+      "confidence": 0.57,
+      "skew": "negative",
+      "notes": "A mined-out interior forcing coastal living, with an overwhelming NCD epidemic.",
+      "sub_factors": {
+        "climate": {
+          "score_near": -4,
+          "score_long": -7,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "A raised-coral island (less sea-level-doomed than the atolls) but ~80% mined-out/uninhabitable, forcing coastal living; a 'Higher Ground Initiative' aims to rehabilitate the interior. (ECRCP; inference)"
+        },
+        "healthcare": {
+          "score": -5,
+          "weight": 0.3,
+          "confidence": 0.6,
+          "notes": "Overwhelmed by an NCD epidemic (diabetes/CVD/renal) - ~75-80% of deaths from NCDs - with heavy overseas-referral reliance. (WHO; Global Nutrition Report)"
+        },
+        "infrastructure": {
+          "score": -3,
+          "weight": 0.2,
+          "confidence": 0.55,
+          "notes": "A single small island, donor/Australia-dependent, with degraded land and fragile power/water. (IMF; inference)"
+        },
+        "crime_safety": {
+          "score": 0,
+          "weight": 0.15,
+          "confidence": 0.4,
+          "notes": "A low baseline violent crime among Nauruans; the security flashpoints have centred on the detention population. (inference)"
+        },
+        "disaster_insurance": {
+          "score": -4,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Drought/climate exposure plus environmental degradation, with negligible insurance; relies on Australian transfers. (inference)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -2.79,
+      "confidence": 0.57,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": -2.12,
+      "confidence": 0.61,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -1.88,
+      "confidence": 0.64,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "The world's smallest republic (~12,000 people) and the archetypal resource-curse collapse - a phosphate boom left ~80% of the island mined-out and the sovereign fund squandered, leaving an economy with essentially no productive base. It now survives on rents from Australia: the offshore asylum-processing centre has supplied the majority of government revenue, and a new 30-year A$2.5bn deal (Aug 2025) to warehouse Australia's criminal-deportee 'NZYQ' cohort deepens that dependence, even as a decade of documented harm to asylum seekers weighs heavily. It pivoted from Taiwan to China in January 2024 for aid while granting Australia an effective security veto, and launched a world-first 'golden passport' scheme nominally funding climate relocation - carrying real integrity risk. With one of the planet's worst diabetes/obesity profiles and a life expectancy near 62, the skew is firmly negative, mitigated only by the Australia-backed fiscal lifeline and the recovering Intergenerational Trust Fund."
+}
