@@ -53,12 +53,25 @@ export default function CountryGrid({ rows }: Props) {
   // Ctrl/Cmd-click decision headers to combine them; the grid then ranks by the
   // average of the selected decisions. Empty = single-column sort via `sort`.
   const [multi, setMulti] = useState<DecisionKey[]>([]);
+  const [minConf, setMinConf] = useState(0);
 
   // Combined value for a row under the active multi-sort (mean of selected
   // decision scores), or null when not in multi mode.
   const combinedScore = (r: GridRow): number => {
     const vals = multi.map((dk) => r.cells[dk]?.score).filter((v): v is number => typeof v === "number");
     return vals.length ? vals.reduce((a, b) => a + b, 0) / vals.length : Number.NEGATIVE_INFINITY;
+  };
+
+  // Representative confidence for the active ranking metric, used by the
+  // confidence-threshold filter: the selected decisions' mean in multi mode, the
+  // sorted decision's confidence in single mode, else the best across decisions.
+  const rowConf = (r: GridRow): number => {
+    if (multi.length > 0) {
+      const cs = multi.map((dk) => r.cells[dk]?.confidence).filter((v): v is number => typeof v === "number");
+      return cs.length ? cs.reduce((a, b) => a + b, 0) / cs.length : 0;
+    }
+    if (sort === "living" || sort === "assets" || sort === "currency") return r.cells[sort]?.confidence ?? 0;
+    return Math.max(0, ...DECISION_ORDER.map((dk) => r.cells[dk]?.confidence ?? 0));
   };
 
   // Rank the FULL set by the current sort first, stamping each row with its
@@ -92,10 +105,11 @@ export default function CountryGrid({ rows }: Props) {
     const q = query.trim().toLowerCase();
     return ranked.filter(({ row }) => {
       if (skewFilter !== "all" && skewOf(row) !== skewFilter) return false;
+      if (minConf > 0 && rowConf(row) < minConf) return false;
       if (q && !(row.country.toLowerCase().includes(q) || row.iso3.toLowerCase().includes(q))) return false;
       return true;
     });
-  }, [ranked, query, skewFilter]);
+  }, [ranked, query, skewFilter, minConf]);
 
   const isDecision = (key: SortKey): key is DecisionKey =>
     key === "living" || key === "assets" || key === "currency";
@@ -147,6 +161,18 @@ export default function CountryGrid({ rows }: Props) {
             </button>
           ))}
         </div>
+        <label class="grid__confctl" title="Hide countries below this confidence on the active ranking metric">
+          min conf <strong>{Math.round(minConf * 100)}%</strong>
+          <input
+            type="range"
+            min="0"
+            max="0.9"
+            step="0.05"
+            value={minConf}
+            onInput={(e) => setMinConf(parseFloat((e.target as HTMLInputElement).value))}
+            aria-label="Minimum confidence"
+          />
+        </label>
         <span class="grid__count">{filtered.length} of {rows.length}</span>
       </div>
 
@@ -259,6 +285,9 @@ export default function CountryGrid({ rows }: Props) {
           font-size: 0.875rem;
         }
         .grid__search:focus { outline: none; border-color: var(--data); }
+        .grid__confctl { display: inline-flex; align-items: center; gap: 0.5rem; font-family: var(--font-mono); font-size: 0.75rem; color: var(--fg-muted); }
+        .grid__confctl strong { color: var(--fg); min-width: 2.5rem; display: inline-block; }
+        .grid__confctl input[type="range"] { accent-color: var(--data); width: 8rem; cursor: pointer; }
         .grid__count { font-family: var(--font-mono); font-size: 0.75rem; color: var(--fg-faint); }
         .table-scroll { overflow-x: auto; }
         .grid__table { width: 100%; border-collapse: collapse; font-family: var(--font-mono); }
