@@ -37,9 +37,17 @@ const dataset = {
       <p class="eyebrow">ratings &middot; methodology v{index.methodology_version}</p>
       <h1>Country risk ratings</h1>
       <p class="ratings__lead">
-        Directional scores from <strong>&minus;10 to +10</strong>, each paired with a
-        confidence level and a skew. Sort the grid by any decision, or open a country for
-        the full breakdown. <a href="/ratings/compare/">Compare countries &rarr;</a>
+        A forward-looking <strong>risk read</strong>, not a snapshot of today. Each score
+        (<strong>&minus;10 to +10</strong>) rates how far you could trust a country over the
+        relevant horizon for three decisions &mdash; living there, holding assets there, or
+        holding its currency &mdash; each paired with a confidence level and a skew (which way
+        the tail leans). It is <strong>not</strong> a measure of current quality of life or
+        current asset/currency value. Sort the grid by any decision, or open a country for the
+        full breakdown.
+      </p>
+      <p class="ratings__links">
+        <a href="/ratings/compare/">Compare countries &rarr;</a>
+        <a href="/methodology/">Learn more about the methodology &rarr;</a>
       </p>
       <ul class="ratings__legend">
         <li><span class="dot dot--pos"></span> clear positive (&ge; +3)</li>
@@ -69,8 +77,9 @@ const dataset = {
   .ratings { padding: 3rem 0 5rem; }
   .ratings__head { margin-bottom: 2rem; }
   .ratings__head h1 { font-size: clamp(1.875rem, 4vw, 2.5rem); }
-  .ratings__lead { color: var(--fg-muted); max-width: 68ch; }
+  .ratings__lead { color: var(--fg-muted); max-width: 72ch; }
   .ratings__lead strong { color: var(--fg); }
+  .ratings__links { display: flex; flex-wrap: wrap; gap: 1.5rem; margin: 0.75rem 0 0; font-family: var(--font-mono); font-size: 0.8125rem; }
   .ratings__legend {
     list-style: none; display: flex; flex-wrap: wrap; gap: 1.25rem; padding: 0; margin: 1rem 0 0;
     font-family: var(--font-mono); font-size: 0.75rem; color: var(--fg-muted);

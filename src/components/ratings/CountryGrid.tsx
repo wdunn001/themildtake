@@ -25,11 +25,41 @@ const skewGlyph = (s?: Skew) =>
   s === "positive" ? "▲" : s === "negative" ? "▼" : s === "symmetric" ? "→" : "—";
 const skewSent = (s?: Skew) => (s === "positive" ? "pos" : s === "negative" ? "neg" : "mixed");
 
+// Header tooltips — make explicit that these are forward-looking risk reads, not
+// snapshots of current quality / value.
+const COMBINE_HINT = " Ctrl/⌘-click to combine decisions into one ranking.";
+const DECISION_TIP: Record<string, string> = {
+  living:
+    "Risk read for living / relocating there over ~5–10 years (long-term). NOT a measure of current quality of life." +
+    COMBINE_HINT,
+  assets:
+    "Risk read for holding assets there over ~3–7 years (mid-term). NOT a measure of current asset value." +
+    COMBINE_HINT,
+  currency:
+    "Risk read for holding its currency over ~1–3 years (near-term). NOT a measure of current exchange-rate value." +
+    COMBINE_HINT,
+};
+const POS_TIP = "Position in the current sort. Persists when you filter.";
+const COUNTRY_TIP = "Sort by name. Click a row to open the full assessment.";
+const SKEW_TIP =
+  "Which way the tail leans beyond the central score: positive = upside, negative = downside, symmetric = balanced.";
+
 /** Sortable, filterable grid of every country across all three decisions. */
 export default function CountryGrid({ rows }: Props) {
   const [sort, setSort] = useState<SortKey>("living");
   const [dir, setDir] = useState<"asc" | "desc">("desc");
   const [query, setQuery] = useState("");
+  const [skewFilter, setSkewFilter] = useState<"all" | Skew>("all");
+  // Ctrl/Cmd-click decision headers to combine them; the grid then ranks by the
+  // average of the selected decisions. Empty = single-column sort via `sort`.
+  const [multi, setMulti] = useState<DecisionKey[]>([]);
+
+  // Combined value for a row under the active multi-sort (mean of selected
+  // decision scores), or null when not in multi mode.
+  const combinedScore = (r: GridRow): number => {
+    const vals = multi.map((dk) => r.cells[dk]?.score).filter((v): v is number => typeof v === "number");
+    return vals.length ? vals.reduce((a, b) => a + b, 0) / vals.length : Number.NEGATIVE_INFINITY;
+  };
 
   // Rank the FULL set by the current sort first, stamping each row with its
   // position (1-based). Filtering happens afterward, so a row keeps its place
@@ -39,7 +69,10 @@ export default function CountryGrid({ rows }: Props) {
     base.sort((a, b) => {
       let av: number | string;
       let bv: number | string;
-      if (sort === "country") {
+      if (multi.length > 0) {
+        av = combinedScore(a);
+        bv = combinedScore(b);
+      } else if (sort === "country") {
         av = a.country;
         bv = b.country;
       } else if (sort === "skew") {
@@ -53,17 +86,28 @@ export default function CountryGrid({ rows }: Props) {
       return dir === "asc" ? cmp : -cmp;
     });
     return base.map((row, i) => ({ row, pos: i + 1 }));
-  }, [rows, sort, dir]);
+  }, [rows, sort, dir, multi]);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    if (!q) return ranked;
-    return ranked.filter(
-      ({ row }) => row.country.toLowerCase().includes(q) || row.iso3.toLowerCase().includes(q),
-    );
-  }, [ranked, query]);
+    return ranked.filter(({ row }) => {
+      if (skewFilter !== "all" && skewOf(row) !== skewFilter) return false;
+      if (q && !(row.country.toLowerCase().includes(q) || row.iso3.toLowerCase().includes(q))) return false;
+      return true;
+    });
+  }, [ranked, query, skewFilter]);
 
-  const setSortKey = (key: SortKey) => {
+  const isDecision = (key: SortKey): key is DecisionKey =>
+    key === "living" || key === "assets" || key === "currency";
+
+  const setSortKey = (key: SortKey, additive = false) => {
+    if (additive && isDecision(key)) {
+      // Toggle this decision in/out of the combined-rank set.
+      setMulti((prev) => (prev.includes(key) ? prev.filter((k) => k !== key) : [...prev, key]));
+      setDir("desc");
+      return;
+    }
+    setMulti([]);
     if (key === sort) {
       setDir((d) => (d === "asc" ? "desc" : "asc"));
     } else {
@@ -72,7 +116,13 @@ export default function CountryGrid({ rows }: Props) {
     }
   };
 
-  const arrow = (key: SortKey) => (sort === key ? (dir === "asc" ? " ▲" : " ▼") : "");
+  const inMulti = (key: SortKey) => multi.length > 0 && isDecision(key) && multi.includes(key);
+  const headerActive = (key: SortKey) => (multi.length > 0 ? inMulti(key) : sort === key);
+  const arrow = (key: SortKey) => {
+    if (inMulti(key)) return dir === "asc" ? " ▲" : " ▼";
+    if (multi.length === 0 && sort === key) return dir === "asc" ? " ▲" : " ▼";
+    return "";
+  };
 
   return (
     <div class="grid">
@@ -85,24 +135,56 @@ export default function CountryGrid({ rows }: Props) {
           onInput={(e) => setQuery((e.target as HTMLInputElement).value)}
           aria-label="Filter countries"
         />
+        <div class="grid__skewfilter" role="group" aria-label="Filter by skew">
+          {(["all", "positive", "symmetric", "negative"] as const).map((s) => (
+            <button
+              class={`grid__skewbtn${skewFilter === s ? " grid__skewbtn--on" : ""}`}
+              onClick={() => setSkewFilter(s)}
+              aria-pressed={skewFilter === s}
+              title={s === "all" ? "Show all skews" : `Show only ${s}-skew countries`}
+            >
+              {s === "all" ? "All skews" : `${skewGlyph(s)} ${s}`}
+            </button>
+          ))}
+        </div>
         <span class="grid__count">{filtered.length} of {rows.length}</span>
       </div>
+
+      {multi.length > 0 && (
+        <p class="grid__multinote">
+          Combined rank — average of {multi.map((dk) => DECISION_LABELS[dk]).join(" + ")}; the{" "}
+          <strong>⋈</strong> column reflects it. Ctrl/⌘-click a decision header to add or remove it,
+          or click any header normally to reset.
+        </p>
+      )}
 
       <div class="table-scroll">
         <table class="grid__table">
           <thead>
             <tr>
-              <th class="grid__poscol">#</th>
+              <th class="grid__poscol" title={POS_TIP}>{multi.length > 0 ? "⋈" : "#"}</th>
               <th>
-                <button onClick={() => setSortKey("country")}>Country{arrow("country")}</button>
+                <button
+                  class={headerActive("country") ? "grid__h--on" : undefined}
+                  onClick={() => setSortKey("country")}
+                  title={COUNTRY_TIP}
+                >Country{arrow("country")}</button>
               </th>
               {DECISION_ORDER.map((dk) => (
                 <th class="grid__num">
-                  <button onClick={() => setSortKey(dk)}>{DECISION_LABELS[dk]}{arrow(dk)}</button>
+                  <button
+                    class={headerActive(dk) ? "grid__h--on" : undefined}
+                    onClick={(e) => setSortKey(dk, e.ctrlKey || e.metaKey)}
+                    title={DECISION_TIP[dk]}
+                  >{DECISION_LABELS[dk]}{arrow(dk)}</button>
                 </th>
               ))}
               <th class="grid__skewcol">
-                <button onClick={() => setSortKey("skew")}>Skew{arrow("skew")}</button>
+                <button
+                  class={headerActive("skew") ? "grid__h--on" : undefined}
+                  onClick={() => setSortKey("skew")}
+                  title={SKEW_TIP}
+                >Skew{arrow("skew")}</button>
               </th>
             </tr>
           </thead>
@@ -154,7 +236,17 @@ export default function CountryGrid({ rows }: Props) {
       </div>
 
       <style>{`
-        .grid__toolbar { display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; }
+        .grid__toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1rem; margin-bottom: 1rem; }
+        .grid__skewfilter { display: inline-flex; gap: 0.25rem; padding: 0.2rem; background: var(--bg-elev); border: 1px solid var(--border); border-radius: 8px; }
+        .grid__skewbtn {
+          background: none; border: 0; cursor: pointer; color: var(--fg-muted); text-transform: capitalize;
+          font-family: var(--font-mono); font-size: 0.75rem; padding: 0.3rem 0.6rem; border-radius: 6px;
+        }
+        .grid__skewbtn:hover { color: var(--fg); }
+        .grid__skewbtn--on { background: var(--surface); color: var(--fg); font-weight: 600; }
+        .grid__multinote { font-family: var(--font-mono); font-size: 0.75rem; color: var(--fg-muted); margin: 0 0 1rem; }
+        .grid__multinote strong { color: var(--fg); }
+        .grid__table thead button.grid__h--on { color: var(--fg); }
         .grid__search {
           flex: 1;
           max-width: 320px;
