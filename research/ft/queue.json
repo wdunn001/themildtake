@@ -1,0 +1,29 @@
+{
+  "note": "Curated FT pull targets, by priority country/theme. After priming the session (ft_login.py --persistent), run `ft_api.py search \"<query>\"`, pick the best result URLs, `ft_api.py scrape <url>`, then `node scripts/ingest-ft.mjs`. Set status to 'pulled' once ingested.",
+  "targets": [
+    { "iso3": "USA", "theme": "reserve-currency erosion / de-dollarization", "query": "dollar reserve status decline central banks gold", "why": "Anchors the US-outlier article + reserve_currency_intl_monetary near/long split", "status": "pending" },
+    { "iso3": "USA", "theme": "tariff regime / trade actions", "query": "US tariffs trading partners diversify supply chains", "why": "trade_actions_capacity is scored on tariff-policy actions", "status": "pending" },
+    { "iso3": "USA", "theme": "fiscal / debt sustainability", "query": "US fiscal deficit debt IMF warning Treasury", "why": "fiscal_state corroboration beyond IMF Art IV", "status": "pending" },
+    { "iso3": "ARG", "theme": "Milei reforms / inflation / peso", "query": "Argentina Milei inflation peso IMF", "why": "Argentina recovery-skew economics", "status": "pending" },
+    { "iso3": "CHN", "theme": "property/debt, growth, capital controls", "query": "China property debt local government growth", "why": "China assets/currency reads", "status": "pending" },
+    { "iso3": "JPN", "theme": "yen / BOJ / debt", "query": "Japan yen Bank of Japan debt rates", "why": "monetary + currency reads", "status": "pending" },
+    { "iso3": "TUR", "theme": "lira / inflation policy", "query": "Turkey lira inflation central bank", "why": "monetary_independence", "status": "pending" },
+    { "iso3": "CHE", "theme": "CHF safe-haven / SNB", "query": "Swiss franc safe haven SNB intervention", "why": "Switzerland currency-leader article", "status": "pending" },
+    { "iso3": "NOR", "theme": "sovereign wealth fund / oil", "query": "Norway oil fund sovereign wealth", "why": "Norway leader article", "status": "pending" },
+    { "iso3": "GUY", "theme": "oil boom / Exxon", "query": "Guyana oil ExxonMobil production economy", "why": "Guyana fastest-growing economy", "status": "pending" },
+    { "iso3": "VEN", "theme": "post-Maduro / oil / sanctions", "query": "Venezuela oil sanctions Maduro transition", "why": "Venezuela post-capture economics", "status": "pending" },
+    { "iso3": "LKA", "theme": "debt restructuring", "query": "Sri Lanka debt restructuring bondholders IMF", "why": "recovery-skew debt cases", "status": "pending" },
+    { "iso3": "GHA", "theme": "debt restructuring / cocoa", "query": "Ghana debt restructuring IMF cedi", "why": "fiscal_state", "status": "pending" },
+    { "iso3": "ZMB", "theme": "G20 debt-restructuring exit", "query": "Zambia debt restructuring common framework", "why": "fiscal_state corroboration", "status": "pending" },
+    { "iso3": "EGY", "theme": "IMF / pound / Gulf inflows", "query": "Egypt IMF pound devaluation Gulf investment", "why": "fiscal/monetary", "status": "pending" },
+    { "iso3": "PAK", "theme": "IMF / external crisis", "query": "Pakistan IMF bailout external reserves", "why": "fiscal_state", "status": "pending" },
+    { "iso3": "NGA", "theme": "naira reform / subsidies", "query": "Nigeria naira reform fuel subsidy Tinubu", "why": "monetary/trade", "status": "pending" },
+    { "iso3": "GBR", "theme": "gilts / fiscal", "query": "UK gilts fiscal budget bond market", "why": "fiscal_state", "status": "pending" },
+    { "iso3": "SAU", "theme": "oil / diversification / Vision 2030", "query": "Saudi Arabia oil budget Vision 2030 deficit", "why": "trade/fiscal", "status": "pending" },
+    { "iso3": "MDV", "theme": "sukuk / debt distress", "query": "Maldives sukuk default reserves India", "why": "fiscal_state near/long", "status": "pending" },
+    { "iso3": "SLV", "theme": "bitcoin / bonds", "query": "El Salvador bitcoin bonds IMF Bukele", "why": "monetary/fiscal", "status": "pending" },
+    { "iso3": "LBN", "theme": "financial collapse", "query": "Lebanon banking collapse depositors restructuring", "why": "banking_stability", "status": "pending" },
+    { "iso3": "BRB", "theme": "Bridgetown Initiative / climate finance", "query": "Mottley Bridgetown Initiative climate finance", "why": "Barbados institutions + climate-finance article", "status": "pending" },
+    { "iso3": "GLOBAL", "theme": "reserve currency / dollar weaponization", "query": "sanctions dollar weaponization alternatives BRICS", "why": "cross-cutting reserve-currency article", "status": "pending" }
+  ]
+}
