@@ -1,0 +1,244 @@
+{
+  "country": "Algeria",
+  "iso3": "DZA",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: governance/rights/politics rebuilt from independent sources (IMF Art IV 2025, World Bank, V-Dem, RSF, TI, Freedom House, HRW, Amnesty, CPJ); Algerian state/state-aligned media EXCLUDED there, with economic figures used where IMF-validated.",
+    "The military ('le pouvoir') is the dominant real power; the civilian president is a figurehead.",
+    "Standout drags: a near-total hydrocarbon rentier, military-dominated institutions, suppressed liberties, migrant expulsions, and severe water/heat exposure; a relative strength is low violent crime."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -3.3,
+      "confidence": 0.84,
+      "skew": "negative",
+      "notes": "A near-total hydrocarbon rentier with a pro-cyclical deficit, a state-controlled currency, and a shallow banking sector.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -5,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "A hydrocarbon rentier whose deficit blew out to ~14% of GDP in 2024 on falling revenue and a rising wage bill, cushioned by a large import-cover reserve buffer that is projected to erode. (IMF 2025 Art IV)"
+        },
+        "monetary_independence": {
+          "score": -5,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "No real central-bank independence, with a managed dinar and a large parallel-market gap. (IMF; Financial Afrik)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The dinar is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 1,
+          "weight": 0.13,
+          "confidence": 0.75,
+          "notes": "Eased markedly (~2%) after prior high years. (World Bank; IMF)"
+        },
+        "banking_stability": {
+          "score": -4,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "State-dominated and shallow, with high NPLs and crowded-out private credit. (IMF)"
+        },
+        "trade_actions_capacity": {
+          "score": -5,
+          "weight": 0.17,
+          "confidence": 0.85,
+          "notes": "A major gas exporter (a key European supplier) but a ~95%-hydrocarbon rentier with failed diversification and a statist economy - a classic resource curse. (IMF)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -5.1,
+      "confidence": 0.78,
+      "skew": "negative",
+      "notes": "Military-dominated, opaque, and corruption-ridden, with a poor and worsening press environment.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -6,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "Military-dominated, with weak judicial independence, opaque decision-making, and rampant corruption. (Freedom House)"
+        },
+        "statistical_integrity": {
+          "score": -4,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Opaque and state-controlled, with the IMF reconstructing the fiscals. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Bloated, statist, and oil-funded, with bureaucratic obstacles. (Freedom House; IMF)"
+        },
+        "press_freedom": {
+          "score": -7,
+          "weight": 0.15,
+          "confidence": 0.9,
+          "notes": "RSF ~139/180 and falling, with journalists detained and a Hirak-era crackdown. (RSF; CPJ; Amnesty)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -4.6,
+      "confidence": 0.81,
+      "skew": "negative",
+      "notes": "Suppressed stability and restricted liberties, with migrant expulsions and a youth strain.",
+      "sub_factors": {
+        "political_stability": {
+          "score": -3,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "A military-backed power structure with a figurehead civilian president (re-elected 2024 on low turnout) and the 2019 Hirak movement suppressed - managed/suppressed stability. (Freedom House)"
+        },
+        "civil_liberties": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.9,
+          "notes": "Restricted, with curbs on protest, association, and press and prosecutions of social-media users. (Freedom House; HRW)"
+        },
+        "treatment_non_citizens": {
+          "score": -7,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "A transit country with mass desert expulsions of sub-Saharan migrants, racial profiling, and no real route. (HRW; Amnesty)"
+        },
+        "social_cohesion": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Managed, with Amazigh/Kabyle tensions and youth alienation. (Freedom House)"
+        },
+        "demographics": {
+          "score": -2,
+          "weight": 0.1,
+          "confidence": 0.7,
+          "notes": "Young and fast-growing - a severe jobs/housing/water strain with high youth unemployment. (World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -3.2,
+      "confidence": 0.78,
+      "skew": "negative",
+      "notes": "A transactional, Russia-arms-dependent hedger with an acute Morocco rivalry and capital controls.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": -2,
+          "weight": 0.4,
+          "confidence": 0.75,
+          "notes": "Non-aligned and Russia-arms-dependent with an anti-Western tilt, yet a key EU gas supplier - transactional and hedged. (ICG)"
+        },
+        "conflict_involvement": {
+          "score": -4,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "No direct war but an acute Morocco rivalry (severed ties, a closed border) and Sahel/Mali spillover. (ICG)"
+        },
+        "sanctions_capital_controls": {
+          "score": -4,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "Unsanctioned but with heavy FX/capital controls and a statist economy. (IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -3,
+      "confidence": 0.68,
+      "skew": "negative",
+      "notes": "Severe water/heat and wildfire exposure, against relatively low violent crime.",
+      "sub_factors": {
+        "climate": {
+          "score": -7,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Severe - water scarcity and drought, extreme heat, desertification, and recurrent deadly wildfires. (IEA; Euronews)"
+        },
+        "healthcare": {
+          "score": -3,
+          "weight": 0.3,
+          "confidence": 0.65,
+          "notes": "A state system that is uneven and underfunded relative to oil wealth. (Freedom House)"
+        },
+        "infrastructure": {
+          "score": -2,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Oil-funded but inefficient, with housing shortages and water-cut protests. (IEA; Euronews)"
+        },
+        "crime_safety": {
+          "score": 3,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Relatively low violent crime - a relative strength. (independent)"
+        },
+        "disaster_insurance": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Low penetration against seismic (north) and flood exposure. (ThinkHazard)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -4.29,
+      "confidence": 0.78,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -3.83,
+      "confidence": 0.8,
+      "horizon": "3-7y",
+      "reading": "clear negative"
+    },
+    "currency": {
+      "score": -3.69,
+      "confidence": 0.82,
+      "horizon": "1-3y",
+      "reading": "clear negative"
+    }
+  },
+  "summary": "A near-total hydrocarbon rentier - a major European gas supplier but with ~95% of exports from oil and gas, failed diversification, and a statist economy - whose 2024 deficit blew out on falling revenue, cushioned by an eroding reserve buffer. The military dominates a corruption-ridden, opaque state with a figurehead president, suppressed liberties after the crushed Hirak movement, and documented mass expulsions of sub-Saharan migrants. Severe water scarcity, extreme heat, and recurrent wildfires weigh on the physical side, partly offset by relatively low violent crime."
+}

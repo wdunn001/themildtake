@@ -1,0 +1,250 @@
+{
+  "country": "Myanmar",
+  "iso3": "MMR",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: governance/rights/economics rebuilt from independent sources (World Bank/IMF estimates, V-Dem, RSF, TI, Freedom House, HRW, Amnesty, UN/OHCHR, ACLED, UNODC + Irrawaddy/Frontier/Myanmar Now); the military junta's state media and official statistics EXCLUDED there.",
+    "A collapsed conflict state: a 2021 coup triggered a nationwide civil war, and the junta now controls only a minority of territory; a planned 2025-26 election is treated as a sham.",
+    "Standout drags: an active multi-front civil war, atrocity-level repression, a collapsed economy, a Rohingya-genocide legacy, and the catastrophic March-2025 earthquake. Overall: among the most negative profiles."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -5.4,
+      "confidence": 0.63,
+      "skew": "negative",
+      "notes": "A collapsed, sanctioned war economy with a broken currency and banking system.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -7,
+          "weight": 0.22,
+          "confidence": 0.55,
+          "notes": "A collapsed, opaque war economy with output well below pre-coup levels, sanctioned and junta-controlled. (World Bank MEM)"
+        },
+        "monetary_independence": {
+          "score": -8,
+          "weight": 0.22,
+          "confidence": 0.6,
+          "notes": "A collapsed kyat, no credible central bank, and heavy FX controls. (World Bank; Frontier)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "No international role. (definitional)"
+        },
+        "inflation": {
+          "score": -7,
+          "weight": 0.13,
+          "confidence": 0.6,
+          "notes": "High (~30%+), war-driven. (World Bank MEM)"
+        },
+        "banking_stability": {
+          "score": -7,
+          "weight": 0.1,
+          "confidence": 0.55,
+          "notes": "Broken, cut off, sanctioned, and cash-rationed. (World Bank)"
+        },
+        "trade_actions_capacity": {
+          "score_near": -6,
+          "score_long": -7,
+          "score": null,
+          "weight": 0.17,
+          "confidence": 0.55,
+          "notes": "Gas, jade, and rare-earths alongside a vast illicit economy (drugs and scam-centres); sanctioned and conflict-disrupted. (UNODC; OFAC)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -8,
+      "confidence": 0.65,
+      "skew": "negative",
+      "notes": "A military dictatorship with no rule of law, no credible data, and among the worst press repression.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -9,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "A military dictatorship with no judicial independence and atrocity impunity. (V-Dem; Freedom House)"
+        },
+        "statistical_integrity": {
+          "score": -7,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "No credible state data; multilaterals estimate. (World Bank)"
+        },
+        "civil_service_capacity": {
+          "score": -6,
+          "weight": 0.25,
+          "confidence": 0.5,
+          "notes": "Collapsed and contested - the junta controls only a minority of territory. (ACLED)"
+        },
+        "press_freedom": {
+          "score": -9,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "Among the world's worst - RSF near the bottom, with mass journalist imprisonment and an underground independent press. (RSF; CPJ)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -8.6,
+      "confidence": 0.68,
+      "skew": "negative",
+      "notes": "An active civil war, atrocity-level repression, a genocide legacy, and mass displacement.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -9,
+          "score_long": -8,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.55,
+          "notes": "A 2021 coup triggered a nationwide civil war; the junta has lost control of much of the country, with a sham 2025-26 election - among the world's most unstable. (ACLED; ICG)"
+        },
+        "civil_liberties": {
+          "score": -9,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Atrocity-level repression, mass killing and detention, and forced conscription. (HRW; Amnesty; OHCHR)"
+        },
+        "treatment_non_citizens": {
+          "score": -9,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "A Rohingya-genocide legacy in a refugee-producing conflict state with ongoing displacement and abuse. (OHCHR; Amnesty)"
+        },
+        "social_cohesion": {
+          "score": -8,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "An active multi-front civil war and ethnic fragmentation. (ACLED; ICG)"
+        },
+        "demographics": {
+          "score": -6,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "War-disrupted, with millions displaced and youth fleeing or conscripted. (UN; RFA)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -8,
+      "confidence": 0.65,
+      "skew": "negative",
+      "notes": "A sanctioned pariah junta in the region's worst active conflict.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": -7,
+          "weight": 0.4,
+          "confidence": 0.55,
+          "notes": "A pariah junta propped by China and Russia and isolated from the West. (ICG; CSIS)"
+        },
+        "conflict_involvement": {
+          "score_near": -9,
+          "score_long": -8,
+          "score": null,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "An active civil war - the region's worst, with tens of thousands of deaths. (ACLED)"
+        },
+        "sanctions_capital_controls": {
+          "score": -8,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "Heavily sanctioned with capital controls. (OFAC; EU)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -7.5,
+      "confidence": 0.66,
+      "skew": "negative",
+      "notes": "Catastrophic climate and seismic exposure atop a collapsed health system and infrastructure.",
+      "sub_factors": {
+        "climate": {
+          "score": -8,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Highly climate-vulnerable (cyclones, floods) plus the catastrophic March-2025 magnitude-7.7 earthquake. (USGS; WHO)"
+        },
+        "healthcare": {
+          "score": -8,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "Collapsed and war-destroyed, with disease resurgence. (UN; WHO)"
+        },
+        "infrastructure": {
+          "score": -8,
+          "weight": 0.2,
+          "confidence": 0.6,
+          "notes": "War-damaged, with an electricity collapse and quake destruction. (World Bank)"
+        },
+        "crime_safety": {
+          "score": -8,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "War zones, illicit-economy violence, and scam-centre trafficking hubs. (Amnesty; ASPI)"
+        },
+        "disaster_insurance": {
+          "score": -4,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Negligible penetration against extreme seismic/cyclone exposure. (hazard context)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -7.64,
+      "confidence": 0.66,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -6.96,
+      "confidence": 0.65,
+      "horizon": "3-7y",
+      "reading": "clear negative"
+    },
+    "currency": {
+      "score": -6.48,
+      "confidence": 0.64,
+      "horizon": "1-3y",
+      "reading": "clear negative"
+    }
+  },
+  "summary": "A collapsed conflict state. A 2021 coup triggered a nationwide civil war in which the military junta has lost control of much of the country; the economy is collapsed and sanctioned with a broken currency and banking system, and a planned election is treated as a sham. Institutions offer no rule of law, no credible data, and among the world's worst press repression, atop atrocity-level violence, a Rohingya-genocide legacy, and millions displaced. The catastrophic March-2025 earthquake compounded a collapsed health system and infrastructure. This is among the most negative profiles in the dataset."
+}

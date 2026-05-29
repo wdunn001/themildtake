@@ -1,0 +1,244 @@
+{
+  "country": "Jordan",
+  "iso3": "JOR",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF Art IV/EFF, World Bank, WJP, RSF, TI, V-Dem) + Jordanian official (cautiously) + independent/international press + HRW/Amnesty/UNHCR.",
+    "A stable monarchy where the king holds real power; the dinar is hard-pegged to the USD. Real strengths (alliance, banking, peg stability, healthcare, low crime) offset structural fragility.",
+    "Standout drags: high debt and aid dependence, extreme water scarcity, a jobs strain, restricted liberties, and regional-war exposure. Source-lean: MODERATE; IMF-program optics on economics, independent-critical on rights."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -1.5,
+      "confidence": 0.84,
+      "skew": "negative",
+      "notes": "Peg-anchored stability and a conservative banking sector, against high debt, aid dependence, and a resource-poor base.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -5,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Public debt ~85% GDP on a credible IMF-anchored downward path, with chronic deficits, low growth, and heavy aid dependence. (IMF EFF Review)"
+        },
+        "monetary_independence": {
+          "score": -3,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "A hard USD peg means essentially no autonomous policy, but it delivers durable stability - a mild-negative trade-off. (CBJ)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The dinar is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 4,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "Anchored around 2% - a clear peg strength. (IMF; CBJ)"
+        },
+        "banking_stability": {
+          "score": 5,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "Conservative and well-capitalised (a high capital ratio), resilient through shocks. (CBJ Financial Stability Report)"
+        },
+        "trade_actions_capacity": {
+          "score": -5,
+          "weight": 0.17,
+          "confidence": 0.7,
+          "notes": "Resource-poor (phosphates/potash, tourism, remittances) with a chronic trade deficit, aid dependence, and Red Sea/regional-disruption exposure. (World Bank; IMF)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -1.9,
+      "confidence": 0.74,
+      "skew": "negative",
+      "notes": "Reasonably usable statistics and functional delivery, against a monarchy-bounded rule of law and a poor press environment.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -3,
+          "weight": 0.35,
+          "confidence": 0.75,
+          "notes": "A monarchy with partial judicial independence and moderate corruption. (TI CPI)"
+        },
+        "statistical_integrity": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Reasonably usable, with adequate IMF-program disclosure. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "A bloated public sector but functional service delivery. (World Bank)"
+        },
+        "press_freedom": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "A poor RSF standing, with a 2023 cybercrime law driving detentions and self-censorship and news-site bans. (CPJ; Freedom House)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -4,
+      "confidence": 0.76,
+      "skew": "negative",
+      "notes": "A stable but managed monarchy, against restricted liberties, refugee-host strain, and a jobs/water crunch.",
+      "sub_factors": {
+        "political_stability": {
+          "score": -2,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "A stable monarchy where the king holds real power over a managed parliament - durable but pressured by the economy and regional tension. (Chatham House)"
+        },
+        "civil_liberties": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Restricted, with a cybercrime law, protest/association curbs, and the 2025 banning of the Muslim Brotherhood. (Arab Center; Freedom House)"
+        },
+        "treatment_non_citizens": {
+          "score": -4,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "A major refugee host (Palestinians long-integrated, plus large Syrian and Iraqi populations) under acute strain, with lawful residence for the affluent and no easy citizenship for many. (UNHCR)"
+        },
+        "social_cohesion": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "An East-Banker/Palestinian-origin cleavage, tribal politics, high youth unemployment, and Gaza-war anger. (Quincy Institute; UNHCR)"
+        },
+        "demographics": {
+          "score": -4,
+          "weight": 0.1,
+          "confidence": 0.75,
+          "notes": "A young, refugee-swollen population straining jobs and water. (UNHCR; UNICEF)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 1.5,
+      "confidence": 0.82,
+      "skew": "symmetric",
+      "notes": "A reliable Western ally and stabiliser, against acute regional-war exposure.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 6,
+          "weight": 0.4,
+          "confidence": 0.85,
+          "notes": "A reliable US/Gulf/Western ally (a major non-NATO ally) with a peace treaty with Israel and a stabilising regional role - a genuine strength. (US State Dept; CRS)"
+        },
+        "conflict_involvement": {
+          "score": -5,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "No direct war but acute exposure - Gaza/West Bank pressure and Syria-border drug-smuggling that has drawn Jordanian airstrikes. (Al Jazeera; FDD)"
+        },
+        "sanctions_capital_controls": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "Broadly open and unsanctioned. (IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 0.5,
+      "confidence": 0.74,
+      "skew": "negative",
+      "notes": "Strong healthcare and low crime, against among the world's most extreme water scarcity.",
+      "sub_factors": {
+        "climate": {
+          "score": -7,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Among the world's most water-scarce, with extreme water poverty, drought, and heat. (UNICEF; ecoMENA)"
+        },
+        "healthcare": {
+          "score": 5,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "Relatively good and a regional medical-tourism destination - a strength. (World Bank)"
+        },
+        "infrastructure": {
+          "score": 1,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Decent and modern-ish but energy-import-dependent. (World Bank)"
+        },
+        "crime_safety": {
+          "score": 5,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "Low crime - a clear strength. (comparative)"
+        },
+        "disaster_insurance": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Low penetration, with seismic (Dead Sea fault) and drought exposure. (hazard context)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -1.92,
+      "confidence": 0.76,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": -1.17,
+      "confidence": 0.79,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -1.22,
+      "confidence": 0.81,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A remarkably stable, Western-aligned monarchy that anchors a turbulent region - a reliable US ally with a peace treaty with Israel, a USD-pegged dinar delivering low inflation, a conservative well-capitalised banking sector, strong healthcare, and low crime. Those genuine strengths are offset by a high public-debt load and deep aid dependence, a resource-poor economy, restricted civil liberties (a cybercrime law and the 2025 Muslim-Brotherhood ban), heavy refugee-host strain with high youth unemployment, and - structurally - some of the world's most extreme water scarcity, atop acute exposure to the surrounding conflict."
+}
