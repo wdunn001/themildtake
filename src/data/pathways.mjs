@@ -153,6 +153,11 @@ export const PATHWAYS = {
     assets: { foreignPropertyOwnership: "restricted", foreignSecurities: "open", nonResidentBrokerage: "yes", note: "A temporary foreign-buyer ban on some residential property applies; securities are open.", officialUrl: "https://www.bankofcanada.ca/" },
     currency: { capitalAccountOpen: true, nonResidentBanking: "easy", fxControls: "none", centralBankUrl: "https://www.bankofcanada.ca/" },
     credentials: { note: "Regulated professions (medical/legal/engineering) need provincial credential assessment; English/French scored in Express Entry.", url: "https://www.canada.ca/en/immigration-refugees-citizenship.html" },
+    lottery: [{ name: "Parents and Grandparents Program (PGP)", note: "Sponsorship invitations are drawn by lottery from a pool of submitted interest-to-sponsor forms.", url: "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/family-sponsorship/sponsor-parents-grandparents.html" }],
+    licensing: {
+      medical: { note: "Provincial colleges plus the Medical Council of Canada (MCCQE); credential assessment required.", url: "https://mcc.ca/" },
+      engineering: { note: "Provincial associations (e.g. PEO) license P.Eng after academic and exam assessment.", url: "https://engineerscanada.ca/" },
+    },
     links: { immigration: "https://www.canada.ca/en/immigration-refugees-citizenship.html", investment: "https://www.investcanada.ca/", centralBank: "https://www.bankofcanada.ca/" },
   },
   MEX: {
@@ -274,5 +279,44 @@ export const PATHWAYS = {
     currency: { capitalAccountOpen: true, nonResidentBanking: "moderate", fxControls: "none", centralBankUrl: "https://www.bcentral.cl/en/" },
     credentials: { note: "Spanish needed; regulated professions require revalidation of degrees.", url: "https://serviciomigraciones.cl/" },
     links: { immigration: "https://serviciomigraciones.cl/", investment: "https://www.investchile.gob.cl/", centralBank: "https://www.bcentral.cl/en/" },
+  },
+  USA: {
+    iso3: "USA", country: "United States", languages: ["English"],
+    demandProfessions: ["tech", "medical", "engineering", "finance", "academic"],
+    immigration: [
+      { name: "H-1B specialty worker (annual lottery)", type: "lottery", eligibility: { minCapitalUsd: 0, professions: ["tech", "engineering", "finance", "medical", "academic"], languageReq: "none" }, difficulty: "hard", timeToPrYears: 5, timeToCitizenshipYears: 6, officialUrl: "https://www.uscis.gov/working-in-the-united-states/h-1b-specialty-occupations" },
+      { name: "O-1 extraordinary ability", type: "skilled", eligibility: { minCapitalUsd: 0, professions: ["tech", "academic", "any"], languageReq: "none" }, difficulty: "hard", timeToPrYears: 5, timeToCitizenshipYears: 6, officialUrl: "https://www.uscis.gov/working-in-the-united-states/temporary-workers/o-1-visa-individuals-with-extraordinary-ability-or-achievement" },
+      { name: "EB employment-based green card", type: "skilled", eligibility: { minCapitalUsd: 0, professions: ["tech", "medical", "engineering", "finance"], languageReq: "none" }, difficulty: "hard", timeToPrYears: 0, timeToCitizenshipYears: 5, officialUrl: "https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-employment-based-immigrants" },
+      { name: "EB-5 investor", type: "investor", eligibility: { minCapitalUsd: 800000, professions: ["any"], languageReq: "none" }, difficulty: "moderate", timeToPrYears: 0, timeToCitizenshipYears: 5, officialUrl: "https://www.uscis.gov/working-in-the-united-states/permanent-workers/eb-5-immigrant-investor-program" },
+    ],
+    lottery: [{ name: "Diversity Visa (DV) lottery", note: "About 55,000 green cards a year by random draw, for nationals of under-represented countries (most high-volume origins are excluded).", url: "https://travel.state.gov/content/travel/en/us-visas/immigrate/diversity-visa-program-entry.html", pastResultsUrl: "https://www.usa.gov/dv-lottery-results" }],
+    assets: { foreignPropertyOwnership: "open", foreignSecurities: "open", nonResidentBrokerage: "yes", note: "Foreigners can own property and securities freely; deepest, most liquid markets.", officialUrl: "https://www.federalreserve.gov/" },
+    currency: { capitalAccountOpen: true, nonResidentBanking: "moderate", fxControls: "none", centralBankUrl: "https://www.federalreserve.gov/" },
+    credentials: { note: "State-by-state licensing for regulated professions; foreign medical graduates certify via ECFMG before a US residency.", url: "https://www.uscis.gov/working-in-the-united-states" },
+    licensing: {
+      medical: { note: "ECFMG certification plus USMLE, then a US residency and a state medical board license.", url: "https://www.ecfmg.org/" },
+      legal: { note: "Admission is state-by-state; most states require a US JD or an LLM plus the state bar exam.", url: "https://www.americanbar.org/" },
+      engineering: { note: "PE licensure via NCEES exams, state-administered; many roles do not require a PE.", url: "https://ncees.org/" },
+    },
+    links: { immigration: "https://www.uscis.gov/", investment: "https://www.selectusa.gov/", centralBank: "https://www.federalreserve.gov/" },
+  },
+  GBR: {
+    iso3: "GBR", country: "United Kingdom", languages: ["English"],
+    demandProfessions: ["tech", "medical", "finance", "engineering", "academic"],
+    immigration: [
+      { name: "Skilled Worker visa (sponsored)", type: "skilled", eligibility: { minCapitalUsd: 0, professions: ["tech", "medical", "engineering", "finance"], languageReq: "basic" }, difficulty: "moderate", timeToPrYears: 5, timeToCitizenshipYears: 6, officialUrl: "https://www.gov.uk/skilled-worker-visa" },
+      { name: "Global Talent visa", type: "skilled", eligibility: { minCapitalUsd: 0, professions: ["tech", "academic", "any"], languageReq: "none" }, difficulty: "moderate", timeToPrYears: 3, timeToCitizenshipYears: 6, officialUrl: "https://www.gov.uk/global-talent" },
+      { name: "Health and Care Worker visa", type: "skilled", eligibility: { minCapitalUsd: 0, professions: ["medical"], languageReq: "basic" }, difficulty: "easy", timeToPrYears: 5, timeToCitizenshipYears: 6, officialUrl: "https://www.gov.uk/health-care-worker-visa" },
+      { name: "Innovator Founder visa", type: "investor", eligibility: { minCapitalUsd: 0, professions: ["tech", "any"], languageReq: "basic" }, difficulty: "hard", timeToPrYears: 3, timeToCitizenshipYears: 6, officialUrl: "https://www.gov.uk/innovator-founder-visa" },
+    ],
+    assets: { foreignPropertyOwnership: "open", foreignSecurities: "open", nonResidentBrokerage: "yes", note: "Open property and securities markets; a deep global financial center.", officialUrl: "https://www.bankofengland.co.uk/" },
+    currency: { capitalAccountOpen: true, nonResidentBanking: "moderate", fxControls: "none", centralBankUrl: "https://www.bankofengland.co.uk/" },
+    credentials: { note: "Regulated professions need UK body recognition; the Common Travel Area gives Irish citizens automatic rights.", url: "https://www.gov.uk/browse/visas-immigration" },
+    licensing: {
+      medical: { note: "GMC registration (often via PLAB or an approved route) is required to practise.", url: "https://www.gmc-uk.org/" },
+      legal: { note: "Solicitors qualify via the SRA (SQE route); barristers via the Bar.", url: "https://www.sra.org.uk/" },
+      engineering: { note: "Chartered status via the Engineering Council and a licensed institution.", url: "https://www.engc.org.uk/" },
+    },
+    links: { immigration: "https://www.gov.uk/browse/visas-immigration", investment: "https://www.great.gov.uk/international/", centralBank: "https://www.bankofengland.co.uk/" },
   },
 };

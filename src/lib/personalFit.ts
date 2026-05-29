@@ -109,9 +109,13 @@ export function buildPersonalFitCategory(
   const inDemand = pathway.demandProfessions.includes(profile.profession);
   const demand = inDemand ? 6 : profile.profession === "any" ? 0 : -1;
 
-  // credential_recognition
+  // credential_recognition - regulated professions are penalized for friction,
+  // but less so when the destination documents a clear licensing route.
   let credential = inDemand ? 5 : 1;
-  if (REGULATED.includes(profile.profession)) credential -= 2;
+  if (REGULATED.includes(profile.profession)) {
+    const hasRoute = !!pathway.licensing?.[profile.profession];
+    credential -= hasRoute ? 1 : 3;
+  }
   if (freeMove) credential += 2;
 
   // cost_of_entry

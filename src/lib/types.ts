@@ -117,12 +117,20 @@ export interface Profile {
 
 export interface ImmigrationProgram {
   name: string;
-  type: "skilled" | "investor" | "income" | "digital-nomad" | "ancestry" | "student" | "family";
+  type: "skilled" | "investor" | "income" | "digital-nomad" | "ancestry" | "student" | "family" | "lottery";
   eligibility: { minCapitalUsd: number; professions: string[]; languageReq: "none" | "basic" | "official" };
   difficulty: "easy" | "moderate" | "hard";
   timeToPrYears: number;
   timeToCitizenshipYears: number;
   officialUrl: string;
+}
+
+/** A randomized/quota immigration draw (e.g. US Diversity Visa, Canada PGP). */
+export interface Lottery {
+  name: string;
+  note: string;
+  url: string;
+  pastResultsUrl?: string;
 }
 
 export interface Pathway {
@@ -131,8 +139,12 @@ export interface Pathway {
   languages: string[];
   demandProfessions: string[];
   immigration: ImmigrationProgram[];
+  /** Lottery / random-draw routes, where the country runs them. */
+  lottery?: Lottery[];
   assets: { foreignPropertyOwnership: string; foreignSecurities: string; nonResidentBrokerage: string; note: string; officialUrl: string };
   currency: { capitalAccountOpen: boolean; nonResidentBanking: string; fxControls: string; centralBankUrl: string };
   credentials: { note: string; url: string };
+  /** Professional-licensing recognition by profession cluster (body + link). */
+  licensing?: Record<string, { note: string; url: string }>;
   links: { immigration: string; investment: string; centralBank: string };
 }

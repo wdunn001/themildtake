@@ -1,6 +1,9 @@
-import { useMemo } from "preact/hooks";
+import { useEffect, useMemo, useState } from "preact/hooks";
 import { getAssessment } from "../../lib/dataClient";
 import { useAsync } from "./useAsync";
+import { getPathway, personalize } from "../../lib/personalFit";
+import CountryPathways from "../relocate/CountryPathways";
+import type { Profile } from "../../lib/types";
 import {
   CATEGORY_ORDER,
   DECISION_ORDER,
@@ -35,6 +38,19 @@ interface Props {
 export default function CountryDetail({ iso3 }: Props) {
   const { data, error, loading } = useAsync(() => getAssessment(iso3), [iso3]);
 
+  // Persisted relocate profile (if the reader has one), so this page can
+  // personalize and highlight pathways that fit them.
+  const [profile, setProfile] = useState<Profile | null>(null);
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    try {
+      const raw = window.localStorage.getItem("themildtake:relocate-profile");
+      if (raw) setProfile(JSON.parse(raw));
+    } catch {
+      /* ignore */
+    }
+  }, []);
+
   const categoryKeys = useMemo(() => {
     if (!data) return [];
     const present = Object.keys(data.categories);
@@ -67,6 +83,9 @@ export default function CountryDetail({ iso3 }: Props) {
         },
       ]
     : [];
+
+  const pathway = getPathway(data.iso3);
+  const pers = profile && pathway ? personalize(data, profile) : null;
 
   return (
     <div class="cd">
@@ -163,6 +182,33 @@ export default function CountryDetail({ iso3 }: Props) {
         </section>
       )}
 
+      {pers && (
+        <div class="cd__pers">
+          <span class="cd__pers-badge">Personalized for your profile</span>
+          <div class="cd__pers-scores">
+            {HORIZON_ROWS.filter(([dk]) => pers.decisions[dk]).map(([dk, label]) => (
+              <span class="cd__pers-item">
+                {label}{" "}
+                <strong class={`cd__pers-s cd__pers-s--${sentimentFor(pers.decisions[dk].score)}`}>{formatScore(pers.decisions[dk].score)}</strong>{" "}
+                <em>base {formatScore(data.decisions[dk].score)}</em>
+              </span>
+            ))}
+          </div>
+          <a href="/relocate/">Adjust your profile in the Relocate tool &rarr;</a>
+        </div>
+      )}
+
+      {pathway && (
+        <section class="cd__pathways">
+          <h2 class="cd__h">Relocation, assets &amp; currency pathways</h2>
+          <p class="cd__hint">
+            Real routes and official links{profile ? ", with the ones you may qualify for flagged" : ""}.{" "}
+            {!profile && <a href="/relocate/">Personalize these &rarr;</a>}
+          </p>
+          <CountryPathways pathway={pathway} profile={profile} />
+        </section>
+      )}
+
       <h2 class="cd__h">Category breakdown</h2>
       <p class="cd__hint">Click a category to expand its sub-factors.</p>
       <div class="cd__cats">
@@ -215,6 +261,15 @@ export default function CountryDetail({ iso3 }: Props) {
         .cd__chart { margin: 0; border: 1px solid var(--border); border-radius: 10px; background: var(--bg-elev); padding: 1rem; }
         .cd__chart figcaption { font-family: var(--font-mono); font-size: 0.6875rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--fg-faint); margin-bottom: 0.5rem; }
 
+        .cd__pers { border: 1px solid var(--border); border-left: 3px solid var(--data); border-radius: 8px; background: var(--bg-elev); padding: 0.85rem 1rem; margin: 0 0 2rem; }
+        .cd__pers-badge { font-family: var(--font-mono); font-size: 0.6875rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--data); }
+        .cd__pers-scores { display: flex; flex-wrap: wrap; gap: 1.25rem; margin: 0.5rem 0; font-family: var(--font-mono); font-size: 0.875rem; }
+        .cd__pers-item { color: var(--fg-muted); }
+        .cd__pers-s { font-weight: 700; }
+        .cd__pers-s--pos { color: var(--pos); } .cd__pers-s--neg { color: var(--neg); } .cd__pers-s--mixed { color: var(--mixed); }
+        .cd__pers-item em { color: var(--fg-faint); font-style: normal; font-size: 0.6875rem; }
+        .cd__pers a, .cd__pathways .cd__hint a { color: var(--data); }
+        .cd__pathways { margin: 0 0 2.5rem; }
         .cd__traj { margin: 0 0 2.5rem; }
         .cd__trajgrid { display: grid; gap: 1.5rem; grid-template-columns: 1fr; align-items: start; }
         @media (min-width: 760px) { .cd__trajgrid { grid-template-columns: 1.5fr 1fr; } }
