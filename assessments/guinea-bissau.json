@@ -1,0 +1,252 @@
+{
+  "country": "Guinea-Bissau",
+  "iso3": "GNB",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF, UNODC, Global Initiative, Freedom House, RSF, Crisis Group) + international press; state media EXCLUDED on governance.",
+    "The military seized power on 26 Nov 2025 - a day before disputed Nov 23 election results (both Embalo and opposition candidate Dias claimed victory; the PAIGC was barred; the count was reportedly destroyed); credible domestic/regional voices allege a 'staged coup', encoded here as a serious multi-source allegation, not fact. ECOWAS and the AU suspended the country.",
+    "Standout drags: a chronic coup cycle (four-plus since independence), an entrenched cocaine-transit 'narco-state', cashew mono-dependence, and near-floor rule of law; the WAEMU CFA euro peg and low inflation are the only firm anchors."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 0.1,
+      "confidence": 0.77,
+      "skew": "negative",
+      "notes": "A peg-anchored, low-inflation but cashew-mono-dependent economy shadowed by an illicit cocaine corridor.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": -2,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.75,
+          "notes": "Public debt ~78-82% of GDP at high distress risk; an IMF ECF deficit target existed but the coup imperils program continuity. (IMF Jul-2025)"
+        },
+        "monetary_independence": {
+          "score": 2,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "The WAEMU CFA franc, hard-pegged to the euro with a French convertibility guarantee via BCEAO - credibility at the cost of autonomy. (BCEAO; IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The CFA franc is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 3,
+          "weight": 0.13,
+          "confidence": 0.8,
+          "notes": "Low and peg-anchored (~2%). (IMF)"
+        },
+        "banking_stability": {
+          "score": -1,
+          "weight": 0.1,
+          "confidence": 0.55,
+          "notes": "Within the WAEMU framework but with weak local supervision and high sovereign exposure in a fragile state. (IMF)"
+        },
+        "trade_actions_capacity": {
+          "score": -2,
+          "weight": 0.17,
+          "confidence": 0.65,
+          "notes": "Extreme cashew mono-dependence (~80% of exports) alongside a parallel illicit cocaine economy - benefiting near-term from high cashew prices. (IMF; UNODC)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -4.4,
+      "confidence": 0.68,
+      "skew": "negative",
+      "notes": "Among the world's weakest institutions - coup-prone, narco-captured, with a post-coup press warning.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -6,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "Among the world's weakest - chronic coups, drug-trafficking capture of elites, and a military that voids elections. (Freedom House 2026; UNODC)"
+        },
+        "statistical_integrity": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "Limited, IMF-engaged but unreliable - the destroyed 2025 vote count epitomizes the fragility. (IMF; Al Jazeera)"
+        },
+        "civil_service_capacity": {
+          "score": -4,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "A hollow, politicized, donor-dependent administration repeatedly disrupted by ruptures. (World Bank/IMF)"
+        },
+        "press_freedom": {
+          "score": -4,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "RSF 110th (2025), down 18 places; post-coup the new authorities warned media to 'cooperate'. (RSF 2025; MFWA)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -3.7,
+      "confidence": 0.66,
+      "skew": "negative",
+      "notes": "Acute instability from a fresh military takeover atop a deep coup history.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -7,
+          "score_long": -5,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.85,
+          "notes": "Four-plus coups since independence; the Nov-2025 takeover amid a disputed election, with ECOWAS/AU suspension and 'staged coup' allegations. (Reuters; Al Jazeera; Amani Africa)"
+        },
+        "civil_liberties": {
+          "score": -3,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Restricted further post-coup - assembly curbed, opposition harassed, the PAIGC barred. (Freedom House 2026; RSF)"
+        },
+        "treatment_non_citizens": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.5,
+          "notes": "No systematic targeting of foreigners, but a weak-rule-of-law environment offers little protection. (observed)"
+        },
+        "social_cohesion": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Politico-military factionalism and drug-money rivalries rather than ethnic war, with recurrent elite violence. (ICG; Global Initiative)"
+        },
+        "demographics": {
+          "score_near": 1,
+          "score_long": -1,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "Young and growing, but brain drain and weak job creation blunt any dividend. (UN/World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -1.1,
+      "confidence": 0.64,
+      "skew": "negative",
+      "notes": "Suspended from ECOWAS/AU after the coup, an erratic but unsanctioned WAEMU member.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": -3,
+          "weight": 0.4,
+          "confidence": 0.7,
+          "notes": "Suspended from ECOWAS and the AU after the coup; an erratic foreign alignment and a diplomatic problem case. (Al Jazeera; Soufan Center)"
+        },
+        "conflict_involvement": {
+          "score": 0,
+          "weight": 0.35,
+          "confidence": 0.6,
+          "notes": "No interstate/insurgent war - instability is internal coup/factional violence, not armed conflict. (ICG)"
+        },
+        "sanctions_capital_controls": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "An open WAEMU/CFA regime with no broad sanctions to date; ECOWAS has only threatened targeted measures on coup actors. (Amani Africa)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -3.7,
+      "confidence": 0.59,
+      "skew": "negative",
+      "notes": "Among the world's weakest health and infrastructure, with drug-linked crime and coastal exposure.",
+      "sub_factors": {
+        "climate": {
+          "score_near": -3,
+          "score_long": -4,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.6,
+          "notes": "A low-lying coast and Bijagos archipelago exposed to sea-level rise and erosion, with near-zero adaptive capacity. (World Bank)"
+        },
+        "healthcare": {
+          "score": -5,
+          "weight": 0.3,
+          "confidence": 0.6,
+          "notes": "One of the world's weakest health systems - low coverage, chronic shortages, heavy external reliance. (World Bank/WHO)"
+        },
+        "infrastructure": {
+          "score": -4,
+          "weight": 0.2,
+          "confidence": 0.6,
+          "notes": "Very poor power, roads, and water, with chronic electricity deficits. (World Bank/AfDB)"
+        },
+        "crime_safety": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Pervasive drug-trafficking-linked organized crime and corruption, plus political-violence risk. (UNODC; Global Initiative)"
+        },
+        "disaster_insurance": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.5,
+          "notes": "Effectively no functioning insurance market. (observed)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -3.05,
+      "confidence": 0.67,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -1.86,
+      "confidence": 0.7,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -1.07,
+      "confidence": 0.73,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A deeply negatively-skewed fragile state: cashew-dependent (~80% of exports), a WAEMU CFA member whose euro peg and ~2% inflation are its only firm anchors, and a long-running South America-to-Europe cocaine-transit hub whose trafficking money has captured politics and security. Its defining 2025 fact is the November military takeover - the army seized power a day before results of a disputed Nov 23 election (both Embalo and opposition candidate Dias claimed victory, the PAIGC was barred, and the count was reportedly destroyed), drawing ECOWAS and AU suspension. Credible voices allege the coup was staged by Embalo to rule by proxy - encoded here as a serious allegation, while the takeover itself is corroborated. With rule of law near the floor and among the world's weakest health and infrastructure, the only realistic upside is a genuine ECOWAS-brokered democratic reset."
+}

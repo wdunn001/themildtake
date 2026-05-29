@@ -1,0 +1,246 @@
+{
+  "country": "Lesotho",
+  "iso3": "LSO",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF, World Bank, UNCTAD, Freedom House, RSF, Amnesty) + international press.",
+    "A mountainous kingdom enclaved entirely within South Africa, with chronic coalition churn and a history of military meddling (the 2014 'almost-coup', SADC mediation).",
+    "Standout drags: an acute 2025 trade shock (AGOA-dependent garments ~80% of US-bound exports hit by a threatened ~50% US tariff, cut to 15%, triggering a national state of disaster), chronic political fragility, and very high HIV; lifelines are Highlands Water royalties and SA remittances."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -0.5,
+      "confidence": 0.8,
+      "skew": "negative",
+      "notes": "A near-term SACU/water-royalty surplus cushion, against acute medium-term trade and debt exposure.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": 1,
+          "score_long": -2,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.7,
+          "notes": "A large FY24 surplus (~9% of GDP) on record SACU transfers and water royalties cushions the near term, but debt is elevated (~57%, 80% external) and SACU/tariff shocks threaten the medium term. (IMF Art IV 2025)"
+        },
+        "monetary_independence": {
+          "score": -2,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "The loti is pegged 1:1 to the rand under the CMA - monetary policy effectively imported from South Africa. (CMA/IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The loti is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 4,
+          "weight": 0.13,
+          "confidence": 0.75,
+          "notes": "Contained via the rand peg, broadly tracking South African inflation. (IMF; CMA)"
+        },
+        "banking_stability": {
+          "score": 2,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "A small, stable, CMA-anchored banking sector; risks are fiscal/external. (IMF)"
+        },
+        "trade_actions_capacity": {
+          "score": -5,
+          "weight": 0.17,
+          "confidence": 0.8,
+          "notes": "Extreme dependence on US-bound garments under AGOA, exposed by the 2025 tariff shock/AGOA expiry; otherwise SACU + water royalties + remittances. (IMF; UNCTAD)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 0.3,
+      "confidence": 0.62,
+      "skew": "symmetric",
+      "notes": "Functioning but weak institutions with politicized security forces and a fragile press.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 0,
+          "weight": 0.35,
+          "confidence": 0.65,
+          "notes": "Functioning but weak - courts operate and reforms are debated, but politicized security forces and corruption persist. (Freedom House 2025; BTI 2026)"
+        },
+        "statistical_integrity": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "IMF program-engaged with usable but capacity-constrained data. (IMF Art IV 2025)"
+        },
+        "civil_service_capacity": {
+          "score": 0,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Modest capacity strained by instability; a reform agenda exists but delivery is uneven. (World Bank; BTI 2026)"
+        },
+        "press_freedom": {
+          "score": -1,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Pluralistic but fragile - the 2023 murder of journalist Ralikonelo Joki was a chilling marker (RSF ~107 in 2025). (RSF 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -1.3,
+      "confidence": 0.63,
+      "skew": "negative",
+      "notes": "Chronic coalition fragility and a military-interference legacy, with very high HIV.",
+      "sub_factors": {
+        "political_stability": {
+          "score": -4,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "Chronic coalition fragility (Matekane's RFP coalition reshuffled repeatedly) plus a track record of military interference. (Freedom House 2025; Al Jazeera)"
+        },
+        "civil_liberties": {
+          "score": 2,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Broadly protected with competitive elections, though defenders (e.g., LHWP-affected communities) report heavy-handed tactics. (Freedom House 2025; Amnesty)"
+        },
+        "treatment_non_citizens": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.45,
+          "notes": "A small foreign population with no notable systematic mistreatment, though data are thin. (inference)"
+        },
+        "social_cohesion": {
+          "score": -1,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Relatively homogeneous (Basotho) but high poverty, inequality, and the HIV burden strain cohesion. (World Bank)"
+        },
+        "demographics": {
+          "score": -3,
+          "weight": 0.1,
+          "confidence": 0.7,
+          "notes": "Heavy out-migration of working-age labour and very high HIV prevalence weaken human capital. (World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 2.8,
+      "confidence": 0.62,
+      "skew": "negative",
+      "notes": "A SA-dependent, conflict-free partner with acute US-trade-policy exposure.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 2,
+          "weight": 0.4,
+          "confidence": 0.55,
+          "notes": "A stable SACU/CMA/SADC partner deeply dependent on and surrounded by South Africa - predictable but with little leverage. (observed)"
+        },
+        "conflict_involvement": {
+          "score": 4,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "No external conflict - instability is internal/coup-risk, and SADC has repeatedly mediated. (ISS)"
+        },
+        "sanctions_capital_controls": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "No sanctions, open account under the CMA peg, but acute exposure to US trade policy is the dominant external risk. (IMF; UNCTAD)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -2.4,
+      "confidence": 0.58,
+      "skew": "negative",
+      "notes": "Mountainous drought/erosion exposure and a high HIV/TB burden, with the water project the standout asset.",
+      "sub_factors": {
+        "climate": {
+          "score": -3,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Mountainous, drought- and erosion-prone, with climate variability hitting agriculture; water itself is the key asset. (World Bank)"
+        },
+        "healthcare": {
+          "score": -2,
+          "weight": 0.3,
+          "confidence": 0.6,
+          "notes": "One of the world's highest HIV/TB burdens straining the system, PEPFAR/Global Fund-supported and thus aid-exposed. (World Bank)"
+        },
+        "infrastructure": {
+          "score": -2,
+          "weight": 0.2,
+          "confidence": 0.6,
+          "notes": "Difficult mountainous terrain limits connectivity; the Highlands Water Project is the standout asset but access elsewhere is patchy. (World Bank)"
+        },
+        "crime_safety": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.5,
+          "notes": "Elevated violent-crime rates and politicized security forces, with a journalist killing underscoring impunity. (RSF)"
+        },
+        "disaster_insurance": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.5,
+          "notes": "Drought/climate exposure plus the 2025 economic state of disaster, with thin penetration. (inference)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -0.66,
+      "confidence": 0.64,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": -0.24,
+      "confidence": 0.69,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 0.02,
+      "confidence": 0.73,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A mountainous kingdom wholly enclaved within South Africa, defined by chronic political instability - repeated coalition collapses and a history of military interference that has drawn SADC mediation. Its economy is dangerously concentrated: AGOA-dependent garment exports (~80% of US-bound trade, ~1/3 of GDP) were hammered by the 2025 US tariff shock - an initial ~50% threat cut to 15% - alongside AGOA's expiry and aid cuts, triggering a two-year national state of disaster and an IMF growth downgrade to ~1.4%. Lifelines run through South Africa via Highlands Water Project royalties and labour remittances, but very high HIV/TB and high poverty weigh on human capital. The skew is negative, driven by political fragility and acute trade-policy exposure, partly offset by a near-term fiscal cushion from record SACU/water receipts."
+}

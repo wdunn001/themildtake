@@ -1,0 +1,244 @@
+{
+  "country": "Brunei",
+  "iso3": "BRN",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF, AMRO, EIA, Freedom House, RSF, TI, HRW, ICJ, Minority Rights Group) + international press; state media EXCLUDED on governance.",
+    "A wealthy oil-and-gas absolute monarchy (Sultan Hassanal Bolkiah, one of the world's longest-reigning) with no political freedoms, a near-non-existent free press, and a 2014-19 sharia penal code (stoning provisions) held in check only by a revocable death-penalty moratorium.",
+    "Standout features: high wealth, no income tax, cradle-to-grave welfare, sound peg, and low crime, against extreme hydrocarbon mono-dependence (declining output, a large fiscal deficit), catastrophic civil liberties, and ~20,000+ excluded stateless residents."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -1.4,
+      "confidence": 0.8,
+      "skew": "negative",
+      "notes": "Huge sovereign buffers and a stable peg, against extreme hydrocarbon mono-dependence and a structural deficit.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -3,
+          "weight": 0.22,
+          "confidence": 0.75,
+          "notes": "Huge sovereign buffers (the BIA fund) and no public debt, but a structural, oil-price-dependent fiscal deficit (~11.5-13% of GDP projected 2026) as output declines. (IMF 2025 Art IV; AMRO)"
+        },
+        "monetary_independence": {
+          "score": -1,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "The Brunei dollar in a currency-interchangeability/board arrangement at par with the Singapore dollar - low independence but exceptionally stable. (IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The Brunei dollar is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 2,
+          "weight": 0.13,
+          "confidence": 0.75,
+          "notes": "Very low/near-zero, anchored to the Singapore peg. (IMF 2025)"
+        },
+        "banking_stability": {
+          "score": 1,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "A small, well-capitalised, conservatively-run, Islamic-finance-oriented system - limited but sound. (IMF; State Dept 2025)"
+        },
+        "trade_actions_capacity": {
+          "score": -5,
+          "weight": 0.17,
+          "confidence": 0.8,
+          "notes": "Massive single-commodity concentration (hydrocarbons ~90% of exports) with declining reserves and slow diversification. (EIA; IMF; State Dept 2025)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -2.6,
+      "confidence": 0.64,
+      "skew": "negative",
+      "notes": "A stable, predictable but unchecked absolute monarchy with a sharia-code arbitrariness risk and no free press.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -3,
+          "weight": 0.35,
+          "confidence": 0.65,
+          "notes": "Stable and predictable with a moderate CPI (~63), but power is unchecked (absolute monarchy) and the sharia code introduces severe arbitrariness. (TI CPI 2024; Freedom House 2025)"
+        },
+        "statistical_integrity": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "Adequate basic macro data but limited transparency, especially around the sovereign fund. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Well-resourced and functional, though patronage-laden and oversized relative to the private sector. (State Dept 2025)"
+        },
+        "press_freedom": {
+          "score": -8,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "'Virtually non-existent' - media owned by the Sultan's family, pervasive self-censorship, and prison terms for 'malicious' content. (RSF; Freedom House 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -1.6,
+      "confidence": 0.74,
+      "skew": "negative",
+      "notes": "Highly stable under one ruler but with no freedoms, a sharia code, and an excluded stateless minority.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 5,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "Highly stable under one of the world's longest-reigning monarchs, but resting on a single unaccountable ruler (key-person/succession risk). (Freedom House 2025)"
+        },
+        "civil_liberties": {
+          "score": -8,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "No elected national representation; assembly/expression/religion heavily restricted, and the sharia code criminalises same-sex relations and extramarital sex. (Freedom House 2025; HRW; ICJ)"
+        },
+        "treatment_non_citizens": {
+          "score": -5,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "~20,000+ stateless (mostly multi-generational ethnic Chinese) barred from subsidised healthcare, higher education, and property. (Minority Rights Group; UNHCR)"
+        },
+        "social_cohesion": {
+          "score": 0,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "A generally calm Malay-Muslim-majority society, with the structural Chinese-minority/statelessness fault line. (Minority Rights Group)"
+        },
+        "demographics": {
+          "score": 0,
+          "weight": 0.1,
+          "confidence": 0.65,
+          "notes": "Below-replacement fertility (~1.8) but a still-growing population buoyed by foreign labour, with no acute near-term pressure. (Demographics data)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 1,
+      "confidence": 0.66,
+      "skew": "symmetric",
+      "notes": "A quiet ASEAN hedger and South China Sea claimant that avoids confrontation, with an open account.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 2,
+          "weight": 0.4,
+          "confidence": 0.6,
+          "notes": "A quiet, consistent ASEAN member hedging between China, the US, Singapore, and Australia. (State Dept 2025)"
+        },
+        "conflict_involvement": {
+          "score": 0,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "A South China Sea claimant that deliberately stays quiet and avoids confrontation. (State Dept 2025)"
+        },
+        "sanctions_capital_controls": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "An open capital account, unsanctioned, with free convertibility under the Singapore arrangement. (IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 2.6,
+      "confidence": 0.68,
+      "skew": "positive",
+      "notes": "Top-tier (citizen) healthcare, modern infrastructure, and very low crime, against modest climate exposure.",
+      "sub_factors": {
+        "climate": {
+          "score": -2,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Lower acute exposure than regional peers (no major cyclone belt), but rising heat, flooding, and high per-capita emissions. (inference)"
+        },
+        "healthcare": {
+          "score": 4,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "A free, high-quality universal system for citizens - among Asia's finest - though excluding stateless residents. (Minority Rights Group)"
+        },
+        "infrastructure": {
+          "score": 3,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Modern, well-funded infrastructure and utilities. (State Dept 2025)"
+        },
+        "crime_safety": {
+          "score": 5,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "Very low crime, one of the safest countries in the region. (observed)"
+        },
+        "disaster_insurance": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.5,
+          "notes": "State fiscal buffers effectively self-insure; the commercial market is thin but exposure is modest. (inference)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -1.16,
+      "confidence": 0.7,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": -0.98,
+      "confidence": 0.72,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -1.3,
+      "confidence": 0.74,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A wealthy, stable, low-crime absolute monarchy that delivers genuine material comfort - no income tax, cradle-to-grave welfare, top-tier healthcare for citizens, and a sound peg to the Singapore dollar. But it is structurally fragile in two ways: an economy almost wholly dependent on declining oil and gas (~90% of exports, with a large and growing fiscal deficit), and an absence of political freedom - no elections, an essentially non-existent free press, and a 2014-19 sharia penal code with stoning provisions that only a revocable moratorium holds in check. Stateless ethnic-Chinese residents are systematically excluded from the welfare bargain. The skew is negative: stability and wealth are real but rest on a single ruler and a depleting resource, with civil liberties scoring catastrophically."
+}

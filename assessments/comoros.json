@@ -1,0 +1,244 @@
+{
+  "country": "Comoros",
+  "iso3": "COM",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF, World Bank, Banque de France, Freedom House, RSF, ReliefWeb/OCHA) + international press; state media EXCLUDED on governance.",
+    "A coup-prone Indian Ocean archipelago (~20 coups/attempts since 1975) with deep Anjouan/Moheli secessionist history and the unresolved Mayotte dispute; President Azali (a former coup leader) won a disputed Jan 2024 election amid post-election unrest.",
+    "Standout drags: chronic political fragility, very weak human capital and healthcare, and acute cyclone/volcanic exposure (Cyclone Chido, Dec 2024); the euro-pegged franc and diaspora remittances are the external anchors."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -0.8,
+      "confidence": 0.73,
+      "skew": "negative",
+      "notes": "A peg-anchored but weak-revenue, remittance-financed economy with a tiny export base.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -3,
+          "weight": 0.22,
+          "confidence": 0.7,
+          "notes": "Weak revenue mobilisation (tax revenue down ~12% by mid-2025) and uneven consolidation, though under an IMF ECF. (IMF ECF 4th Review 2025)"
+        },
+        "monetary_independence": {
+          "score": 1,
+          "weight": 0.22,
+          "confidence": 0.75,
+          "notes": "The franc's euro peg with an unlimited French convertibility guarantee imports euro-area discipline - limited autonomy but a real anchor. (Banque de France; IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The Comorian franc is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 2,
+          "weight": 0.13,
+          "confidence": 0.7,
+          "notes": "Elevated but moderating - ~7.3% y/y in March 2025 on Cyclone Chido supply shocks, anchored over time by the euro peg. (IMF 2025)"
+        },
+        "banking_stability": {
+          "score": 0,
+          "weight": 0.1,
+          "confidence": 0.5,
+          "notes": "A small, shallow sector with weak credit, gradual recovery but limited supervision/depth. (IMF)"
+        },
+        "trade_actions_capacity": {
+          "score": -4,
+          "weight": 0.17,
+          "confidence": 0.7,
+          "notes": "A tiny, undiversified export base (vanilla, cloves, ylang-ylang) with a structural trade deficit financed by diaspora remittances. (IMF; World Bank)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -1.8,
+      "confidence": 0.62,
+      "skew": "negative",
+      "notes": "Weak, politicized institutions with entrenched corruption and a fragile press.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -3,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "Weak and politicized - power consolidated post-2018, with a contested judiciary and entrenched corruption. (Freedom House 2025; Heritage)"
+        },
+        "statistical_integrity": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "IMF program-engaged with usable but limited-capacity statistics. (IMF ECF 2025)"
+        },
+        "civil_service_capacity": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Chronic underinvestment - among the lowest on the Human Capital Index, with weak service delivery. (World Bank)"
+        },
+        "press_freedom": {
+          "score": -1,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Mixed/fragile - pressure on the opposition, but 2025 saw first-ever press cards and Parliament rejecting a source-disclosure clause (RSF ~72/180). (RSF 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -2.7,
+      "confidence": 0.6,
+      "skew": "negative",
+      "notes": "Coup-prone with a disputed election and deadly unrest, over persistent inter-island grievances.",
+      "sub_factors": {
+        "political_stability": {
+          "score": -4,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "A coup-prone history and the disputed Jan 2024 election with deadly unrest - stability rests on consolidated executive power, not durable institutions. (France 24; ISS)"
+        },
+        "civil_liberties": {
+          "score": -2,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Restricted - crackdowns on opposition and protest, with reported violence in the 2024 post-election period. (Freedom House 2025; France 24)"
+        },
+        "treatment_non_citizens": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.45,
+          "notes": "A limited foreign population; the dominant migration story is Comorians risking the crossing to Mayotte. (France 24; inference)"
+        },
+        "social_cohesion": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Persistent inter-island grievances (Anjouan/Moheli vs Moroni) and the Mayotte question fuel latent fragmentation. (Britannica; ISS)"
+        },
+        "demographics": {
+          "score": -2,
+          "weight": 0.1,
+          "confidence": 0.55,
+          "notes": "Young but very poor (~45% below the poverty line), with high emigration and weak human capital. (France 24; World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 2,
+      "confidence": 0.56,
+      "skew": "symmetric",
+      "notes": "France-dependent and broadly non-aligned, conflict-free but with the Mayotte dispute unresolved.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 1,
+          "weight": 0.4,
+          "confidence": 0.5,
+          "notes": "Close, dependency-driven ties to France (currency guarantee, diaspora, aid) plus AU engagement; small and non-aligned. (Banque de France)"
+        },
+        "conflict_involvement": {
+          "score": 3,
+          "weight": 0.35,
+          "confidence": 0.6,
+          "notes": "No active armed conflict, but a history of secessionist insurgencies/interventions and the unresolved Mayotte sovereignty dispute. (AU records)"
+        },
+        "sanctions_capital_controls": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "No sanctions; the euro peg's convertibility guarantee supports external stability despite a thin economy. (Banque de France; IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -4,
+      "confidence": 0.6,
+      "skew": "negative",
+      "notes": "Acute cyclone and volcanic exposure, with a severely under-resourced health system.",
+      "sub_factors": {
+        "climate": {
+          "score": -5,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "High exposure to cyclones (Chido, Dec 2024 affected ~64,000) and flooding, with climate-driven supply shocks. (IMF; ReliefWeb/OCHA)"
+        },
+        "healthcare": {
+          "score": -4,
+          "weight": 0.3,
+          "confidence": 0.65,
+          "notes": "Severely under-resourced - shortages of medicines, equipment, and staff, with less than half of pregnant women getting full prenatal care. (World Bank; AHO)"
+        },
+        "infrastructure": {
+          "score": -4,
+          "weight": 0.2,
+          "confidence": 0.6,
+          "notes": "Poor inter-island connectivity, unreliable power/water, and weak transport on a fragmented archipelago. (World Bank; IMF)"
+        },
+        "crime_safety": {
+          "score": 0,
+          "weight": 0.15,
+          "confidence": 0.4,
+          "notes": "Ordinary crime moderate; principal risks are political violence and disaster, not baseline crime. (inference)"
+        },
+        "disaster_insurance": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Acute, compounding hazard (cyclone + Mt Karthala volcanism) with negligible penetration. (Global Volcanism Program; inference)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -2.03,
+      "confidence": 0.63,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": -1.15,
+      "confidence": 0.65,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -0.73,
+      "confidence": 0.68,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "One of the world's poorest states - a coup-prone Indian Ocean archipelago with deep inter-island secessionist fractures (Anjouan/Moheli) and the unresolved Mayotte dispute. President Azali Assoumani, a former coup leader who removed term limits, won a disputed January 2024 election (62.97% on ~16% turnout) marred by fraud claims and deadly unrest, atop weak institutions and pervasive corruption. Its clearest structural strengths are external anchors rather than domestic capacity: the euro-pegged franc with a French convertibility guarantee, robust diaspora remittances, and an IMF ECF program. The skew is negative - chronic political fragility, very weak human capital and healthcare, and acute cyclone/volcanic exposure (Cyclone Chido hit in Dec 2024) outweigh the monetary anchor."
+}

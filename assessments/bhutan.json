@@ -1,0 +1,246 @@
+{
+  "country": "Bhutan",
+  "iso3": "BTN",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "positive",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF, World Bank, ADB, UNFPA, Freedom House, RSF, TI) + international press.",
+    "A rare small-state governance success - Freedom House upgraded Bhutan to 'Free' in 2025 and it ranked 18th-cleanest on TI's CPI 2024 - but facing an existential emigration/demographic crisis and total India-dependence.",
+    "Standout features: strong institutions, low corruption, carbon-negative hydropower, and the speculative $100bn Gelephu Mindfulness City, against below-replacement fertility, a youth exodus to Australia, India-dependence, and severe GLOF risk."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -1.6,
+      "confidence": 0.8,
+      "skew": "symmetric",
+      "notes": "Low inflation and concessional debt, against a tiny single-export, India-dependent base and thin reserves.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -3,
+          "weight": 0.22,
+          "confidence": 0.7,
+          "notes": "High headline debt (~100%+) but mostly concessional/hydropower-project debt to India in INR with matched revenue; FX reserves thin at ~4.8 months. (IMF 2024 Art IV)"
+        },
+        "monetary_independence": {
+          "score": -2,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "The ngultrum is pegged 1:1 to the Indian rupee (INR circulates freely) - imports Indian policy wholesale. (IMF; RMA)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The ngultrum is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 2,
+          "weight": 0.13,
+          "confidence": 0.8,
+          "notes": "Low and stable (~3-4%), tracking India's. (IMF)"
+        },
+        "banking_stability": {
+          "score": -2,
+          "weight": 0.1,
+          "confidence": 0.65,
+          "notes": "A small sector with improving balance sheets but low profitability, legacy NPLs, and heavy housing-loan concentration. (IMF 2024; ADB)"
+        },
+        "trade_actions_capacity": {
+          "score": -4,
+          "weight": 0.17,
+          "confidence": 0.75,
+          "notes": "A tiny, landlocked, single-export (hydropower) economy dependent on one partner (India), with temporary import restrictions used to defend reserves. (IMF; WTO)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 2.2,
+      "confidence": 0.62,
+      "skew": "positive",
+      "notes": "Strong-for-income rule of law and low corruption, on a small administration with a thin media market.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 4,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "Strong for the region - CPI 2024 score 72 (18th globally), credible courts, and a low-corruption reputation. (TI CPI 2024; Freedom House 2025)"
+        },
+        "statistical_integrity": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "Generally credible official data but limited capacity and coverage in a small administration. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Functional and relatively clean but small and capacity-constrained, with brain-drain pressure. (World Bank; ADB)"
+        },
+        "press_freedom": {
+          "score": 1,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "An improving environment with self-censorship and a thin, financially fragile media market. (Freedom House 2025; RSF)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 1.7,
+      "confidence": 0.73,
+      "skew": "symmetric",
+      "notes": "Stable democracy and improving liberties, against an existential emigration drain and a refugee legacy.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 6,
+          "weight": 0.3,
+          "confidence": 0.85,
+          "notes": "A stable constitutional monarchy/democracy - the Jan-2024 vote returned PM Tobgay/PDP with peaceful, credible transfers. (Al Jazeera 2024; Freedom House 2025)"
+        },
+        "civil_liberties": {
+          "score": 3,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Broadly respected and improving, the basis for the 2025 'Free' upgrade. (Freedom House 2025)"
+        },
+        "treatment_non_citizens": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "A strong current record, but the unresolved legacy of the early-1990s expulsion of ~100,000 Lhotshampa refugees and lingering minority discrimination. (Freedom House 2025; HRW historical)"
+        },
+        "social_cohesion": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "A cohesive Buddhist-majority society under the GNH ethos, with the noted ethnic-minority caveat. (Freedom House; ORF)"
+        },
+        "demographics": {
+          "score": -5,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "Below-replacement fertility (~1.5) plus a mass youth exodus to Australia - declared an 'existential' emigration crisis. (UNFPA; SCMP)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 0.3,
+      "confidence": 0.68,
+      "skew": "symmetric",
+      "notes": "A reliable but dependent India relationship, caught in the India-China border rivalry.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 3,
+          "weight": 0.4,
+          "confidence": 0.65,
+          "notes": "A reliable, treaty-bound India relationship (security + economy) that is also a dependency; no ties with China amid an unresolved border. (Freedom House 2025)"
+        },
+        "conflict_involvement": {
+          "score": -1,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "No active conflict, but caught in the India-China border rivalry (Doklam-type friction) with no army of its own beyond Indian guarantees. (ORF)"
+        },
+        "sanctions_capital_controls": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Unsanctioned, but uses FX/import controls episodically to manage reserves. (IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -1.5,
+      "confidence": 0.68,
+      "skew": "negative",
+      "notes": "Very safe and carbon-negative, but acutely exposed to glacial-lake-outburst floods.",
+      "sub_factors": {
+        "climate": {
+          "score_near": -4,
+          "score_long": -7,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Carbon-negative itself, but acutely exposed to glacial-lake-outburst floods (GLOFs) - thousands at risk, glaciers receding 30-60m/decade. (NHESS 2026; UNDP)"
+        },
+        "healthcare": {
+          "score": 0,
+          "weight": 0.3,
+          "confidence": 0.6,
+          "notes": "A free public system with decent basic indicators but limited specialist capacity; serious cases referred to India. (World Bank)"
+        },
+        "infrastructure": {
+          "score": -2,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Improving (hydropower, roads) but constrained by terrain and remoteness; Gelephu City is the bet to leapfrog this. (World Bank; SCMP)"
+        },
+        "crime_safety": {
+          "score": 5,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Very low crime, one of the safest countries in the region. (observed)"
+        },
+        "disaster_insurance": {
+          "score": -7,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Negligible catastrophe-insurance penetration against high GLOF/seismic exposure. (inference)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 0.62,
+      "confidence": 0.69,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": -0.22,
+      "confidence": 0.72,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -0.56,
+      "confidence": 0.74,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A rare small-state governance success - a consolidated constitutional democracy (Freedom House upgraded it to 'Free' in 2025) with low corruption (18th on the CPI), genuine political stability under returned PM Tobgay, and a carbon-negative, hydropower-funded economy. The defining risks are not political but economic and demographic: near-total dependence on India (currency peg, security, the single hydropower export), thin FX reserves, below-replacement fertility, and a mass youth exodus to Australia that the government itself calls existential. Physical exposure to glacial-lake-outburst floods is severe and worsening. The skew is positive because institutional quality and stability anchor the downside, with the $100bn Gelephu Mindfulness City representing genuine (if speculative) upside."
+}

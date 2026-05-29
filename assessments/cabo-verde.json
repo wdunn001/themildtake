@@ -1,0 +1,250 @@
+{
+  "country": "Cabo Verde",
+  "iso3": "CPV",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF, World Bank, MCC, Freedom House, RSF, PreventionWeb) + international press.",
+    "Among Africa's best-governed democracies (top-tier Freedom House 'Free', repeated peaceful alternations, free press), with a tourism-and-remittance economy on a euro-pegged escudo.",
+    "Standout features: strong institutions and a credible disinflation, against high public debt (~105% of GDP, declining under an IMF ECF/RSF), deep European-tourism dependence, and an arid, water-scarce archipelago facing chronic drought and rare Fogo volcanism."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 0.2,
+      "confidence": 0.81,
+      "skew": "positive",
+      "notes": "A peg-anchored, low-inflation tourism economy with high-but-declining debt.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": 0,
+          "score_long": 1,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "Debt high at ~105% of GDP but on a firm downward path under an on-track IMF ECF; still elevated for a small open economy. (IMF May-2026)"
+        },
+        "monetary_independence": {
+          "score": -1,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "The escudo is hard-pegged to the euro, backed by a Portuguese Treasury credit line - stability bought with near-zero autonomy. (IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The escudo is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 4,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "Low and peg-anchored (~2.3%), tracking the euro area - a structural strength. (IMF)"
+        },
+        "banking_stability": {
+          "score": 1,
+          "weight": 0.1,
+          "confidence": 0.65,
+          "notes": "Broadly stable and supervised within the euro-peg framework, with some legacy NPLs. (IMF; Coface)"
+        },
+        "trade_actions_capacity": {
+          "score": -1,
+          "weight": 0.17,
+          "confidence": 0.7,
+          "notes": "Heavily concentrated in tourism/services and reliant on imported food/fuel - highly exposed to European demand. (IMF; AfDB)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 3.5,
+      "confidence": 0.75,
+      "skew": "positive",
+      "notes": "Strong-for-region rule of law, credible data, a capable state, and a free press.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 4,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "Strong by African standards - independent courts and respected institutions, though an overburdened court system slows justice. (Freedom House 2025; MCC)"
+        },
+        "statistical_integrity": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "Credible, IMF/World Bank-engaged statistics with frequent reviews. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "A comparatively capable, technocratic administration that has executed sustained reform. (IMF/World Bank)"
+        },
+        "press_freedom": {
+          "score": 4,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "Free and pluralistic media, among the best in Africa. (RSF; Freedom House 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 3.3,
+      "confidence": 0.71,
+      "skew": "positive",
+      "notes": "A consolidated democracy with high social trust, thinned over time by emigration.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 5,
+          "weight": 0.3,
+          "confidence": 0.85,
+          "notes": "Decades of competitive elections and peaceful transfers, with a 2026 general election approaching and no instability signals. (Freedom House 2025)"
+        },
+        "civil_liberties": {
+          "score": 4,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Broadly protected speech/assembly/association, with corruption allegations and judicial backlog the main caveats. (Freedom House 2025)"
+        },
+        "treatment_non_citizens": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "No systematic abuse - a tourism economy generally open to foreigners and migrants. (observed)"
+        },
+        "social_cohesion": {
+          "score": 3,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "A homogeneous Creole society with high social trust and low political violence. (Freedom House)"
+        },
+        "demographics": {
+          "score_near": 0,
+          "score_long": -1,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "Heavy emigration and a large diaspora sustain remittances but thin the domestic labour force over time. (World Bank/UN)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 3.1,
+      "confidence": 0.71,
+      "skew": "positive",
+      "notes": "A reliable Western/EU/US partner, conflict-free and unsanctioned.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 3,
+          "weight": 0.4,
+          "confidence": 0.7,
+          "notes": "A reliable Western/EU/US partner with a special EU partnership and an MCC compact track record. (MCC)"
+        },
+        "conflict_involvement": {
+          "score": 4,
+          "weight": 0.35,
+          "confidence": 0.75,
+          "notes": "No conflict involvement - mid-Atlantic islands far from regional insurgencies. (observed)"
+        },
+        "sanctions_capital_controls": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "Unsanctioned and open under an IMF program; the euro peg implies orthodox policy. (IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -0.9,
+      "confidence": 0.64,
+      "skew": "negative",
+      "notes": "Good regional infrastructure and relative safety, against chronic drought and rare volcanism.",
+      "sub_factors": {
+        "climate": {
+          "score_near": -3,
+          "score_long": -4,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "Arid Sahel-extension islands with chronic drought and salinization, met by energy-intensive desalination on imported fuel. (IMF RSF; World Bank)"
+        },
+        "healthcare": {
+          "score": -1,
+          "weight": 0.3,
+          "confidence": 0.6,
+          "notes": "A functional basic public system but limited, with advanced care concentrated in Praia/Mindelo and supply shortages. (OSAC)"
+        },
+        "infrastructure": {
+          "score": 1,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Relatively good for the region (airports, ports, telecom) but reliant on imported thermal power and costly inter-island logistics. (AfDB)"
+        },
+        "crime_safety": {
+          "score": 1,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "One of Africa's safer countries, though rising petty/violent crime in Praia prompted a Dec-2025 US advisory note. (OSAC)"
+        },
+        "disaster_insurance": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Thin penetration against drought and rare Fogo volcanic risk. (World Bank; PreventionWeb)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 2.3,
+      "confidence": 0.73,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 1.7,
+      "confidence": 0.75,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 1.42,
+      "confidence": 0.78,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A well-governed outlier - among Africa's strongest democracies (top-tier Freedom House 'Free', repeated peaceful alternations, free press, a capable technocratic state) with a tourism-and-remittance, services-led economy that grew ~6.3% in 2025 on record arrivals, with ~2.3% euro-peg-anchored inflation. Its escudo is hard-pegged to the euro under a Portuguese Treasury credit line, trading monetary autonomy for stability; public debt is high (~105% of GDP) but declining on a firm path under an on-track IMF ECF/RSF program. The structural risks are economic and physical rather than political: deep dependence on European tourism and imported food/fuel, and an arid, water-scarce archipelago facing chronic drought (managed via costly desalination) plus rare Fogo volcanic hazard."
+}

@@ -1,0 +1,244 @@
+{
+  "country": "São Tomé and Príncipe",
+  "iso3": "STP",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "positive",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF, World Bank, IRENA, Freedom House, RSF, ISS) + international press.",
+    "One of Africa's freest small democracies (consistently 'Free', peaceful turnovers), shaken by a November 2022 attempted coup and credible reports of custody abuse of suspects.",
+    "Standout features: strong governance-for-income and a free press, against deep structural poverty, a chronic electricity crisis (EMAE diesel blackouts), import/aid dependence, and unmaterialized offshore oil. Net positive on institutional strength."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -1.4,
+      "confidence": 0.81,
+      "skew": "symmetric",
+      "notes": "A reform-anchored but aid-dependent, tiny, import-reliant economy under a euro peg.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -3,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "Fragile but reform-anchored under the IMF ECF, reaching a zero domestic primary balance in 2024 but heavily aid-financed with declining ODA. (IMF ECF 2nd review Dec 2025)"
+        },
+        "monetary_independence": {
+          "score": -1,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "Essentially none - the dobra is pegged to the euro under the 2010 Portugal agreement, importing ECB policy. (IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The dobra is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 3,
+          "weight": 0.13,
+          "confidence": 0.75,
+          "notes": "Eased to single digits (core ~4.7% y/y May 2025) under a tight stance and the peg. (IMF 2025 Art IV)"
+        },
+        "banking_stability": {
+          "score": 0,
+          "weight": 0.1,
+          "confidence": 0.55,
+          "notes": "A small, thin banking sector - stable but shallow with limited supervision capacity. (IMF; inference)"
+        },
+        "trade_actions_capacity": {
+          "score": -5,
+          "weight": 0.17,
+          "confidence": 0.8,
+          "notes": "Tiny and undiversified (cocoa, modest tourism), structurally import-dependent with a chronic deficit and no oil revenue. (World Bank; IMF)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 1.1,
+      "confidence": 0.63,
+      "skew": "symmetric",
+      "notes": "Functioning courts and a free press, with shallow institutions and a post-coup abuse blemish.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 2,
+          "weight": 0.35,
+          "confidence": 0.65,
+          "notes": "Functioning courts and broadly respected rights, but shallow institutions and post-coup custody-abuse allegations are a real blemish. (Freedom House 2024; ISS)"
+        },
+        "statistical_integrity": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Fully IMF-engaged with regular reviews, but very limited microstate capacity. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Weak and thin, with SOE inefficiency (notably EMAE) a flagged reform priority. (World Bank Aug 2025)"
+        },
+        "press_freedom": {
+          "score": 4,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "Constitutionally guaranteed and largely respected, among Africa's more open environments. (Freedom House; RSF)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 2.5,
+      "confidence": 0.61,
+      "skew": "positive",
+      "notes": "Repeated peaceful alternations and protected liberties, with latent coup-attempt fragility.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 3,
+          "weight": 0.3,
+          "confidence": 0.65,
+          "notes": "Repeated peaceful alternations and a presidential election due by July 2026, but the 2022 coup attempt shows latent fragility. (Africa Center; IPU)"
+        },
+        "civil_liberties": {
+          "score": 5,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Broadly protected - rated 'Free'. (Freedom House 2024)"
+        },
+        "treatment_non_citizens": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.5,
+          "notes": "No notable systemic abuse, but very limited data for a tiny, homogeneous state. (inference)"
+        },
+        "social_cohesion": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Generally cohesive, strained by ~13% below the international poverty line and emigration pressure. (World Bank 2024)"
+        },
+        "demographics": {
+          "score": -1,
+          "weight": 0.1,
+          "confidence": 0.55,
+          "notes": "Tiny (~230k) with high emigration of skilled workers and limited domestic opportunity. (World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 4.5,
+      "confidence": 0.65,
+      "skew": "positive",
+      "notes": "A stable, non-aligned, Lusophone-linked, conflict-free state.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 3,
+          "weight": 0.4,
+          "confidence": 0.55,
+          "notes": "Stable, non-aligned, close to Portugal/the Lusophone bloc - predictable but inconsequential. (observed)"
+        },
+        "conflict_involvement": {
+          "score": 6,
+          "weight": 0.35,
+          "confidence": 0.75,
+          "notes": "No armed conflict, aside from the isolated 2022 coup attempt. (observed)"
+        },
+        "sanctions_capital_controls": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "No sanctions exposure, broadly open under the euro peg. (IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -2.8,
+      "confidence": 0.61,
+      "skew": "negative",
+      "notes": "A chronic electricity crisis as the binding constraint, with weak healthcare and SIDS climate exposure.",
+      "sub_factors": {
+        "climate": {
+          "score": -3,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Equatorial islands with rising sea-level/coastal-erosion and extreme-rainfall exposure, less acute than low-lying atolls. (UNDP SIDS)"
+        },
+        "healthcare": {
+          "score": -3,
+          "weight": 0.3,
+          "confidence": 0.6,
+          "notes": "Weak and donor-dependent, materially constrained by unreliable electricity. (IRENA 2024; WHO)"
+        },
+        "infrastructure": {
+          "score": -5,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "The defining weakness - chronic blackouts from ~30 MW of inefficient diesel/hydro capacity (EMAE). (IEA; World Bank)"
+        },
+        "crime_safety": {
+          "score": 3,
+          "weight": 0.15,
+          "confidence": 0.5,
+          "notes": "Comparatively safe with low violent crime. (observed)"
+        },
+        "disaster_insurance": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.5,
+          "notes": "Negligible penetration and minimal fiscal headroom for shocks. (inference)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 0.66,
+      "confidence": 0.65,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 0.21,
+      "confidence": 0.7,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -0.03,
+      "confidence": 0.74,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A rare, durable small-island democracy - consistently 'Free', with a relatively open press and repeated peaceful turnovers - but its institutions are shallow and were tested by a November 2022 coup attempt and subsequent custody-abuse allegations. Economically it is tiny, poor, and structurally import- and aid-dependent, with the chronic electricity crisis (inefficient EMAE diesel plants) the single biggest brake on growth; long-promised offshore oil has not materialized. The euro-pegged dobra delivers an inflation anchor at the cost of monetary autonomy, while an on-track IMF ECF program is stabilizing the fiscal/external position. Net skew is positive on the strength of governance, with material physical/economic fragility."
+}
