@@ -31,11 +31,11 @@ export default function CountryGrid({ rows }: Props) {
   const [dir, setDir] = useState<"asc" | "desc">("desc");
   const [query, setQuery] = useState("");
 
-  const filtered = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    const base = q
-      ? rows.filter((r) => r.country.toLowerCase().includes(q) || r.iso3.toLowerCase().includes(q))
-      : rows.slice();
+  // Rank the FULL set by the current sort first, stamping each row with its
+  // position (1-based). Filtering happens afterward, so a row keeps its place
+  // in the current sort even when the list is filtered down.
+  const ranked = useMemo(() => {
+    const base = rows.slice();
     base.sort((a, b) => {
       let av: number | string;
       let bv: number | string;
@@ -52,8 +52,16 @@ export default function CountryGrid({ rows }: Props) {
       const cmp = typeof av === "string" ? av.localeCompare(bv as string) : (av as number) - (bv as number);
       return dir === "asc" ? cmp : -cmp;
     });
-    return base;
-  }, [rows, sort, dir, query]);
+    return base.map((row, i) => ({ row, pos: i + 1 }));
+  }, [rows, sort, dir]);
+
+  const filtered = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    if (!q) return ranked;
+    return ranked.filter(
+      ({ row }) => row.country.toLowerCase().includes(q) || row.iso3.toLowerCase().includes(q),
+    );
+  }, [ranked, query]);
 
   const setSortKey = (key: SortKey) => {
     if (key === sort) {
@@ -84,6 +92,7 @@ export default function CountryGrid({ rows }: Props) {
         <table class="grid__table">
           <thead>
             <tr>
+              <th class="grid__poscol">#</th>
               <th>
                 <button onClick={() => setSortKey("country")}>Country{arrow("country")}</button>
               </th>
@@ -98,8 +107,9 @@ export default function CountryGrid({ rows }: Props) {
             </tr>
           </thead>
           <tbody>
-            {filtered.map((r) => (
+            {filtered.map(({ row: r, pos }) => (
               <tr>
+                <td class="grid__pos">{pos}</td>
                 <th scope="row" class="grid__country">
                   <a href={`/ratings/${r.iso3.toLowerCase()}/`}>{r.country}</a>
                   <span class="grid__iso">{r.iso3}</span>
@@ -178,6 +188,8 @@ export default function CountryGrid({ rows }: Props) {
         .grid__bar-axis { position: absolute; left: 50%; top: 0; bottom: 0; width: 1px; background: var(--border-strong); }
         .grid__bar-fill { position: absolute; top: 0; bottom: 0; border-radius: 3px; }
         @media (max-width: 720px) { .grid__bar { display: none; } }
+        .grid__poscol { width: 2.5rem; }
+        .grid__pos.grid__pos { text-align: right; color: var(--fg-faint); font-size: 0.8125rem; font-variant-numeric: tabular-nums; padding-right: 0.5rem; }
         .grid__country a { color: var(--fg); font-weight: 600; }
         .grid__country a:hover { color: var(--data); }
         .grid__iso { color: var(--fg-faint); font-size: 0.6875rem; margin-left: 0.5rem; }
