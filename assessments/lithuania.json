@@ -197,11 +197,11 @@
       "sub_factors": {
         "climate": {
           "score_near": 4,
-          "score_long": 6,
+          "score_long": 3,
           "score": null,
           "weight": 0.2,
           "confidence": 0.7,
-          "notes": "A Baltic high-latitude beneficiary - warming-driven agricultural/season upside, good readiness; AMOC/Baltic caveat. (ND-GAIN; Burke et al.)"
+          "notes": "A Baltic high-latitude beneficiary near/mid-term (warming-driven agricultural/season upside, good readiness), with the gain easing long-term (AMOC/Baltic tail). (ND-GAIN; Burke et al.)"
         },
         "healthcare": {
           "score": 3,
@@ -232,13 +232,13 @@
   },
   "decisions": {
     "living": {
-      "score": 4.09,
+      "score": 4.01,
       "confidence": 0.79,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 3.48,
+      "score": 3.46,
       "confidence": 0.81,
       "horizon": "3-7y",
       "reading": "clear positive"

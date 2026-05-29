@@ -199,11 +199,11 @@
       "sub_factors": {
         "climate": {
           "score_near": 5,
-          "score_long": 6,
+          "score_long": 4,
           "score": null,
           "weight": 0.2,
           "confidence": 0.75,
-          "notes": "Among the clearest net beneficiaries - far-northern, top readiness, agricultural/forestry and winter upside; capped for transition volatility. (ND-GAIN; IPCC AR6; Burke et al.)"
+          "notes": "Among the clearest net beneficiaries near/mid-term - far-northern, top readiness, agricultural/forestry and winter upside - but the gain is windowed and erodes past warming-optimum overshoot. (ND-GAIN; IPCC AR6; Burke et al.)"
         },
         "healthcare": {
           "score": 4,
@@ -234,13 +234,13 @@
   },
   "decisions": {
     "living": {
-      "score": 4.69,
+      "score": 4.64,
       "confidence": 0.82,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 3.83,
+      "score": 3.81,
       "confidence": 0.83,
       "horizon": "3-7y",
       "reading": "clear positive"

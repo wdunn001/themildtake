@@ -197,11 +197,11 @@
       "sub_factors": {
         "climate": {
           "score_near": 5,
-          "score_long": 6,
+          "score_long": 3,
           "score": null,
           "weight": 0.2,
           "confidence": 0.7,
-          "notes": "A high-latitude/sub-Arctic beneficiary - milder climate, geothermal-rich, very high readiness; localized glacier-melt/ocean-acidification and fisheries-shift risk. (ND-GAIN; IPCC AR6)"
+          "notes": "A sub-Arctic beneficiary near-term (milder climate, geothermal-rich, very high readiness), but ocean-acidification/fisheries shifts and the AMOC tail erode the gain long-term. (ND-GAIN; IPCC AR6)"
         },
         "healthcare": {
           "score": 5,
@@ -232,13 +232,13 @@
   },
   "decisions": {
     "living": {
-      "score": 5.62,
+      "score": 5.54,
       "confidence": 0.81,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 4.85,
+      "score": 4.83,
       "confidence": 0.81,
       "horizon": "3-7y",
       "reading": "clear positive"

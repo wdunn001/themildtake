@@ -193,11 +193,11 @@
       "sub_factors": {
         "climate": {
           "score_near": 4,
-          "score_long": 5,
+          "score_long": 2,
           "score": null,
           "weight": 0.2,
           "confidence": 0.75,
-          "notes": "A high-latitude net beneficiary - top-tier readiness, milder winters/longer seasons; coastal/sea-level and AMOC-slowdown the caveats. (ND-GAIN; Burke et al.; IPCC AMOC)"
+          "notes": "A high-latitude net beneficiary near-term (milder winters/longer seasons, top readiness), but the gain is windowed - AMOC slowdown and coastal/sea-level rise temper the long outlook. (ND-GAIN; Burke et al.; IPCC AMOC)"
         },
         "healthcare": {
           "score": 5,
@@ -228,13 +228,13 @@
   },
   "decisions": {
     "living": {
-      "score": 5.2,
+      "score": 5.12,
       "confidence": 0.81,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 4.76,
+      "score": 4.73,
       "confidence": 0.81,
       "horizon": "3-7y",
       "reading": "clear positive"

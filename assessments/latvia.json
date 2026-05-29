@@ -189,11 +189,11 @@
       "sub_factors": {
         "climate": {
           "score_near": 4,
-          "score_long": 6,
+          "score_long": 3,
           "score": null,
           "weight": 0.2,
           "confidence": 0.7,
-          "notes": "A Baltic high-latitude winner - longer growing season, milder winters, strong readiness; AMOC/coastal caveat. (ND-GAIN; Burke et al.)"
+          "notes": "A Baltic high-latitude winner near/mid-term (longer growing season, milder winters, strong readiness), with the gain easing long-term (AMOC/coastal tail). (ND-GAIN; Burke et al.)"
         },
         "healthcare": {
           "score": -2,
@@ -224,13 +224,13 @@
   },
   "decisions": {
     "living": {
-      "score": 3.7,
+      "score": 3.62,
       "confidence": 0.8,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 3.81,
+      "score": 3.78,
       "confidence": 0.82,
       "horizon": "3-7y",
       "reading": "clear positive"

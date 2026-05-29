@@ -29,7 +29,7 @@
           "rank": 1,
           "country": "Norway",
           "iso3": "NOR",
-          "score": 6.75,
+          "score": 6.67,
           "confidence": 0.85,
           "skew": "symmetric"
         },
@@ -53,7 +53,7 @@
           "rank": 4,
           "country": "Iceland",
           "iso3": "ISL",
-          "score": 5.62,
+          "score": 5.54,
           "confidence": 0.81,
           "skew": "symmetric"
         },
@@ -69,7 +69,7 @@
           "rank": 6,
           "country": "Denmark",
           "iso3": "DNK",
-          "score": 5.2,
+          "score": 5.12,
           "confidence": 0.81,
           "skew": "symmetric"
         },
@@ -93,7 +93,7 @@
           "rank": 9,
           "country": "Finland",
           "iso3": "FIN",
-          "score": 4.69,
+          "score": 4.64,
           "confidence": 0.82,
           "skew": "symmetric"
         },
@@ -101,7 +101,7 @@
           "rank": 10,
           "country": "Estonia",
           "iso3": "EST",
-          "score": 4.59,
+          "score": 4.51,
           "confidence": 0.82,
           "skew": "symmetric"
         },
@@ -123,18 +123,18 @@
         },
         {
           "rank": 13,
-          "country": "Lithuania",
-          "iso3": "LTU",
-          "score": 4.09,
-          "confidence": 0.79,
-          "skew": "symmetric"
-        },
-        {
-          "rank": 14,
           "country": "San Marino",
           "iso3": "SMR",
           "score": 4.05,
           "confidence": 0.69,
+          "skew": "symmetric"
+        },
+        {
+          "rank": 14,
+          "country": "Lithuania",
+          "iso3": "LTU",
+          "score": 4.01,
+          "confidence": 0.79,
           "skew": "symmetric"
         },
         {
@@ -147,14 +147,6 @@
         },
         {
           "rank": 16,
-          "country": "Sweden",
-          "iso3": "SWE",
-          "score": 3.76,
-          "confidence": 0.78,
-          "skew": "symmetric"
-        },
-        {
-          "rank": 17,
           "country": "Cyprus",
           "iso3": "CYP",
           "score": 3.74,
@@ -162,7 +154,7 @@
           "skew": "symmetric"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "country": "Uruguay",
           "iso3": "URY",
           "score": 3.74,
@@ -170,10 +162,18 @@
           "skew": "symmetric"
         },
         {
+          "rank": 18,
+          "country": "Sweden",
+          "iso3": "SWE",
+          "score": 3.67,
+          "confidence": 0.78,
+          "skew": "symmetric"
+        },
+        {
           "rank": 19,
           "country": "Latvia",
           "iso3": "LVA",
-          "score": 3.7,
+          "score": 3.62,
           "confidence": 0.8,
           "skew": "symmetric"
         },
@@ -291,14 +291,6 @@
         },
         {
           "rank": 34,
-          "country": "Canada",
-          "iso3": "CAN",
-          "score": 2.63,
-          "confidence": 0.76,
-          "skew": "symmetric"
-        },
-        {
-          "rank": 35,
           "country": "Costa Rica",
           "iso3": "CRI",
           "score": 2.63,
@@ -306,7 +298,7 @@
           "skew": "symmetric"
         },
         {
-          "rank": 36,
+          "rank": 35,
           "country": "South Korea",
           "iso3": "KOR",
           "score": 2.62,
@@ -314,11 +306,19 @@
           "skew": "negative"
         },
         {
-          "rank": 37,
+          "rank": 36,
           "country": "Portugal",
           "iso3": "PRT",
           "score": 2.59,
           "confidence": 0.78,
+          "skew": "symmetric"
+        },
+        {
+          "rank": 37,
+          "country": "Canada",
+          "iso3": "CAN",
+          "score": 2.52,
+          "confidence": 0.76,
           "skew": "symmetric"
         },
         {
@@ -1421,7 +1421,7 @@
           "rank": 175,
           "country": "Russia",
           "iso3": "RUS",
-          "score": -5.6,
+          "score": -5.64,
           "confidence": 0.69,
           "skew": "negative"
         },
@@ -1429,7 +1429,7 @@
           "rank": 176,
           "country": "Belarus",
           "iso3": "BLR",
-          "score": -5.62,
+          "score": -5.67,
           "confidence": 0.75,
           "skew": "negative"
         },
@@ -1586,7 +1586,7 @@
           "rank": 2,
           "country": "Norway",
           "iso3": "NOR",
-          "score": 6.19,
+          "score": 6.16,
           "confidence": 0.86,
           "skew": "symmetric"
         },
@@ -1618,7 +1618,7 @@
           "rank": 6,
           "country": "Iceland",
           "iso3": "ISL",
-          "score": 4.85,
+          "score": 4.83,
           "confidence": 0.81,
           "skew": "symmetric"
         },
@@ -1634,7 +1634,7 @@
           "rank": 8,
           "country": "Denmark",
           "iso3": "DNK",
-          "score": 4.76,
+          "score": 4.73,
           "confidence": 0.81,
           "skew": "symmetric"
         },
@@ -1656,14 +1656,6 @@
         },
         {
           "rank": 11,
-          "country": "Estonia",
-          "iso3": "EST",
-          "score": 3.9,
-          "confidence": 0.82,
-          "skew": "symmetric"
-        },
-        {
-          "rank": 12,
           "country": "Belgium",
           "iso3": "BEL",
           "score": 3.87,
@@ -1671,10 +1663,18 @@
           "skew": "symmetric"
         },
         {
+          "rank": 12,
+          "country": "Estonia",
+          "iso3": "EST",
+          "score": 3.87,
+          "confidence": 0.82,
+          "skew": "symmetric"
+        },
+        {
           "rank": 13,
           "country": "Finland",
           "iso3": "FIN",
-          "score": 3.83,
+          "score": 3.81,
           "confidence": 0.83,
           "skew": "symmetric"
         },
@@ -1682,7 +1682,7 @@
           "rank": 14,
           "country": "Latvia",
           "iso3": "LVA",
-          "score": 3.81,
+          "score": 3.78,
           "confidence": 0.82,
           "skew": "symmetric"
         },
@@ -1714,7 +1714,7 @@
           "rank": 18,
           "country": "Sweden",
           "iso3": "SWE",
-          "score": 3.65,
+          "score": 3.62,
           "confidence": 0.78,
           "skew": "symmetric"
         },
@@ -1738,7 +1738,7 @@
           "rank": 21,
           "country": "Lithuania",
           "iso3": "LTU",
-          "score": 3.48,
+          "score": 3.46,
           "confidence": 0.81,
           "skew": "symmetric"
         },
@@ -1994,7 +1994,7 @@
           "rank": 53,
           "country": "Canada",
           "iso3": "CAN",
-          "score": 1.79,
+          "score": 1.75,
           "confidence": 0.77,
           "skew": "symmetric"
         },
@@ -2962,7 +2962,7 @@
           "rank": 174,
           "country": "Russia",
           "iso3": "RUS",
-          "score": -4.88,
+          "score": -4.89,
           "confidence": 0.71,
           "skew": "negative"
         },
@@ -3026,7 +3026,7 @@
           "rank": 182,
           "country": "Belarus",
           "iso3": "BLR",
-          "score": -5.45,
+          "score": -5.46,
           "confidence": 0.77,
           "skew": "negative"
         },

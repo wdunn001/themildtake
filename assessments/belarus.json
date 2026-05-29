@@ -189,11 +189,11 @@
       "sub_factors": {
         "climate": {
           "score_near": 2,
-          "score_long": 3,
+          "score_long": 1,
           "score": null,
           "weight": 0.2,
           "confidence": 0.6,
-          "notes": "Mid/high-latitude continental - longer growing seasons and milder winters net-positive, capped by lower readiness and drought variability. (Burke et al.; IPCC AR6)"
+          "notes": "Mid/high-latitude continental - a near-term windowed gain (longer seasons, milder winters) that fades long-term with drought variability and lower readiness. (Burke et al.; IPCC AR6)"
         },
         "healthcare": {
           "score": -3,
@@ -224,13 +224,13 @@
   },
   "decisions": {
     "living": {
-      "score": -5.62,
+      "score": -5.67,
       "confidence": 0.75,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -5.45,
+      "score": -5.46,
       "confidence": 0.77,
       "horizon": "3-7y",
       "reading": "clear negative"

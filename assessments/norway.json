@@ -195,11 +195,11 @@
       "sub_factors": {
         "climate": {
           "score_near": 4,
-          "score_long": 5,
+          "score_long": 2,
           "score": null,
           "weight": 0.2,
           "confidence": 0.75,
-          "notes": "A high-latitude net beneficiary - top readiness, hydro-rich, milder winters, Arctic/Northern-Sea-Route access; localized flood/landslide and AMOC tail caveat. (ND-GAIN; IPCC AR6; Burke et al.)"
+          "notes": "A high-latitude net beneficiary near/mid-term (top readiness, hydro-rich, milder winters, Arctic access), but AMOC slowdown and warming-overshoot temper the long outlook. (ND-GAIN; IPCC AR6; Burke et al.)"
         },
         "healthcare": {
           "score": 7,
@@ -230,13 +230,13 @@
   },
   "decisions": {
     "living": {
-      "score": 6.75,
+      "score": 6.67,
       "confidence": 0.85,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 6.19,
+      "score": 6.16,
       "confidence": 0.86,
       "horizon": "3-7y",
       "reading": "clear positive"

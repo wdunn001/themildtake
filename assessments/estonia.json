@@ -199,11 +199,11 @@
       "sub_factors": {
         "climate": {
           "score_near": 4,
-          "score_long": 6,
+          "score_long": 3,
           "score": null,
           "weight": 0.2,
           "confidence": 0.7,
-          "notes": "A Baltic high-latitude winner - warming lengthens the growing season, milder winters, strong readiness; AMOC/Baltic-variability caveat. (ND-GAIN; Burke et al.)"
+          "notes": "A Baltic high-latitude winner near/mid-term (longer growing season, milder winters, strong readiness), with the benefit easing long-term (AMOC/Baltic-variability tail). (ND-GAIN; Burke et al.)"
         },
         "healthcare": {
           "score": 5,
@@ -234,13 +234,13 @@
   },
   "decisions": {
     "living": {
-      "score": 4.59,
+      "score": 4.51,
       "confidence": 0.82,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 3.9,
+      "score": 3.87,
       "confidence": 0.82,
       "horizon": "3-7y",
       "reading": "clear positive"

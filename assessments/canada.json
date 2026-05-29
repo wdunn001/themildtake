@@ -195,11 +195,11 @@
       "sub_factors": {
         "climate": {
           "score_near": 4,
-          "score_long": 6,
+          "score_long": 2,
           "score": null,
           "weight": 0.2,
           "confidence": 0.7,
-          "notes": "A net beneficiary - high-latitude agriculture plus Arctic access, very high readiness; the wildfire/permafrost caveat caps it. (Burke et al.; ND-GAIN)"
+          "notes": "A net beneficiary near/mid-term (high-latitude agriculture plus Arctic access, very high readiness), but intensifying wildfire and permafrost thaw erode the gain in longer outlooks. (Burke et al.; ND-GAIN)"
         },
         "healthcare": {
           "score": 3,
@@ -230,13 +230,13 @@
   },
   "decisions": {
     "living": {
-      "score": 2.63,
+      "score": 2.52,
       "confidence": 0.76,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 1.79,
+      "score": 1.75,
       "confidence": 0.77,
       "horizon": "3-7y",
       "reading": "mixed"
