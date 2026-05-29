@@ -1,0 +1,246 @@
+{
+  "country": "Pakistan",
+  "iso3": "PAK",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF EFF program/Art IV, World Bank, ADB, WJP, RSF, TI, V-Dem, UN) + Pakistani official (PBS, State Bank of Pakistan) + Pakistani independent press (Dawn, The News, Express Tribune, Profit).",
+    "A distressed-but-stabilising economy under IMF tutelage, a military-dominant civilian hybrid with a legitimacy crisis, resurgent terrorism, and catastrophic climate exposure.",
+    "Standout drags: chronic debt distress, weak institutions, a manipulated-election legitimacy crisis, terrorism, and extreme flood/heat exposure. Source-lean: HIGH Anglophone; Urdu/regional reporting under-read."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -2.8,
+      "confidence": 0.83,
+      "skew": "negative",
+      "notes": "A fragile IMF-dependent stabilisation, against chronic debt distress and a narrow export base.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -5,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Gross debt ~71% GDP with a small primary surplus achieved under the program, against crushing debt-service and chronic twin deficits - fully IMF-dependent. (IMF EFF review 2026)"
+        },
+        "monetary_independence": {
+          "score": -4,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "The State Bank holds rates high but policy is IMF-conditioned and FX-crisis-prone. (SBP; IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The rupee is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score_near": 2,
+          "score_long": -2,
+          "score": null,
+          "weight": 0.13,
+          "confidence": 0.8,
+          "notes": "Collapsed from a 30%+ peak to low single digits before rebounding toward ~11% - disinflation real but fragile. (PBS; SBP)"
+        },
+        "banking_stability": {
+          "score": -3,
+          "weight": 0.1,
+          "confidence": 0.7,
+          "notes": "Heavy sovereign-debt exposure, functioning but propped by the program. (IMF Art IV)"
+        },
+        "trade_actions_capacity": {
+          "score": -5,
+          "weight": 0.17,
+          "confidence": 0.85,
+          "notes": "A narrow textile-heavy export base, a widening trade deficit, tiny FDI, and heavy remittance dependence. (SBP; Finance Division)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -4.7,
+      "confidence": 0.74,
+      "skew": "negative",
+      "notes": "Weak rule of law under military influence, low capacity, and a heavily pressured press.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -6,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "A very low WJP standing - high impunity, military influence over the judiciary, and politicised courts. (WJP 2025)"
+        },
+        "statistical_integrity": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Official data is usable but capacity-limited, with politicisation concerns. (WJP; press)"
+        },
+        "civil_service_capacity": {
+          "score": -4,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "Patronage-driven, with weak delivery. (World Bank)"
+        },
+        "press_freedom": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "RSF 158/180, with military surveillance and laws used against journalists. (RSF 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -5.4,
+      "confidence": 0.8,
+      "skew": "negative",
+      "notes": "A military-dominant hybrid with a legitimacy crisis, restricted liberties, deep cleavages, and Afghan-refugee expulsions.",
+      "sub_factors": {
+        "political_stability": {
+          "score": -6,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "A military-dominant civilian hybrid: the main opposition leader is jailed, the Feb-2024 election was widely seen as manipulated, and the coalition government carries a legitimacy crisis. (Crisis Group; Brookings)"
+        },
+        "civil_liberties": {
+          "score": -5,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "A sustained opposition crackdown, protest suppression, and digital censorship. (Amnesty; RSF)"
+        },
+        "treatment_non_citizens": {
+          "score": -6,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "Not a relocation destination, with a mass expulsion of millions of Afghans underway since 2023. (UNHCR; HRW; Amnesty)"
+        },
+        "social_cohesion": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "Deep Baloch/Pashtun/sectarian cleavages and active separatism. (CFR; V-Dem)"
+        },
+        "demographics": {
+          "score": -3,
+          "weight": 0.1,
+          "confidence": 0.7,
+          "notes": "A huge, fast-growing young population straining jobs, with weak human capital. (World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -4.2,
+      "confidence": 0.76,
+      "skew": "negative",
+      "notes": "A patron-dependent hedger, dominated by resurgent terrorism and border tensions.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": -2,
+          "weight": 0.4,
+          "confidence": 0.7,
+          "notes": "Active hedging - deep China/CPEC ties, a new Gulf defence pact, and warming US ties - flexible but patron-dependent. (Atlantic Council; CSIS)"
+        },
+        "conflict_involvement": {
+          "score": -7,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "Resurgent terrorism (a jihadist insurgency in the northwest, a Balochistan insurgency), a tense India border including a 2025 flare-up, and Afghanistan border clashes. (UN SC; The Diplomat)"
+        },
+        "sanctions_capital_controls": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "Off the FATF grey list and unsanctioned, but with persistent FX/capital-control reflexes. (IMF; FATF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -6.2,
+      "confidence": 0.81,
+      "skew": "negative",
+      "notes": "Catastrophic climate exposure, weak healthcare, a power crisis, and very low catastrophe cover.",
+      "sub_factors": {
+        "climate": {
+          "score": -8,
+          "weight": 0.2,
+          "confidence": 0.9,
+          "notes": "Among the world's most climate-vulnerable: the 2022 floods submerged a third of the country, with extreme heat, water stress, and glacial-melt risk. (World Weather Attribution; World Bank)"
+        },
+        "healthcare": {
+          "score": -6,
+          "weight": 0.3,
+          "confidence": 0.85,
+          "notes": "About 1% of GDP in public spend, high out-of-pocket costs, and one of the last polio-endemic countries. (WHO EMRO; World Bank)"
+        },
+        "infrastructure": {
+          "score": -5,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "A chronic power crisis and large circular debt under restructuring. (IGC; IEEFA)"
+        },
+        "crime_safety": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "A poor order-and-security standing, terrorism-adjacent with urban crime. (WJP)"
+        },
+        "disaster_insurance": {
+          "score": -7,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Very low penetration against extreme exposure. (World Bank)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -4.92,
+      "confidence": 0.78,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -4.19,
+      "confidence": 0.79,
+      "horizon": "3-7y",
+      "reading": "clear negative"
+    },
+    "currency": {
+      "score": -3.51,
+      "confidence": 0.8,
+      "horizon": "1-3y",
+      "reading": "clear negative"
+    }
+  },
+  "summary": "A distressed economy held together by an IMF program: a heavy debt load with crushing debt-service, a narrow textile-dependent export base, and a remittance lifeline, with inflation down sharply from a peak but fragile. Institutions are weak under military influence, the Feb-2024 election left a legitimacy crisis with the main opposition leader jailed, and resurgent terrorism plus tense India and Afghanistan borders weigh heavily. Catastrophic climate exposure - the 2022 floods submerged a third of the country - a chronic power crisis, and weak healthcare round out a negative profile."
+}

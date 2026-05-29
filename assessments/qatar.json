@@ -1,0 +1,250 @@
+{
+  "country": "Qatar",
+  "iso3": "QAT",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: governance/rights/politics rebuilt from independent sources (IMF Art IV 2026, World Bank, Freedom House, RSF, HRW, Amnesty, ITUC, CRS/Atlantic Council); Qatari state/state-aligned media (incl. Al Jazeera on Qatar's own governance) EXCLUDED there, with economic figures admitted only via IMF validation.",
+    "Migrant-labor reality: non-citizen workers are ~88-91% of the population under a kafala-legacy system; citizens are a ~10-12% minority. This structurally shapes demographics, cohesion, and rights metrics.",
+    "Standout features: immense fiscal strength, stability, safety, and geopolitical centrality, against an absolute-monarchy rights ceiling and a long-term water/heat tail."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 3.8,
+      "confidence": 0.82,
+      "skew": "positive",
+      "notes": "Among the world's strongest fiscal positions and sound banks, with a peg that surrenders monetary autonomy for stability.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 8,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Among the world's strongest - twin surpluses, low and falling debt, vast LNG revenue, a large sovereign fund, and the North Field expansion. (IMF Art IV 2026)"
+        },
+        "monetary_independence": {
+          "score": -3,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "A hard USD peg imports US policy with near-zero autonomy, but the peg plus gas wealth deliver stability. (IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 1,
+          "weight": 0.16,
+          "confidence": 0.75,
+          "notes": "Peg stability backed by a large sovereign fund; not a reserve issuer. (IMF)"
+        },
+        "inflation": {
+          "score": 6,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "Low (~1-2%) and managed. (IMF)"
+        },
+        "banking_stability": {
+          "score": 7,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "Well-capitalised (a capital ratio ~20%) with a stable outlook. (IMF; Moody's)"
+        },
+        "trade_actions_capacity": {
+          "score": 6,
+          "weight": 0.17,
+          "confidence": 0.8,
+          "notes": "A world-leading LNG exporter mid-expansion - petrostate concentration offset by sovereign-fund buffers. (IMF)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 0.1,
+      "confidence": 0.76,
+      "skew": "negative",
+      "notes": "High wealth-enabled state capacity and functional commercial law, against no political-sphere judicial independence and the absence of independent media.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -3,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "An absolute monarchy with no judicial independence on political matters, but functional commercial law and low corruption. (Freedom House; V-Dem)"
+        },
+        "statistical_integrity": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Economic statistics are IMF-validated; political data are opaque. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": 6,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "High, wealth-enabled state capacity. (IMF)"
+        },
+        "press_freedom": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "Low - no domestic independent media on Qatar's own affairs. (RSF; Freedom House)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 0.3,
+      "confidence": 0.75,
+      "skew": "negative",
+      "notes": "A wealthy, stable monarchy, against no political rights and a migrant-majority, two-tier social structure.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": 7,
+          "score_long": 3,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "A wealthy, stable absolute monarchy near-term, with long-term gas-transition and succession caution. (Freedom House; IMF)"
+        },
+        "civil_liberties": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Rated 'Not Free' - no political rights, restricted expression, and same-sex relations criminalised. (Freedom House)"
+        },
+        "treatment_non_citizens": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "Easy employer-sponsored residency and no income tax, but a migrant-majority workforce under kafala-legacy controls with no path to citizenship. (HRW; Amnesty)"
+        },
+        "social_cohesion": {
+          "score": 1,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "Orderly with very low crime, but a citizen-minority/migrant-majority two-tier structure. (HRW)"
+        },
+        "demographics": {
+          "score": 0,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "Migrant-skewed, with a small young citizen base. (UN; HRW)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 3.9,
+      "confidence": 0.77,
+      "skew": "positive",
+      "notes": "A well-connected US partner and regional mediator with an open capital account, against regional turbulence exposure.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 7,
+          "weight": 0.4,
+          "confidence": 0.8,
+          "notes": "Hosts the largest US base in the region and is a major non-NATO ally and pivotal Gaza/Afghanistan mediator - courted and well-connected. (CRS; Atlantic Council)"
+        },
+        "conflict_involvement": {
+          "score_near": -2,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "No direct war but a 2017-21 Gulf-blockade legacy, Iran/Hormuz proximity, and 2025 regional turbulence. (non-Qatari press)"
+        },
+        "sanctions_capital_controls": {
+          "score": 6,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "An open capital account, unsanctioned. (IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 4.8,
+      "confidence": 0.73,
+      "skew": "positive",
+      "notes": "World-class infrastructure, healthcare, and safety, against extreme heat and water scarcity long-term.",
+      "sub_factors": {
+        "climate": {
+          "score_near": -3,
+          "score_long": -7,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Extreme heat and hyper-aridity with ~99% desalination dependence and minimal water storage. (ICE; UN)"
+        },
+        "healthcare": {
+          "score": 7,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "Excellent, modern, and well-funded. (independent)"
+        },
+        "infrastructure": {
+          "score": 8,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "World-class and modern. (IMF; independent)"
+        },
+        "crime_safety": {
+          "score": 8,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "Very low crime - a clear strength. (independent)"
+        },
+        "disaster_insurance": {
+          "score": 4,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "Low natural-catastrophe exposure besides heat and coastal flooding. (UN)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 1.14,
+      "confidence": 0.76,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 2.54,
+      "confidence": 0.78,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 2.93,
+      "confidence": 0.8,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "One of the world's strongest fiscal positions - twin surpluses, low debt, vast LNG revenue, a large sovereign fund, and an LNG expansion - with sound banks, low inflation, world-class infrastructure and healthcare, very low crime, and high geopolitical centrality as a major US partner and regional mediator. The offsets are an absolute-monarchy rights ceiling (no political rights, restricted expression, criminalised same-sex relations), a migrant-majority workforce under kafala-legacy controls with no path to citizenship, a USD peg that surrenders monetary autonomy for stability, and a long-term extreme-heat and water-scarcity tail."
+}

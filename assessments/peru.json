@@ -1,0 +1,244 @@
+{
+  "country": "Peru",
+  "iso3": "PER",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF Art IV, OECD, World Bank, WJP, RSF, TI, V-Dem) + Peruvian official (INEI, Banco Central de Reserva del Peru) + Peruvian/Spanish-language press (El Comercio, La Republica, IDL-Reporteros).",
+    "A genuinely two-sided profile: a credible, institutionally-anchored macro core sits against chronic political dysfunction (a revolving door of presidents) and a deteriorating security environment.",
+    "Standout drags: chronic political instability, weak rule of law, and a sharp crime wave; standout strengths: a standout-credible central bank, low debt, low inflation, and an open economy. Source-lean: MODERATE Anglophone; Spanish investigative reporting under-read."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 4.5,
+      "confidence": 0.87,
+      "skew": "positive",
+      "notes": "A standout-credible central bank, low debt, and low inflation - a genuine macro bright spot despite political chaos.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 5,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "Low public debt (~33% GDP), a prudent fiscal tradition, and investment grade - a genuine strength, with some fiscal-rule slippage and unfunded congressional bills flagged. (IMF Art IV)"
+        },
+        "monetary_independence": {
+          "score": 8,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "An autonomous, highly credible central bank with neutral-rate discipline - a standout strength. (BCRP; IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The sol is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 5,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "Long-anchored in the 1-3% target band, with transitory 2026 supply shocks fading. (BCRP)"
+        },
+        "banking_stability": {
+          "score": 5,
+          "weight": 0.1,
+          "confidence": 0.75,
+          "notes": "Sound, well-regulated, and well-capitalised, with declining dollarisation. (IMF)"
+        },
+        "trade_actions_capacity": {
+          "score": 3,
+          "weight": 0.17,
+          "confidence": 0.8,
+          "notes": "World-leading copper plus gold/zinc, with recurrent mining-corridor social conflict; a paradox of plenty partly buffered by macro institutions. (company filings; HRW)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -1.3,
+      "confidence": 0.79,
+      "skew": "negative",
+      "notes": "Credible statistics, against chronic corruption, weak capacity, and a declining press environment.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -4,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "Chronic corruption (nearly every recent president investigated or jailed) and weak courts, with some prosecutorial independence remaining. (TI CPI; WJP; HRW)"
+        },
+        "statistical_integrity": {
+          "score": 6,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "The statistics agency and central bank are credible and trusted - a relative strength. (IMF; BCRP)"
+        },
+        "civil_service_capacity": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "Unstable, politicised, with low delivery capacity. (OECD)"
+        },
+        "press_freedom": {
+          "score": -4,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "Sharply declining (RSF ~130th), a 2025 'gag law', journalist murders, and judicial harassment. (RSF 2025/2026)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -2.8,
+      "confidence": 0.78,
+      "skew": "negative",
+      "notes": "Chronic political dysfunction and deep social cleavages, against lawful migration handling.",
+      "sub_factors": {
+        "political_stability": {
+          "score": -6,
+          "weight": 0.3,
+          "confidence": 0.9,
+          "notes": "Chronic dysfunction - a revolving door of presidents and impeachments, the latest installed via the 2025 ouster of a deeply unpopular predecessor, atop a discredited Congress, with a 2026 election ahead. (CFR; Atlantic Council)"
+        },
+        "civil_liberties": {
+          "score": -3,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "Formal freedoms intact but undercut by the 2023 protest deaths and rights-suspending states of emergency. (HRW)"
+        },
+        "treatment_non_citizens": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "Lawful routes that absorbed ~1.6M Venezuelans, against rising xenophobia and a 2025 border state of emergency. (UNHCR)"
+        },
+        "social_cohesion": {
+          "score": -4,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Deep Lima-versus-interior, ethnic, and class cleavages, with the 2022-23 unrest legacy. (V-Dem)"
+        },
+        "demographics": {
+          "score": 2,
+          "weight": 0.1,
+          "confidence": 0.7,
+          "notes": "Young-ish, with fertility slowing toward replacement - a modest tailwind. (INEI; World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 1.8,
+      "confidence": 0.74,
+      "skew": "symmetric",
+      "notes": "A pragmatic, very open economy, against residual internal narco-violence.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 2,
+          "weight": 0.4,
+          "confidence": 0.7,
+          "notes": "A pragmatic, open economy trading with both the US and China (a new China-built mega-port); non-aligned. (Americas Quarterly)"
+        },
+        "conflict_involvement": {
+          "score": -2,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "No external war, with residual narco-violence in a remote valley and an organized-crime expansion. (HRW)"
+        },
+        "sanctions_capital_controls": {
+          "score": 6,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "A very open capital account, unsanctioned - a long-standing strength. (IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -4,
+      "confidence": 0.74,
+      "skew": "negative",
+      "notes": "Seismic and climate exposure, a weak health system, and a sharply deteriorating crime environment.",
+      "sub_factors": {
+        "climate": {
+          "score": -5,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "High seismic risk, El Nino coastal flooding, and Andean glacial-melt water stress. (PreventionWeb; GEM)"
+        },
+        "healthcare": {
+          "score": -4,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "A weak, uneven public system with a catastrophic pandemic-mortality legacy. (World Bank; WHO)"
+        },
+        "infrastructure": {
+          "score": -1,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Improving (a new port, a metro) but uneven, with large rural gaps. (OECD)"
+        },
+        "crime_safety": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "A sharp deterioration - surging extortion and organized crime, with serial states of emergency. (HRW; Atlantic Council)"
+        },
+        "disaster_insurance": {
+          "score": -4,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Low penetration against high seismic/flood exposure. (World Bank)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -1,
+      "confidence": 0.79,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 1.24,
+      "confidence": 0.81,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 2.7,
+      "confidence": 0.83,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A country split between a remarkably credible macro core and a dysfunctional political one. On the strong side: an autonomous, standout-credible central bank, low public debt, low anchored inflation, sound banks, a very open economy, and trusted statistics. On the weak side: chronic political instability (a revolving door of presidents and impeachments, a discredited Congress), weak rule of law with pervasive corruption, a declining press environment, deep Lima-versus-interior cleavages, seismic and climate exposure, and a sharply deteriorating crime wave. The macro strength is real but increasingly hostage to state incapacity."
+}

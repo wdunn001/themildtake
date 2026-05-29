@@ -1,0 +1,244 @@
+{
+  "country": "Ecuador",
+  "iso3": "ECU",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF Art IV/EFF, World Bank, IDB, WJP, RSF, TI, V-Dem, ACLED) + Ecuadorian official (INEC, the finance ministry) + Ecuadorian/Spanish-language press (El Universo, Primicias, GK).",
+    "Ecuador is fully DOLLARIZED (it uses the US dollar) - it has no sovereign monetary policy, which anchors stability and low inflation but removes the devaluation lever; assets carry no local-currency devaluation risk.",
+    "Standout drags: a catastrophic security collapse (a declared internal armed conflict against cartels), weak/narco-infiltrated rule of law, and an energy crisis; genuine offsets are dollar-stability, low inflation, and an open economy. Source-lean: MODERATE Anglophone; Spanish primary sources under-read."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 0.6,
+      "confidence": 0.83,
+      "skew": "negative",
+      "notes": "Dollar-anchored stability and low inflation, against high financing needs, oil dependence, and an energy crisis.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -4,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "High financing needs and oil-revenue dependence under an IMF program, with a deficit overshooting target but reforms attempted. (IMF CR 25/199)"
+        },
+        "monetary_independence": {
+          "score": 1,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Fully dollarized - no devalue/print lever and imported US policy (a loss of autonomy), but a credible discipline/stability anchor that removes the classic FX-crisis channel. (IMF; BCE)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 4,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "It uses the US dollar itself, so cash and local assets carry no local-currency devaluation risk - a real safety feature. (definitional; BCE)"
+        },
+        "inflation": {
+          "score": 5,
+          "weight": 0.13,
+          "confidence": 0.9,
+          "notes": "Low (~2%), an imported dollar-stability strength. (INEC; IMF)"
+        },
+        "banking_stability": {
+          "score": 2,
+          "weight": 0.1,
+          "confidence": 0.7,
+          "notes": "Reasonably sound and devaluation-insulated by dollarisation, but with no lender of last resort and thin reserves. (IMF)"
+        },
+        "trade_actions_capacity": {
+          "score": -2,
+          "weight": 0.17,
+          "confidence": 0.7,
+          "notes": "Oil plus diversifying shrimp/cocoa/banana exports, against structural oil-output decline and a 2024 drought-driven electricity crisis. (BCE; OilPrice)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -2.7,
+      "confidence": 0.74,
+      "skew": "negative",
+      "notes": "Usable statistics, against a weak, narco-infiltrated rule of law and a threatened press.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -6,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "Weak and deteriorating, with narco-infiltration of the justice system and corruption. (WJP; TI)"
+        },
+        "statistical_integrity": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Official statistics are usable and published, with some politicisation risk. (INEC; BCE)"
+        },
+        "civil_service_capacity": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Weak and unstable, with thin state presence in contested coastal provinces. (World Bank; IMF)"
+        },
+        "press_freedom": {
+          "score": -4,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "Legally free but with journalists killed and exiled under cartel and state threats. (RSF 2025/2026)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -2,
+      "confidence": 0.74,
+      "skew": "negative",
+      "notes": "Lawful migration handling, against political volatility, militarised-security strain, and deep cleavages.",
+      "sub_factors": {
+        "political_stability": {
+          "score": -4,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "Volatile - the government (re-elected in 2025 with an assembly majority, a partial stabiliser) governs under serial states of emergency and a declared 'internal armed conflict', against a 2023 congressional-dissolution precedent. (CEPR)"
+        },
+        "civil_liberties": {
+          "score": -3,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "Militarised security erodes some rights, with a 2025 fuel-protest crackdown. (Freedom House)"
+        },
+        "treatment_non_citizens": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "Lawful routes that absorbed large Venezuelan migration, with support eroding. (IOM)"
+        },
+        "social_cohesion": {
+          "score": -4,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "High inequality, recurrent indigenous-movement strikes, and coast-sierra divides. (World Bank)"
+        },
+        "demographics": {
+          "score": 1,
+          "weight": 0.1,
+          "confidence": 0.75,
+          "notes": "Still relatively young, with falling fertility and emigration pressure. (INEC)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -0.5,
+      "confidence": 0.79,
+      "skew": "negative",
+      "notes": "An open, US-aligned posture, dominated by an internal-security war.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 2,
+          "weight": 0.4,
+          "confidence": 0.7,
+          "notes": "Pragmatic and pro-US on security cooperation. (press)"
+        },
+        "conflict_involvement": {
+          "score": -6,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "A declared internal armed conflict against cartels - an active internal-security war. (government decree; ACLED)"
+        },
+        "sanctions_capital_controls": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "Open, dollarized, unsanctioned, with no capital controls. (IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -4.6,
+      "confidence": 0.74,
+      "skew": "negative",
+      "notes": "Seismic and climate exposure, a weak health system, an energy crisis, and a catastrophic crime collapse.",
+      "sub_factors": {
+        "climate": {
+          "score": -4,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "High seismic risk, El Nino flooding, and a 2024 drought-driven hydropower collapse, with Galapagos/Amazon exposure. (GFDRR; IOM)"
+        },
+        "healthcare": {
+          "score": -4,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "A weak, uneven public system with drug/equipment shortages and long waits. (Frontiers 2025)"
+        },
+        "infrastructure": {
+          "score": -4,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "The 2024 nationwide electricity crisis was a major structural drag despite 2025 easing; roads are mixed. (Al Jazeera)"
+        },
+        "crime_safety": {
+          "score": -8,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "A catastrophic collapse - a homicide rate that exploded to among the region's highest amid cartel and prison wars, having become a cocaine-trafficking hub. (National Police; InSight Crime)"
+        },
+        "disaster_insurance": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Low penetration against severe seismic/flood exposure. (World Bank)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -2.1,
+      "confidence": 0.76,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": -1.06,
+      "confidence": 0.78,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -0.26,
+      "confidence": 0.8,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A fully dollarized economy whose genuine strengths - dollar-anchored stability, low inflation, no local-currency devaluation risk, and an open capital account - are dominated by a catastrophic security collapse: a declared internal armed conflict against cartels, a homicide rate that exploded to among the region's highest, and a justice system infiltrated by organized crime. High fiscal financing needs under an IMF program, structural oil decline, a 2024 drought-driven electricity crisis, political volatility, and seismic/climate exposure round out a negative profile. Dollarization removes the FX-crisis lever but also any monetary flexibility."
+}
