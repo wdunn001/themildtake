@@ -41,7 +41,7 @@ what you actually care about.
 
 None of these numbers are presented as precise. The v2 source-discipline re-run has been
 applied — the hard exclusion rule run uniformly, China's economics rebuilt from
-independent proxies, US post-2022 official data discounted as partially-entangled — and a
+independent proxies, US official data from 2025 on discounted as partially-entangled — and a
 second pass re-checked every country through non-Anglophone independent sources. Where
 official data is compromised, confidence is pulled down and the caveat is recorded on the
 assessment itself rather than smoothed over.
