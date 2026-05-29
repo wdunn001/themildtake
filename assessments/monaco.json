@@ -1,0 +1,244 @@
+{
+  "country": "Monaco",
+  "iso3": "MCO",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF, FATF/MONEYVAL, Freedom House, IMSEE) + international/European press.",
+    "An ultra-high-income constitutional monarchy (Prince Albert II) and no-income-tax finance/real-estate/tourism centre on the euro, with one of the world's strongest public balance sheets - but still on the FATF grey list (added June 2024, exit targeted mid-2026, not yet removed).",
+    "Standout features: exceptional fiscal strength, top-tier safety, and modern infrastructure, against an in-progress FATF grey-list exit, extreme wealth-cycle dependence, and a constrained political franchise."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 2.1,
+      "confidence": 0.78,
+      "skew": "positive",
+      "notes": "An exceptional balance sheet on a narrow, wealth-cycle-dependent base; euro-using, no monetary autonomy.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 8,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "Zero public debt, a ~EUR193m surplus (2024), and a ~EUR7bn Constitutional Reserve Fund - an exceptional balance sheet, but with a cyclical revenue base. (IMSEE; Monaco budget)"
+        },
+        "monetary_independence": {
+          "score": -3,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "Uses the euro under an EU monetary agreement - no own monetary policy. (EU monetary agreement)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.9,
+          "notes": "Uses the euro (a reserve currency) but issues none. (IMF)"
+        },
+        "inflation": {
+          "score": 2,
+          "weight": 0.13,
+          "confidence": 0.7,
+          "notes": "Imports eurozone inflation (~2%); a high local cost level but no independent dynamics. (ECB)"
+        },
+        "banking_stability": {
+          "score": 3,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "A large private-banking/wealth sector, sound but with the FATF grey-listing/AML remediation the live risk to correspondent-banking access. (FATF/MONEYVAL 2025)"
+        },
+        "trade_actions_capacity": {
+          "score": 4,
+          "weight": 0.17,
+          "confidence": 0.65,
+          "notes": "Finance, real estate, tourism, gaming - high value-added but narrow and globally wealth-cycle dependent. (IMSEE)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 4.9,
+      "confidence": 0.65,
+      "skew": "symmetric",
+      "notes": "Predictable administration with strong stats, against AML-process gaps and a tiny state-intertwined media market.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 5,
+          "weight": 0.35,
+          "confidence": 0.65,
+          "notes": "A functioning rule of law and predictable administration; AML/judicial-process gaps drove the grey-listing and are being remediated. (FATF/MONEYVAL; FH 2025)"
+        },
+        "statistical_integrity": {
+          "score": 5,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "IMSEE produces credible, detailed national accounts. (IMSEE)"
+        },
+        "civil_service_capacity": {
+          "score": 6,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "An efficient, well-resourced administration that recently overhauled its AML/FIU institutions. (FATF/MONEYVAL 2025)"
+        },
+        "press_freedom": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.5,
+          "notes": "Civil liberties broadly respected, but a tiny, state-intertwined media market with limited independence; RSF does not separately rank Monaco. (Freedom House 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 4.2,
+      "confidence": 0.71,
+      "skew": "symmetric",
+      "notes": "A very stable monarchy with a constrained franchise and extreme wealth/nationality stratification.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 7,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "A very stable constitutional monarchy under Prince Albert II, with orderly governance. (Freedom House 2025)"
+        },
+        "civil_liberties": {
+          "score": 5,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Generally respected (FH civil liberties 57/60), within a monarch-appointed government answerable only to the Prince. (Freedom House 2025)"
+        },
+        "treatment_non_citizens": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": ">75% of residents are foreign and treated well/wealthy, but Monegasque-only privileges (housing, jobs) and no path to power for most leave political rights limited. (IMSEE; FH 2025)"
+        },
+        "social_cohesion": {
+          "score": 3,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Stable and orderly, but with extreme wealth stratification, a Monegasque/foreigner divide, and acute housing pressure. (IMSEE)"
+        },
+        "demographics": {
+          "score": 2,
+          "weight": 0.1,
+          "confidence": 0.65,
+          "notes": "A growing population (~38.4k, 144 nationalities); an aging wealthy base sustained by continuous HNWI in-migration. (IMSEE 2025)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 5.2,
+      "confidence": 0.7,
+      "skew": "symmetric",
+      "notes": "France-reliant and conflict-free, with a live FATF grey-list/AML scrutiny factor.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 4,
+          "weight": 0.4,
+          "confidence": 0.6,
+          "notes": "Not in NATO/EU, with close defence/foreign-policy reliance on France under treaty. (treaty with France; UN)"
+        },
+        "conflict_involvement": {
+          "score": 8,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "No conflict exposure. (observed)"
+        },
+        "sanctions_capital_controls": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "An open capital account, but FATF grey-listing (since 2024, exit pending mid-2026) and AML scrutiny are a live capital-flow/reputational risk. (FATF Oct 2025; MONEYVAL)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 5.5,
+      "confidence": 0.63,
+      "skew": "positive",
+      "notes": "World-class healthcare/infrastructure and very low crime, against coastal/density exposure.",
+      "sub_factors": {
+        "climate": {
+          "score": -1,
+          "weight": 0.2,
+          "confidence": 0.55,
+          "notes": "A Mediterranean coast with sea-level-rise/coastal-flood exposure over the long term given extreme density and reclaimed land. (general)"
+        },
+        "healthcare": {
+          "score": 7,
+          "weight": 0.3,
+          "confidence": 0.65,
+          "notes": "Excellent, well-funded healthcare and very high life expectancy, with some specialist care via France. (general; FH)"
+        },
+        "infrastructure": {
+          "score": 7,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "World-class, dense, and heavily invested, though space-constrained. (Monaco budget)"
+        },
+        "crime_safety": {
+          "score": 9,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "Among the lowest-crime/highest-surveillance environments globally. (general; FH)"
+        },
+        "disaster_insurance": {
+          "score": 3,
+          "weight": 0.15,
+          "confidence": 0.5,
+          "notes": "Sophisticated insurance access against coastal/density exposure. (general)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 4.3,
+      "confidence": 0.69,
+      "horizon": "5-10y",
+      "reading": "clear positive"
+    },
+    "assets": {
+      "score": 3.7,
+      "confidence": 0.71,
+      "horizon": "3-7y",
+      "reading": "clear positive"
+    },
+    "currency": {
+      "score": 3.13,
+      "confidence": 0.74,
+      "horizon": "1-3y",
+      "reading": "clear positive"
+    }
+  },
+  "summary": "An ultra-high-income constitutional monarchy under Prince Albert II with one of the world's strongest public balance sheets - no public debt, a multi-billion-euro reserve fund, recurring surpluses, no personal income tax, and very low crime. Its key live risk is reputational/financial: it was grey-listed by the FATF in June 2024 and, as of late 2025, was judged to have 'largely addressed' the action plan but had not yet been removed, with delisting targeted for mid-2026. Structurally, the economy is narrow and tied to the global-wealth cycle, the franchise is constrained (the Prince appoints a government answerable only to him), and wealth/nationality stratification is extreme. It uses the euro with no monetary autonomy; the profile is broadly symmetric."
+}

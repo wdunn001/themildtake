@@ -1,0 +1,246 @@
+{
+  "country": "Andorra",
+  "iso3": "AND",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "positive",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF Art IV, OECD, MONEYVAL, Freedom House, RSF, EU) + international/European press.",
+    "A stable co-principality (the French President and the Bishop of Urgell as co-princes) with an elected parliament; a tourism/retail/banking economy diversifying after banking-secrecy reform, using the euro.",
+    "Standout features: strong institutions, a prudent fiscal rule, top-tier safety, and an EU-Association-Agreement upside (concluded at Council level Dec 2025, pending ratification + a referendum), against rapid aging and a thin tax base."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 1.3,
+      "confidence": 0.81,
+      "skew": "positive",
+      "notes": "A prudent, low-debt, diversifying economy with an EU-association upside; euro-using, no monetary autonomy.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 5,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "A fiscal rule caps the deficit at 1% of GDP and debt at 40%, with resilient ~2.1% growth and a large current-account surplus. (IMF Art IV 2025/2026)"
+        },
+        "monetary_independence": {
+          "score": -3,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "Uses the euro under an EU monetary agreement - no own monetary policy, imports the ECB stance. (EU monetary agreement)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.9,
+          "notes": "Uses the euro (a reserve currency) but issues none of it. (IMF; EU monetary agreement)"
+        },
+        "inflation": {
+          "score": 2,
+          "weight": 0.13,
+          "confidence": 0.8,
+          "notes": "Subsiding (~2.6% end-2024), tracking the eurozone despite a tight labour market. (IMF Art IV 2025)"
+        },
+        "banking_stability": {
+          "score": 3,
+          "weight": 0.1,
+          "confidence": 0.7,
+          "notes": "Banks profitable on high margins/fees; the post-secrecy-reform sector is sound but small and concentrated. (IMF Art IV 2025)"
+        },
+        "trade_actions_capacity": {
+          "score": 3,
+          "weight": 0.17,
+          "confidence": 0.7,
+          "notes": "A diversifying tourism/retail/banking economy; the EU Association Agreement would deepen single-market access - small but capable, gaining optionality if ratified. (EC; IMF)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 5,
+      "confidence": 0.7,
+      "skew": "positive",
+      "notes": "Strong rule of law and a free press (with the usual microstate data-thinness).",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 6,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "Strong, stable rule of law - 'Free' (FH 93/100); no dedicated WJP coverage caps confidence. (Freedom House 2025)"
+        },
+        "statistical_integrity": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "Credible official statistics and IMF-engaged, with thin coverage vs Eurostat-grade systems. (IMF Art IV)"
+        },
+        "civil_service_capacity": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "A competent small administration, with the EU-accession workstream straining a thin civil service. (EC; IMF)"
+        },
+        "press_freedom": {
+          "score": 6,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "RSF #5 globally (2025) - among the world's freest and independent, though a tiny media market. (RSF 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 4.9,
+      "confidence": 0.77,
+      "skew": "positive",
+      "notes": "A stable democracy with protected liberties, against a long-run aging drag.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 7,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "A stable co-principality with an elected parliament and regular free/fair elections. (Freedom House 2025)"
+        },
+        "civil_liberties": {
+          "score": 7,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Generally respected (FH civil liberties 55/60). (Freedom House 2025)"
+        },
+        "treatment_non_citizens": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": ">50% of residents are foreign; integration is peaceful, but strict naturalization leaves most non-citizens without voting rights. (Freedom House 2025)"
+        },
+        "social_cohesion": {
+          "score": 5,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "A cohesive, low-conflict society despite ~100 nationalities, with housing/cost pressure as population nears 90k. (Andorra statistics; FH)"
+        },
+        "demographics": {
+          "score_near": 1,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "Immigration-fed growth now, but fertility ~0.8 and rapid aging make the long term a fiscal/growth drag. (Andorra statistics; IMF)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 5.6,
+      "confidence": 0.73,
+      "skew": "positive",
+      "notes": "A demilitarized, conflict-free state under Franco-Spanish protection, EU-associating.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 4,
+          "weight": 0.4,
+          "confidence": 0.65,
+          "notes": "Not in NATO/EU, but with deep Franco-Spanish protection and a pending EU Association Agreement. (EC; UN)"
+        },
+        "conflict_involvement": {
+          "score": 8,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "No conflict exposure - landlocked and demilitarized. (observed)"
+        },
+        "sanctions_capital_controls": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "An open capital account aligned with EU/international norms post-secrecy-reform. (IMF; EC)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 5.2,
+      "confidence": 0.66,
+      "skew": "symmetric",
+      "notes": "Among the world's safest, with strong healthcare, against ski-tourism climate sensitivity.",
+      "sub_factors": {
+        "climate": {
+          "score": 0,
+          "weight": 0.2,
+          "confidence": 0.6,
+          "notes": "Alpine/Pyrenean - low catastrophe exposure but ski tourism is sensitive to long-term warming/snowpack. (general)"
+        },
+        "healthcare": {
+          "score": 7,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "Very high life expectancy (~84+) and a strong universal system, with complex cases referred to Spain/France. (WHO)"
+        },
+        "infrastructure": {
+          "score": 5,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Good for its size, but landlocked, road-dependent, and with no airport/rail of its own. (general)"
+        },
+        "crime_safety": {
+          "score": 9,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "Among the safest countries in the world. (national crime stats)"
+        },
+        "disaster_insurance": {
+          "score": 3,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Developed insurance access via Spain/France, with low catastrophe exposure. (general)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 4.29,
+      "confidence": 0.73,
+      "horizon": "5-10y",
+      "reading": "clear positive"
+    },
+    "assets": {
+      "score": 3.49,
+      "confidence": 0.75,
+      "horizon": "3-7y",
+      "reading": "clear positive"
+    },
+    "currency": {
+      "score": 2.77,
+      "confidence": 0.77,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A very safe, high-income, well-governed co-principality with strong institutions (FH 93/100, RSF #5), a resilient diversifying tourism/retail/banking economy, a prudent fiscal rule, and very high life expectancy. The headline upside is the EU Association Agreement concluded at Council level in December 2025, which would grant near-EEA single-market access - but it still needs EU national ratifications and an Andorran referendum where opinion is roughly split, so it is upside, not a done deal. The main long-run risk is demographic: ultra-low fertility and rapid aging will erode growth and load pension/healthcare costs. It uses the euro with no monetary autonomy; overall positively skewed and stable."
+}

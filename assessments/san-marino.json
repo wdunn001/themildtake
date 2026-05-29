@@ -1,0 +1,244 @@
+{
+  "country": "San Marino",
+  "iso3": "SMR",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF Art IV, Freedom House, RSF, EU, MONEYVAL) + international/European press.",
+    "The world's oldest republic, surrounded by Italy and using the euro; a banking-and-manufacturing economy still carrying a banking-crisis legacy (NPLs ~17%) with high-but-declining public debt.",
+    "Standout features: top-of-cohort institutions (FH 97/100) and social cohesion, against the thinnest, most Italy-dependent economy of the European microstates and a tightly-capitalized banking sector."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -0.2,
+      "confidence": 0.79,
+      "skew": "negative",
+      "notes": "A euro-using, Italy-coupled economy with a banking-crisis legacy and high-but-declining debt.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 1,
+          "weight": 0.22,
+          "confidence": 0.75,
+          "notes": "Debt high but declining (~60-63% of GDP), with limited fiscal buffers and significant contingent liabilities requiring further consolidation. (IMF Art IV 2025)"
+        },
+        "monetary_independence": {
+          "score": -3,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "Uses the euro under an EU monetary agreement - no own monetary policy. (EU monetary agreement)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.9,
+          "notes": "Uses the euro (a reserve currency) but issues none. (IMF)"
+        },
+        "inflation": {
+          "score": 2,
+          "weight": 0.13,
+          "confidence": 0.7,
+          "notes": "Imports eurozone inflation (~2%); no independent dynamics. (ECB; IMF)"
+        },
+        "banking_stability": {
+          "score": -2,
+          "weight": 0.1,
+          "confidence": 0.75,
+          "notes": "NPLs still ~16.9% (end-2024, from 21%), with tight capitalization at some banks - the legacy crisis is the standout risk. (IMF Art IV 2025)"
+        },
+        "trade_actions_capacity": {
+          "score": 2,
+          "weight": 0.17,
+          "confidence": 0.7,
+          "notes": "Banking plus manufacturing and a tourism boom - thin and Italy-dependent; the EU Association Agreement could lift growth but adds bank competition. (IMF Art IV 2025)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 4.8,
+      "confidence": 0.65,
+      "skew": "positive",
+      "notes": "Top-of-cohort rule of law and an active press, with heavy defamation fines a chill risk.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 6,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "Strong rule of law - FH 97/100, the highest of the cohort - though corruption is flagged. (Freedom House 2025)"
+        },
+        "statistical_integrity": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "Credible, IMF-engaged statistics, with thin coverage. (IMF Art IV)"
+        },
+        "civil_service_capacity": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "A competent small administration, stretched by the EU-accession and bank-restructuring workload. (IMF; EC)"
+        },
+        "press_freedom": {
+          "score": 4,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Investigative journalists active, but heavy defamation fines can encourage self-censorship; RSF does not separately rank San Marino. (Freedom House 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 5.4,
+      "confidence": 0.73,
+      "skew": "positive",
+      "notes": "A stable, highly cohesive, homogeneous democracy (the oldest republic).",
+      "sub_factors": {
+        "political_stability": {
+          "score": 7,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "A stable parliamentary democracy (the oldest republic) - FH political rights 39/40. (Freedom House 2025)"
+        },
+        "civil_liberties": {
+          "score": 7,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Generally upheld (FH civil liberties 58/60). (Freedom House 2025)"
+        },
+        "treatment_non_citizens": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "A sizable Italian-resident community generally treated fairly in a small/homogeneous polity. (FH 2025)"
+        },
+        "social_cohesion": {
+          "score": 6,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Highly cohesive and homogeneous, with mild tourism-boom pressures. (FH; IMF)"
+        },
+        "demographics": {
+          "score": 0,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "Small (~34k) and aging like Italy, with low fertility. (IMF)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 5.5,
+      "confidence": 0.7,
+      "skew": "symmetric",
+      "notes": "Italy-integrated, conflict-free, and EU-associating.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 4,
+          "weight": 0.4,
+          "confidence": 0.6,
+          "notes": "Not in NATO/EU, but surrounded by and deeply integrated with Italy (a UN/Council of Europe member), with an EU Association Agreement pending. (EC; UN)"
+        },
+        "conflict_involvement": {
+          "score": 8,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "No conflict exposure. (observed)"
+        },
+        "sanctions_capital_controls": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "An open capital account aligned with EU/international norms; bank-sector scrutiny a residual factor. (IMF; EC)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 4.7,
+      "confidence": 0.61,
+      "skew": "symmetric",
+      "notes": "Low-hazard with good Italy-integrated services and very low crime.",
+      "sub_factors": {
+        "climate": {
+          "score": 0,
+          "weight": 0.2,
+          "confidence": 0.55,
+          "notes": "Inland temperate - low catastrophe exposure, some heat/flood, with modest central-Italy seismic exposure. (general)"
+        },
+        "healthcare": {
+          "score": 6,
+          "weight": 0.3,
+          "confidence": 0.65,
+          "notes": "Good universal healthcare, integrated with the Italian system for complex care. (general)"
+        },
+        "infrastructure": {
+          "score": 5,
+          "weight": 0.2,
+          "confidence": 0.6,
+          "notes": "Solid for its size, but landlocked, Italy-connected, with no airport/rail of its own. (general)"
+        },
+        "crime_safety": {
+          "score": 8,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Very low crime. (general; FH)"
+        },
+        "disaster_insurance": {
+          "score": 3,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Developed insurance access via Italy against moderate seismic exposure. (general)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 4.13,
+      "confidence": 0.69,
+      "horizon": "5-10y",
+      "reading": "clear positive"
+    },
+    "assets": {
+      "score": 2.73,
+      "confidence": 0.72,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 1.73,
+      "confidence": 0.75,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "The world's oldest republic - a stable, democratic, low-crime microstate (FH 97/100, the highest of the cohort) embedded inside Italy and using the euro. Its distinguishing weakness is economic: a banking-and-manufacturing economy still carrying a banking-crisis legacy (NPLs ~17% end-2024, tightly capitalized banks), high-but-declining public debt (~60-63% of GDP), thin fiscal buffers, and heavy dependence on Italy. The EU Association Agreement would raise long-run growth but also bank compliance costs and Italian-bank competition. Strong institutions and social cohesion, but the thinnest and most financially fragile economy of the European microstates - symmetric to mildly negative skew."
+}
