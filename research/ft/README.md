@@ -6,17 +6,20 @@ politics-of-the-economy, where it often runs ahead of IMF/World Bank reports.
 
 ## How it flows
 
-1. **Prime the session (once, on Windows).** FT is behind Cloudflare + a paywall, so
-   automated/headless pulls are blocked. A real login clears the Cloudflare challenge
-   and stores the paywall session in a persistent browser profile:
+1. **Save the session (once, on Windows).** FT is behind Cloudflare + a paywall, so a
+   real login is needed; it writes the cleared session to `state/ft_storage.json`:
    ```
    cd H:\dev\pidscraper
-   .\.venv\Scripts\python.exe scripts\ft_login.py --persistent   # sign in (Google ok)
+   .\.venv\Scripts\python.exe scripts\ft_login.py            # sign in (Google ok), press Enter
    ```
-2. **Find + pull** (uses the primed profile; see `queue.json` for the target list):
+   The scraper then loads that `storage_state` into a **fresh, non-persistent** headed
+   Chrome (same pattern as `patreon_harvest.py`) — it never opens your login profile, so
+   it can't collide with your login window or with re-runs.
+2. **Find + pull** (see `queue.json` for the target list):
    ```
    .\.venv\Scripts\python.exe scripts\ft_api.py search "argentina inflation" -n 10
    .\.venv\Scripts\python.exe scripts\ft_api.py scrape https://www.ft.com/content/<id>
+   .\.venv\Scripts\python.exe scripts\ft_api.py scrape-queue    # walk this queue.json end-to-end
    ```
    Raw pulls cache to `H:\dev\pidscraper\output\ft\<sha1>.json`.
 3. **Ingest into this repo:**
