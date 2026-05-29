@@ -1,0 +1,244 @@
+{
+  "country": "Mauritius",
+  "iso3": "MUS",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "positive",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF Art IV, World Bank, Mo Ibrahim, V-Dem, RSF, FATF) + international press.",
+    "Africa's governance and income leader - a clean Nov 2024 turnover amid a wiretapping scandal, and the 2024 UK-Mauritius Chagos sovereignty win - against high public debt, an aging population, and a real press/civil-liberties wobble.",
+    "Standout features: strong institutions, a diversified services economy, and the Chagos settlement, against debt ~87-88% of GDP (above the legal ceiling), demographic aging (TFR ~1.4), cyclone exposure, and an election-eve social-media shutdown. Net positive."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 1.7,
+      "confidence": 0.77,
+      "skew": "symmetric",
+      "notes": "A diversified, own-currency services economy, against high public debt now forcing austerity.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -2,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "Public-sector debt ~87-88% of GDP (above the 80% statutory ceiling), with the 2025-26 budget pivoting to consolidation toward ~75% by 2030. (IMF Art IV 2025)"
+        },
+        "monetary_independence": {
+          "score": 4,
+          "weight": 0.22,
+          "confidence": 0.75,
+          "notes": "The own rupee on a managed float gives genuine, if small-economy-constrained, autonomy. (Bank of Mauritius)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The rupee is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 5,
+          "weight": 0.13,
+          "confidence": 0.75,
+          "notes": "Moderated from the post-2022 spike and broadly contained in 2025. (IMF)"
+        },
+        "banking_stability": {
+          "score": 3,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "Sound and liquid, with a large offshore/global-business sector creating funding-volatility risk. (Coface; IMF)"
+        },
+        "trade_actions_capacity": {
+          "score": 3,
+          "weight": 0.17,
+          "confidence": 0.7,
+          "notes": "A diversified services-led economy (finance, tourism, ICT) with many tax treaties, exposed to external-demand swings. (OECD; IMF)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 4.4,
+      "confidence": 0.75,
+      "skew": "symmetric",
+      "notes": "Africa's strongest governance, but with a corroborated press-freedom deterioration.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 5,
+          "weight": 0.35,
+          "confidence": 0.75,
+          "notes": "The strongest governance in Africa (Mo Ibrahim #1) with independent courts; the wiretapping scandal exposed misuse but elections/courts held. (BTI 2026; Mo Ibrahim)"
+        },
+        "statistical_integrity": {
+          "score": 5,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "Credible, transparent statistics, fully IMF-engaged. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": 5,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "Strong, professional administration with high state capacity for its peer group. (World Bank; BTI)"
+        },
+        "press_freedom": {
+          "score": 1,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "A notable deterioration - a polarised media, ICT-Act prosecutions, annual licensing, and a pre-election social-media shutdown. (RSF 2025; Civicus)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 3.5,
+      "confidence": 0.7,
+      "skew": "symmetric",
+      "notes": "Stable competitive democracy and cohesion, with a real civil-liberties wobble and aging.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 6,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "The Nov 2024 landslide turnover and peaceful concession reaffirmed stable, competitive democracy. (Al Jazeera; ECN)"
+        },
+        "civil_liberties": {
+          "score": 3,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Broadly free, but the temporary election-eve social-media ban and ICT-Act harassment mark a real wobble. (Al Jazeera; Civicus)"
+        },
+        "treatment_non_citizens": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Generally tolerant and diverse, with standard migrant-labour concerns but no systematic discrimination. (observed)"
+        },
+        "social_cohesion": {
+          "score": 3,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "Stable multi-ethnic cohesion; communal politics managed peacefully. (BTI 2026)"
+        },
+        "demographics": {
+          "score": -2,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "An aging headwind - median age ~39, TFR ~1.4, the 60+ share nearly doubled, pressuring pensions/fiscal. (OECD)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 6,
+      "confidence": 0.75,
+      "skew": "positive",
+      "notes": "A reliable, treaty-based partner with the Chagos dispute resolved.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 5,
+          "weight": 0.4,
+          "confidence": 0.7,
+          "notes": "A reliable, predictable partner - the orderly Chagos deal with the UK/US underscores treaty-based diplomacy. (Reuters)"
+        },
+        "conflict_involvement": {
+          "score": 8,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "No conflict; the Chagos sovereignty dispute was resolved diplomatically via the 2024 treaty. (press)"
+        },
+        "sanctions_capital_controls": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Off the FATF grey list since 2021, open economy, with a 2027 FATF review to sustain. (FATF; IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 2.3,
+      "confidence": 0.7,
+      "skew": "symmetric",
+      "notes": "Strong infrastructure and healthcare, against acute SIDS cyclone exposure.",
+      "sub_factors": {
+        "climate": {
+          "score": -4,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "A SIDS highly exposed to cyclones, floods, and sea-level rise - climate losses ~0.8% of GDP/year, plus a 2024 drought. (World Bank CCDR)"
+        },
+        "healthcare": {
+          "score": 5,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "Among Africa's best - high life expectancy and broad access, consistent with high-income status. (World Bank)"
+        },
+        "infrastructure": {
+          "score": 6,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "Strong (ports, roads, telecom, finance) underpinning its offshore-hub role. (World Bank; BTI)"
+        },
+        "crime_safety": {
+          "score": 5,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Relatively safe and low-violence. (observed)"
+        },
+        "disaster_insurance": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "High cyclone/flood exposure (~0.8%-of-GDP recurring losses) despite better-than-peer penetration. (World Bank CCDR)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 3.5,
+      "confidence": 0.73,
+      "horizon": "5-10y",
+      "reading": "clear positive"
+    },
+    "assets": {
+      "score": 3.26,
+      "confidence": 0.75,
+      "horizon": "3-7y",
+      "reading": "clear positive"
+    },
+    "currency": {
+      "score": 2.98,
+      "confidence": 0.76,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "Africa's governance and income leader - the November 2024 election delivered a clean landslide turnover (the Alliance du Changement, ~62.6%) that ousted the incumbent amid the 'Missie Moustass' wiretapping scandal, and the 2024 UK-Mauritius Chagos agreement resolved a decades-old sovereignty dispute on favourable terms. Strong institutions, a diversified services economy, an own managed-float rupee, and removal from the FATF grey list (2021) anchor a positive skew. The watch items are real: public debt near 87-88% of GDP (above the legal ceiling) now forcing austerity, an aging population (TFR ~1.4), acute cyclone exposure, and a genuine press-freedom/civil-liberties wobble that several monitors read as democratic-quality erosion."
+}

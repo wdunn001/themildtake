@@ -1,0 +1,248 @@
+{
+  "country": "Republic of the Congo",
+  "iso3": "COG",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: governance/rights/politics from independent sources (IMF, World Bank, V-Dem, Freedom House, RSF, TI, Sherpa/OCCRP, HRW) + international press; Congolese state media EXCLUDED there. This is Congo-Brazzaville, NOT the DRC.",
+    "Denis Sassou Nguesso (in power since 1979 with a 1992-97 gap) was re-elected to a fifth term with ~95% in a March 2026 vote the opposition boycotted, conducted under a nationwide internet blackout and pre-poll arrests.",
+    "Standout drags: a 42-year personalist incumbency with an unresolved succession, acute debt distress (~97% GDP), family-level grand corruption (the 'Biens mal acquis' cases), and a documented 2024 torture/detention surge; the CFA euro peg is the lone offset."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -1.8,
+      "confidence": 0.8,
+      "skew": "negative",
+      "notes": "A peg-anchored but debt-distressed, declining-oil rentier refinancing via costly Eurobonds.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -6,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "Debt ~97.2% of GDP and in distress with fresh arrears and a 2025-26 payment peak refinanced via costly Eurobonds against falling oil. (IMF 2026; Reuters; World Bank)"
+        },
+        "monetary_independence": {
+          "score": 2,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "The CEMAC CFA euro peg with a French convertibility guarantee - stable but non-sovereign. (BEAC; IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.9,
+          "notes": "The CFA franc is regional, not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 3,
+          "weight": 0.13,
+          "confidence": 0.72,
+          "notes": "Low and peg-anchored near the CEMAC norm. (IMF)"
+        },
+        "banking_stability": {
+          "score": -3,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "COBAC-supervised but heavily exposed to sovereign treasuries - regional-bank appetite for Congolese paper is a flagged IMF risk. (IMF 2026)"
+        },
+        "trade_actions_capacity": {
+          "score": -6,
+          "weight": 0.17,
+          "confidence": 0.8,
+          "notes": "Oil-dependent (the Pointe-Noire hub) with declining output, a gas-investment pivot, and minimal diversification - a resource curse. (IMF; World Bank)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -5.4,
+      "confidence": 0.7,
+      "skew": "negative",
+      "notes": "No judicial independence, family-level grand corruption, and a repressed press.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -7,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "No judicial independence and pervasive grand corruption (CPI ~23/100), with active foreign ill-gotten-gains and Petronor-bribery cases against the ruling family. (TI 2024; Sherpa; Freedom House 2025)"
+        },
+        "statistical_integrity": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Weak but IMF-engaged on macro data; political data unreliable. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": -5,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Patronage-driven and thin. (World Bank)"
+        },
+        "press_freedom": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.78,
+          "notes": "Pervasive self-censorship and election-period repression (Pointe-Noire comms cut, journalists detained). (RSF; Freedom House 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -4.5,
+      "confidence": 0.71,
+      "skew": "negative",
+      "notes": "A 42-year incumbency re-entrenched by a boycotted vote, with a documented abuse surge and high poverty.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -5,
+          "score_long": -6,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "A 42-year incumbent re-entrenched at ~95% via a boycotted March 2026 vote with an internet blackout - suppressed instability with an acute succession overhang. (Al Jazeera; African Arguments)"
+        },
+        "civil_liberties": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.78,
+          "notes": "A sharp documented rise in torture/arbitrary detention (CAD: 122 torture cases H1-2024 vs 13 prior). (Freedom House 2025; CAD/press)"
+        },
+        "treatment_non_citizens": {
+          "score": -4,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Not rights-protective, with a history of mass expulsions of DRC nationals. (HRW; OHCHR)"
+        },
+        "social_cohesion": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Poverty ~52% despite oil, with lingering (now dormant) Pool-region tensions. (World Bank; HRW)"
+        },
+        "demographics": {
+          "score": 1,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "Young and highly urbanised - a potential dividend against weak jobs. (World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -0.9,
+      "confidence": 0.67,
+      "skew": "negative",
+      "notes": "A China-indebted hedger with a dormant insurgency and Eurobond transfer risk.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": -1,
+          "weight": 0.4,
+          "confidence": 0.6,
+          "notes": "Pragmatic France/China hedging with heavy Chinese-debt entanglement; no bloc drift. (AidData; press)"
+        },
+        "conflict_involvement": {
+          "score": 0,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "No active war; the Pool insurgency dormant since the 2017 ceasefire. (HRW; ACLED)"
+        },
+        "sanctions_capital_controls": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.72,
+          "notes": "Not internationally sanctioned, within CEMAC FX, but Eurobond reliance amid thin reserves raises transfer risk. (IMF 2026; BEAC)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -4.5,
+      "confidence": 0.6,
+      "skew": "negative",
+      "notes": "Weak healthcare and infrastructure with flood-prone river cities.",
+      "sub_factors": {
+        "climate": {
+          "score_near": -2,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.6,
+          "notes": "Significant Congo-Basin forest cover, against flood-prone river cities and rising exposure. (World Bank; UN)"
+        },
+        "healthcare": {
+          "score": -6,
+          "weight": 0.3,
+          "confidence": 0.65,
+          "notes": "A weak system (HDI ~153, medium-low) with thin services outside the two main cities. (World Bank; UNDP)"
+        },
+        "infrastructure": {
+          "score": -4,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Oil-funded pockets (the Pointe-Noire port, Brazzaville) against broadly poor power and roads. (World Bank)"
+        },
+        "crime_safety": {
+          "score": -4,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "High urban crime in Brazzaville/Pointe-Noire. (OSAC)"
+        },
+        "disaster_insurance": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.5,
+          "notes": "Negligible penetration. (inference)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -4.29,
+      "confidence": 0.7,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -3.03,
+      "confidence": 0.72,
+      "horizon": "3-7y",
+      "reading": "clear negative"
+    },
+    "currency": {
+      "score": -2.44,
+      "confidence": 0.75,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A textbook resource-cursed personalist state (Congo-Brazzaville, not the DRC): Denis Sassou Nguesso, in power since 1979, just secured a fifth term with ~95% in a March 2026 election the opposition boycotted, conducted under a nationwide internet blackout and pre-poll arrests. The economy is in outright debt distress (~97% of GDP, fresh arrears, a payment peak refinanced with risky Eurobonds against declining Pointe-Noire oil) and tarred by family-level grand corruption (the ill-gotten-gains and Petronor cases). Institutions offer no judicial independence and a repressed press, with a documented 2024 surge in torture and arbitrary detention. The CFA euro peg and low inflation are the only structural offsets; the skew is firmly negative, with an unresolved succession looming over an octogenarian incumbent."
+}

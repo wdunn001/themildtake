@@ -1,0 +1,246 @@
+{
+  "country": "Namibia",
+  "iso3": "NAM",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF Art IV, World Bank, V-Dem, Freedom House, RSF, Mo Ibrahim) + international press.",
+    "A stable democracy (the March 2025 inauguration of Netumbo Nandi-Ndaitwah, its first female president, capped a clean cycle) and an African press-freedom leader, with a credible but time-distant oil/green-hydrogen upside.",
+    "Standout features: strong institutions and a transformational Orange-Basin oil/hydrogen optionality (first oil ~2029-30, unrealized), against among the world's worst inequality (~36% unemployment), a rand-peg, and severe drought. Symmetric with a positive long-tail."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 0.9,
+      "confidence": 0.8,
+      "skew": "positive",
+      "notes": "Steady but rand-constrained and mineral-dependent, with a large unrealized oil/hydrogen upside.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 1,
+          "weight": 0.22,
+          "confidence": 0.75,
+          "notes": "Manageable but constrained - moderate deficits/debt, with the IMF urging consolidation amid drought and social spending. (IMF Art IV 2025)"
+        },
+        "monetary_independence": {
+          "score": -2,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "The Namibian dollar is pegged 1:1 to the rand in the Common Monetary Area, effectively importing South African policy. (Bank of Namibia)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The Namibian dollar is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 6,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "Low and easing (~3.5% in 2025 toward ~2.9%), anchored by the rand peg. (Bank of Namibia)"
+        },
+        "banking_stability": {
+          "score": 4,
+          "weight": 0.1,
+          "confidence": 0.7,
+          "notes": "Well-capitalised and supervised, with reserves adequate to sustain the peg. (Bank of Namibia)"
+        },
+        "trade_actions_capacity": {
+          "score_near": 0,
+          "score_long": 3,
+          "score": null,
+          "weight": 0.17,
+          "confidence": 0.65,
+          "notes": "Mineral-concentrated (uranium, diamonds) and dented by weak diamond demand, with offshore oil/green-hydrogen potentially diversifying exports later this decade. (AfDB; IMF)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 4.7,
+      "confidence": 0.74,
+      "skew": "positive",
+      "notes": "Independent courts, credible data, and a world-leading press environment.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 5,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "An independent judiciary and broadly respected rule of law, among Africa's better performers. (Freedom House 2025; Mo Ibrahim)"
+        },
+        "statistical_integrity": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Credible statistics, fully IMF-engaged. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "Reasonably capable by regional standards, stretched by high unemployment and delivery demands. (World Bank)"
+        },
+        "press_freedom": {
+          "score": 7,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "A regional and global leader - RSF ranked Namibia near the world's top in 2025. (RSF 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 3,
+      "confidence": 0.7,
+      "skew": "symmetric",
+      "notes": "Stable democracy and protected liberties, against among the world's worst inequality.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 5,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "Stable, with an orderly 2024-25 cycle and SWAPO continuity under a new president. (Al Jazeera; ECN)"
+        },
+        "civil_liberties": {
+          "score": 5,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Broadly protected - rated 'Free' with vibrant civil society and press. (Freedom House 2025)"
+        },
+        "treatment_non_citizens": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "Generally tolerant, with legacy marginalisation issues and an unresolved colonial-genocide reparations dynamic. (HRW)"
+        },
+        "social_cohesion": {
+          "score": -1,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Politically stable but among the world's most unequal (Gini ~0.6) with ~36% unemployment. (World Bank)"
+        },
+        "demographics": {
+          "score": 1,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "A young potential dividend blunted by ~17% HIV and very high youth unemployment. (AfDB; UNAIDS)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 5.4,
+      "confidence": 0.72,
+      "skew": "positive",
+      "notes": "A peaceful, non-aligned, sanction-free partner integrated with South Africa.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 4,
+          "weight": 0.4,
+          "confidence": 0.65,
+          "notes": "A stable non-aligned partner tied to South Africa (CMA/SACU), courting diversified energy investment. (observed)"
+        },
+        "conflict_involvement": {
+          "score": 7,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "No armed conflict, peaceful internally and externally. (observed)"
+        },
+        "sanctions_capital_controls": {
+          "score": 5,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "No sanctions exposure, broadly open under the CMA. (IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -0.3,
+      "confidence": 0.62,
+      "skew": "negative",
+      "notes": "Good regional infrastructure, against extreme aridity and drought.",
+      "sub_factors": {
+        "climate": {
+          "score": -5,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Among SSA's driest; a severe 2023-24 El Nino drought emergency with chronic water stress. (UN OCHA)"
+        },
+        "healthcare": {
+          "score": 1,
+          "weight": 0.3,
+          "confidence": 0.55,
+          "notes": "Functional but burdened by high HIV prevalence and rural gaps. (WHO)"
+        },
+        "infrastructure": {
+          "score": 4,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Comparatively good - Walvis Bay port, roads, and growing energy investment. (World Bank; AfDB)"
+        },
+        "crime_safety": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.5,
+          "notes": "Moderate; safer than several neighbours, with urban property/violent crime. (observed)"
+        },
+        "disaster_insurance": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "High drought exposure with limited penetration. (inference)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 3.02,
+      "confidence": 0.72,
+      "horizon": "5-10y",
+      "reading": "clear positive"
+    },
+    "assets": {
+      "score": 2.69,
+      "confidence": 0.74,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 2.37,
+      "confidence": 0.77,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A stable, well-governed democracy - the March 2025 inauguration of Netumbo Nandi-Ndaitwah (its first female president, SWAPO continuity) capped a clean electoral cycle, and the country is an African leader on press freedom. The macro picture is steady but constrained: the rand peg caps monetary independence, growth is mineral-dependent and was dented by weak diamond demand and a severe 2024 drought, and the binding problem is among the world's worst inequality with ~36% unemployment. The major swing factor is Orange-Basin oil and green-hydrogen optionality - potentially transformational but time-distant (first oil ~2029-30) and not yet de-risked - leaving a symmetric skew with a positive long-tail."
+}

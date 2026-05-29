@@ -1,0 +1,254 @@
+{
+  "country": "Gabon",
+  "iso3": "GAB",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: governance/rights/politics from independent sources (IMF, World Bank, V-Dem, Freedom House, RSF, TI, ICG) + international press; Gabonese state media EXCLUDED there.",
+    "The Aug 2023 coup ended 55 years of Bongo rule; Gen. Oligui Nguema won the April 2025 election (~90%) under a new 2024 constitution - a transition with genuine reform signals but clear personalist-continuity risk.",
+    "Standout features: a rare post-coup press-freedom rebound and anti-corruption drive, against a high-debt (~70% GDP, junk-rated) declining-oil rentier economy, extreme inequality, and an exceptional carbon-sink forest. CFA euro-peg."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -0.9,
+      "confidence": 0.79,
+      "skew": "negative",
+      "notes": "A peg-anchored, low-inflation but high-debt declining-oil rentier with a classic resource-curse profile.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": -4,
+          "score_long": -5,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.78,
+          "notes": "Public debt ~70.5% of GDP (above the CEMAC ceiling) with arrears accumulation and a junk rating; declining oil weighs on the long path. (IMF Art IV; Fitch; World Bank)"
+        },
+        "monetary_independence": {
+          "score": 2,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "No own policy, but the CEMAC CFA euro peg with a French convertibility guarantee delivers credible stability. (BEAC; IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.9,
+          "notes": "The CFA franc is regional, not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 3,
+          "weight": 0.13,
+          "confidence": 0.75,
+          "notes": "Low and peg-anchored near the CEMAC norm. (IMF)"
+        },
+        "banking_stability": {
+          "score": -1,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "A COBAC-supervised CEMAC system - shallow and low-penetration but peg-backed. (BEAC; IMF)"
+        },
+        "trade_actions_capacity": {
+          "score": -5,
+          "weight": 0.17,
+          "confidence": 0.78,
+          "notes": "~97% of exports are oil, manganese, and wood with structurally declining oil - a classic resource curse with modest diversification. (IMF; World Bank)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -2.4,
+      "confidence": 0.63,
+      "skew": "symmetric",
+      "notes": "Weak institutions with a genuine but unconsolidated post-coup reform trajectory.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score_near": -4,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.35,
+          "confidence": 0.62,
+          "notes": "Weak rule of law and entrenched patronage (CPI ~27/100), but a post-coup anti-corruption drive (Bongo aides jailed) and a new constitution offer a modest, selective improvement. (TI 2024; Freedom House 2025)"
+        },
+        "statistical_integrity": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.62,
+          "notes": "Weak capacity but IMF-engaged and validated on macro data. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Patronage-laden and thin, though resource rents fund more capacity than poorer peers. (World Bank)"
+        },
+        "press_freedom": {
+          "score_near": 1,
+          "score_long": 0,
+          "score": null,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "A genuine post-coup rebound (RSF ~41st in 2025, 'satisfactory') but reforms unconsolidated and reversible. (RSF 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -2.1,
+      "confidence": 0.61,
+      "skew": "symmetric",
+      "notes": "A coup-then-election transition with reform signals but continuity risk, over deep inequality.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -2,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.65,
+          "notes": "A coup-then-election transition with credible turnout but a ~90% margin and incumbency advantage risking a new personalist settlement. (Al Jazeera; France24)"
+        },
+        "civil_liberties": {
+          "score": -3,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Improved tone post-coup but still constrained - a 'Partly Free' trajectory. (Freedom House 2025)"
+        },
+        "treatment_non_citizens": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "A significant West African migrant-labour presence; not rights-protective but no mass-expulsion pattern documented. (inference)"
+        },
+        "social_cohesion": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Extreme inequality (~35% poverty) despite high per-capita wealth; no active insurgency. (World Bank)"
+        },
+        "demographics": {
+          "score": 1,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "Young and urbanised - a potential dividend against a 20%+ jobs strain. (World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 0.4,
+      "confidence": 0.66,
+      "skew": "symmetric",
+      "notes": "A stable, France-linked, sanction-free actor with no active conflict.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 0,
+          "weight": 0.4,
+          "confidence": 0.6,
+          "notes": "France ties retained post-coup; pragmatic and non-confrontational, with no Russia-pivot drift seen. (ICG; Reuters)"
+        },
+        "conflict_involvement": {
+          "score": 1,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "No active armed conflict; stable borders. (ACLED)"
+        },
+        "sanctions_capital_controls": {
+          "score": 0,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Post-coup AU/ECCAS suspensions lifted after the transition; operates within CEMAC FX. (BEAC; Reuters)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -3,
+      "confidence": 0.6,
+      "skew": "negative",
+      "notes": "A rare carbon sink with low climate hazard, against weak healthcare and uneven infrastructure.",
+      "sub_factors": {
+        "climate": {
+          "score_near": 0,
+          "score_long": -1,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "A rare net carbon sink (~88% forest cover); lower physical-climate exposure than Sahelian peers but with coastal/flood risk. (UNDP; World Bank)"
+        },
+        "healthcare": {
+          "score": -4,
+          "weight": 0.3,
+          "confidence": 0.62,
+          "notes": "Weak but oil-funded above the poorest peers, with an e-health push underway. (World Bank; WHO)"
+        },
+        "infrastructure": {
+          "score": -3,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Better than the poorest CEMAC peers (Libreville, manganese rail) but uneven power and roads. (World Bank)"
+        },
+        "crime_safety": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Urban crime in Libreville/Port-Gentil; no insurgency. (OSAC)"
+        },
+        "disaster_insurance": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.5,
+          "notes": "Negligible insurance penetration. (inference)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -2.09,
+      "confidence": 0.65,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": -1.42,
+      "confidence": 0.69,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -1.06,
+      "confidence": 0.73,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "The regional outlier on trajectory: the August 2023 coup ended 55 years of Bongo rule, and Gen. Oligui Nguema legitimised himself in an April 2025 election (~90%, ~70% turnout) under a new 2024 constitution - a transition with genuine reform signals (a striking RSF press-freedom rebound, jailed Bongo-era officials) but clear personalist-continuity risk in the lopsided margin. The economy is a high-debt (~70.5% of GDP, junk-rated), declining-oil rentier with relatively high but deeply unequal per-capita wealth, partly offset by manganese, timber, and an exceptional carbon-sink forest. The CFA euro peg anchors monetary stability and low inflation, leaving a symmetric skew: the upside of a real institutional opening against the downside of a reformist-strongman reversion."
+}

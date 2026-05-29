@@ -1,0 +1,250 @@
+{
+  "country": "Equatorial Guinea",
+  "iso3": "GNQ",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: governance/rights/politics from independent sources (IMF, World Bank, V-Dem, Freedom House, RSF, TI, HRW, Amnesty) + international press; Equatoguinean state media EXCLUDED there.",
+    "Teodoro Obiang (in power since 1979) is the world's longest-serving non-royal head of state - a closed, repressive system with no independent media, documented Black Beach prison torture, and the worst CPI of the regional petrostates (13/100).",
+    "Standout drags: extreme family capture of oil wealth (the Teodorin seizures, the 2024 Engonga embezzlement scandal), the paradox of plenty (top-tier per-capita wealth alongside majority poverty), and a sharp 2025 oil-led contraction; the CFA euro peg is the lone offset."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -1.6,
+      "confidence": 0.77,
+      "skew": "negative",
+      "notes": "A peg-anchored but acutely declining-oil rentier on an IMF staff-monitored program.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": -5,
+          "score_long": -6,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.75,
+          "notes": "A sharp 2025 contraction (~-6.4%) on falling hydrocarbons, on an IMF Staff-Monitored Program, with a long oil-depletion path and a weak non-oil base. (IMF 2025 Art IV/SMP; World Bank 2025)"
+        },
+        "monetary_independence": {
+          "score": 2,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "The CEMAC CFA euro peg with a French convertibility guarantee - stable, non-sovereign. (BEAC; IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.9,
+          "notes": "The CFA franc is regional, not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 3,
+          "weight": 0.13,
+          "confidence": 0.7,
+          "notes": "Low and peg-anchored near the CEMAC norm. (IMF)"
+        },
+        "banking_stability": {
+          "score": -3,
+          "weight": 0.1,
+          "confidence": 0.55,
+          "notes": "A COBAC-supervised CEMAC member - opaque, shallow, oil-exposed. (BEAC; IMF)"
+        },
+        "trade_actions_capacity": {
+          "score": -7,
+          "weight": 0.17,
+          "confidence": 0.78,
+          "notes": "Near-total hydrocarbon dependence with structurally declining output and negligible diversification - an acute resource curse. (IMF 2025; World Bank)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -7,
+      "confidence": 0.68,
+      "skew": "negative",
+      "notes": "Among the world's most corrupt and opaque states, with no independent media.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -8,
+          "weight": 0.35,
+          "confidence": 0.82,
+          "notes": "Among the world's most corrupt (CPI 13/100), no judicial independence, oil wealth captured by the ruling family (the Teodorin seizures; the 2024 Engonga conviction). (TI 2024; Freedom House 2025)"
+        },
+        "statistical_integrity": {
+          "score": -5,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "Among the most opaque states - some IMF engagement under the SMP but data thin and unreliable. (IMF; World Bank)"
+        },
+        "civil_service_capacity": {
+          "score": -6,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "Patronage-saturated and family-dominated despite oil rents. (World Bank)"
+        },
+        "press_freedom": {
+          "score": -8,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "No independent media; pervasive censorship and journalist detention, among the world's worst. (RSF; Freedom House 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -5.3,
+      "confidence": 0.68,
+      "skew": "negative",
+      "notes": "Suppressed stability under the world's longest-serving non-royal leader, with extreme inequality.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -4,
+          "score_long": -6,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.72,
+          "notes": "Suppressed surface stability under a leader in power since 1979 (~97% in 2022), with an acute, unmanaged eventual-succession risk inside the ruling family. (Freedom House 2025)"
+        },
+        "civil_liberties": {
+          "score": -8,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "'Not Free' - routine arbitrary arrest and documented torture at Black Beach prison. (Freedom House 2025; HRW; Amnesty 2024)"
+        },
+        "treatment_non_citizens": {
+          "score": -6,
+          "weight": 0.25,
+          "confidence": 0.62,
+          "notes": "Closed and arbitrary toward foreigners, with a history of expelling West African migrants and exit/detention risk. (HRW)"
+        },
+        "social_cohesion": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "Extreme inequality - top per-capita wealth alongside majority poverty - plus Bioko/mainland and ethnic cleavages. (World Bank 2025; HRW)"
+        },
+        "demographics": {
+          "score": 1,
+          "weight": 0.1,
+          "confidence": 0.55,
+          "notes": "Young and small-population with a nominal dividend, undercut by repression-driven exile. (World Bank; inference)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -1.2,
+      "confidence": 0.61,
+      "skew": "negative",
+      "notes": "A transactional hedger with targeted Western actions against the ruling family.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": -1,
+          "weight": 0.4,
+          "confidence": 0.55,
+          "notes": "Transactional hedging across the US (oil majors), China, Russia, and Spain; no firm bloc. (press; AidData)"
+        },
+        "conflict_involvement": {
+          "score": 0,
+          "weight": 0.35,
+          "confidence": 0.65,
+          "notes": "No active war; periodic coup-plot/mercenary scares but no open conflict. (press; ACLED)"
+        },
+        "sanctions_capital_controls": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "Not broadly sanctioned, but targeted Western asset actions against the ruling family (Teodorin); CEMAC FX controls and opacity raise transfer risk. (US/French courts; IMF; BEAC)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -4.1,
+      "confidence": 0.55,
+      "skew": "negative",
+      "notes": "Weak outcomes despite top per-capita wealth - a hallmark of the diverted-rents model.",
+      "sub_factors": {
+        "climate": {
+          "score_near": -1,
+          "score_long": -2,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.55,
+          "notes": "Tropical/coastal exposure but not a Sahel-grade hazard zone, with thin adaptation capacity. (World Bank; inference)"
+        },
+        "healthcare": {
+          "score": -6,
+          "weight": 0.3,
+          "confidence": 0.6,
+          "notes": "Weak outcomes despite top per-capita wealth - the diverted-rents model; a thin public system. (World Bank/WHO; HRW)"
+        },
+        "infrastructure": {
+          "score": -3,
+          "weight": 0.2,
+          "confidence": 0.6,
+          "notes": "Oil-funded showcase projects (Malabo, Ciudad de la Paz) above the poorest peers but unevenly distributed. (World Bank)"
+        },
+        "crime_safety": {
+          "score": -4,
+          "weight": 0.15,
+          "confidence": 0.5,
+          "notes": "A heavy security-state presence, with arbitrary-detention risk the larger personal hazard than street crime. (OSAC; HRW)"
+        },
+        "disaster_insurance": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.45,
+          "notes": "Negligible insurance penetration. (inference)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -5.18,
+      "confidence": 0.67,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -3.53,
+      "confidence": 0.7,
+      "horizon": "3-7y",
+      "reading": "clear negative"
+    },
+    "currency": {
+      "score": -2.76,
+      "confidence": 0.73,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "The most closed and repressive of the Central African petrostates: Obiang has ruled since 1979 (the world's longest-serving non-royal head of state), oil wealth is captured by his family, and the state scores among the world's worst on corruption (CPI 13/100) and press freedom, with routine torture documented at Black Beach prison. It embodies the paradox of plenty - among the highest GDP-per-capita in sub-Saharan Africa alongside majority poverty - now compounded by a sharp 2025 contraction (~-6.4%) as hydrocarbons decline, with the country on an IMF Staff-Monitored Program. The 2024 Engonga scandal offered a rare window into elite rot. The CFA euro peg and low inflation are the only structural positives; the skew is sharply negative, with eventual family succession the dominant unresolved tail risk."
+}
