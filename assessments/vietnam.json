@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": 2,
-      "confidence": 0.81,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Prudent public finances and a strong export trajectory, against a banking mega-fraud aftermath and limited monetary independence.",
       "sub_factors": {
@@ -92,8 +92,8 @@
       }
     },
     "institutional": {
-      "score": -1.1,
-      "confidence": 0.74,
+      "score": -0.8,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A capable developmental state and usable economic data, against no judicial independence and the absence of independent media.",
       "sub_factors": {
@@ -124,8 +124,8 @@
       }
     },
     "political_social": {
-      "score": 0.2,
-      "confidence": 0.72,
+      "score": 0.5,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Orderly, low-crime managed stability, against severely restricted liberties and a closing demographic window.",
       "sub_factors": {
@@ -166,8 +166,8 @@
       }
     },
     "geopolitical": {
-      "score": -1.4,
-      "confidence": 0.66,
+      "score": -1.2,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Non-aligned 'bamboo diplomacy', against active South China Sea disputes and capital controls.",
       "sub_factors": {
@@ -192,8 +192,8 @@
       }
     },
     "physical_practical": {
-      "score": -0.8,
-      "confidence": 0.69,
+      "score": -0.5,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Low crime and fast-improving infrastructure, against severe Mekong/typhoon climate exposure and thin catastrophe insurance.",
       "sub_factors": {
@@ -234,23 +234,25 @@
   },
   "decisions": {
     "living": {
-      "score": -0.81,
-      "confidence": 0.74,
+      "score": -0.63,
+      "confidence": 0.6,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.3,
-      "confidence": 0.75,
+      "score": 0.32,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 0.9,
-      "confidence": 0.77,
+      "score": 0.84,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A fast-growing manufacturing export powerhouse and China+1 beneficiary with genuinely prudent public finances (low debt, controlled inflation), a capable developmental state, and very low street crime. The drags are political and structural: a one-party state with no judicial independence, very low press freedom and 'Not Free' civil liberties, a banking mega-fraud aftermath requiring large central-bank support, heavy single-market US-tariff exposure, severe Mekong-Delta and typhoon climate exposure, and a window that closes as it ages before getting rich. Professionals can work but cannot belong."
+  "summary": "A fast-growing manufacturing export powerhouse and China+1 beneficiary with genuinely prudent public finances (low debt, controlled inflation), a capable developmental state, and very low street crime. The drags are political and structural: a one-party state with no judicial independence, very low press freedom and 'Not Free' civil liberties, a banking mega-fraud aftermath requiring large central-bank support, heavy single-market US-tariff exposure, severe Mekong-Delta and typhoon climate exposure, and a window that closes as it ages before getting rich. Professionals can work but cannot belong.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": -2.5,
-      "confidence": 0.85,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "A remittance-cushioned but narrow economy with policy imported via the Indian-rupee peg.",
       "sub_factors": {
@@ -87,7 +87,7 @@
     },
     "institutional": {
       "score": -2.8,
-      "confidence": 0.72,
+      "confidence": 0.7,
       "skew": "negative",
       "notes": "A weak, corruption-dogged rule of law and capacity, with a relatively free press the bright spot.",
       "sub_factors": {
@@ -121,7 +121,7 @@
     },
     "political_social": {
       "score": -2.7,
-      "confidence": 0.73,
+      "confidence": 0.72,
       "skew": "negative",
       "notes": "Chronic instability and deep social cleavages, with generally free liberties.",
       "sub_factors": {
@@ -187,7 +187,7 @@
     },
     "physical_practical": {
       "score": -3.7,
-      "confidence": 0.71,
+      "confidence": 0.7,
       "skew": "negative",
       "notes": "Severe Himalayan climate and seismic exposure, weak healthcare and infrastructure, with low crime a strength.",
       "sub_factors": {
@@ -228,23 +228,25 @@
   },
   "decisions": {
     "living": {
-      "score": -2.46,
-      "confidence": 0.74,
+      "score": -2.44,
+      "confidence": 0.72,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -2.29,
-      "confidence": 0.77,
+      "score": -2.28,
+      "confidence": 0.72,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -2.2,
-      "confidence": 0.79,
+      "score": -2.19,
+      "confidence": 0.73,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A young federal democracy whose chronic political churn - a revolving door of coalition governments since the 2008 republic, with recurring 2024-25 instability and protests - sits alongside a weak, narrow, remittance-dependent economy whose monetary policy is effectively imported through an Indian-rupee peg. The dominant physical drag is severe Himalayan exposure: glacial-melt floods, catastrophic earthquake risk, monsoon landslides, and the capital's extreme air pollution, against very thin disaster insurance. A relatively free press and substantial hydropower-export potential to India are the genuine offsets, leaving a balanced outcome distribution."
+  "summary": "A young federal democracy whose chronic political churn - a revolving door of coalition governments since the 2008 republic, with recurring 2024-25 instability and protests - sits alongside a weak, narrow, remittance-dependent economy whose monetary policy is effectively imported through an Indian-rupee peg. The dominant physical drag is severe Himalayan exposure: glacial-melt floods, catastrophic earthquake risk, monsoon landslides, and the capital's extreme air pollution, against very thin disaster insurance. A relatively free press and substantial hydropower-export potential to India are the genuine offsets, leaving a balanced outcome distribution.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

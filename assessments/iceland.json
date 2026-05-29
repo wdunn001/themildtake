@@ -250,5 +250,7 @@
       "reading": "clear positive"
     }
   },
-  "summary": "A tiny, wealthy, exceptionally stable democracy: top-tier institutions, the world's lowest crime, ~100% renewable electricity, prudent public finances, sound rebuilt banks, and high social trust. The caveats are economic concentration (tourism, fish, aluminium) and a small, volatile krona with a capital-control history, and - most distinctively - a volcanic/seismic tail, with the ongoing Reykjanes eruptions displacing the town of Grindavik (covered by a state catastrophe fund). A NATO founder and the world's most peaceful country."
+  "summary": "A tiny, wealthy, exceptionally stable democracy: top-tier institutions, the world's lowest crime, ~100% renewable electricity, prudent public finances, sound rebuilt banks, and high social trust. The caveats are economic concentration (tourism, fish, aluminium) and a small, volatile krona with a capital-control history, and - most distinctively - a volcanic/seismic tail, with the ongoing Reykjanes eruptions displacing the town of Grindavik (covered by a state catastrophe fund). A NATO founder and the world's most peaceful country.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

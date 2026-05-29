@@ -43,8 +43,8 @@
   },
   "categories": {
     "economic": {
-      "score": 1.8,
-      "confidence": 0.82,
+      "score": 1.9,
+      "confidence": 0.74,
       "skew": "positive",
       "notes": "A world-class tech-export base, a credible central bank, and sound banks, against war-widened deficits.",
       "sub_factors": {
@@ -93,8 +93,8 @@
       }
     },
     "institutional": {
-      "score": 2.9,
-      "confidence": 0.74,
+      "score": 2.8,
+      "confidence": 0.73,
       "skew": "negative",
       "notes": "Credible statistics and high state capacity, against an eroding rule-of-law trajectory and wartime press restrictions.",
       "sub_factors": {
@@ -130,7 +130,7 @@
     },
     "political_social": {
       "score": -1.9,
-      "confidence": 0.67,
+      "confidence": 0.66,
       "skew": "positive",
       "notes": "A young, growing population, against deep polarisation, war trauma, and a divided society - near-term volatile with a settling upside.",
       "sub_factors": {
@@ -249,23 +249,25 @@
   },
   "decisions": {
     "living": {
-      "score": 1.26,
-      "confidence": 0.72,
+      "score": 1.21,
+      "confidence": 0.7,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 1.21,
-      "confidence": 0.75,
+      "score": 1.18,
+      "confidence": 0.72,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 1.17,
-      "confidence": 0.77,
+      "score": 1.16,
+      "confidence": 0.73,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A world-class high-tech economy with a credible central bank, sound banks, credible statistics, and an unusually young, growing population for a developed country. The drags are an eroding rule-of-law trajectory (the judicial-overhaul crisis, bills subordinating legal advisers, the prime minister's corruption trial), war-widened deficits, deep social cleavages and war trauma, and a high-variance multi-front security picture - past its peak after 2026 ceasefires but with real relapse risk - alongside growing international isolation. The Law of Return makes citizenship near-automatic for Jewish immigrants while the regime is restrictive for others."
+  "summary": "A world-class high-tech economy with a credible central bank, sound banks, credible statistics, and an unusually young, growing population for a developed country. The drags are an eroding rule-of-law trajectory (the judicial-overhaul crisis, bills subordinating legal advisers, the prime minister's corruption trial), war-widened deficits, deep social cleavages and war trauma, and a high-variance multi-front security picture - past its peak after 2026 ceasefires but with real relapse risk - alongside growing international isolation. The Law of Return makes citizenship near-automatic for Jewish immigrants while the regime is restrictive for others.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

@@ -248,5 +248,7 @@
       "reading": "mixed"
     }
   },
-  "summary": "An EU-integrated, NATO-frontline economy with sound banks, a credible central bank, an improving (if pressured) rule-of-law trajectory, and high alliance value as a Black Sea anchor. These are heavily offset by the EU's largest deficit under an austerity package, stubbornly high inflation, an annulled-then-rerun presidential election followed by a government toppled in a May-2026 confidence vote, a far-right surge, a steep demographic decline, war-adjacency with drone debris on its territory, and underinsured seismic risk in a high-hazard capital."
+  "summary": "An EU-integrated, NATO-frontline economy with sound banks, a credible central bank, an improving (if pressured) rule-of-law trajectory, and high alliance value as a Black Sea anchor. These are heavily offset by the EU's largest deficit under an austerity package, stubbornly high inflation, an annulled-then-rerun presidential election followed by a government toppled in a May-2026 confidence vote, a far-right surge, a steep demographic decline, war-adjacency with drone debris on its territory, and underinsured seismic risk in a high-hazard capital.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

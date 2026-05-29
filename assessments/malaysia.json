@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": 2.9,
-      "confidence": 0.84,
+      "score": 3,
+      "confidence": 0.75,
       "skew": "positive",
       "notes": "A credible central bank, sound banks, and anchored inflation, with fiscal consolidation on a credible track.",
       "sub_factors": {
@@ -91,7 +91,7 @@
     },
     "institutional": {
       "score": 1.1,
-      "confidence": 0.75,
+      "confidence": 0.72,
       "skew": "negative",
       "notes": "Usable official statistics and a competent technocracy, against a rule-of-law legacy and constrained press freedom.",
       "sub_factors": {
@@ -122,8 +122,8 @@
       }
     },
     "political_social": {
-      "score": 0.5,
-      "confidence": 0.75,
+      "score": 0.4,
+      "confidence": 0.73,
       "skew": "negative",
       "notes": "A welcoming long-stay regime and relative stability, against a fragile coalition, civil-liberty limits, and ethnic tension.",
       "sub_factors": {
@@ -194,8 +194,8 @@
       }
     },
     "physical_practical": {
-      "score": 2.4,
-      "confidence": 0.72,
+      "score": 2.3,
+      "confidence": 0.71,
       "skew": "positive",
       "notes": "Standout affordable healthcare and good infrastructure, against recurrent monsoon-flood exposure.",
       "sub_factors": {
@@ -236,23 +236,25 @@
   },
   "decisions": {
     "living": {
-      "score": 1.04,
-      "confidence": 0.76,
+      "score": 0.99,
+      "confidence": 0.73,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 1.95,
-      "confidence": 0.77,
+      "score": 1.91,
+      "confidence": 0.73,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 2.21,
-      "confidence": 0.79,
+      "score": 2.19,
+      "confidence": 0.73,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A middle-income economy with sound macro management - a credible central bank, anchored inflation, sound banks, and fiscal consolidation on a credible track - plus standout affordable, near-universal healthcare, good infrastructure, and an English-friendly long-stay regime that is durable for the affluent. The drags are a rule-of-law legacy (the 1MDB aftermath) and constrained press freedom under new online-content powers, a fragile multi-coalition government with a rising Islamist opposition, bumiputera affirmative-action and religious-conservatism tensions, and recurrent monsoon flooding. Citizenship remains hard to obtain."
+  "summary": "A middle-income economy with sound macro management - a credible central bank, anchored inflation, sound banks, and fiscal consolidation on a credible track - plus standout affordable, near-universal healthcare, good infrastructure, and an English-friendly long-stay regime that is durable for the affluent. The drags are a rule-of-law legacy (the 1MDB aftermath) and constrained press freedom under new online-content powers, a fragile multi-coalition government with a rising Islamist opposition, bumiputera affirmative-action and religious-conservatism tensions, and recurrent monsoon flooding. Citizenship remains hard to obtain.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

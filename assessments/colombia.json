@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": 0.5,
-      "confidence": 0.85,
+      "score": 0.4,
+      "confidence": 0.74,
       "skew": "negative",
       "notes": "A credible central bank and sound banks, against a fiscal deterioration and a transition-deterred commodity sector.",
       "sub_factors": {
@@ -87,7 +87,7 @@
     },
     "institutional": {
       "score": 0.3,
-      "confidence": 0.77,
+      "confidence": 0.71,
       "skew": "negative",
       "notes": "Strong courts and credible statistics, against weak rural state presence and a confrontational executive.",
       "sub_factors": {
@@ -118,8 +118,8 @@
       }
     },
     "political_social": {
-      "score": -0.3,
-      "confidence": 0.8,
+      "score": -0.1,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "Strong liberties and lawful migration handling, against polarised gridlock, political violence, and inequality.",
       "sub_factors": {
@@ -156,8 +156,8 @@
       }
     },
     "geopolitical": {
-      "score": -3.5,
-      "confidence": 0.85,
+      "score": -3.4,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "An open economy whose historic US alliance is at a nadir, dominated by internal armed conflict.",
       "sub_factors": {
@@ -182,8 +182,8 @@
       }
     },
     "physical_practical": {
-      "score": -3.4,
-      "confidence": 0.73,
+      "score": -3.3,
+      "confidence": 0.72,
       "skew": "negative",
       "notes": "Improving infrastructure, against multi-hazard climate exposure, a healthcare crisis, and high regional crime.",
       "sub_factors": {
@@ -224,23 +224,25 @@
   },
   "decisions": {
     "living": {
-      "score": -0.6,
-      "confidence": 0.79,
+      "score": -0.58,
+      "confidence": 0.73,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -0.62,
-      "confidence": 0.81,
+      "score": -0.65,
+      "confidence": 0.73,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -0.2,
-      "confidence": 0.83,
+      "score": -0.25,
+      "confidence": 0.74,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A middle-income economy whose genuine institutional strengths - a credible, independent central bank, sound banks, a strong constitutional court, robust civil liberties, and a landmark lawful regularisation of Venezuelan migrants - are offset by a fiscal deterioration (the suspended fiscal rule), an internal armed conflict with resurgent ELN and FARC-dissident groups, elevated crime, a healthcare-system crisis, and a 2025 rupture in the historic US alliance. Politics are polarised and gridlocked, marked by the assassination of a presidential candidate, with tail risks running both ways into the May-2026 election."
+  "summary": "A middle-income economy whose genuine institutional strengths - a credible, independent central bank, sound banks, a strong constitutional court, robust civil liberties, and a landmark lawful regularisation of Venezuelan migrants - are offset by a fiscal deterioration (the suspended fiscal rule), an internal armed conflict with resurgent ELN and FARC-dissident groups, elevated crime, a healthcare-system crisis, and a 2025 rupture in the historic US alliance. Politics are polarised and gridlocked, marked by the assassination of a presidential candidate, with tail risks running both ways into the May-2026 election.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

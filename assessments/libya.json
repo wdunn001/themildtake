@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -3.9,
-      "confidence": 0.58,
+      "score": -4.4,
+      "confidence": 0.52,
       "skew": "negative",
       "notes": "Oil-revenue-rich but contested and looted between factions, with a contested central bank.",
       "sub_factors": {
@@ -87,7 +87,7 @@
     },
     "institutional": {
       "score": -6.8,
-      "confidence": 0.55,
+      "confidence": 0.51,
       "skew": "negative",
       "notes": "No unified state, militia rule, collapsed data, and a poor press environment.",
       "sub_factors": {
@@ -118,8 +118,8 @@
       }
     },
     "political_social": {
-      "score": -7,
-      "confidence": 0.57,
+      "score": -6.9,
+      "confidence": 0.55,
       "skew": "negative",
       "notes": "Rival governments and periodic warfare, with documented migrant enslavement.",
       "sub_factors": {
@@ -230,23 +230,25 @@
   },
   "decisions": {
     "living": {
-      "score": -6.02,
-      "confidence": 0.56,
+      "score": -6.06,
+      "confidence": 0.53,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -5.37,
-      "confidence": 0.56,
+      "score": -5.55,
+      "confidence": 0.53,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -4.96,
-      "confidence": 0.57,
+      "score": -5.24,
+      "confidence": 0.53,
       "horizon": "1-3y",
       "reading": "clear negative"
     }
   },
-  "summary": "A de-facto partitioned petrostate, divided since 2014 between a Tripoli-based government in the west and a Haftar/LNA-aligned east, with rival governments, a contested central bank, and oil revenue (~95% of exports) that is repeatedly halted by blockades and looted between factions - a resource curse that fuels the conflict. Militia rule means no judicial independence, documented migrant enslavement is among the world's worst, and periodic warfare persists amid a foreign-mercenary presence. Extreme heat and the catastrophic 2023 Derna flood weigh on the physical side. Data is fragmentary; the picture is clearly negative."
+  "summary": "A de-facto partitioned petrostate, divided since 2014 between a Tripoli-based government in the west and a Haftar/LNA-aligned east, with rival governments, a contested central bank, and oil revenue (~95% of exports) that is repeatedly halted by blockades and looted between factions - a resource curse that fuels the conflict. Militia rule means no judicial independence, documented migrant enslavement is among the world's worst, and periodic warfare persists amid a foreign-mercenary presence. Extreme heat and the catastrophic 2023 Derna flood weigh on the physical side. Data is fragmentary; the picture is clearly negative.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

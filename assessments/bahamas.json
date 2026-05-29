@@ -248,5 +248,7 @@
       "reading": "mixed"
     }
   },
-  "summary": "A high-income, well-governed Westminster democracy with credible institutions, a stable USD peg, very low inflation, healthy banks, and a fiscal trajectory that is genuinely improving - debt down to ~74% of GDP on three straight primary surpluses, off the EU tax grey list and FATF-compliant - confirmed by a decisive May-2026 re-election of the Davis government. The dominant risk is physical, not political: with ~80% of its land barely above sea level and a Dorian-class hurricane able to wipe out years of progress in days, climate/disaster exposure defines the negative skew. Secondary drags are still-elevated (if falling) Nassau crime and hard-edged treatment of Haitian migrants. Solid expected value, fat catastrophe tail."
+  "summary": "A high-income, well-governed Westminster democracy with credible institutions, a stable USD peg, very low inflation, healthy banks, and a fiscal trajectory that is genuinely improving - debt down to ~74% of GDP on three straight primary surpluses, off the EU tax grey list and FATF-compliant - confirmed by a decisive May-2026 re-election of the Davis government. The dominant risk is physical, not political: with ~80% of its land barely above sea level and a Dorian-class hurricane able to wipe out years of progress in days, climate/disaster exposure defines the negative skew. Secondary drags are still-elevated (if falling) Nassau crime and hard-edged treatment of Haitian migrants. Solid expected value, fat catastrophe tail.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

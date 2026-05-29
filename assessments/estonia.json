@@ -252,5 +252,7 @@
       "reading": "clear positive"
     }
   },
-  "summary": "A standout on institutions: world-leading digital government, top-tier rule of law, the EU's lowest debt, and the world's second-freest press, in a stable EU/eurozone democracy. The countervailing tails are geopolitical and structural - frontline exposure to the Russia-Ukraine war along a long Russia border (with GPS-jamming and border incidents), a 2023-25 recession with a defence-driven rising deficit, a security-sharpened Russian-minority cleavage and disenfranchisement measures, and very low fertility with a shrinking population. Net, a balanced outcome distribution."
+  "summary": "A standout on institutions: world-leading digital government, top-tier rule of law, the EU's lowest debt, and the world's second-freest press, in a stable EU/eurozone democracy. The countervailing tails are geopolitical and structural - frontline exposure to the Russia-Ukraine war along a long Russia border (with GPS-jamming and border incidents), a 2023-25 recession with a defence-driven rising deficit, a security-sharpened Russian-minority cleavage and disenfranchisement measures, and very low fertility with a shrinking population. Net, a balanced outcome distribution.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -1.5,
-      "confidence": 0.63,
+      "score": -1.9,
+      "confidence": 0.54,
       "skew": "negative",
       "notes": "A peg-anchored but minimal-revenue, aid-dependent economy with extraction captured by Russian-linked operators.",
       "sub_factors": {
@@ -158,8 +158,8 @@
       }
     },
     "geopolitical": {
-      "score": -5.2,
-      "confidence": 0.57,
+      "score": -5.1,
+      "confidence": 0.56,
       "skew": "negative",
       "notes": "Regime survival mortgaged to Russia, with active multi-front conflict and Sudan spillover.",
       "sub_factors": {
@@ -185,7 +185,7 @@
     },
     "physical_practical": {
       "score": -7.5,
-      "confidence": 0.61,
+      "confidence": 0.57,
       "skew": "negative",
       "notes": "A barely-functioning health system, near-absent infrastructure, and armed-group insecurity.",
       "sub_factors": {
@@ -226,23 +226,25 @@
   },
   "decisions": {
     "living": {
-      "score": -5.04,
-      "confidence": 0.57,
+      "score": -5.15,
+      "confidence": 0.55,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -3.98,
-      "confidence": 0.59,
+      "score": -4.27,
+      "confidence": 0.55,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -2.97,
-      "confidence": 0.6,
+      "score": -3.35,
+      "confidence": 0.54,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "clear negative"
     }
   },
-  "summary": "One of the planet's poorest and most fragile states - HDI near the global floor, roughly two-thirds in extreme poverty, and a state whose security and key extractive sectors are mortgaged to Russia's Wagner/Africa Corps. The December 2025 election cemented Touadera's open-ended rule after the 2023 term-limit removal, against a boycotting, repressed opposition. Macro signals are modestly less bad (an IMF ECF on track, easing inflation under the CFA peg), but these sit atop active multi-front conflict, near-total institutional absence outside Bangui, and acute humanitarian need. The distribution is negatively skewed: the modal path is grinding fragility, with a fat tail toward renewed civil war or a rupture in the Russia relationship."
+  "summary": "One of the planet's poorest and most fragile states - HDI near the global floor, roughly two-thirds in extreme poverty, and a state whose security and key extractive sectors are mortgaged to Russia's Wagner/Africa Corps. The December 2025 election cemented Touadera's open-ended rule after the 2023 term-limit removal, against a boycotting, repressed opposition. Macro signals are modestly less bad (an IMF ECF on track, easing inflation under the CFA peg), but these sit atop active multi-front conflict, near-total institutional absence outside Bangui, and acute humanitarian need. The distribution is negatively skewed: the modal path is grinding fragility, with a fat tail toward renewed civil war or a rupture in the Russia relationship.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

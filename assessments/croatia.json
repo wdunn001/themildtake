@@ -242,5 +242,7 @@
       "reading": "clear positive"
     }
   },
-  "summary": "A stable EU democracy and eurozone/Schengen member with a sharply improved fiscal trajectory (debt down from a ~87% peak to ~57%), sound, well-capitalised banks, an export- and tourism-driven economy, reliable NATO/EU anchoring, and low crime. The drags are a severe demographic decline (a ~20% population loss since independence on mass post-accession emigration), entrenched corruption and a slow judiciary, and real climate and seismic exposure. Euro membership pools monetary policy at a credible ECB."
+  "summary": "A stable EU democracy and eurozone/Schengen member with a sharply improved fiscal trajectory (debt down from a ~87% peak to ~57%), sound, well-capitalised banks, an export- and tourism-driven economy, reliable NATO/EU anchoring, and low crime. The drags are a severe demographic decline (a ~20% population loss since independence on mass post-accession emigration), entrenched corruption and a slow judiciary, and real climate and seismic exposure. Euro membership pools monetary policy at a credible ECB.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

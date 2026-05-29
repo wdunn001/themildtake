@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -1.6,
-      "confidence": 0.8,
+      "score": -1.7,
+      "confidence": 0.73,
       "skew": "symmetric",
       "notes": "Low inflation and concessional debt, against a tiny single-export, India-dependent base and thin reserves.",
       "sub_factors": {
@@ -118,8 +118,8 @@
       }
     },
     "political_social": {
-      "score": 1.7,
-      "confidence": 0.73,
+      "score": 1.6,
+      "confidence": 0.69,
       "skew": "symmetric",
       "notes": "Stable democracy and improving liberties, against an existential emigration drain and a refugee legacy.",
       "sub_factors": {
@@ -224,23 +224,25 @@
   },
   "decisions": {
     "living": {
-      "score": 0.76,
-      "confidence": 0.69,
+      "score": 0.73,
+      "confidence": 0.67,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
       "score": -0.14,
-      "confidence": 0.72,
+      "confidence": 0.68,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
       "score": -0.56,
-      "confidence": 0.74,
+      "confidence": 0.7,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A rare small-state governance success - a consolidated constitutional democracy (Freedom House upgraded it to 'Free' in 2025) with low corruption (18th on the CPI), genuine political stability under returned PM Tobgay, and a carbon-negative, hydropower-funded economy. The defining risks are not political but economic and demographic: near-total dependence on India (currency peg, security, the single hydropower export), thin FX reserves, below-replacement fertility, and a mass youth exodus to Australia that the government itself calls existential. Physical exposure to glacial-lake-outburst floods is severe and worsening. The skew is positive because institutional quality and stability anchor the downside, with the $100bn Gelephu Mindfulness City representing genuine (if speculative) upside."
+  "summary": "A rare small-state governance success - a consolidated constitutional democracy (Freedom House upgraded it to 'Free' in 2025) with low corruption (18th on the CPI), genuine political stability under returned PM Tobgay, and a carbon-negative, hydropower-funded economy. The defining risks are not political but economic and demographic: near-total dependence on India (currency peg, security, the single hydropower export), thin FX reserves, below-replacement fertility, and a mass youth exodus to Australia that the government itself calls existential. Physical exposure to glacial-lake-outburst floods is severe and worsening. The skew is positive because institutional quality and stability anchor the downside, with the $100bn Gelephu Mindfulness City representing genuine (if speculative) upside.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

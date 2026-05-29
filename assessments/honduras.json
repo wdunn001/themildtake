@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": 0.3,
-      "confidence": 0.82,
+      "score": 0.2,
+      "confidence": 0.74,
       "skew": "positive",
       "notes": "IMF-anchored, remittance-cushioned macro stability on a narrow, low-growth base.",
       "sub_factors": {
@@ -88,8 +88,8 @@
       }
     },
     "institutional": {
-      "score": -3,
-      "confidence": 0.76,
+      "score": -2.9,
+      "confidence": 0.72,
       "skew": "negative",
       "notes": "A narco-state legacy and captured courts, with a dangerous press environment.",
       "sub_factors": {
@@ -123,7 +123,7 @@
     },
     "political_social": {
       "score": -2.2,
-      "confidence": 0.72,
+      "confidence": 0.7,
       "skew": "negative",
       "notes": "A contested election and transition, against extreme inequality and gang presence.",
       "sub_factors": {
@@ -165,7 +165,7 @@
     },
     "geopolitical": {
       "score": 0.8,
-      "confidence": 0.74,
+      "confidence": 0.71,
       "skew": "symmetric",
       "notes": "A historic US partner with an open economy, against gang/narco violence.",
       "sub_factors": {
@@ -191,7 +191,7 @@
     },
     "physical_practical": {
       "score": -3.3,
-      "confidence": 0.76,
+      "confidence": 0.73,
       "skew": "negative",
       "notes": "Extreme climate vulnerability, weak healthcare, and high crime.",
       "sub_factors": {
@@ -232,23 +232,25 @@
   },
   "decisions": {
     "living": {
-      "score": -2.06,
-      "confidence": 0.75,
+      "score": -2.04,
+      "confidence": 0.72,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.06,
-      "confidence": 0.78,
+      "score": -1.08,
+      "confidence": 0.73,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -0.4,
-      "confidence": 0.79,
+      "score": -0.43,
+      "confidence": 0.73,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A Central American economy whose lone bright spot is IMF-anchored, remittance-cushioned macro stability (falling debt, easing inflation) on a narrow base dangerously dependent on remittances (~30% of GDP). The drags dominate: a narco-state legacy with a former president convicted in the US and captured courts, one of the most dangerous press environments, a razor-thin and contested November-2025 election and transition, extreme inequality and gang presence, high (if falling) homicide, and among the world's highest climate vulnerability to hurricanes and drought."
+  "summary": "A Central American economy whose lone bright spot is IMF-anchored, remittance-cushioned macro stability (falling debt, easing inflation) on a narrow base dangerously dependent on remittances (~30% of GDP). The drags dominate: a narco-state legacy with a former president convicted in the US and captured courts, one of the most dangerous press environments, a razor-thin and contested November-2025 election and transition, extreme inequality and gang presence, high (if falling) homicide, and among the world's highest climate vulnerability to hurricanes and drought.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

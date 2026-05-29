@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": 0.8,
-      "confidence": 0.79,
+      "score": 0.9,
+      "confidence": 0.73,
       "skew": "symmetric",
       "notes": "A deep-hole recovery with a major monetary/inflation stabilisation, against a high-debt overhang.",
       "sub_factors": {
@@ -122,8 +122,8 @@
       }
     },
     "political_social": {
-      "score": 0.4,
-      "confidence": 0.68,
+      "score": 0.5,
+      "confidence": 0.67,
       "skew": "symmetric",
       "notes": "A genuine democratic reset, against unresolved reconciliation and a demographic drag.",
       "sub_factors": {
@@ -162,8 +162,8 @@
       }
     },
     "geopolitical": {
-      "score": 1.8,
-      "confidence": 0.75,
+      "score": 1.7,
+      "confidence": 0.72,
       "skew": "positive",
       "notes": "A non-aligned India-China balancer with no active conflict.",
       "sub_factors": {
@@ -188,8 +188,8 @@
       }
     },
     "physical_practical": {
-      "score": -0.7,
-      "confidence": 0.69,
+      "score": -0.6,
+      "confidence": 0.68,
       "skew": "negative",
       "notes": "A historically strong health system, against severe climate exposure and thin catastrophe cover.",
       "sub_factors": {
@@ -230,23 +230,25 @@
   },
   "decisions": {
     "living": {
-      "score": 0.58,
-      "confidence": 0.7,
+      "score": 0.6,
+      "confidence": 0.68,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
       "score": 0.84,
-      "confidence": 0.73,
+      "confidence": 0.7,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
       "score": 0.76,
-      "confidence": 0.75,
+      "confidence": 0.71,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A country climbing out of a deep hole: after a 2022 sovereign default and mass uprising, an IMF program and near-complete debt restructuring have returned a primary surplus, the newly-independent central bank has crushed inflation from a ~70% peak to near target, and a 2024 election delivered a reform/anti-corruption government with a parliamentary supermajority - a genuine democratic reset. The overhang is real: still-high debt, stalled Tamil reconciliation, an ageing population with heavy skilled emigration, and severe climate exposure (a destructive 2025 cyclone) against very thin catastrophe insurance. The outcome distribution is balanced between recovery upside and structural drag."
+  "summary": "A country climbing out of a deep hole: after a 2022 sovereign default and mass uprising, an IMF program and near-complete debt restructuring have returned a primary surplus, the newly-independent central bank has crushed inflation from a ~70% peak to near target, and a 2024 election delivered a reform/anti-corruption government with a parliamentary supermajority - a genuine democratic reset. The overhang is real: still-high debt, stalled Tamil reconciliation, an ageing population with heavy skilled emigration, and severe climate exposure (a destructive 2025 cyclone) against very thin catastrophe insurance. The outcome distribution is balanced between recovery upside and structural drag.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

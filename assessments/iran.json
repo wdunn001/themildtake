@@ -43,8 +43,8 @@
   },
   "categories": {
     "economic": {
-      "score": -5.4,
-      "confidence": 0.67,
+      "score": -5.8,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A sanctions-strangled, oil-rentier economy with chronic high inflation and a fragile, isolated banking sector.",
       "sub_factors": {
@@ -89,8 +89,8 @@
       }
     },
     "institutional": {
-      "score": -6.4,
-      "confidence": 0.67,
+      "score": -6.1,
+      "confidence": 0.57,
       "skew": "negative",
       "notes": "A theocratic system with no judicial independence, opaque statistics, and near-worst press freedom.",
       "sub_factors": {
@@ -121,8 +121,8 @@
       }
     },
     "political_social": {
-      "score": -6.9,
-      "confidence": 0.68,
+      "score": -6.7,
+      "confidence": 0.57,
       "skew": "negative",
       "notes": "Suppressed stability around an unresolved succession, severe repression, and a demographic decline.",
       "sub_factors": {
@@ -163,8 +163,8 @@
       }
     },
     "geopolitical": {
-      "score": -7.6,
-      "confidence": 0.65,
+      "score": -7.5,
+      "confidence": 0.58,
       "skew": "negative",
       "notes": "An isolated, heavily sanctioned actor with acute conflict exposure.",
       "sub_factors": {
@@ -191,8 +191,8 @@
       }
     },
     "physical_practical": {
-      "score": -4.2,
-      "confidence": 0.62,
+      "score": -4.1,
+      "confidence": 0.58,
       "skew": "negative",
       "notes": "A severe water crisis and energy shortages, with sanctions-strained healthcare and seismic exposure.",
       "sub_factors": {
@@ -237,23 +237,25 @@
   },
   "decisions": {
     "living": {
-      "score": -6.3,
-      "confidence": 0.66,
+      "score": -6.12,
+      "confidence": 0.58,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
       "score": -5.96,
-      "confidence": 0.66,
+      "confidence": 0.59,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -6.04,
-      "confidence": 0.66,
+      "score": -6.17,
+      "confidence": 0.59,
       "horizon": "1-3y",
       "reading": "clear negative"
     }
   },
-  "summary": "A sanctions-strangled, oil-rentier economy with chronic very high inflation, a banking sector cut off from the global system, and a deeply devalued currency. The theocratic system offers no judicial independence, near-worst press freedom, severe repression with among the world's highest execution counts, and a sustained women's-rights crackdown. Geopolitically isolated and among the most-sanctioned economies, the country carries acute conflict exposure after the June-2025 war with Israel and US strikes on its nuclear sites, with renewed-conflict and succession uncertainty as fat-tail risks, atop a severe water crisis and energy shortages."
+  "summary": "A sanctions-strangled, oil-rentier economy with chronic very high inflation, a banking sector cut off from the global system, and a deeply devalued currency. The theocratic system offers no judicial independence, near-worst press freedom, severe repression with among the world's highest execution counts, and a sustained women's-rights crackdown. Geopolitically isolated and among the most-sanctioned economies, the country carries acute conflict exposure after the June-2025 war with Israel and US strikes on its nuclear sites, with renewed-conflict and succession uncertainty as fat-tail risks, atop a severe water crisis and energy shortages.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

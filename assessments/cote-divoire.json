@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": 1.8,
-      "confidence": 0.84,
+      "score": 1.9,
+      "confidence": 0.74,
       "skew": "positive",
       "notes": "Strong growth and low peg-anchored inflation, with cocoa concentration the main risk.",
       "sub_factors": {
@@ -89,7 +89,7 @@
     },
     "institutional": {
       "score": 0,
-      "confidence": 0.71,
+      "confidence": 0.7,
       "skew": "negative",
       "notes": "Improving from a civil-war legacy but still weak, with a pressured press.",
       "sub_factors": {
@@ -121,7 +121,7 @@
     },
     "political_social": {
       "score": -1.8,
-      "confidence": 0.71,
+      "confidence": 0.7,
       "skew": "negative",
       "notes": "Stable but succession-fragile, with north-south and reconciliation cleavages.",
       "sub_factors": {
@@ -163,7 +163,7 @@
     },
     "geopolitical": {
       "score": 1,
-      "confidence": 0.76,
+      "confidence": 0.74,
       "skew": "symmetric",
       "notes": "A stable Western-aligned ECOWAS pillar, against Sahel-spillover and the election tail.",
       "sub_factors": {
@@ -230,23 +230,25 @@
   },
   "decisions": {
     "living": {
-      "score": -0.08,
-      "confidence": 0.72,
+      "score": -0.11,
+      "confidence": 0.69,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.84,
-      "confidence": 0.76,
+      "score": 0.79,
+      "confidence": 0.71,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 1.23,
-      "confidence": 0.8,
+      "score": 1.22,
+      "confidence": 0.73,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A fast-growing West African anchor - around 6% growth, low CFA-franc/euro-peg-anchored inflation, an IMF program on track, the world's #1 cocoa producer with a new oil/gas ramp, and relatively good regional infrastructure as the BCEAO banking hub. The live risk is political: a contested 2025 election with leading rivals barred and deadly violence revived 2010-11 civil-war fears, atop north-south and reconciliation cleavages and a recurring 'Ivoirite' nationality dispute. Coastal-erosion/flood exposure, weak healthcare, and Sahel-jihadist spillover weigh further; the euro peg trades monetary autonomy for stability. Net, a balanced outcome distribution."
+  "summary": "A fast-growing West African anchor - around 6% growth, low CFA-franc/euro-peg-anchored inflation, an IMF program on track, the world's #1 cocoa producer with a new oil/gas ramp, and relatively good regional infrastructure as the BCEAO banking hub. The live risk is political: a contested 2025 election with leading rivals barred and deadly violence revived 2010-11 civil-war fears, atop north-south and reconciliation cleavages and a recurring 'Ivoirite' nationality dispute. Coastal-erosion/flood exposure, weak healthcare, and Sahel-jihadist spillover weigh further; the euro peg trades monetary autonomy for stability. Net, a balanced outcome distribution.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

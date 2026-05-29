@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -4.5,
-      "confidence": 0.84,
+      "score": -4.6,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A near-total oil rentier with heavy China-debt service, a volatile currency, and high inflation.",
       "sub_factors": {
@@ -86,8 +86,8 @@
       }
     },
     "institutional": {
-      "score": -4.7,
-      "confidence": 0.75,
+      "score": -4.5,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "MPLA dominance with no judicial independence and a state-dominated press.",
       "sub_factors": {
@@ -118,8 +118,8 @@
       }
     },
     "political_social": {
-      "score": -5.1,
-      "confidence": 0.81,
+      "score": -5,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A half-century of one-party rule, restricted liberties, abusive migrant expulsions, and extreme inequality.",
       "sub_factors": {
@@ -157,7 +157,7 @@
     },
     "geopolitical": {
       "score": -1.8,
-      "confidence": 0.76,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A pragmatic China/US-hedging posture, with low-level Cabinda separatism.",
       "sub_factors": {
@@ -183,7 +183,7 @@
     },
     "physical_practical": {
       "score": -5.9,
-      "confidence": 0.74,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Weak healthcare and infrastructure, against drought/flood and high urban crime.",
       "sub_factors": {
@@ -224,23 +224,25 @@
   },
   "decisions": {
     "living": {
-      "score": -4.83,
-      "confidence": 0.78,
+      "score": -4.75,
+      "confidence": 0.6,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -4.35,
-      "confidence": 0.79,
+      "score": -4.32,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -4.17,
-      "confidence": 0.81,
+      "score": -4.16,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "clear negative"
     }
   },
-  "summary": "A near-total oil rentier - roughly 95% of exports from oil with structurally declining output - run since 1975 by a single party, with heavy China-backed debt service, a volatile kwanza, and high, sticky inflation. Institutions offer no judicial independence, a grand-corruption legacy with only a selective anti-graft drive, and a state-dominated press, while extreme inequality persists despite the oil wealth and migrants face recurrent abusive mass expulsions. Weak healthcare and infrastructure, drought/flood exposure, and high urban crime weigh on the physical side; a US-courted Lobito Corridor is a mild geopolitical offset."
+  "summary": "A near-total oil rentier - roughly 95% of exports from oil with structurally declining output - run since 1975 by a single party, with heavy China-backed debt service, a volatile kwanza, and high, sticky inflation. Institutions offer no judicial independence, a grand-corruption legacy with only a selective anti-graft drive, and a state-dominated press, while extreme inequality persists despite the oil wealth and migrants face recurrent abusive mass expulsions. Weak healthcare and infrastructure, drought/flood exposure, and high urban crime weigh on the physical side; a US-courted Lobito Corridor is a mild geopolitical offset.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

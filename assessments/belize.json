@@ -246,5 +246,7 @@
       "reading": "mixed"
     }
   },
-  "summary": "A stable parliamentary democracy that has executed one of the region's most credible debt turnarounds, cutting public debt from over 100% to ~61% of GDP via its 2021 blue-bond debt-for-nature swap, with strong post-pandemic growth and inflation now near 1%. The principal risks are structural rather than political: thin foreign reserves (below the IMF's adequacy metric), heavy reliance on tourism and agriculture, acute correspondent-banking de-risking, and high hurricane exposure. Elevated but declining gang-driven crime in Belize City and the unresolved Guatemala territorial claim - now before the ICJ - are the standout tail-risks. Overall a moderately positive, improving profile constrained by small-state vulnerability."
+  "summary": "A stable parliamentary democracy that has executed one of the region's most credible debt turnarounds, cutting public debt from over 100% to ~61% of GDP via its 2021 blue-bond debt-for-nature swap, with strong post-pandemic growth and inflation now near 1%. The principal risks are structural rather than political: thin foreign reserves (below the IMF's adequacy metric), heavy reliance on tourism and agriculture, acute correspondent-banking de-risking, and high hurricane exposure. Elevated but declining gang-driven crime in Belize City and the unresolved Guatemala territorial claim - now before the ICJ - are the standout tail-risks. Overall a moderately positive, improving profile constrained by small-state vulnerability.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

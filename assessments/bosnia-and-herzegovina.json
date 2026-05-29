@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": 1.1,
-      "confidence": 0.84,
+      "confidence": 0.74,
       "skew": "negative",
       "notes": "Sound macro discipline (a euro-pegged currency board), undercut by political gridlock and fragmentation.",
       "sub_factors": {
@@ -86,8 +86,8 @@
       }
     },
     "institutional": {
-      "score": -3.4,
-      "confidence": 0.76,
+      "score": -3.3,
+      "confidence": 0.71,
       "skew": "negative",
       "notes": "A dysfunctional Dayton structure with pervasive corruption and a captured RS press.",
       "sub_factors": {
@@ -118,8 +118,8 @@
       }
     },
     "political_social": {
-      "score": -4.2,
-      "confidence": 0.76,
+      "score": -4,
+      "confidence": 0.7,
       "skew": "negative",
       "notes": "Chronic dysfunction with an active secession tail and deep ethnic division.",
       "sub_factors": {
@@ -224,23 +224,25 @@
   },
   "decisions": {
     "living": {
-      "score": -2.75,
-      "confidence": 0.75,
+      "score": -2.7,
+      "confidence": 0.7,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.33,
-      "confidence": 0.77,
+      "score": -1.37,
+      "confidence": 0.72,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -0.48,
-      "confidence": 0.8,
+      "score": -0.53,
+      "confidence": 0.73,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A state held together by the dysfunctional Dayton ethnic power-sharing settlement, where a euro-pegged currency board delivers low debt and inflation and EU-owned banks are sound - but those macro positives are outweighed by governance paralysis, pervasive corruption (still under an international High Representative), and, most consequentially, an active Republika Srpska secession push that defies the state and is stoked by Russia and Serbia. Deep Bosniak/Serb/Croat division, severe depopulation, flood/seismic exposure, and coal-driven air pollution complete a negative profile."
+  "summary": "A state held together by the dysfunctional Dayton ethnic power-sharing settlement, where a euro-pegged currency board delivers low debt and inflation and EU-owned banks are sound - but those macro positives are outweighed by governance paralysis, pervasive corruption (still under an international High Representative), and, most consequentially, an active Republika Srpska secession push that defies the state and is stoked by Russia and Serbia. Deep Bosniak/Serb/Croat division, severe depopulation, flood/seismic exposure, and coal-driven air pollution complete a negative profile.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

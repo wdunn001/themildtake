@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": 2.9,
-      "confidence": 0.84,
+      "confidence": 0.75,
       "skew": "symmetric",
       "notes": "A top-tier manufacturer with a large trade surplus and much-improved banks within the eurozone; a very high public-debt load the structural drag.",
       "sub_factors": {
@@ -88,8 +88,8 @@
       }
     },
     "institutional": {
-      "score": 1.7,
-      "confidence": 0.79,
+      "score": 1.6,
+      "confidence": 0.72,
       "skew": "negative",
       "notes": "Credible courts and uncompromised statistics, against slow civil justice and eroding press freedom.",
       "sub_factors": {
@@ -122,8 +122,8 @@
       }
     },
     "political_social": {
-      "score": 2.2,
-      "confidence": 0.77,
+      "score": 2.4,
+      "confidence": 0.72,
       "skew": "negative",
       "notes": "An unusually durable government, against among the world's most severe demographic ageing and a narrowed ancestry-citizenship route.",
       "sub_factors": {
@@ -163,7 +163,7 @@
     },
     "geopolitical": {
       "score": 5.4,
-      "confidence": 0.8,
+      "confidence": 0.75,
       "skew": "positive",
       "notes": "A reliable NATO/EU/G7 anchor with low direct-conflict exposure.",
       "sub_factors": {
@@ -189,7 +189,7 @@
     },
     "physical_practical": {
       "score": 0.7,
-      "confidence": 0.75,
+      "confidence": 0.74,
       "skew": "negative",
       "notes": "Very low crime, against a fast-warming Mediterranean climate and a strained health service.",
       "sub_factors": {
@@ -232,23 +232,25 @@
   },
   "decisions": {
     "living": {
-      "score": 2.06,
-      "confidence": 0.78,
+      "score": 2.03,
+      "confidence": 0.73,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 2.77,
-      "confidence": 0.81,
+      "score": 2.71,
+      "confidence": 0.74,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 3.01,
-      "confidence": 0.82,
+      "score": 2.98,
+      "confidence": 0.74,
       "horizon": "1-3y",
-      "reading": "clear positive"
+      "reading": "mixed"
     }
   },
-  "summary": "A top-tier manufacturer with a large trade surplus, record tourism, much-improved banks, and an unusually stable government, within the eurozone. The structural drags are a very high public-debt load that declines only slowly, among the world's most severe demographic ageing, a strained-but-effective health service, eroding press freedom, and a Mediterranean climate warming faster than the global average. The citizenship-by-ancestry route was sharply narrowed in 2025."
+  "summary": "A top-tier manufacturer with a large trade surplus, record tourism, much-improved banks, and an unusually stable government, within the eurozone. The structural drags are a very high public-debt load that declines only slowly, among the world's most severe demographic ageing, a strained-but-effective health service, eroding press freedom, and a Mediterranean climate warming faster than the global average. The citizenship-by-ancestry route was sharply narrowed in 2025.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

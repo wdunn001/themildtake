@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -2,
-      "confidence": 0.78,
+      "score": -2.1,
+      "confidence": 0.73,
       "skew": "positive",
       "notes": "A post-default stabilization now slipping, under a transformative but not-yet-realized oil tail.",
       "sub_factors": {
@@ -189,7 +189,7 @@
     },
     "physical_practical": {
       "score": -2.9,
-      "confidence": 0.64,
+      "confidence": 0.63,
       "skew": "negative",
       "notes": "Outside the hurricane belt but flood-exposed, with weak interior services.",
       "sub_factors": {
@@ -230,23 +230,25 @@
   },
   "decisions": {
     "living": {
-      "score": -0.54,
-      "confidence": 0.68,
+      "score": -0.53,
+      "confidence": 0.67,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
       "score": -0.7,
-      "confidence": 0.71,
+      "confidence": 0.69,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
       "score": -1.25,
-      "confidence": 0.73,
+      "confidence": 0.7,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A genuine post-default turnaround - the first IMF program Suriname ever completed (March 2025), with debt restructured and inflation brought down from hyperinflation - sitting under a transformative offshore-oil tail (the GranMorgu FID 2024, first oil ~2028) that could deliver a Guyana-style windfall. But the near-term is shakier than the headline: the new Simons government has already let fiscal and monetary discipline slip, pushing inflation back above 10% and debt to ~106% of GDP, prompting an IMF call for a policy reset. Institutions remain the binding weakness - pervasive corruption, low civil-service capacity, and a textbook resource-curse risk as oil money meets a fragile state. The skew is positive and high-variance: large upside if the windfall is well-governed, a real downside if it is not."
+  "summary": "A genuine post-default turnaround - the first IMF program Suriname ever completed (March 2025), with debt restructured and inflation brought down from hyperinflation - sitting under a transformative offshore-oil tail (the GranMorgu FID 2024, first oil ~2028) that could deliver a Guyana-style windfall. But the near-term is shakier than the headline: the new Simons government has already let fiscal and monetary discipline slip, pushing inflation back above 10% and debt to ~106% of GDP, prompting an IMF call for a policy reset. Institutions remain the binding weakness - pervasive corruption, low civil-service capacity, and a textbook resource-curse risk as oil money meets a fragile state. The skew is positive and high-variance: large upside if the windfall is well-governed, a real downside if it is not.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

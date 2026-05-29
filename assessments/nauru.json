@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -2.1,
-      "confidence": 0.71,
+      "score": -2.2,
+      "confidence": 0.66,
       "skew": "negative",
       "notes": "An economy with essentially no productive base, surviving on Australian rents and using the Australian dollar.",
       "sub_factors": {
@@ -224,23 +224,25 @@
   },
   "decisions": {
     "living": {
-      "score": -2.79,
-      "confidence": 0.57,
+      "score": -2.81,
+      "confidence": 0.56,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -2.13,
-      "confidence": 0.61,
+      "score": -2.17,
+      "confidence": 0.59,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -1.88,
-      "confidence": 0.64,
+      "score": -1.91,
+      "confidence": 0.61,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "The world's smallest republic (~12,000 people) and the archetypal resource-curse collapse - a phosphate boom left ~80% of the island mined-out and the sovereign fund squandered, leaving an economy with essentially no productive base. It now survives on rents from Australia: the offshore asylum-processing centre has supplied the majority of government revenue, and a new 30-year A$2.5bn deal (Aug 2025) to warehouse Australia's criminal-deportee 'NZYQ' cohort deepens that dependence, even as a decade of documented harm to asylum seekers weighs heavily. It pivoted from Taiwan to China in January 2024 for aid while granting Australia an effective security veto, and launched a world-first 'golden passport' scheme nominally funding climate relocation - carrying real integrity risk. With one of the planet's worst diabetes/obesity profiles and a life expectancy near 62, the skew is firmly negative, mitigated only by the Australia-backed fiscal lifeline and the recovering Intergenerational Trust Fund."
+  "summary": "The world's smallest republic (~12,000 people) and the archetypal resource-curse collapse - a phosphate boom left ~80% of the island mined-out and the sovereign fund squandered, leaving an economy with essentially no productive base. It now survives on rents from Australia: the offshore asylum-processing centre has supplied the majority of government revenue, and a new 30-year A$2.5bn deal (Aug 2025) to warehouse Australia's criminal-deportee 'NZYQ' cohort deepens that dependence, even as a decade of documented harm to asylum seekers weighs heavily. It pivoted from Taiwan to China in January 2024 for aid while granting Australia an effective security veto, and launched a world-first 'golden passport' scheme nominally funding climate relocation - carrying real integrity risk. With one of the planet's worst diabetes/obesity profiles and a life expectancy near 62, the skew is firmly negative, mitigated only by the Australia-backed fiscal lifeline and the recovering Intergenerational Trust Fund.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

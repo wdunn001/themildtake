@@ -252,5 +252,7 @@
       "reading": "mixed"
     }
   },
-  "summary": "A regional growth and stability standout: a genuinely diversified economy (a Caribbean-leading tourism sector, free-zone manufacturing, gold mining, and remittances), a credible inflation-targeting central bank, well-capitalised banks, and a stable democracy with an improving rule-of-law trajectory. The dominant caveat is social and geopolitical: a hard-edged Haiti-migration crisis (mass deportations, a statelessness legacy, a border wall) and acute spillover from Haiti's collapse next door, alongside high inequality, hurricane exposure, and chronic electricity unreliability. The overall trajectory tilts positive."
+  "summary": "A regional growth and stability standout: a genuinely diversified economy (a Caribbean-leading tourism sector, free-zone manufacturing, gold mining, and remittances), a credible inflation-targeting central bank, well-capitalised banks, and a stable democracy with an improving rule-of-law trajectory. The dominant caveat is social and geopolitical: a hard-edged Haiti-migration crisis (mass deportations, a statelessness legacy, a border wall) and acute spillover from Haiti's collapse next door, alongside high inequality, hurricane exposure, and chronic electricity unreliability. The overall trajectory tilts positive.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

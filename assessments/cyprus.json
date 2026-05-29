@@ -242,5 +242,7 @@
       "reading": "clear positive"
     }
   },
-  "summary": "A eurozone democracy that staged a strong recovery from its 2013 banking crisis - debt down sharply with surpluses, rebuilt banks, low crime, a new universal-health system, and a services economy (tourism, shipping, finance, tech relocation) with East-Med gas upside. The offsets are persistent corruption and a weakly-prosecuted golden-passport legacy, an unresolved frozen division with Turkish troops in the north since 1974, frontline asylum pressure, and acute water scarcity and heat. Membership of the euro pools monetary policy at a credible ECB; the island is an EU but non-NATO state deepening Eastern-Mediterranean partnerships."
+  "summary": "A eurozone democracy that staged a strong recovery from its 2013 banking crisis - debt down sharply with surpluses, rebuilt banks, low crime, a new universal-health system, and a services economy (tourism, shipping, finance, tech relocation) with East-Med gas upside. The offsets are persistent corruption and a weakly-prosecuted golden-passport legacy, an unresolved frozen division with Turkish troops in the north since 1974, frontline asylum pressure, and acute water scarcity and heat. Membership of the euro pools monetary policy at a credible ECB; the island is an EU but non-NATO state deepening Eastern-Mediterranean partnerships.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

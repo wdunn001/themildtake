@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": 6.9,
-      "confidence": 0.82,
+      "score": 6.8,
+      "confidence": 0.6,
       "skew": "positive",
       "notes": "A world-class financial/trade hub with deep reserves and sovereign funds; tail risk only from external-demand exposure.",
       "sub_factors": {
@@ -87,7 +87,7 @@
     },
     "institutional": {
       "score": 4.7,
-      "confidence": 0.82,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "World-class state capacity, commercial law, and anti-corruption, against constrained political/judicial space and low press freedom.",
       "sub_factors": {
@@ -118,8 +118,8 @@
       }
     },
     "political_social": {
-      "score": 2.7,
-      "confidence": 0.79,
+      "score": 2.9,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Very high regime stability and order, against restricted civil liberties and a hard path to belonging.",
       "sub_factors": {
@@ -162,8 +162,8 @@
       }
     },
     "geopolitical": {
-      "score": 3,
-      "confidence": 0.69,
+      "score": 2.9,
+      "confidence": 0.6,
       "skew": "symmetric",
       "notes": "A US security partner and ASEAN hub that deliberately balances China; low direct conflict exposure.",
       "sub_factors": {
@@ -190,8 +190,8 @@
       }
     },
     "physical_practical": {
-      "score": 6.3,
-      "confidence": 0.81,
+      "score": 6.2,
+      "confidence": 0.6,
       "skew": "positive",
       "notes": "World-class infrastructure, healthcare, and safety; the rising tail is sea-level for a low island city-state.",
       "sub_factors": {
@@ -232,23 +232,25 @@
   },
   "decisions": {
     "living": {
-      "score": 3.84,
-      "confidence": 0.8,
+      "score": 3.79,
+      "confidence": 0.6,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 5.2,
-      "confidence": 0.8,
+      "score": 5.07,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "clear positive"
     },
     "currency": {
-      "score": 5.75,
-      "confidence": 0.8,
+      "score": 5.59,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "clear positive"
     }
   },
-  "summary": "A world-class financial/trade hub with deep fiscal buffers, a uniquely credible monetary regime, the strongest state capacity and anti-corruption record, world-class infrastructure and healthcare, and among the lowest crime anywhere. The offsets are a dominant-party state with low press freedom, restricted civil liberties (caning, drug-offence executions), a hard path to citizenship/belonging for its large foreign workforce, very low fertility, and rising sea-level exposure for a low island."
+  "summary": "A world-class financial/trade hub with deep fiscal buffers, a uniquely credible monetary regime, the strongest state capacity and anti-corruption record, world-class infrastructure and healthcare, and among the lowest crime anywhere. The offsets are a dominant-party state with low press freedom, restricted civil liberties (caning, drug-offence executions), a hard path to citizenship/belonging for its large foreign workforce, very low fertility, and rising sea-level exposure for a low island.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

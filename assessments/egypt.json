@@ -44,7 +44,7 @@
   "categories": {
     "economic": {
       "score": -2.9,
-      "confidence": 0.78,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A debt-distress economy on external life-support, a constrained post-float currency, and a Suez earner gutted by Red Sea reroutes.",
       "sub_factors": {
@@ -93,8 +93,8 @@
       }
     },
     "institutional": {
-      "score": -3.6,
-      "confidence": 0.76,
+      "score": -3,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "IMF-validated economic data, against no judicial independence and one of the world's harshest press environments.",
       "sub_factors": {
@@ -125,8 +125,8 @@
       }
     },
     "political_social": {
-      "score": -2.4,
-      "confidence": 0.77,
+      "score": -2.1,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A young population, against entrenched military-backed rule, mass political imprisonment, and refugee-host strain.",
       "sub_factors": {
@@ -167,8 +167,8 @@
       }
     },
     "geopolitical": {
-      "score": -0.6,
-      "confidence": 0.7,
+      "score": -0.7,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A courted but transactional US/Gulf partner, against an existential Nile dispute and elevated regional exposure.",
       "sub_factors": {
@@ -196,7 +196,7 @@
     },
     "physical_practical": {
       "score": 0,
-      "confidence": 0.68,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A debt-financed infrastructure build-out and a public-health win, against a severe water/climate tail.",
       "sub_factors": {
@@ -237,23 +237,25 @@
   },
   "decisions": {
     "living": {
-      "score": -3.01,
-      "confidence": 0.75,
+      "score": -2.7,
+      "confidence": 0.6,
       "horizon": "5-10y",
-      "reading": "clear negative"
+      "reading": "mixed"
     },
     "assets": {
-      "score": -2.31,
-      "confidence": 0.75,
+      "score": -2.11,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -2.68,
-      "confidence": 0.76,
+      "score": -2.55,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A US/Gulf-courted regional power and pivotal Gaza mediator with a young population and a landmark Hepatitis-C public-health win - but the profile is dominated by drags: a debt-distress economy on IMF and Gulf life-support, a constrained post-float currency, a Suez Canal earner gutted by Red Sea reroutes, no judicial independence or independent press (a top jailer of journalists), mass political imprisonment, refugee-host strain with no path to belonging, and a severe water and climate tail centred on Nile dependence and a sinking Delta. A military-dominated economy crowds out the private sector throughout."
+  "summary": "A US/Gulf-courted regional power and pivotal Gaza mediator with a young population and a landmark Hepatitis-C public-health win - but the profile is dominated by drags: a debt-distress economy on IMF and Gulf life-support, a constrained post-float currency, a Suez Canal earner gutted by Red Sea reroutes, no judicial independence or independent press (a top jailer of journalists), mass political imprisonment, refugee-host strain with no path to belonging, and a severe water and climate tail centred on Nile dependence and a sinking Delta. A military-dominated economy crowds out the private sector throughout.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

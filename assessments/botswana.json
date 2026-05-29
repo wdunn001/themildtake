@@ -242,5 +242,7 @@
       "reading": "mixed"
     }
   },
-  "summary": "One of Africa's institutional standouts - the October 2024 election produced the country's first-ever peaceful party turnover after ~58 years of BDP rule, reinforcing rule of law and civil liberties. But the economy is in a genuine crisis: the global diamond slump pushed real GDP into contraction in 2025, opened one of sub-Saharan Africa's widest fiscal deficits (~8-11% of GDP), and cut reserves by roughly a quarter. Deep structural vulnerabilities - extreme single-commodity dependence, ~21% adult HIV prevalence, very high inequality, and chronic drought - make the near-term skew negative even though the long-run governance base is strong."
+  "summary": "One of Africa's institutional standouts - the October 2024 election produced the country's first-ever peaceful party turnover after ~58 years of BDP rule, reinforcing rule of law and civil liberties. But the economy is in a genuine crisis: the global diamond slump pushed real GDP into contraction in 2025, opened one of sub-Saharan Africa's widest fiscal deficits (~8-11% of GDP), and cut reserves by roughly a quarter. Deep structural vulnerabilities - extreme single-commodity dependence, ~21% adult HIV prevalence, very high inequality, and chronic drought - make the near-term skew negative even though the long-run governance base is strong.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

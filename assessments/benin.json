@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": 2,
-      "confidence": 0.83,
+      "score": 2.1,
+      "confidence": 0.74,
       "skew": "positive",
       "notes": "Standout WAEMU macro performance - ~7.5% growth, deficit at the 3% norm, low peg-anchored inflation - with cotton/oil-transit concentration the main risk.",
       "sub_factors": {
@@ -89,7 +89,7 @@
     },
     "institutional": {
       "score": -0.3,
-      "confidence": 0.76,
+      "confidence": 0.72,
       "skew": "negative",
       "notes": "Strong macro/statistical capacity and civil service, undercut by an instrumentalized judiciary and a sharply pressured press.",
       "sub_factors": {
@@ -121,7 +121,7 @@
     },
     "political_social": {
       "score": -2.3,
-      "confidence": 0.7,
+      "confidence": 0.68,
       "skew": "negative",
       "notes": "Competitive politics hollowed out by opposition exclusion, atop a young population and a stressed northern periphery.",
       "sub_factors": {
@@ -162,8 +162,8 @@
       }
     },
     "geopolitical": {
-      "score": -0.7,
-      "confidence": 0.77,
+      "score": -0.5,
+      "confidence": 0.74,
       "skew": "negative",
       "notes": "A Western-aligned ECOWAS member but on the front line of southward Sahel jihadist spillover and a Niger-border standoff.",
       "sub_factors": {
@@ -230,23 +230,25 @@
   },
   "decisions": {
     "living": {
-      "score": -0.78,
-      "confidence": 0.73,
+      "score": -0.79,
+      "confidence": 0.7,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.26,
-      "confidence": 0.77,
+      "score": 0.25,
+      "confidence": 0.72,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
       "score": 1.01,
-      "confidence": 0.8,
+      "confidence": 0.73,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "Benin is a WAEMU macro star paired with a political backslider. Talon's decade delivered ~7.5% growth (its highest yet), a deficit cut to the 3% regional norm a year early, low euro-peg-anchored inflation, an on-track IMF EFF/ECF/RSF program, and a genuine industrialization push via the Glo-Djigbe (GDIZ) zone and a Niger-oil transit pipeline. But competitive politics has been hollowed out: opposition figures jailed (the CRIET court) or exiled, candidacy rules weaponized, and an April-2026 succession election that handed finance minister Wadagni ~94% with no credible opponent and was judged neither free nor fair. A sharp 2025 JNIM jihadist surge in the north - the April attack the deadliest in a decade - plus a weak health system and flood exposure round out a negatively skewed profile where strong assets/currency fundamentals sit beside poor governance and security tails."
+  "summary": "Benin is a WAEMU macro star paired with a political backslider. Talon's decade delivered ~7.5% growth (its highest yet), a deficit cut to the 3% regional norm a year early, low euro-peg-anchored inflation, an on-track IMF EFF/ECF/RSF program, and a genuine industrialization push via the Glo-Djigbe (GDIZ) zone and a Niger-oil transit pipeline. But competitive politics has been hollowed out: opposition figures jailed (the CRIET court) or exiled, candidacy rules weaponized, and an April-2026 succession election that handed finance minister Wadagni ~94% with no credible opponent and was judged neither free nor fair. A sharp 2025 JNIM jihadist surge in the north - the April attack the deadliest in a decade - plus a weak health system and flood exposure round out a negatively skewed profile where strong assets/currency fundamentals sit beside poor governance and security tails.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

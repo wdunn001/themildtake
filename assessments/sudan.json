@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -7.4,
-      "confidence": 0.84,
+      "score": -7.6,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A collapsed war economy with hyperinflation and a non-functional central bank.",
       "sub_factors": {
@@ -86,8 +86,8 @@
       }
     },
     "institutional": {
-      "score": -9,
-      "confidence": 0.75,
+      "score": -8.8,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "No functional state, collapsed data, and among the worst press repression.",
       "sub_factors": {
@@ -119,7 +119,7 @@
     },
     "political_social": {
       "score": -9.7,
-      "confidence": 0.82,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "An active catastrophic civil war with mass atrocities and the world's largest displacement crisis.",
       "sub_factors": {
@@ -156,8 +156,8 @@
       }
     },
     "geopolitical": {
-      "score": -8.8,
-      "confidence": 0.79,
+      "score": -8.7,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A fragmented proxy battleground and the world's worst active humanitarian crisis.",
       "sub_factors": {
@@ -182,8 +182,8 @@
       }
     },
     "physical_practical": {
-      "score": -9.1,
-      "confidence": 0.76,
+      "score": -9,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A collapsed health system amid famine and cholera, with war-destroyed infrastructure.",
       "sub_factors": {
@@ -224,23 +224,25 @@
   },
   "decisions": {
     "living": {
-      "score": -8.99,
-      "confidence": 0.79,
+      "score": -8.95,
+      "confidence": 0.6,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -8.38,
-      "confidence": 0.8,
+      "score": -8.42,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -7.99,
-      "confidence": 0.81,
+      "score": -8.09,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "clear negative"
     }
   },
-  "summary": "A country consumed by an active, catastrophic civil war since April 2023 between two military factions, with no functioning government, documented atrocities and ethnic massacres (a UN mission has found genocidal intent), and the world's largest displacement crisis (12M+). The economy has collapsed into hyperinflation and a shadow banking system, gold is smuggled to fund the war, agriculture is destroyed, and an IPC-5 famine and cholera ravage a health system with most hospitals out of service. Among the most negative profiles in the dataset; figures are external estimates."
+  "summary": "A country consumed by an active, catastrophic civil war since April 2023 between two military factions, with no functioning government, documented atrocities and ethnic massacres (a UN mission has found genocidal intent), and the world's largest displacement crisis (12M+). The economy has collapsed into hyperinflation and a shadow banking system, gold is smuggled to fund the war, agriculture is destroyed, and an IPC-5 famine and cholera ravage a health system with most hospitals out of service. Among the most negative profiles in the dataset; figures are external estimates.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

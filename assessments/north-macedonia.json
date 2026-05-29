@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": 2,
-      "confidence": 0.84,
+      "score": 2.1,
+      "confidence": 0.75,
       "skew": "symmetric",
       "notes": "Sound banks and a de-facto euro peg on a small, EU-dependent export base.",
       "sub_factors": {
@@ -86,8 +86,8 @@
       }
     },
     "institutional": {
-      "score": -1.6,
-      "confidence": 0.78,
+      "score": -1.4,
+      "confidence": 0.74,
       "skew": "negative",
       "notes": "Usable statistics, against stagnant corruption and minimal EU-driven reform.",
       "sub_factors": {
@@ -118,8 +118,8 @@
       }
     },
     "political_social": {
-      "score": 0.5,
-      "confidence": 0.74,
+      "score": 0.6,
+      "confidence": 0.72,
       "skew": "negative",
       "notes": "Democratic but EU-accession-frustrated, with an ethnic cleavage and depopulation.",
       "sub_factors": {
@@ -159,7 +159,7 @@
     },
     "geopolitical": {
       "score": 4.1,
-      "confidence": 0.77,
+      "confidence": 0.73,
       "skew": "positive",
       "notes": "A pro-Western NATO member and EU candidate in a stable Balkan position.",
       "sub_factors": {
@@ -226,23 +226,25 @@
   },
   "decisions": {
     "living": {
-      "score": -0.26,
-      "confidence": 0.76,
+      "score": -0.2,
+      "confidence": 0.73,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.92,
-      "confidence": 0.79,
+      "score": 0.95,
+      "confidence": 0.73,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 1.54,
-      "confidence": 0.81,
+      "score": 1.59,
+      "confidence": 0.74,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A NATO member and EU candidate with sound, well-capitalised banks, a de-facto euro peg delivering stability, and an EU-integrated auto-components export base. Its defining frustration is an EU accession stalled for years by a neighbour's identity/constitution veto, which has fed deep public disillusion and political stalemate, atop stagnant corruption, a managed Macedonian/Albanian ethnic cleavage, the capital's severe winter air pollution, and steep depopulation. Net, a balanced outcome distribution leaning on the pro-Western anchor."
+  "summary": "A NATO member and EU candidate with sound, well-capitalised banks, a de-facto euro peg delivering stability, and an EU-integrated auto-components export base. Its defining frustration is an EU accession stalled for years by a neighbour's identity/constitution veto, which has fed deep public disillusion and political stalemate, atop stagnant corruption, a managed Macedonian/Albanian ethnic cleavage, the capital's severe winter air pollution, and steep depopulation. Net, a balanced outcome distribution leaning on the pro-Western anchor.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

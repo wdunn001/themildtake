@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -1.3,
-      "confidence": 0.75,
+      "score": -1.4,
+      "confidence": 0.71,
       "skew": "positive",
       "notes": "Stabilizing off a severe 2022-23 crisis - inflation crushed, an IMF program on track - but a low-income, commodity-dependent, own-currency economy with a recent high-inflation history.",
       "sub_factors": {
@@ -122,8 +122,8 @@
       }
     },
     "political_social": {
-      "score": -2,
-      "confidence": 0.67,
+      "score": -1.9,
+      "confidence": 0.66,
       "skew": "negative",
       "notes": "A peaceful post-war record strained by a disputed 2023 vote and a failed 2023 coup, atop deep poverty.",
       "sub_factors": {
@@ -232,23 +232,25 @@
   },
   "decisions": {
     "living": {
-      "score": -2.32,
-      "confidence": 0.67,
+      "score": -2.34,
+      "confidence": 0.66,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.78,
-      "confidence": 0.69,
+      "score": -1.81,
+      "confidence": 0.67,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -1.35,
-      "confidence": 0.71,
+      "score": -1.39,
+      "confidence": 0.68,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "Sierra Leone is a fragile post-civil-war democracy in a stabilization phase. A disputed June-2023 election (Bio re-elected ~56%, with the opposition and observers flagging tabulation opacity) and a failed November-2023 coup - a mass prison break followed by 2024 treason trials that convicted dozens and saw ex-President Koroma charged - exposed thin institutions and politicized justice. The brighter story is macro: a cost-of-living crisis that pushed inflation past 50% in 2023 has reversed sharply (to ~4-8% in 2025-26) under a stable leone and an on-track IMF ECF, though the economy stays low-income, commodity-dependent (diamonds, iron ore), and own-currency-volatile. Physical fragility is the standout weakness - a weak, Ebola-scarred health system overwhelmed by Africa's largest 2025 mpox outbreak, plus severe flood/landslide exposure (the 2017 Freetown mudslide) - making for a negatively skewed profile with recovery upside but deep structural and disaster tails."
+  "summary": "Sierra Leone is a fragile post-civil-war democracy in a stabilization phase. A disputed June-2023 election (Bio re-elected ~56%, with the opposition and observers flagging tabulation opacity) and a failed November-2023 coup - a mass prison break followed by 2024 treason trials that convicted dozens and saw ex-President Koroma charged - exposed thin institutions and politicized justice. The brighter story is macro: a cost-of-living crisis that pushed inflation past 50% in 2023 has reversed sharply (to ~4-8% in 2025-26) under a stable leone and an on-track IMF ECF, though the economy stays low-income, commodity-dependent (diamonds, iron ore), and own-currency-volatile. Physical fragility is the standout weakness - a weak, Ebola-scarred health system overwhelmed by Africa's largest 2025 mpox outbreak, plus severe flood/landslide exposure (the 2017 Freetown mudslide) - making for a negatively skewed profile with recovery upside but deep structural and disaster tails.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

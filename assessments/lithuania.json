@@ -250,5 +250,7 @@
       "reading": "clear positive"
     }
   },
-  "summary": "A low-debt EU and eurozone democracy with strong, EU-standard institutions, high-value export niches (lasers, biotech, the EU's top fintech hub), a top-tier NATO defence commitment (~5.4% of GDP, hosting a permanent German brigade), and energy independence from Russia after the 2025 Baltic grid synchronisation. The dominant tail is geopolitical: frontline exposure to the Russia-Ukraine war via the Kaliningrad/Suwalki gap and the Belarus border, with repeated drone incursions. Very low fertility and ageing are the main structural drag, leaving a balanced outcome distribution."
+  "summary": "A low-debt EU and eurozone democracy with strong, EU-standard institutions, high-value export niches (lasers, biotech, the EU's top fintech hub), a top-tier NATO defence commitment (~5.4% of GDP, hosting a permanent German brigade), and energy independence from Russia after the 2025 Baltic grid synchronisation. The dominant tail is geopolitical: frontline exposure to the Russia-Ukraine war via the Kaliningrad/Suwalki gap and the Belarus border, with repeated drone incursions. Very low fertility and ageing are the main structural drag, leaving a balanced outcome distribution.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": 0.2,
-      "confidence": 0.73,
+      "confidence": 0.68,
       "skew": "symmetric",
       "notes": "A peg-anchored, low-inflation tourism economy with falling debt but persistent arrears and CIP-revenue fragility.",
       "sub_factors": {
@@ -187,7 +187,7 @@
     },
     "physical_practical": {
       "score": -2.5,
-      "confidence": 0.59,
+      "confidence": 0.58,
       "skew": "negative",
       "notes": "Extreme hurricane exposure (Barbuda ~90% destroyed by Irma), with micro-state service limits.",
       "sub_factors": {
@@ -228,23 +228,25 @@
   },
   "decisions": {
     "living": {
-      "score": 0.5,
-      "confidence": 0.59,
+      "score": 0.54,
+      "confidence": 0.58,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.31,
-      "confidence": 0.63,
+      "score": 0.34,
+      "confidence": 0.61,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 0.39,
-      "confidence": 0.66,
+      "score": 0.44,
+      "confidence": 0.63,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A stable twin-island democracy whose tourism-led economy has fully recovered past pre-pandemic levels (growth ~3% in 2025) and whose public debt has fallen to ~68% of GDP. Its core vulnerabilities are fiscal-financial: persistent Paris Club and domestic arrears (the latter of 'uncertain size'), elevated financing needs, and heavy reliance on a Citizenship-by-Investment program worth ~1% of GDP that now faces an EU regulation threatening visa-free Schengen access. Currency stability is borrowed from the robustly reserved ECCB union, and the standout physical risk is acute hurricane exposure exemplified by Barbuda's near-total destruction in Irma (2017). Net profile is neutral-to-slightly-positive, gated by data opacity and CIP-revenue fragility."
+  "summary": "A stable twin-island democracy whose tourism-led economy has fully recovered past pre-pandemic levels (growth ~3% in 2025) and whose public debt has fallen to ~68% of GDP. Its core vulnerabilities are fiscal-financial: persistent Paris Club and domestic arrears (the latter of 'uncertain size'), elevated financing needs, and heavy reliance on a Citizenship-by-Investment program worth ~1% of GDP that now faces an EU regulation threatening visa-free Schengen access. Currency stability is borrowed from the robustly reserved ECCB union, and the standout physical risk is acute hurricane exposure exemplified by Barbuda's near-total destruction in Irma (2017). Net profile is neutral-to-slightly-positive, gated by data opacity and CIP-revenue fragility.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

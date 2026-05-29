@@ -43,8 +43,8 @@
   },
   "categories": {
     "economic": {
-      "score": -0.7,
-      "confidence": 0.69,
+      "score": -0.8,
+      "confidence": 0.6,
       "skew": "positive",
       "notes": "A fast-growing mining economy (bauxite plus the launching Simandou iron ore) with improving inflation, set against a sovereign-currency credibility question and an acute resource-curse governance risk.",
       "sub_factors": {
@@ -89,8 +89,8 @@
       }
     },
     "institutional": {
-      "score": -4.9,
-      "confidence": 0.69,
+      "score": -4.8,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Junta rule with no judicial independence, captured transition institutions, and one of the world's fastest-deteriorating press environments.",
       "sub_factors": {
@@ -121,8 +121,8 @@
       }
     },
     "political_social": {
-      "score": -3.9,
-      "confidence": 0.67,
+      "score": -3.7,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "A junta entrenching itself through a captured referendum and election, repressing protest, against deep mining-displacement and ethnic tensions.",
       "sub_factors": {
@@ -161,7 +161,7 @@
     },
     "geopolitical": {
       "score": 0,
-      "confidence": 0.6,
+      "confidence": 0.58,
       "skew": "symmetric",
       "notes": "Non-aligned and not at war, courting Chinese and Gulf mining capital while drifting from Western partners post-coup.",
       "sub_factors": {
@@ -187,7 +187,7 @@
     },
     "physical_practical": {
       "score": -4.8,
-      "confidence": 0.6,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "Weak healthcare and infrastructure (mining corridors aside), notable crime/insecurity, and tropical climate exposure.",
       "sub_factors": {
@@ -228,23 +228,25 @@
   },
   "decisions": {
     "living": {
-      "score": -3.74,
-      "confidence": 0.66,
+      "score": -3.64,
+      "confidence": 0.59,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -2.38,
-      "confidence": 0.66,
+      "score": -2.36,
+      "confidence": 0.59,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
       "score": -1.64,
-      "confidence": 0.67,
+      "confidence": 0.59,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A resource-rich West African state whose 2021 coup leader, Col. Mamadi Doumbouya, has converted a stalled transition into entrenched rule - a 2025 referendum let military men run and lengthened the term, and he won an ~87% December 2025 vote the UN flagged for intimidation. The economic story is genuinely strong and improving: ~7%+ growth, easing inflation, a top-tier global bauxite position, and the long-delayed world-class Simandou iron-ore project shipping first ore in December 2025 - which gives the economic axis a rare positive skew. But that boom sits atop autocratic governance, with no judicial independence, opposition leaders forcibly disappeared, banned protests met by lethal force, and the world's sharpest 2025 press-freedom decline. The net forward picture is negative: a paradox-of-plenty where mineral upside is captured by an unaccountable junta, leaving rights, rule of law, and resource rents the dominant risks."
+  "summary": "A resource-rich West African state whose 2021 coup leader, Col. Mamadi Doumbouya, has converted a stalled transition into entrenched rule - a 2025 referendum let military men run and lengthened the term, and he won an ~87% December 2025 vote the UN flagged for intimidation. The economic story is genuinely strong and improving: ~7%+ growth, easing inflation, a top-tier global bauxite position, and the long-delayed world-class Simandou iron-ore project shipping first ore in December 2025 - which gives the economic axis a rare positive skew. But that boom sits atop autocratic governance, with no judicial independence, opposition leaders forcibly disappeared, banned protests met by lethal force, and the world's sharpest 2025 press-freedom decline. The net forward picture is negative: a paradox-of-plenty where mineral upside is captured by an unaccountable junta, leaving rights, rule of law, and resource rents the dominant risks.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

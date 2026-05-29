@@ -30,6 +30,8 @@ async function main() {
         score: d.decisions[key].score,
         confidence: d.decisions[key].confidence,
         skew: d.skew ?? "unknown",
+        transparency_tier: d.transparency_tier ?? "unknown",
+        transparency_trend: d.transparency_trend ?? "stable",
       }))
       .sort((a, b) => b.score - a.score)
       .map((r, i) => ({ rank: i + 1, ...r }));

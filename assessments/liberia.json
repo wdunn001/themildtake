@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -1.6,
-      "confidence": 0.7,
+      "score": -1.7,
+      "confidence": 0.68,
       "skew": "symmetric",
       "notes": "An IMF-programmed, dollarized economy with contained inflation but a narrow commodity base.",
       "sub_factors": {
@@ -159,7 +159,7 @@
     },
     "geopolitical": {
       "score": 2.6,
-      "confidence": 0.67,
+      "confidence": 0.65,
       "skew": "symmetric",
       "notes": "Historically close US ties, conflict-free since 2003, with peace holding after UNMIL's departure.",
       "sub_factors": {
@@ -226,23 +226,25 @@
   },
   "decisions": {
     "living": {
-      "score": -2.25,
-      "confidence": 0.63,
+      "score": -2.28,
+      "confidence": 0.62,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.73,
-      "confidence": 0.66,
+      "score": -1.78,
+      "confidence": 0.64,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -1.3,
-      "confidence": 0.67,
+      "score": -1.35,
+      "confidence": 0.65,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A post-civil-war democracy that has delivered two consecutive peaceful electoral turnovers - most recently Joseph Boakai's defeat of George Weah in 2023, taking office in 2024 - and is pursuing transitional justice via a War and Economic Crimes Court that, as of 2025, exists as an office and draft bills but not yet a functioning tribunal. The heavily dollarized economy is growing ~5% on an ArcelorMittal-led iron-ore expansion with contained inflation and an on-track IMF ECF, but rests on a narrow commodity base and the US dollar substitutes for genuine monetary sovereignty. The binding constraints are physical and institutional: an Ebola-scarred health system among the world's weakest, near-absent electrification and roads, deep rural poverty, and persistent corruption. Negative overall, with a modest near-term positive tilt."
+  "summary": "A post-civil-war democracy that has delivered two consecutive peaceful electoral turnovers - most recently Joseph Boakai's defeat of George Weah in 2023, taking office in 2024 - and is pursuing transitional justice via a War and Economic Crimes Court that, as of 2025, exists as an office and draft bills but not yet a functioning tribunal. The heavily dollarized economy is growing ~5% on an ArcelorMittal-led iron-ore expansion with contained inflation and an on-track IMF ECF, but rests on a narrow commodity base and the US dollar substitutes for genuine monetary sovereignty. The binding constraints are physical and institutional: an Ebola-scarred health system among the world's weakest, near-absent electrification and roads, deep rural poverty, and persistent corruption. Negative overall, with a modest near-term positive tilt.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

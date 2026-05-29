@@ -44,7 +44,7 @@
   "categories": {
     "economic": {
       "score": 0.6,
-      "confidence": 0.76,
+      "confidence": 0.6,
       "skew": "positive",
       "notes": "A genuine fiscal-repair success and a credible diversification push, with a USD peg the autonomy trade-off.",
       "sub_factors": {
@@ -91,8 +91,8 @@
       }
     },
     "institutional": {
-      "score": -0.1,
-      "confidence": 0.69,
+      "score": 0.1,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Low corruption and capable administration, against no political-sphere judicial independence and restricted press.",
       "sub_factors": {
@@ -123,8 +123,8 @@
       }
     },
     "political_social": {
-      "score": 0.2,
-      "confidence": 0.69,
+      "score": 0.5,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A stable, well-regarded sultanate, against no political rights and a migrant-majority workforce.",
       "sub_factors": {
@@ -164,7 +164,7 @@
     },
     "geopolitical": {
       "score": 1.9,
-      "confidence": 0.7,
+      "confidence": 0.6,
       "skew": "positive",
       "notes": "A trusted neutral mediator with an open account, against Yemen-border/Hormuz exposure.",
       "sub_factors": {
@@ -191,8 +191,8 @@
       }
     },
     "physical_practical": {
-      "score": 1,
-      "confidence": 0.63,
+      "score": 1.4,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "Good healthcare and very low crime, against extreme heat, water scarcity, and cyclone exposure.",
       "sub_factors": {
@@ -235,23 +235,25 @@
   },
   "decisions": {
     "living": {
-      "score": 0.33,
-      "confidence": 0.69,
+      "score": 0.56,
+      "confidence": 0.6,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.96,
-      "confidence": 0.71,
+      "score": 1.08,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 0.63,
-      "confidence": 0.73,
+      "score": 0.69,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A stable sultanate that has pulled off a genuine fiscal repair - turning deficits to surplus, cutting debt sharply, and earning an investment-grade upgrade - while pursuing a credible Vision-2040 diversification and punching above its weight as a trusted neutral mediator. The offsets are an absolute-monarchy rights ceiling with no political parties and criminalised criticism, a restricted press, a migrant-majority workforce under kafala-legacy controls with no path to belonging, and an extreme heat, water-scarcity, and Arabian Sea cyclone tail. A USD peg trades monetary autonomy for stability. Very low crime is a clear strength."
+  "summary": "A stable sultanate that has pulled off a genuine fiscal repair - turning deficits to surplus, cutting debt sharply, and earning an investment-grade upgrade - while pursuing a credible Vision-2040 diversification and punching above its weight as a trusted neutral mediator. The offsets are an absolute-monarchy rights ceiling with no political parties and criminalised criticism, a restricted press, a migrant-majority workforce under kafala-legacy controls with no path to belonging, and an extreme heat, water-scarcity, and Arabian Sea cyclone tail. A USD peg trades monetary autonomy for stability. Very low crime is a clear strength.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

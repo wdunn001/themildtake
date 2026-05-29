@@ -8,6 +8,9 @@ import {
   categoryLabel,
   readingFor,
   sentimentFor,
+  TRANSPARENCY_LABELS,
+  transparencyNote,
+  transparencySentiment,
 } from "../../lib/scores";
 import type { DecisionKey } from "../../lib/types";
 import ScorePill from "./ScorePill";
@@ -46,6 +49,18 @@ export default function CountryDetail({ iso3 }: Props) {
 
   return (
     <div class="cd">
+      {data.transparency_tier && (
+        <div class={`cd__tier cd__tier--${transparencySentiment(data.transparency_tier)}`}>
+          <span class="cd__tier-badge">
+            Transparency: {TRANSPARENCY_LABELS[data.transparency_tier] ?? data.transparency_tier}
+            {data.transparency_trend === "declining" ? " — declining" : ""}
+          </span>
+          <span class="cd__tier-note">
+            {transparencyNote(data.transparency_tier, data.transparency_trend)}
+          </span>
+        </div>
+      )}
+
       <div class="cd__decisions">
         {decisionKeys.map((dk: DecisionKey) => {
           const d = data.decisions[dk];
@@ -113,6 +128,13 @@ export default function CountryDetail({ iso3 }: Props) {
       <style>{`
         .cd__status { font-family: var(--font-mono); color: var(--fg-muted); }
         .cd__status--err { color: var(--neg); }
+
+        .cd__tier { display: flex; flex-direction: column; gap: 0.35rem; border: 1px solid var(--border); border-left-width: 3px; border-radius: 8px; background: var(--bg-elev); padding: 0.7rem 1rem; margin-bottom: 1.5rem; }
+        .cd__tier--pos { border-left-color: var(--pos); }
+        .cd__tier--neg { border-left-color: var(--neg); }
+        .cd__tier--mixed { border-left-color: var(--mixed); }
+        .cd__tier-badge { font-family: var(--font-mono); font-size: 0.75rem; font-weight: 700; color: var(--fg); text-transform: uppercase; letter-spacing: 0.05em; }
+        .cd__tier-note { font-size: 0.8125rem; color: var(--fg-muted); max-width: 82ch; }
 
         .cd__decisions { display: grid; gap: 1rem; grid-template-columns: 1fr; margin-bottom: 2rem; }
         @media (min-width: 640px) { .cd__decisions { grid-template-columns: repeat(3, 1fr); } }

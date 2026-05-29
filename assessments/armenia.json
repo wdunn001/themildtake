@@ -248,5 +248,7 @@
       "reading": "mixed"
     }
   },
-  "summary": "A reforming post-2018 democracy with prudent macro management, a credible central bank, low inflation, a free-ish press, and an openness that absorbed both Karabakh refugees and Russians fleeing in 2022. But it is under acute geopolitical strain: defeated by Azerbaijan in 2023 with the loss of Nagorno-Karabakh, blockaded by two neighbours, energy-dependent on Russia and Iran, and now attempting a risky pivot from Russia toward the EU and the West. Social-cohesion trauma, an unresolved/coerced peace with residual war risk, major seismic exposure, and emigration leave the outcome distribution negative."
+  "summary": "A reforming post-2018 democracy with prudent macro management, a credible central bank, low inflation, a free-ish press, and an openness that absorbed both Karabakh refugees and Russians fleeing in 2022. But it is under acute geopolitical strain: defeated by Azerbaijan in 2023 with the loss of Nagorno-Karabakh, blockaded by two neighbours, energy-dependent on Russia and Iran, and now attempting a risky pivot from Russia toward the EU and the West. Social-cohesion trauma, an unresolved/coerced peace with residual war risk, major seismic exposure, and emigration leave the outcome distribution negative.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

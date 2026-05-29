@@ -242,5 +242,7 @@
       "reading": "mixed"
     }
   },
-  "summary": "A rare, durable small-island democracy - consistently 'Free', with a relatively open press and repeated peaceful turnovers - but its institutions are shallow and were tested by a November 2022 coup attempt and subsequent custody-abuse allegations. Economically it is tiny, poor, and structurally import- and aid-dependent, with the chronic electricity crisis (inefficient EMAE diesel plants) the single biggest brake on growth; long-promised offshore oil has not materialized. The euro-pegged dobra delivers an inflation anchor at the cost of monetary autonomy, while an on-track IMF ECF program is stabilizing the fiscal/external position. Net skew is positive on the strength of governance, with material physical/economic fragility."
+  "summary": "A rare, durable small-island democracy - consistently 'Free', with a relatively open press and repeated peaceful turnovers - but its institutions are shallow and were tested by a November 2022 coup attempt and subsequent custody-abuse allegations. Economically it is tiny, poor, and structurally import- and aid-dependent, with the chronic electricity crisis (inefficient EMAE diesel plants) the single biggest brake on growth; long-promised offshore oil has not materialized. The euro-pegged dobra delivers an inflation anchor at the cost of monetary autonomy, while an on-track IMF ECF program is stabilizing the fiscal/external position. Net skew is positive on the strength of governance, with material physical/economic fragility.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

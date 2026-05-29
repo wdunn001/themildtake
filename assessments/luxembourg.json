@@ -242,5 +242,7 @@
       "reading": "clear positive"
     }
   },
-  "summary": "A tiny, ultra-wealthy AAA-rated eurozone state with among the world's strongest institutions, excellent healthcare and infrastructure, low crime, very low public debt, and an exceptionally open, high-income, foreign-majority labour market. Its economy is a high-value-added fund-management and financial-services hub, which is also its main vulnerability: a vast non-bank fund sector poses liquidity-mismatch and contagion risk, and a residual tax-secrecy reputation lingers. Housing-cost strain and a 2025 fiscal slip are the domestic watch-items. A reliable NATO/EU founder and institution host."
+  "summary": "A tiny, ultra-wealthy AAA-rated eurozone state with among the world's strongest institutions, excellent healthcare and infrastructure, low crime, very low public debt, and an exceptionally open, high-income, foreign-majority labour market. Its economy is a high-value-added fund-management and financial-services hub, which is also its main vulnerability: a vast non-bank fund sector poses liquidity-mismatch and contagion risk, and a residual tax-secrecy reputation lingers. Housing-cost strain and a 2025 fiscal slip are the domestic watch-items. A reliable NATO/EU founder and institution host.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": 2.4,
-      "confidence": 0.82,
+      "confidence": 0.75,
       "skew": "positive",
       "notes": "A dramatic reform turnaround (fiscal surplus, collapsing inflation, lifted capital controls) on a fragile track record and resource upside.",
       "sub_factors": {
@@ -94,8 +94,8 @@
       }
     },
     "institutional": {
-      "score": 0.2,
-      "confidence": 0.76,
+      "score": 0.1,
+      "confidence": 0.72,
       "skew": "positive",
       "notes": "Restored statistical credibility and a leaner state, against a historically weak judiciary and press-freedom backsliding.",
       "sub_factors": {
@@ -130,8 +130,8 @@
       }
     },
     "political_social": {
-      "score": 1.7,
-      "confidence": 0.77,
+      "score": 1.6,
+      "confidence": 0.75,
       "skew": "positive",
       "notes": "Volatile reform politics and a poverty spike now easing, with an open, welcoming residency regime.",
       "sub_factors": {
@@ -175,7 +175,7 @@
     },
     "geopolitical": {
       "score": 4.5,
-      "confidence": 0.84,
+      "confidence": 0.75,
       "skew": "positive",
       "notes": "A pro-US tilt and no external conflict, with capital controls largely lifted.",
       "sub_factors": {
@@ -246,23 +246,25 @@
   },
   "decisions": {
     "living": {
-      "score": 1.47,
-      "confidence": 0.77,
+      "score": 1.43,
+      "confidence": 0.73,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 1.92,
-      "confidence": 0.79,
+      "score": 1.87,
+      "confidence": 0.74,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 2.28,
-      "confidence": 0.81,
+      "score": 2.25,
+      "confidence": 0.74,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A high-variance, positive-skew reform-turnaround: a first fiscal surplus in two decades, inflation collapsing from ~211% toward ~31%, lifted capital controls, restored statistical credibility, an open and welcoming residency regime, and real resource upside (Vaca Muerta shale, lithium, agriculture). The crisis tail is real - a fragile monetary framework and weak track record, a historically weak judiciary, press-freedom backsliding, decaying infrastructure, and reform politics dependent on fragile coalitions."
+  "summary": "A high-variance, positive-skew reform-turnaround: a first fiscal surplus in two decades, inflation collapsing from ~211% toward ~31%, lifted capital controls, restored statistical credibility, an open and welcoming residency regime, and real resource upside (Vaca Muerta shale, lithium, agriculture). The crisis tail is real - a fragile monetary framework and weak track record, a historically weak judiciary, press-freedom backsliding, decaying infrastructure, and reform politics dependent on fragile coalitions.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

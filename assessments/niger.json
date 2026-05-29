@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -0.4,
-      "confidence": 0.74,
+      "score": -0.6,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "An oil-driven growth ramp and CFA stability, offset by high debt distress, uranium-dispute risk, and post-coup financing strain.",
       "sub_factors": {
@@ -90,8 +90,8 @@
       }
     },
     "institutional": {
-      "score": -5.5,
-      "confidence": 0.69,
+      "score": -5.2,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A coup junta ruling by decree with detained ex-leadership, dissolved parties, and a repressed press.",
       "sub_factors": {
@@ -123,7 +123,7 @@
     },
     "political_social": {
       "score": -4.6,
-      "confidence": 0.63,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "An entrenched junta and spreading insurgency, with large displacement and acute food insecurity.",
       "sub_factors": {
@@ -165,7 +165,7 @@
     },
     "geopolitical": {
       "score": -5.1,
-      "confidence": 0.72,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Pivoted from the West to Russia, exited ECOWAS into the AES, with a spreading insurgency and investment-dispute risk.",
       "sub_factors": {
@@ -190,8 +190,8 @@
       }
     },
     "physical_practical": {
-      "score": -6.8,
-      "confidence": 0.65,
+      "score": -6.7,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Extreme climate vulnerability, very weak health, sparse infrastructure, and spreading insecurity.",
       "sub_factors": {
@@ -232,23 +232,25 @@
   },
   "decisions": {
     "living": {
-      "score": -4.53,
-      "confidence": 0.67,
+      "score": -4.5,
+      "confidence": 0.6,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -3.21,
-      "confidence": 0.7,
+      "score": -3.31,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -2.25,
-      "confidence": 0.72,
+      "score": -2.4,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "Niger has been ruled by a junta under General Tchiani since the July 2023 coup; it detains deposed president Bazoum (the UN found the detention arbitrary), dissolved all political parties, and curbed the press. It expelled the US (closing the $110m Agadez drone base in August 2024) and French forces, exited ECOWAS for the Russia-aligned AES, and turned to Africa Corps. The economy has a genuine upside in the oil-export ramp through the China-built Benin pipeline plus CFA-anchored low inflation, but it sits at 'high' debt distress, and the nationalization of Orano's Somair uranium mine drew an adverse international ruling and left uranium stranded. With external data, a spreading Tillaberi insurgency, extreme climate vulnerability, and very weak health, the picture is negative, though somewhat less acute than Mali or Burkina."
+  "summary": "Niger has been ruled by a junta under General Tchiani since the July 2023 coup; it detains deposed president Bazoum (the UN found the detention arbitrary), dissolved all political parties, and curbed the press. It expelled the US (closing the $110m Agadez drone base in August 2024) and French forces, exited ECOWAS for the Russia-aligned AES, and turned to Africa Corps. The economy has a genuine upside in the oil-export ramp through the China-built Benin pipeline plus CFA-anchored low inflation, but it sits at 'high' debt distress, and the nationalization of Orano's Somair uranium mine drew an adverse international ruling and left uranium stranded. With external data, a spreading Tillaberi insurgency, extreme climate vulnerability, and very weak health, the picture is negative, though somewhat less acute than Mali or Burkina.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

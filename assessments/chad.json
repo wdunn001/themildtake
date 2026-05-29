@@ -43,8 +43,8 @@
   },
   "categories": {
     "economic": {
-      "score": -0.9,
-      "confidence": 0.78,
+      "score": -1,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A peg-anchored, low-inflation but oil-dependent and very low-income economy on an IMF program, with deep fiscal fragility and a resource-curse profile.",
       "sub_factors": {
@@ -88,8 +88,8 @@
       }
     },
     "institutional": {
-      "score": -5.5,
-      "confidence": 0.7,
+      "score": -5.4,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A personalized dynastic regime with weak rule of law, pervasive corruption, thin state capacity, and a repressed press.",
       "sub_factors": {
@@ -120,8 +120,8 @@
       }
     },
     "political_social": {
-      "score": -4.5,
-      "confidence": 0.74,
+      "score": -4.3,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A dynastic succession over chronic instability, a vast refugee influx, and acute climate-and-conflict stress on social cohesion.",
       "sub_factors": {
@@ -158,8 +158,8 @@
       }
     },
     "geopolitical": {
-      "score": -3.2,
-      "confidence": 0.69,
+      "score": -3.1,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A former French security anchor drifting after the 2025 troop withdrawal, with an active internal insurgency and Sudan-war spillover.",
       "sub_factors": {
@@ -186,8 +186,8 @@
       }
     },
     "physical_practical": {
-      "score": -6.9,
-      "confidence": 0.67,
+      "score": -6.8,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "Among the world's harshest physical-risk profiles: extreme climate exposure, near-absent healthcare, minimal infrastructure, and conflict-zone insecurity.",
       "sub_factors": {
@@ -228,23 +228,25 @@
   },
   "decisions": {
     "living": {
-      "score": -4.59,
-      "confidence": 0.72,
+      "score": -4.55,
+      "confidence": 0.6,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -3.29,
-      "confidence": 0.73,
+      "score": -3.36,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -2.26,
-      "confidence": 0.75,
+      "score": -2.34,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A Sahelian, landlocked, oil-dependent state run as a hereditary military regime - Idriss Deby ruled three decades until his 2021 death, after which his son Mahamat seized power by junta and legitimized it in a contested 2024 vote his own rival rejected as rigged. The forward picture is heavily negative: an insurgency on Lake Chad, a Sudan-war refugee influx exceeding 1.2 million in the east, among the world's worst poverty and climate exposure, near-absent healthcare and infrastructure, weak rule of law, and a repressed press. The 2025 French military withdrawal removes a long-standing backstop and invites a Russia-courting drift. The only meaningful offsets are the CFA-franc euro peg's monetary stability, low inflation, and an IMF-anchored fiscal program - all real but thin against a deeply fragile base."
+  "summary": "A Sahelian, landlocked, oil-dependent state run as a hereditary military regime - Idriss Deby ruled three decades until his 2021 death, after which his son Mahamat seized power by junta and legitimized it in a contested 2024 vote his own rival rejected as rigged. The forward picture is heavily negative: an insurgency on Lake Chad, a Sudan-war refugee influx exceeding 1.2 million in the east, among the world's worst poverty and climate exposure, near-absent healthcare and infrastructure, weak rule of law, and a repressed press. The 2025 French military withdrawal removes a long-standing backstop and invites a Russia-courting drift. The only meaningful offsets are the CFA-franc euro peg's monetary stability, low inflation, and an IMF-anchored fiscal program - all real but thin against a deeply fragile base.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

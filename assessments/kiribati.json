@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -1.8,
-      "confidence": 0.74,
+      "score": -1.9,
+      "confidence": 0.68,
       "skew": "symmetric",
       "notes": "A fishing-fee-and-RERF-financed economy using the Australian dollar, with no own monetary policy.",
       "sub_factors": {
@@ -182,8 +182,8 @@
       }
     },
     "physical_practical": {
-      "score": -4.5,
-      "confidence": 0.61,
+      "score": -4.4,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "An existential sea-level threat, with very limited services across remote atolls.",
       "sub_factors": {
@@ -224,23 +224,25 @@
   },
   "decisions": {
     "living": {
-      "score": -2.22,
-      "confidence": 0.58,
+      "score": -2.2,
+      "confidence": 0.57,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.83,
-      "confidence": 0.63,
+      "score": -1.84,
+      "confidence": 0.61,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -1.56,
-      "confidence": 0.66,
+      "score": -1.58,
+      "confidence": 0.63,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A 130k-person, 33-atoll micro-state facing one of the planet's clearest existential climate threats - average elevation under two metres, with relocation land already bought in Fiji. Its standout strength is unusual fiscal cushioning for its size: the Revenue Equalisation Reserve Fund (~330% of GDP) plus volatile fishing-license fees, though deficits run double-digit and only RERF drawdowns and aid keep it solvent. The 2022 judicial crisis - the attempted deportation of a foreign High Court judge and suspension of the entire Court of Appeal under President Maamau (re-elected in 2024) - inflicts the deepest institutional damage and drives the negative skew, compounded by a transactional pivot to China since 2019. The near-term outlook is poor-but-stable; the long-term outlook is dominated by sea-level rise."
+  "summary": "A 130k-person, 33-atoll micro-state facing one of the planet's clearest existential climate threats - average elevation under two metres, with relocation land already bought in Fiji. Its standout strength is unusual fiscal cushioning for its size: the Revenue Equalisation Reserve Fund (~330% of GDP) plus volatile fishing-license fees, though deficits run double-digit and only RERF drawdowns and aid keep it solvent. The 2022 judicial crisis - the attempted deportation of a foreign High Court judge and suspension of the entire Court of Appeal under President Maamau (re-elected in 2024) - inflicts the deepest institutional damage and drives the negative skew, compounded by a transactional pivot to China since 2019. The near-term outlook is poor-but-stable; the long-term outlook is dominated by sea-level rise.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

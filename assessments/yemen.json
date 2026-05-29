@@ -43,8 +43,8 @@
   },
   "categories": {
     "economic": {
-      "score": -6.3,
-      "confidence": 0.6,
+      "score": -6.9,
+      "confidence": 0.54,
       "skew": "negative",
       "notes": "A collapsed, split, aid-dependent economy with a fractured currency.",
       "sub_factors": {
@@ -89,8 +89,8 @@
       }
     },
     "institutional": {
-      "score": -8.6,
-      "confidence": 0.56,
+      "score": -8.5,
+      "confidence": 0.55,
       "skew": "negative",
       "notes": "No functional unified state, collapsed data, and among the worst press repression.",
       "sub_factors": {
@@ -162,7 +162,7 @@
     },
     "geopolitical": {
       "score": -8.4,
-      "confidence": 0.57,
+      "confidence": 0.56,
       "skew": "negative",
       "notes": "A regional-proxy battleground, with Houthi Red Sea/Israel attacks drawing strikes.",
       "sub_factors": {
@@ -191,8 +191,8 @@
       }
     },
     "physical_practical": {
-      "score": -8.7,
-      "confidence": 0.65,
+      "score": -8.8,
+      "confidence": 0.56,
       "skew": "negative",
       "notes": "A collapsed health system amid famine, war-destroyed infrastructure, and extreme water scarcity.",
       "sub_factors": {
@@ -233,23 +233,25 @@
   },
   "decisions": {
     "living": {
-      "score": -7.64,
-      "confidence": 0.57,
+      "score": -7.72,
+      "confidence": 0.54,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -7.32,
-      "confidence": 0.58,
+      "score": -7.58,
+      "confidence": 0.55,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -7.09,
-      "confidence": 0.58,
+      "score": -7.51,
+      "confidence": 0.55,
       "horizon": "1-3y",
       "reading": "clear negative"
     }
   },
-  "summary": "A de-facto partitioned war state - a Houthi-controlled north versus an internationally-recognized but fractured southern coalition - locked in one of the world's worst humanitarian crises. The economy is collapsed and split with no unified central bank and a fractured currency, the health system has collapsed amid recurrent cholera and famine-adjacent malnutrition, and infrastructure is war-destroyed. Houthi Red Sea and Israel attacks have drawn US, UK, and Israeli strikes. Data is fragmentary and figures are external proxies; the picture is clearly negative."
+  "summary": "A de-facto partitioned war state - a Houthi-controlled north versus an internationally-recognized but fractured southern coalition - locked in one of the world's worst humanitarian crises. The economy is collapsed and split with no unified central bank and a fractured currency, the health system has collapsed amid recurrent cholera and famine-adjacent malnutrition, and infrastructure is war-destroyed. Houthi Red Sea and Israel attacks have drawn US, UK, and Israeli strikes. Data is fragmentary and figures are external proxies; the picture is clearly negative.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

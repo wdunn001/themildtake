@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": -1.5,
-      "confidence": 0.71,
+      "confidence": 0.66,
       "skew": "symmetric",
       "notes": "A minuscule, fishing-fee/'.tv'/Trust-Fund-financed economy using the Australian dollar.",
       "sub_factors": {
@@ -182,8 +182,8 @@
       }
     },
     "physical_practical": {
-      "score": -4.5,
-      "confidence": 0.6,
+      "score": -4.4,
+      "confidence": 0.58,
       "skew": "negative",
       "notes": "An existential sea-level threat partly backstopped by the Australian migration pathway.",
       "sub_factors": {
@@ -224,23 +224,25 @@
   },
   "decisions": {
     "living": {
-      "score": -1.18,
-      "confidence": 0.54,
+      "score": -1.11,
+      "confidence": 0.53,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -0.94,
-      "confidence": 0.6,
+      "score": -0.89,
+      "confidence": 0.58,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -0.74,
-      "confidence": 0.64,
+      "score": -0.72,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "The world's 4th-smallest country (~11,000 people) facing the same existential sea-level threat as Kiribati, but with a genuinely unique mitigant: the Falepili Union treaty (in force Aug 2024), under which Australia recognises Tuvalu's continuing statehood, offers up to 280 permanent climate-migration visas a year, and provides a security guarantee - in exchange for an effective veto over Tuvalu's third-party security deals. Its institutions are small but broadly democratic and rule-of-law-respecting, and it remains a loyal Taiwan ally. The skew stays negative because the long-run climate verdict and a likely emigration drain dominate, but Tuvalu is materially better hedged than its peers thanks to the Australian backstop, the Trust Fund, and '.tv'/fishing revenue."
+  "summary": "The world's 4th-smallest country (~11,000 people) facing the same existential sea-level threat as Kiribati, but with a genuinely unique mitigant: the Falepili Union treaty (in force Aug 2024), under which Australia recognises Tuvalu's continuing statehood, offers up to 280 permanent climate-migration visas a year, and provides a security guarantee - in exchange for an effective veto over Tuvalu's third-party security deals. Its institutions are small but broadly democratic and rule-of-law-respecting, and it remains a loyal Taiwan ally. The skew stays negative because the long-run climate verdict and a likely emigration drain dominate, but Tuvalu is materially better hedged than its peers thanks to the Australian backstop, the Trust Fund, and '.tv'/fishing revenue.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

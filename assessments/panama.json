@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": -0.9,
-      "confidence": 0.82,
+      "confidence": 0.74,
       "skew": "symmetric",
       "notes": "Dollarized stability and a large banking/logistics hub, against a fiscal hit from the 2024 copper-mine closure and structural canal-water risk.",
       "sub_factors": {
@@ -91,7 +91,7 @@
     },
     "institutional": {
       "score": -1.7,
-      "confidence": 0.68,
+      "confidence": 0.67,
       "skew": "negative",
       "notes": "Entrenched corruption and weak courts, partly offset by a genuinely insulated, world-class Canal Authority and a press that remains plural.",
       "sub_factors": {
@@ -123,7 +123,7 @@
     },
     "political_social": {
       "score": -0.1,
-      "confidence": 0.73,
+      "confidence": 0.72,
       "skew": "negative",
       "notes": "A legitimately elected but contested government amid 2025 pension-reform unrest, with a favorable residency pathway and a sharply de-escalated migration crisis.",
       "sub_factors": {
@@ -162,8 +162,8 @@
       }
     },
     "geopolitical": {
-      "score": -1,
-      "confidence": 0.74,
+      "score": -1.1,
+      "confidence": 0.71,
       "skew": "negative",
       "notes": "Open capital account and no external war, but uniquely exposed as the object of great-power contestation over the canal and its ports.",
       "sub_factors": {
@@ -233,22 +233,24 @@
   "decisions": {
     "living": {
       "score": -0.5,
-      "confidence": 0.72,
+      "confidence": 0.7,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -0.66,
-      "confidence": 0.75,
+      "score": -0.67,
+      "confidence": 0.72,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -1.01,
-      "confidence": 0.78,
+      "score": -1.02,
+      "confidence": 0.72,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "Dollarized stability (low inflation, no devaluation or convertibility risk, an open capital account), a large international banking and logistics hub, a favorable Friendly Nations residency pathway, and favorable demographics. The drags are weak rule of law and entrenched corruption, a fiscal hole opened by the 2024 copper-mine closure, contested politics after 2025 pension-reform unrest, a structural canal-watershed drought, and a US relationship turned coercive over canal and port sovereignty."
+  "summary": "Dollarized stability (low inflation, no devaluation or convertibility risk, an open capital account), a large international banking and logistics hub, a favorable Friendly Nations residency pathway, and favorable demographics. The drags are weak rule of law and entrenched corruption, a fiscal hole opened by the 2024 copper-mine closure, contested politics after 2025 pension-reform unrest, a structural canal-watershed drought, and a US relationship turned coercive over canal and port sovereignty.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

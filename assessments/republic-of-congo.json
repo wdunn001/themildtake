@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": -1.8,
-      "confidence": 0.8,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A peg-anchored but debt-distressed, declining-oil rentier refinancing via costly Eurobonds.",
       "sub_factors": {
@@ -86,8 +86,8 @@
       }
     },
     "institutional": {
-      "score": -5.4,
-      "confidence": 0.7,
+      "score": -5.2,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "No judicial independence, family-level grand corruption, and a repressed press.",
       "sub_factors": {
@@ -118,8 +118,8 @@
       }
     },
     "political_social": {
-      "score": -4.5,
-      "confidence": 0.71,
+      "score": -4.4,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A 42-year incumbency re-entrenched by a boycotted vote, with a documented abuse surge and high poverty.",
       "sub_factors": {
@@ -159,7 +159,7 @@
     },
     "geopolitical": {
       "score": -0.9,
-      "confidence": 0.67,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A China-indebted hedger with a dormant insurgency and Eurobond transfer risk.",
       "sub_factors": {
@@ -185,7 +185,7 @@
     },
     "physical_practical": {
       "score": -5.1,
-      "confidence": 0.6,
+      "confidence": 0.58,
       "skew": "negative",
       "notes": "Weak healthcare and infrastructure with flood-prone river cities.",
       "sub_factors": {
@@ -226,23 +226,25 @@
   },
   "decisions": {
     "living": {
-      "score": -4.37,
-      "confidence": 0.7,
+      "score": -4.32,
+      "confidence": 0.6,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -3.08,
-      "confidence": 0.72,
+      "score": -3.12,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -2.44,
-      "confidence": 0.75,
+      "score": -2.48,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A textbook resource-cursed personalist state (Congo-Brazzaville, not the DRC): Denis Sassou Nguesso, in power since 1979, just secured a fifth term with ~95% in a March 2026 election the opposition boycotted, conducted under a nationwide internet blackout and pre-poll arrests. The economy is in outright debt distress (~97% of GDP, fresh arrears, a payment peak refinanced with risky Eurobonds against declining Pointe-Noire oil) and tarred by family-level grand corruption (the ill-gotten-gains and Petronor cases). Institutions offer no judicial independence and a repressed press, with a documented 2024 surge in torture and arbitrary detention. The CFA euro peg and low inflation are the only structural offsets; the skew is firmly negative, with an unresolved succession looming over an octogenarian incumbent."
+  "summary": "A textbook resource-cursed personalist state (Congo-Brazzaville, not the DRC): Denis Sassou Nguesso, in power since 1979, just secured a fifth term with ~95% in a March 2026 election the opposition boycotted, conducted under a nationwide internet blackout and pre-poll arrests. The economy is in outright debt distress (~97% of GDP, fresh arrears, a payment peak refinanced with risky Eurobonds against declining Pointe-Noire oil) and tarred by family-level grand corruption (the ill-gotten-gains and Petronor cases). Institutions offer no judicial independence and a repressed press, with a documented 2024 surge in torture and arbitrary detention. The CFA euro peg and low inflation are the only structural offsets; the skew is firmly negative, with an unresolved succession looming over an octogenarian incumbent.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

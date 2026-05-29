@@ -258,5 +258,7 @@
       "reading": "clear positive"
     }
   },
-  "summary": "Strong common-law institutions, a young (by European standards) and growing population, and a standout English-speaking citizenship-by-descent route, with headline budget surpluses. But the fiscal and export strength rests on a dangerously concentrated multinational corporate-tax base (best read via GNI*, not GDP) exposed to US tariff and tax-reform risk; an acute housing shortage is the dominant domestic drag; and the country is militarily neutral with thin defence capacity."
+  "summary": "Strong common-law institutions, a young (by European standards) and growing population, and a standout English-speaking citizenship-by-descent route, with headline budget surpluses. But the fiscal and export strength rests on a dangerously concentrated multinational corporate-tax base (best read via GNI*, not GDP) exposed to US tariff and tax-reform risk; an acute housing shortage is the dominant domestic drag; and the country is militarily neutral with thin defence capacity.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

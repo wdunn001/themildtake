@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": 0.6,
-      "confidence": 0.81,
+      "score": 0.8,
+      "confidence": 0.75,
       "skew": "positive",
       "notes": "A strong export base and easing inflation, against a deficit, frozen-funds drag now plausibly reversing, and a China-FDI concentration bet.",
       "sub_factors": {
@@ -90,8 +90,8 @@
       }
     },
     "institutional": {
-      "score": -0.1,
-      "confidence": 0.7,
+      "score": -0.2,
+      "confidence": 0.68,
       "skew": "negative",
       "notes": "Usable EU-validated statistics, against deep prior rule-of-law erosion and captured media now facing a reform turn.",
       "sub_factors": {
@@ -173,7 +173,7 @@
     },
     "geopolitical": {
       "score": 0.7,
-      "confidence": 0.76,
+      "confidence": 0.73,
       "skew": "positive",
       "notes": "A former EU spoiler whose reliability is set to rise as the new government re-anchors in the EU/NATO.",
       "sub_factors": {
@@ -200,8 +200,8 @@
       }
     },
     "physical_practical": {
-      "score": 1.1,
-      "confidence": 0.71,
+      "score": 1,
+      "confidence": 0.69,
       "skew": "positive",
       "notes": "EU-upgraded infrastructure and low crime, against an underfunded health system and moderate climate exposure.",
       "sub_factors": {
@@ -242,23 +242,25 @@
   },
   "decisions": {
     "living": {
-      "score": 0.75,
-      "confidence": 0.73,
+      "score": 0.73,
+      "confidence": 0.71,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.7,
-      "confidence": 0.75,
+      "score": 0.73,
+      "confidence": 0.72,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 0.37,
-      "confidence": 0.78,
+      "score": 0.43,
+      "confidence": 0.73,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "An EU economy with a strong auto/manufacturing export base, easing inflation, EU-upgraded infrastructure, and low crime, carrying a legacy of deep rule-of-law erosion - an Article 7 procedure, frozen EU funds, captured media, and a hostile asylum regime. The defining 2026 event is a high-turnout democratic alternation out of long-entrenched rule, with the incoming government pledging restored judicial independence, fund unfreezing, and EU/NATO re-anchoring. That gives the country an asymmetric reform/recovery upside, but the turn is promised rather than delivered, so near-term institutional and civil-liberty scores remain negative."
+  "summary": "An EU economy with a strong auto/manufacturing export base, easing inflation, EU-upgraded infrastructure, and low crime, carrying a legacy of deep rule-of-law erosion - an Article 7 procedure, frozen EU funds, captured media, and a hostile asylum regime. The defining 2026 event is a high-turnout democratic alternation out of long-entrenched rule, with the incoming government pledging restored judicial independence, fund unfreezing, and EU/NATO re-anchoring. That gives the country an asymmetric reform/recovery upside, but the turn is promised rather than delivered, so near-term institutional and civil-liberty scores remain negative.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

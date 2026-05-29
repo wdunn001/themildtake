@@ -242,5 +242,7 @@
       "reading": "clear positive"
     }
   },
-  "summary": "A small, wealthy, stable EU and eurozone democracy with strong, EU-standard institutions, sound banks, a high-complexity export economy (pharma, autos, machinery), universal healthcare, and the lowest crime in the EU. The downside tails are structural rather than acute: an ageing population, heavy export concentration in German/Austrian supply chains, and recurrent catastrophic flooding (the 2023 floods alone cost ~16% of GDP). A 2026 change of government was orderly and lawful but carries a democratic-backsliding watch."
+  "summary": "A small, wealthy, stable EU and eurozone democracy with strong, EU-standard institutions, sound banks, a high-complexity export economy (pharma, autos, machinery), universal healthcare, and the lowest crime in the EU. The downside tails are structural rather than acute: an ageing population, heavy export concentration in German/Austrian supply chains, and recurrent catastrophic flooding (the 2023 floods alone cost ~16% of GDP). A 2026 change of government was orderly and lawful but carries a democratic-backsliding watch.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

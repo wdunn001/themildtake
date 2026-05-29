@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": 0.6,
-      "confidence": 0.75,
+      "score": 0.5,
+      "confidence": 0.69,
       "skew": "positive",
       "notes": "The best regional balance sheet (low debt, near-target inflation), on a tiny remittance-dependent base.",
       "sub_factors": {
@@ -228,23 +228,25 @@
   },
   "decisions": {
     "living": {
-      "score": 0.17,
-      "confidence": 0.64,
+      "score": 0.16,
+      "confidence": 0.63,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.38,
-      "confidence": 0.68,
+      "score": 0.34,
+      "confidence": 0.65,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 0.86,
-      "confidence": 0.7,
+      "score": 0.81,
+      "confidence": 0.66,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "The region's resilience story: it absorbed both the tense 2021 transfer that ended decades of HRPP rule and a sharp 2025 mid-term crisis - a FAST party split, a budget voted down, and an August snap election that installed La'auli Schmidt as PM - entirely through courts and ballots, without violence. Macro fundamentals are the strongest in this group: public debt at a two-decade low (~27.7% of GDP), an upgraded debt-distress rating, inflation back near target, and ample reserves, though the economy stays tiny, remittance-dependent, and undiversified. The clear deteriorations are a steep press-freedom slide (RSF 22-to-44 in one year, amid threats against journalists) and a crushing NCD/obesity health burden. The skew is roughly symmetric with a modest negative disaster tail."
+  "summary": "The region's resilience story: it absorbed both the tense 2021 transfer that ended decades of HRPP rule and a sharp 2025 mid-term crisis - a FAST party split, a budget voted down, and an August snap election that installed La'auli Schmidt as PM - entirely through courts and ballots, without violence. Macro fundamentals are the strongest in this group: public debt at a two-decade low (~27.7% of GDP), an upgraded debt-distress rating, inflation back near target, and ample reserves, though the economy stays tiny, remittance-dependent, and undiversified. The clear deteriorations are a steep press-freedom slide (RSF 22-to-44 in one year, amid threats against journalists) and a crushing NCD/obesity health burden. The skew is roughly symmetric with a modest negative disaster tail.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": 0.1,
-      "confidence": 0.78,
+      "confidence": 0.74,
       "skew": "negative",
       "notes": "An independent, credible central bank and sound banks, against a worsening debt trajectory and a high interest burden.",
       "sub_factors": {
@@ -91,7 +91,7 @@
     },
     "institutional": {
       "score": 2,
-      "confidence": 0.73,
+      "confidence": 0.71,
       "skew": "symmetric",
       "notes": "Courts that defended democracy after a coup attempt, credible statistics, against a corruption legacy and slow courts.",
       "sub_factors": {
@@ -188,8 +188,8 @@
       }
     },
     "physical_practical": {
-      "score": -2.4,
-      "confidence": 0.71,
+      "score": -2.3,
+      "confidence": 0.7,
       "skew": "negative",
       "notes": "A universal-health system and affordable private tier, against very high violent crime, weak logistics, and Amazon/climate exposure.",
       "sub_factors": {
@@ -230,23 +230,25 @@
   },
   "decisions": {
     "living": {
-      "score": 0.22,
-      "confidence": 0.72,
+      "score": 0.21,
+      "confidence": 0.71,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.39,
-      "confidence": 0.74,
+      "score": 0.38,
+      "confidence": 0.72,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 0.57,
-      "confidence": 0.75,
+      "score": 0.55,
+      "confidence": 0.72,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "An independent, credible central bank, sound banks, courts that defended democracy after a coup attempt, and lawful residency routes. But the outcome distribution skews negative: a worsening public-debt trajectory with a high interest burden, deep political polarization, very high inequality and violent crime, weak logistics, and Amazon/climate exposure."
+  "summary": "An independent, credible central bank, sound banks, courts that defended democracy after a coup attempt, and lawful residency routes. But the outcome distribution skews negative: a worsening public-debt trajectory with a high interest burden, deep political polarization, very high inequality and violent crime, weak logistics, and Amazon/climate exposure.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

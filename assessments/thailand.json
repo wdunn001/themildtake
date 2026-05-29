@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": 2.5,
-      "confidence": 0.83,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "A credible central bank and a diversified export/tourism base, against slow growth, deflation risk, narrowing fiscal space, and very high household debt.",
       "sub_factors": {
@@ -90,8 +90,8 @@
       }
     },
     "institutional": {
-      "score": 0.1,
-      "confidence": 0.73,
+      "score": 0.2,
+      "confidence": 0.72,
       "skew": "negative",
       "notes": "Usable economic data and a competent central bank, against a politicized judiciary and a constrained press.",
       "sub_factors": {
@@ -123,7 +123,7 @@
     },
     "political_social": {
       "score": -1.6,
-      "confidence": 0.77,
+      "confidence": 0.74,
       "skew": "negative",
       "notes": "Chronic instability and restricted civil liberties; easy lawful entry but a hard belonging ceiling and a serious demographic drag.",
       "sub_factors": {
@@ -195,7 +195,7 @@
     },
     "physical_practical": {
       "score": 1.9,
-      "confidence": 0.72,
+      "confidence": 0.71,
       "skew": "negative",
       "notes": "Standout affordable universal healthcare and decent core infrastructure, against serious flood/heat exposure.",
       "sub_factors": {
@@ -236,23 +236,25 @@
   },
   "decisions": {
     "living": {
-      "score": -0.26,
-      "confidence": 0.75,
+      "score": -0.27,
+      "confidence": 0.73,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 1.02,
-      "confidence": 0.76,
+      "score": 0.97,
+      "confidence": 0.73,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 1.49,
-      "confidence": 0.78,
+      "score": 1.44,
+      "confidence": 0.73,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "Easy lawful entry, excellent affordable universal healthcare, and a credible central bank, set against chronic political and judicial instability (PMs repeatedly removed by the courts), restricted civil liberties under the lese-majeste law, an active border conflict, and a hard demographic and belonging ceiling. Serious flood/heat exposure adds physical risk."
+  "summary": "Easy lawful entry, excellent affordable universal healthcare, and a credible central bank, set against chronic political and judicial instability (PMs repeatedly removed by the courts), restricted civil liberties under the lese-majeste law, an active border conflict, and a hard demographic and belonging ceiling. Serious flood/heat exposure adds physical risk.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

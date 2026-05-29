@@ -43,8 +43,8 @@
   },
   "categories": {
     "economic": {
-      "score": -4.4,
-      "confidence": 0.71,
+      "score": -4.7,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A catastrophic single-commodity oil rentier with a managed dinar, a weak banking sector, and near-zero diversification.",
       "sub_factors": {
@@ -91,8 +91,8 @@
       }
     },
     "institutional": {
-      "score": -5.6,
-      "confidence": 0.66,
+      "score": -5.5,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "Pervasive corruption, militia influence, weak courts, and a poor press environment.",
       "sub_factors": {
@@ -124,7 +124,7 @@
     },
     "political_social": {
       "score": -4.9,
-      "confidence": 0.61,
+      "confidence": 0.57,
       "skew": "negative",
       "notes": "A fragile sectarian system, restricted liberties, and deep cleavages, with a young-population strain.",
       "sub_factors": {
@@ -166,7 +166,7 @@
     },
     "geopolitical": {
       "score": -6.3,
-      "confidence": 0.59,
+      "confidence": 0.58,
       "skew": "negative",
       "notes": "A contested US-Iran arena with residual insurgency and dollar-flow restrictions.",
       "sub_factors": {
@@ -193,8 +193,8 @@
       }
     },
     "physical_practical": {
-      "score": -5.3,
-      "confidence": 0.66,
+      "score": -5.2,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "A severe water/heat crisis and electricity failure amid oil wealth.",
       "sub_factors": {
@@ -235,23 +235,25 @@
   },
   "decisions": {
     "living": {
-      "score": -5.11,
-      "confidence": 0.65,
+      "score": -5.09,
+      "confidence": 0.58,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -4.87,
-      "confidence": 0.67,
+      "score": -4.98,
+      "confidence": 0.59,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -4.92,
-      "confidence": 0.68,
+      "score": -5.13,
+      "confidence": 0.59,
       "horizon": "1-3y",
       "reading": "clear negative"
     }
   },
-  "summary": "A clearly-negative oil rentier: roughly 90% of state revenue comes from oil, with almost no diversification, a bloated payroll, a weak cash-based banking sector, and a managed dinar dogged by dollar-access frictions tied to Iran-sanctions enforcement. Institutions are corruption- and militia-captured under a fragile sectarian power-sharing system caught between the US and Iran, with residual insurgency and Baghdad-Kurdistan disputes. The standout physical drags are a severe water and extreme-heat crisis and chronic electricity failure despite the oil wealth."
+  "summary": "A clearly-negative oil rentier: roughly 90% of state revenue comes from oil, with almost no diversification, a bloated payroll, a weak cash-based banking sector, and a managed dinar dogged by dollar-access frictions tied to Iran-sanctions enforcement. Institutions are corruption- and militia-captured under a fragile sectarian power-sharing system caught between the US and Iran, with residual insurgency and Baghdad-Kurdistan disputes. The standout physical drags are a severe water and extreme-heat crisis and chronic electricity failure despite the oil wealth.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

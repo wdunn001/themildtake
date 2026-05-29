@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -1.8,
-      "confidence": 0.64,
+      "score": -1.7,
+      "confidence": 0.54,
       "skew": "negative",
       "notes": "Low headline debt but a captive single-buyer gas model behind a rationed, non-convertible currency.",
       "sub_factors": {
@@ -86,8 +86,8 @@
       }
     },
     "institutional": {
-      "score": -7.8,
-      "confidence": 0.73,
+      "score": -7.6,
+      "confidence": 0.57,
       "skew": "negative",
       "notes": "Among the world's least-free states, with near-total data opacity and an information desert.",
       "sub_factors": {
@@ -118,8 +118,8 @@
       }
     },
     "political_social": {
-      "score": -4,
-      "confidence": 0.57,
+      "score": -3.6,
+      "confidence": 0.52,
       "skew": "negative",
       "notes": "Totalitarian near-term stability over enforced homogeneity, food shortages, and out-migration.",
       "sub_factors": {
@@ -158,8 +158,8 @@
       }
     },
     "geopolitical": {
-      "score": -1.5,
-      "confidence": 0.58,
+      "score": -1.4,
+      "confidence": 0.56,
       "skew": "negative",
       "notes": "An isolationist 'positive neutral' reliable only as a gas supplier to China, with draconian capital controls.",
       "sub_factors": {
@@ -184,8 +184,8 @@
       }
     },
     "physical_practical": {
-      "score": -3,
-      "confidence": 0.52,
+      "score": -2.8,
+      "confidence": 0.48,
       "skew": "negative",
       "notes": "Desert heat and acute water stress, with gas-funded showcase projects over decaying provincial utilities.",
       "sub_factors": {
@@ -226,23 +226,25 @@
   },
   "decisions": {
     "living": {
-      "score": -5.39,
-      "confidence": 0.63,
+      "score": -5.02,
+      "confidence": 0.54,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -3.89,
-      "confidence": 0.63,
+      "score": -3.59,
+      "confidence": 0.54,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -3.25,
-      "confidence": 0.64,
+      "score": -3,
+      "confidence": 0.55,
       "horizon": "1-3y",
       "reading": "clear negative"
     }
   },
-  "summary": "Among the most closed and repressive states on the planet, run as a personality-cult dynastic duopoly in which President Serdar Berdimuhamedov is subordinate to his father Gurbanguly's People's Council. Its economy rests almost entirely on gas exports to a single buyer (China), behind a fixed manat that trades at a ~5-6x black-market premium under draconian capital controls, with TAPI diversification still stalled. Headline IMF data (very low debt, sub-2% inflation) look benign but are unverifiable amid near-total information control, food shortages, and a public-health crisis. Every score carries a heavy opacity discount; the long-run risk is a brittle dynastic succession layered over Caspian/desert climate stress."
+  "summary": "Among the most closed and repressive states on the planet, run as a personality-cult dynastic duopoly in which President Serdar Berdimuhamedov is subordinate to his father Gurbanguly's People's Council. Its economy rests almost entirely on gas exports to a single buyer (China), behind a fixed manat that trades at a ~5-6x black-market premium under draconian capital controls, with TAPI diversification still stalled. Headline IMF data (very low debt, sub-2% inflation) look benign but are unverifiable amid near-total information control, food shortages, and a public-health crisis. Every score carries a heavy opacity discount; the long-run risk is a brittle dynastic succession layered over Caspian/desert climate stress.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

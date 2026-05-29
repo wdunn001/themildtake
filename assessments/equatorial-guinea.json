@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -1.6,
-      "confidence": 0.77,
+      "score": -1.7,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A peg-anchored but acutely declining-oil rentier on an IMF staff-monitored program.",
       "sub_factors": {
@@ -88,8 +88,8 @@
       }
     },
     "institutional": {
-      "score": -7,
-      "confidence": 0.68,
+      "score": -6.8,
+      "confidence": 0.58,
       "skew": "negative",
       "notes": "Among the world's most corrupt and opaque states, with no independent media.",
       "sub_factors": {
@@ -120,8 +120,8 @@
       }
     },
     "political_social": {
-      "score": -5.3,
-      "confidence": 0.68,
+      "score": -5.2,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Suppressed stability under the world's longest-serving non-royal leader, with extreme inequality.",
       "sub_factors": {
@@ -161,7 +161,7 @@
     },
     "geopolitical": {
       "score": -1.2,
-      "confidence": 0.61,
+      "confidence": 0.58,
       "skew": "negative",
       "notes": "A transactional hedger with targeted Western actions against the ruling family.",
       "sub_factors": {
@@ -228,23 +228,25 @@
   },
   "decisions": {
     "living": {
-      "score": -5.27,
-      "confidence": 0.67,
+      "score": -5.21,
+      "confidence": 0.58,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -3.59,
-      "confidence": 0.7,
+      "score": -3.63,
+      "confidence": 0.58,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -2.76,
-      "confidence": 0.73,
+      "score": -2.82,
+      "confidence": 0.59,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "The most closed and repressive of the Central African petrostates: Obiang has ruled since 1979 (the world's longest-serving non-royal head of state), oil wealth is captured by his family, and the state scores among the world's worst on corruption (CPI 13/100) and press freedom, with routine torture documented at Black Beach prison. It embodies the paradox of plenty - among the highest GDP-per-capita in sub-Saharan Africa alongside majority poverty - now compounded by a sharp 2025 contraction (~-6.4%) as hydrocarbons decline, with the country on an IMF Staff-Monitored Program. The 2024 Engonga scandal offered a rare window into elite rot. The CFA euro peg and low inflation are the only structural positives; the skew is sharply negative, with eventual family succession the dominant unresolved tail risk."
+  "summary": "The most closed and repressive of the Central African petrostates: Obiang has ruled since 1979 (the world's longest-serving non-royal head of state), oil wealth is captured by his family, and the state scores among the world's worst on corruption (CPI 13/100) and press freedom, with routine torture documented at Black Beach prison. It embodies the paradox of plenty - among the highest GDP-per-capita in sub-Saharan Africa alongside majority poverty - now compounded by a sharp 2025 contraction (~-6.4%) as hydrocarbons decline, with the country on an IMF Staff-Monitored Program. The 2024 Engonga scandal offered a rare window into elite rot. The CFA euro peg and low inflation are the only structural positives; the skew is sharply negative, with eventual family succession the dominant unresolved tail risk.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

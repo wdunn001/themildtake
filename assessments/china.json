@@ -47,8 +47,8 @@
   },
   "categories": {
     "economic": {
-      "score": -1.7,
-      "confidence": 0.61,
+      "score": -1.8,
+      "confidence": 0.58,
       "skew": "negative",
       "notes": "Rebuilt under the exclusion rule: CCP official growth/CPI/local-debt figures treated as unusable; factors reconstructed from independent proxies, lowering confidence. Independently-verified manufacturing dominance (now weighted 0.17) is the genuine offset to debt, deflation, captured monetary policy, and property-sector stress. Long-term leans more negative as decoupling and demographics bite.",
       "sub_factors": {
@@ -101,8 +101,8 @@
       }
     },
     "institutional": {
-      "score": -5.8,
-      "confidence": 0.73,
+      "score": -5.4,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "Very weak institutions on the factors weighted most heavily here: no independent judiciary (rule by law, not rule of law), comprehensive censorship, and official statistics unusable for scoring. Built almost entirely from independent sources (V-Dem, WJP, RSF), so confidence is real.",
       "sub_factors": {
@@ -135,8 +135,8 @@
       }
     },
     "political_social": {
-      "score": -4.1,
-      "confidence": 0.69,
+      "score": -3.5,
+      "confidence": 0.58,
       "skew": "negative",
       "notes": "Near-term authoritarian 'stability' (suppressed instability) over catastrophic demographics and bottom-tier civil liberties. Regime-framed stability positives trimmed and confidence lowered under the slant audit. Long-term composite materially worse.",
       "sub_factors": {
@@ -179,8 +179,8 @@
       }
     },
     "geopolitical": {
-      "score": -2.5,
-      "confidence": 0.63,
+      "score": -2.3,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Few genuine allies; surrounded by wary neighbors; capital controls are a present baseline reality for asset holders, not a tail risk.",
       "sub_factors": {
@@ -208,7 +208,7 @@
     },
     "physical_practical": {
       "score": 1.5,
-      "confidence": 0.7,
+      "confidence": 0.6,
       "skew": "symmetric",
       "notes": "Genuine, externally observable strengths in infrastructure and (surveillance-derived) street safety; healthcare mixed and aging-strained; the safety positive carries a civil-liberties cost counted elsewhere.",
       "sub_factors": {
@@ -251,23 +251,25 @@
   },
   "decisions": {
     "living": {
-      "score": -4.38,
-      "confidence": 0.69,
+      "score": -4.07,
+      "confidence": 0.59,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -3.14,
-      "confidence": 0.66,
+      "score": -2.91,
+      "confidence": 0.59,
       "horizon": "3-7y",
-      "reading": "clear negative"
+      "reading": "mixed"
     },
     "currency": {
-      "score": -2.88,
-      "confidence": 0.64,
+      "score": -2.7,
+      "confidence": 0.59,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "Very weak on institutional quality and civil liberties - no independent judiciary, comprehensive censorship and surveillance, structurally closed to immigration - against a largely locked-in demographic collapse. Under the hard exclusion rule, CCP self-reported economics are excluded and rebuilt from independent proxies (lowering confidence); the genuine, externally verifiable strength is manufacturing dominance, now weighted 0.17 and confirmed through partner customs data, which keeps the economic score from collapsing even as structural deflation and decoupling weigh on the long term. The outcome distribution carries negative skew - locked-in demographics and intensifying authoritarianism, with no positive-skew pathway."
+  "summary": "Very weak on institutional quality and civil liberties - no independent judiciary, comprehensive censorship and surveillance, structurally closed to immigration - against a largely locked-in demographic collapse. Under the hard exclusion rule, CCP self-reported economics are excluded and rebuilt from independent proxies (lowering confidence); the genuine, externally verifiable strength is manufacturing dominance, now weighted 0.17 and confirmed through partner customs data, which keeps the economic score from collapsing even as structural deflation and decoupling weigh on the long term. The outcome distribution carries negative skew - locked-in demographics and intensifying authoritarianism, with no positive-skew pathway.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

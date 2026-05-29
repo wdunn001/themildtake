@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -3.1,
-      "confidence": 0.57,
+      "score": -3.3,
+      "confidence": 0.53,
       "skew": "negative",
       "notes": "An acute forex/fuel crisis with deficit monetization, on an IMF anchor but import-compressed.",
       "sub_factors": {
@@ -191,7 +191,7 @@
     },
     "physical_practical": {
       "score": -6.1,
-      "confidence": 0.55,
+      "confidence": 0.54,
       "skew": "negative",
       "notes": "Flood/landslide exposure, a malaria-burdened health system, and among the world's lowest electrification.",
       "sub_factors": {
@@ -232,23 +232,25 @@
   },
   "decisions": {
     "living": {
-      "score": -4.61,
-      "confidence": 0.54,
+      "score": -4.66,
+      "confidence": 0.53,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -4.11,
-      "confidence": 0.54,
+      "score": -4.23,
+      "confidence": 0.53,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -3.65,
-      "confidence": 0.55,
+      "score": -3.82,
+      "confidence": 0.53,
       "horizon": "1-3y",
       "reading": "clear negative"
     }
   },
-  "summary": "Among the world's poorest countries (GDP per capita ~$486; poverty ~74%), now in an acute external crisis: chronic fuel shortages, a forex squeeze with a ~100% parallel-market premium, and reserves near one-and-a-half months of imports. Politics are effectively closed - the CNDD-FDD took virtually all seats in June 2025 amid documented Imbonerakure abuses - while a sharp rupture with Rwanda (border closed, deportations) adds interstate-conflict risk on top of involvement in eastern DRC. Thin positives (an IMF ECF anchor, a reported inflation deceleration into 2026, partial press-law liberalization, a new malaria vaccine) are fragile and policy-dependent. The skew is negative: the realistic downside outweighs constrained upside."
+  "summary": "Among the world's poorest countries (GDP per capita ~$486; poverty ~74%), now in an acute external crisis: chronic fuel shortages, a forex squeeze with a ~100% parallel-market premium, and reserves near one-and-a-half months of imports. Politics are effectively closed - the CNDD-FDD took virtually all seats in June 2025 amid documented Imbonerakure abuses - while a sharp rupture with Rwanda (border closed, deportations) adds interstate-conflict risk on top of involvement in eastern DRC. Thin positives (an IMF ECF anchor, a reported inflation deceleration into 2026, partial press-law liberalization, a new malaria vaccine) are fragile and policy-dependent. The skew is negative: the realistic downside outweighs constrained upside.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

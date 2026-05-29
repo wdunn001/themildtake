@@ -248,5 +248,7 @@
       "reading": "mixed"
     }
   },
-  "summary": "A mature, stable democracy executing a credible recovery from its 2022 default: the December-2024 election delivered a peaceful turnover (the fifth since 1992), inflation has fallen sharply from a ~50% peak, the cedi has stabilised, and a gold-led reserve rebuild has cut the debt ratio. Institutions are relatively strong for the region - functional courts, credible statistics, and a free, vibrant press. The drags are a still-high debt load, commodity-cycle dependence (gold, cocoa, oil), illegal-mining environmental damage and flooding, recurrent load-shedding, and rising jihadist-spillover risk on the northern border."
+  "summary": "A mature, stable democracy executing a credible recovery from its 2022 default: the December-2024 election delivered a peaceful turnover (the fifth since 1992), inflation has fallen sharply from a ~50% peak, the cedi has stabilised, and a gold-led reserve rebuild has cut the debt ratio. Institutions are relatively strong for the region - functional courts, credible statistics, and a free, vibrant press. The drags are a still-high debt load, commodity-cycle dependence (gold, cocoa, oil), illegal-mining environmental damage and flooding, recurrent load-shedding, and rising jihadist-spillover risk on the northern border.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -4.4,
-      "confidence": 0.77,
+      "score": -4.6,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A sanctioned, Russia-subsidy-dependent, state-dominated economy.",
       "sub_factors": {
@@ -86,8 +86,8 @@
       }
     },
     "institutional": {
-      "score": -6.1,
-      "confidence": 0.77,
+      "score": -5.5,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A capable coercive apparatus atop a dictatorship with no rule of law and crushed media.",
       "sub_factors": {
@@ -118,8 +118,8 @@
       }
     },
     "political_social": {
-      "score": -6.7,
-      "confidence": 0.78,
+      "score": -6.5,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Entrenched dictatorship, atrocity-level repression, a weaponized border, and an educated exodus.",
       "sub_factors": {
@@ -156,8 +156,8 @@
       }
     },
     "geopolitical": {
-      "score": -7.8,
-      "confidence": 0.84,
+      "score": -7.7,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A Russia satellite and co-belligerent staging-ground, a pariah to the West.",
       "sub_factors": {
@@ -182,8 +182,8 @@
       }
     },
     "physical_practical": {
-      "score": -2.2,
-      "confidence": 0.63,
+      "score": -2.1,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Adequate Soviet-legacy systems under sanctions strain, with a state-violence safety duality.",
       "sub_factors": {
@@ -224,23 +224,25 @@
   },
   "decisions": {
     "living": {
-      "score": -5.67,
-      "confidence": 0.75,
+      "score": -5.31,
+      "confidence": 0.6,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -5.46,
-      "confidence": 0.77,
+      "score": -5.25,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -5.43,
-      "confidence": 0.78,
+      "score": -5.36,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "clear negative"
     }
   },
-  "summary": "A Russia-client dictatorship entrenched since 1994, with no judicial independence, atrocity-level repression and on the order of a thousand political prisoners, among the world's worst press freedom, and a society either repressed or exiled. The economy is sanctioned, Russia-subsidy-dependent, and state-dominated, with a managed Russia-tied currency. It is a co-belligerent staging-ground for the war in Ukraine and a pariah to the West, hosting Russian nuclear weapons. A 2026 US-brokered prisoner deal eased some sanctions but left the structural picture clearly negative."
+  "summary": "A Russia-client dictatorship entrenched since 1994, with no judicial independence, atrocity-level repression and on the order of a thousand political prisoners, among the world's worst press freedom, and a society either repressed or exiled. The economy is sanctioned, Russia-subsidy-dependent, and state-dominated, with a managed Russia-tied currency. It is a co-belligerent staging-ground for the war in Ukraine and a pariah to the West, hosting Russian nuclear weapons. A 2026 US-brokered prisoner deal eased some sanctions but left the structural picture clearly negative.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

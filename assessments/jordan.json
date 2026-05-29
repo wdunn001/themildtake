@@ -43,8 +43,8 @@
   },
   "categories": {
     "economic": {
-      "score": -1.5,
-      "confidence": 0.84,
+      "score": -1.6,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Peg-anchored stability and a conservative banking sector, against high debt, aid dependence, and a resource-poor base.",
       "sub_factors": {
@@ -87,8 +87,8 @@
       }
     },
     "institutional": {
-      "score": -1.9,
-      "confidence": 0.74,
+      "score": -1.7,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Reasonably usable statistics and functional delivery, against a monarchy-bounded rule of law and a poor press environment.",
       "sub_factors": {
@@ -120,7 +120,7 @@
     },
     "political_social": {
       "score": -4,
-      "confidence": 0.76,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A stable but managed monarchy, against restricted liberties, refugee-host strain, and a jobs/water crunch.",
       "sub_factors": {
@@ -157,8 +157,8 @@
       }
     },
     "geopolitical": {
-      "score": 1.5,
-      "confidence": 0.82,
+      "score": 1.4,
+      "confidence": 0.6,
       "skew": "symmetric",
       "notes": "A reliable Western ally and stabiliser, against acute regional-war exposure.",
       "sub_factors": {
@@ -183,8 +183,8 @@
       }
     },
     "physical_practical": {
-      "score": 1.3,
-      "confidence": 0.73,
+      "score": 1.2,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Strong healthcare and low crime, against among the world's most extreme water scarcity.",
       "sub_factors": {
@@ -225,23 +225,25 @@
   },
   "decisions": {
     "living": {
-      "score": -1.88,
-      "confidence": 0.76,
+      "score": -1.83,
+      "confidence": 0.6,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.12,
-      "confidence": 0.79,
+      "score": -1.15,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -1.22,
-      "confidence": 0.81,
+      "score": -1.28,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A remarkably stable, Western-aligned monarchy that anchors a turbulent region - a reliable US ally with a peace treaty with Israel, a USD-pegged dinar delivering low inflation, a conservative well-capitalised banking sector, strong healthcare, and low crime. Those genuine strengths are offset by a high public-debt load and deep aid dependence, a resource-poor economy, restricted civil liberties (a cybercrime law and the 2025 Muslim-Brotherhood ban), heavy refugee-host strain with high youth unemployment, and - structurally - some of the world's most extreme water scarcity, atop acute exposure to the surrounding conflict."
+  "summary": "A remarkably stable, Western-aligned monarchy that anchors a turbulent region - a reliable US ally with a peace treaty with Israel, a USD-pegged dinar delivering low inflation, a conservative well-capitalised banking sector, strong healthcare, and low crime. Those genuine strengths are offset by a high public-debt load and deep aid dependence, a resource-poor economy, restricted civil liberties (a cybercrime law and the 2025 Muslim-Brotherhood ban), heavy refugee-host strain with high youth unemployment, and - structurally - some of the world's most extreme water scarcity, atop acute exposure to the surrounding conflict.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

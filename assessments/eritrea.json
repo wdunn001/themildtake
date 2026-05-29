@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -2.9,
-      "confidence": 0.53,
+      "score": -3.3,
+      "confidence": 0.47,
       "skew": "negative",
       "notes": "A closed, opaque command economy - mining-led but debt-laden and largely insufficient reliable data.",
       "sub_factors": {
@@ -86,8 +86,8 @@
       }
     },
     "institutional": {
-      "score": -8.2,
-      "confidence": 0.62,
+      "score": -7.9,
+      "confidence": 0.52,
       "skew": "negative",
       "notes": "No constitution, no judicial independence, near-total data opacity, and the world's worst press environment.",
       "sub_factors": {
@@ -118,8 +118,8 @@
       }
     },
     "political_social": {
-      "score": -5.6,
-      "confidence": 0.56,
+      "score": -5.1,
+      "confidence": 0.51,
       "skew": "negative",
       "notes": "Totalitarian near-term stability over a society hollowed by conscription and emigration.",
       "sub_factors": {
@@ -159,7 +159,7 @@
     },
     "geopolitical": {
       "score": -5.8,
-      "confidence": 0.57,
+      "confidence": 0.56,
       "skew": "negative",
       "notes": "An isolationist, unpredictable actor with acute renewed-war risk with Ethiopia.",
       "sub_factors": {
@@ -226,23 +226,25 @@
   },
   "decisions": {
     "living": {
-      "score": -6.54,
-      "confidence": 0.56,
+      "score": -6.37,
+      "confidence": 0.5,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
       "score": -5.36,
-      "confidence": 0.55,
+      "confidence": 0.5,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -4.67,
-      "confidence": 0.55,
+      "score": -4.78,
+      "confidence": 0.5,
       "horizon": "1-3y",
       "reading": "clear negative"
     }
   },
-  "summary": "Among the most closed and repressive states on earth - no elections since independence, Isaias Afwerki in power since 1993, no functioning constitution, and a system of indefinite conscription the UN calls 'enslavement' that drives mass refugee outflows (roughly 15% of the population has fled). It ranks last globally on press freedom (RSF 180th, 2025) and is effectively an information desert, making most economic and social statistics low-confidence external estimates. The autarkic, fixed-peg command economy leans on mining (gold; future potash) but the World Bank put public debt near 211% of GDP with lending frozen by arrears. Near-term stability is high through totalitarian control, but the regime is brittle on succession and faces acute renewed-war risk with Ethiopia; the picture is clearly negative."
+  "summary": "Among the most closed and repressive states on earth - no elections since independence, Isaias Afwerki in power since 1993, no functioning constitution, and a system of indefinite conscription the UN calls 'enslavement' that drives mass refugee outflows (roughly 15% of the population has fled). It ranks last globally on press freedom (RSF 180th, 2025) and is effectively an information desert, making most economic and social statistics low-confidence external estimates. The autarkic, fixed-peg command economy leans on mining (gold; future potash) but the World Bank put public debt near 211% of GDP with lending frozen by arrears. Near-term stability is high through totalitarian control, but the regime is brittle on succession and faces acute renewed-war risk with Ethiopia; the picture is clearly negative.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

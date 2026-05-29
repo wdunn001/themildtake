@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": -3.1,
-      "confidence": 0.75,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Debt distress with a stalled IMF deal and central-bank deficit financing.",
       "sub_factors": {
@@ -92,8 +92,8 @@
       }
     },
     "institutional": {
-      "score": -3.7,
-      "confidence": 0.73,
+      "score": -3.2,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A dismantled rule of law and a sharply declining press, with usable economic data.",
       "sub_factors": {
@@ -124,8 +124,8 @@
       }
     },
     "political_social": {
-      "score": -4.2,
-      "confidence": 0.76,
+      "score": -4.1,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Consolidated one-man rule, a rights reversal, and an anti-migrant campaign.",
       "sub_factors": {
@@ -166,8 +166,8 @@
       }
     },
     "geopolitical": {
-      "score": -1.9,
-      "confidence": 0.68,
+      "score": -1.8,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Drifting from the West, with border-spillover and migration pressure.",
       "sub_factors": {
@@ -193,7 +193,7 @@
     },
     "physical_practical": {
       "score": -1.5,
-      "confidence": 0.65,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Severe water scarcity and decaying infrastructure, with relatively safe streets the offset.",
       "sub_factors": {
@@ -234,23 +234,25 @@
   },
   "decisions": {
     "living": {
-      "score": -3.53,
-      "confidence": 0.73,
+      "score": -3.29,
+      "confidence": 0.6,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -2.94,
-      "confidence": 0.72,
+      "score": -2.79,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -3.09,
-      "confidence": 0.73,
+      "score": -3.01,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "clear negative"
     }
   },
-  "summary": "The cradle of the Arab Spring has reversed course: the president's 2021 self-coup dismantled the post-2011 democracy, dissolved parliament, subordinated the judiciary, and jailed the opposition and journalists. The economy is in debt distress with a stalled IMF deal financed by central-bank advances, and a 2023-onward campaign against sub-Saharan migrants has brought expulsions and abuse. Severe multi-year drought and water scarcity, a degraded health system, and decaying infrastructure weigh on the physical side, with relatively safe streets a mild offset. The outcome distribution is negative."
+  "summary": "The cradle of the Arab Spring has reversed course: the president's 2021 self-coup dismantled the post-2011 democracy, dissolved parliament, subordinated the judiciary, and jailed the opposition and journalists. The economy is in debt distress with a stalled IMF deal financed by central-bank advances, and a 2023-onward campaign against sub-Saharan migrants has brought expulsions and abuse. Severe multi-year drought and water scarcity, a degraded health system, and decaying infrastructure weigh on the physical side, with relatively safe streets a mild offset. The outcome distribution is negative.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

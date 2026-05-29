@@ -248,5 +248,7 @@
       "reading": "mixed"
     }
   },
-  "summary": "Strong institutions, world-class infrastructure (high-speed rail, a low-carbon nuclear grid), one of the strongest universal health systems, a leading NATO/EU and nuclear power, and controlled inflation. The dominant drag is a reinforcing fiscal-political crisis: a ~5%-of-GDP deficit and rising debt under the EU excessive-deficit procedure, with a hung parliament producing serial government collapses and budget paralysis. Recurring social unrest and press-ownership concentration are secondary negatives."
+  "summary": "Strong institutions, world-class infrastructure (high-speed rail, a low-carbon nuclear grid), one of the strongest universal health systems, a leading NATO/EU and nuclear power, and controlled inflation. The dominant drag is a reinforcing fiscal-political crisis: a ~5%-of-GDP deficit and rising debt under the EU excessive-deficit procedure, with a hung parliament producing serial government collapses and budget paralysis. Recurring social unrest and press-ownership concentration are secondary negatives.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

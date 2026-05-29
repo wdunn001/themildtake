@@ -246,5 +246,7 @@
       "reading": "mixed"
     }
   },
-  "summary": "A stable, peaceful MMP democracy with world-class rule of law, a credible pioneering central bank, very low crime, and a lawful (if selective) migration system. The drags are a recent recession with high household/housing debt, youth emigration and ageing eroding the long-term population base, a strained public-health system and infrastructure deficit, and seismic-plus-climate disaster exposure."
+  "summary": "A stable, peaceful MMP democracy with world-class rule of law, a credible pioneering central bank, very low crime, and a lawful (if selective) migration system. The drags are a recent recession with high household/housing debt, youth emigration and ageing eroding the long-term population base, a strained public-health system and infrastructure deficit, and seismic-plus-climate disaster exposure.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

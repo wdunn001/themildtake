@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": 1.8,
-      "confidence": 0.83,
+      "score": 1.9,
+      "confidence": 0.74,
       "skew": "positive",
       "notes": "A debt-crisis recovery and a credible disinflation, with copper expansion the upside and dependence the risk.",
       "sub_factors": {
@@ -165,7 +165,7 @@
     },
     "geopolitical": {
       "score": 2.1,
-      "confidence": 0.76,
+      "confidence": 0.74,
       "skew": "positive",
       "notes": "A Western-courted, China-indebted balancer in a stable position.",
       "sub_factors": {
@@ -232,23 +232,25 @@
   },
   "decisions": {
     "living": {
-      "score": 0.86,
-      "confidence": 0.71,
+      "score": 0.84,
+      "confidence": 0.7,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 1.29,
-      "confidence": 0.75,
+      "score": 1.28,
+      "confidence": 0.71,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 1.7,
-      "confidence": 0.78,
+      "score": 1.71,
+      "confidence": 0.73,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A copper economy climbing out of its 2020 default: a landmark G20-Common-Framework debt restructuring and IMF program completed, a credible disinflation (the kwacha among the region's strongest), and a copper-output expansion courted for the energy transition. It is a functioning democracy with a 2021 peaceful turnover, but democratic backsliding is rising ahead of the 2026 vote (opposition arrests, a constitutional-amendment push). The severe 2024 drought exposed dangerous hydropower over-reliance, and poverty remains high - leaving a balanced, recovery-tilted outcome distribution."
+  "summary": "A copper economy climbing out of its 2020 default: a landmark G20-Common-Framework debt restructuring and IMF program completed, a credible disinflation (the kwacha among the region's strongest), and a copper-output expansion courted for the energy transition. It is a functioning democracy with a 2021 peaceful turnover, but democratic backsliding is rising ahead of the 2026 vote (opposition arrests, a constitutional-amendment push). The severe 2024 drought exposed dangerous hydropower over-reliance, and poverty remains high - leaving a balanced, recovery-tilted outcome distribution.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

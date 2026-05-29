@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -0.5,
-      "confidence": 0.8,
+      "score": -0.4,
+      "confidence": 0.72,
       "skew": "negative",
       "notes": "A near-term SACU/water-royalty surplus cushion, against acute medium-term trade and debt exposure.",
       "sub_factors": {
@@ -226,23 +226,25 @@
   },
   "decisions": {
     "living": {
-      "score": -0.75,
-      "confidence": 0.64,
+      "score": -0.73,
+      "confidence": 0.63,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -0.28,
-      "confidence": 0.69,
+      "score": -0.23,
+      "confidence": 0.66,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 0.02,
-      "confidence": 0.73,
+      "score": 0.11,
+      "confidence": 0.68,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A mountainous kingdom wholly enclaved within South Africa, defined by chronic political instability - repeated coalition collapses and a history of military interference that has drawn SADC mediation. Its economy is dangerously concentrated: AGOA-dependent garment exports (~80% of US-bound trade, ~1/3 of GDP) were hammered by the 2025 US tariff shock - an initial ~50% threat cut to 15% - alongside AGOA's expiry and aid cuts, triggering a two-year national state of disaster and an IMF growth downgrade to ~1.4%. Lifelines run through South Africa via Highlands Water Project royalties and labour remittances, but very high HIV/TB and high poverty weigh on human capital. The skew is negative, driven by political fragility and acute trade-policy exposure, partly offset by a near-term fiscal cushion from record SACU/water receipts."
+  "summary": "A mountainous kingdom wholly enclaved within South Africa, defined by chronic political instability - repeated coalition collapses and a history of military interference that has drawn SADC mediation. Its economy is dangerously concentrated: AGOA-dependent garment exports (~80% of US-bound trade, ~1/3 of GDP) were hammered by the 2025 US tariff shock - an initial ~50% threat cut to 15% - alongside AGOA's expiry and aid cuts, triggering a two-year national state of disaster and an IMF growth downgrade to ~1.4%. Lifelines run through South Africa via Highlands Water Project royalties and labour remittances, but very high HIV/TB and high poverty weigh on human capital. The skew is negative, driven by political fragility and acute trade-policy exposure, partly offset by a near-term fiscal cushion from record SACU/water receipts.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

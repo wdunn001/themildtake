@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": 4,
-      "confidence": 0.88,
+      "confidence": 0.75,
       "skew": "positive",
       "notes": "Very low debt, euro entry, and diversified exports - the quiet strength of the profile.",
       "sub_factors": {
@@ -87,7 +87,7 @@
     },
     "institutional": {
       "score": -1.3,
-      "confidence": 0.82,
+      "confidence": 0.74,
       "skew": "negative",
       "notes": "Credible statistics, against the EU's weakest rule-of-law record and oligarchic capture.",
       "sub_factors": {
@@ -118,8 +118,8 @@
       }
     },
     "political_social": {
-      "score": -0.9,
-      "confidence": 0.79,
+      "score": -0.6,
+      "confidence": 0.72,
       "skew": "negative",
       "notes": "Chronic political churn and the world's fastest-shrinking population, against strong EU-standard liberties.",
       "sub_factors": {
@@ -158,8 +158,8 @@
       }
     },
     "geopolitical": {
-      "score": 2.3,
-      "confidence": 0.76,
+      "score": 2.2,
+      "confidence": 0.73,
       "skew": "symmetric",
       "notes": "A net Western-aligned NATO/EU member, with a persistent Russia-sympathetic strand and Black Sea adjacency.",
       "sub_factors": {
@@ -184,8 +184,8 @@
       }
     },
     "physical_practical": {
-      "score": -3.1,
-      "confidence": 0.74,
+      "score": -2.9,
+      "confidence": 0.7,
       "skew": "negative",
       "notes": "Improving EU-funded infrastructure, against the EU's worst health outcomes and a coal-transition lag.",
       "sub_factors": {
@@ -226,23 +226,25 @@
   },
   "decisions": {
     "living": {
-      "score": -0.58,
-      "confidence": 0.81,
+      "score": -0.51,
+      "confidence": 0.73,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 1.3,
-      "confidence": 0.82,
+      "score": 1.28,
+      "confidence": 0.74,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 2.51,
-      "confidence": 0.85,
+      "score": 2.49,
+      "confidence": 0.74,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "An EU member with quietly positive economic fundamentals - among the bloc's lowest debt, euro adoption from January 2026, sound banks, and diversified exports - whose integrated outlook is pulled down by institutional, demographic, and health weaknesses. It has the EU's weakest rule-of-law and corruption record under oligarchic capture, chronic political instability (around eight elections in five years), among the world's fastest-shrinking populations, and the EU's poorest health outcomes. NATO/EU membership anchors it westward despite a persistent Russia-sympathetic strand."
+  "summary": "An EU member with quietly positive economic fundamentals - among the bloc's lowest debt, euro adoption from January 2026, sound banks, and diversified exports - whose integrated outlook is pulled down by institutional, demographic, and health weaknesses. It has the EU's weakest rule-of-law and corruption record under oligarchic capture, chronic political instability (around eight elections in five years), among the world's fastest-shrinking populations, and the EU's poorest health outcomes. NATO/EU membership anchors it westward despite a persistent Russia-sympathetic strand.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

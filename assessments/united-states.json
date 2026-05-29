@@ -48,8 +48,8 @@
   },
   "categories": {
     "economic": {
-      "score": -3.1,
-      "confidence": 0.72,
+      "score": -3,
+      "confidence": 0.71,
       "skew": "negative",
       "notes": "Negative across most sub-factors. Reserve-currency privilege provides a large near-term cushion that erodes long-term (resource-curse-like dynamic for the privilege itself). Official-data factors carry lowered confidence under the entanglement discount; trade now weighted 0.17 and scored on tariff-policy actions.",
       "sub_factors": {
@@ -101,7 +101,7 @@
     },
     "institutional": {
       "score": -5.8,
-      "confidence": 0.75,
+      "confidence": 0.73,
       "skew": "negative",
       "notes": "Most clearly negative category; multiple independent sub-factors point consistently down. The statistical-integrity finding is the documented basis for the economic-category entanglement discount. Long-term composite degrades further.",
       "sub_factors": {
@@ -132,8 +132,8 @@
       }
     },
     "political_social": {
-      "score": -5.3,
-      "confidence": 0.71,
+      "score": -5.2,
+      "confidence": 0.68,
       "skew": "negative",
       "notes": "Driven heavily by treatment of non-citizens (most relevant to relocation). Long-term composite worsens as demographics deteriorate under immigration restriction.",
       "sub_factors": {
@@ -172,8 +172,8 @@
       }
     },
     "geopolitical": {
-      "score": -5.8,
-      "confidence": 0.75,
+      "score": -5.7,
+      "confidence": 0.71,
       "skew": "negative",
       "notes": "Strongly negative across all sub-factors.",
       "sub_factors": {
@@ -200,8 +200,8 @@
       }
     },
     "physical_practical": {
-      "score": -4.5,
-      "confidence": 0.75,
+      "score": -4.4,
+      "confidence": 0.73,
       "skew": "negative",
       "notes": "Healthcare drives most of this. Long-term composite worsens as climate compounds.",
       "sub_factors": {
@@ -242,23 +242,25 @@
   },
   "decisions": {
     "living": {
-      "score": -5.35,
-      "confidence": 0.74,
+      "score": -5.29,
+      "confidence": 0.71,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -4.83,
-      "confidence": 0.74,
+      "score": -4.78,
+      "confidence": 0.71,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -4.16,
-      "confidence": 0.73,
+      "score": -4.1,
+      "confidence": 0.71,
       "horizon": "1-3y",
       "reading": "clear negative"
     }
   },
-  "summary": "Institutional erosion from a high baseline - pressure on the courts, documented statistical-agency interference, civil-service politicization - combined with reserve-currency erosion, alliance decay, and harsh treatment of non-citizens drive a strongly negative living read. Post-2022 official data is discounted as partially-entangled (confidence on inflation and fiscal lowered), and trade is scored on the hostility its volatile tariff actions create rather than on tariff levels alone, which pushes the economic read worse. The reserve-currency privilege is a large near-term cushion that erodes over the long term as the institutions it shielded are exposed."
+  "summary": "Institutional erosion from a high baseline - pressure on the courts, documented statistical-agency interference, civil-service politicization - combined with reserve-currency erosion, alliance decay, and harsh treatment of non-citizens drive a strongly negative living read. Post-2022 official data is discounted as partially-entangled (confidence on inflation and fiscal lowered), and trade is scored on the hostility its volatile tariff actions create rather than on tariff levels alone, which pushes the economic read worse. The reserve-currency privilege is a large near-term cushion that erodes over the long term as the institutions it shielded are exposed.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "declining"
 }

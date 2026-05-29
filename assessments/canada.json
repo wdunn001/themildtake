@@ -248,5 +248,7 @@
       "reading": "mixed"
     }
   },
-  "summary": "Strong institutions across the board - independent courts, a respected statistical agency, high press freedom - a positive political/social state, and a sound fiscal position with the lowest debt burden in the G7. The main weaknesses are involuntary exposure to volatile US tariff actions and a degraded alliance position from being directly targeted, now partly offset by a concrete pivot to EU/Nordic frameworks. Resource wealth paired with strong institutions is a managed asset, not a curse."
+  "summary": "Strong institutions across the board - independent courts, a respected statistical agency, high press freedom - a positive political/social state, and a sound fiscal position with the lowest debt burden in the G7. The main weaknesses are involuntary exposure to volatile US tariff actions and a degraded alliance position from being directly targeted, now partly offset by a concrete pivot to EU/Nordic frameworks. Resource wealth paired with strong institutions is a managed asset, not a curse.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

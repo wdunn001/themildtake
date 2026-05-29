@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": 0.7,
-      "confidence": 0.68,
+      "confidence": 0.65,
       "skew": "positive",
       "notes": "Strong growth and falling debt, but on a narrow, Russia-linked, overheating-prone base.",
       "sub_factors": {
@@ -86,8 +86,8 @@
       }
     },
     "institutional": {
-      "score": -2.7,
-      "confidence": 0.67,
+      "score": -2.6,
+      "confidence": 0.66,
       "skew": "negative",
       "notes": "Backsliding fast under a super-presidential constitution, though still the region's most open.",
       "sub_factors": {
@@ -186,8 +186,8 @@
       }
     },
     "physical_practical": {
-      "score": -2.6,
-      "confidence": 0.59,
+      "score": -2.5,
+      "confidence": 0.58,
       "skew": "negative",
       "notes": "Glacier-melt-driven winter energy crises and high seismic/landslide hazard.",
       "sub_factors": {
@@ -228,23 +228,25 @@
   },
   "decisions": {
     "living": {
-      "score": -1.82,
-      "confidence": 0.64,
+      "score": -1.81,
+      "confidence": 0.63,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
       "score": -0.93,
-      "confidence": 0.65,
+      "confidence": 0.63,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -0.27,
-      "confidence": 0.66,
+      "score": -0.26,
+      "confidence": 0.64,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "Central Asia's historically freest state now sliding toward its neighbours' norm: President Japarov's 2021 super-presidential constitution and a sustained 2024-2025 crackdown (Kloop shut, journalists jailed, 'foreign-agents' and media-registration laws) have gutted what was a regional press-freedom haven, even as it still tops the region on RSF. The economy is booming (~9-11% growth) but on fragile pillars - Russia-bound re-exports, remittances, and Kumtor gold - that carry sanctions-circumvention and overheating risk. A landmark March 2025 border-demarcation treaty with Tajikistan defused the deadliest external flashpoint, but the 2026 collapse of the Japarov-Tashiyev tandem and a history of three revolutions keep elite instability elevated, compounded by chronic hydropower-driven winter energy crises."
+  "summary": "Central Asia's historically freest state now sliding toward its neighbours' norm: President Japarov's 2021 super-presidential constitution and a sustained 2024-2025 crackdown (Kloop shut, journalists jailed, 'foreign-agents' and media-registration laws) have gutted what was a regional press-freedom haven, even as it still tops the region on RSF. The economy is booming (~9-11% growth) but on fragile pillars - Russia-bound re-exports, remittances, and Kumtor gold - that carry sanctions-circumvention and overheating risk. A landmark March 2025 border-demarcation treaty with Tajikistan defused the deadliest external flashpoint, but the 2026 collapse of the Japarov-Tashiyev tandem and a history of three revolutions keep elite instability elevated, compounded by chronic hydropower-driven winter energy crises.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

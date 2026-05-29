@@ -44,7 +44,7 @@
   "categories": {
     "economic": {
       "score": -0.9,
-      "confidence": 0.8,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A strong finance sector and peg-anchored low inflation, against the Gulf's weakest fiscal position.",
       "sub_factors": {
@@ -89,8 +89,8 @@
       }
     },
     "institutional": {
-      "score": -1.4,
-      "confidence": 0.76,
+      "score": -1,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Capable wealth-funded administration, against no political-sphere judicial independence and a crushed press.",
       "sub_factors": {
@@ -121,8 +121,8 @@
       }
     },
     "political_social": {
-      "score": -4,
-      "confidence": 0.75,
+      "score": -3.8,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Suppressed stability over a sectarian majority, with mass political imprisonment.",
       "sub_factors": {
@@ -161,8 +161,8 @@
       }
     },
     "geopolitical": {
-      "score": 2.3,
-      "confidence": 0.77,
+      "score": 1.9,
+      "confidence": 0.6,
       "skew": "positive",
       "notes": "A US-anchored Gulf ally with an open account, against Iran-proximity exposure.",
       "sub_factors": {
@@ -189,8 +189,8 @@
       }
     },
     "physical_practical": {
-      "score": 2.9,
-      "confidence": 0.73,
+      "score": 3.1,
+      "confidence": 0.6,
       "skew": "positive",
       "notes": "Modern healthcare, infrastructure, and low crime, against extreme heat and sea-level risk.",
       "sub_factors": {
@@ -233,23 +233,25 @@
   },
   "decisions": {
     "living": {
-      "score": -1.26,
-      "confidence": 0.76,
+      "score": -1.07,
+      "confidence": 0.6,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -0.3,
-      "confidence": 0.77,
+      "score": -0.2,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -0.7,
-      "confidence": 0.79,
+      "score": -0.66,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A small Gulf monarchy with a strong financial-services sector, peg-anchored low inflation, modern healthcare and infrastructure, low crime, and a US-anchored alliance (the 5th Fleet). Those are offset by the weakest fiscal position in the Gulf (debt ~120%+ of GDP, reliant on GCC support), and - more structurally - a Sunni monarchy ruling a Shia-majority population whose 2011 uprising was crushed, leaving mass political imprisonment, a dissolved opposition, a near-worst press environment, and a sectarian fat-tail. A USD peg trades monetary autonomy for stability."
+  "summary": "A small Gulf monarchy with a strong financial-services sector, peg-anchored low inflation, modern healthcare and infrastructure, low crime, and a US-anchored alliance (the 5th Fleet). Those are offset by the weakest fiscal position in the Gulf (debt ~120%+ of GDP, reliant on GCC support), and - more structurally - a Sunni monarchy ruling a Shia-majority population whose 2011 uprising was crushed, leaving mass political imprisonment, a dissolved opposition, a near-worst press environment, and a sectarian fat-tail. A USD peg trades monetary autonomy for stability.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

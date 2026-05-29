@@ -46,8 +46,8 @@
   },
   "categories": {
     "economic": {
-      "score": 0.2,
-      "confidence": 0.72,
+      "score": 0.1,
+      "confidence": 0.6,
       "skew": "positive",
       "notes": "Moderate debt, an autonomous central bank, and a genuine nearshoring tailwind, offset by the Pemex liability and US tariff exposure. Under the skew re-examination, the nearshoring/diversification trajectory is credited as a real long-term positive (trade long +3).",
       "sub_factors": {
@@ -92,8 +92,8 @@
       }
     },
     "institutional": {
-      "score": -4.9,
-      "confidence": 0.72,
+      "score": -4.7,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Major deterioration under the 2024 judicial reforms (popularly elected judges). Long-term composite worsens as the effects compound.",
       "sub_factors": {
@@ -127,7 +127,7 @@
     },
     "political_social": {
       "score": -1,
-      "confidence": 0.69,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Cartel violence is the acute issue; welcoming treatment of expatriates and a favorable demographic profile are genuine offsets. Demographic dividend credited more fully under the skew re-examination.",
       "sub_factors": {
@@ -169,7 +169,7 @@
     },
     "geopolitical": {
       "score": 0.1,
-      "confidence": 0.7,
+      "confidence": 0.6,
       "skew": "symmetric",
       "notes": "Few alliance dependencies to lose; no external wars; the internal cartel conflict is counterinsurgency-like.",
       "sub_factors": {
@@ -194,8 +194,8 @@
       }
     },
     "physical_practical": {
-      "score": -2.4,
-      "confidence": 0.73,
+      "score": -2.2,
+      "confidence": 0.6,
       "skew": "symmetric",
       "notes": "Excellent affordable private healthcare and a favorable highland climate offset by high violent crime and uneven infrastructure.",
       "sub_factors": {
@@ -236,23 +236,25 @@
   },
   "decisions": {
     "living": {
-      "score": -2.45,
-      "confidence": 0.71,
+      "score": -2.35,
+      "confidence": 0.6,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.34,
-      "confidence": 0.72,
+      "score": -1.31,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
       "score": -0.91,
-      "confidence": 0.72,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A genuine nearshoring tailwind and a favourable demographic profile sit against serious institutional deterioration (the 2024 elected-judiciary reform) and acute cartel violence. The economic picture carries positive skew: record FDI and a diversification trajectory credited as durable upside. The headline homicide decline is real but partly a disappearances/erasure artifact, so confidence in the improvement is held moderate. Welcoming to foreign professionals on paper, though local sentiment toward newcomers has cooled."
+  "summary": "A genuine nearshoring tailwind and a favourable demographic profile sit against serious institutional deterioration (the 2024 elected-judiciary reform) and acute cartel violence. The economic picture carries positive skew: record FDI and a diversification trajectory credited as durable upside. The headline homicide decline is real but partly a disappearances/erasure artifact, so confidence in the improvement is held moderate. Welcoming to foreign professionals on paper, though local sentiment toward newcomers has cooled.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

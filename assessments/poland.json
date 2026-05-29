@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": 1.9,
-      "confidence": 0.84,
+      "score": 2,
+      "confidence": 0.75,
       "skew": "positive",
       "notes": "Strong export-led growth, sound banks, and a credible central bank, against a deteriorating fiscal position.",
       "sub_factors": {
@@ -88,8 +88,8 @@
       }
     },
     "institutional": {
-      "score": 3.5,
-      "confidence": 0.76,
+      "score": 3.4,
+      "confidence": 0.74,
       "skew": "positive",
       "notes": "Credible statistics and capable administration, with a rule-of-law and press recovery that is real but gridlocked.",
       "sub_factors": {
@@ -123,7 +123,7 @@
     },
     "political_social": {
       "score": -0.1,
-      "confidence": 0.78,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "Democratic resilience and a large absorbed migrant population, against cohabitation gridlock and demographic decline.",
       "sub_factors": {
@@ -162,8 +162,8 @@
       }
     },
     "geopolitical": {
-      "score": 3.1,
-      "confidence": 0.87,
+      "score": 3,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "Top-tier NATO alliance value, squarely offset by frontline exposure to the war next door.",
       "sub_factors": {
@@ -188,8 +188,8 @@
       }
     },
     "physical_practical": {
-      "score": 2.4,
-      "confidence": 0.72,
+      "score": 2.2,
+      "confidence": 0.69,
       "skew": "positive",
       "notes": "Low crime and EU-upgraded infrastructure, against coal-transition and flood risk and a strained health system.",
       "sub_factors": {
@@ -230,23 +230,25 @@
   },
   "decisions": {
     "living": {
-      "score": 2.17,
-      "confidence": 0.78,
+      "score": 2.13,
+      "confidence": 0.74,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 2.44,
-      "confidence": 0.81,
+      "score": 2.42,
+      "confidence": 0.74,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 2.3,
-      "confidence": 0.83,
+      "score": 2.32,
+      "confidence": 0.75,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A fast-growing, EU-integrated economy with sound banks, a credible central bank, low crime, and strongly upgraded infrastructure, and a top-tier NATO frontline role. The drags are a deteriorating fiscal position on heavy defence spending, a cohabitation standoff between a pro-EU government and a PiS-aligned president that paralyses reform, a strained health system, long-term demographic decline, and - most consequentially - frontline exposure to the Russia-Ukraine war, with drone incursions and border pressure a real tail risk. Rule-of-law and press recovery is genuine but blocked by presidential veto."
+  "summary": "A fast-growing, EU-integrated economy with sound banks, a credible central bank, low crime, and strongly upgraded infrastructure, and a top-tier NATO frontline role. The drags are a deteriorating fiscal position on heavy defence spending, a cohabitation standoff between a pro-EU government and a PiS-aligned president that paralyses reform, a strained health system, long-term demographic decline, and - most consequentially - frontline exposure to the Russia-Ukraine war, with drone incursions and border pressure a real tail risk. Rule-of-law and press recovery is genuine but blocked by presidential veto.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

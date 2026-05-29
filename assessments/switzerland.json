@@ -246,5 +246,7 @@
       "reading": "clear positive"
     }
   },
-  "summary": "Among the world's strongest profiles: a top-tier debt-brake fiscal position, a fully independent SNB and a safe-haven franc, world-leading rule of law and direct democracy, exceptional political stability, and world-class infrastructure, healthcare, and safety. The drags are post-Credit-Suisse banking concentration (an unresolved too-big-to-fail question), hard immigration access for non-Europeans (with a live free-movement referendum), expensive healthcare, and long-run Alpine climate change."
+  "summary": "Among the world's strongest profiles: a top-tier debt-brake fiscal position, a fully independent SNB and a safe-haven franc, world-leading rule of law and direct democracy, exceptional political stability, and world-class infrastructure, healthcare, and safety. The drags are post-Credit-Suisse banking concentration (an unresolved too-big-to-fail question), hard immigration access for non-Europeans (with a live free-movement referendum), expensive healthcare, and long-run Alpine climate change.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

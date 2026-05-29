@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": -0.8,
-      "confidence": 0.82,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Peg-anchored low inflation and stable banking, against a SACU-driven fiscal cliff and concentration.",
       "sub_factors": {
@@ -86,8 +86,8 @@
       }
     },
     "institutional": {
-      "score": -2.8,
-      "confidence": 0.7,
+      "score": -2.4,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Courts subordinate to the monarchy, weaponized security statutes, and a controlled press.",
       "sub_factors": {
@@ -118,8 +118,8 @@
       }
     },
     "political_social": {
-      "score": -3.4,
-      "confidence": 0.66,
+      "score": -3.2,
+      "confidence": 0.57,
       "skew": "negative",
       "notes": "Repression-enforced surface calm over unresolved 2021 grievances, with extreme HIV and inequality.",
       "sub_factors": {
@@ -158,8 +158,8 @@
       }
     },
     "geopolitical": {
-      "score": 3.1,
-      "confidence": 0.65,
+      "score": 3,
+      "confidence": 0.58,
       "skew": "symmetric",
       "notes": "Predictable and SACU-integrated, with no conflict but opportunistic alignment.",
       "sub_factors": {
@@ -185,7 +185,7 @@
     },
     "physical_practical": {
       "score": -1,
-      "confidence": 0.57,
+      "confidence": 0.56,
       "skew": "symmetric",
       "notes": "A world-class HIV/ART success (now donor-funding-exposed), against drought and inequality.",
       "sub_factors": {
@@ -226,23 +226,25 @@
   },
   "decisions": {
     "living": {
-      "score": -2.06,
-      "confidence": 0.68,
+      "score": -1.85,
+      "confidence": 0.59,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.02,
-      "confidence": 0.72,
+      "score": -0.88,
+      "confidence": 0.59,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -0.79,
-      "confidence": 0.76,
+      "score": -0.66,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "Africa's last absolute monarchy, where banned political parties, the violently suppressed 2021 uprising, and the still-uninvestigated 2023 assassination of Thulani Maseko define a deeply repressive profile (Freedom House 17/100, 'Not Free'). The economy is small and exposed: a ~21% SACU-revenue drop is widening the deficit toward ~4.7% of GDP, while the rand peg removes any monetary buffer. Its standout positive is a world-class HIV/ART program that has cut incidence dramatically - but that gain rests on donor funding now being cut, and coexists with the planet's highest HIV prevalence and extreme inequality. The skew is negative: surface stability is repression-enforced rather than durable, and the near-term fiscal and health-funding shocks are material."
+  "summary": "Africa's last absolute monarchy, where banned political parties, the violently suppressed 2021 uprising, and the still-uninvestigated 2023 assassination of Thulani Maseko define a deeply repressive profile (Freedom House 17/100, 'Not Free'). The economy is small and exposed: a ~21% SACU-revenue drop is widening the deficit toward ~4.7% of GDP, while the rand peg removes any monetary buffer. Its standout positive is a world-class HIV/ART program that has cut incidence dramatically - but that gain rests on donor funding now being cut, and coexists with the planet's highest HIV prevalence and extreme inequality. The skew is negative: surface stability is repression-enforced rather than durable, and the near-term fiscal and health-funding shocks are material.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

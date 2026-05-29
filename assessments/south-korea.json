@@ -44,7 +44,7 @@
   "categories": {
     "economic": {
       "score": 2.5,
-      "confidence": 0.81,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "A credible central bank and an export-tech powerhouse, against ageing-driven fiscal pressure and very high household debt.",
       "sub_factors": {
@@ -96,7 +96,7 @@
     },
     "institutional": {
       "score": 4.8,
-      "confidence": 0.81,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "Strong courts and high state capacity that functioned through the crisis; press freedom slipped sharply.",
       "sub_factors": {
@@ -128,7 +128,7 @@
     },
     "political_social": {
       "score": 0.2,
-      "confidence": 0.74,
+      "confidence": 0.72,
       "skew": "negative",
       "notes": "Institutions self-corrected after a martial-law shock, against intense polarization and a locked-in fertility collapse.",
       "sub_factors": {
@@ -169,8 +169,8 @@
       }
     },
     "geopolitical": {
-      "score": 1.2,
-      "confidence": 0.77,
+      "score": 1.1,
+      "confidence": 0.74,
       "skew": "negative",
       "notes": "A core US treaty ally facing a persistent North Korea standoff.",
       "sub_factors": {
@@ -196,7 +196,7 @@
     },
     "physical_practical": {
       "score": 3.1,
-      "confidence": 0.79,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "World-class infrastructure, healthcare, and very low crime, against ageing-driven cost strain.",
       "sub_factors": {
@@ -237,23 +237,25 @@
   },
   "decisions": {
     "living": {
-      "score": 2.62,
-      "confidence": 0.78,
+      "score": 2.6,
+      "confidence": 0.74,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 2.61,
-      "confidence": 0.79,
+      "score": 2.56,
+      "confidence": 0.74,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 2.68,
-      "confidence": 0.8,
+      "score": 2.61,
+      "confidence": 0.75,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "An export-tech powerhouse with strong courts and state capacity, world-class infrastructure and healthcare, very low crime, and a credible central bank. But the outcome distribution skews negative: the world's lowest fertility (a locked-in population decline), a demonstrated institutional shock (the 2024 martial-law crisis), very high household debt, a persistent North Korea standoff, and a thin path to belonging for foreigners."
+  "summary": "An export-tech powerhouse with strong courts and state capacity, world-class infrastructure and healthcare, very low crime, and a credible central bank. But the outcome distribution skews negative: the world's lowest fertility (a locked-in population decline), a demonstrated institutional shock (the 2024 martial-law crisis), very high household debt, a persistent North Korea standoff, and a thin path to belonging for foreigners.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

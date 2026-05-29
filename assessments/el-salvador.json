@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": 1.9,
-      "confidence": 0.85,
+      "confidence": 0.6,
       "skew": "symmetric",
       "notes": "Dollar-anchored stability and an IMF anchor, against high debt and remittance dependence.",
       "sub_factors": {
@@ -86,8 +86,8 @@
       }
     },
     "institutional": {
-      "score": -3,
-      "confidence": 0.75,
+      "score": -2.3,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Centralized, comparatively effective delivery, against an eroded rule of law and a declining press.",
       "sub_factors": {
@@ -119,7 +119,7 @@
     },
     "political_social": {
       "score": -0.5,
-      "confidence": 0.78,
+      "confidence": 0.6,
       "skew": "symmetric",
       "notes": "Popular near-term stability built on suspended constitutional norms, with mass detention the cost.",
       "sub_factors": {
@@ -159,7 +159,7 @@
     },
     "geopolitical": {
       "score": 4.4,
-      "confidence": 0.8,
+      "confidence": 0.6,
       "skew": "positive",
       "notes": "A close, transactional US ally with an open economy and a suppressed internal conflict.",
       "sub_factors": {
@@ -184,8 +184,8 @@
       }
     },
     "physical_practical": {
-      "score": -0.5,
-      "confidence": 0.66,
+      "score": -0.7,
+      "confidence": 0.58,
       "skew": "symmetric",
       "notes": "A dramatic crime-rate collapse, against seismic/storm exposure.",
       "sub_factors": {
@@ -226,23 +226,25 @@
   },
   "decisions": {
     "living": {
-      "score": -1.46,
-      "confidence": 0.76,
+      "score": -1.22,
+      "confidence": 0.6,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.56,
-      "confidence": 0.79,
+      "score": 0.62,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 1.28,
-      "confidence": 0.82,
+      "score": 1.33,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A country delivering tangible safety and macro-stability dividends while hollowing out the rule of law - the central tension a reader must weigh. The gang-violence collapse is real and dramatic (homicides fell from among the world's highest to ~1/100k), inflation is low under dollarization, and a 2025 IMF program anchors a high-debt budget. The cost is a multi-year state of exception with tens of thousands detained without due process, court-packing that enabled indefinite re-election, and a press driven partly into exile. Scored as distinct, both-large effects rather than netted away."
+  "summary": "A country delivering tangible safety and macro-stability dividends while hollowing out the rule of law - the central tension a reader must weigh. The gang-violence collapse is real and dramatic (homicides fell from among the world's highest to ~1/100k), inflation is low under dollarization, and a 2025 IMF program anchors a high-debt budget. The cost is a multi-year state of exception with tens of thousands detained without due process, court-packing that enabled indefinite re-election, and a press driven partly into exile. Scored as distinct, both-large effects rather than netted away.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

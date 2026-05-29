@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -0.9,
-      "confidence": 0.79,
+      "score": -1,
+      "confidence": 0.73,
       "skew": "negative",
       "notes": "A peg-anchored, low-inflation but high-debt declining-oil rentier with a classic resource-curse profile.",
       "sub_factors": {
@@ -232,23 +232,25 @@
   },
   "decisions": {
     "living": {
-      "score": -2.18,
+      "score": -2.21,
       "confidence": 0.64,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.48,
-      "confidence": 0.69,
+      "score": -1.52,
+      "confidence": 0.67,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -1.06,
-      "confidence": 0.73,
+      "score": -1.11,
+      "confidence": 0.7,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "The regional outlier on trajectory: the August 2023 coup ended 55 years of Bongo rule, and Gen. Oligui Nguema legitimised himself in an April 2025 election (~90%, ~70% turnout) under a new 2024 constitution - a transition with genuine reform signals (a striking RSF press-freedom rebound, jailed Bongo-era officials) but clear personalist-continuity risk in the lopsided margin. The economy is a high-debt (~70.5% of GDP, junk-rated), declining-oil rentier with relatively high but deeply unequal per-capita wealth, partly offset by manganese, timber, and an exceptional carbon-sink forest. The CFA euro peg anchors monetary stability and low inflation, leaving a symmetric skew: the upside of a real institutional opening against the downside of a reformist-strongman reversion."
+  "summary": "The regional outlier on trajectory: the August 2023 coup ended 55 years of Bongo rule, and Gen. Oligui Nguema legitimised himself in an April 2025 election (~90%, ~70% turnout) under a new 2024 constitution - a transition with genuine reform signals (a striking RSF press-freedom rebound, jailed Bongo-era officials) but clear personalist-continuity risk in the lopsided margin. The economy is a high-debt (~70.5% of GDP, junk-rated), declining-oil rentier with relatively high but deeply unequal per-capita wealth, partly offset by manganese, timber, and an exceptional carbon-sink forest. The CFA euro peg anchors monetary stability and low inflation, leaving a symmetric skew: the upside of a real institutional opening against the downside of a reformist-strongman reversion.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

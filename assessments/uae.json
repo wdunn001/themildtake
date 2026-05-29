@@ -44,7 +44,7 @@
   "categories": {
     "economic": {
       "score": 0.6,
-      "confidence": 0.78,
+      "confidence": 0.6,
       "skew": "positive",
       "notes": "Deep sovereign-wealth buffers, dollar-pegged stability, and a diversified hub economy; an oil-dependent rentier tail on the long horizon.",
       "sub_factors": {
@@ -91,8 +91,8 @@
       }
     },
     "institutional": {
-      "score": -0.4,
-      "confidence": 0.72,
+      "score": -0.2,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "High state capacity and functional commercial law, against no judicial independence on political matters and among the world's lowest press freedom.",
       "sub_factors": {
@@ -123,8 +123,8 @@
       }
     },
     "political_social": {
-      "score": 1.3,
-      "confidence": 0.7,
+      "score": 1.7,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Suppressed/managed regime stability and easy entry, against sharply restricted civil liberties and no path to belonging for the expatriate majority.",
       "sub_factors": {
@@ -167,8 +167,8 @@
       }
     },
     "geopolitical": {
-      "score": -1.7,
-      "confidence": 0.63,
+      "score": -1.5,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A reliable-but-non-aligned regional power with active conflict exposure.",
       "sub_factors": {
@@ -195,8 +195,8 @@
       }
     },
     "physical_practical": {
-      "score": 3,
-      "confidence": 0.73,
+      "score": 2.9,
+      "confidence": 0.59,
       "skew": "symmetric",
       "notes": "World-class infrastructure, very low crime, and excellent hub healthcare, against extreme heat and water/desalination dependence.",
       "sub_factors": {
@@ -239,23 +239,25 @@
   },
   "decisions": {
     "living": {
-      "score": 0.11,
-      "confidence": 0.72,
+      "score": 0.25,
+      "confidence": 0.6,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.57,
-      "confidence": 0.73,
+      "score": 0.61,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 0.13,
-      "confidence": 0.74,
+      "score": 0.14,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "World-class infrastructure, very low crime, excellent hub healthcare, deep fiscal buffers from sovereign wealth, dollar-pegged monetary stability, and uniquely easy, tax-free residency for professionals. The offsetting floor is authoritarian: no judicial independence on political matters, among the world's lowest press freedom, sharply restricted civil liberties, and no path to citizenship or political rights for the ~88% expatriate population (residency tied to employment). Active regional-conflict exposure and severe long-run climate/water stress add risk, and the economy carries a rentier, oil-dependent tail."
+  "summary": "World-class infrastructure, very low crime, excellent hub healthcare, deep fiscal buffers from sovereign wealth, dollar-pegged monetary stability, and uniquely easy, tax-free residency for professionals. The offsetting floor is authoritarian: no judicial independence on political matters, among the world's lowest press freedom, sharply restricted civil liberties, and no path to citizenship or political rights for the ~88% expatriate population (residency tied to employment). Active regional-conflict exposure and severe long-run climate/water stress add risk, and the economy carries a rentier, oil-dependent tail.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

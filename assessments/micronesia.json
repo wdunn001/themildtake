@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -0.7,
-      "confidence": 0.76,
+      "score": -0.6,
+      "confidence": 0.7,
       "skew": "positive",
       "notes": "A remarkably strong balance sheet against stagnant growth and negligible export diversity; fully dollarized.",
       "sub_factors": {
@@ -226,23 +226,25 @@
   },
   "decisions": {
     "living": {
-      "score": -0.94,
-      "confidence": 0.6,
+      "score": -0.93,
+      "confidence": 0.59,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -0.64,
-      "confidence": 0.65,
+      "score": -0.6,
+      "confidence": 0.62,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -0.49,
-      "confidence": 0.69,
+      "score": -0.43,
+      "confidence": 0.65,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "FSM pairs a remarkably strong sovereign balance sheet - trust-fund assets near 510% of GDP, debt under 9% - with structurally weak governance: a loose four-state federation with persistent Chuuk secessionism (now stalled but recently violent), very low civil-service capacity, and chronic outmigration. The renewed ~$3.3bn COFA secures long-term financing and the country has stayed firmly US-aligned, but FY24 funding delays forced bridge drawdowns and growth has slowed to ~1.1% amid implementation bottlenecks. Climate exposure across dispersed low islands is acute. The skew is symmetric: an exceptional fiscal cushion is genuinely offset by fragile cohesion, thin capacity, and demographic erosion."
+  "summary": "FSM pairs a remarkably strong sovereign balance sheet - trust-fund assets near 510% of GDP, debt under 9% - with structurally weak governance: a loose four-state federation with persistent Chuuk secessionism (now stalled but recently violent), very low civil-service capacity, and chronic outmigration. The renewed ~$3.3bn COFA secures long-term financing and the country has stayed firmly US-aligned, but FY24 funding delays forced bridge drawdowns and growth has slowed to ~1.1% amid implementation bottlenecks. Climate exposure across dispersed low islands is acute. The skew is symmetric: an exceptional fiscal cushion is genuinely offset by fragile cohesion, thin capacity, and demographic erosion.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

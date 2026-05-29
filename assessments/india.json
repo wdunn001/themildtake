@@ -44,7 +44,7 @@
   "categories": {
     "economic": {
       "score": 0.5,
-      "confidence": 0.79,
+      "confidence": 0.74,
       "skew": "negative",
       "notes": "Strong nominal growth, a credible central bank, and cleaned-up banks, against a high public-debt load and an acute near-term external-tariff shock.",
       "sub_factors": {
@@ -93,8 +93,8 @@
       }
     },
     "institutional": {
-      "score": -1.3,
-      "confidence": 0.7,
+      "score": -1.2,
+      "confidence": 0.69,
       "skew": "negative",
       "notes": "Independent courts and credible electoral machinery, undercut by backlogs, selective enforcement, and a very low press-freedom standing.",
       "sub_factors": {
@@ -125,7 +125,7 @@
       }
     },
     "political_social": {
-      "score": -1,
+      "score": -1.1,
       "confidence": 0.7,
       "skew": "negative",
       "notes": "A genuine demographic dividend, offset by democratic backsliding, restricted civil liberties, and communal tensions.",
@@ -192,7 +192,7 @@
     },
     "physical_practical": {
       "score": -2.6,
-      "confidence": 0.71,
+      "confidence": 0.69,
       "skew": "negative",
       "notes": "Fast-improving infrastructure, against severe climate/air-quality exposure, weak public healthcare, and low catastrophe-insurance cover.",
       "sub_factors": {
@@ -233,23 +233,25 @@
   },
   "decisions": {
     "living": {
-      "score": -1.15,
-      "confidence": 0.71,
+      "score": -1.13,
+      "confidence": 0.7,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -0.47,
-      "confidence": 0.73,
+      "score": -0.48,
+      "confidence": 0.71,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -0.09,
-      "confidence": 0.75,
+      "score": -0.12,
+      "confidence": 0.72,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A fast-growing economy with a genuine demographic dividend - a young, large workforce - plus a credible central bank, cleaned-up banks, and inflation within target. The drags are a high public-debt load, democratic backsliding (an electoral-autocracy classification, internet shutdowns, criminalised dissent), a very low press-freedom standing, severe climate and air-quality exposure, and weak public healthcare. Strategic autonomy keeps it non-aligned amid live tensions with Pakistan and along the China border."
+  "summary": "A fast-growing economy with a genuine demographic dividend - a young, large workforce - plus a credible central bank, cleaned-up banks, and inflation within target. The drags are a high public-debt load, democratic backsliding (an electoral-autocracy classification, internet shutdowns, criminalised dissent), a very low press-freedom standing, severe climate and air-quality exposure, and weak public healthcare. Strategic autonomy keeps it non-aligned amid live tensions with Pakistan and along the China border.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

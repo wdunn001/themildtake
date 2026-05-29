@@ -48,7 +48,7 @@
   "categories": {
     "economic": {
       "score": -1.5,
-      "confidence": 0.72,
+      "confidence": 0.7,
       "skew": "positive",
       "notes": "Catastrophic wartime fiscal state offset by remarkably well-managed monetary/banking institutions and a large asymmetric upside (resources, EU accession, reconstruction, strategic manufacturing/logistics). Trade re-weight strengthens the long-term positive-skew read.",
       "sub_factors": {
@@ -134,7 +134,7 @@
     },
     "political_social": {
       "score": -4.8,
-      "confidence": 0.64,
+      "confidence": 0.63,
       "skew": "positive",
       "notes": "Dominated by active warfare near-term; normalizes substantially post-war.",
       "sub_factors": {
@@ -181,8 +181,8 @@
       }
     },
     "geopolitical": {
-      "score": -5.2,
-      "confidence": 0.75,
+      "score": -5.1,
+      "confidence": 0.73,
       "skew": "positive",
       "notes": "Maximum conflict exposure near-term (active war); post-war could be a NATO-aligned, EU-integrated, security-guaranteed state.",
       "sub_factors": {
@@ -213,8 +213,8 @@
       }
     },
     "physical_practical": {
-      "score": -4.6,
-      "confidence": 0.68,
+      "score": -4.5,
+      "confidence": 0.67,
       "skew": "positive",
       "notes": "Severe war damage near-term; reconstruction with EU funding could yield modern infrastructure long-term (post-WWII analogy).",
       "sub_factors": {
@@ -261,23 +261,25 @@
   },
   "decisions": {
     "living": {
-      "score": -0.23,
-      "confidence": 0.66,
+      "score": -0.19,
+      "confidence": 0.65,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.46,
-      "confidence": 0.69,
+      "score": -1.4,
+      "confidence": 0.67,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -2.04,
-      "confidence": 0.7,
+      "score": -1.99,
+      "confidence": 0.68,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A high-variance, positive-skew case. Near-term factors are dominated by an active war - catastrophic on conflict, fiscal, infrastructure, and demographics - but the long-horizon trajectory points up: a war that must eventually end, an EU-accession path now unblocking, large reconstruction demand, rich agricultural and mineral export capacity, and monetary institutions that have held up under wartime stress. Assets are genuine high-risk/high-return and the hryvnia's downside is limited short of losing the war. The catastrophic individual tail risks (conscription, mortality, displacement) deserve weight beyond their probability."
+  "summary": "A high-variance, positive-skew case. Near-term factors are dominated by an active war - catastrophic on conflict, fiscal, infrastructure, and demographics - but the long-horizon trajectory points up: a war that must eventually end, an EU-accession path now unblocking, large reconstruction demand, rich agricultural and mineral export capacity, and monetary institutions that have held up under wartime stress. Assets are genuine high-risk/high-return and the hryvnia's downside is limited short of losing the war. The catastrophic individual tail risks (conscription, mortality, displacement) deserve weight beyond their probability.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

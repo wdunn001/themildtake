@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": -0.9,
-      "confidence": 0.81,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Solid growth and low inflation, against a widening deficit and oil/commodity concentration.",
       "sub_factors": {
@@ -86,8 +86,8 @@
       }
     },
     "institutional": {
-      "score": -4.4,
-      "confidence": 0.73,
+      "score": -4.1,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Military-influenced weak rule of law and a heavily pressured press.",
       "sub_factors": {
@@ -118,8 +118,8 @@
       }
     },
     "political_social": {
-      "score": -2.1,
-      "confidence": 0.78,
+      "score": -2,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Entrenched rule with a succession fat-tail and restricted liberties, against a generous refugee-host record.",
       "sub_factors": {
@@ -158,8 +158,8 @@
       }
     },
     "geopolitical": {
-      "score": -2.8,
-      "confidence": 0.73,
+      "score": -2.7,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A Western security partner drifting and rights-pressured, with active ADF/regional conflict.",
       "sub_factors": {
@@ -185,7 +185,7 @@
     },
     "physical_practical": {
       "score": -4.1,
-      "confidence": 0.66,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "Improving but poor infrastructure, weak healthcare with recurrent outbreaks, and climate exposure.",
       "sub_factors": {
@@ -226,23 +226,25 @@
   },
   "decisions": {
     "living": {
-      "score": -3.13,
-      "confidence": 0.75,
+      "score": -3.06,
+      "confidence": 0.6,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
       "score": -2.43,
-      "confidence": 0.76,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -1.85,
-      "confidence": 0.78,
+      "score": -1.87,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A fast-growing economy with notably low inflation and Africa's largest, most progressive refugee-host record, undercut by entrenched authoritarian governance: a leader in power since 1986 re-elected in January 2026 amid an opposition crackdown and internet shutdown, his son positioned to succeed, a 2025 law restoring military trials of civilians, a draconian anti-LGBT law, and a heavily pressured press. Recurrent Ebola/Marburg outbreaks, ADF/ISIS-linked conflict and a DRC intervention, and oil/EACOP-concentration risks round out a negative profile."
+  "summary": "A fast-growing economy with notably low inflation and Africa's largest, most progressive refugee-host record, undercut by entrenched authoritarian governance: a leader in power since 1986 re-elected in January 2026 amid an opposition crackdown and internet shutdown, his son positioned to succeed, a 2025 law restoring military trials of civilians, a draconian anti-LGBT law, and a heavily pressured press. Recurrent Ebola/Marburg outbreaks, ADF/ISIS-linked conflict and a DRC intervention, and oil/EACOP-concentration risks round out a negative profile.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": 2.9,
-      "confidence": 0.73,
+      "score": 2.7,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "Good fundamentals (low debt, sound banks, strong growth) that the deteriorating governance now threatens.",
       "sub_factors": {
@@ -88,8 +88,8 @@
       }
     },
     "institutional": {
-      "score": -2.3,
-      "confidence": 0.68,
+      "score": -2,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "Documented state capture and a sharply declining press freedom; statistics still usable.",
       "sub_factors": {
@@ -125,7 +125,7 @@
     },
     "political_social": {
       "score": -2.7,
-      "confidence": 0.71,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A democratic-backsliding crisis and a crackdown on civil liberties, against a genuinely open immigration regime.",
       "sub_factors": {
@@ -164,8 +164,8 @@
       }
     },
     "geopolitical": {
-      "score": -3.5,
-      "confidence": 0.71,
+      "score": -3.2,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Drifting from the West toward Russia accommodation, with ~20% of territory occupied.",
       "sub_factors": {
@@ -193,7 +193,7 @@
     },
     "physical_practical": {
       "score": 0.9,
-      "confidence": 0.61,
+      "confidence": 0.57,
       "skew": "positive",
       "notes": "Very low street crime and improving infrastructure, against uneven healthcare and seismic/landslide exposure.",
       "sub_factors": {
@@ -234,23 +234,25 @@
   },
   "decisions": {
     "living": {
-      "score": -1.44,
-      "confidence": 0.69,
+      "score": -1.33,
+      "confidence": 0.59,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
       "score": -0.25,
-      "confidence": 0.7,
+      "confidence": 0.59,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 0.64,
-      "confidence": 0.71,
+      "score": 0.58,
+      "confidence": 0.59,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "Genuinely strong economic fundamentals (low debt, sound banks, strong growth, low inflation), a uniquely open immigration regime for visitors, and very low street crime - undercut by an accelerating democratic-backsliding crisis: documented state capture, a foreign-agents crackdown on independent media and protest, a frozen EU-accession path, and drift toward Russia accommodation, atop ~20% of territory under Russian occupation. The outcome distribution skews negative as governance threatens the fundamentals."
+  "summary": "Genuinely strong economic fundamentals (low debt, sound banks, strong growth, low inflation), a uniquely open immigration regime for visitors, and very low street crime - undercut by an accelerating democratic-backsliding crisis: documented state capture, a foreign-agents crackdown on independent media and protest, a frozen EU-accession path, and drift toward Russia accommodation, atop ~20% of territory under Russian occupation. The outcome distribution skews negative as governance threatens the fundamentals.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

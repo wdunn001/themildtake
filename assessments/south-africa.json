@@ -242,5 +242,7 @@
       "reading": "mixed"
     }
   },
-  "summary": "A country of strong institutions and weak delivery: a genuinely credible independent central bank, an assertive judiciary that pursued state-capture accountability, respected statistics, a free press, sophisticated banks, and strong constitutional protections - set against a deteriorating fiscal path, a state-capture-hollowed civil service, very high violent crime, among the world's highest inequality and unemployment, two-tier healthcare, and fragile (if improved) electricity and logistics. The 2024 unity-government coalition is a functioning but tense democratic test, and 2025 brought significant friction with the US."
+  "summary": "A country of strong institutions and weak delivery: a genuinely credible independent central bank, an assertive judiciary that pursued state-capture accountability, respected statistics, a free press, sophisticated banks, and strong constitutional protections - set against a deteriorating fiscal path, a state-capture-hollowed civil service, very high violent crime, among the world's highest inequality and unemployment, two-tier healthcare, and fragile (if improved) electricity and logistics. The 2024 unity-government coalition is a functioning but tense democratic test, and 2025 brought significant friction with the US.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

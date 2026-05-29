@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": 2.1,
-      "confidence": 0.78,
+      "confidence": 0.6,
       "skew": "positive",
       "notes": "A solid, well-managed growth economy with anchored inflation and a diversifying resource base.",
       "sub_factors": {
@@ -86,8 +86,8 @@
       }
     },
     "institutional": {
-      "score": -3,
-      "confidence": 0.71,
+      "score": -2.6,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "Party dominance with no judicial independence and a reversed press opening.",
       "sub_factors": {
@@ -118,8 +118,8 @@
       }
     },
     "political_social": {
-      "score": -4,
-      "confidence": 0.74,
+      "score": -3.8,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A sharp 2025 authoritarian turn, with a young population the offset.",
       "sub_factors": {
@@ -158,8 +158,8 @@
       }
     },
     "geopolitical": {
-      "score": -1,
-      "confidence": 0.68,
+      "score": -0.9,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A non-aligned pragmatic balancer, with jihadist-spillover risk from the south.",
       "sub_factors": {
@@ -184,8 +184,8 @@
       }
     },
     "physical_practical": {
-      "score": -3.2,
-      "confidence": 0.68,
+      "score": -3.1,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "Improving large infrastructure projects, against weak healthcare and drought/flood exposure.",
       "sub_factors": {
@@ -224,23 +224,25 @@
   },
   "decisions": {
     "living": {
-      "score": -2.35,
-      "confidence": 0.72,
+      "score": -2.16,
+      "confidence": 0.59,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -0.67,
-      "confidence": 0.73,
+      "score": -0.62,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 0.39,
-      "confidence": 0.75,
+      "score": 0.41,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A solid, well-managed growth economy - low and falling debt, well-anchored inflation, a diversifying gold/tourism/LNG base, and a young population - dragged down by a sharp 2025 authoritarian turn. The party that has ruled since 1961 barred the main opposition and charged its leader, and the October-2025 election brought a deadly crackdown and post-election violence; the post-2021 press reopening has been reversed. Weak healthcare, drought/flood exposure, and still-poor power access weigh on the physical side, with jihadist spillover from the south a geopolitical tail. The outcome distribution tilts negative."
+  "summary": "A solid, well-managed growth economy - low and falling debt, well-anchored inflation, a diversifying gold/tourism/LNG base, and a young population - dragged down by a sharp 2025 authoritarian turn. The party that has ruled since 1961 barred the main opposition and charged its leader, and the October-2025 election brought a deadly crackdown and post-election violence; the post-2021 press reopening has been reversed. Weak healthcare, drought/flood exposure, and still-poor power access weigh on the physical side, with jihadist spillover from the south a geopolitical tail. The outcome distribution tilts negative.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

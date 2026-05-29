@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": 2.8,
-      "confidence": 0.85,
+      "confidence": 0.74,
       "skew": "positive",
       "notes": "Conservative fiscals and a credible central bank, with chronic under-investment the flip side.",
       "sub_factors": {
@@ -88,8 +88,8 @@
       }
     },
     "institutional": {
-      "score": -1.6,
-      "confidence": 0.77,
+      "score": -1.5,
+      "confidence": 0.74,
       "skew": "negative",
       "notes": "A deeply captured rule of law and a criminalised press, with usable statistics.",
       "sub_factors": {
@@ -123,7 +123,7 @@
     },
     "political_social": {
       "score": -1.3,
-      "confidence": 0.74,
+      "confidence": 0.72,
       "skew": "negative",
       "notes": "A reformist president under establishment siege, against extreme malnutrition and inequality.",
       "sub_factors": {
@@ -165,7 +165,7 @@
     },
     "geopolitical": {
       "score": 1.9,
-      "confidence": 0.81,
+      "confidence": 0.75,
       "skew": "positive",
       "notes": "A pragmatic US partner with an open economy, against gang/narco-transit violence.",
       "sub_factors": {
@@ -190,8 +190,8 @@
       }
     },
     "physical_practical": {
-      "score": -3,
-      "confidence": 0.76,
+      "score": -2.9,
+      "confidence": 0.73,
       "skew": "negative",
       "notes": "Drought/storm and volcanic/seismic exposure, weak healthcare with a malnutrition crisis, and elevated crime.",
       "sub_factors": {
@@ -234,23 +234,25 @@
   },
   "decisions": {
     "living": {
-      "score": -1.18,
-      "confidence": 0.77,
+      "score": -1.19,
+      "confidence": 0.73,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.54,
-      "confidence": 0.81,
+      "score": 0.48,
+      "confidence": 0.74,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 1.64,
-      "confidence": 0.82,
+      "score": 1.6,
+      "confidence": 0.74,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A study in contrasts: a genuinely stable macro economy - very low debt, a credible central bank, low inflation, investment-grade-adjacent prudence, large remittances, and a young population - alongside a deeply captured rule of law. A reform-minded president elected in 2023 survived a coup-by-lawfare and a 2026 institutional reset eased the near-term siege, but the courts and legislature remain in the grip of a corrupt establishment and the press is criminalised. Among the world's highest child malnutrition (especially among indigenous Maya), deep inequality, drought, volcanic/seismic hazard, and elevated crime weigh against the macro strength."
+  "summary": "A study in contrasts: a genuinely stable macro economy - very low debt, a credible central bank, low inflation, investment-grade-adjacent prudence, large remittances, and a young population - alongside a deeply captured rule of law. A reform-minded president elected in 2023 survived a coup-by-lawfare and a 2026 institutional reset eased the near-term siege, but the courts and legislature remain in the grip of a corrupt establishment and the press is criminalised. Among the world's highest child malnutrition (especially among indigenous Maya), deep inequality, drought, volcanic/seismic hazard, and elevated crime weigh against the macro strength.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

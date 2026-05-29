@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -2.8,
-      "confidence": 0.83,
+      "score": -2.9,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A fragile IMF-dependent stabilisation, against chronic debt distress and a narrow export base.",
       "sub_factors": {
@@ -88,8 +88,8 @@
       }
     },
     "institutional": {
-      "score": -4.7,
-      "confidence": 0.74,
+      "score": -4.5,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Weak rule of law under military influence, low capacity, and a heavily pressured press.",
       "sub_factors": {
@@ -121,7 +121,7 @@
     },
     "political_social": {
       "score": -5.4,
-      "confidence": 0.8,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A military-dominant hybrid with a legitimacy crisis, restricted liberties, deep cleavages, and Afghan-refugee expulsions.",
       "sub_factors": {
@@ -158,8 +158,8 @@
       }
     },
     "geopolitical": {
-      "score": -4.2,
-      "confidence": 0.76,
+      "score": -4,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A patron-dependent hedger, dominated by resurgent terrorism and border tensions.",
       "sub_factors": {
@@ -185,7 +185,7 @@
     },
     "physical_practical": {
       "score": -5.8,
-      "confidence": 0.81,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Catastrophic climate exposure, weak healthcare, a power crisis, and very low catastrophe cover.",
       "sub_factors": {
@@ -226,23 +226,25 @@
   },
   "decisions": {
     "living": {
-      "score": -4.92,
-      "confidence": 0.78,
+      "score": -4.82,
+      "confidence": 0.6,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -4.16,
-      "confidence": 0.79,
+      "score": -4.11,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -3.51,
-      "confidence": 0.8,
+      "score": -3.49,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "clear negative"
     }
   },
-  "summary": "A distressed economy held together by an IMF program: a heavy debt load with crushing debt-service, a narrow textile-dependent export base, and a remittance lifeline, with inflation down sharply from a peak but fragile. Institutions are weak under military influence, the Feb-2024 election left a legitimacy crisis with the main opposition leader jailed, and resurgent terrorism plus tense India and Afghanistan borders weigh heavily. Catastrophic climate exposure - the 2022 floods submerged a third of the country - a chronic power crisis, and weak healthcare round out a negative profile."
+  "summary": "A distressed economy held together by an IMF program: a heavy debt load with crushing debt-service, a narrow textile-dependent export base, and a remittance lifeline, with inflation down sharply from a peak but fragile. Institutions are weak under military influence, the Feb-2024 election left a legitimacy crisis with the main opposition leader jailed, and resurgent terrorism plus tense India and Afghanistan borders weigh heavily. Catastrophic climate exposure - the 2022 floods submerged a third of the country - a chronic power crisis, and weak healthcare round out a negative profile.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

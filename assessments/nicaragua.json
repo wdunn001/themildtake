@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -0.9,
-      "confidence": 0.73,
+      "score": -1.1,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "IMF-validated surpluses and reserves, undercut by sanctions, isolation, and a managed peg.",
       "sub_factors": {
@@ -86,8 +86,8 @@
       }
     },
     "institutional": {
-      "score": -7.7,
-      "confidence": 0.81,
+      "score": -7.5,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A dictatorship with no rule of law, opaque data, and near-total press control.",
       "sub_factors": {
@@ -118,8 +118,8 @@
       }
     },
     "political_social": {
-      "score": -6.4,
-      "confidence": 0.79,
+      "score": -6.3,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A consolidated dictatorship, atrocity-level repression, and a mass exodus.",
       "sub_factors": {
@@ -156,8 +156,8 @@
       }
     },
     "geopolitical": {
-      "score": -5.2,
-      "confidence": 0.76,
+      "score": -5,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "An isolated pariah leaning on Russia/China/Iran, under sanctions.",
       "sub_factors": {
@@ -182,8 +182,8 @@
       }
     },
     "physical_practical": {
-      "score": -4.4,
-      "confidence": 0.69,
+      "score": -4.3,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Hurricane/drought exposure and a weak, politicised health system, with a crime-safety duality.",
       "sub_factors": {
@@ -224,23 +224,25 @@
   },
   "decisions": {
     "living": {
-      "score": -5.82,
-      "confidence": 0.77,
+      "score": -5.61,
+      "confidence": 0.6,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -4.28,
-      "confidence": 0.76,
+      "score": -4.12,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -3.3,
-      "confidence": 0.76,
+      "score": -3.19,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "clear negative"
     }
   },
-  "summary": "A consolidated family dictatorship - co-presidents under a 2025 constitutional rewrite - that crushed the 2018 uprising and faces UN findings of crimes against humanity: hundreds denationalised and exiled, thousands of NGOs shut, and the Church, universities, and independent media dismantled (with journalists stripped of citizenship). It is an isolated, sanctioned pariah leaning on Russia, China, and Iran. The lone bright spot is IMF-validated macro stability (surpluses, reserves, low inflation), but that sits atop an atrocity-level repressive state and caps any forward upside. Clearly negative."
+  "summary": "A consolidated family dictatorship - co-presidents under a 2025 constitutional rewrite - that crushed the 2018 uprising and faces UN findings of crimes against humanity: hundreds denationalised and exiled, thousands of NGOs shut, and the Church, universities, and independent media dismantled (with journalists stripped of citizenship). It is an isolated, sanctioned pariah leaning on Russia, China, and Iran. The lone bright spot is IMF-validated macro stability (surpluses, reserves, low inflation), but that sits atop an atrocity-level repressive state and caps any forward upside. Clearly negative.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

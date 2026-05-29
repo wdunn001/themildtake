@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": -1.4,
-      "confidence": 0.8,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Huge sovereign buffers and a stable peg, against extreme hydrocarbon mono-dependence and a structural deficit.",
       "sub_factors": {
@@ -86,8 +86,8 @@
       }
     },
     "institutional": {
-      "score": -2.6,
-      "confidence": 0.64,
+      "score": -2.3,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "A stable, predictable but unchecked absolute monarchy with a sharia-code arbitrariness risk and no free press.",
       "sub_factors": {
@@ -118,8 +118,8 @@
       }
     },
     "political_social": {
-      "score": -1.6,
-      "confidence": 0.74,
+      "score": -1.4,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Highly stable under one ruler but with no freedoms, a sharia code, and an excluded stateless minority.",
       "sub_factors": {
@@ -156,8 +156,8 @@
       }
     },
     "geopolitical": {
-      "score": 1,
-      "confidence": 0.66,
+      "score": 1.1,
+      "confidence": 0.6,
       "skew": "symmetric",
       "notes": "A quiet ASEAN hedger and South China Sea claimant that avoids confrontation, with an open account.",
       "sub_factors": {
@@ -182,8 +182,8 @@
       }
     },
     "physical_practical": {
-      "score": 2.8,
-      "confidence": 0.68,
+      "score": 2.7,
+      "confidence": 0.59,
       "skew": "positive",
       "notes": "Top-tier (citizen) healthcare, modern infrastructure, and very low crime, against modest climate exposure.",
       "sub_factors": {
@@ -224,23 +224,25 @@
   },
   "decisions": {
     "living": {
-      "score": -1.18,
-      "confidence": 0.7,
+      "score": -1.02,
+      "confidence": 0.59,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -0.98,
-      "confidence": 0.72,
+      "score": -0.85,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -1.3,
-      "confidence": 0.74,
+      "score": -1.18,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A wealthy, stable, low-crime absolute monarchy that delivers genuine material comfort - no income tax, cradle-to-grave welfare, top-tier healthcare for citizens, and a sound peg to the Singapore dollar. But it is structurally fragile in two ways: an economy almost wholly dependent on declining oil and gas (~90% of exports, with a large and growing fiscal deficit), and an absence of political freedom - no elections, an essentially non-existent free press, and a 2014-19 sharia penal code with stoning provisions that only a revocable moratorium holds in check. Stateless ethnic-Chinese residents are systematically excluded from the welfare bargain. The skew is negative: stability and wealth are real but rest on a single ruler and a depleting resource, with civil liberties scoring catastrophically."
+  "summary": "A wealthy, stable, low-crime absolute monarchy that delivers genuine material comfort - no income tax, cradle-to-grave welfare, top-tier healthcare for citizens, and a sound peg to the Singapore dollar. But it is structurally fragile in two ways: an economy almost wholly dependent on declining oil and gas (~90% of exports, with a large and growing fiscal deficit), and an absence of political freedom - no elections, an essentially non-existent free press, and a 2014-19 sharia penal code with stoning provisions that only a revocable moratorium holds in check. Stateless ethnic-Chinese residents are systematically excluded from the welfare bargain. The skew is negative: stability and wealth are real but rest on a single ruler and a depleting resource, with civil liberties scoring catastrophically.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

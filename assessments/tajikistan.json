@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -0.1,
-      "confidence": 0.66,
+      "score": -0.2,
+      "confidence": 0.58,
       "skew": "negative",
       "notes": "Decent headline macro but the world's most remittance-dependent base, with a large Rogun contingent liability.",
       "sub_factors": {
@@ -86,8 +86,8 @@
       }
     },
     "institutional": {
-      "score": -5.2,
-      "confidence": 0.67,
+      "score": -4.9,
+      "confidence": 0.56,
       "skew": "negative",
       "notes": "A personalist autocracy with no judicial independence, pervasive corruption, and jailed/exiled journalists.",
       "sub_factors": {
@@ -118,8 +118,8 @@
       }
     },
     "political_social": {
-      "score": -3.7,
-      "confidence": 0.63,
+      "score": -3.3,
+      "confidence": 0.57,
       "skew": "negative",
       "notes": "Repression-bought near-term calm against a contested dynastic succession and Pamiri persecution.",
       "sub_factors": {
@@ -186,8 +186,8 @@
       }
     },
     "physical_practical": {
-      "score": -3.6,
-      "confidence": 0.57,
+      "score": -3.5,
+      "confidence": 0.53,
       "skew": "negative",
       "notes": "Glacier-loss-driven winter energy crises, the region's poorest health system, and a major dam tail risk.",
       "sub_factors": {
@@ -228,23 +228,25 @@
   },
   "decisions": {
     "living": {
-      "score": -4.13,
-      "confidence": 0.64,
+      "score": -3.88,
+      "confidence": 0.56,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -2.57,
-      "confidence": 0.64,
+      "score": -2.45,
+      "confidence": 0.57,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -1.69,
-      "confidence": 0.64,
+      "score": -1.63,
+      "confidence": 0.57,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "An entrenched personalist autocracy where Rahmon, in power since 1992, is steering a dynastic handover to his son Rustam Emomali, against a backdrop of severe repression - near-floor civil liberties, jailed/exiled journalists, and systematic erasure of the Pamiri (GBAO) minority. Its economy is the world's most remittance-dependent (~45% of GDP, almost all from Russia), an exposure made acute by Russia's post-Crocus crackdown on the ~1m Tajik migrants who sustain it. The headline macro picture is decent (low debt ~25% of GDP, ~2.8% inflation, an on-track IMF program), and the Rogun mega-dam is the long-term development bet, but Rogun needs ~$6.4bn the World Bank won't yet fund. Escalating ISKP attacks from Afghanistan, chronic hydro-driven winter energy crises, and a contested succession make the medium-term outlook clearly negative."
+  "summary": "An entrenched personalist autocracy where Rahmon, in power since 1992, is steering a dynastic handover to his son Rustam Emomali, against a backdrop of severe repression - near-floor civil liberties, jailed/exiled journalists, and systematic erasure of the Pamiri (GBAO) minority. Its economy is the world's most remittance-dependent (~45% of GDP, almost all from Russia), an exposure made acute by Russia's post-Crocus crackdown on the ~1m Tajik migrants who sustain it. The headline macro picture is decent (low debt ~25% of GDP, ~2.8% inflation, an on-track IMF program), and the Rogun mega-dam is the long-term development bet, but Rogun needs ~$6.4bn the World Bank won't yet fund. Escalating ISKP attacks from Afghanistan, chronic hydro-driven winter energy crises, and a contested succession make the medium-term outlook clearly negative.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -6,
-      "confidence": 0.69,
+      "score": -6.4,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A single-commodity oil economy in collapse, routed through war-torn Sudan, with hyperinflation.",
       "sub_factors": {
@@ -87,7 +87,7 @@
     },
     "institutional": {
       "score": -7.2,
-      "confidence": 0.65,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Weak, politicized institutions, near-absent data, and a censored press.",
       "sub_factors": {
@@ -118,8 +118,8 @@
       }
     },
     "political_social": {
-      "score": -6.8,
-      "confidence": 0.64,
+      "score": -6.7,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "A fractured unity government on the edge of renewed civil war, with deep ethnic cleavages.",
       "sub_factors": {
@@ -158,8 +158,8 @@
       }
     },
     "geopolitical": {
-      "score": -5.7,
-      "confidence": 0.63,
+      "score": -5.4,
+      "confidence": 0.58,
       "skew": "negative",
       "notes": "A destabilizing, transactional regional actor under an arms embargo, dependent on Sudan for oil transit.",
       "sub_factors": {
@@ -184,8 +184,8 @@
       }
     },
     "physical_practical": {
-      "score": -8.5,
-      "confidence": 0.69,
+      "score": -8.4,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Catastrophic flooding, a collapsing health system with famine-level food insecurity.",
       "sub_factors": {
@@ -226,23 +226,25 @@
   },
   "decisions": {
     "living": {
-      "score": -6.95,
-      "confidence": 0.66,
+      "score": -6.97,
+      "confidence": 0.59,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -6.56,
-      "confidence": 0.67,
+      "score": -6.69,
+      "confidence": 0.59,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -6.2,
-      "confidence": 0.67,
+      "score": -6.43,
+      "confidence": 0.59,
       "horizon": "1-3y",
       "reading": "clear negative"
     }
   },
-  "summary": "The world's youngest state, teetering on the edge of renewed civil war: First VP Riek Machar's March 2025 house arrest and subsequent treason trial have fractured the 2018 peace deal, with UN experts and RJMEC warning in late 2025 of a possible relapse into full-scale conflict. Its oil-dependent economy (>90% of revenue), forced to export through war-torn Sudan, contracted around 30% in 2025 amid pipeline disruption, evaporating revenue, and a hyperinflationary pound collapse. A sixth straight year of devastating floods, the longest-ever cholera outbreak, and famine-level food insecurity compound the catastrophe. Official data is sparse and elections are again postponed to December 2026; the outlook is clearly negative."
+  "summary": "The world's youngest state, teetering on the edge of renewed civil war: First VP Riek Machar's March 2025 house arrest and subsequent treason trial have fractured the 2018 peace deal, with UN experts and RJMEC warning in late 2025 of a possible relapse into full-scale conflict. Its oil-dependent economy (>90% of revenue), forced to export through war-torn Sudan, contracted around 30% in 2025 amid pipeline disruption, evaporating revenue, and a hyperinflationary pound collapse. A sixth straight year of devastating floods, the longest-ever cholera outbreak, and famine-level food insecurity compound the catastrophe. Official data is sparse and elections are again postponed to December 2026; the outlook is clearly negative.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

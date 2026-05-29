@@ -250,5 +250,7 @@
       "reading": "mixed"
     }
   },
-  "summary": "Strong common-law institutions, a credible central bank and reserve currency, well-regulated banks, and a top-tier security role (NATO/Five Eyes/AUKUS, nuclear, UNSC). The drags are high debt with persistent deficits and thin fiscal headroom, dented official-statistics credibility, thin governing legitimacy amid a polarizing political surge, migration-driven social strain, and a deeply strained (if improving) NHS with ageing infrastructure."
+  "summary": "Strong common-law institutions, a credible central bank and reserve currency, well-regulated banks, and a top-tier security role (NATO/Five Eyes/AUKUS, nuclear, UNSC). The drags are high debt with persistent deficits and thin fiscal headroom, dented official-statistics credibility, thin governing legitimacy amid a polarizing political surge, migration-driven social strain, and a deeply strained (if improving) NHS with ageing infrastructure.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

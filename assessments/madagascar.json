@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -1.9,
-      "confidence": 0.7,
+      "score": -2,
+      "confidence": 0.67,
       "skew": "negative",
       "notes": "An IMF-programmed but very-low-revenue economy with a narrow export base and post-coup execution risk.",
       "sub_factors": {
@@ -230,23 +230,25 @@
   },
   "decisions": {
     "living": {
-      "score": -3.4,
-      "confidence": 0.62,
+      "score": -3.42,
+      "confidence": 0.61,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -2.62,
-      "confidence": 0.65,
+      "score": -2.67,
+      "confidence": 0.63,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -2.1,
-      "confidence": 0.67,
+      "score": -2.16,
+      "confidence": 0.65,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A structural-poverty outlier - among the world's poorest by income despite never fighting a major war - where chronic state failure, exemplified by years of JIRAMA blackouts, boiled over into a Gen Z protest movement and an October 2025 CAPSAT military coup that ousted Andry Rajoelina and installed an AU-suspended interim government. The economy has thin offsets (an IMF ECF/RSF program, moderating inflation, Ambatovy nickel/cobalt and vanilla earnings) but a narrow export base and a widening current account. Physical risk is severe: relentless cyclones and a Grand Sud drought-and-famine emergency affecting roughly 1.7 million. The near-term political picture is acutely uncertain; confidence is reduced by the freshness of the coup."
+  "summary": "A structural-poverty outlier - among the world's poorest by income despite never fighting a major war - where chronic state failure, exemplified by years of JIRAMA blackouts, boiled over into a Gen Z protest movement and an October 2025 CAPSAT military coup that ousted Andry Rajoelina and installed an AU-suspended interim government. The economy has thin offsets (an IMF ECF/RSF program, moderating inflation, Ambatovy nickel/cobalt and vanilla earnings) but a narrow export base and a widening current account. Physical risk is severe: relentless cyclones and a Grand Sud drought-and-famine emergency affecting roughly 1.7 million. The near-term political picture is acutely uncertain; confidence is reduced by the freshness of the coup.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

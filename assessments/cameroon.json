@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": -0.3,
-      "confidence": 0.78,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A peg-anchored low-inflation, diversified-for-the-region economy, against weak fiscal capacity and a declining oil base.",
       "sub_factors": {
@@ -86,8 +86,8 @@
       }
     },
     "institutional": {
-      "score": -4.7,
-      "confidence": 0.7,
+      "score": -4.5,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A personalized regime with weak rule of law and a crushed press.",
       "sub_factors": {
@@ -118,8 +118,8 @@
       }
     },
     "political_social": {
-      "score": -4.7,
-      "confidence": 0.75,
+      "score": -4.4,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "An extreme succession fat-tail over a two-front internal war and a deep Anglophone cleavage.",
       "sub_factors": {
@@ -156,8 +156,8 @@
       }
     },
     "geopolitical": {
-      "score": -3,
-      "confidence": 0.73,
+      "score": -2.6,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A France-linked but drifting actor with two active internal conflicts.",
       "sub_factors": {
@@ -183,7 +183,7 @@
     },
     "physical_practical": {
       "score": -5.1,
-      "confidence": 0.64,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "Weak healthcare and infrastructure, high crime/conflict insecurity, and climate exposure.",
       "sub_factors": {
@@ -224,23 +224,25 @@
   },
   "decisions": {
     "living": {
-      "score": -3.99,
-      "confidence": 0.72,
+      "score": -3.87,
+      "confidence": 0.6,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -2.62,
-      "confidence": 0.74,
+      "score": -2.6,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -1.72,
-      "confidence": 0.76,
+      "score": -1.71,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A Central African state defined by an acute succession fat-tail - a leader in power since 1982, re-elected at roughly 92 to an eighth term in a disputed October 2025 vote that triggered deadly protests - layered over a two-front internal war: the Anglophone separatist conflict in the west (~1M displaced) and Boko Haram/ISWAP in the Far North. Rule of law is weak, the press crushed, and security poor. The offsets are real but modest: the CFA-franc euro peg delivers monetary stability and low inflation, and the economy is among the region's more diversified (oil, cocoa, the Douala port). Negative overall, with the post-Biya transition the dominant risk."
+  "summary": "A Central African state defined by an acute succession fat-tail - a leader in power since 1982, re-elected at roughly 92 to an eighth term in a disputed October 2025 vote that triggered deadly protests - layered over a two-front internal war: the Anglophone separatist conflict in the west (~1M displaced) and Boko Haram/ISWAP in the Far North. Rule of law is weak, the press crushed, and security poor. The offsets are real but modest: the CFA-franc euro peg delivers monetary stability and low inflation, and the economy is among the region's more diversified (oil, cocoa, the Douala port). Negative overall, with the post-Biya transition the dominant risk.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

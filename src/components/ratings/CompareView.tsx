@@ -101,6 +101,14 @@ export default function CompareView() {
 
   const list = assessments.data ?? [];
 
+  // Cross-tier comparisons are asymmetric: an opaque state's scores are observed
+  // through more fog and carry capped confidence, so they may be flattered next
+  // to a transparent country's confidently-documented ones.
+  const tiers = Array.from(
+    new Set(list.map((a) => a.transparency_tier).filter((t) => t && t !== "unknown")),
+  );
+  const crossTier = tiers.length > 1;
+
   const radarSeries = list.map((a) => ({
     name: a.country,
     values: sharedCategoryKeys.map((k) => a.categories[k]?.score ?? 0),
@@ -186,6 +194,13 @@ export default function CompareView() {
         <p class="cmp__status cmp__status--err">{assessments.error}</p>
       ) : (
         <>
+          {crossTier && (
+            <p class="cmp__tierwarn">
+              <strong>Cross-tier comparison.</strong> {list.map((a) => `${a.country}: ${a.transparency_tier}`).join(" · ")}.
+              Opaque-state scores rest on external proxies and carry capped confidence — they may be
+              flattered next to a transparent country's confidently-documented ones.
+            </p>
+          )}
           <div class="cmp__charts">
             <figure class="cmp__chart">
               <figcaption>Decision scores</figcaption>
@@ -263,6 +278,8 @@ export default function CompareView() {
         .cmp__badge-x:hover { opacity: 1; background: var(--bg); }
         .cmp__hint, .cmp__status { font-family: var(--font-mono); color: var(--fg-faint); }
         .cmp__status--err { color: var(--neg); }
+        .cmp__tierwarn { border: 1px solid var(--border); border-left: 3px solid var(--mixed); background: var(--bg-elev); border-radius: 8px; padding: 0.7rem 1rem; margin-bottom: 1.5rem; font-size: 0.8125rem; color: var(--fg-muted); max-width: 80ch; }
+        .cmp__tierwarn strong { color: var(--fg); }
         .cmp__charts { display: grid; gap: 1.5rem; grid-template-columns: 1fr; margin-bottom: 2rem; }
         @media (min-width: 820px) { .cmp__charts { grid-template-columns: 1fr 1fr; } }
         .cmp__chart { margin: 0; border: 1px solid var(--border); border-radius: 10px; background: var(--bg-elev); padding: 1rem; }

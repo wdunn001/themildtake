@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -2.1,
-      "confidence": 0.72,
+      "score": -2.2,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Low headline debt, undercut by a sanctioned war-economy draining its sovereign fund, a fragile banking sector, and a discounted petrostate export model.",
       "sub_factors": {
@@ -88,8 +88,8 @@
       }
     },
     "institutional": {
-      "score": -6.4,
-      "confidence": 0.76,
+      "score": -5.9,
+      "confidence": 0.57,
       "skew": "negative",
       "notes": "A capable coercive apparatus atop no judicial independence, politicised statistics, and near-total press control.",
       "sub_factors": {
@@ -120,8 +120,8 @@
       }
     },
     "political_social": {
-      "score": -5.2,
-      "confidence": 0.64,
+      "score": -4.8,
+      "confidence": 0.56,
       "skew": "negative",
       "notes": "Suppressed stability with a fat-tail succession risk, severe repression, and a demographic crisis.",
       "sub_factors": {
@@ -160,8 +160,8 @@
       }
     },
     "geopolitical": {
-      "score": -7.7,
-      "confidence": 0.79,
+      "score": -7.5,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A heavily sanctioned Western pariah and the aggressor in an ongoing war.",
       "sub_factors": {
@@ -186,8 +186,8 @@
       }
     },
     "physical_practical": {
-      "score": -2.8,
-      "confidence": 0.55,
+      "score": -2.7,
+      "confidence": 0.54,
       "skew": "negative",
       "notes": "War-strained healthcare, uneven infrastructure, and rising crime, with mixed climate exposure.",
       "sub_factors": {
@@ -228,23 +228,25 @@
   },
   "decisions": {
     "living": {
-      "score": -5.64,
-      "confidence": 0.69,
+      "score": -5.32,
+      "confidence": 0.57,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -4.89,
-      "confidence": 0.71,
+      "score": -4.64,
+      "confidence": 0.58,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -4.03,
-      "confidence": 0.73,
+      "score": -3.84,
+      "confidence": 0.59,
       "horizon": "1-3y",
       "reading": "clear negative"
     }
   },
-  "summary": "A heavily sanctioned war-economy: low headline public debt masks a budget dominated by war spending that is draining the sovereign-wealth fund, a fragile and opaque banking sector, and a petrostate export model rerouted to China and India at steep discounts. Institutions offer a capable coercive apparatus but no judicial independence, politicised statistics, and near-total press control. The country is the aggressor in an ongoing war, a Western pariah under the heaviest sanctions of any major economy, and faces severe repression and a deepening demographic crisis. The dominant risk is fat-tail downside."
+  "summary": "A heavily sanctioned war-economy: low headline public debt masks a budget dominated by war spending that is draining the sovereign-wealth fund, a fragile and opaque banking sector, and a petrostate export model rerouted to China and India at steep discounts. Institutions offer a capable coercive apparatus but no judicial independence, politicised statistics, and near-total press control. The country is the aggressor in an ongoing war, a Western pariah under the heaviest sanctions of any major economy, and faces severe repression and a deepening demographic crisis. The dominant risk is fat-tail downside.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

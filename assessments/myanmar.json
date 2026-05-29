@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -5.4,
-      "confidence": 0.63,
+      "score": -5.9,
+      "confidence": 0.58,
       "skew": "negative",
       "notes": "A collapsed, sanctioned war economy with a broken currency and banking system.",
       "sub_factors": {
@@ -88,8 +88,8 @@
       }
     },
     "institutional": {
-      "score": -8,
-      "confidence": 0.65,
+      "score": -7.8,
+      "confidence": 0.57,
       "skew": "negative",
       "notes": "A military dictatorship with no rule of law, no credible data, and among the worst press repression.",
       "sub_factors": {
@@ -120,8 +120,8 @@
       }
     },
     "political_social": {
-      "score": -8.6,
-      "confidence": 0.68,
+      "score": -8.5,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "An active civil war, atrocity-level repression, a genocide legacy, and mass displacement.",
       "sub_factors": {
@@ -161,7 +161,7 @@
     },
     "geopolitical": {
       "score": -8,
-      "confidence": 0.65,
+      "confidence": 0.58,
       "skew": "negative",
       "notes": "A sanctioned pariah junta in the region's worst active conflict.",
       "sub_factors": {
@@ -189,7 +189,7 @@
     },
     "physical_practical": {
       "score": -7,
-      "confidence": 0.69,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Catastrophic climate and seismic exposure atop a collapsed health system and infrastructure.",
       "sub_factors": {
@@ -230,23 +230,25 @@
   },
   "decisions": {
     "living": {
-      "score": -7.6,
-      "confidence": 0.66,
+      "score": -7.59,
+      "confidence": 0.58,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -6.93,
-      "confidence": 0.65,
+      "score": -7.07,
+      "confidence": 0.58,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -6.48,
-      "confidence": 0.64,
+      "score": -6.73,
+      "confidence": 0.58,
       "horizon": "1-3y",
       "reading": "clear negative"
     }
   },
-  "summary": "A collapsed conflict state. A 2021 coup triggered a nationwide civil war in which the military junta has lost control of much of the country; the economy is collapsed and sanctioned with a broken currency and banking system, and a planned election is treated as a sham. Institutions offer no rule of law, no credible data, and among the world's worst press repression, atop atrocity-level violence, a Rohingya-genocide legacy, and millions displaced. The catastrophic March-2025 earthquake compounded a collapsed health system and infrastructure. This is among the most negative profiles in the dataset."
+  "summary": "A collapsed conflict state. A 2021 coup triggered a nationwide civil war in which the military junta has lost control of much of the country; the economy is collapsed and sanctioned with a broken currency and banking system, and a planned election is treated as a sham. Institutions offer no rule of law, no credible data, and among the world's worst press repression, atop atrocity-level violence, a Rohingya-genocide legacy, and millions displaced. The catastrophic March-2025 earthquake compounded a collapsed health system and infrastructure. This is among the most negative profiles in the dataset.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

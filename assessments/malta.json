@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": 4.3,
-      "confidence": 0.86,
+      "confidence": 0.75,
       "skew": "positive",
       "notes": "Strong growth and low debt, with services/gaming concentration and an AML legacy the caveats.",
       "sub_factors": {
@@ -86,8 +86,8 @@
       }
     },
     "institutional": {
-      "score": -0.6,
-      "confidence": 0.83,
+      "score": -0.5,
+      "confidence": 0.74,
       "skew": "negative",
       "notes": "Credible statistics, against an EC-rated rule-of-law decline and a journalist-murder legacy.",
       "sub_factors": {
@@ -118,8 +118,8 @@
       }
     },
     "political_social": {
-      "score": 1,
-      "confidence": 0.79,
+      "score": 0.9,
+      "confidence": 0.74,
       "skew": "symmetric",
       "notes": "A stable but scandal-prone democracy, with rapid migrant-labour-driven growth straining a tiny island.",
       "sub_factors": {
@@ -159,7 +159,7 @@
     },
     "geopolitical": {
       "score": 3.2,
-      "confidence": 0.81,
+      "confidence": 0.75,
       "skew": "symmetric",
       "notes": "An EU member but militarily neutral, with migration-frontline exposure only.",
       "sub_factors": {
@@ -184,8 +184,8 @@
       }
     },
     "physical_practical": {
-      "score": 2.1,
-      "confidence": 0.77,
+      "score": 2,
+      "confidence": 0.74,
       "skew": "negative",
       "notes": "Good healthcare and low crime, against severe water scarcity and overdevelopment.",
       "sub_factors": {
@@ -226,23 +226,25 @@
   },
   "decisions": {
     "living": {
-      "score": 1.04,
-      "confidence": 0.81,
+      "score": 1.03,
+      "confidence": 0.74,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 2.37,
-      "confidence": 0.83,
+      "score": 2.34,
+      "confidence": 0.75,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 3.04,
-      "confidence": 0.85,
+      "score": 3.01,
+      "confidence": 0.75,
       "horizon": "1-3y",
       "reading": "clear positive"
     }
   },
-  "summary": "A fast-growing eurozone micro-state with low debt, near-target inflation, low crime, and universal healthcare, on a services economy built around tourism, i-gaming, and finance. The countervailing weight is institutional: the EU has rated its rule of law 'declining', the 2017 assassination of journalist Daphne Caruana Galizia still shadows it, and the EU's top court struck down its citizenship-by-investment scheme. Rapid migrant-labour-driven growth strains a tiny island already facing among the world's worst water scarcity, and the country is militarily neutral. Net, a balanced outcome distribution."
+  "summary": "A fast-growing eurozone micro-state with low debt, near-target inflation, low crime, and universal healthcare, on a services economy built around tourism, i-gaming, and finance. The countervailing weight is institutional: the EU has rated its rule of law 'declining', the 2017 assassination of journalist Daphne Caruana Galizia still shadows it, and the EU's top court struck down its citizenship-by-investment scheme. Rapid migrant-labour-driven growth strains a tiny island already facing among the world's worst water scarcity, and the country is militarily neutral. Net, a balanced outcome distribution.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

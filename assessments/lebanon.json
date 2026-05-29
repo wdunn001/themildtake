@@ -44,7 +44,7 @@
   "categories": {
     "economic": {
       "score": -6.4,
-      "confidence": 0.85,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "A defaulted state and an insolvent, frozen banking system, with no productive base.",
       "sub_factors": {
@@ -90,7 +90,7 @@
     },
     "institutional": {
       "score": -6.2,
-      "confidence": 0.76,
+      "confidence": 0.71,
       "skew": "negative",
       "notes": "Sectarian-captured and paralysed, with a relatively strong independent press the exception.",
       "sub_factors": {
@@ -122,7 +122,7 @@
     },
     "political_social": {
       "score": -6.2,
-      "confidence": 0.81,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "A fragile confessional system with a 2025 reform window, against deep cleavages, refugee strain, and brain drain.",
       "sub_factors": {
@@ -161,8 +161,8 @@
       }
     },
     "geopolitical": {
-      "score": -7.1,
-      "confidence": 0.8,
+      "score": -7,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "A fractured state with an armed state-within-a-state and acute war exposure.",
       "sub_factors": {
@@ -187,8 +187,8 @@
       }
     },
     "physical_practical": {
-      "score": -6.1,
-      "confidence": 0.75,
+      "score": -6,
+      "confidence": 0.71,
       "skew": "negative",
       "notes": "Collapsed infrastructure and a degraded health system, with seismic exposure.",
       "sub_factors": {
@@ -229,23 +229,25 @@
   },
   "decisions": {
     "living": {
-      "score": -5.95,
-      "confidence": 0.79,
+      "score": -5.96,
+      "confidence": 0.73,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -6.27,
-      "confidence": 0.8,
+      "score": -6.29,
+      "confidence": 0.74,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -6.44,
-      "confidence": 0.82,
+      "score": -6.48,
+      "confidence": 0.74,
       "horizon": "1-3y",
       "reading": "clear negative"
     }
   },
-  "summary": "A state in structural collapse: defaulted since 2020, an insolvent banking system that has locked depositors out since 2019, a currency that lost most of its value, de-facto dollarization, and no productive base. Institutions are sectarian-captured and paralysed - though the independent press remains relatively strong - and society is fragmented by deep confessional cleavages, a Hezbollah-state duality, mass brain-drain emigration, and among the world's highest refugee loads. The 2024 war with Israel devastated the south, with a fragile ceasefire, ongoing strikes, and disarmament friction leaving high re-escalation risk; the lone upside is a fragile early-2025 reform window."
+  "summary": "A state in structural collapse: defaulted since 2020, an insolvent banking system that has locked depositors out since 2019, a currency that lost most of its value, de-facto dollarization, and no productive base. Institutions are sectarian-captured and paralysed - though the independent press remains relatively strong - and society is fragmented by deep confessional cleavages, a Hezbollah-state duality, mass brain-drain emigration, and among the world's highest refugee loads. The 2024 war with Israel devastated the south, with a fragile ceasefire, ongoing strikes, and disarmament friction leaving high re-escalation risk; the lone upside is a fragile early-2025 reform window.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "declining"
 }

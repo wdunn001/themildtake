@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -3.6,
-      "confidence": 0.67,
+      "score": -3.8,
+      "confidence": 0.6,
       "skew": "symmetric",
       "notes": "A post-HIPC debt bright spot and dollarization-anchored inflation, against a thin, aid/remittance-dependent base.",
       "sub_factors": {
@@ -86,8 +86,8 @@
       }
     },
     "institutional": {
-      "score": -6.9,
-      "confidence": 0.66,
+      "score": -6.8,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Limited territorial control, collapsed-then-rebuilding data, and a deadly press environment.",
       "sub_factors": {
@@ -119,7 +119,7 @@
     },
     "political_social": {
       "score": -5.6,
-      "confidence": 0.6,
+      "confidence": 0.57,
       "skew": "negative",
       "notes": "A 2025 insurgent resurgence and clan fragmentation over a conflict-displaced society.",
       "sub_factors": {
@@ -158,8 +158,8 @@
       }
     },
     "geopolitical": {
-      "score": -4.9,
-      "confidence": 0.67,
+      "score": -4.5,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Internationally backed but dependent on a funding-strapped AU mission, with twin insurgencies.",
       "sub_factors": {
@@ -184,8 +184,8 @@
       }
     },
     "physical_practical": {
-      "score": -7.5,
-      "confidence": 0.66,
+      "score": -7.4,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A national drought emergency, a near-collapsed health system, and high insecurity.",
       "sub_factors": {
@@ -226,23 +226,25 @@
   },
   "decisions": {
     "living": {
-      "score": -5.95,
-      "confidence": 0.64,
+      "score": -5.92,
+      "confidence": 0.59,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -5.17,
-      "confidence": 0.66,
+      "score": -5.19,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -4.51,
-      "confidence": 0.67,
+      "score": -4.58,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "clear negative"
     }
   },
-  "summary": "A fragile federal state whose government controls only part of its territory, with a 2025 al-Shabaab offensive reversing prior gains and pushing the insurgency back toward Mogadishu while ISIS-Somalia holds out in Puntland. Security depends on the AU's AUSSOM mission, in acute funding crisis after the UN failed to secure assessed financing by mid-2025. The one clear bright spot is debt: the 2023 HIPC completion slashed external debt below 6% of GDP and an IMF program anchors reform, with dollarization keeping inflation relatively contained. But recurrent drought (a November 2025 national emergency), famine-level malnutrition, clan fragmentation, and federal-state friction keep the picture clearly negative; most figures rely on external estimation."
+  "summary": "A fragile federal state whose government controls only part of its territory, with a 2025 al-Shabaab offensive reversing prior gains and pushing the insurgency back toward Mogadishu while ISIS-Somalia holds out in Puntland. Security depends on the AU's AUSSOM mission, in acute funding crisis after the UN failed to secure assessed financing by mid-2025. The one clear bright spot is debt: the 2023 HIPC completion slashed external debt below 6% of GDP and an IMF program anchors reform, with dollarization keeping inflation relatively contained. But recurrent drought (a November 2025 national emergency), famine-level malnutrition, clan fragmentation, and federal-state friction keep the picture clearly negative; most figures rely on external estimation.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

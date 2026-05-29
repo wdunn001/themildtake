@@ -242,5 +242,7 @@
       "reading": "clear positive"
     }
   },
-  "summary": "A high-income country with excellent institutions, healthcare, infrastructure, and personal safety, and an advanced, German-integrated export economy. The drags are a recent fiscal deterioration (an EU excessive-deficit procedure after the EU's last recession), a sticky inflation legacy, and a far-right political rise - though that party was kept from power by an orderly, if fragmented, three-party coalition. Membership of the euro pools monetary policy at a credible ECB, while constitutional neutrality keeps the hard-security commitment limited."
+  "summary": "A high-income country with excellent institutions, healthcare, infrastructure, and personal safety, and an advanced, German-integrated export economy. The drags are a recent fiscal deterioration (an EU excessive-deficit procedure after the EU's last recession), a sticky inflation legacy, and a far-right political rise - though that party was kept from power by an orderly, if fragmented, three-party coalition. Membership of the euro pools monetary policy at a credible ECB, while constitutional neutrality keeps the hard-security commitment limited.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

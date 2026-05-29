@@ -44,7 +44,7 @@
   "categories": {
     "economic": {
       "score": 3.3,
-      "confidence": 0.81,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "A credible central bank, a safe-haven reserve currency, and an export-tech base, against the highest major-economy debt and a debt-service cost that worsens as rates normalize.",
       "sub_factors": {
@@ -95,8 +95,8 @@
       }
     },
     "institutional": {
-      "score": 5.3,
-      "confidence": 0.81,
+      "score": 5.2,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "Strong courts, credible statistics, and high state capacity; press freedom mediocre for a democracy.",
       "sub_factors": {
@@ -128,7 +128,7 @@
     },
     "political_social": {
       "score": 1.5,
-      "confidence": 0.75,
+      "confidence": 0.73,
       "skew": "negative",
       "notes": "Restored single-party dominance and very high social order, against a low immigration ceiling and a locked-in demographic collapse.",
       "sub_factors": {
@@ -167,8 +167,8 @@
       }
     },
     "geopolitical": {
-      "score": 2,
-      "confidence": 0.77,
+      "score": 1.8,
+      "confidence": 0.74,
       "skew": "negative",
       "notes": "A core US treaty ally, rearming, with an elevated regional-conflict tail (China/Taiwan/North Korea).",
       "sub_factors": {
@@ -193,8 +193,8 @@
       }
     },
     "physical_practical": {
-      "score": 3,
-      "confidence": 0.8,
+      "score": 2.9,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "World-class infrastructure, healthcare, and very low crime, against the standout seismic/tsunami risk (offset by world-best preparedness).",
       "sub_factors": {
@@ -235,23 +235,25 @@
   },
   "decisions": {
     "living": {
-      "score": 3.03,
-      "confidence": 0.79,
+      "score": 3.01,
+      "confidence": 0.74,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 3.1,
-      "confidence": 0.8,
+      "score": 3.06,
+      "confidence": 0.75,
       "horizon": "3-7y",
       "reading": "clear positive"
     },
     "currency": {
-      "score": 3.44,
-      "confidence": 0.8,
+      "score": 3.36,
+      "confidence": 0.75,
       "horizon": "1-3y",
       "reading": "clear positive"
     }
   },
-  "summary": "Strong courts and state capacity, world-class infrastructure and healthcare, very low crime, a credible central bank, and a safe-haven reserve currency now exiting deflation. But the outcome distribution skews negative: among the world's worst demographics (a locked-in population decline) and the highest major-economy debt (with debt-service costs worsening as rates normalize), a low immigration ceiling, mediocre press freedom, and an elevated regional-conflict tail. Seismic risk is the standout physical hazard, offset by world-best preparedness."
+  "summary": "Strong courts and state capacity, world-class infrastructure and healthcare, very low crime, a credible central bank, and a safe-haven reserve currency now exiting deflation. But the outcome distribution skews negative: among the world's worst demographics (a locked-in population decline) and the highest major-economy debt (with debt-service costs worsening as rates normalize), a low immigration ceiling, mediocre press freedom, and an elevated regional-conflict tail. Seismic risk is the standout physical hazard, offset by world-best preparedness.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

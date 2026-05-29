@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": 3.6,
-      "confidence": 0.83,
+      "score": 3.7,
+      "confidence": 0.74,
       "skew": "positive",
       "notes": "A genuine macro-stability standout - low debt, a credible central bank, low inflation, and investment grade.",
       "sub_factors": {
@@ -86,8 +86,8 @@
       }
     },
     "institutional": {
-      "score": -2.5,
-      "confidence": 0.77,
+      "score": -2.4,
+      "confidence": 0.72,
       "skew": "negative",
       "notes": "Pervasive corruption and a one-party machine, with usable statistics.",
       "sub_factors": {
@@ -119,7 +119,7 @@
     },
     "political_social": {
       "score": 2.1,
-      "confidence": 0.75,
+      "confidence": 0.74,
       "skew": "symmetric",
       "notes": "Durable but one-party-dominant stability and a young population, against deep inequality.",
       "sub_factors": {
@@ -156,8 +156,8 @@
       }
     },
     "geopolitical": {
-      "score": 2,
-      "confidence": 0.8,
+      "score": 1.9,
+      "confidence": 0.75,
       "skew": "positive",
       "notes": "A stable, Western-aligned partner with an open economy, against a small guerrilla remnant.",
       "sub_factors": {
@@ -225,22 +225,24 @@
   "decisions": {
     "living": {
       "score": 0.08,
-      "confidence": 0.76,
+      "confidence": 0.73,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 1.2,
-      "confidence": 0.79,
+      "score": 1.15,
+      "confidence": 0.74,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 2.16,
-      "confidence": 0.81,
+      "score": 2.14,
+      "confidence": 0.74,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A quiet macro-stability standout: low debt, a credible inflation-targeting central bank, low inflation, investment grade, and a young population with a favourable dependency ratio, in a durable democracy with open lawful residency. Those strengths are offset by weak rule of law - pervasive corruption under a one-party machine that has dominated for decades, with US-sanctioned figures - a soy/beef/hydropower economy exposed to commodity and weather swings, a weak public health system, drought, and rising narco-border violence. Net, a balanced outcome distribution."
+  "summary": "A quiet macro-stability standout: low debt, a credible inflation-targeting central bank, low inflation, investment grade, and a young population with a favourable dependency ratio, in a durable democracy with open lawful residency. Those strengths are offset by weak rule of law - pervasive corruption under a one-party machine that has dominated for decades, with US-sanctioned figures - a soy/beef/hydropower economy exposed to commodity and weather swings, a weak public health system, drought, and rising narco-border violence. Net, a balanced outcome distribution.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

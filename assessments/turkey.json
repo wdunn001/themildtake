@@ -43,8 +43,8 @@
   },
   "categories": {
     "economic": {
-      "score": 0.5,
-      "confidence": 0.73,
+      "score": 0.4,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A genuine orthodox re-stabilisation and a diversified export base, against scarred monetary credibility and disputed inflation data.",
       "sub_factors": {
@@ -93,8 +93,8 @@
       }
     },
     "institutional": {
-      "score": -4.3,
-      "confidence": 0.73,
+      "score": -3.9,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A capable digital bureaucracy, overwhelmed by a politicised judiciary, disputed statistics, and heavy media capture.",
       "sub_factors": {
@@ -125,8 +125,8 @@
       }
     },
     "political_social": {
-      "score": -2.5,
-      "confidence": 0.71,
+      "score": -2.4,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Serious democratic backsliding and restricted liberties, with a stalled Kurdish peace process the one structural positive.",
       "sub_factors": {
@@ -170,7 +170,7 @@
     },
     "geopolitical": {
       "score": -1.7,
-      "confidence": 0.68,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A transactional NATO member hedging Russia, with active regional operations and intervention risk.",
       "sub_factors": {
@@ -198,7 +198,7 @@
     },
     "physical_practical": {
       "score": 0.4,
-      "confidence": 0.71,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Strong healthcare and modern western infrastructure, against a catastrophic seismic mega-hazard and water stress.",
       "sub_factors": {
@@ -239,23 +239,25 @@
   },
   "decisions": {
     "living": {
-      "score": -2.33,
-      "confidence": 0.72,
+      "score": -2.16,
+      "confidence": 0.6,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.36,
-      "confidence": 0.72,
+      "score": -1.29,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -0.9,
-      "confidence": 0.72,
+      "score": -0.91,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A diversified manufacturing economy mid-way through a genuine orthodox re-stabilisation - sharp rate hikes, the FX-protected-deposit scheme wound down, inflation falling from extreme highs - sitting on a low debt base and an EU customs union. But the dominant drags are institutional and political: a politicised judiciary, the 2025 arrest of the lead opposition figure and the protests it triggered, very low press freedom, and disputed official inflation data, all atop a catastrophic Istanbul seismic tail. The 2025 Kurdish disarmament process is the one structural positive on social cohesion."
+  "summary": "A diversified manufacturing economy mid-way through a genuine orthodox re-stabilisation - sharp rate hikes, the FX-protected-deposit scheme wound down, inflation falling from extreme highs - sitting on a low debt base and an EU customs union. But the dominant drags are institutional and political: a politicised judiciary, the 2025 arrest of the lead opposition figure and the protests it triggered, very low press freedom, and disputed official inflation data, all atop a catastrophic Istanbul seismic tail. The 2025 Kurdish disarmament process is the one structural positive on social cohesion.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": 3.6,
-      "confidence": 0.81,
+      "score": 3.5,
+      "confidence": 0.74,
       "skew": "positive",
       "notes": "A post-crisis turnaround: large primary surpluses, fast-falling (if still high) debt, recapitalized banks, and a world-leading merchant fleet.",
       "sub_factors": {
@@ -93,7 +93,7 @@
     },
     "institutional": {
       "score": 1.7,
-      "confidence": 0.79,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "Credible (post-reform) statistics and improving digital government, against weak rule of law and the lowest press freedom in the EU.",
       "sub_factors": {
@@ -166,8 +166,8 @@
       }
     },
     "geopolitical": {
-      "score": 2.5,
-      "confidence": 0.78,
+      "score": 2.4,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "A reliable NATO/EU member, with structural Turkey tensions as a recurring negative-skew tail.",
       "sub_factors": {
@@ -195,7 +195,7 @@
     },
     "physical_practical": {
       "score": -0.8,
-      "confidence": 0.75,
+      "confidence": 0.74,
       "skew": "negative",
       "notes": "Low crime and improving (EU-funded) infrastructure, against severe and worsening climate exposure and an austerity-hollowed health system.",
       "sub_factors": {
@@ -240,23 +240,25 @@
   },
   "decisions": {
     "living": {
-      "score": 1.27,
-      "confidence": 0.77,
+      "score": 1.24,
+      "confidence": 0.74,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 2.24,
-      "confidence": 0.79,
+      "score": 2.17,
+      "confidence": 0.74,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 2.89,
-      "confidence": 0.8,
+      "score": 2.82,
+      "confidence": 0.74,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A striking post-crisis fiscal turnaround - large primary surpluses, fast-falling (if still high) debt, regained investment grade, recapitalized banks - alongside a world-leading merchant fleet and record tourism. The drags are weak rule of law (a surveillance scandal, the Tempi-disaster accountability crisis), the lowest press freedom in the EU, severe and worsening climate exposure, an austerity-hollowed health system, and steep demographic decline. Tensions with Turkey are a recurring negative-skew tail."
+  "summary": "A striking post-crisis fiscal turnaround - large primary surpluses, fast-falling (if still high) debt, regained investment grade, recapitalized banks - alongside a world-leading merchant fleet and record tourism. The drags are weak rule of law (a surveillance scandal, the Tempi-disaster accountability crisis), the lowest press freedom in the EU, severe and worsening climate exposure, an austerity-hollowed health system, and steep demographic decline. Tensions with Turkey are a recurring negative-skew tail.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

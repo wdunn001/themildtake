@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": 0.5,
-      "confidence": 0.74,
+      "confidence": 0.69,
       "skew": "positive",
       "notes": "A recovering, IMF-programmed economy with falling debt and single-digit inflation, on a tiny, enclave-dependent base.",
       "sub_factors": {
@@ -237,16 +237,18 @@
     },
     "assets": {
       "score": 0.37,
-      "confidence": 0.69,
+      "confidence": 0.67,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 0.7,
-      "confidence": 0.72,
+      "score": 0.71,
+      "confidence": 0.69,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A small, poor, positively-skewed recovery story: a managed-float dalasi economy of tourism (~20% of GDP), remittances (~a third of GDP), and agriculture, enclaved within Senegal, growing ~6% with single-digit inflation and falling debt under an on-track IMF ECF/RSF program. Its standout asset is a real democratic transition with active transitional justice - the TRRC's 16-volume report and the first-ever ECOWAS hybrid Special Tribunal to try Jammeh-era atrocities. The principal risk is concentrated and political: President Barrow abandoned his single-term pledge, blocked term-limit reform, and is seeking a third term in the December 2026 election. Physical fundamentals (weak healthcare, flood exposure, thin infrastructure) remain poor, but the absence of conflict and the improving institutional trajectory keep the overall shape favorable."
+  "summary": "A small, poor, positively-skewed recovery story: a managed-float dalasi economy of tourism (~20% of GDP), remittances (~a third of GDP), and agriculture, enclaved within Senegal, growing ~6% with single-digit inflation and falling debt under an on-track IMF ECF/RSF program. Its standout asset is a real democratic transition with active transitional justice - the TRRC's 16-volume report and the first-ever ECOWAS hybrid Special Tribunal to try Jammeh-era atrocities. The principal risk is concentrated and political: President Barrow abandoned his single-term pledge, blocked term-limit reform, and is seeking a third term in the December 2026 election. Physical fundamentals (weak healthcare, flood exposure, thin infrastructure) remain poor, but the absence of conflict and the improving institutional trajectory keep the overall shape favorable.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

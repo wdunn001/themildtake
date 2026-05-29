@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -5.9,
-      "confidence": 0.64,
+      "score": -6.4,
+      "confidence": 0.58,
       "skew": "negative",
       "notes": "A collapsed, aid-dependent, hyperinflationary economy with a gang-strangled capital.",
       "sub_factors": {
@@ -86,8 +86,8 @@
       }
     },
     "institutional": {
-      "score": -9.1,
-      "confidence": 0.59,
+      "score": -9,
+      "confidence": 0.55,
       "skew": "negative",
       "notes": "State collapse - no elected government, gangs governing the capital, collapsed data, journalists killed.",
       "sub_factors": {
@@ -119,7 +119,7 @@
     },
     "political_social": {
       "score": -8.8,
-      "confidence": 0.58,
+      "confidence": 0.55,
       "skew": "negative",
       "notes": "No elected government, gang rule of the capital, mass displacement, and mass sexual violence.",
       "sub_factors": {
@@ -156,8 +156,8 @@
       }
     },
     "geopolitical": {
-      "score": -6.8,
-      "confidence": 0.6,
+      "score": -6.7,
+      "confidence": 0.58,
       "skew": "negative",
       "notes": "No sovereign capacity, dependent on a UN-backed security mission, in a gang-warfare collapse.",
       "sub_factors": {
@@ -182,8 +182,8 @@
       }
     },
     "physical_practical": {
-      "score": -9.2,
-      "confidence": 0.69,
+      "score": -9.3,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "Extreme disaster exposure, a collapsed health system with famine pockets, and catastrophic crime.",
       "sub_factors": {
@@ -224,23 +224,25 @@
   },
   "decisions": {
     "living": {
-      "score": -8.46,
-      "confidence": 0.61,
+      "score": -8.49,
+      "confidence": 0.56,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -7.45,
-      "confidence": 0.62,
+      "score": -7.61,
+      "confidence": 0.57,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -6.78,
-      "confidence": 0.62,
+      "score": -7.05,
+      "confidence": 0.57,
       "horizon": "1-3y",
       "reading": "clear negative"
     }
   },
-  "summary": "A state in collapse: no elected government since the 2021 presidential assassination, gangs controlling roughly 85% of the capital (taxing and 'judging'), and a UN-backed security mission struggling to hold. The economy is hyperinflationary and aid-dependent with the capital's port strangled; the health system has collapsed amid cholera and famine pockets; and crime is catastrophic, with mass displacement (~1.4M) and sexual violence. Figures rely on UN/INGO estimation in gang-inaccessible areas; the profile is among the most negative in the dataset."
+  "summary": "A state in collapse: no elected government since the 2021 presidential assassination, gangs controlling roughly 85% of the capital (taxing and 'judging'), and a UN-backed security mission struggling to hold. The economy is hyperinflationary and aid-dependent with the capital's port strangled; the health system has collapsed amid cholera and famine pockets; and crime is catastrophic, with mass displacement (~1.4M) and sexual violence. Figures rely on UN/INGO estimation in gang-inaccessible areas; the profile is among the most negative in the dataset.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

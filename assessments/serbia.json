@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": 2.8,
-      "confidence": 0.8,
+      "confidence": 0.6,
       "skew": "positive",
       "notes": "The cleanest category - prudent fiscals, a credible managed dinar, and sound banks.",
       "sub_factors": {
@@ -88,8 +88,8 @@
       }
     },
     "institutional": {
-      "score": -3.5,
-      "confidence": 0.76,
+      "score": -3.2,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Clearly negative - compromised courts and heavily captured media.",
       "sub_factors": {
@@ -120,8 +120,8 @@
       }
     },
     "political_social": {
-      "score": -3.9,
-      "confidence": 0.75,
+      "score": -3.7,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "A live legitimacy crisis and steep demographic decline.",
       "sub_factors": {
@@ -160,8 +160,8 @@
       }
     },
     "geopolitical": {
-      "score": -2.7,
-      "confidence": 0.78,
+      "score": -2.6,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "An EU-candidate that hedges Russia/China and carries an unresolved Kosovo dispute.",
       "sub_factors": {
@@ -187,7 +187,7 @@
     },
     "physical_practical": {
       "score": -1.4,
-      "confidence": 0.59,
+      "confidence": 0.57,
       "skew": "negative",
       "notes": "Improving infrastructure, against severe coal-driven air pollution and medic emigration.",
       "sub_factors": {
@@ -228,23 +228,25 @@
   },
   "decisions": {
     "living": {
-      "score": -2.44,
-      "confidence": 0.74,
+      "score": -2.26,
+      "confidence": 0.59,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -0.62,
-      "confidence": 0.76,
+      "score": -0.57,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 0.43,
-      "confidence": 0.78,
+      "score": 0.46,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "An EU-candidate with quietly sound macro fundamentals - prudent fiscals, a credibly managed dinar, low inflation, and well-capitalised banks - but those are outweighed by democratic backsliding. Institutions are captured (compromised courts, pressured prosecutors, heavily controlled media), and a live legitimacy crisis is underway: the 2024 Novi Sad station-canopy collapse that killed 16 triggered the largest protests in decades, met with crackdowns and a refusal to call elections. Belgrade refuses to sanction Russia and hedges between the EU, Russia, and China, the Kosovo dispute is unresolved, air pollution is severe, and the population is in steep demographic decline."
+  "summary": "An EU-candidate with quietly sound macro fundamentals - prudent fiscals, a credibly managed dinar, low inflation, and well-capitalised banks - but those are outweighed by democratic backsliding. Institutions are captured (compromised courts, pressured prosecutors, heavily controlled media), and a live legitimacy crisis is underway: the 2024 Novi Sad station-canopy collapse that killed 16 triggered the largest protests in decades, met with crackdowns and a refusal to call elections. Belgrade refuses to sanction Russia and hedges between the EU, Russia, and China, the Kosovo dispute is unresolved, air pollution is severe, and the population is in steep demographic decline.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

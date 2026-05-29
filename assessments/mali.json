@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -0.9,
-      "confidence": 0.74,
+      "score": -1.2,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Gold-anchored and CFA-stabilized, but a mine-control dispute, a fuel blockade, aid cuts, and above-ceiling inflation weigh on it.",
       "sub_factors": {
@@ -90,8 +90,8 @@
       }
     },
     "institutional": {
-      "score": -5.7,
-      "confidence": 0.69,
+      "score": -5.4,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A coup junta that dissolved all parties and self-extended, with eroding statistics and severe press repression.",
       "sub_factors": {
@@ -122,8 +122,8 @@
       }
     },
     "political_social": {
-      "score": -6.1,
-      "confidence": 0.64,
+      "score": -6,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "Worsening insurgency, an indefinitely self-extended junta, and a large displacement/food crisis.",
       "sub_factors": {
@@ -165,7 +165,7 @@
     },
     "geopolitical": {
       "score": -5.6,
-      "confidence": 0.73,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Pivoted to Russia and out of ECOWAS into the AES, amid an intensifying war and Western disengagement.",
       "sub_factors": {
@@ -190,8 +190,8 @@
       }
     },
     "physical_practical": {
-      "score": -7,
-      "confidence": 0.65,
+      "score": -6.9,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Severe Sahel climate stress, weak health, conflict-damaged infrastructure, and acute insecurity.",
       "sub_factors": {
@@ -232,23 +232,25 @@
   },
   "decisions": {
     "living": {
-      "score": -5.01,
-      "confidence": 0.68,
+      "score": -4.95,
+      "confidence": 0.6,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -3.71,
-      "confidence": 0.71,
+      "score": -3.8,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -2.75,
-      "confidence": 0.72,
+      "score": -2.89,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "Mali is a coup-belt junta whose security situation deteriorated sharply through 2025-26: a JNIM fuel blockade besieged Bamako and a Tuareg-led FLA/JNIM offensive forced the army and Russia's Africa Corps to abandon the Kidal region, while documented Africa-Corps/army atrocities deepen grievance. Politically the junta dissolved all parties in May 2025 and granted Goita a renewable five-year term, exited ECOWAS for the Russia-aligned AES, and severely curbed the press. The economy has a rare stabilizer in the euro-pegged CFA franc and large gold/cotton output, but the state's seizure of Barrick's Loulo-Gounkoto, aid cuts, and above-ceiling conflict-driven inflation cloud the outlook. With external data and contested security figures, confidence is reduced; the distribution is clearly negative with a real state-collapse tail."
+  "summary": "Mali is a coup-belt junta whose security situation deteriorated sharply through 2025-26: a JNIM fuel blockade besieged Bamako and a Tuareg-led FLA/JNIM offensive forced the army and Russia's Africa Corps to abandon the Kidal region, while documented Africa-Corps/army atrocities deepen grievance. Politically the junta dissolved all parties in May 2025 and granted Goita a renewable five-year term, exited ECOWAS for the Russia-aligned AES, and severely curbed the press. The economy has a rare stabilizer in the euro-pegged CFA franc and large gold/cotton output, but the state's seizure of Barrick's Loulo-Gounkoto, aid cuts, and above-ceiling conflict-driven inflation cloud the outlook. With external data and contested security figures, confidence is reduced; the distribution is clearly negative with a real state-collapse tail.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

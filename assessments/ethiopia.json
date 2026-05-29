@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": -2.6,
-      "confidence": 0.82,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A fragile post-default reform (a float, an IMF program) against a low tax base, high inflation, and FX constraints.",
       "sub_factors": {
@@ -86,8 +86,8 @@
       }
     },
     "institutional": {
-      "score": -5,
-      "confidence": 0.73,
+      "score": -4.7,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A conflict-disrupted, contested rule of law and a reversed press opening.",
       "sub_factors": {
@@ -118,8 +118,8 @@
       }
     },
     "political_social": {
-      "score": -4.1,
-      "confidence": 0.81,
+      "score": -4,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Multiple active insurgencies and ethnic-federal fragmentation, with a demographic dividend the offset.",
       "sub_factors": {
@@ -156,8 +156,8 @@
       }
     },
     "geopolitical": {
-      "score": -3.6,
-      "confidence": 0.76,
+      "score": -3.3,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A pragmatic non-aligned posture, against internal insurgencies and an acute Eritrea war-risk.",
       "sub_factors": {
@@ -183,7 +183,7 @@
     },
     "physical_practical": {
       "score": -4.5,
-      "confidence": 0.71,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A state infrastructure build-out undercut by conflict, weak healthcare, and drought/flood exposure.",
       "sub_factors": {
@@ -224,23 +224,25 @@
   },
   "decisions": {
     "living": {
-      "score": -4.2,
-      "confidence": 0.77,
+      "score": -4.13,
+      "confidence": 0.6,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -3.62,
-      "confidence": 0.78,
+      "score": -3.59,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -3.23,
-      "confidence": 0.8,
+      "score": -3.22,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "clear negative"
     }
   },
-  "summary": "A very large, young economy mid-way through a genuine but fragile reform - a 2024 currency float, an IMF program and debt restructuring, the GERD dam now generating, and disinflation from a high base. That story is dominated by conflict: after the Tigray war ended in 2022, new Amhara and Oromia insurgencies persist amid emergency measures and a delayed election, and an acute Eritrea war-risk plus a Red-Sea sea-access push strain regional ties. Deep ethnic-federal cleavages, a reversed press opening, weak healthcare, and half the population lacking electricity weigh heavily, with the demographic dividend the main offset."
+  "summary": "A very large, young economy mid-way through a genuine but fragile reform - a 2024 currency float, an IMF program and debt restructuring, the GERD dam now generating, and disinflation from a high base. That story is dominated by conflict: after the Tigray war ended in 2022, new Amhara and Oromia insurgencies persist amid emergency measures and a delayed election, and an acute Eritrea war-risk plus a Red-Sea sea-access push strain regional ties. Deep ethnic-federal cleavages, a reversed press opening, weak healthcare, and half the population lacking electricity weigh heavily, with the demographic dividend the main offset.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

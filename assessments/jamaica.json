@@ -258,5 +258,7 @@
       "reading": "mixed"
     }
   },
-  "summary": "The Caribbean's standout institutional and fiscal success - public debt slashed from ~150% to ~65% of GDP, a credible independent inflation-targeting central bank, record reserves, a resilient banking system, a stable two-party democracy (the JLP's historic third term, Sept 2025), and a homicide rate that roughly halved in 2025. The decisive, recurring drag is physical catastrophe risk: Hurricane Melissa (Cat 5, Oct 2025) inflicted ~US$8.8bn in damage (~41% of GDP), the costliest disaster in the nation's history, a year after Beryl. The country's hard-won macro credibility is precisely what lets it absorb such shocks (rapid US$6.7bn reconstruction financing, mature disaster-risk instruments), but the climate tail is structural and sets a negative overall skew."
+  "summary": "The Caribbean's standout institutional and fiscal success - public debt slashed from ~150% to ~65% of GDP, a credible independent inflation-targeting central bank, record reserves, a resilient banking system, a stable two-party democracy (the JLP's historic third term, Sept 2025), and a homicide rate that roughly halved in 2025. The decisive, recurring drag is physical catastrophe risk: Hurricane Melissa (Cat 5, Oct 2025) inflicted ~US$8.8bn in damage (~41% of GDP), the costliest disaster in the nation's history, a year after Beryl. The country's hard-won macro credibility is precisely what lets it absorb such shocks (rapid US$6.7bn reconstruction financing, mature disaster-risk instruments), but the climate tail is structural and sets a negative overall skew.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

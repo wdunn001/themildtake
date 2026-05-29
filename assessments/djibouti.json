@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": -0.7,
-      "confidence": 0.69,
+      "confidence": 0.58,
       "skew": "symmetric",
       "notes": "A credible currency board and low inflation, against debt-distress and port-revenue concentration.",
       "sub_factors": {
@@ -89,7 +89,7 @@
     },
     "institutional": {
       "score": -2.8,
-      "confidence": 0.53,
+      "confidence": 0.52,
       "skew": "negative",
       "notes": "A functional port-state core with commercial-law credibility, against weak political rights and a crushed press.",
       "sub_factors": {
@@ -186,8 +186,8 @@
       }
     },
     "physical_practical": {
-      "score": -2.2,
-      "confidence": 0.54,
+      "score": -2.1,
+      "confidence": 0.53,
       "skew": "symmetric",
       "notes": "World-class Chinese-built ports/rail and relative safety, against extreme aridity and water scarcity.",
       "sub_factors": {
@@ -228,23 +228,25 @@
   },
   "decisions": {
     "living": {
-      "score": -2.03,
-      "confidence": 0.56,
+      "score": -2.04,
+      "confidence": 0.54,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.19,
-      "confidence": 0.6,
+      "score": -1.21,
+      "confidence": 0.55,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -0.93,
-      "confidence": 0.63,
+      "score": -0.95,
+      "confidence": 0.56,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "The rare Horn-of-Africa state that combines genuine macro stability - a 50-year-credible dollar currency board, low inflation, a regional banking and ports hub - with acute structural vulnerabilities: a port/logistics economy (~70% of GDP) over-concentrated on Ethiopia and exposed to Red Sea/Houthi disruption (traffic down ~10% in 2025), and debt the IMF calls unsustainable, more than 70% owed to China and only manageable via a moratorium to 2027. Its real 'oil' is geography: rents from US, French, Chinese, Japanese, and Italian bases at Bab-el-Mandeb underwrite a deliberately multi-aligned foreign policy. Domestically it is stable but firmly authoritarian - Guelleh secured a sixth term in April 2026 after a 2025 age-limit removal, the press is among the world's least free, and an eventual succession plus Issa-Afar asymmetry are the key latent risks."
+  "summary": "The rare Horn-of-Africa state that combines genuine macro stability - a 50-year-credible dollar currency board, low inflation, a regional banking and ports hub - with acute structural vulnerabilities: a port/logistics economy (~70% of GDP) over-concentrated on Ethiopia and exposed to Red Sea/Houthi disruption (traffic down ~10% in 2025), and debt the IMF calls unsustainable, more than 70% owed to China and only manageable via a moratorium to 2027. Its real 'oil' is geography: rents from US, French, Chinese, Japanese, and Italian bases at Bab-el-Mandeb underwrite a deliberately multi-aligned foreign policy. Domestically it is stable but firmly authoritarian - Guelleh secured a sixth term in April 2026 after a 2025 age-limit removal, the press is among the world's least free, and an eventual succession plus Issa-Afar asymmetry are the key latent risks.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

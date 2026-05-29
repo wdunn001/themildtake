@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": 1.7,
-      "confidence": 0.77,
+      "score": 1.9,
+      "confidence": 0.73,
       "skew": "symmetric",
       "notes": "A diversified, own-currency services economy, against high public debt now forcing austerity.",
       "sub_factors": {
@@ -87,7 +87,7 @@
     },
     "institutional": {
       "score": 4.4,
-      "confidence": 0.75,
+      "confidence": 0.74,
       "skew": "symmetric",
       "notes": "Africa's strongest governance, but with a corroborated press-freedom deterioration.",
       "sub_factors": {
@@ -118,8 +118,8 @@
       }
     },
     "political_social": {
-      "score": 3.5,
-      "confidence": 0.7,
+      "score": 3.4,
+      "confidence": 0.68,
       "skew": "symmetric",
       "notes": "Stable competitive democracy and cohesion, with a real civil-liberties wobble and aging.",
       "sub_factors": {
@@ -156,8 +156,8 @@
       }
     },
     "geopolitical": {
-      "score": 6,
-      "confidence": 0.75,
+      "score": 5.9,
+      "confidence": 0.72,
       "skew": "positive",
       "notes": "A reliable, treaty-based partner with the Chagos dispute resolved.",
       "sub_factors": {
@@ -224,23 +224,25 @@
   },
   "decisions": {
     "living": {
-      "score": 3.54,
-      "confidence": 0.73,
+      "score": 3.55,
+      "confidence": 0.71,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 3.31,
-      "confidence": 0.75,
+      "score": 3.35,
+      "confidence": 0.72,
       "horizon": "3-7y",
       "reading": "clear positive"
     },
     "currency": {
-      "score": 2.98,
-      "confidence": 0.76,
+      "score": 3.06,
+      "confidence": 0.73,
       "horizon": "1-3y",
-      "reading": "mixed"
+      "reading": "clear positive"
     }
   },
-  "summary": "Africa's governance and income leader - the November 2024 election delivered a clean landslide turnover (the Alliance du Changement, ~62.6%) that ousted the incumbent amid the 'Missie Moustass' wiretapping scandal, and the 2024 UK-Mauritius Chagos agreement resolved a decades-old sovereignty dispute on favourable terms. Strong institutions, a diversified services economy, an own managed-float rupee, and removal from the FATF grey list (2021) anchor a positive skew. The watch items are real: public debt near 87-88% of GDP (above the legal ceiling) now forcing austerity, an aging population (TFR ~1.4), acute cyclone exposure, and a genuine press-freedom/civil-liberties wobble that several monitors read as democratic-quality erosion."
+  "summary": "Africa's governance and income leader - the November 2024 election delivered a clean landslide turnover (the Alliance du Changement, ~62.6%) that ousted the incumbent amid the 'Missie Moustass' wiretapping scandal, and the 2024 UK-Mauritius Chagos agreement resolved a decades-old sovereignty dispute on favourable terms. Strong institutions, a diversified services economy, an own managed-float rupee, and removal from the FATF grey list (2021) anchor a positive skew. The watch items are real: public debt near 87-88% of GDP (above the legal ceiling) now forcing austerity, an aging population (TFR ~1.4), acute cyclone exposure, and a genuine press-freedom/civil-liberties wobble that several monitors read as democratic-quality erosion.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

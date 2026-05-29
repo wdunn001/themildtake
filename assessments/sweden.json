@@ -255,5 +255,7 @@
       "reading": "clear positive"
     }
   },
-  "summary": "An exceptionally strong institutional baseline - top-tier rule of law, statistical integrity, civil-service independence, and press freedom - paired with a strong, low-debt economy. The drags are a near-neutral social state (gang and bombing violence concentrated in specific metro suburbs, plus immigration restrictiveness, though the skilled-professional path stays functional) and direct Russia conflict-exposure as a Baltic-adjacent NATO member - a real tail risk rather than a base case. Inflation is currently undershooting target."
+  "summary": "An exceptionally strong institutional baseline - top-tier rule of law, statistical integrity, civil-service independence, and press freedom - paired with a strong, low-debt economy. The drags are a near-neutral social state (gang and bombing violence concentrated in specific metro suburbs, plus immigration restrictiveness, though the skilled-professional path stays functional) and direct Russia conflict-exposure as a Baltic-adjacent NATO member - a real tail risk rather than a base case. Inflation is currently undershooting target.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

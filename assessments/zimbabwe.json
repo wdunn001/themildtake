@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": -4.7,
-      "confidence": 0.84,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "A defaulted, arrears-locked state with serial currency collapses and a mineral-but-dysfunctional base.",
       "sub_factors": {
@@ -86,8 +86,8 @@
       }
     },
     "institutional": {
-      "score": -5.8,
-      "confidence": 0.73,
+      "score": -5.6,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "ZANU-PF capture with no judicial independence, a property-rights legacy, and a pressured press.",
       "sub_factors": {
@@ -118,8 +118,8 @@
       }
     },
     "political_social": {
-      "score": -4.8,
-      "confidence": 0.72,
+      "score": -4.6,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "Entrenched ZANU-PF rule with a term-extension push, surging abuses, and a crushed opposition.",
       "sub_factors": {
@@ -156,8 +156,8 @@
       }
     },
     "geopolitical": {
-      "score": -4,
-      "confidence": 0.75,
+      "score": -3.9,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Isolated from the West, China/Russia-leaning, and arrears-locked from finance.",
       "sub_factors": {
@@ -182,8 +182,8 @@
       }
     },
     "physical_practical": {
-      "score": -6,
-      "confidence": 0.72,
+      "score": -5.9,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "A severe drought/power crisis and a collapsed health system, with decayed infrastructure.",
       "sub_factors": {
@@ -224,23 +224,25 @@
   },
   "decisions": {
     "living": {
-      "score": -5.27,
-      "confidence": 0.74,
+      "score": -5.16,
+      "confidence": 0.6,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -4.98,
-      "confidence": 0.77,
+      "score": -4.95,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -4.78,
-      "confidence": 0.8,
+      "score": -4.79,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "clear negative"
     }
   },
-  "summary": "An economy defined by serial currency collapses - the 2024 gold-backed ZiG is the latest struggling attempt - and ~25 years of arrears that lock it out of IMF financing, under entrenched ZANU-PF rule with no judicial independence, a land-seizure property legacy, and a term-extension push stoking violence. A top-tier mineral endowment (Africa's largest lithium reserves) is undercut by an export ban, Chinese-dominated mining, and smuggling. A severe 2024 drought drove a national power crisis, the health system has collapsed amid cholera and a medic exodus, and the country is isolated from Western finance. Negative throughout."
+  "summary": "An economy defined by serial currency collapses - the 2024 gold-backed ZiG is the latest struggling attempt - and ~25 years of arrears that lock it out of IMF financing, under entrenched ZANU-PF rule with no judicial independence, a land-seizure property legacy, and a term-extension push stoking violence. A top-tier mineral endowment (Africa's largest lithium reserves) is undercut by an export ban, Chinese-dominated mining, and smuggling. A severe 2024 drought drove a national power crisis, the health system has collapsed amid cholera and a medic exodus, and the country is isolated from Western finance. Negative throughout.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

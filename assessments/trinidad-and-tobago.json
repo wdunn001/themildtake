@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -0.2,
-      "confidence": 0.82,
+      "score": -0.3,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "A wealthy energy economy with low inflation and a sovereign buffer, against structural gas decline and FX rationing.",
       "sub_factors": {
@@ -127,7 +127,7 @@
     },
     "political_social": {
       "score": -0.3,
-      "confidence": 0.76,
+      "confidence": 0.74,
       "skew": "negative",
       "notes": "A stable two-party system under SOE-era civil-liberties strain, with an ethnic cleavage and migrant-crackdown.",
       "sub_factors": {
@@ -201,7 +201,7 @@
     },
     "physical_practical": {
       "score": -0.7,
-      "confidence": 0.69,
+      "confidence": 0.68,
       "skew": "negative",
       "notes": "Below the main hurricane belt and relatively developed, against record gang violence.",
       "sub_factors": {
@@ -244,23 +244,25 @@
   },
   "decisions": {
     "living": {
-      "score": 0.48,
-      "confidence": 0.74,
+      "score": 0.49,
+      "confidence": 0.72,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
       "score": 0.28,
-      "confidence": 0.75,
+      "confidence": 0.72,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 0.06,
-      "confidence": 0.77,
+      "score": 0.05,
+      "confidence": 0.73,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "The wealthiest-per-capita Caribbean economy, anchored by oil/gas/LNG/petrochemicals and a substantial ~US$6.4bn Heritage & Stabilisation Fund, with low inflation and a stable two-party democracy that delivered an orderly handover to the UNC's Kamla Persad-Bissessar in April 2025. But the structural picture is negative: mature-field gas output keeps declining, diversification has stalled, growth is stuck near 0.8%, and defending the de-facto USD peg has drained reserves to a decades-low ~5.4 months of imports amid chronic FX rationing the IMF wants addressed. Compounding this are a severe gang-violence problem (a record-deadly 2024 and a late-2024 state of emergency) and an acutely volatile Venezuela border - migrant crackdowns, a diplomatic rupture, and OFAC-dependent cross-border gas (Dragon). A rich but resource-trapped state whose fortunes are tightly bound to energy prices and Venezuela."
+  "summary": "The wealthiest-per-capita Caribbean economy, anchored by oil/gas/LNG/petrochemicals and a substantial ~US$6.4bn Heritage & Stabilisation Fund, with low inflation and a stable two-party democracy that delivered an orderly handover to the UNC's Kamla Persad-Bissessar in April 2025. But the structural picture is negative: mature-field gas output keeps declining, diversification has stalled, growth is stuck near 0.8%, and defending the de-facto USD peg has drained reserves to a decades-low ~5.4 months of imports amid chronic FX rationing the IMF wants addressed. Compounding this are a severe gang-violence problem (a record-deadly 2024 and a late-2024 state of emergency) and an acutely volatile Venezuela border - migrant crackdowns, a diplomatic rupture, and OFAC-dependent cross-border gas (Dragon). A rich but resource-trapped state whose fortunes are tightly bound to energy prices and Venezuela.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

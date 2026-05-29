@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": -5.2,
-      "confidence": 0.66,
+      "score": -5.6,
+      "confidence": 0.58,
       "skew": "negative",
       "notes": "A collapsed, defaulted oil-rentier with a hyperinflation legacy and a catastrophic resource-curse output collapse.",
       "sub_factors": {
@@ -92,8 +92,8 @@
       }
     },
     "institutional": {
-      "score": -7.3,
-      "confidence": 0.69,
+      "score": -7.2,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "No judicial independence, unusable state data, a hollowed bureaucracy, and severe press repression.",
       "sub_factors": {
@@ -125,7 +125,7 @@
     },
     "political_social": {
       "score": -6.3,
-      "confidence": 0.6,
+      "confidence": 0.55,
       "skew": "negative",
       "notes": "A stolen-election legitimacy crisis, severe repression, and a humanitarian-scale exodus.",
       "sub_factors": {
@@ -197,7 +197,7 @@
     },
     "physical_practical": {
       "score": -7,
-      "confidence": 0.67,
+      "confidence": 0.58,
       "skew": "negative",
       "notes": "A collapsed health system, degraded infrastructure, and high crime.",
       "sub_factors": {
@@ -238,23 +238,25 @@
   },
   "decisions": {
     "living": {
-      "score": -6.02,
-      "confidence": 0.65,
+      "score": -5.98,
+      "confidence": 0.58,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -5.69,
-      "confidence": 0.65,
+      "score": -5.77,
+      "confidence": 0.58,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -5.74,
-      "confidence": 0.65,
+      "score": -5.95,
+      "confidence": 0.58,
       "horizon": "1-3y",
       "reading": "clear negative"
     }
   },
-  "summary": "A catastrophically mismanaged oil state: the world's largest reserves but output collapsed ~80% from peak, a defaulted and opaque budget, a hyperinflation legacy with informal dollarization, and a broken banking system. Politically it is authoritarian - the July-2024 election was widely regarded as stolen, with intensified repression, crimes-against-humanity findings, and hundreds of political prisoners - and it has produced a humanitarian-scale exodus of nearly a quarter of its population. Heavily sanctioned and isolated, with a collapsed health system and chronic blackouts, the dominant risk is fat-tail and the outcome distribution negative."
+  "summary": "A catastrophically mismanaged oil state: the world's largest reserves but output collapsed ~80% from peak, a defaulted and opaque budget, a hyperinflation legacy with informal dollarization, and a broken banking system. Politically it is authoritarian - the July-2024 election was widely regarded as stolen, with intensified repression, crimes-against-humanity findings, and hundreds of political prisoners - and it has produced a humanitarian-scale exodus of nearly a quarter of its population. Heavily sanctioned and isolated, with a collapsed health system and chronic blackouts, the dominant risk is fat-tail and the outcome distribution negative.",
+  "transparency_tier": "opaque",
+  "transparency_trend": "stable"
 }

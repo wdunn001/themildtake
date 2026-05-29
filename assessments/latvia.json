@@ -242,5 +242,7 @@
       "reading": "clear positive"
     }
   },
-  "summary": "A low-debt EU and eurozone democracy with solid, EU-standard institutions, a cleaned-up banking sector, a free press, and top-tier NATO alliance value as a frontline state. The countervailing tails are a Russia-border war and hybrid risk (a long frontier, Baltic drone incidents, undersea-cable sabotage), a real Russian-minority cleavage compounded by tightened residency rules, an underfunded health system, and among the EU's steepest demographic declines. Net, a balanced outcome distribution."
+  "summary": "A low-debt EU and eurozone democracy with solid, EU-standard institutions, a cleaned-up banking sector, a free press, and top-tier NATO alliance value as a frontline state. The countervailing tails are a Russia-border war and hybrid risk (a long frontier, Baltic drone incidents, undersea-cable sabotage), a real Russian-minority cleavage compounded by tightened residency rules, an underfunded health system, and among the EU's steepest demographic declines. Net, a balanced outcome distribution.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

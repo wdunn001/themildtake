@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": 0.1,
-      "confidence": 0.74,
+      "confidence": 0.72,
       "skew": "positive",
       "notes": "Fast regional growth on services/remittances/electronics and a credible central bank, against deteriorating fiscal space.",
       "sub_factors": {
@@ -91,7 +91,7 @@
     },
     "institutional": {
       "score": -3.7,
-      "confidence": 0.73,
+      "confidence": 0.71,
       "skew": "negative",
       "notes": "Weak rule of law and patronage-driven administration, with usable statistics and a press improved but still pressured.",
       "sub_factors": {
@@ -122,8 +122,8 @@
       }
     },
     "political_social": {
-      "score": -0.4,
-      "confidence": 0.71,
+      "score": -0.5,
+      "confidence": 0.7,
       "skew": "negative",
       "notes": "Acute dynastic political conflict and a weak-rights legacy, against an open residency route and a genuine demographic dividend.",
       "sub_factors": {
@@ -160,8 +160,8 @@
       }
     },
     "geopolitical": {
-      "score": -0.2,
-      "confidence": 0.74,
+      "score": -0.1,
+      "confidence": 0.73,
       "skew": "negative",
       "notes": "A deepening US alliance with an acute, ongoing South China Sea flashpoint.",
       "sub_factors": {
@@ -186,8 +186,8 @@
       }
     },
     "physical_practical": {
-      "score": -3.4,
-      "confidence": 0.74,
+      "score": -3.3,
+      "confidence": 0.72,
       "skew": "negative",
       "notes": "Among the most disaster-exposed countries on earth, with uneven healthcare and infrastructure.",
       "sub_factors": {
@@ -228,23 +228,25 @@
   },
   "decisions": {
     "living": {
-      "score": -1.87,
-      "confidence": 0.73,
+      "score": -1.86,
+      "confidence": 0.71,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.17,
-      "confidence": 0.73,
+      "score": -1.16,
+      "confidence": 0.72,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
       "score": -0.74,
-      "confidence": 0.74,
+      "confidence": 0.72,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "Fast regional growth on services, remittances, and electronics, a credible central bank, a genuine demographic dividend, and an open, English-friendly retiree-residency route. The drags are weak rule of law (a palace-level corruption scandal), acute dynastic political conflict, an extrajudicial-killing legacy, deteriorating fiscal space, and among the world's most extreme climate-disaster exposure. The South China Sea is an acute geopolitical flashpoint."
+  "summary": "Fast regional growth on services, remittances, and electronics, a credible central bank, a genuine demographic dividend, and an open, English-friendly retiree-residency route. The drags are weak rule of law (a palace-level corruption scandal), acute dynastic political conflict, an extrajudicial-killing legacy, deteriorating fiscal space, and among the world's most extreme climate-disaster exposure. The South China Sea is an acute geopolitical flashpoint.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

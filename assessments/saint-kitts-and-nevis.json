@@ -244,5 +244,7 @@
       "reading": "mixed"
     }
   },
-  "summary": "The region's highest-income state and pioneer of the 'golden passport', but 2024 exposed its core vulnerability: CBI revenue more than halved (from ~22% to ~8% of GDP) after EU-driven price floors and tighter due diligence, blowing the fiscal deficit out to ~11% of GDP. The saving grace is a low debt stock (~61% of GDP) built from past CBI windfalls, giving room to consolidate. It carries the heaviest CBI-related external scrutiny of the cohort and a severe violent-crime problem (homicide rate ~60/100k), while the federation's constitutional Nevis-secession option remains a dormant structural tail risk. Net skew is neutral with a near-term negative tilt as the economy adjusts to permanently lower passport income."
+  "summary": "The region's highest-income state and pioneer of the 'golden passport', but 2024 exposed its core vulnerability: CBI revenue more than halved (from ~22% to ~8% of GDP) after EU-driven price floors and tighter due diligence, blowing the fiscal deficit out to ~11% of GDP. The saving grace is a low debt stock (~61% of GDP) built from past CBI windfalls, giving room to consolidate. It carries the heaviest CBI-related external scrutiny of the cohort and a severe violent-crime problem (homicide rate ~60/100k), while the federation's constitutional Nevis-secession option remains a dormant structural tail risk. Net skew is neutral with a near-term negative tilt as the economy adjusts to permanently lower passport income.",
+  "transparency_tier": "observable",
+  "transparency_trend": "stable"
 }

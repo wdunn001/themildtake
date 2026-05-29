@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": 0.1,
-      "confidence": 0.82,
+      "confidence": 0.74,
       "skew": "negative",
       "notes": "New oil/gas and low peg-anchored inflation, against a major hidden-debt shock that froze the IMF program.",
       "sub_factors": {
@@ -125,7 +125,7 @@
     },
     "political_social": {
       "score": -0.6,
-      "confidence": 0.68,
+      "confidence": 0.67,
       "skew": "negative",
       "notes": "A democratic turnover that passed a crisis test, with fresh 2026 coalition friction.",
       "sub_factors": {
@@ -234,23 +234,25 @@
   },
   "decisions": {
     "living": {
-      "score": 0.21,
-      "confidence": 0.7,
+      "score": 0.2,
+      "confidence": 0.68,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.15,
-      "confidence": 0.74,
+      "score": 0.13,
+      "confidence": 0.71,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 0.05,
-      "confidence": 0.77,
+      "score": 0.03,
+      "confidence": 0.72,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "One of West Africa's strongest democratic traditions, which passed a 2024 turnover test under near-crisis conditions and is now bringing new oil and LNG online with low CFA-franc/euro-peg-anchored inflation and relatively good regional infrastructure. The dominant near-term shock is fiscal: a 2024 audit revealed hidden debt far above what had been reported (IMF-consolidated debt ~132% of GDP), freezing the IMF program and badly denting data integrity, atop fresh 2026 governing-coalition friction, Sahel-spillover risk, and severe coastal-erosion/drought exposure. The euro peg trades monetary autonomy for stability."
+  "summary": "One of West Africa's strongest democratic traditions, which passed a 2024 turnover test under near-crisis conditions and is now bringing new oil and LNG online with low CFA-franc/euro-peg-anchored inflation and relatively good regional infrastructure. The dominant near-term shock is fiscal: a 2024 audit revealed hidden debt far above what had been reported (IMF-consolidated debt ~132% of GDP), freezing the IMF program and badly denting data integrity, atop fresh 2026 governing-coalition friction, Sahel-spillover risk, and severe coastal-erosion/drought exposure. The euro peg trades monetary autonomy for stability.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

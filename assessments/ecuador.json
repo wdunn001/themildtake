@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": 0.6,
-      "confidence": 0.83,
+      "score": 0.5,
+      "confidence": 0.74,
       "skew": "negative",
       "notes": "Dollar-anchored stability and low inflation, against high financing needs, oil dependence, and an energy crisis.",
       "sub_factors": {
@@ -86,8 +86,8 @@
       }
     },
     "institutional": {
-      "score": -2.7,
-      "confidence": 0.74,
+      "score": -2.5,
+      "confidence": 0.7,
       "skew": "negative",
       "notes": "Usable statistics, against a weak, narco-infiltrated rule of law and a threatened press.",
       "sub_factors": {
@@ -118,8 +118,8 @@
       }
     },
     "political_social": {
-      "score": -2,
-      "confidence": 0.74,
+      "score": -1.9,
+      "confidence": 0.72,
       "skew": "negative",
       "notes": "Lawful migration handling, against political volatility, militarised-security strain, and deep cleavages.",
       "sub_factors": {
@@ -156,8 +156,8 @@
       }
     },
     "geopolitical": {
-      "score": -0.5,
-      "confidence": 0.79,
+      "score": -0.4,
+      "confidence": 0.73,
       "skew": "negative",
       "notes": "An open, US-aligned posture, dominated by an internal-security war.",
       "sub_factors": {
@@ -182,8 +182,8 @@
       }
     },
     "physical_practical": {
-      "score": -4.8,
-      "confidence": 0.72,
+      "score": -4.7,
+      "confidence": 0.7,
       "skew": "negative",
       "notes": "Seismic and climate exposure, a weak health system, an energy crisis, and a catastrophic crime collapse.",
       "sub_factors": {
@@ -224,23 +224,25 @@
   },
   "decisions": {
     "living": {
-      "score": -2.15,
-      "confidence": 0.75,
+      "score": -2.12,
+      "confidence": 0.71,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.08,
-      "confidence": 0.78,
+      "score": -1.12,
+      "confidence": 0.72,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -0.26,
-      "confidence": 0.8,
+      "score": -0.33,
+      "confidence": 0.73,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A fully dollarized economy whose genuine strengths - dollar-anchored stability, low inflation, no local-currency devaluation risk, and an open capital account - are dominated by a catastrophic security collapse: a declared internal armed conflict against cartels, a homicide rate that exploded to among the region's highest, and a justice system infiltrated by organized crime. High fiscal financing needs under an IMF program, structural oil decline, a 2024 drought-driven electricity crisis, political volatility, and seismic/climate exposure round out a negative profile. Dollarization removes the FX-crisis lever but also any monetary flexibility."
+  "summary": "A fully dollarized economy whose genuine strengths - dollar-anchored stability, low inflation, no local-currency devaluation risk, and an open capital account - are dominated by a catastrophic security collapse: a declared internal armed conflict against cartels, a homicide rate that exploded to among the region's highest, and a justice system infiltrated by organized crime. High fiscal financing needs under an IMF program, structural oil decline, a 2024 drought-driven electricity crisis, political volatility, and seismic/climate exposure round out a negative profile. Dollarization removes the FX-crisis lever but also any monetary flexibility.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

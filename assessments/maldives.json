@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": -2.8,
-      "confidence": 0.81,
+      "confidence": 0.74,
       "skew": "negative",
       "notes": "A luxury-tourism economy in acute debt distress with a dangerous bank-sovereign nexus.",
       "sub_factors": {
@@ -184,8 +184,8 @@
       }
     },
     "physical_practical": {
-      "score": -2.6,
-      "confidence": 0.66,
+      "score": -2.4,
+      "confidence": 0.63,
       "skew": "negative",
       "notes": "An existential climate threat as the world's lowest-lying nation, with debt crowding out social spend.",
       "sub_factors": {
@@ -226,23 +226,25 @@
   },
   "decisions": {
     "living": {
-      "score": -1.95,
-      "confidence": 0.69,
+      "score": -1.9,
+      "confidence": 0.67,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.79,
-      "confidence": 0.72,
+      "score": -1.73,
+      "confidence": 0.69,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -2.1,
-      "confidence": 0.75,
+      "score": -2.04,
+      "confidence": 0.71,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A high-income luxury-tourism economy gripped by an acute external and debt crisis: reserves fell to roughly $440m against far larger 2025-26 obligations, twin 2024 downgrades cut market access, and a first-ever sovereign sukuk default was only narrowly averted by Indian support (a $400m swap and $565m credit line). Governance is backsliding - a September 2025 media-control law, attacks on the press, weakened oversight bodies, and large anti-corruption protests - alongside severe abuse of its large Bangladeshi migrant workforce and creeping Islamist-conservative pressure. Geopolitically it whipsawed from Muizzu's 'India Out'/pro-China tilt to renewed reliance on India in 2025. Above all, as the world's lowest-lying nation it faces an existential long-run climate threat, making the overall skew firmly negative."
+  "summary": "A high-income luxury-tourism economy gripped by an acute external and debt crisis: reserves fell to roughly $440m against far larger 2025-26 obligations, twin 2024 downgrades cut market access, and a first-ever sovereign sukuk default was only narrowly averted by Indian support (a $400m swap and $565m credit line). Governance is backsliding - a September 2025 media-control law, attacks on the press, weakened oversight bodies, and large anti-corruption protests - alongside severe abuse of its large Bangladeshi migrant workforce and creeping Islamist-conservative pressure. Geopolitically it whipsawed from Muizzu's 'India Out'/pro-China tilt to renewed reliance on India in 2025. Above all, as the world's lowest-lying nation it faces an existential long-run climate threat, making the overall skew firmly negative.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

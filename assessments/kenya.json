@@ -42,8 +42,8 @@
   },
   "categories": {
     "economic": {
-      "score": 0.9,
-      "confidence": 0.81,
+      "score": 1,
+      "confidence": 0.74,
       "skew": "symmetric",
       "notes": "A credible central bank, well-anchored inflation, and sound banks, against a heavy debt overhang.",
       "sub_factors": {
@@ -118,8 +118,8 @@
       }
     },
     "political_social": {
-      "score": -2,
-      "confidence": 0.74,
+      "score": -1.9,
+      "confidence": 0.72,
       "skew": "negative",
       "notes": "A demographic dividend, against protest-era repression, ethnic-bloc politics, and youth unemployment.",
       "sub_factors": {
@@ -157,7 +157,7 @@
     },
     "geopolitical": {
       "score": 1.7,
-      "confidence": 0.8,
+      "confidence": 0.75,
       "skew": "symmetric",
       "notes": "A valued Western partner and regional hub, against cross-border terrorism exposure.",
       "sub_factors": {
@@ -183,7 +183,7 @@
     },
     "physical_practical": {
       "score": -2.1,
-      "confidence": 0.68,
+      "confidence": 0.67,
       "skew": "negative",
       "notes": "Good regional infrastructure, against drought/flood exposure, an underfunded health system, and elevated crime.",
       "sub_factors": {
@@ -222,23 +222,25 @@
   },
   "decisions": {
     "living": {
-      "score": -0.39,
-      "confidence": 0.73,
+      "score": -0.37,
+      "confidence": 0.71,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.45,
-      "confidence": 0.76,
+      "score": 0.47,
+      "confidence": 0.72,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 0.86,
-      "confidence": 0.78,
+      "score": 0.92,
+      "confidence": 0.73,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "A regional economic hub with genuine strengths - a credible central bank, well-anchored inflation, a sophisticated banking sector, a strong 2010 constitution and assertive judiciary, a vibrant press, and a fintech-led services economy - set against a heavy debt overhang, entrenched corruption, and the strain of the deadly 2024 anti-tax protests and 2025 unrest. Climate exposure (drought and flood), an underfunded health system, elevated urban and border-zone crime, and ethnic-bloc politics weigh on the other side, leaving a genuinely two-sided profile."
+  "summary": "A regional economic hub with genuine strengths - a credible central bank, well-anchored inflation, a sophisticated banking sector, a strong 2010 constitution and assertive judiciary, a vibrant press, and a fintech-led services economy - set against a heavy debt overhang, entrenched corruption, and the strain of the deadly 2024 anti-tax protests and 2025 unrest. Climate exposure (drought and flood), an underfunded health system, elevated urban and border-zone crime, and ethnic-bloc politics weigh on the other side, leaving a genuinely two-sided profile.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

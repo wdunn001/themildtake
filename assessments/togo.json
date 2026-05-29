@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": 1.4,
-      "confidence": 0.8,
+      "confidence": 0.73,
       "skew": "positive",
       "notes": "Steady ~5.3% growth, low peg-anchored inflation, and an on-track IMF program, with elevated debt and a still-narrow base the constraints.",
       "sub_factors": {
@@ -89,7 +89,7 @@
     },
     "institutional": {
       "score": -1.8,
-      "confidence": 0.71,
+      "confidence": 0.69,
       "skew": "negative",
       "notes": "Usable macro/statistical capacity, but rule of law and the press are squeezed by entrenched single-family rule.",
       "sub_factors": {
@@ -121,7 +121,7 @@
     },
     "political_social": {
       "score": -2.5,
-      "confidence": 0.7,
+      "confidence": 0.68,
       "skew": "negative",
       "notes": "A 58-year dynasty entrenched indefinitely by the 2024 reform, met by 2025 protests and a deadly crackdown.",
       "sub_factors": {
@@ -231,22 +231,24 @@
   "decisions": {
     "living": {
       "score": -1.48,
-      "confidence": 0.71,
+      "confidence": 0.68,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -0.26,
-      "confidence": 0.74,
+      "score": -0.3,
+      "confidence": 0.7,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 0.34,
-      "confidence": 0.77,
+      "score": 0.31,
+      "confidence": 0.71,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "Togo pairs decent WAEMU macro performance with one of West Africa's most entrenched autocracies. The economy grows steadily (~5.3%), inflation is low and euro-peg-anchored, an IMF ECF is on track, and the Lome deep-water port plus phosphates give a regional logistics-and-mining base. The dominant story is political: the Gnassingbe family has ruled since 1967, and a 2024-25 constitutional rewrite to a parliamentary system made Faure Gnassingbe an indefinitely renewable President of the Council of Ministers - an opposition-branded 'constitutional coup' that triggered mid-2025 Lome protests and a crackdown killing at least five. Rising-but-still-contained JNIM spillover into the northern Savanes region, a squeezed press (RSF 121/180), coastal-erosion exposure, and a weak health system reinforce a negatively skewed profile: stable cash-flow fundamentals against poor governance, civil-liberties, and security tails."
+  "summary": "Togo pairs decent WAEMU macro performance with one of West Africa's most entrenched autocracies. The economy grows steadily (~5.3%), inflation is low and euro-peg-anchored, an IMF ECF is on track, and the Lome deep-water port plus phosphates give a regional logistics-and-mining base. The dominant story is political: the Gnassingbe family has ruled since 1967, and a 2024-25 constitutional rewrite to a parliamentary system made Faure Gnassingbe an indefinitely renewable President of the Council of Ministers - an opposition-branded 'constitutional coup' that triggered mid-2025 Lome protests and a crackdown killing at least five. Rising-but-still-contained JNIM spillover into the northern Savanes region, a squeezed press (RSF 121/180), coastal-erosion exposure, and a weak health system reinforce a negatively skewed profile: stable cash-flow fundamentals against poor governance, civil-liberties, and security tails.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

@@ -43,7 +43,7 @@
   "categories": {
     "economic": {
       "score": -0.8,
-      "confidence": 0.73,
+      "confidence": 0.7,
       "skew": "negative",
       "notes": "A peg-anchored but weak-revenue, remittance-financed economy with a tiny export base.",
       "sub_factors": {
@@ -224,23 +224,25 @@
   },
   "decisions": {
     "living": {
-      "score": -2.1,
+      "score": -2.12,
       "confidence": 0.62,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.18,
-      "confidence": 0.65,
+      "score": -1.2,
+      "confidence": 0.64,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -0.73,
-      "confidence": 0.68,
+      "score": -0.75,
+      "confidence": 0.66,
       "horizon": "1-3y",
       "reading": "mixed"
     }
   },
-  "summary": "One of the world's poorest states - a coup-prone Indian Ocean archipelago with deep inter-island secessionist fractures (Anjouan/Moheli) and the unresolved Mayotte dispute. President Azali Assoumani, a former coup leader who removed term limits, won a disputed January 2024 election (62.97% on ~16% turnout) marred by fraud claims and deadly unrest, atop weak institutions and pervasive corruption. Its clearest structural strengths are external anchors rather than domestic capacity: the euro-pegged franc with a French convertibility guarantee, robust diaspora remittances, and an IMF ECF program. The skew is negative - chronic political fragility, very weak human capital and healthcare, and acute cyclone/volcanic exposure (Cyclone Chido hit in Dec 2024) outweigh the monetary anchor."
+  "summary": "One of the world's poorest states - a coup-prone Indian Ocean archipelago with deep inter-island secessionist fractures (Anjouan/Moheli) and the unresolved Mayotte dispute. President Azali Assoumani, a former coup leader who removed term limits, won a disputed January 2024 election (62.97% on ~16% turnout) marred by fraud claims and deadly unrest, atop weak institutions and pervasive corruption. Its clearest structural strengths are external anchors rather than domestic capacity: the euro-pegged franc with a French convertibility guarantee, robust diaspora remittances, and an IMF ECF program. The skew is negative - chronic political fragility, very weak human capital and healthcare, and acute cyclone/volcanic exposure (Cyclone Chido hit in Dec 2024) outweigh the monetary anchor.",
+  "transparency_tier": "mixed",
+  "transparency_trend": "stable"
 }

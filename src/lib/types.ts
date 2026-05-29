@@ -4,6 +4,10 @@
 
 export type Skew = "positive" | "negative" | "symmetric" | "unknown";
 
+/** Observability tier — how much the truth about a country can be seen. */
+export type TransparencyTier = "observable" | "mixed" | "opaque" | "unknown";
+export type TransparencyTrend = "declining" | "stable";
+
 export type DecisionKey = "living" | "assets" | "currency";
 
 export interface SubFactor {
@@ -52,6 +56,8 @@ export interface Assessment {
   categories: Record<string, Category>;
   decisions: Record<string, Decision>;
   summary?: string;
+  transparency_tier?: TransparencyTier;
+  transparency_trend?: TransparencyTrend;
 }
 
 export interface RankingRow {
@@ -61,6 +67,8 @@ export interface RankingRow {
   score: number;
   confidence: number;
   skew?: Skew;
+  transparency_tier?: TransparencyTier;
+  transparency_trend?: TransparencyTrend;
 }
 
 export interface ComparisonScale {
