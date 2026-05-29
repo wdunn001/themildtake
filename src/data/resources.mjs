@@ -102,8 +102,7 @@ export const RESOURCES = [
     url: "https://integrityindex.us/",
     role: "Congressional integrity",
     description:
-      "Integrity grades for every member of Congress and 2026 candidate, built from FEC filings, STOCK Act trades, PAC money, lobbying ties, and conflict-of-interest signals. No public API — see the Congress indicator for how we aggregate it.",
-    related: "/congress",
+      "Integrity grades for every member of Congress and 2026 candidate, built from FEC filings, STOCK Act trades, PAC money, lobbying ties, and conflict-of-interest signals. No public API.",
     feed: { url: "https://stockingthecapitol.substack.com/feed", label: "Stocking the Capitol updates" },
   },
   {

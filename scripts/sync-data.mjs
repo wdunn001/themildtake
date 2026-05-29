@@ -149,14 +149,6 @@ async function main() {
     // schema.json is optional for the runtime app; skip if absent.
   }
 
-  // congress integrity dataset (sample until a real ingestion is wired)
-  try {
-    const congress = await readJson(path.join(repoRoot, "congress-integrity.json"));
-    await fs.writeFile(path.join(outDir, "congress-integrity.json"), JSON.stringify(congress));
-  } catch {
-    // optional; the Congress page degrades to an unavailable state if absent.
-  }
-
   // Per-country assessments -> <iso3>.json
   const entries = await fs.readdir(srcAssessmentsDir);
   const jsonFiles = entries.filter((f) => f.endsWith(".json") && !f.startsWith("_"));
