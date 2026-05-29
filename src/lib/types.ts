@@ -90,3 +90,49 @@ export interface ComparisonIndex {
   headline_findings: string[];
   outstanding_work: string[];
 }
+
+// ---- Personal Fit / Relocate (reader-specific, client-side only) ----
+
+export type ProfessionCluster =
+  | "tech" | "medical" | "engineering" | "finance" | "legal" | "trades" | "academic" | "any";
+export type CapitalBand = "none" | "under50k" | "50k-250k" | "250k-1m" | "over1m";
+export type Goal = "live" | "invest" | "currency";
+
+/** A reader's profile. Stored only in the browser (localStorage); never sent anywhere. */
+export interface Profile {
+  originIso3: string;
+  citizenships?: string[];
+  languages: string[];
+  profession: ProfessionCluster;
+  capitalBand: CapitalBand;
+  goals: Goal[];
+  /** Optional refine fields (progressive). */
+  ancestryIso3?: string[];
+  hasFamilyTies?: boolean;
+  age?: number;
+  riskTolerance?: "low" | "medium" | "high";
+  /** Optional per-decision weight overrides for the personal_fit category (0..1). */
+  priorities?: Partial<Record<DecisionKey, number>>;
+}
+
+export interface ImmigrationProgram {
+  name: string;
+  type: "skilled" | "investor" | "income" | "digital-nomad" | "ancestry" | "student" | "family";
+  eligibility: { minCapitalUsd: number; professions: string[]; languageReq: "none" | "basic" | "official" };
+  difficulty: "easy" | "moderate" | "hard";
+  timeToPrYears: number;
+  timeToCitizenshipYears: number;
+  officialUrl: string;
+}
+
+export interface Pathway {
+  iso3: string;
+  country: string;
+  languages: string[];
+  demandProfessions: string[];
+  immigration: ImmigrationProgram[];
+  assets: { foreignPropertyOwnership: string; foreignSecurities: string; nonResidentBrokerage: string; note: string; officialUrl: string };
+  currency: { capitalAccountOpen: boolean; nonResidentBanking: string; fxControls: string; centralBankUrl: string };
+  credentials: { note: string; url: string };
+  links: { immigration: string; investment: string; centralBank: string };
+}
