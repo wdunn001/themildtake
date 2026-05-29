@@ -5,10 +5,8 @@ import { readChartTokens } from "./echartsSetup";
 
 export interface TrajectoryLine {
   name: string;
-  /** [near, mid, long] composites for this decision's weighting. */
+  /** [currency (near), assets (mid), living (long)] decision scores. */
   points: [number, number, number];
-  /** Index (0 near / 1 mid / 2 long) of the horizon this decision reports. */
-  nativeIndex: number;
   color: string;
 }
 
@@ -17,25 +15,24 @@ interface Props {
   height?: number;
 }
 
-const X = ["Near · 1–3y", "Mid · 3–7y", "Long · 5–10y"];
+// Each x-position is the decision that natively reads that horizon, so the line
+// traces a country's risk from the near term (currency) to the long term (living).
+const X = ["Currency · 1–3y", "Assets · 3–7y", "Living · 5–10y"];
 
-/** Line chart of each decision's score projected across the three horizons. The
- *  enlarged point on each line is the horizon that decision actually reports. */
 export default function HorizonTrajectory({ lines, height = 300 }: Props) {
   const option = useMemo<EChartsCoreOption>(() => {
     const t = readChartTokens();
+    const multi = lines.length > 1;
     return {
       textStyle: { fontFamily: t.fontMono },
       tooltip: {
         trigger: "axis",
         valueFormatter: (v: unknown) => (typeof v === "number" ? v.toFixed(2) : String(v)),
       },
-      legend: {
-        top: 0,
-        textStyle: { color: t.fgMuted, fontFamily: t.fontMono, fontSize: 11 },
-        data: lines.map((l) => l.name),
-      },
-      grid: { left: 4, right: 14, top: 32, bottom: 4, containLabel: true },
+      legend: multi
+        ? { top: 0, textStyle: { color: t.fgMuted, fontFamily: t.fontMono, fontSize: 11 }, data: lines.map((l) => l.name) }
+        : undefined,
+      grid: { left: 4, right: 14, top: multi ? 32 : 12, bottom: 4, containLabel: true },
       xAxis: {
         type: "category",
         data: X,
@@ -56,14 +53,18 @@ export default function HorizonTrajectory({ lines, height = 300 }: Props) {
         type: "line",
         name: l.name,
         smooth: false,
-        lineStyle: { color: l.color, width: 2 },
+        symbolSize: 8,
+        lineStyle: { color: l.color, width: 2.5 },
         itemStyle: { color: l.color },
-        // Enlarge the reported horizon's point so it reads as "the score we use".
-        data: l.points.map((v, idx) => ({
-          value: v,
-          symbolSize: idx === l.nativeIndex ? 13 : 6,
-          itemStyle: idx === l.nativeIndex ? { borderColor: t.bgElev, borderWidth: 2 } : undefined,
-        })),
+        label: {
+          show: true,
+          position: "top",
+          color: t.fgMuted,
+          fontFamily: t.fontMono,
+          fontSize: 10,
+          formatter: (p: { value: number }) => (typeof p.value === "number" ? p.value.toFixed(1) : ""),
+        },
+        data: l.points,
         markLine:
           i === 0
             ? {
@@ -78,5 +79,5 @@ export default function HorizonTrajectory({ lines, height = 300 }: Props) {
     };
   }, [lines]);
 
-  return <EChart option={option} height={height} ariaLabel="Score trajectory across time horizons" />;
+  return <EChart option={option} height={height} ariaLabel="Risk trajectory from near to long horizon" />;
 }

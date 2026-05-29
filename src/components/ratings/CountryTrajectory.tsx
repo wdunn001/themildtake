@@ -1,24 +1,22 @@
 import { useMemo } from "preact/hooks";
 import { getAssessment } from "../../lib/dataClient";
 import { useAsync } from "./useAsync";
-import { DECISION_LABELS, COMPARE_PALETTE } from "../../lib/scores";
+import { COMPARE_PALETTE } from "../../lib/scores";
 import type { Assessment, DecisionKey } from "../../lib/types";
 import HorizonTrajectory from "./HorizonTrajectory";
 
-const NATIVE_IDX: Record<string, number> = { currency: 0, assets: 1, living: 2 };
+const ORDER: DecisionKey[] = ["currency", "assets", "living"];
 
 interface Props {
   /** iso3 list, as an array or comma-separated string (e.g. "usa,chn"). */
   countries: string | string[];
-  /** Which decision's weighting to project. Defaults to living. */
-  decision?: DecisionKey;
   caption?: string;
   height?: number;
 }
 
-/** Article-embeddable: overlays several countries' near->long score trajectory
- *  for one decision. Use in MDX with a client directive. */
-export default function CountryTrajectory({ countries, decision = "living", caption, height = 320 }: Props) {
+/** Article-embeddable: overlays each country's risk read across the three
+ *  decision horizons — currency (near) -> assets (mid) -> living (long). */
+export default function CountryTrajectory({ countries, caption, height = 320 }: Props) {
   const isos = (Array.isArray(countries) ? countries : countries.split(","))
     .map((s) => s.trim().toLowerCase())
     .filter(Boolean);
@@ -31,17 +29,13 @@ export default function CountryTrajectory({ countries, decision = "living", capt
   const lines = useMemo(() => {
     const list = data ?? [];
     return list
-      .filter((a) => a.decisions[decision]?.trajectory)
-      .map((a, i) => {
-        const tr = a.decisions[decision]!.trajectory!;
-        return {
-          name: a.country,
-          points: [tr.near, tr.mid, tr.long] as [number, number, number],
-          nativeIndex: NATIVE_IDX[decision],
-          color: COMPARE_PALETTE[i % COMPARE_PALETTE.length],
-        };
-      });
-  }, [data, decision]);
+      .filter((a) => ORDER.every((dk) => a.decisions[dk]))
+      .map((a, i) => ({
+        name: a.country,
+        points: ORDER.map((dk) => a.decisions[dk].score) as [number, number, number],
+        color: COMPARE_PALETTE[i % COMPARE_PALETTE.length],
+      }));
+  }, [data]);
 
   return (
     <figure class="ct">
@@ -53,7 +47,7 @@ export default function CountryTrajectory({ countries, decision = "living", capt
         <HorizonTrajectory lines={lines} height={height} />
       )}
       <figcaption class="ct__cap">
-        {caption ?? `${DECISION_LABELS[decision]} score · near → long horizon`}
+        {caption ?? "Risk read across horizons: currency (near) → living (long)"}
       </figcaption>
       <style>{`
         .ct { margin: 1.75rem 0; border: 1px solid var(--border); border-radius: 10px; background: var(--bg-elev); padding: 1rem; }

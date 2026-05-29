@@ -21,8 +21,7 @@ import CategoryRadar from "./CategoryRadar";
 import DecisionBars from "./DecisionBars";
 import HorizonTrajectory from "./HorizonTrajectory";
 
-const TRAJ_COLOR: Record<string, string> = { living: "#3B82F6", assets: "#8B5CF6", currency: "#22D3EE" };
-const NATIVE_IDX: Record<string, number> = { currency: 0, assets: 1, living: 2 };
+// Ordered near -> long: each decision reads its native horizon.
 const HORIZON_ROWS: [DecisionKey, string, string, string][] = [
   ["currency", "Currency", "~1–3y", "near-term"],
   ["assets", "Assets", "~3–7y", "interpolated"],
@@ -57,17 +56,17 @@ export default function CountryDetail({ iso3 }: Props) {
   ];
   const decisionScores = decisionKeys.map((dk) => data.decisions[dk].score);
 
-  const trajLines = decisionKeys
-    .filter((dk) => data.decisions[dk].trajectory)
-    .map((dk) => {
-      const tr = data.decisions[dk].trajectory!;
-      return {
-        name: DECISION_LABELS[dk],
-        points: [tr.near, tr.mid, tr.long] as [number, number, number],
-        nativeIndex: NATIVE_IDX[dk],
-        color: TRAJ_COLOR[dk],
-      };
-    });
+  // One line tracing the country's risk from near (currency) to long (living).
+  const hasAllDecisions = HORIZON_ROWS.every(([dk]) => data.decisions[dk]);
+  const trajLines = hasAllDecisions
+    ? [
+        {
+          name: data.country,
+          points: HORIZON_ROWS.map(([dk]) => data.decisions[dk].score) as [number, number, number],
+          color: "#3B82F6",
+        },
+      ]
+    : [];
 
   return (
     <div class="cd">
@@ -127,8 +126,9 @@ export default function CountryDetail({ iso3 }: Props) {
         <section class="cd__traj">
           <h2 class="cd__h">Trajectory over the horizon</h2>
           <p class="cd__hint">
-            Each decision's score projected from near- to long-term. The enlarged point is the
-            horizon that decision actually reports.
+            The risk read from the near term (currency, 1–3y) to the long term (living, 5–10y).
+            Each point is the decision that natively reads that horizon, so the slope shows where
+            the country is headed.
           </p>
           <div class="cd__trajgrid">
             <figure class="cd__chart">
