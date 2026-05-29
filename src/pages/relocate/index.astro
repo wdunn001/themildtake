@@ -1,0 +1,40 @@
+---
+import Base from "../../layouts/Base.astro";
+import RelocateWizard from "../../components/relocate/RelocateWizard";
+import { SITE_NAME } from "../../lib/site";
+---
+<Base
+  title={`Relocate - personalized pathways - ${SITE_NAME}`}
+  description="A private, client-side tool that layers your profile (origin, languages, profession, capital, goal) onto the country-risk base to personalize the living, assets, and currency reads and surface real immigration, asset, and currency pathways with official links."
+>
+  <section class="container relocate">
+    <header class="relocate__head">
+      <p class="eyebrow">relocate &middot; personal fit</p>
+      <h1>Find your pathways</h1>
+      <p class="relocate__lead">
+        Tell us a little about yourself and we re-rank destinations for <strong>you</strong> -
+        layering personal fit (language, immigration route, profession demand, cost, belonging)
+        on top of the general country-risk base, then pointing you at the real
+        immigration, asset, and currency pathways with official links. Start with the quick
+        form and refine as much as you like. Everything stays in your browser; nothing is sent
+        anywhere.
+      </p>
+      <p class="relocate__disclaimer">
+        General information, <strong>not legal, financial, immigration, or tax advice</strong>.
+        Programs and terms change often; confirm current details on the official links before acting.
+      </p>
+    </header>
+
+    <RelocateWizard client:load />
+  </section>
+</Base>
+
+<style>
+  .relocate { padding: 3rem 0 5rem; }
+  .relocate__head { margin-bottom: 2rem; }
+  .relocate__head h1 { font-size: clamp(1.875rem, 4vw, 2.5rem); }
+  .relocate__lead { color: var(--fg-muted); max-width: 72ch; }
+  .relocate__lead strong { color: var(--fg); }
+  .relocate__disclaimer { margin-top: 1rem; font-size: 0.8125rem; color: var(--fg-faint); max-width: 72ch; border-left: 3px solid var(--mixed); padding-left: 0.75rem; }
+  .relocate__disclaimer strong { color: var(--fg-muted); }
+</style>
