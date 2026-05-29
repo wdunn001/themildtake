@@ -1,0 +1,244 @@
+{
+  "country": "Latvia",
+  "iso3": "LVA",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF Art IV, EC, Eurostat, OECD, WJP, RSF, TI, MONEYVAL) + Latvian official (CSB, Bank of Latvia, MFA/PMLP) + Latvian independent press (LSM).",
+    "A solid-institution EU/eurozone NATO frontline state; the dominant tails are a Russia-border war/hybrid risk and a severe demographic decline.",
+    "Standout features: low debt, EU-standard institutions, top-tier alliance value, against a Russia-border war tail, a Russian-minority cleavage, and steep depopulation. Source-lean: MODERATE Anglophone on security framing."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 3.8,
+      "confidence": 0.85,
+      "skew": "positive",
+      "notes": "Low debt and a cleaned-up banking sector, against a defense-driven rising deficit and lost Russia transit.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 5,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Low debt (~47% GDP) but a deficit rising toward ~3.3% on 5%-of-GDP defence; the IMF flags eroding space. (EC forecast; IMF Art IV 2025)"
+        },
+        "monetary_independence": {
+          "score": 5,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "Pooled at the ECB, eurozone. (ECB)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 2,
+          "weight": 0.16,
+          "confidence": 0.9,
+          "notes": "Holds the euro. (IMF COFER)"
+        },
+        "inflation": {
+          "score": 3,
+          "weight": 0.13,
+          "confidence": 0.8,
+          "notes": "Eased to ~2.3% with a small 2026 energy-driven uptick. (Eurostat; Bank of Latvia)"
+        },
+        "banking_stability": {
+          "score": 4,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "Sound, with the prior money-laundering legacy largely resolved and a strong recent MONEYVAL evaluation. (MONEYVAL; LSM)"
+        },
+        "trade_actions_capacity": {
+          "score": 3,
+          "weight": 0.17,
+          "confidence": 0.8,
+          "notes": "Timber/transit/services plus manufacturing, EU-integrated; the lost Russia transit/trade re-orienting to the EU/Nordics. (CSB; LSM)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 6.3,
+      "confidence": 0.81,
+      "skew": "positive",
+      "notes": "Strong, EU-standard institutions, with the AML legacy a watch.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 6,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "Strong and EU-standard, with EC-flagged procurement-corruption risk and an AML watch. (EC Rule of Law 2025; WJP)"
+        },
+        "statistical_integrity": {
+          "score": 8,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "CSB is credible and Eurostat-aligned. (CSB; Eurostat)"
+        },
+        "civil_service_capacity": {
+          "score": 5,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Capable and EU-fund-absorbing, with small-state capacity limits. (EC)"
+        },
+        "press_freedom": {
+          "score": 6,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "Free (RSF ~15th), with a Russian-speaker info-access caveat. (RSF 2025; LSM)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 1.5,
+      "confidence": 0.79,
+      "skew": "negative",
+      "notes": "A stable democracy with strong liberties, against a Russian-minority cleavage and steep depopulation.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 5,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "A stable EU democracy, orderly, with a strong anti-Russia consensus. (EC; V-Dem)"
+        },
+        "civil_liberties": {
+          "score": 6,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Strong and EU-standard. (EC Rule of Law; V-Dem)"
+        },
+        "treatment_non_citizens": {
+          "score": 0,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "EU norms, but with a large legacy 'non-citizen' population and tightened 2022-25 residency/language rules pushing out Russian nationals. (PMLP; RFE/RL)"
+        },
+        "social_cohesion": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "A real Russian-minority cleavage, with integration/language gaps and info-space vulnerability. (EC; State Security Service)"
+        },
+        "demographics": {
+          "score": -7,
+          "weight": 0.1,
+          "confidence": 0.9,
+          "notes": "Among the EU's steepest declines - heavy emigration, low fertility (~1.36), and deep ageing. (CSB; Eurostat)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 2.2,
+      "confidence": 0.82,
+      "skew": "negative",
+      "notes": "Top-tier alliance value, squarely offset by a Russia-border war/hybrid tail.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 8,
+          "weight": 0.4,
+          "confidence": 0.85,
+          "notes": "A NATO/EU frontline stalwart and top-tier defence spender (toward 5% of GDP), hardline on Russia. (NATO; LSM)"
+        },
+        "conflict_involvement": {
+          "score": -6,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "Frontline to the Russia-Ukraine war with a ~400km Russia/Belarus border, Baltic drone incidents, and undersea-cable sabotage - a real elevated tail. (Euronews; Atlantic Council)"
+        },
+        "sanctions_capital_controls": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "An EU regime with an open capital account. (EC)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 1.4,
+      "confidence": 0.71,
+      "skew": "negative",
+      "notes": "Decent infrastructure and energy security, against an underfunded health system.",
+      "sub_factors": {
+        "climate": {
+          "score": 3,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Baltic, with low catastrophe exposure and moderate warming effects. (EC)"
+        },
+        "healthcare": {
+          "score": -2,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "Universal but underfunded (the Baltics' weaker), with unmet need and medic shortages. (OECD Health at a Glance 2025)"
+        },
+        "infrastructure": {
+          "score": 4,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "Decent and EU-funded, with the Feb-2025 Baltic grid desync from Russia an energy-security gain (a sabotage-target risk). (Atlantic Council; ECFR)"
+        },
+        "crime_safety": {
+          "score": 3,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "Low-to-moderate; the hybrid/border dimension is scored separately. (general)"
+        },
+        "disaster_insurance": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Moderate, with low catastrophe exposure. (general)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 3.62,
+      "confidence": 0.8,
+      "horizon": "5-10y",
+      "reading": "clear positive"
+    },
+    "assets": {
+      "score": 3.77,
+      "confidence": 0.82,
+      "horizon": "3-7y",
+      "reading": "clear positive"
+    },
+    "currency": {
+      "score": 3.97,
+      "confidence": 0.83,
+      "horizon": "1-3y",
+      "reading": "clear positive"
+    }
+  },
+  "summary": "A low-debt EU and eurozone democracy with solid, EU-standard institutions, a cleaned-up banking sector, a free press, and top-tier NATO alliance value as a frontline state. The countervailing tails are a Russia-border war and hybrid risk (a long frontier, Baltic drone incidents, undersea-cable sabotage), a real Russian-minority cleavage compounded by tightened residency rules, an underfunded health system, and among the EU's steepest demographic declines. Net, a balanced outcome distribution."
+}

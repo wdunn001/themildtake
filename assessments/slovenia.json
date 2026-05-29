@@ -1,0 +1,244 @@
+{
+  "country": "Slovenia",
+  "iso3": "SVN",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF Art IV, EC, Eurostat, WJP, RSF, TI, WHO, EEA) + Slovenian official (SURS, Bank of Slovenia, IMAD) + independent press (Balkan Insight, EUobserver).",
+    "A small, wealthy, stable EU/eurozone democracy with strong institutions; 2026 brought an orderly, lawful change of government with a democratic-backsliding watch under the returning right.",
+    "Standout features: strong institutions, sound banks, very low crime, against ageing demographics, German-supply-chain export concentration, and recurrent catastrophic flooding. Source-lean: MODERATE Anglophone on political-narrative items."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 4.4,
+      "confidence": 0.85,
+      "skew": "positive",
+      "notes": "A high-complexity export economy, sound banks, and euro membership, with German-supply-chain exposure the risk.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 5,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Debt ~66% GDP on a downward path with a ~2.8% deficit target, the IMF urging consolidation. (IMF 2025 Art IV)"
+        },
+        "monetary_independence": {
+          "score": 5,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "Pooled at the ECB - no own policy. (ECB)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 2,
+          "weight": 0.16,
+          "confidence": 0.9,
+          "notes": "Euro membership. (IMF COFER)"
+        },
+        "inflation": {
+          "score": 3,
+          "weight": 0.13,
+          "confidence": 0.8,
+          "notes": "~2.4-3% with mild food/services stickiness. (SURS; ECB)"
+        },
+        "banking_stability": {
+          "score": 6,
+          "weight": 0.1,
+          "confidence": 0.85,
+          "notes": "High capitalisation and low NPLs, fully recovered from the 2013 crisis. (Bank of Slovenia FSR)"
+        },
+        "trade_actions_capacity": {
+          "score": 5,
+          "weight": 0.17,
+          "confidence": 0.8,
+          "notes": "A high-complexity export economy (pharma, autos, machinery), no resource curse, with deep German/Austrian supply-chain exposure. (OEC; IMAD)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 6.4,
+      "confidence": 0.82,
+      "skew": "positive",
+      "notes": "Strong, EU-standard institutions with a slight downward drift.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 6,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "Independent courts and an EU-standard, high WJP standing with modest erosion noted. (WJP 2025)"
+        },
+        "statistical_integrity": {
+          "score": 8,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "SURS is credible and Eurostat-compliant. (SURS)"
+        },
+        "civil_service_capacity": {
+          "score": 6,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "Capable and EU-absorptive, with procurement/staffing flags. (TI Slovenia)"
+        },
+        "press_freedom": {
+          "score": 5,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "Free (RSF ~35th), with recurring political pressure on public media. (RSF 2025/2026)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 3.4,
+      "confidence": 0.76,
+      "skew": "negative",
+      "notes": "A stable democracy with strong liberties, against ageing demographics.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 3,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "A stable democracy that produced an orderly, lawful change of government in 2026, with high polarisation and a backsliding-risk watch under the returning right. (Balkan Insight)"
+        },
+        "civil_liberties": {
+          "score": 6,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Strong, with a watch under the new government. (WJP)"
+        },
+        "treatment_non_citizens": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Schengen and lawful, with the historical 'erased' issue largely resolved. (EC)"
+        },
+        "social_cohesion": {
+          "score": 5,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "High trust and low inequality, with some political polarisation. (Eurostat)"
+        },
+        "demographics": {
+          "score": -4,
+          "weight": 0.1,
+          "confidence": 0.85,
+          "notes": "Low fertility (~1.58), a median age ~45, and pronounced ageing - a structural drag. (SURS; Eurostat)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 6.4,
+      "confidence": 0.83,
+      "skew": "positive",
+      "notes": "A reliably Western-aligned NATO/EU member with no active conflict.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 6,
+          "weight": 0.4,
+          "confidence": 0.8,
+          "notes": "A NATO/EU member, Western-aligned. (press)"
+        },
+        "conflict_involvement": {
+          "score": 7,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "No active conflict in a stable neighbourhood. (general)"
+        },
+        "sanctions_capital_controls": {
+          "score": 6,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "An EU regime with an open capital account. (EC)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 3.1,
+      "confidence": 0.78,
+      "skew": "negative",
+      "notes": "Excellent infrastructure, healthcare, and safety, against recurrent catastrophic flooding.",
+      "sub_factors": {
+        "climate": {
+          "score": -5,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "The August-2023 floods cost ~16% of GDP; recurring Alpine flood/landslide, heat, and seismic exposure. (GOV.SI; EEA)"
+        },
+        "healthcare": {
+          "score": 6,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "Universal single-insurer care, with co-pays abolished in 2024. (WHO Europe)"
+        },
+        "infrastructure": {
+          "score": 6,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "Excellent and EU-funded, with flood-resilience upgrades underway. (EC)"
+        },
+        "crime_safety": {
+          "score": 8,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "The lowest crime in the EU, with homicide ~0.5/100k. (Eurostat; GPI)"
+        },
+        "disaster_insurance": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "A functioning flood/seismic market stress-tested by 2023, with a protection gap. (insurance press)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 4.71,
+      "confidence": 0.8,
+      "horizon": "5-10y",
+      "reading": "clear positive"
+    },
+    "assets": {
+      "score": 4.94,
+      "confidence": 0.82,
+      "horizon": "3-7y",
+      "reading": "clear positive"
+    },
+    "currency": {
+      "score": 5,
+      "confidence": 0.84,
+      "horizon": "1-3y",
+      "reading": "clear positive"
+    }
+  },
+  "summary": "A small, wealthy, stable EU and eurozone democracy with strong, EU-standard institutions, sound banks, a high-complexity export economy (pharma, autos, machinery), universal healthcare, and the lowest crime in the EU. The downside tails are structural rather than acute: an ageing population, heavy export concentration in German/Austrian supply chains, and recurrent catastrophic flooding (the 2023 floods alone cost ~16% of GDP). A 2026 change of government was orderly and lawful but carries a democratic-backsliding watch."
+}

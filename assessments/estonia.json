@@ -1,0 +1,254 @@
+{
+  "country": "Estonia",
+  "iso3": "EST",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF Art IV, EC, Eurostat, WJP, RSF, TI) + Estonian official (Statistics Estonia, Bank of Estonia) + Estonian independent press (ERR).",
+    "A top-tier-institution, digital-government-leading EU/eurozone NATO frontline state; the dominant tail is frontline exposure to the Russia-Ukraine war, atop a 2023-25 recession.",
+    "Standout features: world-leading digital governance, the EU's lowest debt, top-2 press freedom, against a Russia-border war tail, a Russian-minority cleavage, and demographic decline. Source-lean: MODERATE Anglophone on the threat narrative."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 2.4,
+      "confidence": 0.82,
+      "skew": "negative",
+      "notes": "The EU's lowest debt and a digital-tech base, against a multi-year recession and a defense-driven rising deficit.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": 1,
+          "score_long": -1,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "The EU's lowest debt (~24% GDP) but rising fast toward ~31% by 2028 on a record deficit from 5%+ defence and tax changes. (IMF Art IV 2025; Bank of Estonia)"
+        },
+        "monetary_independence": {
+          "score": 5,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "Eurozone, pooled at the credible ECB. (ECB)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 2,
+          "weight": 0.16,
+          "confidence": 0.85,
+          "notes": "The euro, the world's second reserve currency. (IMF COFER)"
+        },
+        "inflation": {
+          "score": 1,
+          "weight": 0.13,
+          "confidence": 0.8,
+          "notes": "Eased from a 2022-23 spike but still elevated (~4.8% in 2025) with a 2025 VAT hike. (Eurostat; Statistics Estonia)"
+        },
+        "banking_stability": {
+          "score": 4,
+          "weight": 0.1,
+          "confidence": 0.78,
+          "notes": "Sound, well-capitalised, and Nordic-owned, with profits down but stable. (Bank of Estonia; ERR)"
+        },
+        "trade_actions_capacity": {
+          "score_near": 1,
+          "score_long": 3,
+          "score": null,
+          "weight": 0.17,
+          "confidence": 0.7,
+          "notes": "A digital/tech leader (the most startups per capita, e-Estonia), EU-integrated; the lost Russia market and recession-hit but recovering. (OECD)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 7.7,
+      "confidence": 0.86,
+      "skew": "positive",
+      "notes": "Top-tier across the board - world-leading digital government and top-2 press freedom.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 7,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "Top-tier EU, with strong judicial independence. (WJP 2025)"
+        },
+        "statistical_integrity": {
+          "score": 8,
+          "weight": 0.25,
+          "confidence": 0.9,
+          "notes": "Statistics Estonia is independent and excellent. (EC; WJP)"
+        },
+        "civil_service_capacity": {
+          "score": 8,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "World-leading digital government (X-Road, e-gov), with a high corruption standing. (TI CPI 2025)"
+        },
+        "press_freedom": {
+          "score": 8,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "RSF ~#2 globally, its highest ever. (RSF 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 2.3,
+      "confidence": 0.79,
+      "skew": "negative",
+      "notes": "A stable democracy with very strong liberties, against a Russian-minority cleavage and demographic decline.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 4,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "A stable EU democracy, orderly, with a strong anti-Russia consensus. (ERR)"
+        },
+        "civil_liberties": {
+          "score": 6,
+          "weight": 0.2,
+          "confidence": 0.82,
+          "notes": "Very strong and EU-protected. (WJP; RSF)"
+        },
+        "treatment_non_citizens": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.78,
+          "notes": "EU-lawful, but with a large Russian-speaking minority, a legacy stateless 'grey-passport' population, and a 2025 amendment disenfranchising Russian/Belarusian citizens from local votes. (Verfassungsblog; ConstitutionNet)"
+        },
+        "social_cohesion": {
+          "score_near": 3,
+          "score_long": 2,
+          "score": null,
+          "weight": 0.15,
+          "confidence": 0.72,
+          "notes": "Cohesive but with a persistent, security-sharpened Russian-minority cleavage. (ERR)"
+        },
+        "demographics": {
+          "score_near": -3,
+          "score_long": -5,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.85,
+          "notes": "Very low fertility (~1.16), ageing, and a population that has shrunk for two years. (Statistics Estonia)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 1.8,
+      "confidence": 0.83,
+      "skew": "negative",
+      "notes": "Top-tier alliance value, squarely offset by frontline war exposure.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 6,
+          "weight": 0.4,
+          "confidence": 0.85,
+          "notes": "A NATO/EU frontline stalwart and top-5 defence spender, locked in near ~5.4% of GDP. (NATO)"
+        },
+        "conflict_involvement": {
+          "score_near": -5,
+          "score_long": -5,
+          "score": null,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "Frontline to the Russia-Ukraine war, with a long Russia border and GPS-jamming/border incidents - a real elevated tail. (Bloomberg; ERR)"
+        },
+        "sanctions_capital_controls": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "An EU regime with an open capital account. (EC)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 5,
+      "confidence": 0.75,
+      "skew": "symmetric",
+      "notes": "Excellent digital infrastructure and low crime, with low catastrophe exposure.",
+      "sub_factors": {
+        "climate": {
+          "score": 3,
+          "weight": 0.2,
+          "confidence": 0.68,
+          "notes": "Baltic, with low catastrophe exposure and an oil-shale-transition burden. (World Bank)"
+        },
+        "healthcare": {
+          "score": 5,
+          "weight": 0.3,
+          "confidence": 0.78,
+          "notes": "Universal and world-leading on digital health. (EC; e-Estonia)"
+        },
+        "infrastructure": {
+          "score": 6,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Excellent digital, with the Feb-2025 Baltic grid desync from Russia a resilience gain (residual sabotage risk). (ERR)"
+        },
+        "crime_safety": {
+          "score": 6,
+          "weight": 0.15,
+          "confidence": 0.78,
+          "notes": "Low - a strength. (Statistics Estonia)"
+        },
+        "disaster_insurance": {
+          "score": 5,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Low catastrophe exposure, insurable. (World Bank)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 4.51,
+      "confidence": 0.82,
+      "horizon": "5-10y",
+      "reading": "clear positive"
+    },
+    "assets": {
+      "score": 3.87,
+      "confidence": 0.82,
+      "horizon": "3-7y",
+      "reading": "clear positive"
+    },
+    "currency": {
+      "score": 3.4,
+      "confidence": 0.83,
+      "horizon": "1-3y",
+      "reading": "clear positive"
+    }
+  },
+  "summary": "A standout on institutions: world-leading digital government, top-tier rule of law, the EU's lowest debt, and the world's second-freest press, in a stable EU/eurozone democracy. The countervailing tails are geopolitical and structural - frontline exposure to the Russia-Ukraine war along a long Russia border (with GPS-jamming and border incidents), a 2023-25 recession with a defence-driven rising deficit, a security-sharpened Russian-minority cleavage and disenfranchisement measures, and very low fertility with a shrinking population. Net, a balanced outcome distribution."
+}

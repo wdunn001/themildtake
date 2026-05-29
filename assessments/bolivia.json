@@ -1,0 +1,248 @@
+{
+  "country": "Bolivia",
+  "iso3": "BOL",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF Art IV, World Bank, IDB, WJP, RSF, TI, V-Dem) + Bolivian official (INE, BCB) + Bolivian/Spanish-language press (read partly via Anglophone aggregators).",
+    "A state-led economic model in crisis: a gas-export collapse, depleted reserves, a USD peg under severe strain, surging inflation, and a 2025 election that ended ~20 years of one-party rule amid deep crisis.",
+    "Standout drags: a fiscal/currency/gas crisis, weak rule of law, and surging inflation; a possible reform reset and low homicide are offsets. Source-lean: MODERATE-HIGH Anglophone; Spanish primary press under-read."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -5.6,
+      "confidence": 0.82,
+      "skew": "negative",
+      "notes": "A state-led model in acute crisis - a gas-export collapse, depleted reserves, a crumbling peg, and surging inflation.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -8,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "A deficit ~13% GDP, debt ~95%, reserves under $2B (mostly gold), and a gas-revenue collapse with a fuel-subsidy/import crisis. (IMF Art IV 2025)"
+        },
+        "monetary_independence": {
+          "score_near": -7,
+          "score_long": -4,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "A USD peg under severe strain - a dollar shortage and a wide parallel-market gap, with deficits monetised - forced adjustment likely. (IMF; CEIC)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The boliviano has no international role. (definitional)"
+        },
+        "inflation": {
+          "score": -6,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "Surged from ~2% to ~25% after years of stability. (INE; IMF)"
+        },
+        "banking_stability": {
+          "score": -5,
+          "weight": 0.1,
+          "confidence": 0.7,
+          "notes": "Dollar-shortage-stressed, with fragile deposit confidence and no FX backstop. (IMF; State Dept ICS)"
+        },
+        "trade_actions_capacity": {
+          "score": -7,
+          "weight": 0.17,
+          "confidence": 0.75,
+          "notes": "Collapsing gas exports (underinvestment), huge but barely-developed lithium reserves, and a mining/soy economy in crisis - the first GDP contraction in 40 years. (IMF; INE)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -3.3,
+      "confidence": 0.69,
+      "skew": "negative",
+      "notes": "A weak, politicised rule of law, with usable statistics and a pressured-but-free press.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -6,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "A low WJP standing, a politicised/elected judiciary, prior lawfare, and corruption. (WJP 2025; TI)"
+        },
+        "statistical_integrity": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Usable and publishing (the recession confirmed), with some politicisation. (INE; IMF)"
+        },
+        "civil_service_capacity": {
+          "score": -4,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Weak and patronage-laden, hollowed by the fiscal crisis. (World Bank; IMF)"
+        },
+        "press_freedom": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "Relatively free but pressured, with judicial harassment and state-advertising leverage. (RSF 2025/2026)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -3.6,
+      "confidence": 0.71,
+      "skew": "negative",
+      "notes": "A model-collapse political crisis with a possible reform reset, against deep regional cleavages.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -7,
+          "score_long": -2,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "The state-led model collapsed amid a bitter intra-party split, fuel/dollar protests, and a 2024 alleged coup attempt; a 2025 election ended ~20 years of one-party rule amid deep crisis - turmoil now, a possible reform reset later. (AS/COA; NBC)"
+        },
+        "civil_liberties": {
+          "score": -2,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Formal freedoms intact but protest-heavy, with recurrent blockades and crackdowns. (Freedom House)"
+        },
+        "treatment_non_citizens": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "Limited; not a relocation destination, with thin infrastructure for migrants. (IOM)"
+        },
+        "social_cohesion": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "Deep highland-indigenous-versus-lowland and party-versus-opposition cleavages, with high inequality. (World Bank)"
+        },
+        "demographics": {
+          "score": 3,
+          "weight": 0.1,
+          "confidence": 0.75,
+          "notes": "A young population and a favourable age structure - a relative positive. (INE; UN)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -2.2,
+      "confidence": 0.67,
+      "skew": "negative",
+      "notes": "A foreign-policy realignment in flux, with internal unrest.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": -1,
+          "weight": 0.4,
+          "confidence": 0.6,
+          "notes": "Formerly a Russia/China/Venezuela-aligned bloc member; a 2025 election may shift it Western-ward - in flux. (AS/COA)"
+        },
+        "conflict_involvement": {
+          "score": -2,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "No external war, with internal unrest/protest and a landlocked-dispute legacy. (ACLED)"
+        },
+        "sanctions_capital_controls": {
+          "score": -4,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "FX/capital controls amid the dollar crisis; not sanctioned. (IMF; State Dept ICS)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -4,
+      "confidence": 0.7,
+      "skew": "negative",
+      "notes": "Andean water stress and Amazon wildfires, against a relatively low homicide rate.",
+      "sub_factors": {
+        "climate": {
+          "score": -5,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Andean glacial-melt water stress (the capital's supply) and record 2024 Amazon wildfires, with flood/drought. (IAEA; Copernicus)"
+        },
+        "healthcare": {
+          "score": -5,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "Weak and uneven, with crisis-driven drug/import shortages. (WHO)"
+        },
+        "infrastructure": {
+          "score": -4,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Poor-to-moderate, landlocked, with fuel-shortage-disrupted transport. (IMF)"
+        },
+        "crime_safety": {
+          "score": -1,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Homicide low for the region (~3/100k) - a relative bright spot - but with rising trafficking violence and crisis-driven property crime. (police data; InSight Crime)"
+        },
+        "disaster_insurance": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Low penetration against flood/wildfire/water exposure. (World Bank)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -3.25,
+      "confidence": 0.72,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -4.07,
+      "confidence": 0.74,
+      "horizon": "3-7y",
+      "reading": "clear negative"
+    },
+    "currency": {
+      "score": -4.68,
+      "confidence": 0.77,
+      "horizon": "1-3y",
+      "reading": "clear negative"
+    }
+  },
+  "summary": "A state-led economic model in acute crisis: collapsing gas exports, reserves under $2 billion, a USD peg under severe strain with a dollar shortage and parallel-market gap, deficits around 13% of GDP, and inflation surged to ~25% after years of stability, with the first GDP contraction in 40 years. Politics convulsed through a model collapse, an intra-party split, fuel and dollar protests, and a 2025 election that ended roughly two decades of one-party rule amid deep crisis. Weak rule of law, Andean water stress, and Amazon wildfires weigh further; a possible reform reset, a young population, and an unusually low homicide rate are the offsets."
+}

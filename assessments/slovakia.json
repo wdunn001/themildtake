@@ -1,0 +1,250 @@
+{
+  "country": "Slovakia",
+  "iso3": "SVK",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF Art IV, EC, Eurostat, OECD, WJP, RSF, TI, V-Dem) + Slovak independent press (Dennik N, SME) read indirectly via Anglophone aggregators (Balkan Insight, IPI, RFE/RL).",
+    "A EUROZONE/NATO member experiencing institutional backsliding under a populist, Russia-friendly government.",
+    "Standout drags: rule-of-law and press backsliding, a polarised Russia-friendly populist government, geopolitical unreliability, and demographic decline; a sound eurozone economy and low crime offset. Source-lean: MODERATE Anglophone."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 2.3,
+      "confidence": 0.88,
+      "skew": "negative",
+      "notes": "A sound eurozone economy and an auto-export base, against an elevated deficit and EV-transition concentration risk.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -2,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "An elevated deficit (~4-4.6%) with debt rising past ~64%, consolidation underway but with a structural gap. (IMF Art IV 2026; EC)"
+        },
+        "monetary_independence": {
+          "score": 5,
+          "weight": 0.22,
+          "confidence": 0.95,
+          "notes": "Pooled at the ECB - credible but not Slovak-controlled. (ECB)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 2,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The euro confers a modest reserve-status benefit. (IMF COFER)"
+        },
+        "inflation": {
+          "score": 2,
+          "weight": 0.13,
+          "confidence": 0.8,
+          "notes": "Eased near target, with a consolidation/transaction-tax bump a watch-item. (ECB; NBS)"
+        },
+        "banking_stability": {
+          "score": 5,
+          "weight": 0.1,
+          "confidence": 0.85,
+          "notes": "Sound, well-capitalised, and foreign-owned, with bank-levy/transaction-tax pressure. (NBS FSR; S&P)"
+        },
+        "trade_actions_capacity": {
+          "score": 3,
+          "weight": 0.17,
+          "confidence": 0.85,
+          "notes": "An auto-export powerhouse deeply German-supply-chain-integrated - real capacity but a concentration and EV-transition single-point-of-failure. (GLOBSEC; EC)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 0.1,
+      "confidence": 0.81,
+      "skew": "negative",
+      "notes": "Credible statistics, against active rule-of-law and press backsliding.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -4,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "Active backsliding - the special anti-corruption prosecutor abolished, a fast-tracked penal-code cut to corruption penalties, and court pressure. (EC Rule of Law; V-Dem; TI)"
+        },
+        "statistical_integrity": {
+          "score": 6,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "Credible and Eurostat-compliant. (Eurostat)"
+        },
+        "civil_service_capacity": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Functional, with politicisation pressure and EU-funds-freeze risk. (OECD; EC)"
+        },
+        "press_freedom": {
+          "score": -4,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "Declining (RSF fell sharply) - a public-broadcaster takeover and hostility to media, atop the 2018 Kuciak-murder legacy. (RSF 2026; IPI)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -1.9,
+      "confidence": 0.77,
+      "skew": "negative",
+      "notes": "A polarised Russia-friendly populist government, against strong baseline liberties and demographic decline.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -4,
+          "score_long": -2,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "A populist, Russia-friendly government, deeply polarised, with a 2024 assassination attempt on the prime minister and mass protests - democratic but high-friction. (RFE/RL; Dennik N/SME indirect)"
+        },
+        "civil_liberties": {
+          "score": -2,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Pressured - a 2025 NGO-transparency law and open LGBT hostility - though courts still push back. (Balkan Insight; Freedom House)"
+        },
+        "treatment_non_citizens": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "EU/lawful, with Ukrainian-refugee support periodically threatened in energy spats. (UNHCR)"
+        },
+        "social_cohesion": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "Deeply polarised on an urban-rural cleavage, with Russia/Ukraine as a wedge. (V-Dem; OSW)"
+        },
+        "demographics": {
+          "score_near": -2,
+          "score_long": -4,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.85,
+          "notes": "Low fertility (~1.49), rapid ageing, and rural emigration. (OSW; Eurostat)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -1.3,
+      "confidence": 0.81,
+      "skew": "negative",
+      "notes": "A NATO/EU member but a Russia-friendly spoiler, with no direct conflict.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score_near": -4,
+          "score_long": -1,
+          "score": null,
+          "weight": 0.4,
+          "confidence": 0.8,
+          "notes": "A NATO/EU member but a Russia-friendly spoiler - Ukraine-aid skepticism and threats to block sanctions/accession. (RFE/RL)"
+        },
+        "conflict_involvement": {
+          "score": -3,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "No direct war, Ukraine-adjacent with no frontline. (observed)"
+        },
+        "sanctions_capital_controls": {
+          "score": 5,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "An EU regime with an open capital account despite obstruction politics. (EU)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 2,
+      "confidence": 0.7,
+      "skew": "positive",
+      "notes": "Good EU-funded infrastructure and low crime, against moderate flood/heat exposure.",
+      "sub_factors": {
+        "climate": {
+          "score": -2,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Flood and heat exposure, moderate. (WMO)"
+        },
+        "healthcare": {
+          "score": 2,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "Universal but strained, with an ageing cost surge and medic emigration. (OECD)"
+        },
+        "infrastructure": {
+          "score": 4,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "Good and EU-funded, with cohesion-freeze risk a caveat. (EC)"
+        },
+        "crime_safety": {
+          "score": 6,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "Low - a clear strength. (Eurostat)"
+        },
+        "disaster_insurance": {
+          "score": -1,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "A flood market with moderate penetration. (observed)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 0.26,
+      "confidence": 0.79,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 0.93,
+      "confidence": 0.83,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 1.19,
+      "confidence": 0.85,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A eurozone and NATO member with a sound, foreign-owned banking sector, an auto-export economy deeply tied to German supply chains, and low crime - decisively offset by institutional backsliding. Under a populist, Russia-friendly government the special anti-corruption prosecutor was abolished, corruption penalties were cut, the public broadcaster was taken over, and press freedom has fallen sharply; the government acts as an EU spoiler on Ukraine aid and sanctions. Deep polarisation (with a 2024 assassination attempt on the prime minister), an elevated deficit, an EV-transition concentration risk, and demographic decline complete a negative profile."
+}

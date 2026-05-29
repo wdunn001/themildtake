@@ -1,0 +1,246 @@
+{
+  "country": "Tanzania",
+  "iso3": "TZA",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: governance/rights/politics rebuilt from independent sources (IMF Art IV, World Bank, V-Dem, RSF, Freedom House, HRW, OHCHR, ICG, ISS); Tanzanian state media EXCLUDED there, with economics admitted via IMF.",
+    "A solid managed economy dragged down by a sharp 2025 authoritarian turn: the long-ruling party barred and charged opposition leaders and the October-2025 election brought a deadly crackdown.",
+    "Standout drags: a sharp 2025 democratic reversal, a reversed press opening, and weak healthcare; well-anchored inflation, solid growth, and a young population are offsets."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 2.1,
+      "confidence": 0.78,
+      "skew": "positive",
+      "notes": "A solid, well-managed growth economy with anchored inflation and a diversifying resource base.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 3,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "Debt ~49% GDP and falling, a ~3% deficit, on-track under an IMF program. (IMF Art IV)"
+        },
+        "monetary_independence": {
+          "score": 1,
+          "weight": 0.22,
+          "confidence": 0.7,
+          "notes": "A managed, reasonably stable shilling with limited central-bank autonomy and some FX-shortage pressure. (IMF; BoT)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "Not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 5,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "~3.3-3.6% and well-anchored - a relative strength. (IMF REO)"
+        },
+        "banking_stability": {
+          "score": 2,
+          "weight": 0.1,
+          "confidence": 0.65,
+          "notes": "Sound-ish, with strong credit growth, developing and shallow. (BoT; IMF)"
+        },
+        "trade_actions_capacity": {
+          "score": 2,
+          "weight": 0.17,
+          "confidence": 0.7,
+          "notes": "Gold (a top African producer), tourism, and a major LNG-export project ahead; diversifying but commodity-exposed. (BoT; PwC)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -3,
+      "confidence": 0.71,
+      "skew": "negative",
+      "notes": "Party dominance with no judicial independence and a reversed press opening.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -5,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "Party dominance with no judicial independence and non-bailable treason charges deployed politically. (Freedom House 2026; HRW)"
+        },
+        "statistical_integrity": {
+          "score": 0,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "IMF-engaged and usable, with legacy data-credibility concerns. (IMF Art IV)"
+        },
+        "civil_service_capacity": {
+          "score": 0,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "Developing, with mixed delivery capacity. (World Bank)"
+        },
+        "press_freedom": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "RSF fell sharply, the post-2021 reopening reversed with 2025 suspensions and arrests. (RSF 2026)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -4,
+      "confidence": 0.74,
+      "skew": "negative",
+      "notes": "A sharp 2025 authoritarian turn, with a young population the offset.",
+      "sub_factors": {
+        "political_stability": {
+          "score": -5,
+          "weight": 0.3,
+          "confidence": 0.85,
+          "notes": "A party in power since 1961; the Oct-2025 election barred the main opposition and charged its leader, with a deadly lockdown and post-election violence. (Freedom House 2026; HRW; OHCHR)"
+        },
+        "civil_liberties": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "A sharp 2025 reversal - forced disappearances, lethal force on protesters, and mass treason charges. (Freedom House 2026)"
+        },
+        "treatment_non_citizens": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "A refugee host under encampment; not a relocation destination. (UNHCR/HRW)"
+        },
+        "social_cohesion": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "A legacy of national cohesion, but a Zanzibar-union and 2025-electoral cleavage. (Freedom House)"
+        },
+        "demographics": {
+          "score_near": 0,
+          "score_long": 2,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.7,
+          "notes": "Very young and fast-growing - a dividend-or-strain double-edge. (World Bank; UN)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -1,
+      "confidence": 0.68,
+      "skew": "negative",
+      "notes": "A non-aligned pragmatic balancer, with jihadist-spillover risk from the south.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 0,
+          "weight": 0.4,
+          "confidence": 0.65,
+          "notes": "Non-aligned, pragmatically balancing China, the Gulf, and the West. (ISS)"
+        },
+        "conflict_involvement": {
+          "score": -2,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "No interstate war, with Cabo Delgado jihadist spillover into the south and troops deployed. (ISS; ICG)"
+        },
+        "sanctions_capital_controls": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Managed FX controls; not sanctioned. (IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -3,
+      "confidence": 0.71,
+      "skew": "negative",
+      "notes": "Improving large infrastructure projects, against weak healthcare and drought/flood exposure.",
+      "sub_factors": {
+        "climate": {
+          "score": -4,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Rain-dependent agriculture, with most disasters drought/flood and rising flood frequency. (World Bank; GIZ)"
+        },
+        "healthcare": {
+          "score": -4,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "Low spend and weak infrastructure, with improving basics. (WHO)"
+        },
+        "infrastructure": {
+          "score": 0,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Improving (a major hydropower dam now live, a railway, ports) but with still-poor power access. (African Energy)"
+        },
+        "crime_safety": {
+          "score": -1,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Moderate, with petty/urban crime. (travel-advisory consensus)"
+        },
+        "disaster_insurance": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Very low penetration. (sector reports)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -2.33,
+      "confidence": 0.73,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": -0.67,
+      "confidence": 0.74,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 0.39,
+      "confidence": 0.75,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A solid, well-managed growth economy - low and falling debt, well-anchored inflation, a diversifying gold/tourism/LNG base, and a young population - dragged down by a sharp 2025 authoritarian turn. The party that has ruled since 1961 barred the main opposition and charged its leader, and the October-2025 election brought a deadly crackdown and post-election violence; the post-2021 press reopening has been reversed. Weak healthcare, drought/flood exposure, and still-poor power access weigh on the physical side, with jihadist spillover from the south a geopolitical tail. The outcome distribution tilts negative."
+}

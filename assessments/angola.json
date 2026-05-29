@@ -1,0 +1,244 @@
+{
+  "country": "Angola",
+  "iso3": "AGO",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: governance/rights/politics rebuilt from independent sources (IMF Art IV 2026, World Bank, Freedom House, RSF, HRW, OHCHR, UNHCR, TI); Angolan state media EXCLUDED there, with economics admitted via IMF.",
+    "A near-total oil rentier under a party that has ruled since 1975, with high inflation, heavy China-debt service, and extreme inequality.",
+    "Standout drags: a resource-curse oil model, weak rule of law, high inflation, abusive migrant expulsions, and weak healthcare; a US-courted Lobito Corridor is a mild geopolitical offset."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -4.5,
+      "confidence": 0.84,
+      "skew": "negative",
+      "notes": "A near-total oil rentier with heavy China-debt service, a volatile currency, and high inflation.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -5,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "A ~4% deficit with debt ~52% rising toward the legal ceiling, heavy China oil-backed debt service, and an IMF-program history. (IMF 2026 Art IV)"
+        },
+        "monetary_independence": {
+          "score": -5,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "An oil-managed kwanza with a ~60% 2023 devaluation and limited central-bank autonomy. (IMF; FocusEconomics)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "No global reserve role. (definitional)"
+        },
+        "inflation": {
+          "score": -6,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "High (~20%+) and sticky, FX-driven. (IMF; FocusEconomics)"
+        },
+        "banking_stability": {
+          "score": -4,
+          "weight": 0.1,
+          "confidence": 0.65,
+          "notes": "Dollarized, state-exposed, and fragile, IMF-monitored. (IMF)"
+        },
+        "trade_actions_capacity": {
+          "score": -7,
+          "weight": 0.17,
+          "confidence": 0.85,
+          "notes": "~95% of exports from oil with structurally declining output and minimal diversification - a classic resource curse. (IMF 2026 Art IV)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -4.7,
+      "confidence": 0.75,
+      "skew": "negative",
+      "notes": "MPLA dominance with no judicial independence and a state-dominated press.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -6,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "Party dominance with no judicial independence, a grand-corruption legacy, and only a partial/selective anti-graft drive. (Freedom House; TI)"
+        },
+        "statistical_integrity": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Weak-ish but actively IMF-engaged and validated. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": -4,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Patronage-driven, with thin capacity. (World Bank)"
+        },
+        "press_freedom": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "A poor RSF standing, with a 2024 security law allowing media/internet interference and ongoing prosecutions. (RSF; Freedom House)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -5.1,
+      "confidence": 0.81,
+      "skew": "negative",
+      "notes": "A half-century of one-party rule, restricted liberties, abusive migrant expulsions, and extreme inequality.",
+      "sub_factors": {
+        "political_stability": {
+          "score": -4,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "A party in power since 1975, a contested 2022 election, and rising discontent ahead of a 2027 vote - competitive-authoritarian managed stability. (Freedom House)"
+        },
+        "civil_liberties": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "A 2025 anti-'vandalism' law (long terms for protests) and crackdowns. (Freedom House)"
+        },
+        "treatment_non_citizens": {
+          "score": -7,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "Not a relocation destination, with recurrent abusive mass expulsions of Congolese migrants. (HRW; OHCHR; UNHCR)"
+        },
+        "social_cohesion": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "Extreme inequality and high poverty despite oil, with a Cabinda separatist undercurrent. (World Bank)"
+        },
+        "demographics": {
+          "score": 1,
+          "weight": 0.1,
+          "confidence": 0.7,
+          "notes": "Very young and fast-growing - a growth dividend against an acute jobs strain. (World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -1.8,
+      "confidence": 0.76,
+      "skew": "negative",
+      "notes": "A pragmatic China/US-hedging posture, with low-level Cabinda separatism.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 0,
+          "weight": 0.4,
+          "confidence": 0.75,
+          "notes": "Non-aligned, China-debt-tied yet US-courted via the Lobito Corridor - pragmatic hedging. (ECFR; AidData)"
+        },
+        "conflict_involvement": {
+          "score": -3,
+          "weight": 0.35,
+          "confidence": 0.75,
+          "notes": "No active war, with low-level Cabinda separatism and DRC-border exposure. (HRW)"
+        },
+        "sanctions_capital_controls": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "FX controls present; not internationally sanctioned. (IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -6.1,
+      "confidence": 0.77,
+      "skew": "negative",
+      "notes": "Weak healthcare and infrastructure, against drought/flood and high urban crime.",
+      "sub_factors": {
+        "climate": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Severe southern drought and flooding with recurrent food insecurity. (ReliefWeb/UN)"
+        },
+        "healthcare": {
+          "score": -7,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "Low spend, a high disease burden, and a weak system. (World Bank/WHO)"
+        },
+        "infrastructure": {
+          "score": -5,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Oil-funded pockets (the Lobito rail) but broadly poor, with only ~47% reliable power access. (World Bank; Afrobarometer)"
+        },
+        "crime_safety": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "High urban crime. (independent reporting)"
+        },
+        "disaster_insurance": {
+          "score": -7,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Negligible penetration. (sector data)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -4.84,
+      "confidence": 0.79,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -4.36,
+      "confidence": 0.79,
+      "horizon": "3-7y",
+      "reading": "clear negative"
+    },
+    "currency": {
+      "score": -4.17,
+      "confidence": 0.81,
+      "horizon": "1-3y",
+      "reading": "clear negative"
+    }
+  },
+  "summary": "A near-total oil rentier - roughly 95% of exports from oil with structurally declining output - run since 1975 by a single party, with heavy China-backed debt service, a volatile kwanza, and high, sticky inflation. Institutions offer no judicial independence, a grand-corruption legacy with only a selective anti-graft drive, and a state-dominated press, while extreme inequality persists despite the oil wealth and migrants face recurrent abusive mass expulsions. Weak healthcare and infrastructure, drought/flood exposure, and high urban crime weigh on the physical side; a US-courted Lobito Corridor is a mild geopolitical offset."
+}

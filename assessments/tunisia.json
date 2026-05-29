@@ -1,0 +1,256 @@
+{
+  "country": "Tunisia",
+  "iso3": "TUN",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: governance/rights/politics rebuilt from independent sources (IMF, World Bank, V-Dem, RSF, Freedom House, HRW, Amnesty, CPJ, TI, ICG); Tunisian state media EXCLUDED there, with economics admitted via IMF/World Bank.",
+    "A democratic reversal: the president's 2021 self-coup dismantled the post-2011 democracy, packed the judiciary, and jailed the opposition, atop an economic crisis and a stalled IMF deal.",
+    "Standout drags: democratic backsliding, debt distress with a stalled IMF deal, an anti-migrant campaign, and severe water scarcity; relatively safe streets are a mild offset."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -3.1,
+      "confidence": 0.75,
+      "skew": "negative",
+      "notes": "Debt distress with a stalled IMF deal and central-bank deficit financing.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": -5,
+          "score_long": -4,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.75,
+          "notes": "Debt ~80%+ GDP and chronic deficits, with a stalled IMF deal (subsidy/SOE conditions rejected) financed via central-bank advances and Gulf/Algeria support - a real distress tail. (IMF Art IV; World Bank)"
+        },
+        "monetary_independence": {
+          "score": -4,
+          "weight": 0.22,
+          "confidence": 0.75,
+          "notes": "The central bank pushed into direct deficit financing under fiscal dominance, with statutory independence eroded. (IMF; independent press)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.85,
+          "notes": "A managed dinar with no international standing and FX restrictions. (IMF)"
+        },
+        "inflation": {
+          "score_near": -2,
+          "score_long": 1,
+          "score": null,
+          "weight": 0.13,
+          "confidence": 0.75,
+          "notes": "Off a ~10% peak, easing slowly to mid-single digits, still elevated. (IMF WEO)"
+        },
+        "banking_stability": {
+          "score": -2,
+          "weight": 0.1,
+          "confidence": 0.65,
+          "notes": "Fragile, with heavy sovereign-debt exposure crowding out private credit. (World Bank; IMF)"
+        },
+        "trade_actions_capacity": {
+          "score_near": -4,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.17,
+          "confidence": 0.7,
+          "notes": "Declined phosphates plus textiles/tourism/olive oil and remittances, with a chronic trade deficit and weak growth. (IMF; World Bank)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -3.7,
+      "confidence": 0.73,
+      "skew": "negative",
+      "notes": "A dismantled rule of law and a sharply declining press, with usable economic data.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -6,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "The 2021 self-coup dissolved parliament, dismissed judges, and subordinated the judiciary - rule by decree. (V-Dem; Freedom House; WJP)"
+        },
+        "statistical_integrity": {
+          "score": 0,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Economic data is IMF-engaged and usable; political data is opaque. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "A bloated wage bill, capable but strained and politicised. (IMF; BTI)"
+        },
+        "press_freedom": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "A sharp post-2021 RSF fall, with a decree jailing journalists for 'false news'. (RSF 2026; CPJ)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -4.2,
+      "confidence": 0.76,
+      "skew": "negative",
+      "notes": "Consolidated one-man rule, a rights reversal, and an anti-migrant campaign.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -4,
+          "score_long": -5,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "One-man rule consolidated since 2021 with the opposition jailed - suppressed stability over economic-despair pressure. (Freedom House; ICG)"
+        },
+        "civil_liberties": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "A sharp reversal of the post-2011 opening, with mass arrests of opposition, journalists, and activists. (HRW; Amnesty; V-Dem)"
+        },
+        "treatment_non_citizens": {
+          "score": -5,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "A transit country, with a 2023-onward anti-sub-Saharan campaign, desert expulsions, and documented abuse. (HRW; Amnesty)"
+        },
+        "social_cohesion": {
+          "score": -4,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "Economic despair, mass boat emigration, anti-migrant scapegoating, and polarisation. (BTI; ICG)"
+        },
+        "demographics": {
+          "score_near": 1,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.7,
+          "notes": "Relatively young but with severe youth brain-drain eroding the dividend. (World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -1.9,
+      "confidence": 0.68,
+      "skew": "negative",
+      "notes": "Drifting from the West, with border-spillover and migration pressure.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": -1,
+          "weight": 0.4,
+          "confidence": 0.65,
+          "notes": "Drifting from the West - an EU-migration-deal partner, Gulf/Algeria-leaning - transactional. (ECFR; ICG)"
+        },
+        "conflict_involvement": {
+          "score": -2,
+          "weight": 0.35,
+          "confidence": 0.65,
+          "notes": "No direct war, with Libya-border spillover and migration pressure. (ICG)"
+        },
+        "sanctions_capital_controls": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "Persistent FX/capital controls; not sanctioned. (IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -1.7,
+      "confidence": 0.68,
+      "skew": "negative",
+      "notes": "Severe water scarcity and decaying infrastructure, with relatively safe streets the offset.",
+      "sub_factors": {
+        "climate": {
+          "score_near": -4,
+          "score_long": -7,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Severe multi-year drought and water scarcity (critically low dams), heat, and coastal erosion. (IPCC; World Bank)"
+        },
+        "healthcare": {
+          "score": -2,
+          "weight": 0.3,
+          "confidence": 0.65,
+          "notes": "Once a regional strength, now degraded and underfunded, with medic emigration and drug shortages. (WHO EMRO)"
+        },
+        "infrastructure": {
+          "score": -2,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Decaying and chronically underinvested amid the fiscal squeeze. (World Bank)"
+        },
+        "crime_safety": {
+          "score": 3,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "Moderate and relatively safe at street level - a relative strength. (advisories)"
+        },
+        "disaster_insurance": {
+          "score": -1,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Low penetration against drought/seismic exposure. (reinsurer data)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -3.61,
+      "confidence": 0.73,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -2.97,
+      "confidence": 0.73,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -3.09,
+      "confidence": 0.73,
+      "horizon": "1-3y",
+      "reading": "clear negative"
+    }
+  },
+  "summary": "The cradle of the Arab Spring has reversed course: the president's 2021 self-coup dismantled the post-2011 democracy, dissolved parliament, subordinated the judiciary, and jailed the opposition and journalists. The economy is in debt distress with a stalled IMF deal financed by central-bank advances, and a 2023-onward campaign against sub-Saharan migrants has brought expulsions and abuse. Severe multi-year drought and water scarcity, a degraded health system, and decaying infrastructure weigh on the physical side, with relatively safe streets a mild offset. The outcome distribution is negative."
+}
