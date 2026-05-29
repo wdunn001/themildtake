@@ -1,0 +1,244 @@
+{
+  "country": "Nicaragua",
+  "iso3": "NIC",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: governance/rights/politics rebuilt from independent sources (V-Dem/Freedom House, RSF, HRW, OHCHR/GHREN, IACHR, Amnesty, CPJ) + exile press (Confidencial); IMF Art IV used as external surveillance only; Nicaraguan state media/official stats EXCLUDED on non-economic dimensions.",
+    "A consolidated family dictatorship (co-presidents under a 2025 constitutional rewrite) that crushed the 2018 uprising; UN findings describe crimes against humanity.",
+    "Standout drags: a dictatorship with atrocity-level repression, mass denationalisation/exile, near-total press control, and sanctions; IMF-validated macro surpluses are the lone bright spot. Overall: clearly negative."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -0.9,
+      "confidence": 0.73,
+      "skew": "negative",
+      "notes": "IMF-validated surpluses and reserves, undercut by sanctions, isolation, and a managed peg.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 2,
+          "weight": 0.22,
+          "confidence": 0.75,
+          "notes": "Moderate debt (~45% GDP) with twin surpluses and ample reserves, but sanctioned and isolated. (IMF Art IV 2026)"
+        },
+        "monetary_independence": {
+          "score": -5,
+          "weight": 0.22,
+          "confidence": 0.7,
+          "notes": "A managed crawling peg, partly dollarized, with no central-bank independence under a fused regime. (IMF 2026)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The cordoba is not held abroad. (definitional)"
+        },
+        "inflation": {
+          "score": 3,
+          "weight": 0.13,
+          "confidence": 0.7,
+          "notes": "Eased to low single digits. (IMF 2026)"
+        },
+        "banking_stability": {
+          "score": -1,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "Well-capitalised per the IMF, but with sanctions/correspondent-banking exposure. (IMF 2026)"
+        },
+        "trade_actions_capacity": {
+          "score": -4,
+          "weight": 0.17,
+          "confidence": 0.65,
+          "notes": "Maquila/coffee/beef/gold plus large remittances - narrow, sanctioned, and withdrawing from multilaterals. (IMF; HRW)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -7.7,
+      "confidence": 0.81,
+      "skew": "negative",
+      "notes": "A dictatorship with no rule of law, opaque data, and near-total press control.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -9,
+          "weight": 0.35,
+          "confidence": 0.9,
+          "notes": "Co-presidents under a 2025 charter, with zero judicial independence. (Freedom House 2026; Verfassungsblog)"
+        },
+        "statistical_integrity": {
+          "score": -6,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Opaque and politicised, with multilateral disengagement. (HRW; Freedom House)"
+        },
+        "civil_service_capacity": {
+          "score": -6,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "A party-fused coercive apparatus. (Freedom House 2026)"
+        },
+        "press_freedom": {
+          "score": -9,
+          "weight": 0.15,
+          "confidence": 0.9,
+          "notes": "Among the worst - RSF near-bottom, with hundreds of media workers exiled and journalists denationalised. (RSF; CPJ)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -6.4,
+      "confidence": 0.79,
+      "skew": "negative",
+      "notes": "A consolidated dictatorship, atrocity-level repression, and a mass exodus.",
+      "sub_factors": {
+        "political_stability": {
+          "score": -5,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "A consolidated dynastic dictatorship, suppressed (not genuine) stability with succession risk. (Freedom House)"
+        },
+        "civil_liberties": {
+          "score": -9,
+          "weight": 0.2,
+          "confidence": 0.9,
+          "notes": "UN findings of crimes against humanity, with hundreds denationalised, thousands of NGOs shut, and the Church and universities crushed. (OHCHR; HRW 2026)"
+        },
+        "treatment_non_citizens": {
+          "score": -7,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "Refugee-producing, with a weaponized-migration-route history. (HRW)"
+        },
+        "social_cohesion": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "A fear-based society with hundreds of thousands of asylum-seekers since 2018. (UNHCR/HRW)"
+        },
+        "demographics": {
+          "score": -3,
+          "weight": 0.1,
+          "confidence": 0.7,
+          "notes": "Young but with a heavy working-age exodus. (World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -5.2,
+      "confidence": 0.76,
+      "skew": "negative",
+      "notes": "An isolated pariah leaning on Russia/China/Iran, under sanctions.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": -7,
+          "weight": 0.4,
+          "confidence": 0.8,
+          "notes": "A pariah leaning on Russia, China, Iran, and Venezuela, hosting a Russian signals-intelligence station. (CSIS)"
+        },
+        "conflict_involvement": {
+          "score": -2,
+          "weight": 0.35,
+          "confidence": 0.65,
+          "notes": "No war, with internal repression and weaponized-migration leverage. (HRW)"
+        },
+        "sanctions_capital_controls": {
+          "score": -6,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "US visa bans and OFAC sanctions on officials/entities, plus an EU regime. (OFAC; State; EU)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -4.2,
+      "confidence": 0.69,
+      "skew": "negative",
+      "notes": "Hurricane/drought exposure and a weak, politicised health system, with a crime-safety duality.",
+      "sub_factors": {
+        "climate": {
+          "score": -5,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Caribbean hurricanes plus dry-corridor drought and flooding - high disaster exposure. (Germanwatch; UNDP)"
+        },
+        "healthcare": {
+          "score": -5,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "Weak and politicised, with a COVID-denial legacy. (HRW/PAHO context)"
+        },
+        "infrastructure": {
+          "score": -2,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Poor-to-moderate, with the interoceanic-canal scheme abandoned. (observed)"
+        },
+        "crime_safety": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Low street crime (a regional oddity) but high state-repression risk - a duality. (InSight Crime)"
+        },
+        "disaster_insurance": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "Very low penetration. (general)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -5.73,
+      "confidence": 0.77,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -4.24,
+      "confidence": 0.76,
+      "horizon": "3-7y",
+      "reading": "clear negative"
+    },
+    "currency": {
+      "score": -3.3,
+      "confidence": 0.76,
+      "horizon": "1-3y",
+      "reading": "clear negative"
+    }
+  },
+  "summary": "A consolidated family dictatorship - co-presidents under a 2025 constitutional rewrite - that crushed the 2018 uprising and faces UN findings of crimes against humanity: hundreds denationalised and exiled, thousands of NGOs shut, and the Church, universities, and independent media dismantled (with journalists stripped of citizenship). It is an isolated, sanctioned pariah leaning on Russia, China, and Iran. The lone bright spot is IMF-validated macro stability (surpluses, reserves, low inflation), but that sits atop an atrocity-level repressive state and caps any forward upside. Clearly negative."
+}

@@ -1,0 +1,254 @@
+{
+  "country": "Honduras",
+  "iso3": "HND",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF ECF/EFF, World Bank, IDB, WJP, RSF, TI, V-Dem, Freedom House) + Honduran official (BCH) + Honduran/Spanish press (read indirectly).",
+    "A razor-thin, contested November-2025 election and transition amid a narco-state legacy; IMF-anchored macro is the lone bright spot.",
+    "Standout drags: weak/narco-tainted rule of law, high crime, extreme climate vulnerability, and contested politics; remittance-cushioned macro stability offsets. Source-lean: MODERATE Anglophone on political detail."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 0.3,
+      "confidence": 0.82,
+      "skew": "positive",
+      "notes": "IMF-anchored, remittance-cushioned macro stability on a narrow, low-growth base.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": 3,
+          "score_long": 2,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Falling debt and a small deficit on-track under an IMF program, remittance-cushioned but low-growth and aid-dependent. (IMF reviews 2026)"
+        },
+        "monetary_independence": {
+          "score": -2,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "A crawling-peg lempira, partly dollarized, with limited central-bank autonomy. (IMF; BCH)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "Not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 2,
+          "weight": 0.13,
+          "confidence": 0.8,
+          "notes": "Moderate and easing toward target. (IMF; BCH)"
+        },
+        "banking_stability": {
+          "score": 1,
+          "weight": 0.1,
+          "confidence": 0.65,
+          "notes": "Sound-ish and developing, with AML/supervision gaps. (IMF)"
+        },
+        "trade_actions_capacity": {
+          "score": -2,
+          "weight": 0.17,
+          "confidence": 0.8,
+          "notes": "Maquila/textiles and coffee plus very large remittances (~27-31% of GDP) - narrow and dangerously remittance-dependent. (BCH; World Bank)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -3,
+      "confidence": 0.76,
+      "skew": "negative",
+      "notes": "A narco-state legacy and captured courts, with a dangerous press environment.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score_near": -5,
+          "score_long": -4,
+          "score": null,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "A narco-state legacy (a former president convicted in the US), captured courts, and a very low TI standing. (TI 2025; WJP; HRW)"
+        },
+        "statistical_integrity": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Usable and IMF-cited, but weak. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Weak and patronage-ridden, with a low tax take. (World Bank; IMF)"
+        },
+        "press_freedom": {
+          "score": -4,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "Among the most dangerous for journalists, with high impunity. (RSF; CPJ)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -2.2,
+      "confidence": 0.72,
+      "skew": "negative",
+      "notes": "A contested election and transition, against extreme inequality and gang presence.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -3,
+          "score_long": -2,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.65,
+          "notes": "A razor-thin, contested November-2025 election and transition with disputed legitimacy and high institutional friction. (WOLA; AS/COA)"
+        },
+        "civil_liberties": {
+          "score": -2,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "'Partly free,' with activist, journalist, and land-defender killings. (Freedom House 2025; HRW)"
+        },
+        "treatment_non_citizens": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "A transit corridor with limited routes, a US-deportation receiver. (HRW; IOM)"
+        },
+        "social_cohesion": {
+          "score": -4,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "Extreme inequality, gang presence, and over half the population in poverty. (World Bank; InsightCrime)"
+        },
+        "demographics": {
+          "score_near": 2,
+          "score_long": 0,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.7,
+          "notes": "Young - a dividend only if jobs appear, else a migration strain. (World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 0.8,
+      "confidence": 0.74,
+      "skew": "symmetric",
+      "notes": "A historic US partner with an open economy, against gang/narco violence.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 1,
+          "weight": 0.4,
+          "confidence": 0.65,
+          "notes": "A historic US partner after a period of friction, with the relationship transition-uncertain. (State Dept; WOLA)"
+        },
+        "conflict_involvement": {
+          "score": -1,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "No war; gang/narco violence (scored under crime). (ACLED)"
+        },
+        "sanctions_capital_controls": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "Open-ish and unsanctioned. (IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -2.9,
+      "confidence": 0.77,
+      "skew": "negative",
+      "notes": "Extreme climate vulnerability, weak healthcare, and high crime.",
+      "sub_factors": {
+        "climate": {
+          "score_near": -4,
+          "score_long": -5,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Among the most climate-vulnerable - hurricanes, dry-corridor drought, and floods. (Germanwatch; FEWS NET)"
+        },
+        "healthcare": {
+          "score": -3,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "Weak and underfunded, with thin rural coverage. (World Bank; PAHO)"
+        },
+        "infrastructure": {
+          "score": -2,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Poor-to-moderate and uneven. (IDB; World Bank)"
+        },
+        "crime_safety": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "A homicide rate ~25-31/100k - falling but high - with extortion and gangs. (InsightCrime)"
+        },
+        "disaster_insurance": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "Low penetration against extreme hurricane exposure. (World Bank)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -1.97,
+      "confidence": 0.76,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": -1.01,
+      "confidence": 0.78,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -0.4,
+      "confidence": 0.79,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A Central American economy whose lone bright spot is IMF-anchored, remittance-cushioned macro stability (falling debt, easing inflation) on a narrow base dangerously dependent on remittances (~30% of GDP). The drags dominate: a narco-state legacy with a former president convicted in the US and captured courts, one of the most dangerous press environments, a razor-thin and contested November-2025 election and transition, extreme inequality and gang presence, high (if falling) homicide, and among the world's highest climate vulnerability to hurricanes and drought."
+}

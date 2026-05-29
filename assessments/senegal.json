@@ -1,0 +1,254 @@
+{
+  "country": "Senegal",
+  "iso3": "SEN",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF, World Bank, AfDB, WJP, RSF, TI, V-Dem) + Senegalese/French-language and international press; the CFA franc is pegged to the euro.",
+    "A strong democratic tradition that passed a 2024 turnover test, now grappling with a confirmed hidden-debt shock (the IMF program frozen) and fresh 2026 governing-coalition friction; new oil/gas is coming online.",
+    "Standout features: democratic resilience, new hydrocarbons, and low peg-anchored inflation, against a major hidden-debt revelation and data-integrity hit. Source-lean: LOW-MODERATE Anglophone (French press corroborated)."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 0.1,
+      "confidence": 0.82,
+      "skew": "negative",
+      "notes": "New oil/gas and low peg-anchored inflation, against a major hidden-debt shock that froze the IMF program.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": -6,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "A 2024 audit confirmed misreporting - IMF-consolidated debt ~132% of GDP (versus ~70% reported) and a 13.4% 2024 deficit - freezing the IMF program; consolidating but with no new program yet. (IMF Nov-2025; Court of Auditors)"
+        },
+        "monetary_independence": {
+          "score": 2,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "The CFA-franc euro peg delivers stability and credibility but zero autonomy, France-guaranteed and regionally pooled. (BCEAO/IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "Not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 4,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "Low and peg-anchored (~1-3%). (IMF)"
+        },
+        "banking_stability": {
+          "score": 1,
+          "weight": 0.1,
+          "confidence": 0.65,
+          "notes": "A sound regional system, with some sovereign-exposure strain from the debt shock. (IMF)"
+        },
+        "trade_actions_capacity": {
+          "score_near": 2,
+          "score_long": 3,
+          "score": null,
+          "weight": 0.17,
+          "confidence": 0.75,
+          "notes": "New oil and LNG online from 2024-25 (boosting growth ~8%), plus gold/phosphates/fishing; a nascent-resource-curse risk and debt overhang temper. (Ecofin; IMF)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -0.4,
+      "confidence": 0.7,
+      "skew": "symmetric",
+      "notes": "A strong democratic tradition pursuing accountability, with the hidden-debt scandal a data-integrity hit.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score_near": 0,
+          "score_long": 1,
+          "score": null,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "A strong democratic tradition with a 2023-24 crackdown legacy; the new government pursues audits/accountability. (Freedom House; WJP)"
+        },
+        "statistical_integrity": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "The hidden-debt scandal badly hurt credibility; corrective publications are improving but capacity is weak. (IMF; Court of Auditors)"
+        },
+        "civil_service_capacity": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Decent for the region and reforming, with a debt-management gap. (World Bank/IMF)"
+        },
+        "press_freedom": {
+          "score": 1,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "Relatively free, with the RSF rank rising, against some online-harassment and lese-majeste jailings. (RSF; CIVICUS)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -0.6,
+      "confidence": 0.68,
+      "skew": "negative",
+      "notes": "A democratic turnover that passed a crisis test, with fresh 2026 coalition friction.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -3,
+          "score_long": 2,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "The 2024 turnover passed a near-constitutional-crisis test on a reformist mandate, but fresh 2026 governing-coalition friction adds near-term instability. (Al Jazeera; Africanews)"
+        },
+        "civil_liberties": {
+          "score": 1,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Improving post-2024 on a strong tradition, with residual speech-prosecution risk. (Freedom House)"
+        },
+        "treatment_non_citizens": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "A regional hub with lawful-ish routes. (observed)"
+        },
+        "social_cohesion": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "Easing Casamance separatism but youth-unemployment/emigration pressure, with the coalition rift a strain. (ICG)"
+        },
+        "demographics": {
+          "score_near": 2,
+          "score_long": 1,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "Very young and fast-growing - a dividend with a jobs/migration strain. (UN)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 0.6,
+      "confidence": 0.72,
+      "skew": "positive",
+      "notes": "A Western-aligned anchor recalibrating toward sovereignty, with Sahel-spillover risk.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 2,
+          "weight": 0.4,
+          "confidence": 0.75,
+          "notes": "A Western/France-aligned anchor recalibrating (a full French-base withdrawal, a sovereigntist tilt) - not a junta pivot, net positive. (Euronews; France 24)"
+        },
+        "conflict_involvement": {
+          "score": -2,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "No war, with Sahel-jihadist border-spillover risk and easing Casamance separatism. (ICG)"
+        },
+        "sanctions_capital_controls": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Open WAEMU/CFA, unsanctioned. (IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -1.5,
+      "confidence": 0.64,
+      "skew": "negative",
+      "notes": "Relatively good regional infrastructure, against Sahel drought, coastal erosion, and weak healthcare.",
+      "sub_factors": {
+        "climate": {
+          "score": -5,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Sahel drought, chronic capital flooding, severe coastal erosion, and heat. (UNICEF)"
+        },
+        "healthcare": {
+          "score": -2,
+          "weight": 0.3,
+          "confidence": 0.6,
+          "notes": "Improving but weak, with low spend. (WHO)"
+        },
+        "infrastructure": {
+          "score": 2,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Relatively good and improving regionally - the capital, a new city, an airport, and a new deep-water port. (trade.gov)"
+        },
+        "crime_safety": {
+          "score": 1,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Relatively safe regionally, with urban street crime. (US State Dept)"
+        },
+        "disaster_insurance": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Low penetration against flood exposure. (observed)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 0.21,
+      "confidence": 0.7,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 0.14,
+      "confidence": 0.74,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 0.05,
+      "confidence": 0.77,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "One of West Africa's strongest democratic traditions, which passed a 2024 turnover test under near-crisis conditions and is now bringing new oil and LNG online with low CFA-franc/euro-peg-anchored inflation and relatively good regional infrastructure. The dominant near-term shock is fiscal: a 2024 audit revealed hidden debt far above what had been reported (IMF-consolidated debt ~132% of GDP), freezing the IMF program and badly denting data integrity, atop fresh 2026 governing-coalition friction, Sahel-spillover risk, and severe coastal-erosion/drought exposure. The euro peg trades monetary autonomy for stability."
+}

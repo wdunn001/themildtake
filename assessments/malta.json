@@ -1,0 +1,246 @@
+{
+  "country": "Malta",
+  "iso3": "MLT",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (EC Rule of Law Report, IMF Art IV 2026, Eurostat, RSF, TI, ECJ, GRECO) + Maltese official (NSO) + independent press (Times of Malta, The Shift).",
+    "A fast-growing eurozone micro-state with real rule-of-law concerns (the 2017 Caruana Galizia journalist assassination legacy, state-capture findings) and severe water/climate stress.",
+    "Standout features: strong macro and safety, against an EC-rated rule-of-law decline, a golden-passport legacy (struck down by the EU's top court), and among the world's worst water scarcity. Source-lean: HIGH Anglophone (English-official)."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 4.3,
+      "confidence": 0.86,
+      "skew": "positive",
+      "notes": "Strong growth and low debt, with services/gaming concentration and an AML legacy the caveats.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 6,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "Debt ~46% GDP with a narrowing deficit and ~4% growth. (EC; IMF Art IV 2026)"
+        },
+        "monetary_independence": {
+          "score": 5,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "Pooled at the ECB. (ECB)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 2,
+          "weight": 0.16,
+          "confidence": 0.9,
+          "notes": "A euro member. (IMF COFER)"
+        },
+        "inflation": {
+          "score": 5,
+          "weight": 0.13,
+          "confidence": 0.9,
+          "notes": "HICP eased to ~2.3%, near target. (NSO; Eurostat)"
+        },
+        "banking_stability": {
+          "score": 4,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "Off the FATF grey list (2022), with a credible cleanup but a reputational tail. (MONEYVAL; Basel)"
+        },
+        "trade_actions_capacity": {
+          "score": 3,
+          "weight": 0.17,
+          "confidence": 0.75,
+          "notes": "Tourism plus i-gaming (a large share of the global market) and financial services - high services/gaming concentration with a golden-passport reputational legacy. (EC; MaltaToday)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -0.6,
+      "confidence": 0.83,
+      "skew": "negative",
+      "notes": "Credible statistics, against an EC-rated rule-of-law decline and a journalist-murder legacy.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -5,
+          "weight": 0.35,
+          "confidence": 0.9,
+          "notes": "The EC downgraded it to 'declining'; unimplemented Caruana Galizia-inquiry recommendations, restricted citizen-triggered inquiries, and the EU court striking down golden passports. (EC Rule of Law 2025; ECJ)"
+        },
+        "statistical_integrity": {
+          "score": 6,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "NSO is Eurostat-credible. (Eurostat)"
+        },
+        "civil_service_capacity": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Functional but clientelist. (EC Rule of Law)"
+        },
+        "press_freedom": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "Free but with SLAPPs, public-broadcaster politicisation, and the Caruana Galizia-assassination shadow. (RSF; The Shift)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 1,
+      "confidence": 0.79,
+      "skew": "symmetric",
+      "notes": "A stable but scandal-prone democracy, with rapid migrant-labour-driven growth straining a tiny island.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 4,
+          "weight": 0.3,
+          "confidence": 0.85,
+          "notes": "A stable EU democracy, Labour-dominant and orderly but scandal-prone. (Economist)"
+        },
+        "civil_liberties": {
+          "score": 1,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Strong (notably pro-LGBT) but with among Europe's most restrictive abortion regime. (Center for Reproductive Rights)"
+        },
+        "treatment_non_citizens": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "A Mediterranean frontline with documented pushback concerns. (ECRE)"
+        },
+        "social_cohesion": {
+          "score": 0,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Cohesive but with rapid migrant-labour-driven population growth and an overpopulation debate. (press)"
+        },
+        "demographics": {
+          "score_near": 2,
+          "score_long": -2,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "Immigration fuels strong growth, but with the EU's lowest fertility and ageing natives - a model-dependency risk. (Central Bank of Malta)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 3.2,
+      "confidence": 0.81,
+      "skew": "symmetric",
+      "notes": "An EU member but militarily neutral, with migration-frontline exposure only.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 1,
+          "weight": 0.4,
+          "confidence": 0.8,
+          "notes": "An EU member but constitutionally neutral and non-NATO - ambiguous in a wartime Europe. (ECFR)"
+        },
+        "conflict_involvement": {
+          "score": 5,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "No conflict, with migration-frontline exposure only. (observed)"
+        },
+        "sanctions_capital_controls": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "An EU regime with an open capital account. (EC)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 1.6,
+      "confidence": 0.8,
+      "skew": "negative",
+      "notes": "Good healthcare and low crime, against severe water scarcity and overdevelopment.",
+      "sub_factors": {
+        "climate": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.9,
+          "notes": "Among the most water-stressed globally, with saltwater intrusion, extreme heat, and tiny-island exposure. (ERA Malta)"
+        },
+        "healthcare": {
+          "score": 5,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "Universal, with good outcomes. (OECD)"
+        },
+        "infrastructure": {
+          "score": 1,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "Good but congested and overdeveloped, with overcrowding strain. (press)"
+        },
+        "crime_safety": {
+          "score": 6,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "Low violent crime - a strength. (Eurostat)"
+        },
+        "disaster_insurance": {
+          "score": 3,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "A developed market, with rising drought/heat exposure. (industry)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 1.04,
+      "confidence": 0.82,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 2.34,
+      "confidence": 0.83,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 3.04,
+      "confidence": 0.85,
+      "horizon": "1-3y",
+      "reading": "clear positive"
+    }
+  },
+  "summary": "A fast-growing eurozone micro-state with low debt, near-target inflation, low crime, and universal healthcare, on a services economy built around tourism, i-gaming, and finance. The countervailing weight is institutional: the EU has rated its rule of law 'declining', the 2017 assassination of journalist Daphne Caruana Galizia still shadows it, and the EU's top court struck down its citizenship-by-investment scheme. Rapid migrant-labour-driven growth strains a tiny island already facing among the world's worst water scarcity, and the country is militarily neutral. Net, a balanced outcome distribution."
+}

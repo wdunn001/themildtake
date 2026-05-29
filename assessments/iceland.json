@@ -1,0 +1,254 @@
+{
+  "country": "Iceland",
+  "iso3": "ISL",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF Art IV, OECD, WJP, RSF, TI, GPI, Freedom House) + Icelandic official (Statistics Iceland, Central Bank, Met Office) + Icelandic press.",
+    "A tiny, wealthy, exceptionally stable and safe democracy; the dominant tail is volcanic/seismic (the ongoing Reykjanes eruptions).",
+    "Standout features: top-tier institutions, world-leading safety, ~100% renewable energy, against a small/volatile currency, tourism concentration, and a seismic tail. Source-lean: MODERATE Anglophone on index framing."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 2.5,
+      "confidence": 0.81,
+      "skew": "positive",
+      "notes": "Prudent fiscals and sound rebuilt banks, with a small/volatile krona and tourism concentration the caveats.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": 4,
+          "score_long": 5,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "The deficit fell sharply with a surplus targeted, under a net-debt ceiling - prudent. (IMF Art IV 2025)"
+        },
+        "monetary_independence": {
+          "score": 4,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "A credible central bank with full policy control, but a tiny/volatile krona with a capital-control history. (CBI; IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.9,
+          "notes": "The krona has no reserve status. (IMF)"
+        },
+        "inflation": {
+          "score_near": 1,
+          "score_long": 3,
+          "score": null,
+          "weight": 0.13,
+          "confidence": 0.78,
+          "notes": "Sticky/rising in early 2026 (a rate hike to ~7.75%), with the IMF seeing a return toward target. (Statistics Iceland; CBI)"
+        },
+        "banking_stability": {
+          "score": 4,
+          "weight": 0.1,
+          "confidence": 0.78,
+          "notes": "Rebuilt and well-capitalised since 2008, with housing/indexed-mortgage watch-items. (IMF FSAP)"
+        },
+        "trade_actions_capacity": {
+          "score_near": 1,
+          "score_long": 2,
+          "score": null,
+          "weight": 0.17,
+          "confidence": 0.7,
+          "notes": "Tourism, fish, and aluminium on cheap geothermal/hydro energy - concentrated and tourism-cyclical, no resource curse. (OECD)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 7.1,
+      "confidence": 0.83,
+      "skew": "symmetric",
+      "notes": "Top-tier institutions, with small-market media concentration the lone caveat.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 7,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "Top-tier, with strong judicial independence. (WJP 2025)"
+        },
+        "statistical_integrity": {
+          "score": 8,
+          "weight": 0.25,
+          "confidence": 0.88,
+          "notes": "Statistics Iceland is independent and uncompromised. (WJP)"
+        },
+        "civil_service_capacity": {
+          "score": 7,
+          "weight": 0.25,
+          "confidence": 0.83,
+          "notes": "Professional and low-corruption (a high CPI). (TI CPI 2025)"
+        },
+        "press_freedom": {
+          "score": 6,
+          "weight": 0.15,
+          "confidence": 0.82,
+          "notes": "Free (RSF ~12th), with fishing-firm media-ownership concentration in a small market. (RSF 2026)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 5.1,
+      "confidence": 0.81,
+      "skew": "positive",
+      "notes": "A very stable, high-trust democracy with strong liberties and relatively favourable demographics.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 6,
+          "weight": 0.3,
+          "confidence": 0.82,
+          "notes": "A stable democracy with an orderly 2024 handover. (IPU; RUV)"
+        },
+        "civil_liberties": {
+          "score": 7,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Among the world's strongest protections. (Freedom House; WJP)"
+        },
+        "treatment_non_citizens": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.78,
+          "notes": "~18% foreign-born and labour-importing, EEA-open, with a 2024 work-permit liberalisation. (OECD)"
+        },
+        "social_cohesion": {
+          "score": 6,
+          "weight": 0.15,
+          "confidence": 0.78,
+          "notes": "Very high trust and egalitarian - a genuine strength. (OECD)"
+        },
+        "demographics": {
+          "score_near": 2,
+          "score_long": 1,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "Relatively healthy fertility (~1.6-1.7) plus immigration-driven growth - favourable versus peers. (Statistics Iceland)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 5.9,
+      "confidence": 0.83,
+      "skew": "positive",
+      "notes": "A geographically insulated NATO founder, the world's most peaceful country, with an open account.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 6,
+          "weight": 0.4,
+          "confidence": 0.82,
+          "notes": "A NATO founder (no standing army) with a long US defence pact and Nordic alignment. (NATO)"
+        },
+        "conflict_involvement": {
+          "score": 7,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "Ranked the world's most peaceful, with no conflict and geographic insulation. (GPI 2025)"
+        },
+        "sanctions_capital_controls": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.82,
+          "notes": "An open capital account (post-2017 control removal), EEA-aligned. (State Dept ICS)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 4.2,
+      "confidence": 0.76,
+      "skew": "symmetric",
+      "notes": "Excellent healthcare, infrastructure, and safety, against a volcanic/seismic tail.",
+      "sub_factors": {
+        "climate": {
+          "score_near": -2,
+          "score_long": 1,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "A volcanic/seismic tail (the ongoing Reykjanes eruptions displacing Grindavik), offset by abundant clean energy. (Icelandic Met Office)"
+        },
+        "healthcare": {
+          "score": 5,
+          "weight": 0.3,
+          "confidence": 0.78,
+          "notes": "Universal, with excellent outcomes. (OECD)"
+        },
+        "infrastructure": {
+          "score": 6,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Excellent, on ~100% renewable electricity. (OECD; gov.is)"
+        },
+        "crime_safety": {
+          "score": 7,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "The world's safest, with violent crime extraordinarily rare. (GPI 2025)"
+        },
+        "disaster_insurance": {
+          "score": 5,
+          "weight": 0.15,
+          "confidence": 0.72,
+          "notes": "A state natural-catastrophe fund covers all buildings, stress-tested by the Grindavik eruptions. (NTI)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 5.49,
+      "confidence": 0.81,
+      "horizon": "5-10y",
+      "reading": "clear positive"
+    },
+    "assets": {
+      "score": 4.75,
+      "confidence": 0.81,
+      "horizon": "3-7y",
+      "reading": "clear positive"
+    },
+    "currency": {
+      "score": 4.06,
+      "confidence": 0.81,
+      "horizon": "1-3y",
+      "reading": "clear positive"
+    }
+  },
+  "summary": "A tiny, wealthy, exceptionally stable democracy: top-tier institutions, the world's lowest crime, ~100% renewable electricity, prudent public finances, sound rebuilt banks, and high social trust. The caveats are economic concentration (tourism, fish, aluminium) and a small, volatile krona with a capital-control history, and - most distinctively - a volcanic/seismic tail, with the ongoing Reykjanes eruptions displacing the town of Grindavik (covered by a state catastrophe fund). A NATO founder and the world's most peaceful country."
+}

@@ -1,0 +1,244 @@
+{
+  "country": "Luxembourg",
+  "iso3": "LUX",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF Art IV 2026, EC, OECD, Eurostat, WJP, RSF, TI, DBRS) + Luxembourg official (STATEC) + press.",
+    "A tiny, ultra-wealthy, AAA-rated eurozone financial-hub state with strong institutions; a vast non-bank fund sector is the main systemic-exposure flag.",
+    "Standout features: AAA fiscal strength, top-tier institutions, and an open EU-core role, against finance-sector concentration, housing-cost strain, and a residual tax-secrecy reputation. Source-lean: LOW-MODERATE Anglophone."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 4.3,
+      "confidence": 0.83,
+      "skew": "symmetric",
+      "notes": "AAA fiscal strength and a high-value-added economy, with finance-sector concentration the systemic risk.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 6,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "AAA-rated with very low debt (~26% GDP), though a 2024 surplus flipped to a ~2% deficit and debt is not yet stabilising. (IMF Art IV 2026; DBRS)"
+        },
+        "monetary_independence": {
+          "score": 5,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Pooled at the ECB - credible but not sovereign. (ECB)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 2,
+          "weight": 0.16,
+          "confidence": 0.85,
+          "notes": "A euro participant in the world's second reserve currency. (IMF COFER)"
+        },
+        "inflation": {
+          "score": 2,
+          "weight": 0.13,
+          "confidence": 0.8,
+          "notes": "Tracking the eurozone (~2.2% easing toward ~1.5%). (STATEC; EC)"
+        },
+        "banking_stability": {
+          "score": 4,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "Sound and well-capitalised, but with a vast non-bank/investment-fund sector posing liquidity-mismatch/leverage interlinkages. (IMF FSAP 2024)"
+        },
+        "trade_actions_capacity": {
+          "score": 5,
+          "weight": 0.17,
+          "confidence": 0.8,
+          "notes": "A world-leading fund domicile plus steel and space/satellite - high value-added but finance-concentrated. (OECD; IMF)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 8,
+      "confidence": 0.88,
+      "skew": "positive",
+      "notes": "Top-tier institutions, with lobbying/conflict-of-interest a TI-flagged blind spot.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 8,
+          "weight": 0.35,
+          "confidence": 0.9,
+          "notes": "Among the world's strongest (a WJP top-10 standing). (WJP 2025)"
+        },
+        "statistical_integrity": {
+          "score": 9,
+          "weight": 0.25,
+          "confidence": 0.9,
+          "notes": "STATEC is credible and ESS-compliant. (Eurostat)"
+        },
+        "civil_service_capacity": {
+          "score": 8,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "High administrative quality, an EU-institution host. (OECD; EC)"
+        },
+        "press_freedom": {
+          "score": 6,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "Free (RSF ~9th), with small-market concentration and a TI-flagged lobbying blind spot. (RSF; TI 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 5.7,
+      "confidence": 0.81,
+      "skew": "positive",
+      "notes": "A very stable democracy, very open to foreign nationals, with housing-cost strain the caveat.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 7,
+          "weight": 0.3,
+          "confidence": 0.85,
+          "notes": "A 'full democracy' with an orderly 2023 handover. (Economist; Freedom House)"
+        },
+        "civil_liberties": {
+          "score": 8,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Strong. (Freedom House; V-Dem)"
+        },
+        "treatment_non_citizens": {
+          "score": 5,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "~47% of residents are foreign nationals - a very open EU labour hub, though housing costs push some out. (STATEC; OECD)"
+        },
+        "social_cohesion": {
+          "score": 3,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Cohesive at very high incomes, with acute housing-affordability strain. (STATEC)"
+        },
+        "demographics": {
+          "score": 2,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "Immigration-fuelled growth (slowing), with low native fertility. (STATEC; Eurostat)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 6.5,
+      "confidence": 0.83,
+      "skew": "positive",
+      "notes": "A reliable NATO/EU founder and institution host with an open account.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 7,
+          "weight": 0.4,
+          "confidence": 0.85,
+          "notes": "A NATO and EU founding member and EU-institution host, with defence rising fast. (NATO; STATEC)"
+        },
+        "conflict_involvement": {
+          "score": 7,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "No conflict. (EC)"
+        },
+        "sanctions_capital_controls": {
+          "score": 5,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "An EU regime with an open capital account; a mild residual tax-secrecy reputational legacy. (EC; TI)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 5.8,
+      "confidence": 0.79,
+      "skew": "positive",
+      "notes": "Excellent healthcare, infrastructure, and safety, with low catastrophe exposure.",
+      "sub_factors": {
+        "climate": {
+          "score": -1,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "Low catastrophe exposure, with some flood/heat. (EEA; Munich Re)"
+        },
+        "healthcare": {
+          "score": 8,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "Universal and well-funded. (OECD; WHO)"
+        },
+        "infrastructure": {
+          "score": 8,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Excellent. (OECD; WEF)"
+        },
+        "crime_safety": {
+          "score": 8,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "Low crime - a strength. (Eurostat)"
+        },
+        "disaster_insurance": {
+          "score": 4,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "A developed market with low catastrophe exposure. (Munich Re)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 6.37,
+      "confidence": 0.83,
+      "horizon": "5-10y",
+      "reading": "clear positive"
+    },
+    "assets": {
+      "score": 5.85,
+      "confidence": 0.84,
+      "horizon": "3-7y",
+      "reading": "clear positive"
+    },
+    "currency": {
+      "score": 5.44,
+      "confidence": 0.84,
+      "horizon": "1-3y",
+      "reading": "clear positive"
+    }
+  },
+  "summary": "A tiny, ultra-wealthy AAA-rated eurozone state with among the world's strongest institutions, excellent healthcare and infrastructure, low crime, very low public debt, and an exceptionally open, high-income, foreign-majority labour market. Its economy is a high-value-added fund-management and financial-services hub, which is also its main vulnerability: a vast non-bank fund sector poses liquidity-mismatch and contagion risk, and a residual tax-secrecy reputation lingers. Housing-cost strain and a 2025 fiscal slip are the domestic watch-items. A reliable NATO/EU founder and institution host."
+}
