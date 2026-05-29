@@ -1,0 +1,174 @@
+{
+  "note": "FT URLs discovered per country via SearXNG (site:ft.com). paywalled:true = subscriber-only, needs an entitled session to pull full text; re-run ft_api.py scrape on these once the subscriber login is fixed.",
+  "generated": "2026-05-29",
+  "candidates": [
+    {
+      "iso3": "USA",
+      "query": "dollar reserve status decline central banks gold",
+      "url": "https://www.ft.com/content/cfe1ccc6-5c9e-45bd-9dd3-d6d85e8514c2",
+      "title": "Central banks plan to boost gold reserves and trim dollar holdings",
+      "paywalled": true
+    },
+    {
+      "iso3": "USA",
+      "query": "US tariffs trading partners diversify supply chains",
+      "url": "https://www.ft.com/content/d0f9809a-ef26-4514-ab10-ae45e8807bf8",
+      "title": "How trade tensions are really affecting the global economy",
+      "paywalled": true
+    },
+    {
+      "iso3": "USA",
+      "query": "US fiscal deficit debt IMF warning Treasury",
+      "url": "https://www.ft.com/content/335305fb-c624-4f5a-830c-d45c126a77e5",
+      "title": "IMF warns US must tackle its yawning deficit",
+      "paywalled": true
+    },
+    {
+      "iso3": "ARG",
+      "query": "Argentina Milei inflation peso IMF",
+      "url": "https://www.ft.com/content/f069b68a-0f24-4d41-9cb3-3da5ec109287",
+      "title": "Milei’s inflation fight stalls in Argentina",
+      "paywalled": true
+    },
+    {
+      "iso3": "CHN",
+      "query": "China property debt local government growth",
+      "url": "https://www.ft.com/content/901bc68e-ad35-42eb-97e0-542c631b9033",
+      "title": "China’s treatment of local debt ‘ulcer’ threatens growth target",
+      "paywalled": true
+    },
+    {
+      "iso3": "JPN",
+      "query": "Japan yen Bank of Japan debt rates",
+      "url": "https://www.ft.com/content/673f8283-79db-462c-9b07-8b44fc1edb69",
+      "title": "Yen rises and bonds fall after BoJ governor hints at rate increase",
+      "paywalled": true
+    },
+    {
+      "iso3": "TUR",
+      "query": "Turkey lira inflation central bank",
+      "url": "https://www.ft.com/content/434e8dc3-f837-4cde-abeb-4c0aa9fc6608",
+      "title": "Turkey cuts interest rates despite ‘evident’ risks on inflation",
+      "paywalled": true
+    },
+    {
+      "iso3": "CHE",
+      "query": "Swiss franc safe haven SNB intervention",
+      "url": "https://www.ft.com/content/4eb0c9cc-3d81-4860-b59a-7696305ce48f",
+      "title": "Swiss franc surges to decade high as traders seek last ‘reliable’ haven",
+      "paywalled": true
+    },
+    {
+      "iso3": "NOR",
+      "query": "Norway oil fund sovereign wealth",
+      "url": "https://www.ft.com/content/b307bd28-304c-4fdb-9f5a-7e19a14c2fa2",
+      "title": "Norway oil fund sells out of a fifth of Israeli firms amid fierce criticism",
+      "paywalled": true
+    },
+    {
+      "iso3": "GUY",
+      "query": "Guyana oil ExxonMobil production economy",
+      "url": "https://www.ft.com/content/2e4b2015-27e6-4b26-a02f-0040a71c6852",
+      "title": "The giant Exxon project that could create the world’s last petrostate",
+      "paywalled": true
+    },
+    {
+      "iso3": "VEN",
+      "query": "Venezuela oil sanctions Maduro transition",
+      "url": "https://www.ft.com/content/e4d84f5f-0e7c-423d-8026-33f78331f06e",
+      "title": "Venezuela politics as it happened: Nicolás Maduro pleads not guilty to narco-terrorism in New York court",
+      "paywalled": true
+    },
+    {
+      "iso3": "LKA",
+      "query": "Sri Lanka debt restructuring bondholders IMF",
+      "url": "https://www.ft.com/content/99333d04-7cba-4017-82cc-c98fd395407b",
+      "title": "Sri Lanka raises hopes of resolution to $13bn debt stand-off",
+      "paywalled": true
+    },
+    {
+      "iso3": "GHA",
+      "query": "Ghana debt restructuring IMF cedi",
+      "url": "https://www.ft.com/content/23950989-3d90-4114-8273-32d450fd3945",
+      "title": "Ghana to exit default after two years with debt restructuring",
+      "paywalled": true
+    },
+    {
+      "iso3": "ZMB",
+      "query": "Zambia debt restructuring common framework",
+      "url": "https://www.ft.com/content/418594b1-7319-4e8f-917e-f8f4a2d0a897",
+      "title": "Reimagining Zambia’s restructuring in an alternative New York dimension",
+      "paywalled": false
+    },
+    {
+      "iso3": "EGY",
+      "query": "Egypt IMF pound devaluation Gulf investment",
+      "url": "https://www.ft.com/content/155edd32-f611-4b33-b5bb-0d1b19010ddd",
+      "title": "Egypt secures $8bn IMF deal after removing currency controls",
+      "paywalled": true
+    },
+    {
+      "iso3": "PAK",
+      "query": "Pakistan IMF bailout external reserves",
+      "url": "https://www.ft.com/content/10318f10-7677-11e9-bbad-7c18c0ea0201",
+      "title": "Imran Khan swallows pride to clinch toughest IMF bailout yet",
+      "paywalled": true
+    },
+    {
+      "iso3": "NGA",
+      "query": "Nigeria naira reform fuel subsidy Tinubu",
+      "url": "https://www.ft.com/content/a8485413-215f-488f-ac25-46fba58fa2ae",
+      "title": "Nigeria’s economic reforms need to regain momentum",
+      "paywalled": true
+    },
+    {
+      "iso3": "GBR",
+      "query": "UK gilts fiscal budget bond market",
+      "url": "https://www.ft.com/content/e01f51d9-11d5-45d8-a865-62446eeda545",
+      "title": "What big bond investors want from the UK Budget",
+      "paywalled": true
+    },
+    {
+      "iso3": "SAU",
+      "query": "Saudi Arabia oil budget Vision 2030 deficit",
+      "url": "https://www.ft.com/content/631838c8-a86a-44d2-86cc-587288eb089f",
+      "title": "Weak oil price adds to strain on Saudi mega-projects",
+      "paywalled": true
+    },
+    {
+      "iso3": "MDV",
+      "query": "Maldives sukuk default reserves India",
+      "url": "https://www.ft.com/content/595863b5-7fdc-43de-9e13-224bbf6320e0",
+      "title": "Maldives hunts for bailout to avoid first Islamic sovereign debt default",
+      "paywalled": true
+    },
+    {
+      "iso3": "SLV",
+      "query": "El Salvador bitcoin bonds IMF Bukele",
+      "url": "https://www.ft.com/content/5972099a-8a8c-4a85-8216-912cd78b710b",
+      "title": "El Salvador prepares to launch bitcoin bond: ‘If this fails, a lot of doors close’",
+      "paywalled": true
+    },
+    {
+      "iso3": "LBN",
+      "query": "Lebanon banking collapse depositors restructuring",
+      "url": "https://www.ft.com/content/72446912-fa9f-4802-bc3b-18a21c9aaec5",
+      "title": "Lebanon’s divisive banking bill jeopardises reform agenda",
+      "paywalled": true
+    },
+    {
+      "iso3": "BRB",
+      "query": "Mottley Bridgetown Initiative climate finance",
+      "url": "https://www.ft.com/content/1b91a6ce-a71c-4f69-ac56-7192bef60b27",
+      "title": "New World Bank chief under pressure as ‘Bridgetown initiative’ seeks $100bn",
+      "paywalled": true
+    },
+    {
+      "iso3": "GLOBAL",
+      "query": "sanctions dollar weaponization alternatives BRICS",
+      "url": "https://www.ft.com/content/ace89a7d-39f1-4901-ab32-fdb8ab2b86aa",
+      "title": "Iran war has exposed the weakness of the dollar",
+      "paywalled": true
+    }
+  ]
+}
