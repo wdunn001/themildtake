@@ -1,3 +1,52 @@
 {
-  "articles": []
+  "articles": [
+    {
+      "url": "https://www.ft.com/content/b26b853c-aa68-44c7-b34f-2feaf3cbbb4b",
+      "iso3": "ARG",
+      "sha1": "5978c16a6d2814c815979fde284dfa7f7959b5f9",
+      "title": "Argentina’s economy records sharpest monthly contraction under Javier Milei",
+      "author": "Ciara Nugent in Buenos Aires",
+      "date": "APRIL 22 2026",
+      "fetched_at": "2026-05-29T00:55:33",
+      "chars": 2767,
+      "paywalled": false,
+      "note_file": "5978c16a6d2814c815979fde284dfa7f7959b5f9.md"
+    },
+    {
+      "url": "https://www.ft.com/content/381fa2a2-cb54-4d2d-bcf0-c05dd493264d",
+      "iso3": "CHN",
+      "sha1": "11a3438ac465df11675700db018c40073a8a5e13",
+      "title": "China is not Japan",
+      "author": "Toby Nangle",
+      "date": "MAY 18 2026",
+      "fetched_at": "2026-05-29T00:57:15",
+      "chars": 6488,
+      "paywalled": false,
+      "note_file": "11a3438ac465df11675700db018c40073a8a5e13.md"
+    },
+    {
+      "url": "https://www.ft.com/content/d345d751-4207-48af-af7d-4e6842b17c3e",
+      "iso3": "SEN",
+      "sha1": "fabcf92978dfa44c391f95c9b4ff71d486e4e614",
+      "title": "Senegal’s increasingly domestic debt crisis",
+      "author": "Joseph Cotterill",
+      "date": "YESTERDAY",
+      "fetched_at": "2026-05-29T00:59:19",
+      "chars": 7308,
+      "paywalled": false,
+      "note_file": "fabcf92978dfa44c391f95c9b4ff71d486e4e614.md"
+    },
+    {
+      "url": "https://www.ft.com/content/10c058a9-749b-462a-93e9-11d449c04d1c",
+      "iso3": "USA",
+      "sha1": "8e61ca6b3213194ce87f8b1da40a9f891ff68e78",
+      "title": "The company that defied Trump’s tariff war",
+      "author": "Sebastien Ash in Frankfurt and Peter Foster and Alan Smith in London",
+      "date": "APRIL 27 2026",
+      "fetched_at": "2026-05-29T00:56:30",
+      "chars": 7290,
+      "paywalled": false,
+      "note_file": "8e61ca6b3213194ce87f8b1da40a9f891ff68e78.md"
+    }
+  ]
 }

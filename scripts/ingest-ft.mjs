@@ -48,7 +48,7 @@ ${rec.standfirst ? rec.standfirst + "\n\n" : ""}**Excerpt (first ${EXCERPT} char
 
 > ${excerpt}
 
-_Full text is not stored in-repo (copyright); see the cache pointer above. Cite as e.g. (FT ${(rec.date || rec.fetched_at || "").slice(0, 10)})._
+_Full text is not stored in-repo (copyright); see the cache pointer above. Cite as e.g. (FT ${rec.date || (rec.fetched_at || "").slice(0, 10)})._
 `;
   writeFileSync(join(DEST, `${sha}.md`), note);
   const entry = {
