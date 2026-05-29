@@ -1,0 +1,244 @@
+{
+  "country": "Saint Vincent and the Grenadines",
+  "iso3": "VCT",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF, ECCB, Freedom House, RSF, TI, InSight Crime, ReliefWeb) + international and regional press.",
+    "A landmark peaceful change of government (Nov 2025) ended Ralph Gonsalves' 24-year tenure - Godwin Friday's NDP won 14-1 - on the East Caribbean dollar (XCD, pegged 2.70/USD); notably one of the few CBI holdouts (no golden-passport program).",
+    "Standout features: strong democratic resilience and the cohort's best CPI, against the highest debt burden of the OECS (~113%), a serious violent-crime problem, and repeat disasters (the 2021 La Soufriere eruption, 2024 Beryl)."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -0.7,
+      "confidence": 0.8,
+      "skew": "negative",
+      "notes": "Peg-anchored low inflation but the heaviest OECS debt burden and no CBI cushion.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -4,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "Debt ~113% of GDP in 2025 (up ~45 ppts since 2019), 'high risk of distress' but sustainable only if consolidation is fully implemented; no CBI cushion. (IMF 2024 Art IV)"
+        },
+        "monetary_independence": {
+          "score": -1,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "An ECCB member with a credible peg and no own policy. (ECCB)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The XCD is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 5,
+          "weight": 0.13,
+          "confidence": 0.75,
+          "notes": "Low and stable under the peg, eased post-2023. (IMF)"
+        },
+        "banking_stability": {
+          "score": 4,
+          "weight": 0.1,
+          "confidence": 0.7,
+          "notes": "The ECCU system is liquid/well-capitalized; small-system concentration risk. (ECCB)"
+        },
+        "trade_actions_capacity": {
+          "score": -4,
+          "weight": 0.17,
+          "confidence": 0.65,
+          "notes": "A tiny price-taker with a faded banana legacy and a narrow base, with no leverage. (observed)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 2.4,
+      "confidence": 0.58,
+      "skew": "symmetric",
+      "notes": "The cohort's best CPI and functioning judiciary, with a cybercrime/defamation-law caveat.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 4,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "A functioning judiciary - CPI score 63, rank ~32/180, the best of the cohort. (TI)"
+        },
+        "statistical_integrity": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.5,
+          "notes": "Full IMF/ECCB engagement, with thin capacity. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.5,
+          "notes": "Small; the new government will test continuity. (observed)"
+        },
+        "press_freedom": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "'Free' but RSF flags a 2016 cybercrime/criminal-defamation law and political media influence. (RSF; Freedom House)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 3.9,
+      "confidence": 0.62,
+      "skew": "positive",
+      "notes": "Exceptional democratic resilience (a landmark 2025 alternation), against rising gun violence.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 5,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "Lifted by the orderly Nov 2025 transfer (NDP 14-1, ending Gonsalves' 24-year tenure), with minor near-term transition uncertainty under new PM Friday. (Newsday; CNW)"
+        },
+        "civil_liberties": {
+          "score": 6,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Freedom House 2025 score 90/100, 'Free'. (Freedom House)"
+        },
+        "treatment_non_citizens": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.45,
+          "notes": "No systemic discrimination reported, with thin data. (lower confidence)"
+        },
+        "social_cohesion": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Generally cohesive, but rising gang/gun violence and disaster displacement strain it. (observed)"
+        },
+        "demographics": {
+          "score": 0,
+          "weight": 0.1,
+          "confidence": 0.55,
+          "notes": "The IMF flags a rapidly aging population as a structural headwind. (IMF)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 4.1,
+      "confidence": 0.64,
+      "skew": "symmetric",
+      "notes": "CARICOM/OECS/ALBA-tied and conflict-free, with less golden-passport exposure than peers.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 2,
+          "weight": 0.4,
+          "confidence": 0.5,
+          "notes": "CARICOM/OECS/ALBA ties plus Taiwan-funded projects - predictable but small. (observed)"
+        },
+        "conflict_involvement": {
+          "score": 7,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "No conflict exposure. (observed)"
+        },
+        "sanctions_capital_controls": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "No CBI program means less golden-passport sanction exposure than peers, with standard AML/de-risking pressure. (observed)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -3.8,
+      "confidence": 0.65,
+      "skew": "negative",
+      "notes": "Multi-hazard exposure (volcano + hurricanes) and a high homicide rate.",
+      "sub_factors": {
+        "climate": {
+          "score": -8,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Multi-hazard - the 2021 La Soufriere eruption plus 2024 Beryl (southern Grenadines ~80-90% of dwellings damaged). (UNEP; ReliefWeb)"
+        },
+        "healthcare": {
+          "score": -1,
+          "weight": 0.3,
+          "confidence": 0.5,
+          "notes": "Basic, with a new Taiwan-funded hospital under construction and off-island referral for serious cases. (observed)"
+        },
+        "infrastructure": {
+          "score": 1,
+          "weight": 0.2,
+          "confidence": 0.6,
+          "notes": "New port and hospital investments are positives; volcanic/storm-damaged areas still recovering. (IMF)"
+        },
+        "crime_safety": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "~54 homicides in 2024 (a rate among the world's highest), with a rising gang/gun culture. (InSight Crime; St Vincent Times)"
+        },
+        "disaster_insurance": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "A CCRIF member, but coverage is a small fraction of losses; back-to-back disasters expose the protection gap. (CCRIF)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 1.39,
+      "confidence": 0.64,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 0.74,
+      "confidence": 0.69,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 0.62,
+      "confidence": 0.72,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "Saint Vincent and the Grenadines carries the heaviest debt load of the OECS cohort (~113% of GDP) and a violent-crime problem with one of the world's highest per-capita homicide rates, and it has absorbed two major disasters in three years (the 2021 La Soufriere eruption, 2024 Hurricane Beryl). Yet it just demonstrated exceptional democratic resilience: the November 2025 landslide that ended Ralph Gonsalves' 24-year tenure and installed Godwin Friday's NDP was peaceful and orderly, removing the prior dominant-PM risk. Uniquely among CBI-eligible peers it runs no golden-passport program, so it forgoes that revenue but also avoids EU passport-sanction exposure. Net skew is roughly neutral - institutional strength and the new government's reform mandate offset against high debt, crime, and severe climate exposure."
+}

@@ -1,0 +1,248 @@
+{
+  "country": "Antigua and Barbuda",
+  "iso3": "ATG",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF, World Bank, ECCB, Freedom House, RSF) + international and regional press.",
+    "A stable twin-island tourism democracy on the East Caribbean dollar (XCD, pegged 2.70/USD via the strongly-reserved ECCB union), reliant on a Citizenship-by-Investment 'golden passport' program now under EU/US scrutiny.",
+    "Standout features: a recovered tourism economy and falling debt (~68%), against Paris-Club/domestic arrears, CIP-revenue fragility (an EU visa-suspension risk), Barbuda's lingering Irma vulnerability, and some governance/press-pressure concerns."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 0.2,
+      "confidence": 0.73,
+      "skew": "symmetric",
+      "notes": "A peg-anchored, low-inflation tourism economy with falling debt but persistent arrears and CIP-revenue fragility.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": 0,
+          "score_long": 1,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.65,
+          "notes": "Debt down to ~68% of GDP (2025) from 101% (2020) with improving primary surpluses, but significant arrears and high gross financing needs are an active IMF red flag. (IMF 2026 Art IV)"
+        },
+        "monetary_independence": {
+          "score": -1,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "An ECCB currency-union member; the XCD is pegged at 2.70/USD - no national policy, but a strong, well-reserved union. (ECCB)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The XCD is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 5,
+          "weight": 0.13,
+          "confidence": 0.7,
+          "notes": "Low and anchored by the ECCB peg; union-wide price stability. (ECCB; IMF)"
+        },
+        "banking_stability": {
+          "score": 1,
+          "weight": 0.1,
+          "confidence": 0.55,
+          "notes": "Backstopped by the ECCB (97% reserve backing, above the 60% statutory floor); credit-union supervision gaps and historical de-risking are watch-items. (ECCB; IMF 2026)"
+        },
+        "trade_actions_capacity": {
+          "score": -2,
+          "weight": 0.17,
+          "confidence": 0.6,
+          "notes": "A tiny, highly import-dependent twin-island tourism economy with minimal trade leverage and CIP-revenue concentration. (IMF)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 0.1,
+      "confidence": 0.53,
+      "skew": "negative",
+      "notes": "A free democracy with governance/transparency and CIP-integrity concerns, and uncertain arrears data.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 1,
+          "weight": 0.35,
+          "confidence": 0.6,
+          "notes": "A free, functioning democracy (Freedom House 'Free', 83/100) but governance/transparency and CIP-integrity concerns temper it. (Freedom House; IMF)"
+        },
+        "statistical_integrity": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.45,
+          "notes": "The IMF notes domestic arrears are 'uncertain in size', signaling material data-quality gaps. (IMF 2026 Art IV)"
+        },
+        "civil_service_capacity": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.5,
+          "notes": "A small administration with arrears management and CIP oversight stretching capacity. (IMF)"
+        },
+        "press_freedom": {
+          "score": 1,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Pluralistic (OECS group ranked ~48/180 by RSF) but criminal-defamation laws and politician-filed libel suits create chilling pressure. (Freedom House; RSF)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 2.7,
+      "confidence": 0.58,
+      "skew": "symmetric",
+      "notes": "Stable under PM Browne, with some concentration-of-power criticism and Barbuda-recovery tensions.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 4,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "Stable under PM Gaston Browne with regular elections and peaceful transfers, with some concentration-of-power criticism. (Freedom House 2025)"
+        },
+        "civil_liberties": {
+          "score": 3,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Largely respected (civil liberties 51/60), with media-pressure and defamation-law caveats. (Freedom House)"
+        },
+        "treatment_non_citizens": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.4,
+          "notes": "Open to investors/migrants via CIP and regional labor flows, with limited independent reporting. (lower confidence)"
+        },
+        "social_cohesion": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Broadly cohesive, with Barbuda-Antigua tensions over land/recovery and CIP land issues a localized strain. (observed)"
+        },
+        "demographics": {
+          "score": 1,
+          "weight": 0.1,
+          "confidence": 0.55,
+          "notes": "A small (~94k) but stable population with a tourism-skilled workforce and modest growth. (World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 1.1,
+      "confidence": 0.6,
+      "skew": "negative",
+      "notes": "Western/CARICOM-aligned but balancing China, with CIP a channel of Western due-diligence friction.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 1,
+          "weight": 0.4,
+          "confidence": 0.55,
+          "notes": "Western/Commonwealth/CARICOM-aligned but actively balancing US and China ties, with CIP creating Western due-diligence friction. (The Diplomat; State Dept)"
+        },
+        "conflict_involvement": {
+          "score": 3,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "No conflicts or active disputes in a peaceful neighborhood. (observed)"
+        },
+        "sanctions_capital_controls": {
+          "score_near": -2,
+          "score_long": -1,
+          "score": null,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "Not itself sanctioned, but CIP exposes it to EU visa-suspension risk and Western scrutiny over investor-citizenship. (EU; Astons)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -2.5,
+      "confidence": 0.59,
+      "skew": "negative",
+      "notes": "Extreme hurricane exposure (Barbuda ~90% destroyed by Irma), with micro-state service limits.",
+      "sub_factors": {
+        "climate": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Extreme hurricane exposure - Barbuda was ~90% destroyed by Irma (2017) - in a low-lying twin-island geography. (Freedom House; CCRIF context)"
+        },
+        "healthcare": {
+          "score": -2,
+          "weight": 0.3,
+          "confidence": 0.5,
+          "notes": "Limited tertiary capacity typical of a micro-state, reliant on regional/overseas referral. (general)"
+        },
+        "infrastructure": {
+          "score": -1,
+          "weight": 0.2,
+          "confidence": 0.55,
+          "notes": "Reasonable tourism infrastructure (airport, ports), but Barbuda recovery is incomplete and disaster-rebuild burdens recur. (observed)"
+        },
+        "crime_safety": {
+          "score": 1,
+          "weight": 0.15,
+          "confidence": 0.5,
+          "notes": "A lower violent-crime profile than the mainland Caribbean - tourism-oriented safety with petty-crime concerns. (lower confidence)"
+        },
+        "disaster_insurance": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "A CCRIF parametric member, but with a large protection gap relative to catastrophic-storm exposure. (CCRIF)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 0.59,
+      "confidence": 0.59,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 0.33,
+      "confidence": 0.63,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 0.39,
+      "confidence": 0.66,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A stable twin-island democracy whose tourism-led economy has fully recovered past pre-pandemic levels (growth ~3% in 2025) and whose public debt has fallen to ~68% of GDP. Its core vulnerabilities are fiscal-financial: persistent Paris Club and domestic arrears (the latter of 'uncertain size'), elevated financing needs, and heavy reliance on a Citizenship-by-Investment program worth ~1% of GDP that now faces an EU regulation threatening visa-free Schengen access. Currency stability is borrowed from the robustly reserved ECCB union, and the standout physical risk is acute hurricane exposure exemplified by Barbuda's near-total destruction in Irma (2017). Net profile is neutral-to-slightly-positive, gated by data opacity and CIP-revenue fragility."
+}

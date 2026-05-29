@@ -1,0 +1,248 @@
+{
+  "country": "Belize",
+  "iso3": "BLZ",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "positive",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF, World Bank, IDB, Central Bank of Belize, Freedom House, RSF, InSight Crime) + international and Belizean press.",
+    "A stable democracy with a striking debt turnaround - the 2021 'blue bond' debt-for-nature swap cut public debt from ~103% of GDP (2020) to ~61% (2024), with the IMF targeting 50% by FY2030.",
+    "Standout features: an improving fiscal/governance profile and a free press, against thin reserves, correspondent-banking de-risking, hurricane exposure, elevated (falling) crime, and the unresolved Guatemala claim at the ICJ."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 0.3,
+      "confidence": 0.76,
+      "skew": "positive",
+      "notes": "A striking debt turnaround and low inflation on a USD peg, against thin reserves and bank de-risking.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": 2,
+          "score_long": 3,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.7,
+          "notes": "Debt cut to ~61% of GDP (2024) from 103% (2020); the IMF endorses a path to 50% by FY2030 but flags slow consolidation and a post-2032 blue-loan repayment cliff. (IMF 2025 Art IV)"
+        },
+        "monetary_independence": {
+          "score": -2,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "The BZD is pegged 2:1 to the USD since 1976 - no independent monetary policy, the peg is the primary mandate. (Central Bank of Belize)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The BZD is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 5,
+          "weight": 0.13,
+          "confidence": 0.8,
+          "notes": "Moderated sharply to ~1.0% (May 2025) from ~4% a year earlier. (IMF; Central Bank of Belize)"
+        },
+        "banking_stability": {
+          "score": 0,
+          "weight": 0.1,
+          "confidence": 0.55,
+          "notes": "Domestic banks broadly stable, but acute correspondent-banking de-risking (banks lost ~83% of CBRs 2013-16) remains a structural fragility for trade/tourism payments. (IDB; CSIS)"
+        },
+        "trade_actions_capacity": {
+          "score": -2,
+          "weight": 0.17,
+          "confidence": 0.65,
+          "notes": "A very small, open, tourism/agriculture (sugar, citrus)-dependent economy; thin reserves limit shock-absorption and any trade leverage. (IMF 2025)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 1.2,
+      "confidence": 0.6,
+      "skew": "symmetric",
+      "notes": "Functioning democratic institutions and a free press, with corruption and impunity for violent crime.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 2,
+          "weight": 0.35,
+          "confidence": 0.65,
+          "notes": "Functioning courts and democratic norms (Freedom House 'Free', 87/100), but corruption and impunity for violent crime are noted weaknesses. (Freedom House)"
+        },
+        "statistical_integrity": {
+          "score": 0,
+          "weight": 0.25,
+          "confidence": 0.5,
+          "notes": "Engages credibly with the IMF/World Bank Article IV process, but a small statistical apparatus and data gaps warrant lower confidence. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "Limited administrative depth typical of a ~410k-population state; reform-implementation capacity is a recurring IMF concern. (IMF)"
+        },
+        "press_freedom": {
+          "score": 4,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "RSF 2025 ranked Belize 47/180 - a pluralistic, generally free media environment. (RSF)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 3.2,
+      "confidence": 0.64,
+      "skew": "positive",
+      "notes": "A regular peaceful-rotation democracy in a diverse, broadly peaceful society with localized gang violence.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 5,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "PM Briceno/PUP re-elected decisively (26 seats) in March 2025, with regular peaceful power rotation, US/OAS-endorsed. (National Assembly; US State Dept)"
+        },
+        "civil_liberties": {
+          "score": 4,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Mostly respected (Freedom House civil liberties 53/60), with police-conduct and crime-related concerns. (Freedom House 2025)"
+        },
+        "treatment_non_citizens": {
+          "score": 0,
+          "weight": 0.25,
+          "confidence": 0.45,
+          "notes": "Hosts Central American migrants/refugees - generally tolerant but capacity-constrained. (lower confidence)"
+        },
+        "social_cohesion": {
+          "score": 1,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Diverse (Creole, Mestizo, Maya, Garifuna) and broadly peaceful, with gang violence localized in Belize City. (InSight Crime)"
+        },
+        "demographics": {
+          "score": 3,
+          "weight": 0.1,
+          "confidence": 0.65,
+          "notes": "A young, growing population - a long-run asset if jobs/education keep pace, favorable vs aging peers. (World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 0.4,
+      "confidence": 0.57,
+      "skew": "negative",
+      "notes": "Stable Western/CARICOM alignment, with the Guatemala claim a low-probability high-tail-risk overhang.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 2,
+          "weight": 0.4,
+          "confidence": 0.55,
+          "notes": "A stable Western/Commonwealth/CARICOM-aligned UK/US partner pursuing ICJ resolution diplomatically. (observed)"
+        },
+        "conflict_involvement": {
+          "score_near": -1,
+          "score_long": 0,
+          "score": null,
+          "weight": 0.35,
+          "confidence": 0.6,
+          "notes": "No active conflict; the Guatemala claim is being arbitrated peacefully at the ICJ (President Arevalo pledged to honor the ruling) - an unresolved sovereignty tail. (ICJ)"
+        },
+        "sanctions_capital_controls": {
+          "score": 0,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "Not sanctioned; the main external-finance vulnerability is bank de-risking rather than capital controls. (IDB/CSIS)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -3.1,
+      "confidence": 0.63,
+      "skew": "negative",
+      "notes": "High hurricane/flood exposure and elevated (falling) gang crime, with improving but gappy services.",
+      "sub_factors": {
+        "climate": {
+          "score": -5,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "High hurricane/flood exposure as a low-lying coastal state, with a reef-dependent economy sensitive to warming. (IMF disaster-risk notes)"
+        },
+        "healthcare": {
+          "score": -2,
+          "weight": 0.3,
+          "confidence": 0.55,
+          "notes": "A basic public system with limited specialist capacity, typical of a low-resource SIDS. (general)"
+        },
+        "infrastructure": {
+          "score": -2,
+          "weight": 0.2,
+          "confidence": 0.55,
+          "notes": "Improving (tourism-driven) but with transport/utility gaps the IMF flags as a priority. (IMF)"
+        },
+        "crime_safety": {
+          "score": -4,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Homicide ~21.7/100k (2024), among the higher regional rates though below the Northern Triangle and falling (~-29% H1 2025); concentrated and gang-driven. (Belize Crime Observatory; InSight Crime)"
+        },
+        "disaster_insurance": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "CCRIF parametric coverage available regionally, but the protection gap and fiscal exposure to large storms remain significant. (CCRIF)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 1.03,
+      "confidence": 0.64,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 0.55,
+      "confidence": 0.67,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 0.61,
+      "confidence": 0.69,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A stable parliamentary democracy that has executed one of the region's most credible debt turnarounds, cutting public debt from over 100% to ~61% of GDP via its 2021 blue-bond debt-for-nature swap, with strong post-pandemic growth and inflation now near 1%. The principal risks are structural rather than political: thin foreign reserves (below the IMF's adequacy metric), heavy reliance on tourism and agriculture, acute correspondent-banking de-risking, and high hurricane exposure. Elevated but declining gang-driven crime in Belize City and the unresolved Guatemala territorial claim - now before the ICJ - are the standout tail-risks. Overall a moderately positive, improving profile constrained by small-state vulnerability."
+}

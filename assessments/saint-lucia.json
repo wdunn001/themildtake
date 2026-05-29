@@ -1,0 +1,246 @@
+{
+  "country": "Saint Lucia",
+  "iso3": "LCA",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF, World Bank, ECCB, Freedom House, RSF, TI, InSight Crime) + international and regional press.",
+    "The region's strongest human-development/governance profile (Freedom House 91/100; CPI 59) on the East Caribbean dollar (XCD, pegged 2.70/USD via the ECCB union), with three consecutive primary surpluses.",
+    "Standout features: best-in-cohort institutions and political stability, against high debt (~77%), softening tourism and rising unemployment, hurricane exposure, and notably high homicide (a record 77 murders in 2024)."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 0.2,
+      "confidence": 0.74,
+      "skew": "symmetric",
+      "notes": "Peg-anchored low inflation and primary surpluses, against high debt and softening tourism.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": 0,
+          "score_long": 1,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.7,
+          "notes": "Three consecutive primary surpluses and improving finances, but debt is high and projected to stabilize ~77% of GDP. (IMF 2025 Art IV)"
+        },
+        "monetary_independence": {
+          "score": -1,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "An ECCB currency-union member; the XCD is pegged 2.70/USD - no national policy, strong union backing. (ECCB)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The XCD is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 5,
+          "weight": 0.13,
+          "confidence": 0.7,
+          "notes": "Low and anchored by the ECCB peg; union-wide price stability. (ECCB; IMF)"
+        },
+        "banking_stability": {
+          "score": 1,
+          "weight": 0.1,
+          "confidence": 0.55,
+          "notes": "ECCB-backstopped (97% reserve backing union-wide); non-bank supervision being strengthened via a new regulator. (ECCB; IMF)"
+        },
+        "trade_actions_capacity": {
+          "score": -2,
+          "weight": 0.17,
+          "confidence": 0.6,
+          "notes": "A small, import-reliant, tourism-dominant (banana-legacy) economy with minimal leverage; growth decelerating to ~1.7% (2025) on weaker tourism. (IMF 2025)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 1.7,
+      "confidence": 0.6,
+      "skew": "positive",
+      "notes": "The strongest institutions of the OECS cohort, with corruption/transparency caveats.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 3,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "The strongest of the cohort - CPI 59 (improved +7 from 2023) and Freedom House 'Free', though corruption/transparency and police-impunity concerns persist. (TI; Freedom House 2025)"
+        },
+        "statistical_integrity": {
+          "score": 0,
+          "weight": 0.25,
+          "confidence": 0.5,
+          "notes": "Engages credibly with the IMF; small-state data limitations warrant moderate confidence. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": 0,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "A comparatively capable administration (expanded UHC, minimum wage, pensions) but small and stretched. (IMF 2025)"
+        },
+        "press_freedom": {
+          "score": 3,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Press freedom largely upheld and pluralistic; criminal-libel laws remain on the books but civil suits are more common. (Freedom House; RSF)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 3,
+      "confidence": 0.6,
+      "skew": "negative",
+      "notes": "The cohort's highest political-rights score, against rising violent crime and youth unemployment.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 5,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "Stable under PM Pierre (SLP) with regular peaceful elections and the highest political-rights score in the cohort (38/40). (Freedom House 2025)"
+        },
+        "civil_liberties": {
+          "score": 4,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Strongly respected (53/60), with LGBT+ discrimination and criminal-libel caveats. (Freedom House)"
+        },
+        "treatment_non_citizens": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.4,
+          "notes": "Generally tolerant within OECS free-movement norms, with limited independent reporting. (lower confidence)"
+        },
+        "social_cohesion": {
+          "score": 0,
+          "weight": 0.15,
+          "confidence": 0.5,
+          "notes": "Broadly cohesive, but rising violent crime and high youth unemployment are social-strain signals. (IMF; InSight Crime)"
+        },
+        "demographics": {
+          "score": 0,
+          "weight": 0.1,
+          "confidence": 0.55,
+          "notes": "Small (~180k), aging-skewed, with high youth unemployment limiting the demographic dividend. (IMF 2025)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 2,
+      "confidence": 0.59,
+      "skew": "symmetric",
+      "notes": "Western/CARICOM/OECS-aligned and conflict-free, with modest CIP/EU exposure.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 2,
+          "weight": 0.4,
+          "confidence": 0.55,
+          "notes": "Western/Commonwealth/CARICOM/OECS-aligned with a stable posture, engaged with the US while regionally balancing China. (observed)"
+        },
+        "conflict_involvement": {
+          "score": 3,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "No conflicts or territorial disputes. (observed)"
+        },
+        "sanctions_capital_controls": {
+          "score": 0,
+          "weight": 0.25,
+          "confidence": 0.5,
+          "notes": "Not sanctioned; it runs a CIP also covered by the looming EU visa-waiver regulation, a modest external risk. (EU; Astons)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -3.1,
+      "confidence": 0.63,
+      "skew": "negative",
+      "notes": "Expanding UHC and reasonable infrastructure, against high hurricane exposure and record homicide.",
+      "sub_factors": {
+        "climate": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "High hurricane/storm exposure (mountainous, landslide- and flood-prone); the IMF flags 'ever-present' disaster risk, and Beryl (2024) underscored regional escalation. (IMF 2025; CCRIF)"
+        },
+        "healthcare": {
+          "score": -1,
+          "weight": 0.3,
+          "confidence": 0.55,
+          "notes": "An expanding Universal Health Care program is a relative positive, but tertiary capacity is limited. (IMF 2025)"
+        },
+        "infrastructure": {
+          "score": -1,
+          "weight": 0.2,
+          "confidence": 0.55,
+          "notes": "Reasonable tourism infrastructure with active construction, but disaster-rebuild and capacity gaps recur. (IMF 2025)"
+        },
+        "crime_safety": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "A record 77 homicides in 2024 (~38.9/100k, among the region's most violent), easing to ~70 in 2025 - a material safety and tourism risk. (InSight Crime)"
+        },
+        "disaster_insurance": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "A CCRIF parametric member, but with a significant protection gap vs catastrophic exposure. (CCRIF)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 1.12,
+      "confidence": 0.62,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 0.75,
+      "confidence": 0.66,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 0.79,
+      "confidence": 0.68,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "Saint Lucia pairs the cohort's strongest governance and human-development profile - Freedom House 91/100 and a CPI of 59 - with three consecutive fiscal primary surpluses, yet carries high public debt (~77% of GDP) and a tourism economy that softened in 2025 (arrivals down ~3.2% y/y), pushing unemployment back up to 13.4%. Its standout downside risk is crime: a record 77 homicides in 2024 (~38.9/100k) places it among the region's most violent states and directly threatens its tourism base, even as 2025 showed modest improvement. Currency and price stability are anchored by the strongly reserved ECCB union, while hurricane exposure remains the dominant physical tail-risk. Overall a neutral profile: strong institutions and political stability balanced against debt, crime, and small-state external fragility."
+}

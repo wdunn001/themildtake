@@ -1,0 +1,252 @@
+{
+  "country": "Suriname",
+  "iso3": "SUR",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "positive",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF, World Bank, IDB, Freedom House, RSF, TI) + international and Surinamese press.",
+    "A genuine post-default turnaround (the first IMF program Suriname ever completed, March 2025; debt restructured, hyperinflation tamed) sitting under a transformative offshore-oil tail (the GranMorgu Block 58 project, FID 2024, first oil ~2028).",
+    "Standout features: high-variance upside (a Guyana-style oil windfall) against a fragile near-term - the new Simons government has already let fiscal/monetary discipline slip - and weak, corruption-prone institutions."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -2,
+      "confidence": 0.78,
+      "skew": "positive",
+      "notes": "A post-default stabilization now slipping, under a transformative but not-yet-realized oil tail.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": -3,
+          "score_long": 1,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "Gross debt ~106% of GDP after a 2025 slippage reversed program gains, with an IMF call for a policy reset; oil revenue from ~2028 could transform the trajectory. (IMF 2025 Art IV)"
+        },
+        "monetary_independence": {
+          "score": -3,
+          "weight": 0.22,
+          "confidence": 0.75,
+          "notes": "CBvS autonomy was strengthened under the EFF but is unproven - an insufficiently restrictive 2025 stance let inflation and the SRD slip. (IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The SRD is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score_near": -4,
+          "score_long": 0,
+          "score": null,
+          "weight": 0.13,
+          "confidence": 0.8,
+          "notes": "Down from post-default hyperinflation but back above 10% in 2025 after slippage; an IMF path targets ~7% by H1 2027. (IMF 2025 Art IV)"
+        },
+        "banking_stability": {
+          "score": -2,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "Highly dollarized, thin, recovering from the crisis - governance improved under the EFF but the sector is small and vulnerable. (IMF)"
+        },
+        "trade_actions_capacity": {
+          "score_near": 0,
+          "score_long": 4,
+          "score": null,
+          "weight": 0.17,
+          "confidence": 0.7,
+          "notes": "Open economy on gold plus nascent oil; GranMorgu is a major positive trajectory but a textbook resource-curse risk caps the near-term score. (Staatsolie; TotalEnergies; IMF)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -1.7,
+      "confidence": 0.66,
+      "skew": "negative",
+      "notes": "A functioning democracy with real judicial reach but pervasive corruption and low capacity.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -3,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "A constitutional democracy with functioning courts (the Bouterse conviction is real evidence of reach) but pervasive corruption, clientelism, and weak enforcement. (Freedom House 2025; TI)"
+        },
+        "statistical_integrity": {
+          "score": 0,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Improved and IMF-cited under the EFF, but capacity is thin - treat official data as partially entangled. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "Low technocratic capacity, politicized appointments, and a clientelist legacy, with some EFF-built macro muscle. (IMF; World Bank)"
+        },
+        "press_freedom": {
+          "score": 1,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Diverse media and few attacks (RSF ~31st, 2025), but a harsh defamation law induces self-censorship. (RSF 2025; Freedom House)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 1.6,
+      "confidence": 0.66,
+      "skew": "positive",
+      "notes": "A peaceful 2025 transfer (the first woman president) in a famously plural consociational society.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 2,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "A peaceful, competitive transfer after the May 2025 election - the first woman president leads a broad NDP coalition - stable but coalition-fragile. (IPU; Freedom House)"
+        },
+        "civil_liberties": {
+          "score": 2,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Rated 'Free', generally respected, with the defamation law and uneven due process as drags. (Freedom House 2025)"
+        },
+        "treatment_non_citizens": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "No notable exit-ban or mass-deportation regime; modest, informal migration handling. (Freedom House)"
+        },
+        "social_cohesion": {
+          "score": 1,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "A famously plural society (Hindustani, Maroon, Creole, Javanese, Indigenous) with a long consociational record; cocaine-transit crime and economic frustration are the drags. (Freedom House; InSight Crime)"
+        },
+        "demographics": {
+          "score": 1,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "Relatively young with a favorable dependency ratio, but persistent emigration (especially to the Netherlands) drains skills. (World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 1.9,
+      "confidence": 0.67,
+      "skew": "symmetric",
+      "notes": "A non-aligned, ex-Dutch CARICOM actor courting Western oil majors, with a dormant Guyana border dispute.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 2,
+          "weight": 0.4,
+          "confidence": 0.65,
+          "notes": "Non-aligned, with ex-Dutch ties, CARICOM membership, and Western oil-major courtship - no coercive dependency but limited leverage. (IMF; CARICOM)"
+        },
+        "conflict_involvement": {
+          "score": 3,
+          "weight": 0.35,
+          "confidence": 0.75,
+          "notes": "No active conflict; a long-dormant border dispute with Guyana is managed and unlikely to escalate. (Freedom House)"
+        },
+        "sanctions_capital_controls": {
+          "score": 0,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Not sanctioned, but FX-auction distortions and a managed regime mean de-facto frictions; AML/cocaine-corridor exposure is a watch-item. (IMF; INCSR)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -1.9,
+      "confidence": 0.62,
+      "skew": "negative",
+      "notes": "Outside the hurricane belt but flood-exposed, with weak interior services.",
+      "sub_factors": {
+        "climate": {
+          "score_near": -2,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "A low-lying coast (where most people and Paramaribo sit), flooding, and sea-level exposure; high rainforest cover is a buffer but adaptation capacity is weak. (World Bank)"
+        },
+        "healthcare": {
+          "score": -2,
+          "weight": 0.3,
+          "confidence": 0.6,
+          "notes": "Limited, concentrated in Paramaribo, sparse in the interior, with chronic financing strain. (PAHO/WHO)"
+        },
+        "infrastructure": {
+          "score": -3,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Weak power and transport with minimal interior reach; oil revenue could fund upgrades long-term. (World Bank)"
+        },
+        "crime_safety": {
+          "score": -1,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Moderate homicide but a significant and rising cocaine-transit problem and weak border control. (INCSR; InSight Crime)"
+        },
+        "disaster_insurance": {
+          "score": -1,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Outside the hurricane belt (a relative plus) but flood-exposed with shallow insurance penetration. (hazard context)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -0.32,
+      "confidence": 0.67,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": -0.58,
+      "confidence": 0.71,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -1.25,
+      "confidence": 0.73,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A genuine post-default turnaround - the first IMF program Suriname ever completed (March 2025), with debt restructured and inflation brought down from hyperinflation - sitting under a transformative offshore-oil tail (the GranMorgu FID 2024, first oil ~2028) that could deliver a Guyana-style windfall. But the near-term is shakier than the headline: the new Simons government has already let fiscal and monetary discipline slip, pushing inflation back above 10% and debt to ~106% of GDP, prompting an IMF call for a policy reset. Institutions remain the binding weakness - pervasive corruption, low civil-service capacity, and a textbook resource-curse risk as oil money meets a fragile state. The skew is positive and high-variance: large upside if the windfall is well-governed, a real downside if it is not."
+}

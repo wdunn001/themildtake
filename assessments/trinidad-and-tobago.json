@@ -1,0 +1,264 @@
+{
+  "country": "Trinidad and Tobago",
+  "iso3": "TTO",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF, World Bank, CBTT, Freedom House, RSF, InSight Crime, Migration Policy Institute) + international and Trinidadian press.",
+    "The wealthiest-per-capita Caribbean economy on oil/gas, cushioned by a ~US$6.4bn Heritage & Stabilisation Fund, but facing structural gas decline, a stalled diversification, chronic FX shortages draining reserves, and severe violent crime.",
+    "Standout drags: declining gas output and stalled diversification, a decades-low ~5.4-months FX reserve cover, record-high gang violence (a late-2024 state of emergency), and an acutely volatile Venezuela border."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -0.2,
+      "confidence": 0.82,
+      "skew": "negative",
+      "notes": "A wealthy energy economy with low inflation and a sovereign buffer, against structural gas decline and FX rationing.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score_near": -1,
+          "score_long": 0,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "Deficit ~5.5% of GDP (FY25) narrowing to ~4.6%, debt ~68% (public-sector ~84%), but a US$6.38bn Heritage & Stabilisation Fund is a sizeable buffer. (IMF 2026 Art IV)"
+        },
+        "monetary_independence": {
+          "score_near": -2,
+          "score_long": -1,
+          "score": null,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "The TTD is a de-facto USD-managed rate; defending it drains reserves and produces chronic FX rationing - limited true autonomy. (IMF 2026)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The TTD is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 4,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "Low and stable (~2.4% end-2025) - a genuine strength. (CBTT)"
+        },
+        "banking_stability": {
+          "score": 2,
+          "weight": 0.1,
+          "confidence": 0.75,
+          "notes": "Broadly stable and well-capitalised, but heavy bank/insurer exposure to sovereign debt and rising household indebtedness are flagged. (CBTT Financial Stability Report)"
+        },
+        "trade_actions_capacity": {
+          "score_near": -2,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.17,
+          "confidence": 0.75,
+          "notes": "Highly concentrated in oil/gas/LNG/petrochemicals with declining gas feedstock; diversification is nascent and slow. (IMF 2026)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 1.3,
+      "confidence": 0.71,
+      "skew": "symmetric",
+      "notes": "A functioning democracy and usable data, with persistent corruption and journalist-safety concerns.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 1,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "A functioning parliamentary democracy and courts, but persistent official corruption and organized-crime penetration weigh. (Freedom House)"
+        },
+        "statistical_integrity": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "CSO/CBTT data are usable and IMF-engaged, though the CSO has faced timeliness/capacity criticism. (IMF; CBTT)"
+        },
+        "civil_service_capacity": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Reasonable capacity for the region, but bureaucratic and FX-allocation frictions impede the non-energy economy. (IMF 2026)"
+        },
+        "press_freedom": {
+          "score_near": 0,
+          "score_long": 1,
+          "score": null,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "Vibrant media, but RSF flags deteriorating journalist safety (no witness-protection, self-censorship); rank fell ~13 to 32nd. (RSF 2026)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -0.3,
+      "confidence": 0.76,
+      "skew": "negative",
+      "notes": "A stable two-party system under SOE-era civil-liberties strain, with an ethnic cleavage and migrant-crackdown.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 3,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "The UNC's Persad-Bissessar won a decisive majority over the PNM in Apr 2025 - an orderly transfer in a stable two-party system. (Newsday; Atlantic Council)"
+        },
+        "civil_liberties": {
+          "score_near": 0,
+          "score_long": 1,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "Rated 'Free', but repeated states of emergency with warrantless search/arrest powers raise real concerns. (Freedom House 2025)"
+        },
+        "treatment_non_citizens": {
+          "score_near": -4,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "A sharp hardening toward Venezuelan migrants - work permits cut from ~4,275 (2024) to 757 (2025), deportation orders, threatened 'mass deportation'. (Migration Policy Institute)"
+        },
+        "social_cohesion": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "An Afro-/Indo-Trinidadian ethnic-political cleavage plus ~180 territorial gangs fuel violence and polarized politics. (InSight Crime)"
+        },
+        "demographics": {
+          "score": 1,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "A relatively favourable structure, but skilled emigration and energy dependence cloud the long run. (general)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -0.1,
+      "confidence": 0.7,
+      "skew": "negative",
+      "notes": "A US-aligned democracy on the front line of US-Venezuela tensions, with OFAC-dependent cross-border gas.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score_near": 2,
+          "score_long": 3,
+          "score": null,
+          "weight": 0.4,
+          "confidence": 0.7,
+          "notes": "A stable US-aligned CARICOM democracy that has tacked closer to the US on Venezuela, but the abrupt Venezuela rupture shows regional volatility. (Atlantic Council)"
+        },
+        "conflict_involvement": {
+          "score_near": -2,
+          "score_long": 0,
+          "score": null,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "Not a combatant, but on the front line of US-Venezuela Caribbean tensions and arms/migrant spillover, with a Venezuela diplomatic rupture. (Migration Policy Institute)"
+        },
+        "sanctions_capital_controls": {
+          "score_near": -1,
+          "score_long": 0,
+          "score": null,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "No sanctions on T&T, but its key Dragon gas project depends on OFAC licensing (revoked, then a 6-month license Oct 2025); FX rationing acts like soft controls. (Newsday; IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 0.1,
+      "confidence": 0.69,
+      "skew": "negative",
+      "notes": "Below the main hurricane belt and relatively developed, against record gang violence.",
+      "sub_factors": {
+        "climate": {
+          "score": 1,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Largely south of the main hurricane belt (lower storm risk than most of the Caribbean), but with flooding and an oil-dependent emissions profile. (general)"
+        },
+        "healthcare": {
+          "score": 1,
+          "weight": 0.3,
+          "confidence": 0.65,
+          "notes": "A public system with broad coverage and higher per-capita spend than peers, with quality/wait-time gaps and a private tier. (general)"
+        },
+        "infrastructure": {
+          "score": 1,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Relatively developed (energy, roads, telecoms) but FX shortages and ageing energy assets constrain investment. (IMF 2026)"
+        },
+        "crime_safety": {
+          "score_near": -4,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "2024 was the deadliest year on record (~614-624 homicides); a Dec-2024 SOE drove a ~44% drop in 2025, but violence is structurally high and gang-driven. (InSight Crime)"
+        },
+        "disaster_insurance": {
+          "score": 1,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Lower catastrophe exposure than hurricane-belt peers, an insurable market with industrial/energy-accident tail risk. (general)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 0.65,
+      "confidence": 0.74,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 0.37,
+      "confidence": 0.75,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 0.06,
+      "confidence": 0.77,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "The wealthiest-per-capita Caribbean economy, anchored by oil/gas/LNG/petrochemicals and a substantial ~US$6.4bn Heritage & Stabilisation Fund, with low inflation and a stable two-party democracy that delivered an orderly handover to the UNC's Kamla Persad-Bissessar in April 2025. But the structural picture is negative: mature-field gas output keeps declining, diversification has stalled, growth is stuck near 0.8%, and defending the de-facto USD peg has drained reserves to a decades-low ~5.4 months of imports amid chronic FX rationing the IMF wants addressed. Compounding this are a severe gang-violence problem (a record-deadly 2024 and a late-2024 state of emergency) and an acutely volatile Venezuela border - migrant crackdowns, a diplomatic rupture, and OFAC-dependent cross-border gas (Dragon). A rich but resource-trapped state whose fortunes are tightly bound to energy prices and Venezuela."
+}

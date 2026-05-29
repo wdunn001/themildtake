@@ -1,0 +1,244 @@
+{
+  "country": "Grenada",
+  "iso3": "GRD",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "positive",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF, ECCB, Freedom House, RSF, TI, ReliefWeb/OCHA) + international and regional press.",
+    "The fiscal star of the Eastern Caribbean - record CBI revenue drove a ~8%-of-GDP primary surplus in 2024 and a debt path to the 60% target by ~2033 - on the East Caribbean dollar (XCD, pegged 2.70/USD).",
+    "Standout features: the strongest fiscal position of the OECS cohort and stable democracy, against acute single-event hurricane risk (Beryl flattened Carriacou in 2024) and CBI/EU dependence."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 1.7,
+      "confidence": 0.82,
+      "skew": "positive",
+      "notes": "Record CBI-driven surpluses and large buffers on a credible debt-reduction path, peg-anchored.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 6,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "A 2024 primary surplus ~8% of GDP, deposits ~23% of GDP, and debt falling toward the 60% target by 2033, with a temporary 2025 fiscal-rule suspension for Beryl reconstruction. (IMF 2024/2025 Art IV)"
+        },
+        "monetary_independence": {
+          "score": -1,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "An ECCB currency-union member - no independent monetary policy but a credible USD peg at 2.70. (ECCB)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The XCD is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 5,
+          "weight": 0.13,
+          "confidence": 0.8,
+          "notes": "Moderating, broadly low single digits under the peg and ECCU stability. (IMF)"
+        },
+        "banking_stability": {
+          "score": 4,
+          "weight": 0.1,
+          "confidence": 0.7,
+          "notes": "The ECCU banking system is liquid and well-capitalized; small-system concentration caps the score. (ECCB FY24/25)"
+        },
+        "trade_actions_capacity": {
+          "score": -3,
+          "weight": 0.17,
+          "confidence": 0.65,
+          "notes": "A tiny open economy with a narrow export base (nutmeg/tourism) and no leverage - a price-taker. (observed)"
+        }
+      }
+    },
+    "institutional": {
+      "score": 2.5,
+      "confidence": 0.6,
+      "skew": "symmetric",
+      "notes": "Functioning courts and a stable democracy, with mid-tier corruption and some media-ownership concerns.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": 4,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "Functioning courts (OECS/CCJ-eligible) and stable, with CPI rank ~46/180, mid-tier for the region. (TI; Freedom House)"
+        },
+        "statistical_integrity": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.5,
+          "notes": "Engages fully with IMF/ECCB data; capacity is thin, with typical small-state lags. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "A competent core but small, with reconstruction-execution delays noted by the IMF. (IMF)"
+        },
+        "press_freedom": {
+          "score": 3,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "'Free', with OECS-regional concern over political ownership of media and editorial pressure. (RSF 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 4.7,
+      "confidence": 0.67,
+      "skew": "positive",
+      "notes": "An orderly democracy with high civil liberties, with post-Beryl displacement a localized strain.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 6,
+          "weight": 0.3,
+          "confidence": 0.85,
+          "notes": "PM Dickon Mitchell (NDC, 2022) - an orderly democracy with peaceful transfers, the 1983 legacy long past. (Freedom House)"
+        },
+        "civil_liberties": {
+          "score": 6,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Freedom House 2025 score 89/100, 'Free'. (Freedom House)"
+        },
+        "treatment_non_citizens": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.45,
+          "notes": "No notable systemic discrimination reported, with thin data. (lower confidence)"
+        },
+        "social_cohesion": {
+          "score": 4,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "A cohesive small society, with post-Beryl displacement in Carriacou a localized strain. (observed)"
+        },
+        "demographics": {
+          "score": 1,
+          "weight": 0.1,
+          "confidence": 0.5,
+          "notes": "Aging/emigration pressures common to the region, with a small workforce. (World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 3.3,
+      "confidence": 0.67,
+      "skew": "negative",
+      "notes": "A predictable non-aligned CARICOM member, conflict-free, with CBI/EU exposure.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 2,
+          "weight": 0.4,
+          "confidence": 0.55,
+          "notes": "A CARICOM/OECS/Commonwealth member - non-aligned and predictable. (observed)"
+        },
+        "conflict_involvement": {
+          "score": 7,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "No conflict exposure - demilitarized and peaceful. (observed)"
+        },
+        "sanctions_capital_controls": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "The CBI program is the channel for EU/US pressure, with some Schengen-suspension and de-risking risk. (EU; IMI Daily)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -2.1,
+      "confidence": 0.64,
+      "skew": "negative",
+      "notes": "Acute single-event hurricane risk (Beylr/Carriacou), with reasonable regional services.",
+      "sub_factors": {
+        "climate": {
+          "score": -7,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Direct-hit hurricane risk proven by Beryl 2024 (>16% of GDP in damage, ~99% of Carriacou's buildings destroyed) and the Ivan 2004 legacy. (IMF; OCHA)"
+        },
+        "healthcare": {
+          "score": -1,
+          "weight": 0.3,
+          "confidence": 0.55,
+          "notes": "A basic public system, with serious cases referred off-island - a regional norm. (observed)"
+        },
+        "infrastructure": {
+          "score": 2,
+          "weight": 0.2,
+          "confidence": 0.6,
+          "notes": "Reasonable for the region, with reconstruction ongoing in the northern islands. (IMF)"
+        },
+        "crime_safety": {
+          "score": 2,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "A lower violent-crime profile than St Kitts/SVG - tourism-grade safety. (observed)"
+        },
+        "disaster_insurance": {
+          "score": -4,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "A CCRIF member (it received a Beryl payout) but coverage funds a small fraction of losses - a wide protection gap. (CCRIF)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": 2.39,
+      "confidence": 0.66,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 2.04,
+      "confidence": 0.71,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 2.18,
+      "confidence": 0.75,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "The fiscal standout of the Eastern Caribbean, with record CBI inflows building large government buffers and a credible glidepath to the ECCU 60%-of-GDP debt target by ~2033, even after suspending fiscal rules to fund Hurricane Beryl reconstruction. Its institutions are stable, democratic, and 'Free', and the 1983 intervention legacy is irrelevant to present risk. The dominant downside is physical: Beryl's near-total destruction of Carriacou in 2024 shows how a single storm can wipe out >16% of GDP, against limited catastrophe insurance. Net skew is moderately positive, anchored by strong public finances but capped by concentrated climate exposure and CBI/EU dependence."
+}
