@@ -1,0 +1,246 @@
+{
+  "country": "North Korea",
+  "iso3": "PRK",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: rebuilt entirely from independent sources (Bank of Korea/South-Korean estimates, UN Panel of Experts, V-Dem, RSF, Freedom House, HRW, 38 North, NK News, DailyNK, defector testimony); ALL DPRK state media/official statistics EXCLUDED as propaganda.",
+    "Data limitation (severe): reliable internal data is largely absent - every economic/demographic figure is external estimation, so confidence is capped low throughout. The state-set won rate was used only to characterize the official/black-market gap, never as a real value.",
+    "Standout drags: a totalitarian dictatorship with among the world's worst rights and press, a collapsed command/sanctioned economy, a nuclear-pariah posture now supplying Russia's war, and chronic food insecurity. Overall: among the most negative profiles."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -5.5,
+      "confidence": 0.5,
+      "skew": "negative",
+      "notes": "A collapsed, sanctioned command economy with a state-set currency and recurrent food insecurity.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -8,
+          "weight": 0.22,
+          "confidence": 0.4,
+          "notes": "An opaque command economy; external estimates show a small, sanction-shrunk GDP with recurrent food insecurity. (Bank of Korea estimates)"
+        },
+        "monetary_independence": {
+          "score": -8,
+          "weight": 0.22,
+          "confidence": 0.45,
+          "notes": "A state-set won with no real central-bank function, a wide official/black-market gap, and partial dollarization. (38 North; DailyNK)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "Not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": -6,
+          "weight": 0.13,
+          "confidence": 0.3,
+          "notes": "Estimated only - volatile and FX-shortage-driven. (DailyNK trackers)"
+        },
+        "banking_stability": {
+          "score": -9,
+          "weight": 0.1,
+          "confidence": 0.5,
+          "notes": "No real banking system; SWIFT-cut, sanctioned, and illicit-finance-dependent. (UN Panel of Experts)"
+        },
+        "trade_actions_capacity": {
+          "score": -8,
+          "weight": 0.17,
+          "confidence": 0.45,
+          "notes": "Heavily sanctioned and China-dependent, with illicit revenue (cyber-theft, coal, arms) and munitions supplied to Russia in 2024-25. (UN PoE; 38 North)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -8.8,
+      "confidence": 0.69,
+      "skew": "negative",
+      "notes": "A totalitarian dictatorship with no rule of law, no usable data, and the world's worst press repression.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -10,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "A totalitarian dynastic dictatorship with no judicial independence. (V-Dem; Freedom House)"
+        },
+        "statistical_integrity": {
+          "score": -10,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "No usable official data; everything is external estimation. (insufficient data)"
+        },
+        "civil_service_capacity": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.4,
+          "notes": "A capable coercive/military-nuclear apparatus, but a hollow civilian capacity. (independent analysis)"
+        },
+        "press_freedom": {
+          "score": -10,
+          "weight": 0.15,
+          "confidence": 0.9,
+          "notes": "The world's worst, dead last on the RSF index. (RSF)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -7.2,
+      "confidence": 0.52,
+      "skew": "negative",
+      "notes": "A consolidated totalitarian state with among the world's worst rights and chronic food insecurity.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -3,
+          "score_long": -6,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.4,
+          "notes": "A consolidated dynastic regime - suppressed stability - with an opaque succession/collapse fat-tail. (38 North; NK News)"
+        },
+        "civil_liberties": {
+          "score": -10,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Political-prison camps and total social control - among the world's worst. (HRW; UN Commission of Inquiry)"
+        },
+        "treatment_non_citizens": {
+          "score": -8,
+          "weight": 0.25,
+          "confidence": 0.5,
+          "notes": "Closed, with no residency pathway - a state people flee. (defector testimony)"
+        },
+        "social_cohesion": {
+          "score": -7,
+          "weight": 0.15,
+          "confidence": 0.4,
+          "notes": "A songbun caste system, famine history, and atomized control. (HRW)"
+        },
+        "demographics": {
+          "score": -6,
+          "weight": 0.1,
+          "confidence": 0.4,
+          "notes": "Young-ish but malnutrition-stunted, with opaque data. (UN/FAO nutrition estimates)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -8.3,
+      "confidence": 0.66,
+      "skew": "negative",
+      "notes": "An isolated nuclear pariah, now a co-combatant supplier to Russia, under the heaviest sanctions.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": -7,
+          "weight": 0.4,
+          "confidence": 0.6,
+          "notes": "Isolated and China-dependent, with a deepening Russia mutual-defence pact and troops sent to Ukraine in 2024-25. (38 North; NK News)"
+        },
+        "conflict_involvement": {
+          "score": -8,
+          "weight": 0.35,
+          "confidence": 0.6,
+          "notes": "A nuclear-armed pariah in perpetual peninsula tension, now a co-combatant supplier to Russia. (UN PoE)"
+        },
+        "sanctions_capital_controls": {
+          "score": -10,
+          "weight": 0.25,
+          "confidence": 0.85,
+          "notes": "Among the most-sanctioned states on earth, with total capital controls. (UNSC; OFAC)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -7.9,
+      "confidence": 0.48,
+      "skew": "negative",
+      "notes": "A collapsed health system and decrepit, electricity-starved infrastructure, with chronic food insecurity.",
+      "sub_factors": {
+        "climate": {
+          "score": -8,
+          "weight": 0.2,
+          "confidence": 0.5,
+          "notes": "Flood/drought, deforestation, and chronic food insecurity/famine risk. (FAO/WFP estimates)"
+        },
+        "healthcare": {
+          "score": -9,
+          "weight": 0.3,
+          "confidence": 0.5,
+          "notes": "Collapsed, with a heavy TB/malnutrition burden - among the world's worst. (WHO/independent)"
+        },
+        "infrastructure": {
+          "score": -9,
+          "weight": 0.2,
+          "confidence": 0.55,
+          "notes": "Decrepit and electricity-starved (visible in nighttime-satellite darkness). (38 North)"
+        },
+        "crime_safety": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.4,
+          "notes": "State-imposed 'order' but high state-violence risk - a negative duality. (HRW)"
+        },
+        "disaster_insurance": {
+          "score": -8,
+          "weight": 0.15,
+          "confidence": 0.4,
+          "notes": "None. (general)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -8.01,
+      "confidence": 0.58,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -7.39,
+      "confidence": 0.57,
+      "horizon": "3-7y",
+      "reading": "clear negative"
+    },
+    "currency": {
+      "score": -6.9,
+      "confidence": 0.57,
+      "horizon": "1-3y",
+      "reading": "clear negative"
+    }
+  },
+  "summary": "A totalitarian dynastic dictatorship with among the world's worst rights record - political-prison camps, total social control, and dead-last press freedom - and a collapsed, sanctioned command economy with a state-set currency, no real banking system, and chronic food insecurity. Internationally it is a nuclear-armed pariah under the heaviest sanctions, now supplying munitions and troops to Russia's war. Healthcare and infrastructure are collapsed and electricity-starved. All figures are external estimates with no usable internal data; the profile sits among the most negative in the dataset."
+}

@@ -1,0 +1,244 @@
+{
+  "country": "Cameroon",
+  "iso3": "CMR",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: governance/rights/politics rebuilt from independent sources (IMF, World Bank, V-Dem, RSF, Freedom House, HRW, Amnesty, ICG, ACLED) + international press; Cameroonian state media EXCLUDED there, with economics IMF-validated.",
+    "A leader in power since 1982 (re-elected at ~92 to an 8th term in a disputed Oct 2025 vote) sits atop an acute, unresolved succession risk amid a two-front war: the Anglophone separatist conflict in the west and Boko Haram/ISWAP in the Far North.",
+    "Standout drags: a near-record presidential tenure with a succession fat-tail, two active internal conflicts, weak rule of law, and a crushed press; the CFA-franc euro peg and oil/cocoa diversification are the offsets."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -0.3,
+      "confidence": 0.78,
+      "skew": "negative",
+      "notes": "A peg-anchored low-inflation, diversified-for-the-region economy, against weak fiscal capacity and a declining oil base.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -4,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "Modest growth on an IMF program, with declining oil revenue, weak domestic revenue, and conflict costs. (IMF reviews 2025-26)"
+        },
+        "monetary_independence": {
+          "score": 2,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "No own policy, but the CEMAC CFA franc's hard euro peg (with a French convertibility guarantee) delivers stability - a positive in a fragile region. (BEAC; IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.9,
+          "notes": "The CFA franc is regional, not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 4,
+          "weight": 0.13,
+          "confidence": 0.8,
+          "notes": "Low and peg-anchored, easing toward the CEMAC ~3% norm. (IMF)"
+        },
+        "banking_stability": {
+          "score": 1,
+          "weight": 0.1,
+          "confidence": 0.65,
+          "notes": "The regional CEMAC banking system, supervised by COBAC - sound-ish, thin. (BEAC; IMF)"
+        },
+        "trade_actions_capacity": {
+          "score": -3,
+          "weight": 0.17,
+          "confidence": 0.7,
+          "notes": "Among Central Africa's more diversified (oil, cocoa, timber, the regional port at Douala), but with declining oil, conflict disruption, and weak logistics. (IMF; World Bank)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -4.7,
+      "confidence": 0.7,
+      "skew": "negative",
+      "notes": "A personalized regime with weak rule of law and a crushed press.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -6,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "Personalized rule, no real judicial independence, and pervasive corruption (a low TI standing). (Freedom House; V-Dem; TI)"
+        },
+        "statistical_integrity": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Usable and IMF-engaged; political data unreliable. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": -4,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Patronage-laden, with limited reach in conflict zones. (World Bank)"
+        },
+        "press_freedom": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "A poor RSF standing, with detained journalists and a death in custody. (RSF; CPJ)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -4.7,
+      "confidence": 0.75,
+      "skew": "negative",
+      "notes": "An extreme succession fat-tail over a two-front internal war and a deep Anglophone cleavage.",
+      "sub_factors": {
+        "political_stability": {
+          "score": -7,
+          "weight": 0.3,
+          "confidence": 0.82,
+          "notes": "A leader in power since 1982 re-elected at ~92 to an 8th term in a disputed Oct 2025 vote that sparked deadly protests - an acute, unmanaged succession fat-tail. (Al Jazeera; ICG)"
+        },
+        "civil_liberties": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Rated 'Not Free' - post-election crackdowns, detentions, and an opposition leader's house arrest. (Freedom House; Amnesty)"
+        },
+        "treatment_non_citizens": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Hosts Nigerian/CAR refugees under strain; not a destination. (UNHCR)"
+        },
+        "social_cohesion": {
+          "score": -7,
+          "weight": 0.15,
+          "confidence": 0.82,
+          "notes": "A deep Anglophone-Francophone cleavage feeding the western separatist war, plus the northern conflict. (ICG; HRW)"
+        },
+        "demographics": {
+          "score": 2,
+          "weight": 0.1,
+          "confidence": 0.7,
+          "notes": "Young and growing - a dividend-or-strain double-edge. (World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -3,
+      "confidence": 0.73,
+      "skew": "negative",
+      "notes": "A France-linked but drifting actor with two active internal conflicts.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": -1,
+          "weight": 0.4,
+          "confidence": 0.65,
+          "notes": "Historic France/Western ties with growing China/Russia engagement and Lake-Chad counterterror cooperation - a hedging drift. (ICG; CRS)"
+        },
+        "conflict_involvement": {
+          "score": -7,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "A two-front internal war - the Anglophone separatist conflict (thousands killed, ~1M displaced) and Boko Haram/ISWAP in the Far North. (HRW; ACLED)"
+        },
+        "sanctions_capital_controls": {
+          "score": 1,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Not broadly sanctioned, within the CEMAC regional FX framework. (BEAC; IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -5.1,
+      "confidence": 0.65,
+      "skew": "negative",
+      "notes": "Weak healthcare and infrastructure, high crime/conflict insecurity, and climate exposure.",
+      "sub_factors": {
+        "climate": {
+          "score": -5,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Far-North drought/desertification and southern flooding, with rain-fed agriculture. (World Bank)"
+        },
+        "healthcare": {
+          "score": -5,
+          "weight": 0.3,
+          "confidence": 0.65,
+          "notes": "Weak and low-spend, strained by conflict displacement. (WHO; World Bank)"
+        },
+        "infrastructure": {
+          "score": -4,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Poor-moderate, with the regional Douala port a bottleneck and conflict-zone disruption. (World Bank)"
+        },
+        "crime_safety": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "High insecurity - conflict-zone violence, kidnapping, and Gulf-of-Guinea piracy exposure. (ACLED; OSAC)"
+        },
+        "disaster_insurance": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Negligible penetration. (inference)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -3.96,
+      "confidence": 0.72,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -2.61,
+      "confidence": 0.74,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -1.72,
+      "confidence": 0.76,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A Central African state defined by an acute succession fat-tail - a leader in power since 1982, re-elected at roughly 92 to an eighth term in a disputed October 2025 vote that triggered deadly protests - layered over a two-front internal war: the Anglophone separatist conflict in the west (~1M displaced) and Boko Haram/ISWAP in the Far North. Rule of law is weak, the press crushed, and security poor. The offsets are real but modest: the CFA-franc euro peg delivers monetary stability and low inflation, and the economy is among the region's more diversified (oil, cocoa, the Douala port). Negative overall, with the post-Biya transition the dominant risk."
+}

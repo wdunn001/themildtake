@@ -1,0 +1,250 @@
+{
+  "country": "Bahrain",
+  "iso3": "BHR",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: governance/rights/politics rebuilt from independent sources (IMF Art IV, World Bank, V-Dem, RSF, Freedom House, HRW, Amnesty, TI) + non-Bahraini press; Bahraini state media EXCLUDED there, with economic figures admitted only via IMF validation.",
+    "A Sunni monarchy ruling a Shia-majority population (the 2011 uprising was crushed with Gulf help); the dinar is hard-pegged to the USD. Migrant workers are roughly half the population under kafala-legacy controls.",
+    "Standout drags: the weakest fiscal position in the Gulf, mass post-2011 political imprisonment, and a sectarian fat-tail; offsets are a strong finance sector, the US 5th-Fleet alliance, and low crime."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -0.3,
+      "confidence": 0.8,
+      "skew": "negative",
+      "notes": "A strong finance sector and peg-anchored low inflation, against the Gulf's weakest fiscal position.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -5,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "The weakest Gulf fiscal position - debt ~120%+ GDP, persistent deficits, depleting oil, reliant on GCC support after the 2018 bailout. (IMF Art IV; World Bank)"
+        },
+        "monetary_independence": {
+          "score": -3,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "A hard, long-standing USD peg - near-zero autonomy but stable. (IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 1,
+          "weight": 0.16,
+          "confidence": 0.7,
+          "notes": "Peg stability but thin reserve buffers; not a reserve issuer. (IMF)"
+        },
+        "inflation": {
+          "score": 6,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "Low and peg-anchored (~1-2%). (IMF)"
+        },
+        "banking_stability": {
+          "score": 6,
+          "weight": 0.1,
+          "confidence": 0.8,
+          "notes": "A large, well-regulated financial-services hub - a relative strength, with a sovereign-bank-nexus vulnerability. (IMF; CBB)"
+        },
+        "trade_actions_capacity": {
+          "score": 0,
+          "weight": 0.17,
+          "confidence": 0.75,
+          "notes": "Declining oil plus aluminium and a finance/fintech hub - small and concentrated. (IMF)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -1.4,
+      "confidence": 0.76,
+      "skew": "negative",
+      "notes": "Capable wealth-funded administration, against no political-sphere judicial independence and a crushed press.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -5,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "A near-absolute monarchy with no judicial independence on political matters and corruption. (Freedom House; V-Dem; TI)"
+        },
+        "statistical_integrity": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Economic data is IMF-validated; the political sphere is opaque. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": 5,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "A capable, oil/finance-funded administration. (IMF)"
+        },
+        "press_freedom": {
+          "score": -7,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "A bottom-tier RSF standing, with independent media crushed post-2011. (RSF; Freedom House)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -4,
+      "confidence": 0.75,
+      "skew": "negative",
+      "notes": "Suppressed stability over a sectarian majority, with mass political imprisonment.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -3,
+          "score_long": -5,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.72,
+          "notes": "A Sunni monarchy over a Shia majority; the 2011 uprising was crushed with Gulf help - suppressed stability with a sectarian fat-tail. (Freedom House; HRW)"
+        },
+        "civil_liberties": {
+          "score": -7,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Rated 'Not Free' - mass political imprisonment, the opposition dissolved, and criminalised expression. (Freedom House; Amnesty)"
+        },
+        "treatment_non_citizens": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.78,
+          "notes": "Easy employer-sponsored entry and no income tax, but a kafala-legacy ceiling, no citizenship path, and a politicised-naturalisation grievance. (HRW; Amnesty)"
+        },
+        "social_cohesion": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.72,
+          "notes": "A deep, structural Sunni-Shia sectarian cleavage. (HRW; V-Dem)"
+        },
+        "demographics": {
+          "score": 0,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "Migrant-skewed (~half the population) with a small young citizen base. (UN; World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 3.9,
+      "confidence": 0.77,
+      "skew": "positive",
+      "notes": "A US-anchored Gulf ally with an open account, against Iran-proximity exposure.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 7,
+          "weight": 0.4,
+          "confidence": 0.8,
+          "notes": "Hosts the US Navy 5th Fleet, a major non-NATO ally, Gulf-backed, and normalised with Israel. (CRS; Atlantic Council)"
+        },
+        "conflict_involvement": {
+          "score_near": -2,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "No direct war, with Iran-proximity/Hormuz and sectarian-spillover exposure. (non-Bahraini press)"
+        },
+        "sanctions_capital_controls": {
+          "score": 6,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "An open capital account, unsanctioned. (IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": 4.1,
+      "confidence": 0.73,
+      "skew": "positive",
+      "notes": "Modern healthcare, infrastructure, and low crime, against extreme heat and sea-level risk.",
+      "sub_factors": {
+        "climate": {
+          "score_near": -3,
+          "score_long": -7,
+          "score": null,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Extreme heat, severe water scarcity (desalination-dependent), and low-lying sea-level risk on a small flat island. (UN; World Bank)"
+        },
+        "healthcare": {
+          "score": 6,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "Good, modern, and well-funded. (independent)"
+        },
+        "infrastructure": {
+          "score": 7,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "Modern and good. (IMF; independent)"
+        },
+        "crime_safety": {
+          "score": 7,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "Low crime - a strength. (independent)"
+        },
+        "disaster_insurance": {
+          "score": 4,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "Low natural-catastrophe exposure besides heat and sea-level. (UN)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -1.24,
+      "confidence": 0.76,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 0.02,
+      "confidence": 0.77,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -0.08,
+      "confidence": 0.79,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A small Gulf monarchy with a strong financial-services sector, peg-anchored low inflation, modern healthcare and infrastructure, low crime, and a US-anchored alliance (the 5th Fleet). Those are offset by the weakest fiscal position in the Gulf (debt ~120%+ of GDP, reliant on GCC support), and - more structurally - a Sunni monarchy ruling a Shia-majority population whose 2011 uprising was crushed, leaving mass political imprisonment, a dissolved opposition, a near-worst press environment, and a sectarian fat-tail. A USD peg trades monetary autonomy for stability."
+}

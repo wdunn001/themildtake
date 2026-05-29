@@ -1,0 +1,246 @@
+{
+  "country": "Uganda",
+  "iso3": "UGA",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: governance/rights/politics rebuilt from independent sources (IMF, World Bank, V-Dem, RSF, Freedom House, HRW, Amnesty, OHCHR, UNHCR, CRS) + international press; Ugandan state media EXCLUDED there, with economics admitted via IMF.",
+    "Politics: a leader in power since 1986 re-elected in January 2026 amid an opposition crackdown, with his son positioned to succeed - a managed/suppressed stability with a violent succession fat-tail.",
+    "Standout drags: military-influenced weak rule of law, a draconian anti-LGBT law and opposition repression, recurrent disease outbreaks, and ADF/ISIS-linked conflict; offsets are low inflation and a generous refugee-host record."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -0.9,
+      "confidence": 0.81,
+      "skew": "negative",
+      "notes": "Solid growth and low inflation, against a widening deficit and oil/commodity concentration.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -3,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "A deficit widened to ~6% GDP with debt ~52%, the IMF urging discipline as oil nears - manageable, not distressed. (IMF 2026)"
+        },
+        "monetary_independence": {
+          "score": -1,
+          "weight": 0.22,
+          "confidence": 0.8,
+          "notes": "A managed shilling with a credible-but-limited-independence central bank, stable on coffee/FX inflows. (Bank of Uganda)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The shilling is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 3,
+          "weight": 0.13,
+          "confidence": 0.85,
+          "notes": "~3.6% and below target - a genuine relative strength. (Bank of Uganda; IMF)"
+        },
+        "banking_stability": {
+          "score": -1,
+          "weight": 0.1,
+          "confidence": 0.7,
+          "notes": "Developing and sound-ish, with falling NPLs. (Bank of Uganda)"
+        },
+        "trade_actions_capacity": {
+          "score": -2,
+          "weight": 0.17,
+          "confidence": 0.7,
+          "notes": "Strong ~6% growth on coffee/gold plus an oil project (the EACOP pipeline, first oil slipped), with commodity/oil concentration and EACOP climate-finance controversy. (IMF; IEEFA)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -4.4,
+      "confidence": 0.73,
+      "skew": "negative",
+      "notes": "Military-influenced weak rule of law and a heavily pressured press.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -6,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "Patronage and no real judicial independence, with a 2025 law restoring military trials of civilians over the Supreme Court. (HRW; OHCHR; WJP)"
+        },
+        "statistical_integrity": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Usable and IMF-engaged; political-domain data unreliable. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Patronage-laden, with mixed reach. (World Bank)"
+        },
+        "press_freedom": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "A poor RSF standing, with election-period beatings/detentions and internet shutdowns. (RSF; Freedom House)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -2.1,
+      "confidence": 0.78,
+      "skew": "negative",
+      "notes": "Entrenched rule with a succession fat-tail and restricted liberties, against a generous refugee-host record.",
+      "sub_factors": {
+        "political_stability": {
+          "score": -5,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "A leader in power since 1986 re-elected in Jan 2026 amid an internet shutdown, killings, and opposition house arrest, with his son positioned to succeed - a violent succession fat-tail. (Al Jazeera; HRW)"
+        },
+        "civil_liberties": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "A 2023 Anti-Homosexuality Act (upheld, with widespread abuse) and NGO/opposition repression. (HRW)"
+        },
+        "treatment_non_citizens": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "Africa's largest refugee host (~1.8M) with a progressive land/movement policy - a genuine positive - though an authoritarian ceiling for others. (UNHCR)"
+        },
+        "social_cohesion": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Managed ethnic/regional cleavages with a northern-conflict legacy. (V-Dem)"
+        },
+        "demographics": {
+          "score_near": 2,
+          "score_long": -2,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.75,
+          "notes": "Among the world's youngest and fastest-growing - a dividend-or-Malthusian double-edge. (World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -2.8,
+      "confidence": 0.73,
+      "skew": "negative",
+      "notes": "A Western security partner drifting and rights-pressured, with active ADF/regional conflict.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": -1,
+          "weight": 0.4,
+          "confidence": 0.65,
+          "notes": "A Western counterterror/peacekeeping partner pivoting toward China/Russia and pressured on rights. (CRS)"
+        },
+        "conflict_involvement": {
+          "score": -5,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "ADF/ISIS-linked attacks, a DRC intervention, and South-Sudan-border deployment. (Al Jazeera; UPDF)"
+        },
+        "sanctions_capital_controls": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "World Bank lending was frozen over the anti-LGBT law (resumed 2025) and US aid cut; otherwise an open capital account. (Bloomberg; CRS)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -3.9,
+      "confidence": 0.68,
+      "skew": "negative",
+      "notes": "Improving but poor infrastructure, weak healthcare with recurrent outbreaks, and climate exposure.",
+      "sub_factors": {
+        "climate": {
+          "score": -4,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "Drought/flood, deforestation, and rain-fed agriculture, with Lake Victoria stress. (inference)"
+        },
+        "healthcare": {
+          "score": -5,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "Weak and low-spend, with recurrent Ebola/Marburg outbreaks and US-aid-cut clinic closures. (WHO; CNN)"
+        },
+        "infrastructure": {
+          "score": -3,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "Improving (oil roads, dam power) but poor-moderate and landlocked. (World Bank)"
+        },
+        "crime_safety": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Moderate urban/petty crime. (inference)"
+        },
+        "disaster_insurance": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Negligible penetration against drought/flood. (inference)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -3.08,
+      "confidence": 0.75,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -2.4,
+      "confidence": 0.76,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -1.85,
+      "confidence": 0.78,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A fast-growing economy with notably low inflation and Africa's largest, most progressive refugee-host record, undercut by entrenched authoritarian governance: a leader in power since 1986 re-elected in January 2026 amid an opposition crackdown and internet shutdown, his son positioned to succeed, a 2025 law restoring military trials of civilians, a draconian anti-LGBT law, and a heavily pressured press. Recurrent Ebola/Marburg outbreaks, ADF/ISIS-linked conflict and a DRC intervention, and oil/EACOP-concentration risks round out a negative profile."
+}

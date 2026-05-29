@@ -1,0 +1,244 @@
+{
+  "country": "Zimbabwe",
+  "iso3": "ZWE",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: governance/rights/politics rebuilt from independent sources (IMF, World Bank, V-Dem, Freedom House, HRW, TI, UNICEF/OCHA, ISS) + independent press; Zimbabwean state media EXCLUDED there, with economics IMF/World-Bank-validated (not RBZ self-reports).",
+    "A serial-currency-collapse economy (the 2024 gold-backed ZiG struggling) locked out of IMF financing by ~25 years of arrears, under entrenched ZANU-PF rule.",
+    "Standout drags: a defaulted/arrears-locked state, serial currency collapses, a severe drought/power crisis, a collapsed health system, and ZANU-PF capture; the mineral endowment is the offset. Overall: negative."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -4.7,
+      "confidence": 0.84,
+      "skew": "negative",
+      "notes": "A defaulted, arrears-locked state with serial currency collapses and a mineral-but-dysfunctional base.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -7,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Debt assessed unsustainable, with ~25 years of arrears locking it out of IMF financing; a 2026 staff-monitored program is only a re-engagement step. (IMF reports 2025-26)"
+        },
+        "monetary_independence": {
+          "score": -7,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Serial currency collapses; the 2024 gold-backed ZiG has low credibility, with heavy dollarization and a parallel premium. (IMF; World Bank)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "Not a reserve currency; de-facto USD-reliant. (IMF)"
+        },
+        "inflation": {
+          "score": -5,
+          "weight": 0.13,
+          "confidence": 0.8,
+          "notes": "Tamed to ~4% in early 2026 under tight policy, but a hyperinflation history keeps forward risk high. (IMF WEO)"
+        },
+        "banking_stability": {
+          "score": -5,
+          "weight": 0.1,
+          "confidence": 0.7,
+          "notes": "Fragile, dollarized, low-confidence, under domestic-arrears pressure. (Coface; World Bank)"
+        },
+        "trade_actions_capacity": {
+          "score": -3,
+          "weight": 0.17,
+          "confidence": 0.8,
+          "notes": "A top-tier mineral endowment (Africa's largest lithium reserves, gold/PGM), but a 2026 raw-mineral export ban, ~90% Chinese-controlled mining, smuggling, and arrears-locking. (Al Jazeera)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -5.8,
+      "confidence": 0.73,
+      "skew": "negative",
+      "notes": "ZANU-PF capture with no judicial independence, a property-rights legacy, and a pressured press.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -7,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "Party capture, no judicial independence, a land-seizure property legacy, and entrenched corruption. (Freedom House; HRW)"
+        },
+        "statistical_integrity": {
+          "score": -4,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Weak and politicised; usable only where IMF-reconstructed. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": -5,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "Patronage-driven and hollowed by brain drain. (World Bank; HRW)"
+        },
+        "press_freedom": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "A 2025 association law curbing NGOs and politically-motivated journalist arrests - a regression. (HRW; Freedom House)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -4.8,
+      "confidence": 0.72,
+      "skew": "negative",
+      "notes": "Entrenched ZANU-PF rule with a term-extension push, surging abuses, and a crushed opposition.",
+      "sub_factors": {
+        "political_stability": {
+          "score": -5,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "ZANU-PF entrenched since 1980; a disputed 2023 vote and an active term-extension push stoking violence - managed/suppressed stability. (Al Jazeera; ISS)"
+        },
+        "civil_liberties": {
+          "score": -7,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "A fractured/crushed opposition and surging documented abuses. (V-Dem; HRW)"
+        },
+        "treatment_non_citizens": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "An emigration source, not a destination. (inferred; UNICEF)"
+        },
+        "social_cohesion": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "Shona/Ndebele and party-versus-opposition cleavages amid economic despair. (HRW; Freedom House)"
+        },
+        "demographics": {
+          "score": -4,
+          "weight": 0.1,
+          "confidence": 0.75,
+          "notes": "Young but with mass brain-drain emigration (especially health workers). (DevelopmentAid)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -4,
+      "confidence": 0.75,
+      "skew": "negative",
+      "notes": "Isolated from the West, China/Russia-leaning, and arrears-locked from finance.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": -5,
+          "weight": 0.4,
+          "confidence": 0.75,
+          "notes": "Isolated from the West (targeted sanctions) with a China/Russia 'Look East' lean and Chinese mining dominance. (US sources; HRW)"
+        },
+        "conflict_involvement": {
+          "score": -2,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "No interstate war, with repression-driven internal instability. (ISS)"
+        },
+        "sanctions_capital_controls": {
+          "score": -5,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "Targeted Western sanctions on officials/entities, arrears-locked from finance, with export controls. (IMF; Al Jazeera)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -6.2,
+      "confidence": 0.76,
+      "skew": "negative",
+      "notes": "A severe drought/power crisis and a collapsed health system, with decayed infrastructure.",
+      "sub_factors": {
+        "climate": {
+          "score": -7,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "A 2024 El Nino national-disaster drought (millions food-insecure), with a key dam at ~7% and hydropower down sharply. (UNICEF; OCHA)"
+        },
+        "healthcare": {
+          "score": -7,
+          "weight": 0.3,
+          "confidence": 0.85,
+          "notes": "A collapsed public system, recurrent cholera, and a doctor exodus compounded by aid cuts. (Health Policy Watch; UNICEF)"
+        },
+        "infrastructure": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Decayed, with chronic load-shedding. (World Bank)"
+        },
+        "crime_safety": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Moderate economic-desperation crime. (inferred)"
+        },
+        "disaster_insurance": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Very low penetration against extreme drought/flood exposure. (inferred)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -5.29,
+      "confidence": 0.75,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -5,
+      "confidence": 0.78,
+      "horizon": "3-7y",
+      "reading": "clear negative"
+    },
+    "currency": {
+      "score": -4.78,
+      "confidence": 0.8,
+      "horizon": "1-3y",
+      "reading": "clear negative"
+    }
+  },
+  "summary": "An economy defined by serial currency collapses - the 2024 gold-backed ZiG is the latest struggling attempt - and ~25 years of arrears that lock it out of IMF financing, under entrenched ZANU-PF rule with no judicial independence, a land-seizure property legacy, and a term-extension push stoking violence. A top-tier mineral endowment (Africa's largest lithium reserves) is undercut by an export ban, Chinese-dominated mining, and smuggling. A severe 2024 drought drove a national power crisis, the health system has collapsed amid cholera and a medic exodus, and the country is isolated from Western finance. Negative throughout."
+}
