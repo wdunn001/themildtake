@@ -1,0 +1,246 @@
+{
+  "country": "Somalia",
+  "iso3": "SOM",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF, World Bank, UN/OCHA/UNHCR, Freedom House, RSF, ICG, Soufan Center, CTC West Point, FEWS NET) + international press.",
+    "Data limitation: official statistics are weak and patchy, with most figures external (World Bank/IMF) estimates and large areas under al-Shabaab parallel governance; confidence is capped accordingly.",
+    "Standout features: a rare debt bright spot (the 2023 HIPC completion cut external debt below 6% of GDP on an IMF program), against a 2025 al-Shabaab resurgence, an AUSSOM funding crisis, clan fragmentation, and recurrent drought/famine."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -3.6,
+      "confidence": 0.67,
+      "skew": "symmetric",
+      "notes": "A post-HIPC debt bright spot and dollarization-anchored inflation, against a thin, aid/remittance-dependent base.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -4,
+          "weight": 0.22,
+          "confidence": 0.6,
+          "notes": "Aid- and remittance-dependent with a narrow revenue base, but post-HIPC debt is under 6% of GDP and an IMF ECF anchors reform; 2025 donor-aid cuts squeeze the budget. (World Bank 2025; IMF)"
+        },
+        "monetary_independence": {
+          "score": -7,
+          "weight": 0.22,
+          "confidence": 0.7,
+          "notes": "Effectively no functioning national currency - heavy dollarization leaves the central bank with minimal tools. (World Bank)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The shilling is not a reserve currency; the US dollar dominates transactions. (definitional)"
+        },
+        "inflation": {
+          "score": -2,
+          "weight": 0.13,
+          "confidence": 0.6,
+          "notes": "~3.7% in 2025, relatively contained as dollarization imports US price discipline. (World Bank 2025)"
+        },
+        "banking_stability": {
+          "score": -4,
+          "weight": 0.1,
+          "confidence": 0.55,
+          "notes": "A thin, largely informal mobile-money/hawala system; formal banking is shallow and reintegrating post-debt-relief. (World Bank)"
+        },
+        "trade_actions_capacity": {
+          "score": -4,
+          "weight": 0.17,
+          "confidence": 0.6,
+          "notes": "A small livestock/agriculture export economy reliant on remittances and imports, vulnerable to drought and aid shocks. (World Bank 2025)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -6.9,
+      "confidence": 0.66,
+      "skew": "negative",
+      "notes": "Limited territorial control, collapsed-then-rebuilding data, and a deadly press environment.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -8,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "The federal government has limited territorial control, with large areas under al-Shabaab parallel governance or clan authority; 'Not Free'. (Freedom House 2025)"
+        },
+        "statistical_integrity": {
+          "score": -6,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Weak and patchy - most figures are external estimates, though improving under the IMF program. (World Bank)"
+        },
+        "civil_service_capacity": {
+          "score": -6,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Limited reach beyond Mogadishu and donor-dependent, with federal-member-state friction. (CTC West Point)"
+        },
+        "press_freedom": {
+          "score": -7,
+          "weight": 0.15,
+          "confidence": 0.75,
+          "notes": "Journalists face arrest, violence, and killings from both state security and al-Shabaab. (Freedom House 2025; SJS)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -5.6,
+      "confidence": 0.6,
+      "skew": "negative",
+      "notes": "A 2025 insurgent resurgence and clan fragmentation over a conflict-displaced society.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -7,
+          "score_long": -6,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.65,
+          "notes": "A 2025 al-Shabaab resurgence encircling approaches to Mogadishu, federal-state fragmentation, and the Somaliland question make stability acutely fragile. (Soufan Center; ICG)"
+        },
+        "civil_liberties": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Severely constrained by conflict, al-Shabaab repression in held areas, and state pressure; 'Not Free'. (Freedom House 2025)"
+        },
+        "treatment_non_citizens": {
+          "score": -4,
+          "weight": 0.25,
+          "confidence": 0.5,
+          "notes": "Hosts some refugees/returnees but is overwhelmingly an origin/IDP country amid conflict and drought. (UNHCR/OCHA)"
+        },
+        "social_cohesion": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Clan-based politics and 4.5 power-sharing create chronic fragmentation that al-Shabaab exploits. (ICG; CTC)"
+        },
+        "demographics": {
+          "score": -3,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "Very young and high-fertility, but with a human-capital deficit from weak services and conflict. (UN/World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -4.9,
+      "confidence": 0.67,
+      "skew": "negative",
+      "notes": "Internationally backed but dependent on a funding-strapped AU mission, with twin insurgencies.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": -3,
+          "weight": 0.4,
+          "confidence": 0.6,
+          "notes": "Recognised with Turkey/Gulf/US/AU partners (the 2024 Ankara reconciliation with Ethiopia), but dependent on fragile external security funding (the AUSSOM crisis). (UN; ISS)"
+        },
+        "conflict_involvement": {
+          "score": -8,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "An active al-Shabaab insurgency, an ISIS-Somalia presence in Puntland, and the Ethiopia-Somaliland MoU dispute. (Soufan Center; CTC; ICG)"
+        },
+        "sanctions_capital_controls": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Targeted UN/US measures relate mainly to al-Shabaab/charcoal, not the state; reintegrating post-HIPC. (UN; World Bank)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -7.5,
+      "confidence": 0.68,
+      "skew": "negative",
+      "notes": "A national drought emergency, a near-collapsed health system, and high insecurity.",
+      "sub_factors": {
+        "climate": {
+          "score": -8,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "A November 2025 national drought emergency after failed rains; recurrent drought/flood cycles and famine risk. (OCHA 2025; WFP)"
+        },
+        "healthcare": {
+          "score": -8,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "Among the world's weakest - very high maternal/child mortality and ~1.8M children facing acute malnutrition. (UNICEF/WHO)"
+        },
+        "infrastructure": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.6,
+          "notes": "Poor and war-damaged, with pockets of port/Mogadishu recovery. (World Bank)"
+        },
+        "crime_safety": {
+          "score": -7,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "High insecurity from insurgency, terrorism, checkpoints, and kidnapping. (ICG; ACLED-cited)"
+        },
+        "disaster_insurance": {
+          "score": -8,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Negligible market - risk borne by households/aid. (inference)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -5.92,
+      "confidence": 0.65,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -5.16,
+      "confidence": 0.66,
+      "horizon": "3-7y",
+      "reading": "clear negative"
+    },
+    "currency": {
+      "score": -4.51,
+      "confidence": 0.67,
+      "horizon": "1-3y",
+      "reading": "clear negative"
+    }
+  },
+  "summary": "A fragile federal state whose government controls only part of its territory, with a 2025 al-Shabaab offensive reversing prior gains and pushing the insurgency back toward Mogadishu while ISIS-Somalia holds out in Puntland. Security depends on the AU's AUSSOM mission, in acute funding crisis after the UN failed to secure assessed financing by mid-2025. The one clear bright spot is debt: the 2023 HIPC completion slashed external debt below 6% of GDP and an IMF program anchors reform, with dollarization keeping inflation relatively contained. But recurrent drought (a November 2025 national emergency), famine-level malnutrition, clan fragmentation, and federal-state friction keep the picture clearly negative; most figures rely on external estimation."
+}

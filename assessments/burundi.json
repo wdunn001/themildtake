@@ -1,0 +1,252 @@
+{
+  "country": "Burundi",
+  "iso3": "BDI",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF, World Bank, UN/UNHCR, Freedom House, RSF, TI, HRW, Amnesty, Crisis Group) + international press; state media EXCLUDED on governance.",
+    "Among the world's poorest countries (GDP per capita ~$486; poverty ~74%), in an acute external crisis - chronic fuel shortages, a forex squeeze with a ~100% parallel-market premium, and reserves near 1.5 months of imports.",
+    "Standout drags: a closed political space (CNDD-FDD took ~96% of seats in June 2025 amid Imbonerakure abuses), a hot rupture with Rwanda (border closed, deportations), and involvement in eastern DRC; thin offsets include an IMF anchor and a reported inflation deceleration."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -3.1,
+      "confidence": 0.57,
+      "skew": "negative",
+      "notes": "An acute forex/fuel crisis with deficit monetization, on an IMF anchor but import-compressed.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -5,
+          "weight": 0.22,
+          "confidence": 0.55,
+          "notes": "Public debt ~52% of GDP at high distress risk, with deficit monetization fueling inflation; a 38-month IMF ECF underway. (IMF Apr 2025)"
+        },
+        "monetary_independence": {
+          "score": -3,
+          "weight": 0.22,
+          "confidence": 0.55,
+          "notes": "Own franc but policy dominated by deficit monetization and FX rationing - a de-facto loss of control. (IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.85,
+          "notes": "Not a reserve currency, with severe forex shortages and a wide parallel premium. (IMF; HRW 2025)"
+        },
+        "inflation": {
+          "score_near": -3,
+          "score_long": -4,
+          "score": null,
+          "weight": 0.13,
+          "confidence": 0.5,
+          "notes": "Spiked to ~40-45% in 2024-early 2025; the IMF reports a sharp slowdown but its monetization/FX-gap drivers leave durability uncertain. (IMF; Ecofin 2026)"
+        },
+        "banking_stability": {
+          "score": -4,
+          "weight": 0.1,
+          "confidence": 0.4,
+          "notes": "A thin, state-influenced sector strained by FX scarcity and crowding-out from deficit financing. (IMF; Coface)"
+        },
+        "trade_actions_capacity": {
+          "score": -5,
+          "weight": 0.17,
+          "confidence": 0.5,
+          "notes": "Landlocked with chronic import compression from no forex; world-class nickel reserves undeveloped. (EU; IMF)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -5.2,
+      "confidence": 0.53,
+      "skew": "negative",
+      "notes": "A politicized judiciary, grand corruption, and weak delivery against a partly-liberalized press law.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -6,
+          "weight": 0.35,
+          "confidence": 0.6,
+          "notes": "A politicized judiciary and grand corruption implicating the ruling party in land/mining/customs capture (CPI ~17/100). (TI 2025)"
+        },
+        "statistical_integrity": {
+          "score": -4,
+          "weight": 0.25,
+          "confidence": 0.45,
+          "notes": "Limited, lagged official data, with FX/inflation figures partly IMF-reconstructed. (IMF)"
+        },
+        "civil_service_capacity": {
+          "score": -5,
+          "weight": 0.25,
+          "confidence": 0.5,
+          "notes": "Weak delivery (~12% grid electricity access) with pervasive administrative corruption. (World Bank; OECD 2025)"
+        },
+        "press_freedom": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Constrained, though a July 2024 press law partly decriminalized offences; self-censorship and exile persist. (RSF; HRW 2024-25)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -3.9,
+      "confidence": 0.52,
+      "skew": "negative",
+      "notes": "Ruling-party hegemony with documented abuses, over a managed-but-instrumentalized ethnic cleavage.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -4,
+          "score_long": -5,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.55,
+          "notes": "Ruling-party hegemony looks stable short-term, but economic distress, the Rwanda standoff, and 2027 dynamics raise medium-term risk. (HRW; Crisis Group 2025)"
+        },
+        "civil_liberties": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.6,
+          "notes": "'Elections without opposition', with documented killings, disappearances, torture, and arbitrary detention. (HRW WR2025/2026; Amnesty)"
+        },
+        "treatment_non_citizens": {
+          "score_near": -4,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.25,
+          "confidence": 0.45,
+          "notes": "Hosting 70k+ Congolese refugees (a humanitarian credit) but moving to deport Rwandan nationals amid the rupture. (UNHCR; HRW 2025)"
+        },
+        "social_cohesion": {
+          "score": -4,
+          "weight": 0.15,
+          "confidence": 0.5,
+          "notes": "A managed-but-instrumentalized Hutu/Tutsi legacy, with Imbonerakure intimidation along partisan lines. (HRW; Amnesty)"
+        },
+        "demographics": {
+          "score": 2,
+          "weight": 0.1,
+          "confidence": 0.5,
+          "notes": "Very young and high-fertility (a long-run asset) but with acute land/jobs pressure in one of the densest rural populations. (World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -4,
+      "confidence": 0.52,
+      "skew": "negative",
+      "notes": "Isolated by the Rwanda rift, involved in eastern DRC, under heavy de-facto FX controls.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": -3,
+          "weight": 0.4,
+          "confidence": 0.5,
+          "notes": "An EAC member isolated by the Rwanda rift and aligned loosely with DRC against Rwanda/M23 - an unpredictable partner. (Crisis Group; Reuters 2025)"
+        },
+        "conflict_involvement": {
+          "score_near": -5,
+          "score_long": -4,
+          "score": null,
+          "weight": 0.35,
+          "confidence": 0.55,
+          "notes": "Border closed with Rwanda, troops involved in eastern DRC, and a RED-Tabara rebel threat - elevated interstate-escalation risk. (HRW; Africanews 2025)"
+        },
+        "sanctions_capital_controls": {
+          "score": -4,
+          "weight": 0.25,
+          "confidence": 0.5,
+          "notes": "Heavy de-facto FX/capital controls and import rationing, with no broad multilateral sanctions currently. (IMF)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -5.5,
+      "confidence": 0.52,
+      "skew": "negative",
+      "notes": "Flood/landslide exposure, a malaria-burdened health system, and among the world's lowest electrification.",
+      "sub_factors": {
+        "climate": {
+          "score": -3,
+          "weight": 0.2,
+          "confidence": 0.5,
+          "notes": "Flooding/landslides and rain variability hit subsistence farming - high exposure, low adaptive capacity. (World Bank)"
+        },
+        "healthcare": {
+          "score": -6,
+          "weight": 0.3,
+          "confidence": 0.55,
+          "notes": "Very weak - ~5.3M malaria cases in 2025, with the RTS,S vaccine introduced as a modest positive. (WHO/Gavi 2025)"
+        },
+        "infrastructure": {
+          "score": -7,
+          "weight": 0.2,
+          "confidence": 0.6,
+          "notes": "~12% electricity access (among the world's lowest), with chronic fuel shortages crippling transport. (OECD/World Bank 2025)"
+        },
+        "crime_safety": {
+          "score": -4,
+          "weight": 0.15,
+          "confidence": 0.5,
+          "notes": "Elevated armed robbery/carjacking and politically motivated violence. (OSAC; HRW 2025)"
+        },
+        "disaster_insurance": {
+          "score": -7,
+          "weight": 0.15,
+          "confidence": 0.4,
+          "notes": "Negligible penetration, with near-total reliance on aid for shocks. (inference, low data)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -4.48,
+      "confidence": 0.53,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -4.03,
+      "confidence": 0.54,
+      "horizon": "3-7y",
+      "reading": "clear negative"
+    },
+    "currency": {
+      "score": -3.65,
+      "confidence": 0.55,
+      "horizon": "1-3y",
+      "reading": "clear negative"
+    }
+  },
+  "summary": "Among the world's poorest countries (GDP per capita ~$486; poverty ~74%), now in an acute external crisis: chronic fuel shortages, a forex squeeze with a ~100% parallel-market premium, and reserves near one-and-a-half months of imports. Politics are effectively closed - the CNDD-FDD took virtually all seats in June 2025 amid documented Imbonerakure abuses - while a sharp rupture with Rwanda (border closed, deportations) adds interstate-conflict risk on top of involvement in eastern DRC. Thin positives (an IMF ECF anchor, a reported inflation deceleration into 2026, partial press-law liberalization, a new malaria vaccine) are fragile and policy-dependent. The skew is negative: the realistic downside outweighs constrained upside."
+}

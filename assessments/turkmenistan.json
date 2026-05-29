@@ -1,0 +1,246 @@
+{
+  "country": "Turkmenistan",
+  "iso3": "TKM",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: rebuilt from independent sources (IMF, Freedom House, RSF, V-Dem, Crisis Group) + exile/international press (RFE/RL, turkmen.news, Eurasianet); state media EXCLUDED.",
+    "Data limitation: extraordinarily opaque - even IMF figures rely on authorities' data and most social indicators come from exile media; confidence is deliberately reduced across the board and no dramatic single-source claim is encoded as fact.",
+    "Standout drags: one of the world's most closed/repressive states under a Berdimuhamedov dynastic duopoly, a captive single-buyer (China) gas economy behind a ~5-6x black-market manat gap and strict capital controls, and RSF near-bottom (173rd)."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -1.8,
+      "confidence": 0.64,
+      "skew": "negative",
+      "notes": "Low headline debt but a captive single-buyer gas model behind a rationed, non-convertible currency.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 2,
+          "weight": 0.22,
+          "confidence": 0.5,
+          "notes": "Very low public debt (~3.6% of GDP, 2024) and a current-account surplus, but opaque off-budget funds and a poor fiscal-transparency record. (IMF 2025 Art IV)"
+        },
+        "monetary_independence": {
+          "score": -6,
+          "weight": 0.22,
+          "confidence": 0.75,
+          "notes": "The manat is fixed at 3.5/USD since 2015 with a multiple-rate regime; the central bank has no autonomy and FX is administratively rationed. (IMF; Eurasianet)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The manat is not a reserve currency and is non-convertible. (definitional)"
+        },
+        "inflation": {
+          "score": 3,
+          "weight": 0.13,
+          "confidence": 0.45,
+          "notes": "The IMF reports sharp disinflation (~1.1% in early 2025), but the official series is widely doubted given suppressed prices and shortages. (IMF 2025 Art IV)"
+        },
+        "banking_stability": {
+          "score": -3,
+          "weight": 0.1,
+          "confidence": 0.4,
+          "notes": "A state-dominated, largely closed banking system with heavy FX rationing and little independent visibility. (IMF; trade.gov)"
+        },
+        "trade_actions_capacity": {
+          "score": -4,
+          "weight": 0.17,
+          "confidence": 0.65,
+          "notes": "World's 4th-largest gas reserves but a captive single-buyer model (China ~80%+), with TAPI essentially stalled. (IMF; Eurasianet; The Diplomat)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -7.8,
+      "confidence": 0.73,
+      "skew": "negative",
+      "notes": "Among the world's least-free states, with near-total data opacity and an information desert.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -9,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "Among the world's least-free - no judicial independence, systemic corruption, and a total absence of political rights. (Freedom House 2025/26 'Not Free')"
+        },
+        "statistical_integrity": {
+          "score": -7,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "One of the most data-opaque countries on earth - economic data IMF-admitted but unverifiable, most social statistics absent. (IMF; V-Dem)"
+        },
+        "civil_service_capacity": {
+          "score": -5,
+          "weight": 0.25,
+          "confidence": 0.5,
+          "notes": "A patronage-and-loyalty bureaucracy around a personality cult, with purges and weak delivery outside showcase projects. (Freedom House; Crisis Group)"
+        },
+        "press_freedom": {
+          "score": -9,
+          "weight": 0.15,
+          "confidence": 0.9,
+          "notes": "RSF 173/180 (2026), last globally on political context - virtually no independent media and heavy foreign-internet blocking. (RSF 2026)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -4,
+      "confidence": 0.57,
+      "skew": "negative",
+      "notes": "Totalitarian near-term stability over enforced homogeneity, food shortages, and out-migration.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": 1,
+          "score_long": -3,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.55,
+          "notes": "Repression delivers near-term surface stability under the dynastic duopoly, but an unaccountable two-headed succession and economic stress make the long horizon brittle. (Freedom House; Crisis Group)"
+        },
+        "civil_liberties": {
+          "score": -9,
+          "weight": 0.2,
+          "confidence": 0.85,
+          "notes": "Almost no freedom of movement, assembly, religion, or expression, with reports of forced loyalty rituals. (Freedom House 2025; CIVICUS)"
+        },
+        "treatment_non_citizens": {
+          "score": -6,
+          "weight": 0.25,
+          "confidence": 0.5,
+          "notes": "Not a migrant destination; foreigners face severe movement/exit controls, and emigration itself is restricted. (Freedom House; RFE/RL)"
+        },
+        "social_cohesion": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.45,
+          "notes": "Enforced homogeneity and a personality cult mask grievances, with food shortages and rolled-back subsidies adding strain. (Freedom House; Borgen)"
+        },
+        "demographics": {
+          "score": 0,
+          "weight": 0.1,
+          "confidence": 0.45,
+          "notes": "Relatively young but with heavy out-migration of working-age citizens and unreliable census data. (World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -1.5,
+      "confidence": 0.58,
+      "skew": "negative",
+      "notes": "An isolationist 'positive neutral' reliable only as a gas supplier to China, with draconian capital controls.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": -2,
+          "weight": 0.4,
+          "confidence": 0.55,
+          "notes": "A 'positively neutral' non-aligned isolationist, reliable only as a gas supplier to China, with no real alliance commitments. (Crisis Group; The Diplomat)"
+        },
+        "conflict_involvement": {
+          "score": 2,
+          "weight": 0.35,
+          "confidence": 0.55,
+          "notes": "Largely avoids external conflict despite an Afghanistan border, insulated by neutrality. (Crisis Group)"
+        },
+        "sanctions_capital_controls": {
+          "score": -5,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "Not broadly sanctioned, but among the world's most restrictive capital-control/FX-rationing regimes, making repatriation extremely difficult. (IMF; trade.gov)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -3.2,
+      "confidence": 0.5,
+      "skew": "negative",
+      "notes": "Desert heat and acute water stress, with gas-funded showcase projects over decaying provincial utilities.",
+      "sub_factors": {
+        "climate": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "70-80% desert (Karakum) with extreme heat, acute water stress, and a rapidly declining/heating Caspian. (Nature Comms Earth & Env; UNEP-DHI)"
+        },
+        "healthcare": {
+          "score": -4,
+          "weight": 0.3,
+          "confidence": 0.45,
+          "notes": "Life expectancy ~70 but a documented public-health crisis, official denial of outbreaks, and a collapsed information system. (WHO data; Open Society) - low confidence"
+        },
+        "infrastructure": {
+          "score": -1,
+          "weight": 0.2,
+          "confidence": 0.45,
+          "notes": "Lavish gas-funded Ashgabat showcase projects against decaying provincial utilities and rolled-back subsidies. (Eurasianet; Borgen)"
+        },
+        "crime_safety": {
+          "score": 3,
+          "weight": 0.15,
+          "confidence": 0.4,
+          "notes": "Low reported street crime in a pervasive police state - figures are state-controlled and unverifiable. (soft/indirect)"
+        },
+        "disaster_insurance": {
+          "score": -4,
+          "weight": 0.15,
+          "confidence": 0.5,
+          "notes": "Seismic exposure (Ashgabat on a major fault) with negligible private insurance penetration. (seismic-hazard literature)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -5.35,
+      "confidence": 0.63,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -3.89,
+      "confidence": 0.63,
+      "horizon": "3-7y",
+      "reading": "clear negative"
+    },
+    "currency": {
+      "score": -3.25,
+      "confidence": 0.64,
+      "horizon": "1-3y",
+      "reading": "clear negative"
+    }
+  },
+  "summary": "Among the most closed and repressive states on the planet, run as a personality-cult dynastic duopoly in which President Serdar Berdimuhamedov is subordinate to his father Gurbanguly's People's Council. Its economy rests almost entirely on gas exports to a single buyer (China), behind a fixed manat that trades at a ~5-6x black-market premium under draconian capital controls, with TAPI diversification still stalled. Headline IMF data (very low debt, sub-2% inflation) look benign but are unverifiable amid near-total information control, food shortages, and a public-health crisis. Every score carries a heavy opacity discount; the long-run risk is a brittle dynastic succession layered over Caspian/desert climate stress."
+}

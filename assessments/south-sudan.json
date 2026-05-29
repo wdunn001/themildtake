@@ -1,0 +1,246 @@
+{
+  "country": "South Sudan",
+  "iso3": "SSD",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral + independent (IMF, World Bank MPO, UN/OCHA/UNMISS, RJMEC, Freedom House, RSF, ICG, FEWS NET/IPC, UNICEF) + international press.",
+    "Data limitation: official statistics are very weak (no completed census) and most figures are external estimates; the 2025 oil-shock and currency collapse make economic readings highly uncertain.",
+    "Standout drags: the 2018 peace deal on the brink (Machar's March 2025 house arrest and treason trial), a ~30% 2025 economic contraction on oil-pipeline disruption, hyperinflation, and a sixth straight year of catastrophic flooding with famine risk."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -6,
+      "confidence": 0.69,
+      "skew": "negative",
+      "notes": "A single-commodity oil economy in collapse, routed through war-torn Sudan, with hyperinflation.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -8,
+          "weight": 0.22,
+          "confidence": 0.7,
+          "notes": "Almost entirely oil-funded (>90% of revenue), with revenues evaporating during the 2025 export disruption and ~80% below the poverty line. (Al Jazeera; ICG; World Bank)"
+        },
+        "monetary_independence": {
+          "score": -7,
+          "weight": 0.22,
+          "confidence": 0.6,
+          "notes": "A nominally independent central bank overwhelmed by oil-shock currency collapse and deficit monetization. (World Bank/IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The South Sudanese pound is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": -8,
+          "weight": 0.13,
+          "confidence": 0.6,
+          "notes": "A hyperinflationary surge as oil exports stalled and the pound collapsed in 2025; figures are uncertain but extreme. (ICG; World Bank MPO)"
+        },
+        "banking_stability": {
+          "score": -7,
+          "weight": 0.1,
+          "confidence": 0.55,
+          "notes": "A shallow, dollar-scarce system strained by fiscal collapse and devaluation. (World Bank)"
+        },
+        "trade_actions_capacity": {
+          "score": -8,
+          "weight": 0.17,
+          "confidence": 0.7,
+          "notes": "Single-commodity oil dependence routed entirely through Sudan, exposed to that war (a Feb 2025 pipeline breakdown). (Al Jazeera; ICG)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -7.2,
+      "confidence": 0.65,
+      "skew": "negative",
+      "notes": "Weak, politicized institutions, near-absent data, and a censored press.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -8,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "Weak/politicized institutions, arbitrary NSS arrests, and the politically charged Machar prosecution; 'Not Free'. (Freedom House 2025; UN experts)"
+        },
+        "statistical_integrity": {
+          "score": -7,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Very weak - no completed census, with figures largely external estimates. (World Bank)"
+        },
+        "civil_service_capacity": {
+          "score": -7,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Hollowed by fiscal crisis (unpaid salaries) and patronage; even UNMISS cut spending in late 2025. (UNMISS; World Bank)"
+        },
+        "press_freedom": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Pervasive censorship, NSS intimidation, and outlet closures. (RSF; Freedom House 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -6.8,
+      "confidence": 0.64,
+      "skew": "negative",
+      "notes": "A fractured unity government on the edge of renewed civil war, with deep ethnic cleavages.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -8,
+          "score_long": -7,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "Machar's arrest/trial has fractured the unity government, with armed clashes nationwide and elections again postponed to Dec 2026 - a possible relapse into full-scale war. (UN experts; ICG; RJMEC)"
+        },
+        "civil_liberties": {
+          "score": -7,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Arbitrary detention, suppression of dissent, and shrinking civic space. (Freedom House 2025; RSF)"
+        },
+        "treatment_non_citizens": {
+          "score": -5,
+          "weight": 0.25,
+          "confidence": 0.55,
+          "notes": "A strained host of returnees/refugees fleeing Sudan's war amid its own collapse. (UNHCR/OCHA)"
+        },
+        "social_cohesion": {
+          "score": -8,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Deep Dinka-Nuer and inter-communal cleavages, with the Nuer White Army's March 2025 Nasir assault triggering the crisis. (Al Jazeera)"
+        },
+        "demographics": {
+          "score": -4,
+          "weight": 0.1,
+          "confidence": 0.6,
+          "notes": "Very young and high-fertility but with a severe human-capital deficit from conflict and collapsed services. (UN/World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -5.7,
+      "confidence": 0.63,
+      "skew": "negative",
+      "notes": "A destabilizing, transactional regional actor under an arms embargo, dependent on Sudan for oil transit.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": -4,
+          "weight": 0.4,
+          "confidence": 0.55,
+          "notes": "Backed at times by Uganda and engaged with IGAD/AU, but a transactional actor dependent on Sudan for oil transit. (ICG; UN)"
+        },
+        "conflict_involvement": {
+          "score": -8,
+          "weight": 0.35,
+          "confidence": 0.75,
+          "notes": "Internal armed conflict plus deep exposure to Sudan's civil war via the oil pipeline. (Al Jazeera; ICG)"
+        },
+        "sanctions_capital_controls": {
+          "score": -4,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Under a UN arms embargo and targeted individual sanctions; not comprehensively sanctioned as a state. (UN Security Council)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -8.7,
+      "confidence": 0.7,
+      "skew": "negative",
+      "notes": "Catastrophic flooding, a collapsing health system with famine-level food insecurity.",
+      "sub_factors": {
+        "climate": {
+          "score": -9,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "A sixth consecutive year of catastrophic flooding (1M+ affected); among the most climate-vulnerable states. (UN News; OCHA; FEWS NET)"
+        },
+        "healthcare": {
+          "score": -9,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "A collapsing, aid-dependent system - the country's longest cholera outbreak (100,000+ cases) and millions of children acutely malnourished. (UNICEF; WHO)"
+        },
+        "infrastructure": {
+          "score": -8,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Minimal roads/power/water, flood-prone and undeveloped. (World Bank; OCHA)"
+        },
+        "crime_safety": {
+          "score": -8,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "Widespread armed violence, inter-communal raiding, and conflict insecurity. (UN experts; ACLED-cited)"
+        },
+        "disaster_insurance": {
+          "score": -9,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Effectively nonexistent - risk borne by aid/households. (inference)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -6.96,
+      "confidence": 0.66,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -6.57,
+      "confidence": 0.67,
+      "horizon": "3-7y",
+      "reading": "clear negative"
+    },
+    "currency": {
+      "score": -6.2,
+      "confidence": 0.67,
+      "horizon": "1-3y",
+      "reading": "clear negative"
+    }
+  },
+  "summary": "The world's youngest state, teetering on the edge of renewed civil war: First VP Riek Machar's March 2025 house arrest and subsequent treason trial have fractured the 2018 peace deal, with UN experts and RJMEC warning in late 2025 of a possible relapse into full-scale conflict. Its oil-dependent economy (>90% of revenue), forced to export through war-torn Sudan, contracted around 30% in 2025 amid pipeline disruption, evaporating revenue, and a hyperinflationary pound collapse. A sixth straight year of devastating floods, the longest-ever cholera outbreak, and famine-level food insecurity compound the catastrophe. Official data is sparse and elections are again postponed to December 2026; the outlook is clearly negative."
+}
