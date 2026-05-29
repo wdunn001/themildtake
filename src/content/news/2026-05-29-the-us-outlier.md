@@ -1,0 +1,122 @@
+---
+title: "The US outlier: why the world's richest country ranks near the bottom"
+description: "Under this framework the United States lands at #173 of 193 for the living decision — below China, Pakistan, and Zimbabwe, just above Russia. This is the mechanism behind the most surprising number on the board, and an honest account of what it does and doesn't mean."
+datePublished: "2026-05-29"
+author:
+  name: The Mild Take
+section: Analysis
+tags:
+  - outliers
+  - united-states
+  - methodology
+  - institutions
+---
+
+## Abstract
+
+For the **living** decision — a 5–10 year read on where a person might choose to
+be — the United States ranks **173rd of 193** UN members in this dataset, with a
+composite of **−5.35** and a **negative skew**. It sits between Syria and
+Turkmenistan, just above Russia (#175), and *below* China (#159), Pakistan
+(#165), Iraq (#169), and Zimbabwe (#171). On **assets** it is #173 (−4.77); on
+**currency** #171 (−4.05). This is the single most counter-intuitive result the
+framework produces, so it deserves the most careful explanation. The short
+version: the model scores **trajectory and trustworthiness for a specific set of
+decisions**, not current prosperity — and on those axes the US is now being
+marked down hard.
+
+## What the score is, and is not
+
+This is not a quality-of-life index. American median incomes, consumer choice,
+research universities, and the depth of its capital markets remain among the
+best on earth, and nothing here disputes that. The framework asks three narrower
+questions: if you were deciding **where to live**, **where to hold assets**, or
+**which currency to hold** over the next decade, how much would you trust this
+state to remain stable, lawful, and predictable? It rewards durability and
+penalizes volatility and erosion — and it scores **observable actions, not
+stated values or reputation**. A high starting point earns no credit on its own;
+the slope matters.
+
+That design is why a rich country can score like a fragile one. The number is a
+*directional risk read*, not a verdict on how good life is today.
+
+## Where the −5.35 comes from
+
+The composite is a confidence-weighted average across five categories. Four of
+the five are deeply negative, and they reinforce each other.
+
+**Institutional (−5.8, the heaviest weight for living).** This is the core of
+the result. `statistical_integrity` scores **−7**: a BLS commissioner fired over
+a jobs number, 20–25% agency staffing cuts, the USDA food-security survey
+eliminated, proposed consolidation of statistical agencies under political
+control — the American Statistical Association called it a "deepening crisis."
+`civil_service_capacity` is **−6** (politicization), `rule_of_law` and
+`press_freedom` both **−5** (courts pressured and selectively defied; outlets
+under ownership/board pressure). When the institutions that produce a country's
+own numbers come under political control, every other official figure inherits
+that doubt.
+
+**Political & social (−5.3).** `treatment_non_citizens` is the lowest single
+sub-score at **−8**: ICE detention peaking near 70.8k, ~540k deported, ~70% of
+detainees without convictions, a $100k H-1B fee, court review of visa
+revocations curtailed. For a *relocation* decision, how a state treats people
+who are not its citizens is directly load-bearing.
+
+**Geopolitical (−5.0).** `alliance_reliability` **−6** and `conflict_involvement`
+**−5**: allies are visibly hedging and diversifying away from dependence on US
+commitments.
+
+**Economic (−3.1).** Two mechanics do the work. First, **post-2022 official data
+is discounted as partially entangled** — inflation and fiscal confidence are
+lowered, not because the numbers are assumed false, but because the agencies
+producing them are no longer clearly independent. Second, **trade is scored on
+actions, not tariff levels**: a volatile, unpredictable tariff regime manufactures
+hostile trade relationships and pushes long-standing partners to diversify away
+from US supply and demand — a structural long-term cost layered on the near-term
+shock.
+
+The one genuinely split factor is the dollar. `reserve_currency` scores **+5
+near-term, −3 long-term**: the USD reserve share is 56.9% (Q3 2025 IMF COFER), a
+31-year low, with central banks net-selling. The reserve privilege is a large
+cushion *today* that erodes as the institutions it shielded are exposed —
+which is precisely what produces the **negative skew**.
+
+## Discussion: the US and China, opposite routes to the same neighborhood
+
+The most instructive comparison is China (#159), which ranks *above* the US on
+living. They arrive near each other from opposite directions: China is an
+**authoritarian baseline that was never high**, with a negative tail of its own;
+the US is **erosion from a very high baseline**. The framework does not reward
+the high baseline retroactively — it prices the *direction of travel*. An
+American reading this will find the China comparison provocative; that is the
+point of scoring actions over reputation. (China's own assets/currency scores
+sit below the US's near-term, because the dollar cushion is real today.)
+
+## Limitations — read these before you quote the rank
+
+- **The institutional and data-entanglement discounts do most of the work.**
+  They are the framework's most aggressive assumptions. If you believe the
+  statistical agencies will re-stabilize and the courts hold, the US score
+  should be materially higher — and the model says so via the negative skew and
+  the lowered confidence, not via a hidden hedge.
+- **It is decision-specific.** "Don't live there" is a far stronger claim than
+  the data supports; "treat US institutional and currency risk as elevated and
+  rising" is what the numbers actually say.
+- **Confidence is ~0.72–0.75, not 0.9.** This is a contested, fast-moving call,
+  and the framework flags it as such rather than asserting precision.
+- **This is a model, not a measurement.** The ranking is the output of explicit,
+  arguable scoring rules. The value is that you can audit and disagree with every
+  input on the [assessment itself](/ratings/usa/).
+
+## What would change this
+
+A restoration of statistical-agency independence; courts holding and being
+obeyed; a predictable, rules-based trade posture; and a softening of
+non-citizen treatment would each move a heavily-weighted sub-factor by several
+points. Because four categories are correlated here, a credible reversal on
+*institutions* would pull several of them at once — which is exactly why the skew
+is negative rather than terminal. The floor is not locked in; the trajectory is
+what is being priced.
+
+Start with the [US assessment](/ratings/usa/), then [compare it to China or
+Norway](/ratings/compare/) to see the mechanism side by side.
