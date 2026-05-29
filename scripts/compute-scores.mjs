@@ -18,19 +18,19 @@
 
 import { promises as fs } from "node:fs";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(here, "..");
 const dir = path.join(repoRoot, "assessments");
 const CHECK = process.argv.includes("--check");
 
-const round = (n, d) => {
+export const round = (n, d) => {
   const f = 10 ** d;
   return Math.round(n * f) / f;
 };
 
-function subHorizon(sf, h) {
+export function subHorizon(sf, h) {
   const hasSplit = sf.score === null || sf.score === undefined;
   const near = sf.score_near ?? sf.score;
   const long = sf.score_long ?? sf.score;
@@ -43,7 +43,7 @@ function subHorizon(sf, h) {
   return sf.score ?? near ?? long;
 }
 
-function categoryComposite(cat, h) {
+export function categoryComposite(cat, h) {
   let num = 0;
   let den = 0;
   for (const sf of Object.values(cat.sub_factors)) {
@@ -56,41 +56,44 @@ function categoryComposite(cat, h) {
   return { score: den === 0 ? 0 : num / den, confidence: den };
 }
 
-function readingFor(score, confidence) {
+export function readingFor(score, confidence) {
   if (confidence < 0.4) return "insufficient confidence";
   if (score >= 3) return "clear positive";
   if (score <= -3) return "clear negative";
   return "mixed";
 }
 
-const HORIZON_BY_DECISION = { living: "long", assets: "mid", currency: "near" };
+export const HORIZON_BY_DECISION = { living: "long", assets: "mid", currency: "near" };
 
-function recompute(doc) {
+// Confidence-weighted composite of categories for one decision horizon.
+export function decisionComposite(categories, weights, h) {
+  let num = 0;
+  let den = 0;
+  for (const [catKey, cat] of Object.entries(categories)) {
+    const w = weights[catKey] ?? 0;
+    if (w === 0) continue;
+    const comp = categoryComposite(cat, h);
+    const wc = w * comp.confidence;
+    num += comp.score * wc;
+    den += wc;
+  }
+  return { score: den === 0 ? 0 : num / den, confidence: den };
+}
+
+export function recompute(doc) {
   // Category aggregates: store the near-term composite for display.
-  const catConf = {};
-  for (const [key, cat] of Object.entries(doc.categories)) {
+  for (const cat of Object.values(doc.categories)) {
     const near = categoryComposite(cat, "near");
     cat.score = round(near.score, 1);
     cat.confidence = round(near.confidence, 2);
-    catConf[key] = near.confidence; // weights sum to 1 -> confidence is horizon-invariant
   }
 
   for (const [dkey, decision] of Object.entries(doc.decisions)) {
     const h = HORIZON_BY_DECISION[dkey] ?? "long";
     const weights = doc.category_weights_by_decision?.[dkey] ?? {};
-    let num = 0;
-    let den = 0;
-    for (const [catKey, cat] of Object.entries(doc.categories)) {
-      const w = weights[catKey] ?? 0;
-      if (w === 0) continue;
-      const comp = categoryComposite(cat, h);
-      const wc = w * comp.confidence;
-      num += comp.score * wc;
-      den += wc;
-    }
-    const score = den === 0 ? 0 : num / den;
-    decision.score = round(score, 2);
-    decision.confidence = round(den, 2);
+    const comp = decisionComposite(doc.categories, weights, h);
+    decision.score = round(comp.score, 2);
+    decision.confidence = round(comp.confidence, 2);
     decision.reading = readingFor(decision.score, decision.confidence);
   }
   return doc;
@@ -121,7 +124,11 @@ async function main() {
   }
 }
 
-main().catch((e) => {
-  console.error(e);
-  process.exit(1);
-});
+// Only run the CLI when invoked directly (`node scripts/compute-scores.mjs`),
+// not when imported by the test suite.
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((e) => {
+    console.error(e);
+    process.exit(1);
+  });
+}

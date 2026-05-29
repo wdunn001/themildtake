@@ -7,13 +7,15 @@
     "sync-data": "node scripts/sync-data.mjs",
     "pack-data": "node scripts/pack-data.mjs",
     "data": "npm run sync-data && npm run pack-data",
+    "validate": "node scripts/validate-data.mjs",
+    "analyze-bias": "node scripts/analyze-bias.mjs",
     "dev": "npm run data && astro dev",
     "start": "npm run dev",
-    "prebuild": "npm run data",
+    "prebuild": "npm run validate && npm run data",
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
-    "test": "node --test"
+    "test": "npm run validate && node --test"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.0.0",
