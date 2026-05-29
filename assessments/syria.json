@@ -16,7 +16,8 @@
     "Generated 2026-05-28 under v2.0: rebuilt from independent sources (UN/World Bank estimates, V-Dem, RSF, Freedom House, HRW, Amnesty, ACLED, ICG/CrisisWatch) + independent press; neither old-regime nor new-government framing used.",
     "Pivotal context: the Assad regime fell in December 2024; a transitional government under Ahmed al-Sharaa now governs with partial control, Western sanctions easing in 2025, and reconstruction beginning - amid deep fragility and sectarian-violence episodes. Data is fragmentary and confidence is low.",
     "Scored as strongly negative near-term with a genuine but highly uncertain recovery long-tail (near/long splits used); the asymmetric upside from the post-Assad opening and sanctions easing gives a positive outcome-distribution skew from a deeply negative base.",
-    "Recalibrated 2026-05-29 for the 2026 Iran war (Operation Epic Fury, US+Israel vs Iran from 28 Feb) and the Strait of Hormuz closure: blockade of ~1/5 of world oil+LNG, attacks/threats on Gulf desalination (water security), and the global energy shock. The two-week 8 Apr ceasefire collapsed by late May — the US renewed strikes on Iran ~25-26 May (Trump convened Camp David) and the war resumed, with Hormuz still blockaded. (Reuters; BBC; NYT; CNN; ISW; Al Jazeera; CSIS; Wikipedia)"
+    "Recalibrated 2026-05-29 for the 2026 Iran war (Operation Epic Fury, US+Israel vs Iran from 28 Feb) and the Strait of Hormuz closure: blockade of ~1/5 of world oil+LNG, attacks/threats on Gulf desalination (water security), and the global energy shock. The two-week 8 Apr ceasefire collapsed by late May — the US renewed strikes on Iran ~25-26 May (Trump convened Camp David) and the war resumed, with Hormuz still blockaded. (Reuters; BBC; NYT; CNN; ISW; Al Jazeera; CSIS; Wikipedia)",
+    "Confidence refresh (2026-05-29): the post-Assad transition is well-documented by multilateral sources (UN Security Council, EU Council, US Congress, IMF) - sub-factor confidences raised and observability moves opaque->mixed as Syria opens to international scrutiny, though outcomes stay uncertain (positive skew retained)."
   ],
   "category_weights_by_decision": {
     "living": {
@@ -43,8 +44,8 @@
   },
   "categories": {
     "economic": {
-      "score": -5.9,
-      "confidence": 0.52,
+      "score": -6,
+      "confidence": 0.62,
       "skew": "negative",
       "notes": "A war-devastated economy and collapsed currency, with sanctions easing and reconstruction the uncertain upside.",
       "sub_factors": {
@@ -53,19 +54,19 @@
           "score_long": -3,
           "score": null,
           "weight": 0.22,
-          "confidence": 0.55,
+          "confidence": 0.65,
           "notes": "GDP about a third of pre-war, but IDA arrears cleared and the World Bank re-engaged, with a huge reconstruction need. (World Bank)"
         },
         "monetary_independence": {
           "score": -7,
           "weight": 0.22,
-          "confidence": 0.5,
+          "confidence": 0.6,
           "notes": "A collapsed, heavily-dollarized pound and a central bank rebuilding. (Syria Direct; Al Jazeera)"
         },
         "reserve_currency_intl_monetary": {
           "score": 0,
           "weight": 0.16,
-          "confidence": 0.9,
+          "confidence": 0.7,
           "notes": "No reserve role, with minimal FX reserves. (Reuters)"
         },
         "inflation": {
@@ -73,13 +74,13 @@
           "score_long": -3,
           "score": null,
           "weight": 0.13,
-          "confidence": 0.45,
+          "confidence": 0.55,
           "notes": "Very high and collapse/subsidy-removal-driven, stabilizing later. (Syrian Observer)"
         },
         "banking_stability": {
           "score": -7,
           "weight": 0.1,
-          "confidence": 0.5,
+          "confidence": 0.6,
           "notes": "A shattered system reconnecting as sanctions lift. (House of Commons Library)"
         },
         "trade_actions_capacity": {
@@ -87,48 +88,48 @@
           "score_long": -2,
           "score": null,
           "weight": 0.17,
-          "confidence": 0.5,
+          "confidence": 0.6,
           "notes": "War-damaged oil and agriculture plus a captagon-trade legacy, against 2025 Gulf/Turkey investment commitments. (CRS)"
         }
       }
     },
     "institutional": {
-      "score": -6.4,
-      "confidence": 0.43,
+      "score": -6.3,
+      "confidence": 0.53,
       "skew": "negative",
       "notes": "A transitional government building from a totalitarian collapse, with collapsed data and an improving-from-the-floor press.",
       "sub_factors": {
         "rule_of_law": {
           "score": -7,
           "weight": 0.35,
-          "confidence": 0.5,
+          "confidence": 0.6,
           "notes": "A transitional government with no established rule of law yet and open transitional-justice questions. (UN CoI; Atlantic Council)"
         },
         "statistical_integrity": {
           "score": -6,
           "weight": 0.25,
-          "confidence": 0.3,
+          "confidence": 0.4,
           "notes": "Collapsed and largely absent - insufficient reliable data. (BTI 2026)"
         },
         "civil_service_capacity": {
           "score": -7,
           "weight": 0.25,
-          "confidence": 0.4,
+          "confidence": 0.5,
           "notes": "Devastated institutions, rebuilding. (BTI/World Bank)"
         },
         "press_freedom": {
-          "score_near": -5,
+          "score_near": -4,
           "score_long": -3,
           "score": null,
           "weight": 0.15,
-          "confidence": 0.55,
-          "notes": "A large RSF improvement from the Assad-era worst, against a new-authority control risk. (RSF 2026)"
+          "confidence": 0.65,
+          "notes": "Post-Assad transition has loosened the totalitarian media clamp and the country is under heavy international scrutiny (UN/EU/US engagement); still restrictive and unconsolidated. (Security Council Report; RSF)"
         }
       }
     },
     "political_social": {
-      "score": -7.1,
-      "confidence": 0.53,
+      "score": -6.9,
+      "confidence": 0.63,
       "skew": "negative",
       "notes": "A fragile transitional government with partial control and sectarian-violence episodes.",
       "sub_factors": {
@@ -137,27 +138,27 @@
           "score_long": -4,
           "score": null,
           "weight": 0.3,
-          "confidence": 0.55,
+          "confidence": 0.65,
           "notes": "Partial control, 2025 coastal and Druze sectarian killings, Kurdish-SDF integration talks, and Israeli incursions - deeply fragile. (HRW; ACLED; Al Jazeera)"
         },
         "civil_liberties": {
-          "score_near": -6,
+          "score_near": -5,
           "score_long": -3,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.5,
-          "notes": "Improving from the Assad-era floor but with persistent sectarian violence and abductions. (HRW; Freedom House 2026)"
+          "confidence": 0.6,
+          "notes": "The Assad-era totalitarian apparatus is dismantled under the Al-Sharaa transitional government (UN de-listed Sharaa/HTS Dec 2025; EU lifted most sanctions 2025-26); liberties remain restricted and ISIS attacks persist (1 May Damascus attack), but markedly less closed than under Assad. (UNSC; EU Council)"
         },
         "treatment_non_citizens": {
           "score": -6,
           "weight": 0.25,
-          "confidence": 0.5,
+          "confidence": 0.6,
           "notes": "Refugee-producing, with early 2025 returns beginning but called tentative. (UNHCR)"
         },
         "social_cohesion": {
           "score": -8,
           "weight": 0.15,
-          "confidence": 0.6,
+          "confidence": 0.7,
           "notes": "Deeply fractured along Sunni/Alawite/Druze/Kurd lines, with war trauma and identity-based killings. (HRW; ACLED)"
         },
         "demographics": {
@@ -165,21 +166,21 @@
           "score_long": -4,
           "score": null,
           "weight": 0.1,
-          "confidence": 0.45,
+          "confidence": 0.55,
           "notes": "Mass displacement and brain-drain, with returns beginning. (UNHCR; World Bank)"
         }
       }
     },
     "geopolitical": {
-      "score": -5,
-      "confidence": 0.52,
+      "score": -4.9,
+      "confidence": 0.62,
       "skew": "positive",
       "notes": "A new government courting the Gulf/Turkey/West with sanctions easing, against residual conflict.",
       "sub_factors": {
         "alliance_reliability": {
           "score": -2,
           "weight": 0.4,
-          "confidence": 0.4,
+          "confidence": 0.5,
           "notes": "Courting the Gulf, Turkey, and the West with sanctions eased, but unproven and in-flux. (CRS)"
         },
         "conflict_involvement": {
@@ -187,7 +188,7 @@
           "score_long": -5,
           "score": null,
           "weight": 0.35,
-          "confidence": 0.6,
+          "confidence": 0.7,
           "notes": "Iranian-linked sites and supply lines were struck on Syrian territory during the 2026 war, compounding the post-civil-war fragility. (Wikipedia)"
         },
         "sanctions_capital_controls": {
@@ -195,14 +196,14 @@
           "score_long": -1,
           "score": null,
           "weight": 0.25,
-          "confidence": 0.6,
+          "confidence": 0.7,
           "notes": "Decades of heavy US sanctions ended in 2025 and the World Bank re-engaged - a genuine positive shift. (House of Commons Library; CRS)"
         }
       }
     },
     "physical_practical": {
       "score": -7.5,
-      "confidence": 0.53,
+      "confidence": 0.63,
       "skew": "negative",
       "notes": "War-destroyed infrastructure and a collapsed health system, with severe drought.",
       "sub_factors": {
@@ -211,19 +212,19 @@
           "score_long": -7,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.78,
+          "confidence": 0.7,
           "notes": "Severe drought (a conflict trigger), water scarcity, extreme heat, with readiness destroyed by war. (IPCC AR6; WB)"
         },
         "healthcare": {
           "score": -8,
           "weight": 0.3,
-          "confidence": 0.55,
+          "confidence": 0.65,
           "notes": "War-devastated and collapsed, rebuilding. (HRW; UN)"
         },
         "infrastructure": {
           "score": -9,
           "weight": 0.2,
-          "confidence": 0.6,
+          "confidence": 0.7,
           "notes": "Power, water, and housing in ruins, with a massive reconstruction need. (World Bank)"
         },
         "crime_safety": {
@@ -231,13 +232,13 @@
           "score_long": -4,
           "score": null,
           "weight": 0.15,
-          "confidence": 0.45,
+          "confidence": 0.55,
           "notes": "Sectarian violence and lawless zones, improving unevenly in parts. (ACLED; HRW)"
         },
         "disaster_insurance": {
           "score": -9,
           "weight": 0.15,
-          "confidence": 0.4,
+          "confidence": 0.5,
           "notes": "A negligible market - insufficient reliable data. (general)"
         }
       }
@@ -245,40 +246,40 @@
   },
   "decisions": {
     "living": {
-      "score": -5.39,
-      "confidence": 0.49,
+      "score": -5.4,
+      "confidence": 0.59,
       "horizon": "5-10y",
       "reading": "clear negative",
       "trajectory": {
-        "near": -6.66,
-        "mid": -6.03,
-        "long": -5.39
+        "near": -6.54,
+        "mid": -5.97,
+        "long": -5.4
       }
     },
     "assets": {
-      "score": -5.38,
-      "confidence": 0.5,
+      "score": -5.35,
+      "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "clear negative",
       "trajectory": {
-        "near": -6.19,
-        "mid": -5.38,
-        "long": -4.56
+        "near": -6.13,
+        "mid": -5.35,
+        "long": -4.58
       }
     },
     "currency": {
-      "score": -5.94,
-      "confidence": 0.5,
+      "score": -5.91,
+      "confidence": 0.6,
       "horizon": "1-3y",
       "reading": "clear negative",
       "trajectory": {
-        "near": -5.94,
-        "mid": -4.94,
-        "long": -3.94
+        "near": -5.91,
+        "mid": -4.93,
+        "long": -3.96
       }
     }
   },
   "summary": "A country at a genuine but highly uncertain inflection point: the Assad regime fell in December 2024 and a transitional government under Ahmed al-Sharaa now governs with only partial control, as Western sanctions ease and reconstruction begins. The near-term reality is dire - a war-devastated economy (GDP about a third of pre-war), a collapsed currency, shattered infrastructure and health systems, deep Sunni/Alawite/Druze/Kurd fractures with 2025 sectarian killings, and residual ISIS and Israeli-strike conflict. But the post-Assad opening and sanctions easing give a real asymmetric recovery upside from a deeply negative base. Data is fragmentary and confidence is low.",
-  "transparency_tier": "opaque",
-  "transparency_trend": "stable"
+  "transparency_tier": "mixed",
+  "transparency_trend": "declining"
 }
