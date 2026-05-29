@@ -1,6 +1,7 @@
 import { useMemo, useState } from "preact/hooks";
 import type { GridRow } from "./pivot";
-import type { DecisionKey, Skew } from "../../lib/types";
+import type { DecisionKey, Skew, TransparencyTier } from "../../lib/types";
+import { PATHWAYS } from "../../data/pathways.mjs";
 import {
   DECISION_ORDER,
   DECISION_LABELS,
@@ -10,8 +11,13 @@ import {
   colorFor,
 } from "../../lib/scores";
 
+const RELO = new Set(Object.keys(PATHWAYS));
+
 interface Props {
   rows: GridRow[];
+  /** iso3 -> {living,assets,currency} personalized scores (curated destinations). */
+  personalScores?: Record<string, Record<string, number>>;
+  hasProfile?: boolean;
 }
 
 type SortKey = "country" | "skew" | DecisionKey;
@@ -45,7 +51,7 @@ const SKEW_TIP =
   "Which way the tail leans beyond the central score: positive = upside, negative = downside, symmetric = balanced.";
 
 /** Sortable, filterable grid of every country across all three decisions. */
-export default function CountryGrid({ rows }: Props) {
+export default function CountryGrid({ rows, personalScores = {}, hasProfile = false }: Props) {
   const [sort, setSort] = useState<SortKey>("living");
   const [dir, setDir] = useState<"asc" | "desc">("desc");
   const [query, setQuery] = useState("");
@@ -54,11 +60,21 @@ export default function CountryGrid({ rows }: Props) {
   // average of the selected decisions. Empty = single-column sort via `sort`.
   const [multi, setMulti] = useState<DecisionKey[]>([]);
   const [minConf, setMinConf] = useState(0);
+  const [tierFilter, setTierFilter] = useState<"all" | TransparencyTier>("all");
+  const [reloOnly, setReloOnly] = useState(false);
+  const [personalizedView, setPersonalizedView] = useState(true);
+
+  const hasPersonal = Object.keys(personalScores).length > 0;
+  const psOn = personalizedView && hasPersonal;
+  // Effective decision score: the personalized value where available (and the
+  // personalized view is on), else the base score.
+  const eff = (r: GridRow, dk: DecisionKey): number | undefined =>
+    psOn && personalScores[r.iso3]?.[dk] != null ? personalScores[r.iso3][dk] : r.cells[dk]?.score;
 
   // Combined value for a row under the active multi-sort (mean of selected
   // decision scores), or null when not in multi mode.
   const combinedScore = (r: GridRow): number => {
-    const vals = multi.map((dk) => r.cells[dk]?.score).filter((v): v is number => typeof v === "number");
+    const vals = multi.map((dk) => eff(r, dk)).filter((v): v is number => typeof v === "number");
     return vals.length ? vals.reduce((a, b) => a + b, 0) / vals.length : Number.NEGATIVE_INFINITY;
   };
 
@@ -92,24 +108,26 @@ export default function CountryGrid({ rows }: Props) {
         av = SKEW_RANK[skewOf(a) ?? "unknown"] ?? -1;
         bv = SKEW_RANK[skewOf(b) ?? "unknown"] ?? -1;
       } else {
-        av = a.cells[sort]?.score ?? Number.NEGATIVE_INFINITY;
-        bv = b.cells[sort]?.score ?? Number.NEGATIVE_INFINITY;
+        av = eff(a, sort) ?? Number.NEGATIVE_INFINITY;
+        bv = eff(b, sort) ?? Number.NEGATIVE_INFINITY;
       }
       const cmp = typeof av === "string" ? av.localeCompare(bv as string) : (av as number) - (bv as number);
       return dir === "asc" ? cmp : -cmp;
     });
     return base.map((row, i) => ({ row, pos: i + 1 }));
-  }, [rows, sort, dir, multi]);
+  }, [rows, sort, dir, multi, personalizedView, personalScores]);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
     return ranked.filter(({ row }) => {
       if (skewFilter !== "all" && skewOf(row) !== skewFilter) return false;
+      if (tierFilter !== "all" && row.transparencyTier !== tierFilter) return false;
+      if (reloOnly && !RELO.has(row.iso3)) return false;
       if (minConf > 0 && rowConf(row) < minConf) return false;
       if (q && !(row.country.toLowerCase().includes(q) || row.iso3.toLowerCase().includes(q))) return false;
       return true;
     });
-  }, [ranked, query, skewFilter, minConf]);
+  }, [ranked, query, skewFilter, minConf, tierFilter, reloOnly]);
 
   const isDecision = (key: SortKey): key is DecisionKey =>
     key === "living" || key === "assets" || key === "currency";
@@ -161,6 +179,22 @@ export default function CountryGrid({ rows }: Props) {
             </button>
           ))}
         </div>
+        <select
+          class="grid__selfilter"
+          value={tierFilter}
+          onChange={(e) => setTierFilter((e.target as HTMLSelectElement).value as "all" | TransparencyTier)}
+          title="Filter by transparency tier (how observable the country is)"
+          aria-label="Transparency tier"
+        >
+          <option value="all">All tiers</option>
+          <option value="observable">Observable</option>
+          <option value="mixed">Mixed</option>
+          <option value="opaque">Opaque</option>
+        </select>
+        <label class="grid__chk" title="Show only destinations with curated relocation pathway data">
+          <input type="checkbox" checked={reloOnly} onChange={(e) => setReloOnly((e.target as HTMLInputElement).checked)} />
+          relocation data
+        </label>
         <label class="grid__confctl" title="Hide countries below this confidence on the active ranking metric">
           min conf <strong>{Math.round(minConf * 100)}%</strong>
           <input
@@ -173,8 +207,23 @@ export default function CountryGrid({ rows }: Props) {
             aria-label="Minimum confidence"
           />
         </label>
+        {hasPersonal ? (
+          <div class="grid__pfctl" role="group" aria-label="Personalization">
+            <button class={psOn ? "on" : ""} onClick={() => setPersonalizedView(true)}>Personalized</button>
+            <button class={!psOn ? "on" : ""} onClick={() => setPersonalizedView(false)}>Base</button>
+          </div>
+        ) : !hasProfile ? (
+          <a class="grid__pflink" href="/relocate/">Personalize this grid &rarr;</a>
+        ) : null}
         <span class="grid__count">{filtered.length} of {rows.length}</span>
       </div>
+
+      {psOn && (
+        <p class="grid__multinote">
+          Personalized for your <a href="/relocate/">relocate profile</a>. <strong>PF</strong> marks
+          scores adjusted by personal fit (curated destinations only); others show the base read.
+        </p>
+      )}
 
       {multi.length > 0 && (
         <p class="grid__multinote">
@@ -225,12 +274,15 @@ export default function CountryGrid({ rows }: Props) {
                 {DECISION_ORDER.map((dk) => {
                   const cell = r.cells[dk];
                   if (!cell) return <td class="grid__num grid__empty">-</td>;
+                  const s = eff(r, dk) ?? cell.score;
+                  const adjusted = psOn && personalScores[r.iso3]?.[dk] != null && s !== cell.score;
                   return (
                     <td class="grid__num">
                       <div class="grid__cell">
                         <div class="grid__cellhead">
-                          <span class={`grid__score grid__score--${sentimentFor(cell.score)}`}>
-                            {formatScore(cell.score)}
+                          {adjusted && <span class="grid__pf" title={`Personalized (base ${formatScore(cell.score)})`}>PF</span>}
+                          <span class={`grid__score grid__score--${sentimentFor(s)}`}>
+                            {formatScore(s)}
                           </span>
                           <span class="grid__conf">{formatConfidence(cell.confidence)}</span>
                         </div>
@@ -239,10 +291,10 @@ export default function CountryGrid({ rows }: Props) {
                           <span
                             class="grid__bar-fill"
                             style={{
-                              width: `${(Math.abs(cell.score) / 10) * 50}%`,
-                              background: colorFor(cell.score),
-                              left: cell.score >= 0 ? "50%" : undefined,
-                              right: cell.score < 0 ? "50%" : undefined,
+                              width: `${(Math.abs(s) / 10) * 50}%`,
+                              background: colorFor(s),
+                              left: s >= 0 ? "50%" : undefined,
+                              right: s < 0 ? "50%" : undefined,
                             }}
                           />
                         </span>
@@ -272,7 +324,13 @@ export default function CountryGrid({ rows }: Props) {
         .grid__skewbtn--on { background: var(--surface); color: var(--fg); font-weight: 600; }
         .grid__multinote { font-family: var(--font-mono); font-size: 0.75rem; color: var(--fg-muted); margin: 0 0 1rem; }
         .grid__multinote strong { color: var(--fg); }
+        .grid__multinote a { color: var(--data); }
         .grid__table thead button.grid__h--on { color: var(--fg); }
+        .grid__pfctl { display: inline-flex; gap: 0.2rem; padding: 0.2rem; background: var(--bg-elev); border: 1px solid var(--border); border-radius: 8px; }
+        .grid__pfctl button { background: none; border: 0; cursor: pointer; color: var(--fg-muted); font-family: var(--font-mono); font-size: 0.75rem; padding: 0.3rem 0.6rem; border-radius: 6px; }
+        .grid__pfctl button.on { background: var(--surface); color: var(--fg); font-weight: 600; }
+        .grid__pflink { font-family: var(--font-mono); font-size: 0.75rem; color: var(--data); }
+        .grid__pf { font-family: var(--font-mono); font-size: 0.5625rem; font-weight: 700; color: var(--data); border: 1px solid var(--data); border-radius: 3px; padding: 0 0.2rem; }
         .grid__search {
           flex: 1;
           max-width: 320px;
@@ -285,6 +343,8 @@ export default function CountryGrid({ rows }: Props) {
           font-size: 0.875rem;
         }
         .grid__search:focus { outline: none; border-color: var(--data); }
+        .grid__selfilter { background: var(--bg-elev); border: 1px solid var(--border); color: var(--fg-muted); font-family: var(--font-mono); font-size: 0.75rem; padding: 0.3rem 0.5rem; border-radius: 8px; }
+        .grid__chk { display: inline-flex; align-items: center; gap: 0.4rem; font-family: var(--font-mono); font-size: 0.75rem; color: var(--fg-muted); }
         .grid__confctl { display: inline-flex; align-items: center; gap: 0.5rem; font-family: var(--font-mono); font-size: 0.75rem; color: var(--fg-muted); }
         .grid__confctl strong { color: var(--fg); min-width: 2.5rem; display: inline-block; }
         .grid__confctl input[type="range"] { accent-color: var(--data); width: 8rem; cursor: pointer; }

@@ -1,4 +1,4 @@
-import type { ComparisonIndex, DecisionKey, Skew } from "../../lib/types";
+import type { ComparisonIndex, DecisionKey, Skew, TransparencyTier } from "../../lib/types";
 import { DECISION_ORDER } from "../../lib/scores";
 
 export interface GridCell {
@@ -12,6 +12,7 @@ export interface GridRow {
   country: string;
   iso3: string;
   cells: Partial<Record<DecisionKey, GridCell>>;
+  transparencyTier?: TransparencyTier;
 }
 
 /** Pivot the per-decision rankings into one row per country (columns = decisions). */
@@ -32,6 +33,7 @@ export function pivotIndex(index: ComparisonIndex): GridRow[] {
         skew: row.skew,
         rank: row.rank,
       };
+      if (row.transparency_tier) entry.transparencyTier = row.transparency_tier;
     }
   }
   return [...byCountry.values()];
