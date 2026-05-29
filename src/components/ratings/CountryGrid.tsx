@@ -187,7 +187,8 @@ export default function CountryGrid({ rows }: Props) {
         .grid__score--mixed { color: var(--mixed); }
         .grid__conf { color: var(--fg-faint); font-size: 0.6875rem; margin-left: 0.5rem; }
         .grid__empty { color: var(--fg-faint); }
-        .grid__skewcol, .grid__skewcell { text-align: right; }
+        .grid__skewcol { text-align: right; }
+        .grid__skewcell.grid__skewcell { text-align: right; }
         thead .grid__skewcol button { width: 100%; text-align: right; }
         .grid__skewtag { font-size: 0.75rem; font-weight: 600; white-space: nowrap; }
         .grid__skewtag--pos { color: var(--pos); }
