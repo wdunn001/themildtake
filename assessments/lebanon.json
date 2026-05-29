@@ -15,7 +15,8 @@
   "flags": [
     "Generated 2026-05-28 under v2.0: multilateral (IMF, World Bank, WJP, RSF, TI, V-Dem) + Lebanese independent press (L'Orient-Le Jour, Megaphone, TIMEP) + HRW/Amnesty/UNHCR.",
     "Scored on corroborated facts: the 2019 financial collapse and banking insolvency, the 2024 Hezbollah-Israel war that devastated the south, the early-2025 filling of a two-year presidential vacuum (a reform window), and high re-escalation risk. Any specific renewed-2026-war reports are treated as elevated risk, not stated history.",
-    "Standout drags: an insolvent frozen banking system, a defaulted state, sectarian-captured institutions, a war-wrecked south, and collapsed infrastructure; the upside is a fragile 2025 reform window. Overall: negative, near worse than long."
+    "Standout drags: an insolvent frozen banking system, a defaulted state, sectarian-captured institutions, a war-wrecked south, and collapsed infrastructure; the upside is a fragile 2025 reform window. Overall: negative, near worse than long.",
+    "Recalibrated 2026-05-29 for the 2026 Iran war (Operation Epic Fury, US+Israel vs Iran from 28 Feb) and the Strait of Hormuz closure: blockade of ~1/5 of world oil+LNG, attacks/threats on Gulf desalination (water security), a fragile/violated 8 Apr ceasefire, and the global energy shock. (Reuters; BBC; NYT; Al Jazeera; CSIS; Wikipedia)"
   ],
   "category_weights_by_decision": {
     "living": {
@@ -175,7 +176,7 @@
           "score": -9,
           "weight": 0.35,
           "confidence": 0.85,
-          "notes": "The 2024 Hezbollah-Israel war devastated the south; a fragile ceasefire holds amid ongoing Israeli strikes and disarmament friction, with high re-escalation risk - a real war tail. (Al Jazeera; House of Commons Library)"
+          "notes": "Hezbollah is a belligerent in the 2026 Iran war; Israeli strikes on the south have continued through the ceasefire. (Al Jazeera)"
         },
         "sanctions_capital_controls": {
           "score": -6,

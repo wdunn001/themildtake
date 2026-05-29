@@ -42,10 +42,12 @@ ahead of South Africa (#69) and far ahead of the continent's larger but more
 fragile states. Africa's leaders are its **small, stable, well-governed** states —
 the same pattern that wins everywhere else. Ghana (#43) leads West Africa.
 
-**MENA — Israel (#53, 1.26),** narrowly over Qatar (#55) and Oman (#75). This is
-the lowest-scoring regional *leader* on the board: the entire region is pulled
-down by conflict involvement and governance factors, so even its best score lands
-only mildly positive.
+**MENA — Israel (#53, 1.26),** ahead of Qatar (#58), Morocco (#67), and Oman
+(#76). This is the lowest-scoring regional *leader* on the board, and the gap to
+the rest of the region widened after the 2026 Iran war and the Strait of Hormuz
+closure dragged the Gulf petrostates down on the near-term decisions. The whole
+region is pulled down by conflict and governance factors, so even its best score
+lands only mildly positive — and Israel itself now carries a **negative skew**.
 
 ## Discussion: one pattern, six regions
 

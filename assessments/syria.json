@@ -15,7 +15,8 @@
   "flags": [
     "Generated 2026-05-28 under v2.0: rebuilt from independent sources (UN/World Bank estimates, V-Dem, RSF, Freedom House, HRW, Amnesty, ACLED, ICG/CrisisWatch) + independent press; neither old-regime nor new-government framing used.",
     "Pivotal context: the Assad regime fell in December 2024; a transitional government under Ahmed al-Sharaa now governs with partial control, Western sanctions easing in 2025, and reconstruction beginning - amid deep fragility and sectarian-violence episodes. Data is fragmentary and confidence is low.",
-    "Scored as strongly negative near-term with a genuine but highly uncertain recovery long-tail (near/long splits used); the asymmetric upside from the post-Assad opening and sanctions easing gives a positive outcome-distribution skew from a deeply negative base."
+    "Scored as strongly negative near-term with a genuine but highly uncertain recovery long-tail (near/long splits used); the asymmetric upside from the post-Assad opening and sanctions easing gives a positive outcome-distribution skew from a deeply negative base.",
+    "Recalibrated 2026-05-29 for the 2026 Iran war (Operation Epic Fury, US+Israel vs Iran from 28 Feb) and the Strait of Hormuz closure: blockade of ~1/5 of world oil+LNG, attacks/threats on Gulf desalination (water security), a fragile/violated 8 Apr ceasefire, and the global energy shock. (Reuters; BBC; NYT; Al Jazeera; CSIS; Wikipedia)"
   ],
   "category_weights_by_decision": {
     "living": {
@@ -187,7 +188,7 @@
           "score": null,
           "weight": 0.35,
           "confidence": 0.6,
-          "notes": "ISIS attacks, sectarian violence, hundreds of Israeli strikes, an occupied buffer zone, and collapsed late-2025 talks. (Soufan; ACLED)"
+          "notes": "Iranian-linked sites and supply lines were struck on Syrian territory during the 2026 war, compounding the post-civil-war fragility. (Wikipedia)"
         },
         "sanctions_capital_controls": {
           "score_near": -4,

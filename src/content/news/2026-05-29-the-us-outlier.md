@@ -18,8 +18,8 @@ For the **living** decision — a 5–10 year read on where a person might choos
 be — the United States ranks **173rd of 193** UN members in this dataset, with a
 composite of **−5.35** and a **negative skew**. It sits between Syria and
 Turkmenistan, just above Russia (#175), and *below* China (#159), Pakistan
-(#165), Iraq (#169), and Zimbabwe (#171). On **assets** it is #173 (−4.77); on
-**currency** #171 (−4.05). This is the single most counter-intuitive result the
+(#165), Iraq (#169), and Zimbabwe (#171). On **assets** it is #172 (−4.83); on
+**currency** #172 (−4.16). This is the single most counter-intuitive result the
 framework produces, so it deserves the most careful explanation. The short
 version: the model scores **trajectory and trustworthiness for a specific set of
 decisions**, not current prosperity — and on those axes the US is now being

@@ -15,7 +15,8 @@
   "flags": [
     "Generated 2026-05-28 under v2.0. STATE-MEDIA EXCLUSION applied: UAE state-aligned outlets (WAM, The National, Khaleej Times, Gulf News) were excluded on governance/rights/politics and rebuilt from independent sources (Freedom House, RSF, HRW, V-Dem, World Justice Project, The Sentry, UN panels); economic data used only where IMF-validated.",
     "The core tension is world-class capacity, safety, infrastructure, and easy tax-free residency against an authoritarian floor: no political freedom, very low press freedom, and no path to belonging for the ~88% expatriate population.",
-    "Resource/rentier dynamic: oil wealth is partly offset by sovereign funds and diversification, but the long-term economic score is discounted for it."
+    "Resource/rentier dynamic: oil wealth is partly offset by sovereign funds and diversification, but the long-term economic score is discounted for it.",
+    "Recalibrated 2026-05-29 for the 2026 Iran war (Operation Epic Fury, US+Israel vs Iran from 28 Feb) and the Strait of Hormuz closure: blockade of ~1/5 of world oil+LNG, attacks/threats on Gulf desalination (water security), a fragile/violated 8 Apr ceasefire, and the global energy shock. (Reuters; BBC; NYT; Al Jazeera; CSIS; Wikipedia)"
   ],
   "category_weights_by_decision": {
     "living": {
@@ -42,18 +43,18 @@
   },
   "categories": {
     "economic": {
-      "score": 3.1,
+      "score": 0.6,
       "confidence": 0.78,
       "skew": "positive",
       "notes": "Deep sovereign-wealth buffers, dollar-pegged stability, and a diversified hub economy; an oil-dependent rentier tail on the long horizon.",
       "sub_factors": {
         "fiscal_state": {
-          "score_near": 7,
+          "score_near": 3,
           "score_long": 5,
           "score": null,
           "weight": 0.22,
           "confidence": 0.8,
-          "notes": "Large government surpluses and vast sovereign wealth funds (ADIA, Mubadala) provide deep buffers; the long-term score is trimmed for continued oil-revenue dependence. (IMF Art IV 2025)"
+          "notes": "Diversified, fund-backed finances absorb the shock better than peers, but Hormuz disruption and war risk dent the near term. (IMF)"
         },
         "monetary_independence": {
           "score": -2,
@@ -80,12 +81,12 @@
           "notes": "Well-capitalised (CAR ~17%), low NPLs, ample liquidity; the IMF judges stability risks contained. (IMF GFSR 2026; CBUAE)"
         },
         "trade_actions_capacity": {
-          "score_near": 6,
-          "score_long": 4,
+          "score_near": -4,
+          "score_long": 2,
           "score": null,
           "weight": 0.17,
           "confidence": 0.72,
-          "notes": "A major re-export and logistics hub (Jebel Ali/DP World) with real diversification and open, stable trade; resource-curse risk is partly mitigated by sovereign funds and diversification, but oil dependence and a rentier dynamic keep the long-term below the near-term. (IMF Art IV 2025)"
+          "notes": "The Habshan-Fujairah pipeline (~1.5 mbd) lands some crude on the Gulf of Oman outside Hormuz, but most trade and re-export flows still depend on the blockaded strait. Partial bypass, large near-term hit. (Reuters; EIA)"
         }
       }
     },
@@ -166,7 +167,7 @@
       }
     },
     "geopolitical": {
-      "score": -0.9,
+      "score": -1.7,
       "confidence": 0.63,
       "skew": "negative",
       "notes": "A reliable-but-non-aligned regional power with active conflict exposure.",
@@ -178,12 +179,12 @@
           "notes": "A US Major Defense Partner and regional power, but actively hedging with China and Russia - reliable but non-aligned. (Washington Institute)"
         },
         "conflict_involvement": {
-          "score_near": -4,
+          "score_near": -6,
           "score_long": -3,
           "score": null,
           "weight": 0.35,
           "confidence": 0.65,
-          "notes": "Yemen entanglement, Red Sea/Houthi exposure, and credible evidence of arms support to a party in Sudan's war - active conflict exposure. (UN panels; The Sentry 2024)"
+          "notes": "Targeted by Iranian strikes during the 2026 war; deeply exposed as a Gulf trade and finance hub. (Al Jazeera)"
         },
         "sanctions_capital_controls": {
           "score": -1,
@@ -194,7 +195,7 @@
       }
     },
     "physical_practical": {
-      "score": 3.8,
+      "score": 3,
       "confidence": 0.73,
       "skew": "symmetric",
       "notes": "World-class infrastructure, very low crime, and excellent hub healthcare, against extreme heat and water/desalination dependence.",
@@ -214,10 +215,12 @@
           "notes": "Excellent modern private/hub healthcare, of medical-tourism grade. (IMF; OSAC)"
         },
         "infrastructure": {
-          "score": 8,
+          "score": null,
           "weight": 0.2,
           "confidence": 0.8,
-          "notes": "World-class airports, ports, telecom, smart-city systems, and power. (IMF Art IV)"
+          "notes": "Among the best infrastructure on the board, but heavy desalination dependence under direct Iranian water-infrastructure threats is an acute near-term vulnerability. (CSIS; Circle of Blue)",
+          "score_near": 4,
+          "score_long": 7
         },
         "crime_safety": {
           "score": 7,
@@ -236,19 +239,19 @@
   },
   "decisions": {
     "living": {
-      "score": 0.19,
+      "score": 0.11,
       "confidence": 0.72,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 1.27,
+      "score": 0.57,
       "confidence": 0.73,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": 1.79,
+      "score": 0.13,
       "confidence": 0.74,
       "horizon": "1-3y",
       "reading": "mixed"

@@ -15,7 +15,8 @@
   "flags": [
     "Generated 2026-05-28 under v2.0: governance/rights/politics rebuilt from independent sources (IMF Art IV, World Bank, V-Dem, RSF, Freedom House, HRW, Amnesty, TI) + non-Bahraini press; Bahraini state media EXCLUDED there, with economic figures admitted only via IMF validation.",
     "A Sunni monarchy ruling a Shia-majority population (the 2011 uprising was crushed with Gulf help); the dinar is hard-pegged to the USD. Migrant workers are roughly half the population under kafala-legacy controls.",
-    "Standout drags: the weakest fiscal position in the Gulf, mass post-2011 political imprisonment, and a sectarian fat-tail; offsets are a strong finance sector, the US 5th-Fleet alliance, and low crime."
+    "Standout drags: the weakest fiscal position in the Gulf, mass post-2011 political imprisonment, and a sectarian fat-tail; offsets are a strong finance sector, the US 5th-Fleet alliance, and low crime.",
+    "Recalibrated 2026-05-29 for the 2026 Iran war (Operation Epic Fury, US+Israel vs Iran from 28 Feb) and the Strait of Hormuz closure: blockade of ~1/5 of world oil+LNG, attacks/threats on Gulf desalination (water security), a fragile/violated 8 Apr ceasefire, and the global energy shock. (Reuters; BBC; NYT; Al Jazeera; CSIS; Wikipedia)"
   ],
   "category_weights_by_decision": {
     "living": {
@@ -42,7 +43,7 @@
   },
   "categories": {
     "economic": {
-      "score": -0.3,
+      "score": -0.9,
       "confidence": 0.8,
       "skew": "negative",
       "notes": "A strong finance sector and peg-anchored low inflation, against the Gulf's weakest fiscal position.",
@@ -78,10 +79,12 @@
           "notes": "A large, well-regulated financial-services hub - a relative strength, with a sovereign-bank-nexus vulnerability. (IMF; CBB)"
         },
         "trade_actions_capacity": {
-          "score": 0,
+          "score": null,
           "weight": 0.17,
           "confidence": 0.75,
-          "notes": "Declining oil plus aluminium and a finance/fintech hub - small and concentrated. (IMF)"
+          "notes": "Oil exports and refining feedstock move via the blockaded strait; a small, highly exposed economy. (Reuters)",
+          "score_near": -4,
+          "score_long": 0
         }
       }
     },
@@ -158,7 +161,7 @@
       }
     },
     "geopolitical": {
-      "score": 3.9,
+      "score": 2.3,
       "confidence": 0.77,
       "skew": "positive",
       "notes": "A US-anchored Gulf ally with an open account, against Iran-proximity exposure.",
@@ -170,12 +173,12 @@
           "notes": "Hosts the US Navy 5th Fleet, a major non-NATO ally, Gulf-backed, and normalised with Israel. (CRS; Atlantic Council)"
         },
         "conflict_involvement": {
-          "score_near": -2,
+          "score_near": -7,
           "score_long": -3,
           "score": null,
           "weight": 0.35,
           "confidence": 0.7,
-          "notes": "No direct war, with Iran-proximity/Hormuz and sectarian-spillover exposure. (non-Bahraini press)"
+          "notes": "Home of the US Navy Fifth Fleet and a primary Iranian retaliation target in the 2026 war; sectarian-unrest risk amplified. (Al Jazeera)"
         },
         "sanctions_capital_controls": {
           "score": 6,
@@ -186,7 +189,7 @@
       }
     },
     "physical_practical": {
-      "score": 4.1,
+      "score": 2.9,
       "confidence": 0.73,
       "skew": "positive",
       "notes": "Modern healthcare, infrastructure, and low crime, against extreme heat and sea-level risk.",
@@ -206,10 +209,12 @@
           "notes": "Good, modern, and well-funded. (independent)"
         },
         "infrastructure": {
-          "score": 7,
+          "score": null,
           "weight": 0.2,
           "confidence": 0.75,
-          "notes": "Modern and good. (IMF; independent)"
+          "notes": "A desalination plant on this water-scarce island was actually struck during the war — a direct hit to the drinking-water lifeline, not just a threat. (NYT; Guardian)",
+          "score_near": 1,
+          "score_long": 5
         },
         "crime_safety": {
           "score": 7,
@@ -228,19 +233,19 @@
   },
   "decisions": {
     "living": {
-      "score": -1.21,
+      "score": -1.26,
       "confidence": 0.76,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.03,
+      "score": -0.3,
       "confidence": 0.77,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -0.08,
+      "score": -0.7,
       "confidence": 0.79,
       "horizon": "1-3y",
       "reading": "mixed"

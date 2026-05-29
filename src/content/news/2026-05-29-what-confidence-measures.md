@@ -47,8 +47,8 @@ They aren't:
 | richness proxy     | corr w/ \|living\| | \|assets\| | \|currency\| |
 |--------------------|-------------------:|-----------:|-------------:|
 | mean confidence    |              −0.07 |      +0.04 |        +0.11 |
-| distinct sources   |              −0.11 |      −0.08 |        −0.07 |
-| notes length       |              −0.14 |      −0.16 |        −0.19 |
+| distinct sources   |              −0.10 |      −0.07 |        −0.07 |
+| notes length       |              −0.15 |      −0.17 |        −0.19 |
 
 For the living decision the effect is essentially zero to slightly *negative* —
 more sourcing and longer notes go with marginally *less* extreme scores, not
@@ -60,9 +60,9 @@ small and have a benign explanation below.
 The confidence quartiles tell the same story. Comparing the mean `|score|` of the
 lowest-confidence quartile vs. the highest:
 
-- **living:** 3.21 → 3.15 (Δ −0.06, flat)
-- **assets:** 2.65 → 3.22 (Δ +0.56)
-- **currency:** 2.35 → 3.28 (Δ +0.94)
+- **living:** 3.21 → 3.15 (Δ −0.05, flat)
+- **assets:** 2.66 → 3.22 (Δ +0.56)
+- **currency:** 2.37 → 3.29 (Δ +0.93)
 
 The gap on assets and currency is **expected by design, not bias**: the dataset
 deliberately hedges data-poor states toward the center — they are flagged

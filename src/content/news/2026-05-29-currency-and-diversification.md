@@ -56,7 +56,7 @@ Three reasons sit inside the framework rather than outside it:
    read consistent with the data spreads liquid holdings across that set rather
    than picking the ordinal #1.
 
-This is also why the **US currency score (#171, −4.05)** matters here: the dollar
+This is also why the **US currency score (#172, −4.16)** matters here: the dollar
 still carries a large near-term reserve privilege (its `reserve_currency`
 sub-factor is **+5 near**), but the score is dragged down by the institutional
 entanglement around it and a **−3 long-term** reserve outlook. A diversification

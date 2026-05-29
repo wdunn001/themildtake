@@ -15,7 +15,8 @@
   "flags": [
     "Generated 2026-05-28 under v2.0: governance/rights/politics rebuilt from independent sources (IMF Art IV 2025, World Bank, V-Dem, RSF, TI, Freedom House, HRW, Amnesty, CPJ, ICG) + international press; Egyptian state/state-aligned media EXCLUDED there, with economic figures admitted only via IMF validation.",
     "Structural distortion: the military's outsized, opaque role in the economy crowds out the private sector and is not fully captured in IMF headline data.",
-    "Standout drags: a debt-distress economy on IMF/Gulf life-support, no judicial independence or independent press, mass political imprisonment, and a severe water/climate tail. Offsets: a Gaza-mediator role and a young population."
+    "Standout drags: a debt-distress economy on IMF/Gulf life-support, no judicial independence or independent press, mass political imprisonment, and a severe water/climate tail. Offsets: a Gaza-mediator role and a young population.",
+    "Recalibrated 2026-05-29 for the 2026 Iran war (Operation Epic Fury, US+Israel vs Iran from 28 Feb) and the Strait of Hormuz closure: blockade of ~1/5 of world oil+LNG, attacks/threats on Gulf desalination (water security), a fragile/violated 8 Apr ceasefire, and the global energy shock. (Reuters; BBC; NYT; Al Jazeera; CSIS; Wikipedia)"
   ],
   "category_weights_by_decision": {
     "living": {
@@ -42,7 +43,7 @@
   },
   "categories": {
     "economic": {
-      "score": -2.7,
+      "score": -2.9,
       "confidence": 0.78,
       "skew": "negative",
       "notes": "A debt-distress economy on external life-support, a constrained post-float currency, and a Suez earner gutted by Red Sea reroutes.",
@@ -82,12 +83,12 @@
           "notes": "Low reported NPLs, but an FX-shortage history and heavy sovereign-debt exposure. (World Bank; CBE via IMF)"
         },
         "trade_actions_capacity": {
-          "score_near": -4,
+          "score_near": -5,
           "score_long": -2,
           "score": null,
           "weight": 0.17,
           "confidence": 0.7,
-          "notes": "Suez Canal revenue cut roughly in half by Red Sea reroutes, declining gas exports, and remittance dependence, with a military that crowds out the private sector. (Atlantic Council; IMF)"
+          "notes": "The 2026 war and Red Sea/Bab-el-Mandeb shipping disruption cut Suez Canal transits and the hard-currency revenue they bring. (Reuters)"
         }
       }
     },
@@ -242,13 +243,13 @@
       "reading": "clear negative"
     },
     "assets": {
-      "score": -2.28,
+      "score": -2.31,
       "confidence": 0.75,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -2.59,
+      "score": -2.68,
       "confidence": 0.76,
       "horizon": "1-3y",
       "reading": "mixed"

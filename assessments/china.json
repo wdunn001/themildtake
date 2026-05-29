@@ -19,7 +19,8 @@
     "Trade/industrial capacity re-weighted 0.05 -> 0.17 and scored on INDEPENDENTLY-observable manufacturing dominance (partner customs, port traffic, foreign supply chains). This is a real, externally verifiable strength and lifts the economic score even after CCP-data exclusion.",
     "Slant-balance audit: the prior input set leaned anti-subject on China's strengths (low-confidence CCP) while its negatives were high-confidence independent. Corrected by crediting independently-verified manufacturing capacity AND discounting regime-framed near-term 'stability' positives (political_stability and social_cohesion near-term trimmed, confidence lowered).",
     "NEGATIVE-SKEW case: demographic collapse largely locked in; authoritarian trajectory intensifying; no positive-skew pathway.",
-    "Scored on observable ACTIONS and independent DATA over regime stated intentions; the optional strict-foundational-weighting variant was NOT applied."
+    "Scored on observable ACTIONS and independent DATA over regime stated intentions; the optional strict-foundational-weighting variant was NOT applied.",
+    "Recalibrated 2026-05-29 for the 2026 Iran war (Operation Epic Fury, US+Israel vs Iran from 28 Feb) and the Strait of Hormuz closure: blockade of ~1/5 of world oil+LNG, attacks/threats on Gulf desalination (water security), a fragile/violated 8 Apr ceasefire, and the global energy shock. (Reuters; BBC; NYT; Al Jazeera; CSIS; Wikipedia)"
   ],
   "category_weights_by_decision": {
     "living": {
@@ -46,7 +47,7 @@
   },
   "categories": {
     "economic": {
-      "score": -0.9,
+      "score": -1.7,
       "confidence": 0.61,
       "skew": "negative",
       "notes": "Rebuilt under the exclusion rule: CCP official growth/CPI/local-debt figures treated as unusable; factors reconstructed from independent proxies, lowering confidence. Independently-verified manufacturing dominance (now weighted 0.17) is the genuine offset to debt, deflation, captured monetary policy, and property-sector stress. Long-term leans more negative as decoupling and demographics bite.",
@@ -74,10 +75,12 @@
           "notes": "RMB is the rising dollar-alternative (CIPS, swap lines, trade settlement) - observable via partner-country and BIS data - but capital controls structurally cap true reserve status."
         },
         "inflation": {
-          "score": -4,
+          "score": null,
           "weight": 0.13,
           "confidence": 0.55,
-          "notes": "Deflation, not inflation - and now structural: 10+ straight quarters, GDP deflator negative into 2026 (IMF diagnostics, Initium 端傳媒, Rhodium). Worse than the earlier -3; official CPI excluded, signal from independent producer/earnings data. Raises real debt burden."
+          "notes": "Imported energy-price shock from the Hormuz closure — China is the largest buyer of Gulf and Iranian crude through the strait — feeds input-cost inflation and a growth drag. (Reuters; BBC)",
+          "score_near": -6,
+          "score_long": -4
         },
         "banking_stability": {
           "score_near": -2,
@@ -88,12 +91,12 @@
           "notes": "State-dominated; 'stability through control' masks property-developer defaults and shadow-banking risk. Opaque - confidence held low; inference from observable developer failures and LGFV stress rather than official figures."
         },
         "trade_actions_capacity": {
-          "score_near": 5,
+          "score_near": 2,
           "score_long": 1,
           "score": null,
           "weight": 0.17,
           "confidence": 0.72,
-          "notes": "Partner customs confirm dominance (exports +21.8% YoY Jan-Feb 2026; EU +27.8%, ASEAN +29.4%, Korea +27%, but US -11%). Near +5 holds. Long softened to +1: the ASEAN transshipment escape-valve is closing (Vietnam's 40% transshipment tariff + rules-of-origin) and the surplus is now ~57-68% of all growth (Rhodium) - dominance as dependency, not cushion."
+          "notes": "Critical crude-supply disruption (roughly half of China's oil transits Hormuz, and it is Iran's main customer) hits the export-manufacturing base near-term. (Reuters)"
         }
       }
     },
@@ -254,13 +257,13 @@
       "reading": "clear negative"
     },
     "assets": {
-      "score": -2.98,
+      "score": -3.14,
       "confidence": 0.66,
       "horizon": "3-7y",
-      "reading": "mixed"
+      "reading": "clear negative"
     },
     "currency": {
-      "score": -2.4,
+      "score": -2.88,
       "confidence": 0.64,
       "horizon": "1-3y",
       "reading": "mixed"

@@ -20,7 +20,8 @@
     "Reserve-currency factor kept two-horizon (+5 near / -2 long): a large near-term privilege that becomes a long-term structural dependency as the institutions it shielded are exposed.",
     "Slant-balance audit: negatives are independently sourced (RWB, ASA, OECD, courts); reserve-currency and personal-market strengths credited at full near-term weight to avoid an anti-subject lean.",
     "Scored on observable ACTIONS/DATA over stated intentions; the optional strict-foundational-weighting variant was NOT applied.",
-    "Media-ownership capture flagged (2026): in the prior year major US outlets passed to administration-aligned owners with board/editorial appointees close to the administration (e.g. CBS/Paramount via the Skydance-Ellison acquisition). This weakens the 'independent diversified press' assumption - such captured US outlets are treated as ownership-tilted (partially-entangled), not neutral, when they inform any score; press_freedom lowered accordingly."
+    "Media-ownership capture flagged (2026): in the prior year major US outlets passed to administration-aligned owners with board/editorial appointees close to the administration (e.g. CBS/Paramount via the Skydance-Ellison acquisition). This weakens the 'independent diversified press' assumption - such captured US outlets are treated as ownership-tilted (partially-entangled), not neutral, when they inform any score; press_freedom lowered accordingly.",
+    "Recalibrated 2026-05-29 for the 2026 Iran war (Operation Epic Fury, US+Israel vs Iran from 28 Feb) and the Strait of Hormuz closure: blockade of ~1/5 of world oil+LNG, attacks/threats on Gulf desalination (water security), a fragile/violated 8 Apr ceasefire, and the global energy shock. (Reuters; BBC; NYT; Al Jazeera; CSIS; Wikipedia)"
   ],
   "category_weights_by_decision": {
     "living": {
@@ -171,7 +172,7 @@
       }
     },
     "geopolitical": {
-      "score": -5,
+      "score": -5.8,
       "confidence": 0.75,
       "skew": "negative",
       "notes": "Strongly negative across all sub-factors.",
@@ -183,10 +184,12 @@
           "notes": "NATO strain, Five Eyes degraded, EU strategic autonomy, Greenland/Canada friction, transactional posture replacing values-based alliances."
         },
         "conflict_involvement": {
-          "score": -5,
+          "score": null,
           "weight": 0.35,
           "confidence": 0.8,
-          "notes": "Non-US sources (Al Jazeera) read the US-Iran ceasefire as more fragile than US framing - 'on life support,' both sides issuing conflicting reports (late May 2026). De-escalated from active war but unstable; held at -5 with downside risk. Taiwan tension and partner-directed rhetoric persist."
+          "notes": "Lead belligerent in the 2026 Iran war (Operation Epic Fury) and enforcing a Gulf naval blockade; documented munitions/interceptor-stockpile strain and an open-ended regional commitment. (Wikipedia; Reuters)",
+          "score_near": -7,
+          "score_long": -5
         },
         "sanctions_capital_controls": {
           "score": -3,
@@ -245,13 +248,13 @@
       "reading": "clear negative"
     },
     "assets": {
-      "score": -4.77,
+      "score": -4.83,
       "confidence": 0.74,
       "horizon": "3-7y",
       "reading": "clear negative"
     },
     "currency": {
-      "score": -4.05,
+      "score": -4.16,
       "confidence": 0.73,
       "horizon": "1-3y",
       "reading": "clear negative"

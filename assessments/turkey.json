@@ -15,7 +15,8 @@
   "flags": [
     "Generated 2026-05-28 under v2.0: multilateral (IMF Art IV 2025, World Bank, WJP, RSF, TI, V-Dem, Freedom House) + Turkish official (CBRT; TurkStat) cross-checked against independent estimates + independent/exile Turkish press (Diken, Bianet, Medyascope, Duvar, Turkish Minute).",
     "Source discipline: the official inflation series is DISPUTED - scored on the falling trajectory with confidence capped and statistical integrity rated clearly negative; pro-government captured media excluded on politics/press/rule-of-law.",
-    "Standout drags: a politicised judiciary and the 2025 opposition-mayor arrest, very low press freedom, scarred monetary credibility, and a catastrophic Istanbul seismic tail."
+    "Standout drags: a politicised judiciary and the 2025 opposition-mayor arrest, very low press freedom, scarred monetary credibility, and a catastrophic Istanbul seismic tail.",
+    "Recalibrated 2026-05-29 for the 2026 Iran war (Operation Epic Fury, US+Israel vs Iran from 28 Feb) and the Strait of Hormuz closure: blockade of ~1/5 of world oil+LNG, attacks/threats on Gulf desalination (water security), a fragile/violated 8 Apr ceasefire, and the global energy shock. (Reuters; BBC; NYT; Al Jazeera; CSIS; Wikipedia)"
   ],
   "category_weights_by_decision": {
     "living": {
@@ -42,7 +43,7 @@
   },
   "categories": {
     "economic": {
-      "score": 0.6,
+      "score": 0.5,
       "confidence": 0.73,
       "skew": "negative",
       "notes": "A genuine orthodox re-stabilisation and a diversified export base, against scarred monetary credibility and disputed inflation data.",
@@ -70,12 +71,12 @@
           "notes": "The lira is not a reserve currency. (IMF COFER)"
         },
         "inflation": {
-          "score_near": -4,
+          "score_near": -5,
           "score_long": -1,
           "score": null,
           "weight": 0.13,
           "confidence": 0.6,
-          "notes": "~32% and volatile, down sharply from a ~75% peak but reaccelerating; the official series is disputed, with independent estimates running materially higher. (TurkStat; ENAG)"
+          "notes": "An energy importer already fighting high inflation, Turkey is further squeezed by the 2026 Hormuz energy-price shock. (Reuters)"
         },
         "banking_stability": {
           "score": 1,
@@ -244,13 +245,13 @@
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.34,
+      "score": -1.36,
       "confidence": 0.72,
       "horizon": "3-7y",
       "reading": "mixed"
     },
     "currency": {
-      "score": -0.84,
+      "score": -0.9,
       "confidence": 0.72,
       "horizon": "1-3y",
       "reading": "mixed"

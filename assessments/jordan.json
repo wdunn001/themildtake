@@ -15,7 +15,8 @@
   "flags": [
     "Generated 2026-05-28 under v2.0: multilateral (IMF Art IV/EFF, World Bank, WJP, RSF, TI, V-Dem) + Jordanian official (cautiously) + independent/international press + HRW/Amnesty/UNHCR.",
     "A stable monarchy where the king holds real power; the dinar is hard-pegged to the USD. Real strengths (alliance, banking, peg stability, healthcare, low crime) offset structural fragility.",
-    "Standout drags: high debt and aid dependence, extreme water scarcity, a jobs strain, restricted liberties, and regional-war exposure. Source-lean: MODERATE; IMF-program optics on economics, independent-critical on rights."
+    "Standout drags: high debt and aid dependence, extreme water scarcity, a jobs strain, restricted liberties, and regional-war exposure. Source-lean: MODERATE; IMF-program optics on economics, independent-critical on rights.",
+    "Recalibrated 2026-05-29 for the 2026 Iran war (Operation Epic Fury, US+Israel vs Iran from 28 Feb) and the Strait of Hormuz closure: blockade of ~1/5 of world oil+LNG, attacks/threats on Gulf desalination (water security), a fragile/violated 8 Apr ceasefire, and the global energy shock. (Reuters; BBC; NYT; Al Jazeera; CSIS; Wikipedia)"
   ],
   "category_weights_by_decision": {
     "living": {
@@ -171,7 +172,7 @@
           "score": -5,
           "weight": 0.35,
           "confidence": 0.8,
-          "notes": "No direct war but acute exposure - Gaza/West Bank pressure and Syria-border drug-smuggling that has drawn Jordanian airstrikes. (Al Jazeera; FDD)"
+          "notes": "Caught under the missile/drone overflight corridor of the 2026 war, with airspace closures and economic and refugee strain. (Al Jazeera)"
         },
         "sanctions_capital_controls": {
           "score": 3,
