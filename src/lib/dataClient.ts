@@ -3,7 +3,7 @@ import type { Assessment, ComparisonIndex } from "./types";
 
 // Runtime fetch against the statically-hosted data (synced into public/data/ by
 // scripts/sync-data.mjs, packed to MessagePack by scripts/pack-data.mjs). We
-// fetch the binary .msgpack and decode client-side — mirroring how the SaaS app
+// fetch the binary .msgpack and decode client-side - mirroring how the SaaS app
 // ships timeseries/black-box logs. nginx serves the precompressed .msgpack.gz /
 // .msgpack.br via gzip_static/brotli_static (Content-Encoding), so the browser
 // transparently decompresses and we decode the raw msgpack bytes either way.

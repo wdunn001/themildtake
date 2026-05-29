@@ -130,10 +130,10 @@ export function transparencySentiment(tier?: string): Sentiment {
 export function transparencyNote(tier?: string, trend?: string): string {
   switch (tier) {
     case "observable":
-      return "Free press and open civil society — scores rest on directly observable evidence.";
+      return "Free press and open civil society - scores rest on directly observable evidence.";
     case "mixed":
       return trend === "declining"
-        ? "Official data is compromised, but a free press and courts still surface the truth. Scores lean on those independent channels, and the state is sliding toward opacity — the confidence here is capped and falling."
+        ? "Official data is compromised, but a free press and courts still surface the truth. Scores lean on those independent channels, and the state is sliding toward opacity - the confidence here is capped and falling."
         : "Partial observability: official data is unreliable, but independent reporting still gets the truth out. Confidence is capped accordingly.";
     case "opaque":
       return "The state controls the information environment, so scores rest on external proxies and carry a capped, lower confidence. The read may be flattered by what cannot be seen.";

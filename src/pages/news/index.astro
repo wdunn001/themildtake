@@ -10,7 +10,7 @@ const entries = (await getCollection("news"))
   .sort((a, b) => b.data.datePublished.localeCompare(a.data.datePublished));
 ---
 <Base
-  title={`Analysis — ${SITE_NAME}`}
+  title={`Analysis - ${SITE_NAME}`}
   description="Long-form analysis behind the country-risk scores: what moved a rating, where confidence is thin, and which way the skew points."
 >
   <section class="container news">
@@ -24,7 +24,7 @@ const entries = (await getCollection("news"))
     </header>
 
     {entries.length === 0 ? (
-      <p class="news__empty">No articles yet — check back soon.</p>
+      <p class="news__empty">No articles yet - check back soon.</p>
     ) : (
       <div class="news__list">
         {entries.map((entry) => (

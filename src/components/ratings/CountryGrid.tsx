@@ -22,21 +22,21 @@ const SKEW_RANK: Record<string, number> = { positive: 2, symmetric: 1, negative:
 const skewOf = (r: GridRow): Skew | undefined =>
   r.cells.living?.skew ?? r.cells.assets?.skew ?? r.cells.currency?.skew;
 const skewGlyph = (s?: Skew) =>
-  s === "positive" ? "▲" : s === "negative" ? "▼" : s === "symmetric" ? "→" : "—";
+  s === "positive" ? "▲" : s === "negative" ? "▼" : s === "symmetric" ? "→" : "-";
 const skewSent = (s?: Skew) => (s === "positive" ? "pos" : s === "negative" ? "neg" : "mixed");
 
-// Header tooltips — make explicit that these are forward-looking risk reads, not
+// Header tooltips - make explicit that these are forward-looking risk reads, not
 // snapshots of current quality / value.
 const COMBINE_HINT = " Ctrl/⌘-click to combine decisions into one ranking.";
 const DECISION_TIP: Record<string, string> = {
   living:
-    "Risk read for living / relocating there over ~5–10 years (long-term). NOT a measure of current quality of life." +
+    "Risk read for living / relocating there over ~5-10 years (long-term). NOT a measure of current quality of life." +
     COMBINE_HINT,
   assets:
-    "Risk read for holding assets there over ~3–7 years (mid-term). NOT a measure of current asset value." +
+    "Risk read for holding assets there over ~3-7 years (mid-term). NOT a measure of current asset value." +
     COMBINE_HINT,
   currency:
-    "Risk read for holding its currency over ~1–3 years (near-term). NOT a measure of current exchange-rate value." +
+    "Risk read for holding its currency over ~1-3 years (near-term). NOT a measure of current exchange-rate value." +
     COMBINE_HINT,
 };
 const POS_TIP = "Position in the current sort. Persists when you filter.";
@@ -178,7 +178,7 @@ export default function CountryGrid({ rows }: Props) {
 
       {multi.length > 0 && (
         <p class="grid__multinote">
-          Combined rank — average of {multi.map((dk) => DECISION_LABELS[dk]).join(" + ")}; the{" "}
+          Combined rank - average of {multi.map((dk) => DECISION_LABELS[dk]).join(" + ")}; the{" "}
           <strong>⋈</strong> column reflects it. Ctrl/⌘-click a decision header to add or remove it,
           or click any header normally to reset.
         </p>
@@ -224,7 +224,7 @@ export default function CountryGrid({ rows }: Props) {
                 </th>
                 {DECISION_ORDER.map((dk) => {
                   const cell = r.cells[dk];
-                  if (!cell) return <td class="grid__num grid__empty">—</td>;
+                  if (!cell) return <td class="grid__num grid__empty">-</td>;
                   return (
                     <td class="grid__num">
                       <div class="grid__cell">
@@ -252,7 +252,7 @@ export default function CountryGrid({ rows }: Props) {
                 })}
                 <td class="grid__skewcell">
                   <span class={`grid__skewtag grid__skewtag--${skewSent(skewOf(r))}`}>
-                    {skewGlyph(skewOf(r))} {skewOf(r) ?? "—"}
+                    {skewGlyph(skewOf(r))} {skewOf(r) ?? "-"}
                   </span>
                 </td>
               </tr>

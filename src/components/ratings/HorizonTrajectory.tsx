@@ -17,7 +17,7 @@ interface Props {
 
 // Each x-position is the decision that natively reads that horizon, so the line
 // traces a country's risk from the near term (currency) to the long term (living).
-const X = ["Currency · 1–3y", "Assets · 3–7y", "Living · 5–10y"];
+const X = ["Currency · 1-3y", "Assets · 3-7y", "Living · 5-10y"];
 
 export default function HorizonTrajectory({ lines, height = 300 }: Props) {
   const option = useMemo<EChartsCoreOption>(() => {

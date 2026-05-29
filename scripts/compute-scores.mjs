@@ -62,8 +62,8 @@ export function categoryComposite(cat, h, confCap = 1) {
 // Transparency / observability tier, derived from the sub-factors that govern
 // whether the truth about a country can be observed at all: a free press and
 // civil liberties (can the truth get out?) plus statistical integrity (does the
-// state itself publish honestly?). The tier sets a CEILING on confidence — it
-// never changes the directional score except via re-weighting where it clips —
+// state itself publish honestly?). The tier sets a CEILING on confidence - it
+// never changes the directional score except via re-weighting where it clips -
 // so opacity lowers how much we vouch for a read, not the read itself.
 const TIER_CAP = { observable: 1.0, mixed: 0.75, opaque: 0.6, unknown: 1.0 };
 
@@ -85,12 +85,12 @@ export function transparencyTier(doc) {
   } else if (press !== null && civ !== null && press >= 2 && civ >= 2) {
     tier = "observable"; // free press + civil liberties: the truth gets out
   } else {
-    tier = "mixed"; // in between — often state-opaque while society stays open
+    tier = "mixed"; // in between - often state-opaque while society stays open
   }
 
   // Trend: a non-opaque country whose state-published data is already badly
   // compromised is sliding toward opacity (the state is going dark ahead of
-  // society) — flag it declining. The US is the archetype.
+  // society) - flag it declining. The US is the archetype.
   const trend = tier !== "opaque" && stat !== null && stat <= -4 ? "declining" : "stable";
 
   return { tier, trend, cap: TIER_CAP[tier] };

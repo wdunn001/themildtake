@@ -45,7 +45,7 @@ async function main() {
   try {
     await fs.access(dataDir);
   } catch {
-    console.error(`pack-data: ${dataDir} not found — run sync-data first.`);
+    console.error(`pack-data: ${dataDir} not found - run sync-data first.`);
     process.exit(1);
   }
 

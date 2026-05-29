@@ -23,9 +23,9 @@ import HorizonTrajectory from "./HorizonTrajectory";
 
 // Ordered near -> long: each decision reads its native horizon.
 const HORIZON_ROWS: [DecisionKey, string, string, string][] = [
-  ["currency", "Currency", "~1–3y", "near-term"],
-  ["assets", "Assets", "~3–7y", "interpolated"],
-  ["living", "Living", "~5–10y", "long-term"],
+  ["currency", "Currency", "~1-3y", "near-term"],
+  ["assets", "Assets", "~3-7y", "interpolated"],
+  ["living", "Living", "~5-10y", "long-term"],
 ];
 
 interface Props {
@@ -74,7 +74,7 @@ export default function CountryDetail({ iso3 }: Props) {
         <div class={`cd__tier cd__tier--${transparencySentiment(data.transparency_tier)}`}>
           <span class="cd__tier-badge">
             Transparency: {TRANSPARENCY_LABELS[data.transparency_tier] ?? data.transparency_tier}
-            {data.transparency_trend === "declining" ? " — declining" : ""}
+            {data.transparency_trend === "declining" ? " - declining" : ""}
           </span>
           <span class="cd__tier-note">
             {transparencyNote(data.transparency_tier, data.transparency_trend)}
@@ -126,7 +126,7 @@ export default function CountryDetail({ iso3 }: Props) {
         <section class="cd__traj">
           <h2 class="cd__h">Trajectory over the horizon</h2>
           <p class="cd__hint">
-            The risk read from the near term (currency, 1–3y) to the long term (living, 5–10y).
+            The risk read from the near term (currency, 1-3y) to the long term (living, 5-10y).
             Each point is the decision that natively reads that horizon, so the slope shows where
             the country is headed.
           </p>

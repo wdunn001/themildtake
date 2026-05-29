@@ -26,9 +26,9 @@ Structured, reusable assessment data generated under the [Country Risk Assessmen
 
 Each country is scored for three decisions, which use different category weights and time horizons:
 
-- **living** (5-10y horizon) — weights institutional and political/social factors most heavily.
-- **assets** (3-7y horizon) — weights economic and institutional factors most heavily.
-- **currency** (1-3y horizon) — weights economic factors most heavily; uses near-term scores.
+- **living** (5-10y horizon) - weights institutional and political/social factors most heavily.
+- **assets** (3-7y horizon) - weights economic and institutional factors most heavily.
+- **currency** (1-3y horizon) - weights economic factors most heavily; uses near-term scores.
 
 ## Provenance of these scores
 

@@ -14,7 +14,7 @@ function subFactorScoreText(sf: { score: number | null; score_near?: number | nu
   const parts: string[] = [];
   if (sf.score_near !== null && sf.score_near !== undefined) parts.push(`near ${formatScore(sf.score_near)}`);
   if (sf.score_long !== null && sf.score_long !== undefined) parts.push(`long ${formatScore(sf.score_long)}`);
-  return parts.join(" / ") || "—";
+  return parts.join(" / ") || "-";
 }
 
 export default function CategoryCard({ categoryKey, category }: Props) {

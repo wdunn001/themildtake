@@ -108,7 +108,7 @@ When comparing countries, emit one object per country plus a comparison index th
 }
 ```
 
-Rank by `score` within each decision. Keep the index scores byte-for-byte consistent with the individual country files — a quick cross-check script that compares them is worth running before presenting.
+Rank by `score` within each decision. Keep the index scores byte-for-byte consistent with the individual country files - a quick cross-check script that compares them is worth running before presenting.
 
 ## Self-consistency check before presenting
 

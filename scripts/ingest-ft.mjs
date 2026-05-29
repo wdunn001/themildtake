@@ -2,7 +2,7 @@
 // Reads ../pidscraper/output/ft/*.json (override with FT_OUTPUT_DIR or argv[2]),
 // writes one citation-grade research/ft/<sha1>.md per article (metadata + a capped
 // excerpt + the cache pointer) and updates research/ft/manifest.json. Full article
-// text is NOT copied into the repo (copyright) — only a short excerpt for citation.
+// text is NOT copied into the repo (copyright) - only a short excerpt for citation.
 import { readFileSync, writeFileSync, readdirSync, existsSync, mkdirSync } from "node:fs";
 import { join, resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -59,7 +59,7 @@ _Full text is not stored in-repo (copyright); see the cache pointer above. Cite 
   if (byUrl.has(rec.url)) Object.assign(byUrl.get(rec.url), entry);
   else { manifest.articles.push(entry); byUrl.set(rec.url, entry); }
   ingested++;
-  if (rec.paywalled) console.warn(`[ingest-ft] WARN (looks paywalled — session may have lapsed): ${rec.url}`);
+  if (rec.paywalled) console.warn(`[ingest-ft] WARN (looks paywalled - session may have lapsed): ${rec.url}`);
 }
 
 manifest.articles.sort((a, b) => (a.iso3 || "ZZZ").localeCompare(b.iso3 || "ZZZ"));

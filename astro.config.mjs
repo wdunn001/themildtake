@@ -11,6 +11,11 @@ const site = process.env.PUBLIC_SITE_URL ?? "https://themildtake.example";
 export default defineConfig({
   site,
   integrations: [preact(), mdx(), sitemap()],
+  // Disable SmartyPants so markdown renders literally: no "--"/"---" turning into
+  // en/em dashes and no curly-quote substitution. Em dashes are banned site-wide.
+  markdown: {
+    smartypants: false,
+  },
   build: {
     inlineStylesheets: "auto",
   },

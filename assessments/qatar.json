@@ -16,7 +16,7 @@
     "Generated 2026-05-28 under v2.0: governance/rights/politics rebuilt from independent sources (IMF Art IV 2026, World Bank, Freedom House, RSF, HRW, Amnesty, ITUC, CRS/Atlantic Council); Qatari state/state-aligned media (incl. Al Jazeera on Qatar's own governance) EXCLUDED there, with economic figures admitted only via IMF validation.",
     "Migrant-labor reality: non-citizen workers are ~88-91% of the population under a kafala-legacy system; citizens are a ~10-12% minority. This structurally shapes demographics, cohesion, and rights metrics.",
     "Standout features: immense fiscal strength, stability, safety, and geopolitical centrality, against an absolute-monarchy rights ceiling and a long-term water/heat tail.",
-    "Recalibrated 2026-05-29 for the 2026 Iran war (Operation Epic Fury, US+Israel vs Iran from 28 Feb) and the Strait of Hormuz closure: blockade of ~1/5 of world oil+LNG, attacks/threats on Gulf desalination (water security), and the global energy shock. The two-week 8 Apr ceasefire collapsed by late May — the US renewed strikes on Iran ~25-26 May (Trump convened Camp David) and the war resumed, with Hormuz still blockaded. (Reuters; BBC; NYT; CNN; ISW; Al Jazeera; CSIS; Wikipedia)"
+    "Recalibrated 2026-05-29 for the 2026 Iran war (Operation Epic Fury, US+Israel vs Iran from 28 Feb) and the Strait of Hormuz closure: blockade of ~1/5 of world oil+LNG, attacks/threats on Gulf desalination (water security), and the global energy shock. The two-week 8 Apr ceasefire collapsed by late May - the US renewed strikes on Iran ~25-26 May (Trump convened Camp David) and the war resumed, with Hormuz still blockaded. (Reuters; BBC; NYT; CNN; ISW; Al Jazeera; CSIS; Wikipedia)"
   ],
   "category_weights_by_decision": {
     "living": {
@@ -84,7 +84,7 @@
           "score": null,
           "weight": 0.17,
           "confidence": 0.8,
-          "notes": "Qatari LNG — among the world's largest — ships almost entirely through the Strait of Hormuz with no pipeline bypass; the closure freezes the export economy near-term, recovering on reopening. (Reuters; BBC)",
+          "notes": "Qatari LNG - among the world's largest - ships almost entirely through the Strait of Hormuz with no pipeline bypass; the closure freezes the export economy near-term, recovering on reopening. (Reuters; BBC)",
           "score_near": -4,
           "score_long": 4
         }
@@ -214,7 +214,7 @@
           "score": null,
           "weight": 0.2,
           "confidence": 0.75,
-          "notes": "Top-tier infrastructure whose desalination system is, per analysts, 'huge, expertly engineered, and highly vulnerable' — and almost all drinking water depends on it. (Circle of Blue; CSIS)",
+          "notes": "Top-tier infrastructure whose desalination system is, per analysts, 'huge, expertly engineered, and highly vulnerable' - and almost all drinking water depends on it. (Circle of Blue; CSIS)",
           "score_near": 3,
           "score_long": 7
         },

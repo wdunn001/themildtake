@@ -111,7 +111,7 @@ Confidence on each factor is **not** a free subjective judgment. It is disciplin
 | Source Situation | Confidence |
 |------------------|-----------|
 | Multiple trustworthy-tier sources in agreement | ~80%+ |
-| Independent sources partially conflicting, OR reliance on Mixed-factuality sources | ~60–75% |
+| Independent sources partially conflicting, OR reliance on Mixed-factuality sources | ~60-75% |
 | Reliance only on partially-entangled sources | Capped ~50% |
 | Only untrustworthy-tier sources available | **Flag insufficient-reliable-data; assign no score** |
 
@@ -132,10 +132,10 @@ Two levels feed three decisions.
 
 ### Each Sub-Factor Carries
 
-- A **score** from **−10 to +10**
+- A **score** from **-10 to +10**
 - A **confidence** from **0 to 1**, set by the source-quality rules above
 - A **weight** within its category (weights within a category sum to 1)
-- For time-sensitive sub-factors: **two scores** — a near-term and a long-term value
+- For time-sensitive sub-factors: **two scores** - a near-term and a long-term value
 
 ---
 
@@ -169,7 +169,7 @@ Decision Confidence = Σ (category_weight × category_confidence)
 
 ### Why the Division Matters
 
-The division normalizes the result back onto the −10 to +10 scale, so that low confidence reduces a factor's influence on everything downstream **without** artificially pulling the factor's own score toward zero. **Low confidence means "this counts for less in the aggregate," not "this is neutral."**
+The division normalizes the result back onto the -10 to +10 scale, so that low confidence reduces a factor's influence on everything downstream **without** artificially pulling the factor's own score toward zero. **Low confidence means "this counts for less in the aggregate," not "this is neutral."**
 
 ---
 
@@ -179,17 +179,17 @@ Time-sensitive factors carry separate **near-term** and **long-term** scores. Th
 
 | Decision | Horizon | Score Used |
 |----------|---------|-----------|
-| Currency / short-horizon | ~1–3 years | Near-term |
-| Assets / medium-horizon | ~3–7 years | Interpolated |
-| Living / long-horizon | ~5–10 years | Long-term |
+| Currency / short-horizon | ~1-3 years | Near-term |
+| Assets / medium-horizon | ~3-7 years | Interpolated |
+| Living / long-horizon | ~5-10 years | Long-term |
 
 ### Factors Most Likely to Diverge Between Horizons
 
-- **Reserve-currency / international-monetary position** — typically strongly positive near-term, but can become a negative structural dependency long-term as the privilege erodes and the institutional atrophy it enabled is exposed.
-- **Fiscal sustainability** — usually worsens with horizon.
-- **Demographic trajectory** — compounds with time.
-- **Climate exposure** — worsens with time in vulnerable regions.
-- **Any institutional factor that is currently mid-level but moving** — trajectory matters more than present level.
+- **Reserve-currency / international-monetary position** - typically strongly positive near-term, but can become a negative structural dependency long-term as the privilege erodes and the institutional atrophy it enabled is exposed.
+- **Fiscal sustainability** - usually worsens with horizon.
+- **Demographic trajectory** - compounds with time.
+- **Climate exposure** - worsens with time in vulnerable regions.
+- **Any institutional factor that is currently mid-level but moving** - trajectory matters more than present level.
 
 ---
 
@@ -201,14 +201,14 @@ Because a simple confidence-weighted average implicitly assumes symmetric outcom
 
 Where a factor or whole country has a meaningfully skewed distribution, note whether the skew is:
 
-- **Positive** — e.g. a war that must end and could be followed by rapid recovery and accession to a larger bloc.
-- **Negative** — e.g. a demographic collapse already locked in by cohorts already born, or a privilege whose loss exposes correlated weaknesses simultaneously.
+- **Positive** - e.g. a war that must end and could be followed by rapid recovery and accession to a larger bloc.
+- **Negative** - e.g. a demographic collapse already locked in by cohorts already born, or a privilege whose loss exposes correlated weaknesses simultaneously.
 
 Two countries with similar expected-value scores but opposite skews are **not** equivalent prospects, and the write-up must say so.
 
 ### 2. Loss Asymmetry for the Decision-Maker
 
-For a major life decision, the cost of a catastrophic outcome usually exceeds the foregone benefit of an upside outcome of equal probability. Expected-value scores are the starting point, but the analyst flags any factor where the downside is disproportionately costly to the specific person — such as exit-ban risk, conscription exposure, or detention risk for a foreign national — because those deserve weight beyond their probability-weighted score.
+For a major life decision, the cost of a catastrophic outcome usually exceeds the foregone benefit of an upside outcome of equal probability. Expected-value scores are the starting point, but the analyst flags any factor where the downside is disproportionately costly to the specific person - such as exit-ban risk, conscription exposure, or detention risk for a foreign national - because those deserve weight beyond their probability-weighted score.
 
 ---
 
@@ -227,8 +227,8 @@ A cross-country comparison is only valid if each country was assessed with **com
 | Final Decision Score | Average Confidence | Reading |
 |---------------------|-------------------|---------|
 | Above ~+3 | > 60% | Positive decision supported |
-| Below ~−3 | > 60% | Negative decision supported |
-| Between −3 and +3 | any | Genuinely mixed; personal factors outside the framework should govern |
+| Below ~-3 | > 60% | Negative decision supported |
+| Between -3 and +3 | any | Genuinely mixed; personal factors outside the framework should govern |
 | any | < 40% | Gather better information before deciding |
 
 **Reversibility adjustment:** Less reversible decisions should require a larger absolute score before action, because the cost of being wrong is higher when the decision cannot easily be undone.
@@ -240,7 +240,7 @@ A cross-country comparison is only valid if each country was assessed with **com
 - It does **not** produce a universal or objective country ranking; the weights encode a specific person's values.
 - It does **not** substitute for personal factors, which frequently dominate the country-level picture for any individual.
 - It does **not** claim precision it lacks; where data is poor, it says so rather than inventing a number.
-- It does **not** treat reputational legacy or historical standing as evidence; a country's past role as a default safe choice is not an input — only its current conditions and forward trajectory are.
+- It does **not** treat reputational legacy or historical standing as evidence; a country's past role as a default safe choice is not an input - only its current conditions and forward trajectory are.
 
 ---
 

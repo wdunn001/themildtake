@@ -8,7 +8,7 @@ node_modules/
 # Generated, runtime-fetched data (synced from canonical assessments/ at build)
 public/data/
 
-# FT full-text dumps (copyright) — only metadata + short excerpts are tracked
+# FT full-text dumps (copyright) - only metadata + short excerpts are tracked
 research/ft/_raw/
 
 # Logs

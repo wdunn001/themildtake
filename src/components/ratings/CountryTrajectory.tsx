@@ -15,7 +15,7 @@ interface Props {
 }
 
 /** Article-embeddable: overlays each country's risk read across the three
- *  decision horizons — currency (near) -> assets (mid) -> living (long). */
+ *  decision horizons - currency (near) -> assets (mid) -> living (long). */
 export default function CountryTrajectory({ countries, caption, height = 320 }: Props) {
   const isos = (Array.isArray(countries) ? countries : countries.split(","))
     .map((s) => s.trim().toLowerCase())

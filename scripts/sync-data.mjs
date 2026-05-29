@@ -38,6 +38,10 @@ function asArray(v) {
   return Array.isArray(v) ? v : [v];
 }
 
+// em/en dash + minus sign -> ASCII hyphen, so external feed text obeys the
+// no-fancy-dash rule (built from char codes so this file stays pure ASCII).
+const FANCY_DASH = new RegExp("[" + String.fromCharCode(0x2014, 0x2013, 0x2212) + "]", "g");
+
 // Decode HTML entities left in feed titles. WordPress/Substack feeds often
 // double-encode (the XML carries `&amp;#8217;`), so after XML parsing a literal
 // `&#8217;` / `&#038;` remains; decode numeric refs + the common named ones.
@@ -51,7 +55,8 @@ function decodeEntities(s) {
     .replace(/&nbsp;/g, " ")
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")
-    .replace(/&amp;/g, "&"); // last, so we don't re-introduce entities
+    .replace(/&amp;/g, "&") // last, so we don't re-introduce entities
+    .replace(FANCY_DASH, "-");
 }
 
 function textOf(v) {
@@ -121,7 +126,7 @@ async function snapshotFeeds(outDir) {
     const results = await Promise.all(withFeeds.map((r) => fetchFeed(r).then((res) => [r.id, res])));
     for (const [id, res] of results) sources[id] = res;
     const okCount = Object.values(sources).filter((s) => s.ok).length;
-    console.log(`sync-data: feed snapshot — ${okCount}/${withFeeds.length} sources reachable`);
+    console.log(`sync-data: feed snapshot - ${okCount}/${withFeeds.length} sources reachable`);
   }
   await fs.writeFile(
     path.join(outDir, "feeds.json"),

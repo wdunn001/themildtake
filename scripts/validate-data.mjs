@@ -43,6 +43,10 @@ const REQUIRED_TOP = [
   "summary",
 ];
 
+// Em dash, en dash, and minus sign (built from char codes so this source file
+// itself stays pure ASCII). Any of these in shipped data fails validation.
+const BANNED_DASH = new RegExp("[" + String.fromCharCode(0x2014, 0x2013, 0x2212) + "]");
+
 function numericScores(sf) {
   return ["score", "score_near", "score_long"]
     .map((k) => sf[k])
@@ -66,6 +70,12 @@ function validateOne(file, doc, seenIso3, errors) {
   }
 
   if (!SKEWS.has(doc.skew)) tag(`skew "${doc.skew}" not in {positive, negative, symmetric}`);
+
+  // No fancy dashes anywhere in the file text (em/en/minus signs are an AI tell,
+  // banned project-wide). Use a plain ASCII hyphen "-" instead.
+  if (BANNED_DASH.test(JSON.stringify(doc))) {
+    tag(`contains a banned dash character (em/en U+2014/U+2013 or minus U+2212); use ASCII "-"`);
+  }
 
   // Categories + sub-factors.
   if (doc.categories && typeof doc.categories === "object") {
@@ -151,7 +161,7 @@ async function main() {
     try {
       doc = JSON.parse(await fs.readFile(path.join(dir, file), "utf8"));
     } catch (e) {
-      errors.push(`${file}: invalid JSON — ${e.message}`);
+      errors.push(`${file}: invalid JSON - ${e.message}`);
       continue;
     }
     validateOne(file, doc, seenIso3, errors);
@@ -162,7 +172,7 @@ async function main() {
     for (const e of errors) console.error("  - " + e);
     process.exit(1);
   }
-  console.log(`[validate] OK — ${files.length} assessments, ${seenIso3.size} unique iso3, no drift.`);
+  console.log(`[validate] OK - ${files.length} assessments, ${seenIso3.size} unique iso3, no drift.`);
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {

@@ -3,15 +3,15 @@
 // The worry: "our methodology produces more extreme scores for countries we
 // have more data on." This script measures whether that shows up empirically.
 //
-// For every assessment it derives three data-richness proxies — mean sub-factor
-// confidence, count of distinct cited sources, and total notes length — and
+// For every assessment it derives three data-richness proxies - mean sub-factor
+// confidence, count of distinct cited sources, and total notes length - and
 // correlates each (Pearson) with the ABSOLUTE decision scores |living|,
 // |assets|, |currency|. It also reports the mean |score| of the top vs bottom
 // confidence quartiles.
 //
 // IMPORTANT caveat (printed in the report): the composite is a confidence-
 // weighted AVERAGE, so |composite| can never exceed the largest |sub-score|.
-// The aggregation therefore cannot manufacture extremeness — any correlation
+// The aggregation therefore cannot manufacture extremeness - any correlation
 // lives in the AUTHORED sub-scores, not the formula. And a positive
 // confidence↔|score| correlation is partly expected by design: data-poor states
 // are deliberately hedged toward the center / "insufficient confidence", which
@@ -108,7 +108,7 @@ async function main() {
     ["notes length", "notesLength"],
   ];
 
-  console.log(`\n  Data-extremeness diagnostic — ${rows.length} countries\n`);
+  console.log(`\n  Data-extremeness diagnostic - ${rows.length} countries\n`);
   console.log("  Pearson r( richness proxy , |decision score| )");
   console.log("  " + "-".repeat(58));
   console.log(
@@ -129,7 +129,7 @@ async function main() {
     console.log("  " + label.padEnd(20) + line);
   }
 
-  console.log("\n  Confidence quartiles — mean |score| (bottom 25% vs top 25%)");
+  console.log("\n  Confidence quartiles - mean |score| (bottom 25% vs top 25%)");
   console.log("  " + "-".repeat(58));
   for (const d of DECISIONS) {
     const { bottomMean, topMean, q } = quartileMeans(rows, "meanConfidence", d);
@@ -157,7 +157,7 @@ async function main() {
     "  \"insufficient confidence\", which lowers their |score|. The composite is",
   );
   console.log(
-    "  a weighted AVERAGE, so it can never exceed its sub-factor extremes — any",
+    "  a weighted AVERAGE, so it can never exceed its sub-factor extremes - any",
   );
   console.log(
     "  residual extremeness is in the AUTHORED sub-scores, not the formula.",

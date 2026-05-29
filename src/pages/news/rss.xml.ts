@@ -9,7 +9,7 @@ export async function GET(context: APIContext) {
     .sort((a, b) => b.data.datePublished.localeCompare(a.data.datePublished));
 
   return rss({
-    title: `${SITE_NAME} — Analysis`,
+    title: `${SITE_NAME} - Analysis`,
     description: SITE_DESCRIPTION,
     site: context.site ?? "https://themildtake.example",
     items: entries.map((entry) => ({

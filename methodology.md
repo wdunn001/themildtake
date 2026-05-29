@@ -102,14 +102,14 @@ This axis **does not by itself reduce a source's weight.** Its purpose is to fee
 
 Applied **uniformly across all countries**: any data originating from an entity reporting on itself, where that entity's reporting apparatus is state-controlled or has documented compromised independence, is excluded from scoring. This rule is content-neutral and applies regardless of which country is involved, **including democracies during documented periods of statistical interference.** Consistency is the point; the rule is only defensible if applied to allies and adversaries alike.
 
-The rule extends to **state-funded broadcasters reporting on their own state** — not only adversary state media (Xinhua/CGTN, TASS/RT, IRNA/Press TV) but also Western government-funded outlets (Voice of America, Radio Free Asia) when the subject is the government that funds them. **Ownership tilt** (Gulf-state-owned pan-Arab outlets, oligarch-owned media) is a *slant to flag*, not an automatic exclusion, unless the outlet is captured on the specific subject.
+The rule extends to **state-funded broadcasters reporting on their own state** - not only adversary state media (Xinhua/CGTN, TASS/RT, IRNA/Press TV) but also Western government-funded outlets (Voice of America, Radio Free Asia) when the subject is the government that funds them. **Ownership tilt** (Gulf-state-owned pan-Arab outlets, oligarch-owned media) is a *slant to flag*, not an automatic exclusion, unless the outlet is captured on the specific subject.
 
 ### Source Diversity and the Anglophone Trap
 
 A second, subtler contamination: building a country's picture only from **English-language, North-American** sources (including bias-rating tools like Ground News, which aggregate a mostly-Anglophone outlet set). This silently imports a single linguistic and geographic vantage point and is its own form of slant. To counter it:
 
 - **Anchor each country in the language of the place**, plus a neighbor's or rival's language, plus a language-neutral multilateral index. (Mexico → Mexican independents + IMF/OECD; Ukraine → Ukrainian + Russian-*exile* + European + IMF/UN.)
-- **Beware that "language of the place" sometimes has no free press.** For China there is **no neutral Mandarin-first source**: mainland media is state-controlled, Hong Kong's free press was dismantled after the 2020 National Security Law, and Taiwan — the only Mandarin-first free press — sits under existential threat from Beijing and therefore carries an anti-CCP slant *on China specifically*. So China must be read through diaspora/exile Mandarin (Initium, China Digital Times), Japanese/Korean coverage, **partner-country customs data**, and multilateral indices — never Mandarin media alone. Treat Taiwanese sources on China as a flagged tilt, not a neutral read.
+- **Beware that "language of the place" sometimes has no free press.** For China there is **no neutral Mandarin-first source**: mainland media is state-controlled, Hong Kong's free press was dismantled after the 2020 National Security Law, and Taiwan - the only Mandarin-first free press - sits under existential threat from Beijing and therefore carries an anti-CCP slant *on China specifically*. So China must be read through diaspora/exile Mandarin (Initium, China Digital Times), Japanese/Korean coverage, **partner-country customs data**, and multilateral indices - never Mandarin media alone. Treat Taiwanese sources on China as a flagged tilt, not a neutral read.
 - **Lean on language-neutral multilateral references** that are independent of any single government by construction: IMF (Article IV, COFER), OECD, World Bank, BIS, V-Dem, World Justice Project, Reporters Without Borders, Transparency International, ACLED / Uppsala UCDP, and cross-border investigative networks (OCCRP, ICIJ).
 - Use only **independent** outlets in each language; exclude state-controlled ones uniformly (see above). A curated, regularly-updated list of independent sources by language lives on the project's Resources page.
 
@@ -122,7 +122,7 @@ Confidence on each factor is **not** a free subjective judgment. It is disciplin
 | Source Situation | Confidence |
 |------------------|-----------|
 | Multiple trustworthy-tier sources in agreement | ~80%+ |
-| Independent sources partially conflicting, OR reliance on Mixed-factuality sources | ~60–75% |
+| Independent sources partially conflicting, OR reliance on Mixed-factuality sources | ~60-75% |
 | Reliance only on partially-entangled sources | Capped ~50% |
 | Only untrustworthy-tier sources available | **Flag insufficient-reliable-data; assign no score** |
 
@@ -140,14 +140,14 @@ Two levels feed three decisions.
 4. **Geopolitical State**
 5. **Physical and Practical State**
 
-*(A sixth category, **Personal Fit**, is **deferred from the base**: it is reader-specific — profession, language, credential recognition, immigration pathway, belonging — and belongs in a future per-reader tool that asks those questions and layers the result on top of this general, country-level base. The base assessment is not calibrated to any individual.)*
+*(A sixth category, **Personal Fit**, is **deferred from the base**: it is reader-specific - profession, language, credential recognition, immigration pathway, belonging - and belongs in a future per-reader tool that asks those questions and layers the result on top of this general, country-level base. The base assessment is not calibrated to any individual.)*
 
 ### Each Sub-Factor Carries
 
-- A **score** from **−10 to +10**
+- A **score** from **-10 to +10**
 - A **confidence** from **0 to 1**, set by the source-quality rules above
 - A **weight** within its category (weights within a category sum to 1)
-- For time-sensitive sub-factors: **two scores** — a near-term and a long-term value
+- For time-sensitive sub-factors: **two scores** - a near-term and a long-term value
 
 ---
 
@@ -181,7 +181,7 @@ Decision Confidence = Σ (category_weight × category_confidence)
 
 ### Why the Division Matters
 
-The division normalizes the result back onto the −10 to +10 scale, so that low confidence reduces a factor's influence on everything downstream **without** artificially pulling the factor's own score toward zero. **Low confidence means "this counts for less in the aggregate," not "this is neutral."**
+The division normalizes the result back onto the -10 to +10 scale, so that low confidence reduces a factor's influence on everything downstream **without** artificially pulling the factor's own score toward zero. **Low confidence means "this counts for less in the aggregate," not "this is neutral."**
 
 ---
 
@@ -191,17 +191,17 @@ Time-sensitive factors carry separate **near-term** and **long-term** scores. Th
 
 | Decision | Horizon | Score Used |
 |----------|---------|-----------|
-| Currency / short-horizon | ~1–3 years | Near-term |
-| Assets / medium-horizon | ~3–7 years | Interpolated |
-| Living / long-horizon | ~5–10 years | Long-term |
+| Currency / short-horizon | ~1-3 years | Near-term |
+| Assets / medium-horizon | ~3-7 years | Interpolated |
+| Living / long-horizon | ~5-10 years | Long-term |
 
 ### Factors Most Likely to Diverge Between Horizons
 
-- **Reserve-currency / international-monetary position** — typically strongly positive near-term, but can become a negative structural dependency long-term as the privilege erodes and the institutional atrophy it enabled is exposed.
-- **Fiscal sustainability** — usually worsens with horizon.
-- **Demographic trajectory** — compounds with time.
-- **Climate exposure** — worsens with time in vulnerable regions.
-- **Any institutional factor that is currently mid-level but moving** — trajectory matters more than present level.
+- **Reserve-currency / international-monetary position** - typically strongly positive near-term, but can become a negative structural dependency long-term as the privilege erodes and the institutional atrophy it enabled is exposed.
+- **Fiscal sustainability** - usually worsens with horizon.
+- **Demographic trajectory** - compounds with time.
+- **Climate exposure** - worsens with time in vulnerable regions.
+- **Any institutional factor that is currently mid-level but moving** - trajectory matters more than present level.
 
 ---
 
@@ -213,14 +213,14 @@ Because a simple confidence-weighted average implicitly assumes symmetric outcom
 
 Where a factor or whole country has a meaningfully skewed distribution, note whether the skew is:
 
-- **Positive** — e.g. a war that must end and could be followed by rapid recovery and accession to a larger bloc.
-- **Negative** — e.g. a demographic collapse already locked in by cohorts already born, or a privilege whose loss exposes correlated weaknesses simultaneously.
+- **Positive** - e.g. a war that must end and could be followed by rapid recovery and accession to a larger bloc.
+- **Negative** - e.g. a demographic collapse already locked in by cohorts already born, or a privilege whose loss exposes correlated weaknesses simultaneously.
 
 Two countries with similar expected-value scores but opposite skews are **not** equivalent prospects, and the write-up must say so.
 
 ### 2. Loss Asymmetry for the Decision-Maker
 
-For a major life decision, the cost of a catastrophic outcome usually exceeds the foregone benefit of an upside outcome of equal probability. Expected-value scores are the starting point, but the analyst flags any factor where the downside is disproportionately costly to the specific person — such as exit-ban risk, conscription exposure, or detention risk for a foreign national — because those deserve weight beyond their probability-weighted score.
+For a major life decision, the cost of a catastrophic outcome usually exceeds the foregone benefit of an upside outcome of equal probability. Expected-value scores are the starting point, but the analyst flags any factor where the downside is disproportionately costly to the specific person - such as exit-ban risk, conscription exposure, or detention risk for a foreign national - because those deserve weight beyond their probability-weighted score.
 
 ---
 
@@ -239,8 +239,8 @@ A cross-country comparison is only valid if each country was assessed with **com
 | Final Decision Score | Average Confidence | Reading |
 |---------------------|-------------------|---------|
 | Above ~+3 | > 60% | Positive decision supported |
-| Below ~−3 | > 60% | Negative decision supported |
-| Between −3 and +3 | any | Genuinely mixed; personal factors outside the framework should govern |
+| Below ~-3 | > 60% | Negative decision supported |
+| Between -3 and +3 | any | Genuinely mixed; personal factors outside the framework should govern |
 | any | < 40% | Gather better information before deciding |
 
 **Reversibility adjustment:** Less reversible decisions should require a larger absolute score before action, because the cost of being wrong is higher when the decision cannot easily be undone.
@@ -252,7 +252,7 @@ A cross-country comparison is only valid if each country was assessed with **com
 - It does **not** produce a universal or objective country ranking; the weights encode a specific person's values.
 - It does **not** substitute for personal factors, which frequently dominate the country-level picture for any individual.
 - It does **not** claim precision it lacks; where data is poor, it says so rather than inventing a number.
-- It does **not** treat reputational legacy or historical standing as evidence; a country's past role as a default safe choice is not an input — only its current conditions and forward trajectory are.
+- It does **not** treat reputational legacy or historical standing as evidence; a country's past role as a default safe choice is not an input - only its current conditions and forward trajectory are.
 
 ---
 
@@ -264,10 +264,10 @@ A cross-country comparison is only valid if each country was assessed with **com
 - Completed the full source-discipline re-run across all six countries: applied the hard exclusion rule uniformly (CCP self-reported data excluded and rebuilt from independent proxies; US post-2022 official data discounted as partially-entangled), ran the slant-balance audit, and re-examined Mexico under skew (nearshoring + demographic dividend).
 - Adopted an **actions-and-data-over-stated-values** stance: where leadership is unreliable, stated intentions carry little predictive weight, so scores lean on observable actions and independent data. The optional strict-foundational-weighting (re-weight-by-stated-values) variant is deliberately not used.
 - Added a recompute engine (`scripts/compute-scores.mjs`) so category and decision aggregates are derived mechanically from sub-factors under the formula, and an index builder (`scripts/build-index.mjs`).
-- **Source diversity, operationalized.** Reframed the source discipline away from any single bias tool (Ground News skews English / North-American) toward multilingual triangulation; added the uniform exclusion of state-funded broadcasters on their own state (incl. VOA / Radio Free Asia on the US); and added a curated independent-sources-by-language list, each annotated with its real base/jurisdiction (exile outlets included — e.g. The Moscow Times is Amsterdam-based, Meduza Riga, Initium Singapore). Noted that some places have *no* free local-language press (China: mainland captured, Hong Kong dismantled post-NSL, Taiwan existentially slanted on China).
-- Ran two live-data passes (2026-05-28); the second deliberately re-read each country through **non-Anglophone independent + multilateral** sources. The diverse-source read **largely confirmed** the scores — evidence the framework is robust to dropping the Anglophone lean — with only minor refinements (China trade-as-dependency + structural deflation, Ukraine single-cluster EU accession, a Mexico caveat that the headline homicide drop is partly a disappearances/erasure artifact).
+- **Source diversity, operationalized.** Reframed the source discipline away from any single bias tool (Ground News skews English / North-American) toward multilingual triangulation; added the uniform exclusion of state-funded broadcasters on their own state (incl. VOA / Radio Free Asia on the US); and added a curated independent-sources-by-language list, each annotated with its real base/jurisdiction (exile outlets included - e.g. The Moscow Times is Amsterdam-based, Meduza Riga, Initium Singapore). Noted that some places have *no* free local-language press (China: mainland captured, Hong Kong dismantled post-NSL, Taiwan existentially slanted on China).
+- Ran two live-data passes (2026-05-28); the second deliberately re-read each country through **non-Anglophone independent + multilateral** sources. The diverse-source read **largely confirmed** the scores - evidence the framework is robust to dropping the Anglophone lean - with only minor refinements (China trade-as-dependency + structural deflation, Ukraine single-cluster EU accession, a Mexico caveat that the headline homicide drop is partly a disappearances/erasure artifact).
 - **Generalized the base.** Removed the reader-specific **Personal Fit** category and de-calibrated the subject profile so the base is a general, country-level assessment; the `living` weights were rebalanced across the five remaining categories. Personal fit (profession, language, immigration pathway, belonging) is deferred to a future per-reader tool.
-- **Country files are self-contained.** A single country's `flags`, `summary`, and `notes` describe only that country — no cross-country comparisons or relative rankings. All comparative analysis lives in `_comparison-index.json`. (Referencing another state as a factual *actor* — e.g. US tariff actions affecting Canada — is fine; comparing *standings* is not.)
+- **Country files are self-contained.** A single country's `flags`, `summary`, and `notes` describe only that country - no cross-country comparisons or relative rankings. All comparative analysis lives in `_comparison-index.json`. (Referencing another state as a factual *actor* - e.g. US tariff actions affecting Canada - is fine; comparing *standings* is not.)
 
 ### Version 2
 
@@ -303,7 +303,7 @@ These are the default sub-factors and within-category weights. They are a starti
 | reserve_currency_intl_monetary | 0.16 | International monetary position. Time-split: large near-term positive for reserve issuers, eroding/long-term-negative if privilege is declining. Neutral (0) for non-reserve currencies. |
 | inflation | 0.13 | Direction and management. Deflation can be worse than mild inflation in a debt-heavy economy. |
 | banking_stability | 0.10 | Capitalization, hidden bad debt, regulator quality. |
-| trade_actions_capacity | 0.17 | Trade scored on four things: (1) trade-policy **actions and volatility** — rapid, unpredictable shifts manufacture hostile foreign-trade relationships, a near-term negative beyond tariff levels; (2) **trajectory over time** — export/import growth and the diversity of goods and partners; (3) **industrial / manufacturing capacity** for manufacturing powers, scored from partner-observable data (customs, port/freight, foreign supply chains) so it survives the source-exclusion rule; (4) **resource-curse / paradox-of-plenty** — penalize resource-dependent economies where extraction crowds out institutions, but NOT resource-rich economies with strong institutions. Raised from the v2.0 default of 0.05 because trade actions move fast and matter for every country, not only manufacturing superpowers; the other economic weights were rebalanced to keep the sum at 1.0. |
+| trade_actions_capacity | 0.17 | Trade scored on four things: (1) trade-policy **actions and volatility** - rapid, unpredictable shifts manufacture hostile foreign-trade relationships, a near-term negative beyond tariff levels; (2) **trajectory over time** - export/import growth and the diversity of goods and partners; (3) **industrial / manufacturing capacity** for manufacturing powers, scored from partner-observable data (customs, port/freight, foreign supply chains) so it survives the source-exclusion rule; (4) **resource-curse / paradox-of-plenty** - penalize resource-dependent economies where extraction crowds out institutions, but NOT resource-rich economies with strong institutions. Raised from the v2.0 default of 0.05 because trade actions move fast and matter for every country, not only manufacturing superpowers; the other economic weights were rebalanced to keep the sum at 1.0. |
 
 ### Institutional State
 | Sub-factor | Default weight | Notes |
@@ -339,12 +339,12 @@ These are the default sub-factors and within-category weights. They are a starti
 | disaster_insurance | 0.15 | Natural-disaster exposure and insurance-market function. |
 
 ### Personal Fit (deferred to a future per-reader tool)
-Reader-specific fit — credential recognition, job-market depth for a specialty, language, visa/immigration pathway, salary, belonging — is **not part of the base**. It cannot be scored once for everyone, so it is deferred to a future tool that asks the reader for profession, language, and similar facts and layers a personal-fit adjustment on top of this general base. The base files carry no `personal_fit` category.
+Reader-specific fit - credential recognition, job-market depth for a specialty, language, visa/immigration pathway, salary, belonging - is **not part of the base**. It cannot be scored once for everyone, so it is deferred to a future tool that asks the reader for profession, language, and similar facts and layers a personal-fit adjustment on top of this general base. The base files carry no `personal_fit` category.
 
 ### Default category weights per decision
 Each row sums to 1.0 across the five base categories (no personal_fit). These are sensible defaults that weight institutions and political/social heavily for living; a future per-reader tool may re-weight them.
 
-| Category | living (5–10y) | assets (3–7y) | currency (1–3y) |
+| Category | living (5-10y) | assets (3-7y) | currency (1-3y) |
 |---|---|---|---|
 | economic | 0.15 | 0.40 | 0.60 |
 | institutional | 0.35 | 0.25 | 0.20 |

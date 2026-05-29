@@ -4,13 +4,13 @@
 // Wikipedia, Britannica) as of late May 2026:
 //   - 28 Feb 2026: US + Israel launched an air war on Iran ("Operation Epic
 //     Fury"); Iran blockaded the Strait of Hormuz (~1/5 of world oil + LNG) and
-//     seized foreign tankers — the "Tanker War of 2026". The strait is still
+//     seized foreign tankers - the "Tanker War of 2026". The strait is still
 //     largely shut under a fragile, repeatedly-violated 8 Apr conditional
 //     ceasefire; peace talks ongoing.
 //   - Multinational: Iran struck UAE, Kuwait, Bahrain, Saudi Arabia; Gulf states
 //     mobilised / edged toward co-belligerency (Saudi opened King Fahd Air Base).
 //   - Water war: desalination plants were attacked in Iran and Bahrain, and Iran
-//     threatened the wider Gulf's water facilities — an existential risk for GCC
+//     threatened the wider Gulf's water facilities - an existential risk for GCC
 //     states that draw most drinking water from desalination.
 //   - Global energy-supply shock; oil importers hit hard (China especially);
 //     documented US munitions/interceptor-stockpile strain.
@@ -28,7 +28,7 @@ const repoRoot = path.resolve(here, "..");
 const dir = path.join(repoRoot, "assessments");
 
 const FLAG =
-  "Recalibrated 2026-05-29 for the 2026 Iran war (Operation Epic Fury, US+Israel vs Iran from 28 Feb) and the Strait of Hormuz closure: blockade of ~1/5 of world oil+LNG, attacks/threats on Gulf desalination (water security), and the global energy shock. The two-week 8 Apr ceasefire collapsed by late May — the US renewed strikes on Iran ~25-26 May (Trump convened Camp David) and the war resumed, with Hormuz still blockaded. (Reuters; BBC; NYT; CNN; ISW; Al Jazeera; CSIS; Wikipedia)";
+  "Recalibrated 2026-05-29 for the 2026 Iran war (Operation Epic Fury, US+Israel vs Iran from 28 Feb) and the Strait of Hormuz closure: blockade of ~1/5 of world oil+LNG, attacks/threats on Gulf desalination (water security), and the global energy shock. The two-week 8 Apr ceasefire collapsed by late May - the US renewed strikes on Iran ~25-26 May (Trump convened Camp David) and the war resumed, with Hormuz still blockaded. (Reuters; BBC; NYT; CNN; ISW; Al Jazeera; CSIS; Wikipedia)";
 
 // Per-country edits. Keys are "category.sub_factor". A score that is an array is
 // a [near, long] split; a bare number is a single horizon. `skew` is optional.
@@ -55,7 +55,7 @@ const DATA = {
       },
       "geopolitical.sanctions_capital_controls": {
         s: -9,
-        n: "Comprehensive sanctions plus a US naval blockade; Iran itself closed the Strait of Hormuz and seized foreign-flagged tankers — maximal external and self-imposed trade strangulation. (Al Jazeera; Reuters)",
+        n: "Comprehensive sanctions plus a US naval blockade; Iran itself closed the Strait of Hormuz and seized foreign-flagged tankers - maximal external and self-imposed trade strangulation. (Al Jazeera; Reuters)",
       },
       "economic.trade_actions_capacity": {
         s: [-8, -6],
@@ -75,7 +75,7 @@ const DATA = {
       },
       "economic.trade_actions_capacity": {
         s: [-8, -5],
-        n: "Basra oil exports — the fiscal lifeline — run through the blockaded Strait of Hormuz; near-total near-term disruption, recovering only if the strait reopens. (Reuters; BBC)",
+        n: "Basra oil exports - the fiscal lifeline - run through the blockaded Strait of Hormuz; near-total near-term disruption, recovering only if the strait reopens. (Reuters; BBC)",
       },
       "economic.fiscal_state": {
         s: [-8, -6],
@@ -99,7 +99,7 @@ const DATA = {
       },
       "physical_practical.infrastructure": {
         s: [1, 4],
-        n: "World-class build-out, but desalination supplies most drinking water and Iran has both threatened Gulf water plants and hit them before (Houthis, 2022) — an acute near-term water-security vulnerability. (CSIS; Atlantic Council)",
+        n: "World-class build-out, but desalination supplies most drinking water and Iran has both threatened Gulf water plants and hit them before (Houthis, 2022) - an acute near-term water-security vulnerability. (CSIS; Atlantic Council)",
       },
     },
   },
@@ -132,7 +132,7 @@ const DATA = {
       },
       "economic.trade_actions_capacity": {
         s: [-4, 4],
-        n: "Qatari LNG — among the world's largest — ships almost entirely through the Strait of Hormuz with no pipeline bypass; the closure freezes the export economy near-term, recovering on reopening. (Reuters; BBC)",
+        n: "Qatari LNG - among the world's largest - ships almost entirely through the Strait of Hormuz with no pipeline bypass; the closure freezes the export economy near-term, recovering on reopening. (Reuters; BBC)",
       },
       "economic.fiscal_state": {
         s: [1, 6],
@@ -140,7 +140,7 @@ const DATA = {
       },
       "physical_practical.infrastructure": {
         s: [3, 7],
-        n: "Top-tier infrastructure whose desalination system is, per analysts, 'huge, expertly engineered, and highly vulnerable' — and almost all drinking water depends on it. (Circle of Blue; CSIS)",
+        n: "Top-tier infrastructure whose desalination system is, per analysts, 'huge, expertly engineered, and highly vulnerable' - and almost all drinking water depends on it. (Circle of Blue; CSIS)",
       },
     },
   },
@@ -153,7 +153,7 @@ const DATA = {
       },
       "economic.trade_actions_capacity": {
         s: [-8, -4],
-        n: "Almost all oil exports route through the blockaded Strait of Hormuz with no bypass — a near-total export-revenue stop. (Reuters; BBC)",
+        n: "Almost all oil exports route through the blockaded Strait of Hormuz with no bypass - a near-total export-revenue stop. (Reuters; BBC)",
       },
       "economic.fiscal_state": {
         s: [-3, 3],
@@ -177,7 +177,7 @@ const DATA = {
       },
       "physical_practical.infrastructure": {
         s: [1, 5],
-        n: "A desalination plant on this water-scarce island was actually struck during the war — a direct hit to the drinking-water lifeline, not just a threat. (NYT; Guardian)",
+        n: "A desalination plant on this water-scarce island was actually struck during the war - a direct hit to the drinking-water lifeline, not just a threat. (NYT; Guardian)",
       },
     },
   },
@@ -214,7 +214,7 @@ const DATA = {
     f: {
       "economic.inflation": {
         s: [-6, -4],
-        n: "Imported energy-price shock from the Hormuz closure — China is the largest buyer of Gulf and Iranian crude through the strait — feeds input-cost inflation and a growth drag. (Reuters; BBC)",
+        n: "Imported energy-price shock from the Hormuz closure - China is the largest buyer of Gulf and Iranian crude through the strait - feeds input-cost inflation and a growth drag. (Reuters; BBC)",
       },
       "economic.trade_actions_capacity": {
         s: [2, 1],
@@ -246,7 +246,7 @@ const DATA = {
       },
     },
   },
-  // Reviewed regional spillover — note updates, scores already at/near floor or
+  // Reviewed regional spillover - note updates, scores already at/near floor or
   // net-ambiguous, plus the audit flag.
   "lebanon.json": {
     f: {

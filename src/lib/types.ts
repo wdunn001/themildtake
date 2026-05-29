@@ -4,7 +4,7 @@
 
 export type Skew = "positive" | "negative" | "symmetric" | "unknown";
 
-/** Observability tier — how much the truth about a country can be seen. */
+/** Observability tier - how much the truth about a country can be seen. */
 export type TransparencyTier = "observable" | "mixed" | "opaque" | "unknown";
 export type TransparencyTrend = "declining" | "stable";
 

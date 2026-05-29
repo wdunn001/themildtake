@@ -65,10 +65,10 @@ async function main() {
     decisions,
     headline_findings: [
       "The top of the board is small, stable, and institutionally deep: Norway, Switzerland, and Luxembourg lead living, with Switzerland and Singapore topping the money decisions. They win by having no weak category rather than one standout.",
-      "The floor is conflict and state collapse — Sudan, Haiti, North Korea, Yemen, Myanmar — where the read is unanimous across all three decisions.",
+      "The floor is conflict and state collapse - Sudan, Haiti, North Korea, Yemen, Myanmar - where the read is unanimous across all three decisions.",
       "The marquee outlier is the United States at living #173: a wealthy democracy in the bottom decile, driven by institutional drift (statistical-agency capture, court defiance, alliance decay) scored on observable actions rather than reputation. On the economic-heavy assets and currency decisions it now scores BELOW China.",
       "The 2026 Iran war and the Strait of Hormuz closure recalibrated the Middle East: the Gulf petrostates drop on the near-term currency and mid-horizon assets decisions (oil/LNG export blockade, regional strikes, attacks and threats on desalination), while the longer-horizon living read moves less.",
-      "Skew is decision-relevant: a positive-skew recovery cluster (Ukraine, Argentina, Syria) leans up on resolution and reform — Ukraine's war-forged, world-leading drone/EW defense industry is now an emerging export strength — while the negative-skew majors (US, China, Russia) lean down on institutional drift and structural tails.",
+      "Skew is decision-relevant: a positive-skew recovery cluster (Ukraine, Argentina, Syria) leans up on resolution and reform - Ukraine's war-forged, world-leading drone/EW defense industry is now an emerging export strength - while the negative-skew majors (US, China, Russia) lean down on institutional drift and structural tails.",
     ],
     outstanding_work: [
       "Track the 2026 Iran war / Strait of Hormuz status (ceasefire durability, strait reopening) and re-score the Gulf exporters + energy importers as the shock resolves or escalates.",

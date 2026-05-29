@@ -16,7 +16,7 @@
     "Generated 2026-05-28 under v2.0: governance/rights/politics rebuilt from independent sources (IMF Art IV, World Bank, V-Dem, RSF, Freedom House, HRW, Amnesty, TI) + non-Bahraini press; Bahraini state media EXCLUDED there, with economic figures admitted only via IMF validation.",
     "A Sunni monarchy ruling a Shia-majority population (the 2011 uprising was crushed with Gulf help); the dinar is hard-pegged to the USD. Migrant workers are roughly half the population under kafala-legacy controls.",
     "Standout drags: the weakest fiscal position in the Gulf, mass post-2011 political imprisonment, and a sectarian fat-tail; offsets are a strong finance sector, the US 5th-Fleet alliance, and low crime.",
-    "Recalibrated 2026-05-29 for the 2026 Iran war (Operation Epic Fury, US+Israel vs Iran from 28 Feb) and the Strait of Hormuz closure: blockade of ~1/5 of world oil+LNG, attacks/threats on Gulf desalination (water security), and the global energy shock. The two-week 8 Apr ceasefire collapsed by late May — the US renewed strikes on Iran ~25-26 May (Trump convened Camp David) and the war resumed, with Hormuz still blockaded. (Reuters; BBC; NYT; CNN; ISW; Al Jazeera; CSIS; Wikipedia)"
+    "Recalibrated 2026-05-29 for the 2026 Iran war (Operation Epic Fury, US+Israel vs Iran from 28 Feb) and the Strait of Hormuz closure: blockade of ~1/5 of world oil+LNG, attacks/threats on Gulf desalination (water security), and the global energy shock. The two-week 8 Apr ceasefire collapsed by late May - the US renewed strikes on Iran ~25-26 May (Trump convened Camp David) and the war resumed, with Hormuz still blockaded. (Reuters; BBC; NYT; CNN; ISW; Al Jazeera; CSIS; Wikipedia)"
   ],
   "category_weights_by_decision": {
     "living": {
@@ -212,7 +212,7 @@
           "score": null,
           "weight": 0.2,
           "confidence": 0.75,
-          "notes": "A desalination plant on this water-scarce island was actually struck during the war — a direct hit to the drinking-water lifeline, not just a threat. (NYT; Guardian)",
+          "notes": "A desalination plant on this water-scarce island was actually struck during the war - a direct hit to the drinking-water lifeline, not just a threat. (NYT; Guardian)",
           "score_near": 1,
           "score_long": 5
         },

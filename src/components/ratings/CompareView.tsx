@@ -197,7 +197,7 @@ export default function CompareView() {
           {crossTier && (
             <p class="cmp__tierwarn">
               <strong>Cross-tier comparison.</strong> {list.map((a) => `${a.country}: ${a.transparency_tier}`).join(" · ")}.
-              Opaque-state scores rest on external proxies and carry capped confidence — they may be
+              Opaque-state scores rest on external proxies and carry capped confidence - they may be
               flattered next to a transparent country's confidently-documented ones.
             </p>
           )}
