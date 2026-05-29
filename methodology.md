@@ -338,8 +338,8 @@ These are the default sub-factors and within-category weights. They are a starti
 | crime_safety | 0.15 | Violent and property crime relative to peers. |
 | disaster_insurance | 0.15 | Natural-disaster exposure and insurance-market function. |
 
-### Personal Fit (deferred to a future per-reader tool)
-Reader-specific fit - credential recognition, job-market depth for a specialty, language, visa/immigration pathway, salary, belonging - is **not part of the base**. It cannot be scored once for everyone, so it is deferred to a future tool that asks the reader for profession, language, and similar facts and layers a personal-fit adjustment on top of this general base. The base files carry no `personal_fit` category.
+### Personal Fit (the per-reader layer, now live at /relocate/)
+Reader-specific fit - credential recognition, job-market depth for a specialty, language, visa/immigration pathway, cost of entry, belonging - is **not part of the base**. It cannot be scored once for everyone, so it lives in a separate, **client-side** tool ([/relocate/](/relocate/)) that asks the reader for origin, languages, profession, capital, and goal, builds a `personal_fit` category in the browser, and folds it into the living/assets/currency decisions using the exact same scoring engine as the base (so the numbers stay comparable). The reader can toggle between the untouched base and the personalized re-ranking. The base files themselves still carry no `personal_fit` category, and the profile never leaves the device. This tool is general information, not legal, financial, immigration, or tax advice.
 
 ### Default category weights per decision
 Each row sums to 1.0 across the five base categories (no personal_fit). These are sensible defaults that weight institutions and political/social heavily for living; a future per-reader tool may re-weight them.
