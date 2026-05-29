@@ -5,18 +5,22 @@
   "type": "module",
   "scripts": {
     "sync-data": "node scripts/sync-data.mjs",
-    "dev": "npm run sync-data && astro dev",
+    "pack-data": "node scripts/pack-data.mjs",
+    "data": "npm run sync-data && npm run pack-data",
+    "dev": "npm run data && astro dev",
     "start": "npm run dev",
-    "prebuild": "npm run sync-data",
+    "prebuild": "npm run data",
     "build": "astro build",
     "preview": "astro preview",
-    "check": "astro check"
+    "check": "astro check",
+    "test": "node --test"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.0.0",
     "@astrojs/preact": "^4.0.0",
     "@astrojs/rss": "^4.0.0",
     "@astrojs/sitemap": "^3.2.0",
+    "@msgpack/msgpack": "^3.1.3",
     "astro": "^5.0.0",
     "echarts": "^5.5.0",
     "fast-xml-parser": "^5.8.0",
