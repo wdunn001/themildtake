@@ -1,0 +1,246 @@
+{
+  "country": "Afghanistan",
+  "iso3": "AFG",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: governance/rights rebuilt from independent sources (World Bank/UN estimates, V-Dem, RSF, Freedom House, HRW, Amnesty, OHCHR/UNAMA, ACLED) + exile press; Taliban regime claims EXCLUDED on governance/rights/statistics.",
+    "Data limitation: official statistics collapsed after 2021, so economic figures are external estimates and confidence is reduced.",
+    "Standout drags: a Taliban theocracy with gender apartheid, a collapsed aid-dependent economy, a frozen-reserves/sanctions isolation, and a severe climate/health catastrophe. Overall: clearly negative."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -5,
+      "confidence": 0.71,
+      "skew": "negative",
+      "notes": "A collapsed, aid-dependent, sanctioned economy with frozen reserves.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -7,
+          "weight": 0.22,
+          "confidence": 0.7,
+          "notes": "A post-2021 collapse, aid- and UN-cash-dependent, with ~$9bn reserves frozen abroad and sanctioned. (World Bank estimates)"
+        },
+        "monetary_independence": {
+          "score": -7,
+          "weight": 0.22,
+          "confidence": 0.65,
+          "notes": "The central bank is cut off from the global system with reserves frozen - isolated and constrained. (World Bank)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "Not held externally. (definitional)"
+        },
+        "inflation": {
+          "score": -3,
+          "weight": 0.13,
+          "confidence": 0.6,
+          "notes": "The afghani is oddly stable but volatile, with deflation giving way to mild inflation. (World Bank)"
+        },
+        "banking_stability": {
+          "score": -8,
+          "weight": 0.1,
+          "confidence": 0.75,
+          "notes": "Broken and SWIFT-cut, with the formal sector barely functioning. (World Bank/UN)"
+        },
+        "trade_actions_capacity": {
+          "score": -6,
+          "weight": 0.17,
+          "confidence": 0.65,
+          "notes": "Subsistence agriculture and unexploited mining, with the opium ban shifting to meth - isolated and aid-dependent. (World Bank/UNODC)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -8.5,
+      "confidence": 0.75,
+      "skew": "negative",
+      "notes": "A Taliban theocracy with no recognized rule of law, collapsed data, and among the worst press repression.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -10,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "A Taliban theocracy ruling by Sharia edict, with no recognized rule of law. (V-Dem/Freedom House bottom; UNAMA)"
+        },
+        "statistical_integrity": {
+          "score": -7,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "Official data collapsed and unusable; estimates come from external bodies. (World Bank)"
+        },
+        "civil_service_capacity": {
+          "score": -7,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "Collapsed and gender-purged, with capacity gutted. (UNDP/World Bank)"
+        },
+        "press_freedom": {
+          "score": -9,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "Near the RSF bottom, with live political broadcasts banned and journalists detained. (RSF/CPJ; HRW 2026)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -6.5,
+      "confidence": 0.73,
+      "skew": "negative",
+      "notes": "Consolidated but unrecognized Taliban control, gender apartheid, and a refugee-producing humanitarian catastrophe.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -3,
+          "score_long": -6,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.65,
+          "notes": "Consolidated Taliban control with no organized challenger - suppressed stability - but internationally unrecognized, with ISKP attacks and succession risk. (ICG)"
+        },
+        "civil_liberties": {
+          "score": -10,
+          "weight": 0.2,
+          "confidence": 0.9,
+          "notes": "Gender apartheid - women banned from education beyond grade six, work, and public life - among the world's worst. (HRW; Amnesty; OHCHR; UN Women)"
+        },
+        "treatment_non_citizens": {
+          "score": -7,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Refugee-producing, with millions of forced returns absorbed amid crisis. (UNHCR/IOM)"
+        },
+        "social_cohesion": {
+          "score": -7,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Repressed, with Pashtun-dominated tensions and a humanitarian catastrophe. (OCHA; HRW)"
+        },
+        "demographics": {
+          "score": -5,
+          "weight": 0.1,
+          "confidence": 0.7,
+          "notes": "Very young and high-fertility, but a human-capital catastrophe from the female-education ban. (UN; HRW)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -6.9,
+      "confidence": 0.78,
+      "skew": "negative",
+      "notes": "Isolated and largely unrecognized, with active border conflicts and frozen reserves.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": -6,
+          "weight": 0.4,
+          "confidence": 0.75,
+          "notes": "Largely unrecognized, with pragmatic China/Russia/Gulf engagement - isolated. (ICG)"
+        },
+        "conflict_involvement": {
+          "score": -7,
+          "weight": 0.35,
+          "confidence": 0.8,
+          "notes": "An ISKP insurgency plus 2025-26 Pakistan/TTP border clashes and an Iran water dispute. (HSToday; Lowy)"
+        },
+        "sanctions_capital_controls": {
+          "score": -8,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "Heavily sanctioned, with reserves frozen and capital isolated. (US Treasury; World Bank)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -7.6,
+      "confidence": 0.74,
+      "skew": "negative",
+      "notes": "A severe climate and health catastrophe atop poor war-damaged infrastructure.",
+      "sub_factors": {
+        "climate": {
+          "score": -8,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Extreme drought, deadly 2025 earthquakes, and among the most climate-vulnerable-yet-least-prepared. (OCHA/FAO)"
+        },
+        "healthcare": {
+          "score": -9,
+          "weight": 0.3,
+          "confidence": 0.8,
+          "notes": "Collapsed and aid-dependent, with among the world's worst maternal/child outcomes. (CARE/UNICEF/WHO)"
+        },
+        "infrastructure": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Poor, war-damaged, and aid-dependent. (World Bank/OCHA)"
+        },
+        "crime_safety": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Taliban-imposed order cut some crime, but terrorism and instability persist. (HRW; HSToday)"
+        },
+        "disaster_insurance": {
+          "score": -8,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "A negligible market. (general)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -7.42,
+      "confidence": 0.74,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -6.65,
+      "confidence": 0.74,
+      "horizon": "3-7y",
+      "reading": "clear negative"
+    },
+    "currency": {
+      "score": -6.11,
+      "confidence": 0.73,
+      "horizon": "1-3y",
+      "reading": "clear negative"
+    }
+  },
+  "summary": "A Taliban theocracy ruling by Sharia edict with gender apartheid - women barred from education beyond grade six, from work, and from public life - among the world's worst rights environments. The economy collapsed after 2021: aid- and UN-cash-dependent, with central-bank reserves frozen abroad, a SWIFT-cut banking system, and heavy sanctions. Internationally unrecognized and isolated, with an ISKP insurgency and border clashes, atop extreme drought, deadly earthquakes, and a collapsed health system. Official data is gone, so figures are external estimates; the picture is clearly negative."
+}

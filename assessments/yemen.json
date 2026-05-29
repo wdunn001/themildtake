@@ -1,0 +1,252 @@
+{
+  "country": "Yemen",
+  "iso3": "YEM",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: rebuilt from independent sources (UN/World Bank estimates, V-Dem, RSF, Freedom House, HRW, Amnesty, ACLED, UN OCHA/IPC, IOM, OFAC); neither the Houthi nor the recognized-government output used on governance/rights/economics.",
+    "De-facto partitioned (a Houthi-controlled north vs the internationally-recognized government/PLC south) with a collapsed, split currency and no unified central bank. Data is fragmentary; confidence is low and figures are external proxies.",
+    "Standout drags: an active/frozen civil war, one of the world's worst humanitarian crises, a collapsed split economy, and Houthi Red Sea/Israel attacks drawing strikes. Overall: clearly negative."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -6.3,
+      "confidence": 0.6,
+      "skew": "negative",
+      "notes": "A collapsed, split, aid-dependent economy with a fractured currency.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -8,
+          "weight": 0.22,
+          "confidence": 0.5,
+          "notes": "Collapsed and split between two rival fiscal authorities, ~80% aid-dependent, the world's largest humanitarian appeal. (World Bank; UN OCHA)"
+        },
+        "monetary_independence": {
+          "score": -9,
+          "weight": 0.22,
+          "confidence": 0.6,
+          "notes": "No unified central bank; the rial collapsed and split into divergent zone exchange rates. (World Bank; ACAPS)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "Not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": -8,
+          "weight": 0.13,
+          "confidence": 0.5,
+          "notes": "Very high, severe in the government-held south where the rial collapsed. (World Bank; ACAPS)"
+        },
+        "banking_stability": {
+          "score": -9,
+          "weight": 0.1,
+          "confidence": 0.55,
+          "notes": "Broken and split, with Houthi-area banks sanctioned and SWIFT-cut. (IMF; OFAC)"
+        },
+        "trade_actions_capacity": {
+          "score_near": -8,
+          "score_long": -6,
+          "score": null,
+          "weight": 0.17,
+          "confidence": 0.5,
+          "notes": "Oil exports halted since 2022 by drone threats, Red-Sea-blockade dynamics, and import dependence. (World Bank; ACLED)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -8.6,
+      "confidence": 0.56,
+      "skew": "negative",
+      "notes": "No functional unified state, collapsed data, and among the worst press repression.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -9,
+          "weight": 0.35,
+          "confidence": 0.6,
+          "notes": "No functional unified state - a theocratic-authoritarian north versus a fractured southern coalition. (V-Dem; Freedom House)"
+        },
+        "statistical_integrity": {
+          "score": -8,
+          "weight": 0.25,
+          "confidence": 0.5,
+          "notes": "Collapsed and largely absent - external proxies only. (World Bank caveats)"
+        },
+        "civil_service_capacity": {
+          "score": -8,
+          "weight": 0.25,
+          "confidence": 0.5,
+          "notes": "Collapsed and split, with salaries unpaid for years. (UN OCHA; World Bank)"
+        },
+        "press_freedom": {
+          "score": -9,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Near the RSF bottom, with journalists detained or disappeared by all sides. (RSF; CPJ)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -7.6,
+      "confidence": 0.53,
+      "skew": "negative",
+      "notes": "A fragmented civil war and a famine-adjacent humanitarian catastrophe.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -9,
+          "score_long": -6,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.45,
+          "notes": "A fragmented, frozen civil war under a fragile UN truce, with de-facto partition and no settlement. (UN; ICG)"
+        },
+        "civil_liberties": {
+          "score": -8,
+          "weight": 0.2,
+          "confidence": 0.6,
+          "notes": "Severe Houthi repression and escalating gender restrictions, catastrophic in conflict zones. (HRW; Amnesty)"
+        },
+        "treatment_non_citizens": {
+          "score": -6,
+          "weight": 0.25,
+          "confidence": 0.5,
+          "notes": "A war state that nonetheless hosts and transits African migrants facing abuse. (IOM; HRW)"
+        },
+        "social_cohesion": {
+          "score": -8,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Shattered along north-south, sectarian (Zaydi/Sunni), and tribal lines. (ICG; ACLED)"
+        },
+        "demographics": {
+          "score": -6,
+          "weight": 0.1,
+          "confidence": 0.55,
+          "notes": "Very young and high-fertility, but with a famine/malnutrition catastrophe. (UN; IPC)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -8.4,
+      "confidence": 0.57,
+      "skew": "negative",
+      "notes": "A regional-proxy battleground, with Houthi Red Sea/Israel attacks drawing strikes.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score_near": -7,
+          "score_long": -5,
+          "score": null,
+          "weight": 0.4,
+          "confidence": 0.5,
+          "notes": "A proxy battleground - the Houthis Iran-aligned, the government Saudi/UAE-backed. (CFR; ICG)"
+        },
+        "conflict_involvement": {
+          "score_near": -10,
+          "score_long": -7,
+          "score": null,
+          "weight": 0.35,
+          "confidence": 0.6,
+          "notes": "An active/frozen war plus Houthi Red Sea/Israel attacks drawing US/UK/Israeli strikes - among the world's worst. (ACLED; UN)"
+        },
+        "sanctions_capital_controls": {
+          "score": -8,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "The Houthis US-designated and sanctioned - isolated with capital controls. (OFAC)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -9,
+      "confidence": 0.6,
+      "skew": "negative",
+      "notes": "A collapsed health system amid famine, war-destroyed infrastructure, and extreme water scarcity.",
+      "sub_factors": {
+        "climate": {
+          "score": -8,
+          "weight": 0.2,
+          "confidence": 0.6,
+          "notes": "Among the world's most water-stressed, with drought, flood, and extreme heat. (World Bank; UN)"
+        },
+        "healthcare": {
+          "score": -10,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "Collapsed, with recurrent cholera and famine-adjacent malnutrition - among the world's worst. (WHO; UN OCHA; IPC)"
+        },
+        "infrastructure": {
+          "score": -9,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "A war-destroyed grid, water, and ports. (World Bank; UN)"
+        },
+        "crime_safety": {
+          "score": -9,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "War zones, landmines, lawlessness, and kidnapping. (ACLED; UN)"
+        },
+        "disaster_insurance": {
+          "score": -8,
+          "weight": 0.15,
+          "confidence": 0.4,
+          "notes": "Negligible penetration. (hazard context)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -7.64,
+      "confidence": 0.56,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -7.33,
+      "confidence": 0.58,
+      "horizon": "3-7y",
+      "reading": "clear negative"
+    },
+    "currency": {
+      "score": -7.09,
+      "confidence": 0.58,
+      "horizon": "1-3y",
+      "reading": "clear negative"
+    }
+  },
+  "summary": "A de-facto partitioned war state - a Houthi-controlled north versus an internationally-recognized but fractured southern coalition - locked in one of the world's worst humanitarian crises. The economy is collapsed and split with no unified central bank and a fractured currency, the health system has collapsed amid recurrent cholera and famine-adjacent malnutrition, and infrastructure is war-destroyed. Houthi Red Sea and Israel attacks have drawn US, UK, and Israeli strikes. Data is fragmentary and figures are external proxies; the picture is clearly negative."
+}

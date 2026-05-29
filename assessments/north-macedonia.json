@@ -1,0 +1,246 @@
+{
+  "country": "North Macedonia",
+  "iso3": "MKD",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "symmetric",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF Art IV 2026, EC, TI, RSF, V-Dem, BTI, WHO, NATO) + regional independent press (Balkan Insight, OSW, bne IntelliNews).",
+    "A NATO member whose EU accession has been stalled for years by a neighbour's identity/constitution veto, fuelling deep disillusion; the denar runs a de-facto euro peg.",
+    "Standout features: a NATO/EU-candidate anchor, sound banks, and an EU-integrated export base, against EU-accession frustration, corruption, severe air pollution, and depopulation. Source-lean: MODERATE Anglophone."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 2,
+      "confidence": 0.84,
+      "skew": "symmetric",
+      "notes": "Sound banks and a de-facto euro peg on a small, EU-dependent export base.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 2,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Debt including guarantees ~60% GDP, with the deficit consolidating slowly. (IMF 2026 Art IV)"
+        },
+        "monetary_independence": {
+          "score": 2,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "A de-facto euro peg - the central bank imports the ECB stance, a stability-for-autonomy trade-off. (IMF; NBRM)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The denar is not a reserve currency. (definitional)"
+        },
+        "inflation": {
+          "score": 2,
+          "weight": 0.13,
+          "confidence": 0.8,
+          "notes": "Eased to ~3%, with sticky core/wage pressure. (IMF)"
+        },
+        "banking_stability": {
+          "score": 4,
+          "weight": 0.1,
+          "confidence": 0.85,
+          "notes": "Well-capitalised and profitable, with record-low NPLs, largely foreign-owned. (IMF; NBRM)"
+        },
+        "trade_actions_capacity": {
+          "score": 3,
+          "weight": 0.17,
+          "confidence": 0.75,
+          "notes": "Auto-components (most exports EU-bound) plus remittances and free-zone FDI - small, EU-dependent, with concentration risk. (Invest NM; trade.gov)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -1.6,
+      "confidence": 0.78,
+      "skew": "negative",
+      "notes": "Usable statistics, against stagnant corruption and minimal EU-driven reform.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -4,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "Stagnant corruption (a low TI standing), a weak judiciary, and minimal recent EU reform. (TI CPI 2025; EC; BTI 2026)"
+        },
+        "statistical_integrity": {
+          "score": 3,
+          "weight": 0.25,
+          "confidence": 0.75,
+          "notes": "The statistics office is usable and EU-aligning, with a long-delayed census. (Eurostat)"
+        },
+        "civil_service_capacity": {
+          "score": -2,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Clientelist and patronage-driven. (BTI 2026)"
+        },
+        "press_freedom": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "A slipping RSF rank, with SLAPPs, disinformation, and political pressure. (RSF 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": 0.5,
+      "confidence": 0.74,
+      "skew": "negative",
+      "notes": "Democratic but EU-accession-frustrated, with an ethnic cleavage and depopulation.",
+      "sub_factors": {
+        "political_stability": {
+          "score": 0,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "A democratic government, but years of EU-accession frustration over a neighbour's veto fuel deep disillusion and stalemate. (OSW; EWB)"
+        },
+        "civil_liberties": {
+          "score": 4,
+          "weight": 0.2,
+          "confidence": 0.75,
+          "notes": "Formal freedoms broadly upheld. (V-Dem/Freedom House class)"
+        },
+        "treatment_non_citizens": {
+          "score": 2,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "A lawful migration regime; emigration-heavy and a transit corridor. (IOM; EC)"
+        },
+        "social_cohesion": {
+          "score": -2,
+          "weight": 0.15,
+          "confidence": 0.65,
+          "notes": "A Macedonian/Albanian cleavage managed via the Ohrid Agreement, with EU-disillusion an added strain. (BTI)"
+        },
+        "demographics": {
+          "score_near": -4,
+          "score_long": -7,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.9,
+          "notes": "Down ~9% since 2002, with very low fertility and a quarter of the population abroad. (OSW; IMF SIP 2025)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": 4.1,
+      "confidence": 0.77,
+      "skew": "positive",
+      "notes": "A pro-Western NATO member and EU candidate in a stable Balkan position.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": 5,
+          "weight": 0.4,
+          "confidence": 0.8,
+          "notes": "A NATO member (since 2020) and EU candidate with a durable pro-Western consensus. (NATO)"
+        },
+        "conflict_involvement": {
+          "score": 3,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "No active conflict in a stable Balkan position. (press)"
+        },
+        "sanctions_capital_controls": {
+          "score": 4,
+          "weight": 0.25,
+          "confidence": 0.8,
+          "notes": "Open and EU-aligning, not sanctioned. (State Dept)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -2.1,
+      "confidence": 0.71,
+      "skew": "negative",
+      "notes": "Severe air pollution and seismic exposure, with a weak health system.",
+      "sub_factors": {
+        "climate": {
+          "score": -4,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "The capital is among the world's most-polluted cities (winter smog), with drought, heat, and seismic risk. (IQAir; USGS)"
+        },
+        "healthcare": {
+          "score": -2,
+          "weight": 0.3,
+          "confidence": 0.75,
+          "notes": "Weak-to-moderate, with heavy medic emigration. (WHO Europe)"
+        },
+        "infrastructure": {
+          "score": -1,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Poor-to-moderate, slowly improving. (State Dept; EC)"
+        },
+        "crime_safety": {
+          "score": 0,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "Moderate - low violent crime, with organized-crime/trafficking transit. (OC Index)"
+        },
+        "disaster_insurance": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "High seismic exposure with low insurance penetration. (World Bank)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -0.27,
+      "confidence": 0.77,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": 0.9,
+      "confidence": 0.79,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": 1.54,
+      "confidence": 0.81,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A NATO member and EU candidate with sound, well-capitalised banks, a de-facto euro peg delivering stability, and an EU-integrated auto-components export base. Its defining frustration is an EU accession stalled for years by a neighbour's identity/constitution veto, which has fed deep public disillusion and political stalemate, atop stagnant corruption, a managed Macedonian/Albanian ethnic cleavage, the capital's severe winter air pollution, and steep depopulation. Net, a balanced outcome distribution leaning on the pro-Western anchor."
+}

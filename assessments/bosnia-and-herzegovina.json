@@ -1,0 +1,244 @@
+{
+  "country": "Bosnia and Herzegovina",
+  "iso3": "BIH",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: multilateral (IMF Art IV 2025, World Bank, EC, RSF, TI, EEA, UNFPA) + regional independent press (Balkan Insight, OSW); Bosnian-language entity-level and Republika Srpska-side sourcing under-sampled.",
+    "A dysfunctional Dayton ethnic power-sharing state with an active Republika Srpska secession tail; macro stability (a euro-pegged currency board) is the offset.",
+    "Standout drags: governance paralysis and corruption, an RS secession/conflict tail, deep ethnic division, and severe depopulation. Source-lean: MODERATE-HIGH Western/reformist framing."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": 1.1,
+      "confidence": 0.84,
+      "skew": "negative",
+      "notes": "Sound macro discipline (a euro-pegged currency board), undercut by political gridlock and fragmentation.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": 1,
+          "weight": 0.22,
+          "confidence": 0.85,
+          "notes": "Low debt (~36% GDP) but a widening deficit and election-driven budget gridlock. (IMF 2025 Art IV)"
+        },
+        "monetary_independence": {
+          "score": 2,
+          "weight": 0.22,
+          "confidence": 0.9,
+          "notes": "A euro-pegged currency board - zero autonomy but two decades of credible stability. (CBBH; IMF)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The pegged mark has no reserve role. (CBBH)"
+        },
+        "inflation": {
+          "score": 3,
+          "weight": 0.13,
+          "confidence": 0.8,
+          "notes": "Peg-anchored and low (~2.5-3%). (IMF; CBBH)"
+        },
+        "banking_stability": {
+          "score": 2,
+          "weight": 0.1,
+          "confidence": 0.75,
+          "notes": "Sound and largely EU-owned, with uneven reform. (IMF Art IV)"
+        },
+        "trade_actions_capacity": {
+          "score": -1,
+          "weight": 0.17,
+          "confidence": 0.7,
+          "notes": "Metals/manufacturing and EU trade plus heavy remittances, but small and fragmented by the dual-entity structure. (World Bank)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -3.4,
+      "confidence": 0.76,
+      "skew": "negative",
+      "notes": "A dysfunctional Dayton structure with pervasive corruption and a captured RS press.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -5,
+          "weight": 0.35,
+          "confidence": 0.85,
+          "notes": "Dysfunctional ethnic-veto governance and pervasive corruption (near the EU's bottom), still overseen by an international High Representative. (TI; EC)"
+        },
+        "statistical_integrity": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "Fragmented across entities, usable but inconsistent. (World Bank)"
+        },
+        "civil_service_capacity": {
+          "score": -3,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Bloated and duplicated across two entities, cantons, and a district - weak delivery. (EC; TI)"
+        },
+        "press_freedom": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.8,
+          "notes": "A falling RSF rank, worst in Republika Srpska (public-broadcaster capture), with ethnic/political pressure. (RSF 2025)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -4.2,
+      "confidence": 0.76,
+      "skew": "negative",
+      "notes": "Chronic dysfunction with an active secession tail and deep ethnic division.",
+      "sub_factors": {
+        "political_stability": {
+          "score": -6,
+          "weight": 0.3,
+          "confidence": 0.85,
+          "notes": "Chronic dysfunction plus an active Republika Srpska secession tail (defying the state/High Representative), with a stalled EU bid. (Security Council Report; LSE)"
+        },
+        "civil_liberties": {
+          "score": -1,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Formal freedoms, ethnically constrained, with shrinking civic space (an RS 'foreign agents' law). (TI; IDEA)"
+        },
+        "treatment_non_citizens": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "Lawful-ish, under Balkan transit-route pressure. (multilateral)"
+        },
+        "social_cohesion": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.85,
+          "notes": "Deep Bosniak/Serb/Croat division institutionalised by the war legacy. (V-Dem class; EC)"
+        },
+        "demographics": {
+          "score": -7,
+          "weight": 0.1,
+          "confidence": 0.9,
+          "notes": "Severe decline (~3.1M and falling, very low fertility, a large diaspora), projected to halve by 2100. (UNFPA; OSW)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -2.5,
+      "confidence": 0.71,
+      "skew": "negative",
+      "notes": "An EU candidate with a peacekeeping presence, but internally split and Russia-stoked.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": -3,
+          "weight": 0.4,
+          "confidence": 0.75,
+          "notes": "An EU candidate with an EUFOR presence, but the RS entity is Russia/Serbia-leaning - internally split and unreliable. (Security Council Report)"
+        },
+        "conflict_involvement": {
+          "score": -3,
+          "weight": 0.35,
+          "confidence": 0.7,
+          "notes": "No active war but a real Russia-stoked renewed-conflict/secession tail. (LSE)"
+        },
+        "sanctions_capital_controls": {
+          "score": -1,
+          "weight": 0.25,
+          "confidence": 0.65,
+          "notes": "Open and EU-aligning, complicated by sanctions on RS leadership. (multilateral)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -2.8,
+      "confidence": 0.68,
+      "skew": "negative",
+      "notes": "Flood/seismic exposure and severe coal-driven air pollution, with fragmented services.",
+      "sub_factors": {
+        "climate": {
+          "score": -4,
+          "weight": 0.2,
+          "confidence": 0.8,
+          "notes": "Deadly floods (2014; 2024), seismic risk, and severe coal-driven air pollution. (EEA)"
+        },
+        "healthcare": {
+          "score": -3,
+          "weight": 0.3,
+          "confidence": 0.7,
+          "notes": "Fragmented across entities, uneven, with medic emigration. (WHO; UNFPA)"
+        },
+        "infrastructure": {
+          "score": -2,
+          "weight": 0.2,
+          "confidence": 0.65,
+          "notes": "Poor-to-moderate, with fragmented governance. (World Bank)"
+        },
+        "crime_safety": {
+          "score": -1,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Moderate, with organized-crime/border-corruption issues. (TI)"
+        },
+        "disaster_insurance": {
+          "score": -3,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Low penetration against high flood/seismic exposure. (EEA)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -2.76,
+      "confidence": 0.76,
+      "horizon": "5-10y",
+      "reading": "mixed"
+    },
+    "assets": {
+      "score": -1.35,
+      "confidence": 0.77,
+      "horizon": "3-7y",
+      "reading": "mixed"
+    },
+    "currency": {
+      "score": -0.48,
+      "confidence": 0.8,
+      "horizon": "1-3y",
+      "reading": "mixed"
+    }
+  },
+  "summary": "A state held together by the dysfunctional Dayton ethnic power-sharing settlement, where a euro-pegged currency board delivers low debt and inflation and EU-owned banks are sound - but those macro positives are outweighed by governance paralysis, pervasive corruption (still under an international High Representative), and, most consequentially, an active Republika Srpska secession push that defies the state and is stoked by Russia and Serbia. Deep Bosniak/Serb/Croat division, severe depopulation, flood/seismic exposure, and coal-driven air pollution complete a negative profile."
+}

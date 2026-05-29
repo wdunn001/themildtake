@@ -1,0 +1,250 @@
+{
+  "country": "Libya",
+  "iso3": "LBY",
+  "methodology_version": "2.0",
+  "assessed_on": "2026-05-28",
+  "skew": "negative",
+  "subject_profile": {
+    "summary": "Base country-level assessment; default category weights prioritize rule of law, institutional integrity, and personal freedom.",
+    "stated_values": [
+      "Rule of law and institutional integrity weighted most heavily",
+      "Personal freedom and security from arbitrary state action are foundational",
+      "Economic success is contingent on rule of law, not a substitute for it"
+    ]
+  },
+  "flags": [
+    "Generated 2026-05-28 under v2.0: rebuilt from independent sources (IMF/World Bank where available, V-Dem, RSF, Freedom House, HRW, Amnesty, ACLED, UN/OHCHR); both rival authorities excluded as governance sources.",
+    "De-facto partitioned since 2014 (a Tripoli-based government in the west vs the Haftar/LNA-aligned east) with rival governments and a contested central bank. Data is fragmentary; figures are estimates.",
+    "Standout drags: a divided militia-ruled petrostate, documented migrant enslavement, periodic warfare, and a resource curse fuelling the conflict. Overall: clearly negative."
+  ],
+  "category_weights_by_decision": {
+    "living": {
+      "economic": 0.15,
+      "institutional": 0.35,
+      "political_social": 0.3,
+      "geopolitical": 0.05,
+      "physical_practical": 0.15
+    },
+    "assets": {
+      "economic": 0.4,
+      "institutional": 0.25,
+      "political_social": 0.1,
+      "geopolitical": 0.15,
+      "physical_practical": 0.1
+    },
+    "currency": {
+      "economic": 0.6,
+      "institutional": 0.2,
+      "political_social": 0.05,
+      "geopolitical": 0.15,
+      "physical_practical": 0
+    }
+  },
+  "categories": {
+    "economic": {
+      "score": -3.9,
+      "confidence": 0.58,
+      "skew": "negative",
+      "notes": "Oil-revenue-rich but contested and looted between factions, with a contested central bank.",
+      "sub_factors": {
+        "fiscal_state": {
+          "score": -5,
+          "weight": 0.22,
+          "confidence": 0.5,
+          "notes": "Oil-revenue-rich but with no unified budget; spending split and looted between factions. (IMF Art IV 2025; World Bank)"
+        },
+        "monetary_independence": {
+          "score": -6,
+          "weight": 0.22,
+          "confidence": 0.55,
+          "notes": "A nominally-reunified but still faction-contested central bank, a 2025 devaluation, and eastern off-books printing. (IMF; WPR)"
+        },
+        "reserve_currency_intl_monetary": {
+          "score": 0,
+          "weight": 0.16,
+          "confidence": 0.95,
+          "notes": "The dinar has no international role. (definitional)"
+        },
+        "inflation": {
+          "score": -3,
+          "weight": 0.13,
+          "confidence": 0.45,
+          "notes": "Moderate but rising post-devaluation, with contested data. (IMF)"
+        },
+        "banking_stability": {
+          "score": -6,
+          "weight": 0.1,
+          "confidence": 0.45,
+          "notes": "A split, cash-based, embargo-exposed, fragile system. (IMF; World Bank)"
+        },
+        "trade_actions_capacity": {
+          "score": -6,
+          "weight": 0.17,
+          "confidence": 0.55,
+          "notes": "A ~95% oil-export rentier repeatedly halted by blockades and faction fights - a resource curse fuelling the war. (World Bank; CRS)"
+        }
+      }
+    },
+    "institutional": {
+      "score": -6.8,
+      "confidence": 0.55,
+      "skew": "negative",
+      "notes": "No unified state, militia rule, collapsed data, and a poor press environment.",
+      "sub_factors": {
+        "rule_of_law": {
+          "score": -8,
+          "weight": 0.35,
+          "confidence": 0.65,
+          "notes": "No unified state, militia rule, and no judicial independence - a closed-autocracy environment. (V-Dem 2025; Freedom House; HRW)"
+        },
+        "statistical_integrity": {
+          "score": -6,
+          "weight": 0.25,
+          "confidence": 0.4,
+          "notes": "Collapsed and contested across dual institutions - external estimates only. (IMF caveats)"
+        },
+        "civil_service_capacity": {
+          "score": -6,
+          "weight": 0.25,
+          "confidence": 0.45,
+          "notes": "Split and militia-captured, with parallel administrations. (World Bank; ICG)"
+        },
+        "press_freedom": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.7,
+          "notes": "A poor RSF standing, with militias targeting journalists. (RSF 2025; CPJ)"
+        }
+      }
+    },
+    "political_social": {
+      "score": -7,
+      "confidence": 0.57,
+      "skew": "negative",
+      "notes": "Rival governments and periodic warfare, with documented migrant enslavement.",
+      "sub_factors": {
+        "political_stability": {
+          "score_near": -7,
+          "score_long": -5,
+          "score": null,
+          "weight": 0.3,
+          "confidence": 0.45,
+          "notes": "Rival governments since 2014, 2025 Tripoli clashes, and no unified elections - a frozen/active conflict. (ACLED; ICG)"
+        },
+        "civil_liberties": {
+          "score": -7,
+          "weight": 0.2,
+          "confidence": 0.6,
+          "notes": "Militia-restricted, with arbitrary detention. (HRW; Amnesty)"
+        },
+        "treatment_non_citizens": {
+          "score": -9,
+          "weight": 0.25,
+          "confidence": 0.7,
+          "notes": "Documented migrant enslavement, torture, and detention - among the worst. (UN/OHCHR; US TIP)"
+        },
+        "social_cohesion": {
+          "score": -6,
+          "weight": 0.15,
+          "confidence": 0.6,
+          "notes": "Fragmented along east-west, regional, and tribal lines. (ICG)"
+        },
+        "demographics": {
+          "score_near": -2,
+          "score_long": 0,
+          "score": null,
+          "weight": 0.1,
+          "confidence": 0.5,
+          "notes": "Young with high oil-wealth-per-capita, but war-disrupted jobs. (UN; World Bank)"
+        }
+      }
+    },
+    "geopolitical": {
+      "score": -6.1,
+      "confidence": 0.54,
+      "skew": "negative",
+      "notes": "A fragmented proxy battleground with foreign-mercenary presence.",
+      "sub_factors": {
+        "alliance_reliability": {
+          "score": -6,
+          "weight": 0.4,
+          "confidence": 0.5,
+          "notes": "A fragmented proxy arena - the east Russia/Egypt/UAE-backed, the west Turkey-backed. (CSIS; Atlantic Council)"
+        },
+        "conflict_involvement": {
+          "score_near": -7,
+          "score_long": -6,
+          "score": null,
+          "weight": 0.35,
+          "confidence": 0.55,
+          "notes": "Divided with periodic violence and a Russian-mercenary presence. (ISW; Atlantic Council)"
+        },
+        "sanctions_capital_controls": {
+          "score": -5,
+          "weight": 0.25,
+          "confidence": 0.6,
+          "notes": "A UN arms embargo, frozen-asset legacy, and contested oil revenue. (UNSC)"
+        }
+      }
+    },
+    "physical_practical": {
+      "score": -6,
+      "confidence": 0.57,
+      "skew": "negative",
+      "notes": "Desert heat and a catastrophic 2023 flood, atop war-damaged infrastructure.",
+      "sub_factors": {
+        "climate": {
+          "score": -7,
+          "weight": 0.2,
+          "confidence": 0.7,
+          "notes": "Extreme desert heat, water scarcity, and the catastrophic 2023 Derna dam-flood. (Amnesty; Science Advances)"
+        },
+        "healthcare": {
+          "score": -5,
+          "weight": 0.3,
+          "confidence": 0.55,
+          "notes": "War-degraded and uneven. (WHO; press)"
+        },
+        "infrastructure": {
+          "score": -6,
+          "weight": 0.2,
+          "confidence": 0.6,
+          "notes": "Oil-funded but war-damaged, with the Derna flood exposing neglect. (World Bank; HRW)"
+        },
+        "crime_safety": {
+          "score": -7,
+          "weight": 0.15,
+          "confidence": 0.55,
+          "notes": "Militia rule, kidnapping, and lawlessness. (ACLED)"
+        },
+        "disaster_insurance": {
+          "score": -5,
+          "weight": 0.15,
+          "confidence": 0.4,
+          "notes": "Negligible penetration against high hazard. (general)"
+        }
+      }
+    }
+  },
+  "decisions": {
+    "living": {
+      "score": -6.06,
+      "confidence": 0.56,
+      "horizon": "5-10y",
+      "reading": "clear negative"
+    },
+    "assets": {
+      "score": -5.41,
+      "confidence": 0.56,
+      "horizon": "3-7y",
+      "reading": "clear negative"
+    },
+    "currency": {
+      "score": -4.96,
+      "confidence": 0.57,
+      "horizon": "1-3y",
+      "reading": "clear negative"
+    }
+  },
+  "summary": "A de-facto partitioned petrostate, divided since 2014 between a Tripoli-based government in the west and a Haftar/LNA-aligned east, with rival governments, a contested central bank, and oil revenue (~95% of exports) that is repeatedly halted by blockades and looted between factions - a resource curse that fuels the conflict. Militia rule means no judicial independence, documented migrant enslavement is among the world's worst, and periodic warfare persists amid a foreign-mercenary presence. Extreme heat and the catastrophic 2023 Derna flood weigh on the physical side. Data is fragmentary; the picture is clearly negative."
+}
