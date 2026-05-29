@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": 2.6,
+      "score": 2.8,
       "confidence": 0.68,
       "skew": "positive",
       "notes": "Top-tier (citizen) healthcare, modern infrastructure, and very low crime, against modest climate exposure.",
       "sub_factors": {
         "climate": {
-          "score": -2,
+          "score_near": -1,
+          "score_long": -3,
+          "score": null,
           "weight": 0.2,
           "confidence": 0.65,
-          "notes": "Lower acute exposure than regional peers (no major cyclone belt), but rising heat, flooding, and high per-capita emissions. (inference)"
+          "notes": "Wealthy, forested, low-population, with rising coastal/heat exposure but a strong fiscal buffer. (ND-GAIN; IPCC AR6)"
         },
         "healthcare": {
           "score": 4,
@@ -222,7 +224,7 @@
   },
   "decisions": {
     "living": {
-      "score": -1.16,
+      "score": -1.18,
       "confidence": 0.7,
       "horizon": "5-10y",
       "reading": "mixed"

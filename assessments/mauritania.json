@@ -186,17 +186,18 @@
       }
     },
     "physical_practical": {
-      "score": -4.3,
+      "score": -4.5,
       "confidence": 0.6,
       "skew": "negative",
       "notes": "Harsh desert climate, weak healthcare and human capital, thin infrastructure, with relatively low violent-crime exposure.",
       "sub_factors": {
         "climate": {
-          "score_near": -5,
-          "score_long": -6,
+          "score_near": -6,
+          "score_long": -7,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.7,
-          "notes": "Overwhelmingly Saharan - extreme heat, drought, desertification, and scarce arable land and water; high vulnerability, limited adaptive capacity. (World Bank; ND-GAIN)"
+          "confidence": 0.68,
+          "notes": "Saharan/Sahel drought, desertification, sandstorms, and low-lying Nouakchott coastal/sea-level risk. (ND-GAIN; WB)"
         },
         "healthcare": {
           "score": -5,
@@ -227,13 +228,13 @@
   },
   "decisions": {
     "living": {
-      "score": -1.83,
+      "score": -1.86,
       "confidence": 0.66,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -0.83,
+      "score": -0.84,
       "confidence": 0.67,
       "horizon": "3-7y",
       "reading": "mixed"

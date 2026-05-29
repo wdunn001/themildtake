@@ -193,11 +193,11 @@
       "sub_factors": {
         "climate": {
           "score_near": -3,
-          "score_long": -7,
+          "score_long": -6,
           "score": null,
           "weight": 0.2,
           "confidence": 0.8,
-          "notes": "Extreme heat, severe water scarcity (desalination-dependent), and low-lying sea-level risk on a small flat island. (UN; World Bank)"
+          "notes": "A tiny low-lying Gulf state - extreme wet-bulb heat by mid-century and sea-level/coastal squeeze, partly offset by wealth/AC. (IPCC AR6; WB)"
         },
         "healthcare": {
           "score": 6,
@@ -228,13 +228,13 @@
   },
   "decisions": {
     "living": {
-      "score": -1.24,
+      "score": -1.21,
       "confidence": 0.76,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.02,
+      "score": 0.03,
       "confidence": 0.77,
       "horizon": "3-7y",
       "reading": "mixed"

@@ -194,18 +194,18 @@
       }
     },
     "physical_practical": {
-      "score": 2.2,
+      "score": 2.4,
       "confidence": 0.72,
       "skew": "positive",
       "notes": "Standout affordable healthcare and good infrastructure, against recurrent monsoon-flood exposure.",
       "sub_factors": {
         "climate": {
-          "score_near": -3,
-          "score_long": -5,
+          "score_near": -2,
+          "score_long": -4,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.72,
-          "notes": "Recurrent northeast-monsoon floods (2024 displaced ~148,000, the worst since 2014, repeated in 2025), haze, and coastal sea-level risk. (ReliefWeb)"
+          "confidence": 0.75,
+          "notes": "Moderate vulnerability, decent readiness - coastal flooding, sea-level, heat, peatland/forest exposure. (ND-GAIN; IPCC AR6)"
         },
         "healthcare": {
           "score": 6,
@@ -236,13 +236,13 @@
   },
   "decisions": {
     "living": {
-      "score": 1.02,
+      "score": 1.04,
       "confidence": 0.76,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 1.94,
+      "score": 1.95,
       "confidence": 0.77,
       "horizon": "3-7y",
       "reading": "mixed"

@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": 5.6,
-      "confidence": 0.81,
+      "score": 6,
+      "confidence": 0.79,
       "skew": "positive",
       "notes": "Excellent healthcare, infrastructure, and safety, against Alpine flood and glacier-loss exposure.",
       "sub_factors": {
         "climate": {
-          "score": -1,
+          "score_near": 0,
+          "score_long": -1,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "Alpine flood/landslide and glacier loss, including a severe 2024 flood event. (Munich Re; GeoSphere)"
+          "confidence": 0.7,
+          "notes": "Temperate, high readiness, but Alpine glacier/snow loss, rockfall, and 2024-type flooding. (ND-GAIN; IPCC AR6 mountains)"
         },
         "healthcare": {
           "score": 8,
@@ -222,13 +224,13 @@
   },
   "decisions": {
     "living": {
-      "score": 5.08,
+      "score": 5.1,
       "confidence": 0.83,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 4.26,
+      "score": 4.28,
       "confidence": 0.84,
       "horizon": "3-7y",
       "reading": "clear positive"

@@ -188,18 +188,18 @@
       }
     },
     "physical_practical": {
-      "score": -1.9,
-      "confidence": 0.62,
+      "score": -2.9,
+      "confidence": 0.64,
       "skew": "negative",
       "notes": "Outside the hurricane belt but flood-exposed, with weak interior services.",
       "sub_factors": {
         "climate": {
-          "score_near": -2,
-          "score_long": -3,
+          "score_near": -6,
+          "score_long": -9,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.7,
-          "notes": "A low-lying coast (where most people and Paramaribo sit), flooding, and sea-level exposure; high rainforest cover is a buffer but adaptation capacity is weak. (World Bank)"
+          "confidence": 0.8,
+          "notes": "~87% of the population on a low coastal plain below/near sea level - severe SLR plus flooding. (WB CCDR)"
         },
         "healthcare": {
           "score": -2,
@@ -230,13 +230,13 @@
   },
   "decisions": {
     "living": {
-      "score": -0.32,
-      "confidence": 0.67,
+      "score": -0.54,
+      "confidence": 0.68,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -0.58,
+      "score": -0.7,
       "confidence": 0.71,
       "horizon": "3-7y",
       "reading": "mixed"

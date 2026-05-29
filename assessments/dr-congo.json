@@ -184,16 +184,18 @@
       }
     },
     "physical_practical": {
-      "score": -7,
-      "confidence": 0.75,
+      "score": -7.4,
+      "confidence": 0.73,
       "skew": "negative",
       "notes": "Among the world's worst infrastructure and healthcare, with active disease outbreaks and conflict violence.",
       "sub_factors": {
         "climate": {
-          "score": -4,
+          "score_near": -6,
+          "score_long": -7,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.75,
-          "notes": "A Congo-basin carbon sink, but with flooding, deforestation, and disease. (World Bank/IEA)"
+          "confidence": 0.66,
+          "notes": "ND-GAIN bottom-20 - vast floods, erratic rains, conflict-shattered readiness despite the Congo-basin resource base. (ND-GAIN)"
         },
         "healthcare": {
           "score": -8,
@@ -224,13 +226,13 @@
   },
   "decisions": {
     "living": {
-      "score": -5.64,
+      "score": -5.73,
       "confidence": 0.76,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -4.94,
+      "score": -4.98,
       "confidence": 0.77,
       "horizon": "3-7y",
       "reading": "clear negative"

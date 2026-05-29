@@ -183,15 +183,17 @@
     },
     "physical_practical": {
       "score": -5.3,
-      "confidence": 0.71,
+      "confidence": 0.7,
       "skew": "negative",
       "notes": "Weak healthcare with extreme child stunting, poor infrastructure, and natural-hazard exposure.",
       "sub_factors": {
         "climate": {
-          "score": -5,
+          "score_near": -5,
+          "score_long": -6,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.75,
-          "notes": "Exposed to floods, landslides, cyclones, and tsunamis - 2021 flash floods killed 30+ and destroyed 4,000+ homes. (UNEP; PreventionWeb)"
+          "confidence": 0.72,
+          "notes": "High vulnerability, very low readiness - rainfall variability, food insecurity, coastal/landslide on a poor half-island. (ND-GAIN; IPCC AR6)"
         },
         "healthcare": {
           "score": -6,
@@ -222,13 +224,13 @@
   },
   "decisions": {
     "living": {
-      "score": -1.43,
+      "score": -1.46,
       "confidence": 0.69,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.98,
+      "score": -1.99,
       "confidence": 0.73,
       "horizon": "3-7y",
       "reading": "mixed"

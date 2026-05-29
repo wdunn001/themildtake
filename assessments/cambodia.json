@@ -184,16 +184,18 @@
       }
     },
     "physical_practical": {
-      "score": -4.3,
-      "confidence": 0.78,
+      "score": -4.2,
+      "confidence": 0.77,
       "skew": "negative",
       "notes": "Mekong climate exposure and weak healthcare, with a scam/trafficking-hub crime concern.",
       "sub_factors": {
         "climate": {
-          "score": -5,
+          "score_near": -5,
+          "score_long": -6,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "Mekong flood/drought and high agricultural climate exposure. (ADB; ICG)"
+          "confidence": 0.8,
+          "notes": "High vulnerability, low readiness - Mekong-flow disruption, flood/drought, Tonle Sap stress. (ND-GAIN; IPCC AR6)"
         },
         "healthcare": {
           "score": -5,
@@ -224,13 +226,13 @@
   },
   "decisions": {
     "living": {
-      "score": -3.58,
+      "score": -3.61,
       "confidence": 0.79,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -2.72,
+      "score": -2.73,
       "confidence": 0.81,
       "horizon": "3-7y",
       "reading": "mixed"

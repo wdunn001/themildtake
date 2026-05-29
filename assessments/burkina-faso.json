@@ -190,16 +190,18 @@
       }
     },
     "physical_practical": {
-      "score": -7.4,
-      "confidence": 0.67,
+      "score": -7.5,
+      "confidence": 0.66,
       "skew": "negative",
       "notes": "Acute insecurity over much of the country, atop severe climate stress, weak health, and damaged infrastructure.",
       "sub_factors": {
         "climate": {
-          "score": -7,
+          "score_near": -7,
+          "score_long": -8,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.75,
-          "notes": "Highly climate-vulnerable Sahel state with drought, erratic rains, and flooding, low adaptive capacity. (OCHA; FAO; World Bank)"
+          "confidence": 0.72,
+          "notes": "Among the world's most vulnerable (ND-GAIN bottom-15) - Sahelian drought, desertification, heat, conflict-degraded readiness. (ND-GAIN)"
         },
         "healthcare": {
           "score": -8,
@@ -230,13 +232,13 @@
   },
   "decisions": {
     "living": {
-      "score": -5.05,
+      "score": -5.08,
       "confidence": 0.68,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -3.38,
+      "score": -3.39,
       "confidence": 0.71,
       "horizon": "3-7y",
       "reading": "clear negative"

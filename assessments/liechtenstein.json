@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": 5.7,
-      "confidence": 0.68,
+      "score": 5.8,
+      "confidence": 0.67,
       "skew": "positive",
       "notes": "Excellent Swiss-integrated services and very low crime, with low hazard exposure.",
       "sub_factors": {
         "climate": {
-          "score": 0,
+          "score_near": 0,
+          "score_long": -1,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.6,
-          "notes": "Alpine/Rhine-valley - low catastrophe exposure, some flood, manageable. (general)"
+          "confidence": 0.55,
+          "notes": "An Alpine micro-state - very high adaptive capacity but glacier/snow and Rhine-flood exposure. (IPCC AR6 mountains; EEA)"
         },
         "healthcare": {
           "score": 7,
@@ -222,7 +224,7 @@
   },
   "decisions": {
     "living": {
-      "score": 5.39,
+      "score": 5.38,
       "confidence": 0.73,
       "horizon": "5-10y",
       "reading": "clear positive"

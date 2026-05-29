@@ -191,15 +191,17 @@
     },
     "physical_practical": {
       "score": -6.8,
-      "confidence": 0.66,
+      "confidence": 0.65,
       "skew": "negative",
       "notes": "Extreme climate vulnerability, very weak health, sparse infrastructure, and spreading insecurity.",
       "sub_factors": {
         "climate": {
-          "score": -8,
+          "score_near": -8,
+          "score_long": -9,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "Among the most climate-vulnerable states - Sahara-edge drought, desertification, and severe 2024 floods - with low adaptive capacity. (OCHA; FAO; World Bank)"
+          "confidence": 0.74,
+          "notes": "Near ND-GAIN rock-bottom - extreme Sahel desertification/heat/drought, the fastest population growth, near-zero readiness. (ND-GAIN)"
         },
         "healthcare": {
           "score": -7,
@@ -230,7 +232,7 @@
   },
   "decisions": {
     "living": {
-      "score": -4.51,
+      "score": -4.53,
       "confidence": 0.67,
       "horizon": "5-10y",
       "reading": "clear negative"

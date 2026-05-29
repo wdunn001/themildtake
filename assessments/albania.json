@@ -184,16 +184,18 @@
       }
     },
     "physical_practical": {
-      "score": -2.5,
-      "confidence": 0.68,
+      "score": -2.3,
+      "confidence": 0.67,
       "skew": "negative",
       "notes": "Improving infrastructure, against seismic risk and an organized-crime undercurrent.",
       "sub_factors": {
         "climate": {
-          "score": -4,
+          "score_near": -3,
+          "score_long": -5,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.75,
-          "notes": "High seismicity (a deadly 2019 quake), with flood, drought, and heat. (World Bank PDNA)"
+          "confidence": 0.7,
+          "notes": "Mediterranean heat/drought/wildfire, mid-tier vulnerability and low readiness; an EEA Southern-Europe water-stress hotspot worsening by 2050. (ND-GAIN; EEA)"
         },
         "healthcare": {
           "score": -3,
@@ -224,13 +226,13 @@
   },
   "decisions": {
     "living": {
-      "score": 0.57,
-      "confidence": 0.73,
+      "score": 0.55,
+      "confidence": 0.72,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 1.9,
+      "score": 1.91,
       "confidence": 0.75,
       "horizon": "3-7y",
       "reading": "mixed"

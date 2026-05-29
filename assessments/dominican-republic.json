@@ -188,18 +188,18 @@
       }
     },
     "physical_practical": {
-      "score": -0.8,
-      "confidence": 0.76,
+      "score": -1.4,
+      "confidence": 0.74,
       "skew": "negative",
       "notes": "Tourism-grade zones and falling crime, against hurricane exposure and electricity unreliability.",
       "sub_factors": {
         "climate": {
-          "score_near": -2,
-          "score_long": -3,
+          "score_near": -5,
+          "score_long": -6,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "Hurricane/Atlantic-storm exposure, flooding, drought, and coastal/sea-level risk to tourism zones. (PAHO; World Bank)"
+          "confidence": 0.7,
+          "notes": "Hurricane belt plus coastal tourism plus Hispaniola drought, mid vulnerability with moderate readiness. (ND-GAIN)"
         },
         "healthcare": {
           "score_near": 0,
@@ -234,13 +234,13 @@
   },
   "decisions": {
     "living": {
-      "score": 1.3,
+      "score": 1.24,
       "confidence": 0.79,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 1.84,
+      "score": 1.8,
       "confidence": 0.81,
       "horizon": "3-7y",
       "reading": "mixed"

@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": -6.2,
-      "confidence": 0.76,
+      "score": -6,
+      "confidence": 0.72,
       "skew": "negative",
       "notes": "A severe drought/power crisis and a collapsed health system, with decayed infrastructure.",
       "sub_factors": {
         "climate": {
-          "score": -7,
+          "score_near": -6,
+          "score_long": -7,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "A 2024 El Nino national-disaster drought (millions food-insecure), with a key dam at ~7% and hydropower down sharply. (UNICEF; OCHA)"
+          "confidence": 0.68,
+          "notes": "Recurrent drought (incl. Cyclone Idai flooding), governance-eroded readiness, rain-fed/hydropower stress. (ND-GAIN; WB)"
         },
         "healthcare": {
           "score": -7,
@@ -222,14 +224,14 @@
   },
   "decisions": {
     "living": {
-      "score": -5.29,
-      "confidence": 0.75,
+      "score": -5.27,
+      "confidence": 0.74,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -5,
-      "confidence": 0.78,
+      "score": -4.98,
+      "confidence": 0.77,
       "horizon": "3-7y",
       "reading": "clear negative"
     },

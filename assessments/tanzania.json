@@ -184,16 +184,16 @@
       }
     },
     "physical_practical": {
-      "score": -3,
-      "confidence": 0.71,
+      "score": -3.2,
+      "confidence": 0.68,
       "skew": "negative",
       "notes": "Improving large infrastructure projects, against weak healthcare and drought/flood exposure.",
       "sub_factors": {
         "climate": {
-          "score": -4,
+          "score": -5,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "Rain-dependent agriculture, with most disasters drought/flood and rising flood frequency. (World Bank; GIZ)"
+          "confidence": 0.66,
+          "notes": "Drought-flood swings, coastal/Zanzibar sea-level exposure, rain-fed agriculture, modest readiness. (ND-GAIN; WB)"
         },
         "healthcare": {
           "score": -4,
@@ -224,14 +224,14 @@
   },
   "decisions": {
     "living": {
-      "score": -2.33,
-      "confidence": 0.73,
+      "score": -2.35,
+      "confidence": 0.72,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
       "score": -0.67,
-      "confidence": 0.74,
+      "confidence": 0.73,
       "horizon": "3-7y",
       "reading": "mixed"
     },

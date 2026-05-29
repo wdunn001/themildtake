@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": -4.6,
-      "confidence": 0.74,
+      "score": -4.8,
+      "confidence": 0.72,
       "skew": "negative",
       "notes": "Seismic and climate exposure, a weak health system, an energy crisis, and a catastrophic crime collapse.",
       "sub_factors": {
         "climate": {
-          "score": -4,
+          "score_near": -5,
+          "score_long": -6,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "High seismic risk, El Nino flooding, and a 2024 drought-driven hydropower collapse, with Galapagos/Amazon exposure. (GFDRR; IOM)"
+          "confidence": 0.7,
+          "notes": "Andean glacier/water loss plus strong-ENSO flooding plus Galapagos exposure, low readiness. (ND-GAIN)"
         },
         "healthcare": {
           "score": -4,
@@ -222,13 +224,13 @@
   },
   "decisions": {
     "living": {
-      "score": -2.1,
-      "confidence": 0.76,
+      "score": -2.15,
+      "confidence": 0.75,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.06,
+      "score": -1.08,
       "confidence": 0.78,
       "horizon": "3-7y",
       "reading": "mixed"

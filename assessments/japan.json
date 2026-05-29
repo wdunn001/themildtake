@@ -192,18 +192,18 @@
       }
     },
     "physical_practical": {
-      "score": 3.3,
-      "confidence": 0.78,
+      "score": 3,
+      "confidence": 0.8,
       "skew": "negative",
       "notes": "World-class infrastructure, healthcare, and very low crime, against the standout seismic/tsunami risk (offset by world-best preparedness).",
       "sub_factors": {
         "climate": {
-          "score_near": -1,
+          "score_near": -2,
           "score_long": -3,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.72,
-          "notes": "Typhoons and intensifying heat. (observed)"
+          "confidence": 0.8,
+          "notes": "Resilient/high-capacity but with real exposure - intensifying typhoons, extreme heat, sea-level on dense coasts. (IPCC AR6; ND-GAIN)"
         },
         "healthcare": {
           "score": 5,
@@ -234,13 +234,13 @@
   },
   "decisions": {
     "living": {
-      "score": 3.05,
+      "score": 3.03,
       "confidence": 0.79,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 3.17,
+      "score": 3.15,
       "confidence": 0.8,
       "horizon": "3-7y",
       "reading": "clear positive"

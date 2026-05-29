@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": 5.5,
+      "score": 5.3,
       "confidence": 0.63,
       "skew": "positive",
       "notes": "World-class healthcare/infrastructure and very low crime, against coastal/density exposure.",
       "sub_factors": {
         "climate": {
-          "score": -1,
+          "score_near": -2,
+          "score_long": -4,
+          "score": null,
           "weight": 0.2,
           "confidence": 0.55,
-          "notes": "A Mediterranean coast with sea-level-rise/coastal-flood exposure over the long term given extreme density and reclaimed land. (general)"
+          "notes": "A Mediterranean coastal city-state - extreme wealth/adaptation but heat, marine heatwaves, and sea-level on a tiny footprint. (IPCC AR6; EEA)"
         },
         "healthcare": {
           "score": 7,
@@ -222,13 +224,13 @@
   },
   "decisions": {
     "living": {
-      "score": 4.3,
+      "score": 4.23,
       "confidence": 0.69,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 3.7,
+      "score": 3.67,
       "confidence": 0.71,
       "horizon": "3-7y",
       "reading": "clear positive"

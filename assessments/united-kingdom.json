@@ -188,18 +188,18 @@
       }
     },
     "physical_practical": {
-      "score": 1.5,
-      "confidence": 0.79,
+      "score": 1.9,
+      "confidence": 0.76,
       "skew": "negative",
       "notes": "Lower climate exposure and a functional flood-insurance backstop, against a deeply strained (if improving) NHS and ageing infrastructure.",
       "sub_factors": {
         "climate": {
-          "score_near": 0,
-          "score_long": -2,
+          "score_near": 2,
+          "score_long": 1,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.78,
-          "notes": "Temperate, with low extreme-heat/wildfire exposure; the main hazard is rising flood risk. (Met Office; Environment Agency)"
+          "confidence": 0.65,
+          "notes": "Mild maritime, high readiness, low heat exposure - but among the most AMOC-exposed states; a slowdown could sharply cool/wet NW Europe (flag the tail). (ND-GAIN; IPCC AMOC)"
         },
         "healthcare": {
           "score_near": 0,
@@ -232,13 +232,13 @@
   },
   "decisions": {
     "living": {
-      "score": 2.24,
+      "score": 2.33,
       "confidence": 0.8,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 2.69,
+      "score": 2.75,
       "confidence": 0.81,
       "horizon": "3-7y",
       "reading": "mixed"

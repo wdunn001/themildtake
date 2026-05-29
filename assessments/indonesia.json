@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": -1.8,
-      "confidence": 0.7,
+      "score": -1.3,
+      "confidence": 0.69,
       "skew": "negative",
       "notes": "Improving infrastructure and near-universal health coverage, against extreme seismic/flood exposure and a sinking capital.",
       "sub_factors": {
         "climate": {
-          "score": -6,
+          "score_near": -4,
+          "score_long": -6,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "Ring-of-Fire earthquakes/volcanoes/tsunami plus annual floods; Jakarta subsiding ~16-17 cm/yr; 2025 budget cuts hit forecasting. (GFDRR; PreventionWeb)"
+          "confidence": 0.8,
+          "notes": "A vast archipelago - sea-level rise (sinking Jakarta), coastal/delta exposure, heat; improving but limited readiness. (WB CCDR; IPCC AR6)"
         },
         "healthcare": {
           "score": 0,
@@ -222,13 +224,13 @@
   },
   "decisions": {
     "living": {
-      "score": -0.04,
+      "score": -0.02,
       "confidence": 0.74,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 1.18,
+      "score": 1.21,
       "confidence": 0.76,
       "horizon": "3-7y",
       "reading": "mixed"

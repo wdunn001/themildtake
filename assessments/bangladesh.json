@@ -192,10 +192,12 @@
       "notes": "Recent megaprojects, against extreme delta-climate vulnerability and near-nil catastrophe cover.",
       "sub_factors": {
         "climate": {
-          "score": -7,
+          "score_near": -7,
+          "score_long": -9,
+          "score": null,
           "weight": 0.2,
           "confidence": 0.9,
-          "notes": "Among the world's most climate-vulnerable - cyclones, delta flooding, sea-level rise, and salinity on a low-lying delta. (World Bank; IPCC)"
+          "notes": "A top global delta vulnerability - cyclones, sea-level rise, salinity, flooding; high ND-GAIN vulnerability, weak readiness. (ND-GAIN; IPCC AR6)"
         },
         "healthcare": {
           "score": -3,
@@ -226,13 +228,13 @@
   },
   "decisions": {
     "living": {
-      "score": -3.26,
+      "score": -3.33,
       "confidence": 0.77,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -3.22,
+      "score": -3.24,
       "confidence": 0.78,
       "horizon": "3-7y",
       "reading": "clear negative"

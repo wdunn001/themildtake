@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": -6.1,
-      "confidence": 0.77,
+      "score": -5.9,
+      "confidence": 0.74,
       "skew": "negative",
       "notes": "Weak healthcare and infrastructure, against drought/flood and high urban crime.",
       "sub_factors": {
         "climate": {
-          "score": -6,
+          "score_near": -5,
+          "score_long": -6,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "Severe southern drought and flooding with recurrent food insecurity. (ReliefWeb/UN)"
+          "confidence": 0.66,
+          "notes": "High vulnerability/low readiness; recurrent severe southern drought plus coastal flood/erosion. (ND-GAIN; WB)"
         },
         "healthcare": {
           "score": -7,
@@ -222,13 +224,13 @@
   },
   "decisions": {
     "living": {
-      "score": -4.84,
-      "confidence": 0.79,
+      "score": -4.83,
+      "confidence": 0.78,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -4.36,
+      "score": -4.35,
       "confidence": 0.79,
       "horizon": "3-7y",
       "reading": "clear negative"

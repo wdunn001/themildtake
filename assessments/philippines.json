@@ -192,10 +192,12 @@
       "notes": "Among the most disaster-exposed countries on earth, with uneven healthcare and infrastructure.",
       "sub_factors": {
         "climate": {
-          "score": -6,
+          "score_near": -6,
+          "score_long": -7,
+          "score": null,
           "weight": 0.2,
           "confidence": 0.85,
-          "notes": "Ranked the world's most disaster-exposed for 15 straight years; sea level rising ~2x the global rate; back-to-back deadly 2025 typhoons. (WorldRiskIndex 2025)"
+          "notes": "Among the most disaster-exposed on Earth - frequent intense typhoons, storm surge, sea-level, moderate-low readiness. (Germanwatch CRI; WB CCDR)"
         },
         "healthcare": {
           "score": -2,
@@ -226,13 +228,13 @@
   },
   "decisions": {
     "living": {
-      "score": -1.83,
+      "score": -1.87,
       "confidence": 0.73,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.16,
+      "score": -1.17,
       "confidence": 0.73,
       "horizon": "3-7y",
       "reading": "mixed"

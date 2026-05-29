@@ -185,7 +185,7 @@
     },
     "physical_practical": {
       "score": -5.3,
-      "confidence": 0.62,
+      "confidence": 0.61,
       "skew": "negative",
       "notes": "Extreme cyclone/flood/drought exposure with a weak, donor-dependent health system.",
       "sub_factors": {
@@ -194,8 +194,8 @@
           "score_long": -7,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.75,
-          "notes": "Extreme exposure to cyclones (Freddy 2023), floods, and droughts hitting rain-fed agriculture. (UN PDNA; OCHA; ND-GAIN)"
+          "confidence": 0.7,
+          "notes": "ND-GAIN bottom-25 - Cyclone Freddy 2023 devastation, drought-flood whiplash, rain-fed maize, very low readiness. (ND-GAIN; Germanwatch CRI)"
         },
         "healthcare": {
           "score": -5,
@@ -226,8 +226,8 @@
   },
   "decisions": {
     "living": {
-      "score": -2.33,
-      "confidence": 0.64,
+      "score": -2.32,
+      "confidence": 0.63,
       "horizon": "5-10y",
       "reading": "mixed"
     },

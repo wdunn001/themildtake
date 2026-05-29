@@ -190,16 +190,18 @@
       }
     },
     "physical_practical": {
-      "score": -2.8,
-      "confidence": 0.65,
+      "score": -2.6,
+      "confidence": 0.62,
       "skew": "negative",
       "notes": "A severe drought/hydropower crisis, against improving Lobito-linked transport.",
       "sub_factors": {
         "climate": {
-          "score": -5,
+          "score_near": -5,
+          "score_long": -6,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "A severe 2024 drought drove a national-emergency power crisis (a key dam at ~5% usable), with flood and rain-fed agriculture. (World Bank; ACAPS)"
+          "confidence": 0.68,
+          "notes": "The severe 2023-24 drought crippled hydropower/agriculture (the energy-climate nexus), low readiness. (ND-GAIN; WB)"
         },
         "healthcare": {
           "score": -3,
@@ -230,13 +232,13 @@
   },
   "decisions": {
     "living": {
-      "score": 0.84,
-      "confidence": 0.72,
+      "score": 0.86,
+      "confidence": 0.71,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 1.27,
+      "score": 1.29,
       "confidence": 0.75,
       "horizon": "3-7y",
       "reading": "mixed"

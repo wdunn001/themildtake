@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": -2.8,
-      "confidence": 0.68,
+      "score": -2.5,
+      "confidence": 0.64,
       "skew": "negative",
       "notes": "Flood/seismic exposure and severe coal-driven air pollution, with fragmented services.",
       "sub_factors": {
         "climate": {
-          "score": -4,
+          "score_near": -3,
+          "score_long": -4,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "Deadly floods (2014; 2024), seismic risk, and severe coal-driven air pollution. (EEA)"
+          "confidence": 0.6,
+          "notes": "Balkan warming with drought, wildfire, and flood swings, with low adaptive readiness. (ND-GAIN; WB Western Balkans CCDR)"
         },
         "healthcare": {
           "score": -3,
@@ -222,13 +224,13 @@
   },
   "decisions": {
     "living": {
-      "score": -2.76,
-      "confidence": 0.76,
+      "score": -2.75,
+      "confidence": 0.75,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.35,
+      "score": -1.33,
       "confidence": 0.77,
       "horizon": "3-7y",
       "reading": "mixed"

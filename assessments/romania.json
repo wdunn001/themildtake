@@ -188,16 +188,18 @@
       }
     },
     "physical_practical": {
-      "score": -0.8,
+      "score": -0.6,
       "confidence": 0.68,
       "skew": "negative",
       "notes": "Improving infrastructure and low violent crime, against an underfunded health system and underinsured seismic risk.",
       "sub_factors": {
         "climate": {
-          "score": -3,
+          "score_near": -2,
+          "score_long": -4,
+          "score": null,
           "weight": 0.2,
           "confidence": 0.65,
-          "notes": "Drought/heat and flood, layered on a seismic tail. (OECD)"
+          "notes": "SE-Europe heat and intensifying drought on large rain-fed agriculture, plus Danube flood swings, moderate readiness. (ND-GAIN; EEA)"
         },
         "healthcare": {
           "score": -2,
@@ -228,7 +230,7 @@
   },
   "decisions": {
     "living": {
-      "score": 0.96,
+      "score": 0.93,
       "confidence": 0.75,
       "horizon": "5-10y",
       "reading": "mixed"

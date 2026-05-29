@@ -190,18 +190,18 @@
       }
     },
     "physical_practical": {
-      "score": -2.9,
-      "confidence": 0.77,
+      "score": -3.3,
+      "confidence": 0.76,
       "skew": "negative",
       "notes": "Extreme climate vulnerability, weak healthcare, and high crime.",
       "sub_factors": {
         "climate": {
-          "score_near": -4,
-          "score_long": -5,
+          "score_near": -6,
+          "score_long": -8,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "Among the most climate-vulnerable - hurricanes, dry-corridor drought, and floods. (Germanwatch; FEWS NET)"
+          "confidence": 0.8,
+          "notes": "The 1998 Mitch and Eta/Iota 2020 precedent - dry-corridor plus dual-coast plus low readiness. (Germanwatch CRI long-term top-10)"
         },
         "healthcare": {
           "score": -3,
@@ -232,13 +232,13 @@
   },
   "decisions": {
     "living": {
-      "score": -1.97,
-      "confidence": 0.76,
+      "score": -2.06,
+      "confidence": 0.75,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.01,
+      "score": -1.06,
       "confidence": 0.78,
       "horizon": "3-7y",
       "reading": "mixed"

@@ -182,18 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": -3.7,
+      "score": -3.9,
       "confidence": 0.57,
       "skew": "negative",
       "notes": "A mined-out interior forcing coastal living, with an overwhelming NCD epidemic.",
       "sub_factors": {
         "climate": {
-          "score_near": -4,
+          "score_near": -5,
           "score_long": -7,
           "score": null,
           "weight": 0.2,
           "confidence": 0.7,
-          "notes": "A raised-coral island (less sea-level-doomed than the atolls) but ~80% mined-out/uninhabitable, forcing coastal living; a 'Higher Ground Initiative' aims to rehabilitate the interior. (ECRCP; inference)"
+          "notes": "A raised-coral island (less SLR inundation) but a phosphate-mined, near-uninhabitable interior, water/heat stress, near-total import dependence. (IPCC AR6)"
         },
         "healthcare": {
           "score": -5,
@@ -230,7 +230,7 @@
       "reading": "mixed"
     },
     "assets": {
-      "score": -2.12,
+      "score": -2.13,
       "confidence": 0.61,
       "horizon": "3-7y",
       "reading": "mixed"

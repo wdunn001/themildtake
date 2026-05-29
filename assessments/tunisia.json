@@ -192,18 +192,18 @@
       }
     },
     "physical_practical": {
-      "score": -1.7,
-      "confidence": 0.68,
+      "score": -1.5,
+      "confidence": 0.65,
       "skew": "negative",
       "notes": "Severe water scarcity and decaying infrastructure, with relatively safe streets the offset.",
       "sub_factors": {
         "climate": {
           "score_near": -4,
-          "score_long": -7,
+          "score_long": -5,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "Severe multi-year drought and water scarcity (critically low dams), heat, and coastal erosion. (IPCC; World Bank)"
+          "confidence": 0.68,
+          "notes": "Water scarcity, drought, heat, and coastal erosion, but relatively higher readiness than the Sahel. (ND-GAIN; WB MENA)"
         },
         "healthcare": {
           "score": -2,
@@ -234,14 +234,14 @@
   },
   "decisions": {
     "living": {
-      "score": -3.61,
+      "score": -3.53,
       "confidence": 0.73,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -2.97,
-      "confidence": 0.73,
+      "score": -2.94,
+      "confidence": 0.72,
       "horizon": "3-7y",
       "reading": "mixed"
     },

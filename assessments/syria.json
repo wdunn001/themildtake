@@ -200,16 +200,18 @@
       }
     },
     "physical_practical": {
-      "score": -7.8,
-      "confidence": 0.51,
+      "score": -7.4,
+      "confidence": 0.57,
       "skew": "negative",
       "notes": "War-destroyed infrastructure and a collapsed health system, with severe drought.",
       "sub_factors": {
         "climate": {
-          "score": -6,
+          "score_near": -5,
+          "score_long": -7,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.5,
-          "notes": "Severe drought, water scarcity, and heat. (humanitarian reporting)"
+          "confidence": 0.78,
+          "notes": "Severe drought (a conflict trigger), water scarcity, extreme heat, with readiness destroyed by war. (IPCC AR6; WB)"
         },
         "healthcare": {
           "score": -8,
@@ -242,13 +244,13 @@
   },
   "decisions": {
     "living": {
-      "score": -5.28,
-      "confidence": 0.5,
+      "score": -5.34,
+      "confidence": 0.51,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -5.17,
+      "score": -5.18,
       "confidence": 0.52,
       "horizon": "3-7y",
       "reading": "clear negative"

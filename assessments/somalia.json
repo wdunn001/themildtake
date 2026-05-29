@@ -185,15 +185,17 @@
     },
     "physical_practical": {
       "score": -7.5,
-      "confidence": 0.68,
+      "confidence": 0.66,
       "skew": "negative",
       "notes": "A national drought emergency, a near-collapsed health system, and high insecurity.",
       "sub_factors": {
         "climate": {
-          "score": -8,
+          "score_near": -8,
+          "score_long": -9,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "A November 2025 national drought emergency after failed rains; recurrent drought/flood cycles and famine risk. (OCHA 2025; WFP)"
+          "confidence": 0.72,
+          "notes": "Near ND-GAIN rock-bottom - chronic drought-famine plus flash floods and locusts, state collapse = near-zero readiness. (ND-GAIN; WB Horn)"
         },
         "healthcare": {
           "score": -8,
@@ -224,13 +226,13 @@
   },
   "decisions": {
     "living": {
-      "score": -5.92,
-      "confidence": 0.65,
+      "score": -5.95,
+      "confidence": 0.64,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -5.16,
+      "score": -5.17,
       "confidence": 0.66,
       "horizon": "3-7y",
       "reading": "clear negative"

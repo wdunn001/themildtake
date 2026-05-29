@@ -186,17 +186,18 @@
       }
     },
     "physical_practical": {
-      "score": -6.6,
-      "confidence": 0.66,
+      "score": -6.9,
+      "confidence": 0.67,
       "skew": "negative",
       "notes": "Among the world's harshest physical-risk profiles: extreme climate exposure, near-absent healthcare, minimal infrastructure, and conflict-zone insecurity.",
       "sub_factors": {
         "climate": {
-          "score_near": -6,
-          "score_long": -7,
+          "score_near": -7,
+          "score_long": -8,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.72,
-          "notes": "Severe Sahelian drought, desertification, Lake Chad shrinkage, and recurrent flooding hit rain-fed subsistence agriculture; among the most climate-vulnerable, least-prepared states. (World Bank; ND-GAIN)"
+          "confidence": 0.74,
+          "notes": "ND-GAIN bottom-5 - severe Sahel drought, desertification, Lake Chad collapse, recurrent flood, least-prepared. (ND-GAIN; WB)"
         },
         "healthcare": {
           "score": -7,
@@ -227,13 +228,13 @@
   },
   "decisions": {
     "living": {
-      "score": -4.55,
+      "score": -4.59,
       "confidence": 0.72,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -3.27,
+      "score": -3.29,
       "confidence": 0.73,
       "horizon": "3-7y",
       "reading": "clear negative"

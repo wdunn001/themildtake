@@ -188,18 +188,18 @@
       }
     },
     "physical_practical": {
-      "score": -2,
-      "confidence": 0.7,
+      "score": -2.4,
+      "confidence": 0.71,
       "skew": "negative",
       "notes": "A universal-health system and affordable private tier, against very high violent crime, weak logistics, and Amazon/climate exposure.",
       "sub_factors": {
         "climate": {
-          "score_near": -2,
-          "score_long": -3,
+          "score_near": -4,
+          "score_long": -6,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.7,
-          "notes": "2024 Rio Grande do Sul floods, record Amazon drought/fires, and deforestation tipping-point risk. (Munich Re; Mongabay)"
+          "confidence": 0.75,
+          "notes": "Amazon dieback/tipping-point stress plus Northeast drought plus 2024 record fires/floods. (IPCC AR6; ND-GAIN)"
         },
         "healthcare": {
           "score": 1,
@@ -230,13 +230,13 @@
   },
   "decisions": {
     "living": {
-      "score": 0.32,
+      "score": 0.22,
       "confidence": 0.72,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.45,
+      "score": 0.39,
       "confidence": 0.74,
       "horizon": "3-7y",
       "reading": "mixed"

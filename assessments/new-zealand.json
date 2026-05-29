@@ -186,18 +186,18 @@
       }
     },
     "physical_practical": {
-      "score": 0.2,
-      "confidence": 0.69,
+      "score": 0.3,
+      "confidence": 0.71,
       "skew": "negative",
       "notes": "Very low crime, against a strained public-health system, an infrastructure deficit, and seismic/storm exposure.",
       "sub_factors": {
         "climate": {
-          "score_near": -2,
+          "score_near": -1,
           "score_long": -3,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.65,
-          "notes": "High seismic, flood, and ex-tropical-cyclone exposure (2023 Cyclone Gabrielle ~NZ$14.5bn), rising in frequency. (academic; insurance)"
+          "confidence": 0.78,
+          "notes": "Temperate, resilient, high-readiness, but rising coastal-flood/managed-retreat costs and 2023 Cyclone Gabrielle signal worsening exposure. (IPCC AR6; ND-GAIN)"
         },
         "healthcare": {
           "score": 0,
@@ -228,14 +228,14 @@
   },
   "decisions": {
     "living": {
-      "score": 2.33,
+      "score": 2.3,
       "confidence": 0.75,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
       "score": 2.03,
-      "confidence": 0.75,
+      "confidence": 0.76,
       "horizon": "3-7y",
       "reading": "mixed"
     },

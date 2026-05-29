@@ -182,7 +182,7 @@
       }
     },
     "physical_practical": {
-      "score": -2.2,
+      "score": -2.1,
       "confidence": 0.68,
       "skew": "negative",
       "notes": "Good regional infrastructure, against drought/flood exposure, an underfunded health system, and elevated crime.",
@@ -190,8 +190,8 @@
         "climate": {
           "score": -5,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "Horn-of-Africa drought plus deadly 2024 floods, with rain-dependent agriculture. (World Bank; KNBS)"
+          "confidence": 0.78,
+          "notes": "Horn drought plus deadly 2024 floods on a rain-dependent agriculture, with relatively better regional readiness. (ND-GAIN; WB)"
         },
         "healthcare": {
           "score": -2,
@@ -222,13 +222,13 @@
   },
   "decisions": {
     "living": {
-      "score": -0.4,
+      "score": -0.39,
       "confidence": 0.73,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.44,
+      "score": 0.45,
       "confidence": 0.76,
       "horizon": "3-7y",
       "reading": "mixed"

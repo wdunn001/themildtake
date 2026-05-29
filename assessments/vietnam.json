@@ -192,18 +192,18 @@
       }
     },
     "physical_practical": {
-      "score": -0.4,
-      "confidence": 0.67,
+      "score": -0.8,
+      "confidence": 0.69,
       "skew": "negative",
       "notes": "Low crime and fast-improving infrastructure, against severe Mekong/typhoon climate exposure and thin catastrophe insurance.",
       "sub_factors": {
         "climate": {
-          "score_near": -5,
+          "score_near": -6,
           "score_long": -8,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.78,
-          "notes": "Among the world's most climate-exposed: Mekong Delta subsidence outpacing sea-level rise, salinity threatening the rice bowl, and intensifying typhoons. (World Bank; Nature)"
+          "confidence": 0.88,
+          "notes": "The Mekong and Red River deltas - sea-level rise, salinity, subsidence, typhoons; a top global delta vulnerability, improving readiness. (IPCC AR6; WB CCDR)"
         },
         "healthcare": {
           "score": 1,
@@ -234,13 +234,13 @@
   },
   "decisions": {
     "living": {
-      "score": -0.78,
-      "confidence": 0.73,
+      "score": -0.81,
+      "confidence": 0.74,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.33,
+      "score": 0.3,
       "confidence": 0.75,
       "horizon": "3-7y",
       "reading": "mixed"

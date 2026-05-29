@@ -186,16 +186,18 @@
       }
     },
     "physical_practical": {
-      "score": -4,
-      "confidence": 0.7,
+      "score": -3.9,
+      "confidence": 0.69,
       "skew": "negative",
       "notes": "Andean water stress and Amazon wildfires, against a relatively low homicide rate.",
       "sub_factors": {
         "climate": {
-          "score": -5,
+          "score_near": -5,
+          "score_long": -7,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "Andean glacial-melt water stress (the capital's supply) and record 2024 Amazon wildfires, with flood/drought. (IAEA; Copernicus)"
+          "confidence": 0.75,
+          "notes": "Andean glacier loss (La Paz/El Alto water) plus Amazon/Chiquitano drought-fire, high vulnerability, low readiness. (ND-GAIN)"
         },
         "healthcare": {
           "score": -5,
@@ -226,13 +228,13 @@
   },
   "decisions": {
     "living": {
-      "score": -3.25,
-      "confidence": 0.72,
+      "score": -3.31,
+      "confidence": 0.71,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -4.07,
+      "score": -4.08,
       "confidence": 0.74,
       "horizon": "3-7y",
       "reading": "clear negative"

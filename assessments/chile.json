@@ -188,18 +188,18 @@
       }
     },
     "physical_practical": {
-      "score": 1,
-      "confidence": 0.79,
+      "score": 1.4,
+      "confidence": 0.77,
       "skew": "negative",
       "notes": "Best-in-region infrastructure and a seismic-aware insurance market, against a seismic/megadrought/wildfire tail and rising crime.",
       "sub_factors": {
         "climate": {
-          "score_near": -2,
-          "score_long": -3,
+          "score_near": 0,
+          "score_long": -1,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.82,
-          "notes": "A seismic mega-hazard plus a 2010-22 megadrought/central water stress and deadly 2024 Valparaiso fires. (USGS; NASA EO)"
+          "confidence": 0.7,
+          "notes": "High readiness but a mega-drought plus water stress plus coastal exposure - near-neutral, slightly worse long. (WB CCDR)"
         },
         "healthcare": {
           "score": 2,
@@ -232,14 +232,14 @@
   },
   "decisions": {
     "living": {
-      "score": 2.73,
+      "score": 2.8,
       "confidence": 0.82,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 3.24,
-      "confidence": 0.84,
+      "score": 3.29,
+      "confidence": 0.83,
       "horizon": "3-7y",
       "reading": "clear positive"
     },

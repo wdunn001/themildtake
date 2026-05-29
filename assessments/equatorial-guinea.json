@@ -186,18 +186,18 @@
       }
     },
     "physical_practical": {
-      "score": -4.1,
+      "score": -4.9,
       "confidence": 0.55,
       "skew": "negative",
       "notes": "Weak outcomes despite top per-capita wealth - a hallmark of the diverted-rents model.",
       "sub_factors": {
         "climate": {
-          "score_near": -1,
-          "score_long": -2,
+          "score_near": -5,
+          "score_long": -6,
           "score": null,
           "weight": 0.2,
           "confidence": 0.55,
-          "notes": "Tropical/coastal exposure but not a Sahel-grade hazard zone, with thin adaptation capacity. (World Bank; inference)"
+          "notes": "A low-readiness oil state with coastal-flood exposure and weak adaptive institutions despite income. (ND-GAIN; WB)"
         },
         "healthcare": {
           "score": -6,
@@ -228,13 +228,13 @@
   },
   "decisions": {
     "living": {
-      "score": -5.18,
+      "score": -5.27,
       "confidence": 0.67,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -3.53,
+      "score": -3.59,
       "confidence": 0.7,
       "horizon": "3-7y",
       "reading": "clear negative"

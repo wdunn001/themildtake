@@ -195,17 +195,17 @@
     },
     "physical_practical": {
       "score": 0,
-      "confidence": 0.71,
+      "confidence": 0.68,
       "skew": "negative",
       "notes": "A debt-financed infrastructure build-out and a public-health win, against a severe water/climate tail.",
       "sub_factors": {
         "climate": {
-          "score_near": -4,
+          "score_near": -5,
           "score_long": -7,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "Acute water scarcity (97% Nile-reliant under a GERD threat), a top sea-level-hotspot Delta, and extreme heat. (IPCC; Atlantic Council)"
+          "confidence": 0.72,
+          "notes": "An acute Nile-Delta sea-level/saline-intrusion threat plus extreme heat/water scarcity - exposure existential by 2050. (ND-GAIN; IPCC AR6)"
         },
         "healthcare": {
           "score": 1,
@@ -236,7 +236,7 @@
   },
   "decisions": {
     "living": {
-      "score": -3.03,
+      "score": -3.01,
       "confidence": 0.75,
       "horizon": "5-10y",
       "reading": "clear negative"

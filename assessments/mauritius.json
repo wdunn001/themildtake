@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": 2.3,
-      "confidence": 0.7,
+      "score": 2.9,
+      "confidence": 0.67,
       "skew": "symmetric",
       "notes": "Strong infrastructure and healthcare, against acute SIDS cyclone exposure.",
       "sub_factors": {
         "climate": {
-          "score": -4,
+          "score_near": -2,
+          "score_long": -4,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "A SIDS highly exposed to cyclones, floods, and sea-level rise - climate losses ~0.8% of GDP/year, plus a 2024 drought. (World Bank CCDR)"
+          "confidence": 0.66,
+          "notes": "An Indian-Ocean SIDS with cyclone plus sea-level exposure, but by far the highest African adaptive readiness (top-half ND-GAIN). (ND-GAIN; IPCC SIDS)"
         },
         "healthcare": {
           "score": 5,
@@ -222,13 +224,13 @@
   },
   "decisions": {
     "living": {
-      "score": 3.5,
+      "score": 3.54,
       "confidence": 0.73,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 3.26,
+      "score": 3.31,
       "confidence": 0.75,
       "horizon": "3-7y",
       "reading": "clear positive"

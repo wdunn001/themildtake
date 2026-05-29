@@ -188,16 +188,18 @@
       }
     },
     "physical_practical": {
-      "score": -0.7,
-      "confidence": 0.65,
+      "score": -0.6,
+      "confidence": 0.62,
       "skew": "negative",
       "notes": "Decent regional infrastructure and relative safety, against flooding and illegal-mining environmental damage.",
       "sub_factors": {
         "climate": {
-          "score": -4,
+          "score_near": -4,
+          "score_long": -5,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "Flooding, coastal erosion, northern drought, and illegal-mining ('galamsey') water and forest destruction. (ADF)"
+          "confidence": 0.66,
+          "notes": "Coastal erosion (Keta/Volta) and northern drought, with relatively better governance/readiness. (ND-GAIN; WB CCDR)"
         },
         "healthcare": {
           "score": 0,
@@ -229,12 +231,12 @@
   "decisions": {
     "living": {
       "score": 2.2,
-      "confidence": 0.76,
+      "confidence": 0.75,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 2.01,
+      "score": 2.03,
       "confidence": 0.78,
       "horizon": "3-7y",
       "reading": "mixed"

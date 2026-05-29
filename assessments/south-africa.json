@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": -3.3,
+      "score": -3.1,
       "confidence": 0.74,
       "skew": "negative",
       "notes": "A functional insurance market, against very high violent crime, two-tier healthcare, and fragile infrastructure.",
       "sub_factors": {
         "climate": {
-          "score": -4,
+          "score_near": -3,
+          "score_long": -4,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.7,
-          "notes": "A drought/water crisis (the Cape Town 'Day Zero' legacy) and floods, with a coal-heavy, contested energy transition. (World Bank)"
+          "confidence": 0.72,
+          "notes": "The highest-readiness state in sub-Saharan Africa - severe drought (Cape Town 'Day Zero')/water stress, but real adaptive capacity. (ND-GAIN; WB CCDR)"
         },
         "healthcare": {
           "score": -3,
@@ -222,13 +224,13 @@
   },
   "decisions": {
     "living": {
-      "score": 0.68,
+      "score": 0.67,
       "confidence": 0.78,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.98,
+      "score": 0.99,
       "confidence": 0.79,
       "horizon": "3-7y",
       "reading": "mixed"

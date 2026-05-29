@@ -202,18 +202,18 @@
       }
     },
     "physical_practical": {
-      "score": -2.2,
+      "score": -2.6,
       "confidence": 0.68,
       "skew": "negative",
       "notes": "An existentially below-sea-level coast, with oil-funded health/infrastructure build-out and low crime.",
       "sub_factors": {
         "climate": {
-          "score_near": -4,
-          "score_long": -5,
+          "score_near": -6,
+          "score_long": -9,
           "score": null,
           "weight": 0.2,
           "confidence": 0.8,
-          "notes": "~90% of the population and most activity sit on a coastal belt 1-3m below sea level, with local sea-level rise above the global average - existential flood/inundation exposure. (World Bank)"
+          "notes": "The capital plus ~90% of the population on a coast below sea level behind an aging seawall - severe SLR exposure. (WB CCDR)"
         },
         "healthcare": {
           "score_near": -2,
@@ -250,13 +250,13 @@
   },
   "decisions": {
     "living": {
-      "score": 0.16,
+      "score": 0.02,
       "confidence": 0.68,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.95,
+      "score": 0.88,
       "confidence": 0.7,
       "horizon": "3-7y",
       "reading": "mixed"

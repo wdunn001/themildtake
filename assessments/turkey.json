@@ -196,18 +196,18 @@
       }
     },
     "physical_practical": {
-      "score": -0.1,
-      "confidence": 0.72,
+      "score": 0.4,
+      "confidence": 0.71,
       "skew": "negative",
       "notes": "Strong healthcare and modern western infrastructure, against a catastrophic seismic mega-hazard and water stress.",
       "sub_factors": {
         "climate": {
-          "score_near": -5,
-          "score_long": -6,
+          "score_near": -3,
+          "score_long": -4,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "A catastrophic seismic mega-hazard (the 2023 Kahramanmaras quake killed ~50,000; a high-probability major Istanbul quake within a decade) plus drought, heat, and severe water stress. (AFAD; seismology consensus)"
+          "confidence": 0.75,
+          "notes": "Mediterranean drought/heat intensification, water stress, wildfire, with relatively high adaptive capacity. (IPCC AR6; ND-GAIN)"
         },
         "healthcare": {
           "score": 2,
@@ -238,13 +238,13 @@
   },
   "decisions": {
     "living": {
-      "score": -2.4,
+      "score": -2.33,
       "confidence": 0.72,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.39,
+      "score": -1.34,
       "confidence": 0.72,
       "horizon": "3-7y",
       "reading": "mixed"

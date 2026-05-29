@@ -200,16 +200,18 @@
       }
     },
     "physical_practical": {
-      "score": 0.1,
+      "score": -0.7,
       "confidence": 0.69,
       "skew": "negative",
       "notes": "Below the main hurricane belt and relatively developed, against record gang violence.",
       "sub_factors": {
         "climate": {
-          "score": 1,
+          "score_near": -3,
+          "score_long": -5,
+          "score": null,
           "weight": 0.2,
           "confidence": 0.7,
-          "notes": "Largely south of the main hurricane belt (lower storm risk than most of the Caribbean), but with flooding and an oil-dependent emissions profile. (general)"
+          "notes": "A higher-income, lower-hurricane-frequency SIDS, but coastal/SLR plus ecosystem stress, with an oil economy limiting transition readiness. (ND-GAIN)"
         },
         "healthcare": {
           "score": 1,
@@ -242,13 +244,13 @@
   },
   "decisions": {
     "living": {
-      "score": 0.65,
+      "score": 0.48,
       "confidence": 0.74,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.37,
+      "score": 0.28,
       "confidence": 0.75,
       "horizon": "3-7y",
       "reading": "mixed"

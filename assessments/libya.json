@@ -188,16 +188,18 @@
       }
     },
     "physical_practical": {
-      "score": -6,
-      "confidence": 0.57,
+      "score": -5.5,
+      "confidence": 0.55,
       "skew": "negative",
       "notes": "Desert heat and a catastrophic 2023 flood, atop war-damaged infrastructure.",
       "sub_factors": {
         "climate": {
-          "score": -7,
+          "score_near": -5,
+          "score_long": -6,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.7,
-          "notes": "Extreme desert heat, water scarcity, and the catastrophic 2023 Derna dam-flood. (Amnesty; Science Advances)"
+          "confidence": 0.62,
+          "notes": "Extreme aridity/heat plus Derna-2023-style flash-flood risk, with conflict-collapsed adaptive governance despite oil. (ND-GAIN; Germanwatch CRI)"
         },
         "healthcare": {
           "score": -5,
@@ -228,13 +230,13 @@
   },
   "decisions": {
     "living": {
-      "score": -6.06,
+      "score": -6.02,
       "confidence": 0.56,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -5.41,
+      "score": -5.37,
       "confidence": 0.56,
       "horizon": "3-7y",
       "reading": "clear negative"

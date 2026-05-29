@@ -190,10 +190,12 @@
       "notes": "Relatively good infrastructure and better-resourced healthcare, against hurricane exposure and high crime.",
       "sub_factors": {
         "climate": {
-          "score": -6,
+          "score_near": -6,
+          "score_long": -8,
+          "score": null,
           "weight": 0.2,
           "confidence": 0.8,
-          "notes": "Hurricane-exposed - spared Beryl's worst but in the Atlantic track. (CCRIF context)"
+          "notes": "A small two-island SIDS - hurricane belt plus coastal/tourism dependence plus SLR. (IPCC AR6 SIDS)"
         },
         "healthcare": {
           "score": 0,
@@ -224,13 +226,13 @@
   },
   "decisions": {
     "living": {
-      "score": 1.57,
+      "score": 1.5,
       "confidence": 0.62,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 1.09,
+      "score": 1.07,
       "confidence": 0.69,
       "horizon": "3-7y",
       "reading": "mixed"

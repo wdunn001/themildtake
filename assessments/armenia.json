@@ -188,16 +188,18 @@
       }
     },
     "physical_practical": {
-      "score": -0.8,
-      "confidence": 0.63,
+      "score": -0.6,
+      "confidence": 0.62,
       "skew": "negative",
       "notes": "Major seismic risk and blockaded, energy-dependent geography, with low crime a strength.",
       "sub_factors": {
         "climate": {
-          "score": -4,
+          "score_near": -3,
+          "score_long": -4,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.75,
-          "notes": "Major seismic risk near cities, plus water/drought and landlocked geography. (PreventionWeb; GFDRR)"
+          "confidence": 0.7,
+          "notes": "Mid-low vulnerability, moderate readiness - warming, water stress, agricultural exposure in the landlocked South Caucasus. (ND-GAIN; IPCC AR6)"
         },
         "healthcare": {
           "score": 0,
@@ -228,13 +230,13 @@
   },
   "decisions": {
     "living": {
-      "score": 0.78,
+      "score": 0.79,
       "confidence": 0.67,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.75,
+      "score": 0.77,
       "confidence": 0.7,
       "horizon": "3-7y",
       "reading": "mixed"

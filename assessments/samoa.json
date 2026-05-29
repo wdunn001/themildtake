@@ -187,17 +187,17 @@
     },
     "physical_practical": {
       "score": -3.5,
-      "confidence": 0.69,
+      "confidence": 0.68,
       "skew": "negative",
       "notes": "Relatively better regional infrastructure, against a crushing NCD burden and cyclone/tsunami exposure.",
       "sub_factors": {
         "climate": {
           "score_near": -5,
-          "score_long": -6,
+          "score_long": -7,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "High cyclone and tsunami exposure (the 2009 tsunami killed ~149 in Samoa), worsening with sea-level rise. (NOAA; UNEP)"
+          "confidence": 0.74,
+          "notes": "Cyclone/SLR/coastal-erosion exposure (and the 2009 tsunami) concentrated on the low coastal strip where most live. (WB Pacific CCDR)"
         },
         "healthcare": {
           "score": -4,
@@ -228,7 +228,7 @@
   },
   "decisions": {
     "living": {
-      "score": 0.19,
+      "score": 0.17,
       "confidence": 0.64,
       "horizon": "5-10y",
       "reading": "mixed"

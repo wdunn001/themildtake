@@ -202,18 +202,18 @@
       }
     },
     "physical_practical": {
-      "score": -0.4,
-      "confidence": 0.74,
+      "score": 0.3,
+      "confidence": 0.72,
       "skew": "negative",
       "notes": "Decent healthcare and moderate crime, against decaying infrastructure and drought exposure.",
       "sub_factors": {
         "climate": {
-          "score_near": -2,
-          "score_long": -2,
+          "score_near": 1,
+          "score_long": 0,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "Recurrent drought hits agriculture/FX hard; otherwise temperate with a low catastrophe tail. (NASA-class)"
+          "confidence": 0.7,
+          "notes": "Southern-cone temperate, moderate readiness - Pampas drought plus Andean melt offset the latitude upside. (WB CCDR)"
         },
         "healthcare": {
           "score": 2,
@@ -246,13 +246,13 @@
   },
   "decisions": {
     "living": {
-      "score": 1.4,
+      "score": 1.47,
       "confidence": 0.77,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 1.86,
+      "score": 1.92,
       "confidence": 0.79,
       "horizon": "3-7y",
       "reading": "mixed"

@@ -190,18 +190,18 @@
       }
     },
     "physical_practical": {
-      "score": 3.2,
-      "confidence": 0.76,
+      "score": 2.8,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "Modern healthcare and infrastructure and very low crime, against extreme heat and water scarcity long-term.",
       "sub_factors": {
         "climate": {
-          "score_near": -2,
-          "score_long": -6,
+          "score_near": -4,
+          "score_long": -7,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "Extreme heat and acute water scarcity with heavy desalination dependence - severe long-term. (World Bank; IPCC)"
+          "confidence": 0.8,
+          "notes": "Extreme heat (Hajj wet-bulb risk), desert water scarcity, desal dependence, with a wealth/readiness partial offset. (IPCC AR6; WB CCDR)"
         },
         "healthcare": {
           "score": 4,
@@ -232,13 +232,13 @@
   },
   "decisions": {
     "living": {
-      "score": -1.01,
+      "score": -1.03,
       "confidence": 0.79,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.12,
+      "score": 0.09,
       "confidence": 0.79,
       "horizon": "3-7y",
       "reading": "mixed"

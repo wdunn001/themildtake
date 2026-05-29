@@ -186,18 +186,18 @@
       }
     },
     "physical_practical": {
-      "score": 4.8,
+      "score": 4.5,
       "confidence": 0.73,
       "skew": "positive",
       "notes": "World-class infrastructure, healthcare, and safety, against extreme heat and water scarcity long-term.",
       "sub_factors": {
         "climate": {
-          "score_near": -3,
+          "score_near": -4,
           "score_long": -7,
           "score": null,
           "weight": 0.2,
           "confidence": 0.8,
-          "notes": "Extreme heat and hyper-aridity with ~99% desalination dependence and minimal water storage. (ICE; UN)"
+          "notes": "Extreme/near-unliveable wet-bulb heat by mid-century, desal-dependent water, coastal exposure, with very high wealth/AC offset. (IPCC AR6; WB)"
         },
         "healthcare": {
           "score": 7,
@@ -234,7 +234,7 @@
       "reading": "mixed"
     },
     "assets": {
-      "score": 2.54,
+      "score": 2.53,
       "confidence": 0.78,
       "horizon": "3-7y",
       "reading": "mixed"

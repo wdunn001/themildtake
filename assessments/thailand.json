@@ -194,18 +194,18 @@
       }
     },
     "physical_practical": {
-      "score": 2,
-      "confidence": 0.71,
+      "score": 1.9,
+      "confidence": 0.72,
       "skew": "negative",
       "notes": "Standout affordable universal healthcare and decent core infrastructure, against serious flood/heat exposure.",
       "sub_factors": {
         "climate": {
           "score_near": -3,
-          "score_long": -6,
+          "score_long": -5,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.7,
-          "notes": "Recurrent floods (a 2011 mega-flood legacy), extreme heat, and Bangkok subsidence plus sea-level rise. (IMF; observed)"
+          "confidence": 0.78,
+          "notes": "Bangkok delta subsidence/sea-level, flooding (2011), drought, coastal exposure, moderate readiness. (WB CCDR; IPCC AR6)"
         },
         "healthcare": {
           "score": 6,
@@ -236,7 +236,7 @@
   },
   "decisions": {
     "living": {
-      "score": -0.27,
+      "score": -0.26,
       "confidence": 0.75,
       "horizon": "5-10y",
       "reading": "mixed"

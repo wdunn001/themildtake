@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": -4,
-      "confidence": 0.6,
+      "score": -4.2,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "Acute cyclone and volcanic exposure, with a severely under-resourced health system.",
       "sub_factors": {
         "climate": {
-          "score": -5,
+          "score_near": -6,
+          "score_long": -8,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.7,
-          "notes": "High exposure to cyclones (Chido, Dec 2024 affected ~64,000) and flooding, with climate-driven supply shocks. (IMF; ReliefWeb/OCHA)"
+          "confidence": 0.6,
+          "notes": "An Indian-Ocean SIDS - cyclones, coastal/sea-level exposure, freshwater scarcity, very low readiness. (ND-GAIN; IPCC SIDS)"
         },
         "healthcare": {
           "score": -4,
@@ -222,13 +224,13 @@
   },
   "decisions": {
     "living": {
-      "score": -2.03,
-      "confidence": 0.63,
+      "score": -2.1,
+      "confidence": 0.62,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.15,
+      "score": -1.18,
       "confidence": 0.65,
       "horizon": "3-7y",
       "reading": "mixed"

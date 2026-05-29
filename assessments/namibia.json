@@ -184,16 +184,18 @@
       }
     },
     "physical_practical": {
-      "score": -0.3,
-      "confidence": 0.62,
+      "score": 0.2,
+      "confidence": 0.58,
       "skew": "negative",
       "notes": "Good regional infrastructure, against extreme aridity and drought.",
       "sub_factors": {
         "climate": {
-          "score": -5,
+          "score_near": -4,
+          "score_long": -5,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "Among SSA's driest; a severe 2023-24 El Nino drought emergency with chronic water stress. (UN OCHA)"
+          "confidence": 0.66,
+          "notes": "Extreme aridity (the driest in sub-Saharan Africa) and recurrent drought, with better governance/readiness offsets. (ND-GAIN; WB)"
         },
         "healthcare": {
           "score": 1,
@@ -224,13 +226,13 @@
   },
   "decisions": {
     "living": {
-      "score": 3.02,
-      "confidence": 0.72,
+      "score": 3.08,
+      "confidence": 0.71,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 2.69,
+      "score": 2.74,
       "confidence": 0.74,
       "horizon": "3-7y",
       "reading": "mixed"

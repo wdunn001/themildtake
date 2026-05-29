@@ -186,18 +186,18 @@
       }
     },
     "physical_practical": {
-      "score": 6.2,
-      "confidence": 0.83,
+      "score": 6.1,
+      "confidence": 0.82,
       "skew": "symmetric",
       "notes": "World-class infrastructure, healthcare, and safety; the long-run drag is Alpine climate change, and healthcare is expensive.",
       "sub_factors": {
         "climate": {
-          "score_near": 1,
+          "score_near": 0,
           "score_long": -2,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.75,
-          "notes": "Alpine glacier melt and permafrost/rockfall hazard, but highly adaptive and otherwise low extreme exposure. (FOEN/MeteoSwiss)"
+          "confidence": 0.7,
+          "notes": "The wealthiest adapter but with acute Alpine glacier collapse, rockfall, snow loss, and river-flood; long down despite top readiness. (ND-GAIN; IPCC AR6 mountains)"
         },
         "healthcare": {
           "score": 6,
@@ -228,7 +228,7 @@
   },
   "decisions": {
     "living": {
-      "score": 6.58,
+      "score": 6.6,
       "confidence": 0.84,
       "horizon": "5-10y",
       "reading": "clear positive"

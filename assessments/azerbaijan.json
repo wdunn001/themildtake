@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": -1.2,
-      "confidence": 0.66,
+      "score": -0.8,
+      "confidence": 0.63,
       "skew": "negative",
       "notes": "Oil-funded Baku modernisation, against Caspian decline and seismic exposure.",
       "sub_factors": {
         "climate": {
-          "score": -4,
+          "score_near": -3,
+          "score_long": -4,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "The Caspian fell sharply over five years (hitting ports and oil terminals), with water stress and heat. (Nature Communications Earth & Environment)"
+          "confidence": 0.7,
+          "notes": "Caspian level decline, heat and drought, water stress, with an oil-revenue buffer and middling readiness. (WB CCDR; IPCC AR6)"
         },
         "healthcare": {
           "score": -1,
@@ -223,13 +225,13 @@
   "decisions": {
     "living": {
       "score": -3.29,
-      "confidence": 0.78,
+      "confidence": 0.77,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -2.14,
-      "confidence": 0.78,
+      "score": -2.12,
+      "confidence": 0.77,
       "horizon": "3-7y",
       "reading": "mixed"
     },

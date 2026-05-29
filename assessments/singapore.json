@@ -191,17 +191,17 @@
     },
     "physical_practical": {
       "score": 6.3,
-      "confidence": 0.79,
+      "confidence": 0.81,
       "skew": "positive",
       "notes": "World-class infrastructure, healthcare, and safety; the rising tail is sea-level for a low island city-state.",
       "sub_factors": {
         "climate": {
-          "score_near": -3,
-          "score_long": -6,
+          "score_near": -2,
+          "score_long": -3,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.72,
-          "notes": "~30% of the island is under 5m elevation with significant sea-level and heat exposure; strong adaptation (S$100bn+ committed) but rising long-run risk. (NCCS; PUB)"
+          "confidence": 0.8,
+          "notes": "Resilient/very high readiness, but equatorial heat-humidity and sea-level rise on a low-lying island-state are structural. (IPCC AR6; ND-GAIN)"
         },
         "healthcare": {
           "score": 9,
@@ -232,14 +232,14 @@
   },
   "decisions": {
     "living": {
-      "score": 3.78,
+      "score": 3.84,
       "confidence": 0.8,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 5.18,
-      "confidence": 0.79,
+      "score": 5.2,
+      "confidence": 0.8,
       "horizon": "3-7y",
       "reading": "clear positive"
     },

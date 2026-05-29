@@ -190,16 +190,18 @@
       }
     },
     "physical_practical": {
-      "score": -9,
-      "confidence": 0.6,
+      "score": -8.7,
+      "confidence": 0.65,
       "skew": "negative",
       "notes": "A collapsed health system amid famine, war-destroyed infrastructure, and extreme water scarcity.",
       "sub_factors": {
         "climate": {
-          "score": -8,
+          "score_near": -7,
+          "score_long": -8,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.6,
-          "notes": "Among the world's most water-stressed, with drought, flood, and extreme heat. (World Bank; UN)"
+          "confidence": 0.85,
+          "notes": "Acute water depletion, extreme heat, flood, with readiness collapsed by war/famine - near-existential adaptive failure. (WB; IPCC AR6; ND-GAIN)"
         },
         "healthcare": {
           "score": -10,
@@ -231,12 +233,12 @@
   "decisions": {
     "living": {
       "score": -7.64,
-      "confidence": 0.56,
+      "confidence": 0.57,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -7.33,
+      "score": -7.32,
       "confidence": 0.58,
       "horizon": "3-7y",
       "reading": "clear negative"

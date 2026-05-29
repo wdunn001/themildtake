@@ -192,16 +192,18 @@
       }
     },
     "physical_practical": {
-      "score": -1.5,
-      "confidence": 0.64,
+      "score": -1.4,
+      "confidence": 0.61,
       "skew": "negative",
       "notes": "Relatively good regional infrastructure, against Sahel drought, coastal erosion, and weak healthcare.",
       "sub_factors": {
         "climate": {
-          "score": -5,
+          "score_near": -5,
+          "score_long": -6,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "Sahel drought, chronic capital flooding, severe coastal erosion, and heat. (UNICEF)"
+          "confidence": 0.66,
+          "notes": "Sahel drought plus low-lying Dakar/Saint-Louis coastal erosion and sea-level, moderate readiness. (ND-GAIN; IPCC AR6)"
         },
         "healthcare": {
           "score": -2,
@@ -238,7 +240,7 @@
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.14,
+      "score": 0.15,
       "confidence": 0.74,
       "horizon": "3-7y",
       "reading": "mixed"

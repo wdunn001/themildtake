@@ -184,18 +184,18 @@
       }
     },
     "physical_practical": {
-      "score": -2.6,
+      "score": -2.8,
       "confidence": 0.69,
       "skew": "negative",
       "notes": "The best system in Melanesia, against severe cyclone exposure and a meth-driven crime surge.",
       "sub_factors": {
         "climate": {
-          "score_near": -4,
-          "score_long": -6,
+          "score_near": -5,
+          "score_long": -7,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.75,
-          "notes": "Severe tropical-cyclone, flood, and sea-level exposure (Cyclone Winston 2016 was catastrophic), with relatively proactive adaptation. (WHO; PreventionWeb)"
+          "confidence": 0.78,
+          "notes": "High cyclone/SLR exposure (TC Winston 2016, the costliest S. Hemisphere cyclone), moderate adaptive capacity, relocating coastal villages. (WB Pacific CCDR)"
         },
         "healthcare": {
           "score": -2,
@@ -226,13 +226,13 @@
   },
   "decisions": {
     "living": {
-      "score": 0.79,
+      "score": 0.74,
       "confidence": 0.67,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.93,
+      "score": 0.91,
       "confidence": 0.71,
       "horizon": "3-7y",
       "reading": "mixed"

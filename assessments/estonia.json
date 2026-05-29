@@ -192,16 +192,18 @@
       }
     },
     "physical_practical": {
-      "score": 5,
-      "confidence": 0.75,
+      "score": 5.2,
+      "confidence": 0.76,
       "skew": "symmetric",
       "notes": "Excellent digital infrastructure and low crime, with low catastrophe exposure.",
       "sub_factors": {
         "climate": {
-          "score": 3,
+          "score_near": 4,
+          "score_long": 6,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.68,
-          "notes": "Baltic, with low catastrophe exposure and an oil-shale-transition burden. (World Bank)"
+          "confidence": 0.7,
+          "notes": "A Baltic high-latitude winner - warming lengthens the growing season, milder winters, strong readiness; AMOC/Baltic-variability caveat. (ND-GAIN; Burke et al.)"
         },
         "healthcare": {
           "score": 5,
@@ -232,13 +234,13 @@
   },
   "decisions": {
     "living": {
-      "score": 4.51,
+      "score": 4.59,
       "confidence": 0.82,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 3.87,
+      "score": 3.9,
       "confidence": 0.82,
       "horizon": "3-7y",
       "reading": "clear positive"

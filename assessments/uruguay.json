@@ -188,18 +188,18 @@
       }
     },
     "physical_practical": {
-      "score": 2,
-      "confidence": 0.81,
+      "score": 2.2,
+      "confidence": 0.79,
       "skew": "negative",
       "notes": "Low catastrophe exposure and strong universal healthcare, against drought-driven water risk and elevated (if moderate) crime.",
       "sub_factors": {
         "climate": {
-          "score_near": 0,
-          "score_long": -1,
+          "score_near": 1,
+          "score_long": 0,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "A 2022-23 megadrought caused a months-long Montevideo water crisis; agriculture is rainfall-exposed; otherwise temperate with low catastrophe exposure. (NASA EO)"
+          "confidence": 0.7,
+          "notes": "Temperate, with the highest readiness in South America - drought plus coastal exposure cap the upside. (WB CCDR)"
         },
         "healthcare": {
           "score": 4,
@@ -232,13 +232,13 @@
   },
   "decisions": {
     "living": {
-      "score": 3.69,
+      "score": 3.74,
       "confidence": 0.84,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 3.72,
+      "score": 3.75,
       "confidence": 0.85,
       "horizon": "3-7y",
       "reading": "clear positive"

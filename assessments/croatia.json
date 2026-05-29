@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": 1.3,
-      "confidence": 0.77,
+      "score": 1.8,
+      "confidence": 0.74,
       "skew": "negative",
       "notes": "Good tourism-grade infrastructure and low crime, against climate and seismic exposure.",
       "sub_factors": {
         "climate": {
-          "score": -4,
+          "score_near": -3,
+          "score_long": -5,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "Warming above the global average with wildfire, drought, and flood, plus seismic risk (the 2020 Zagreb/Petrinja quakes). (OECD 2026; World Bank)"
+          "confidence": 0.7,
+          "notes": "Mediterranean (Dalmatia) heat, drought, wildfire, and sea-level/coastal stress. (EEA; IPCC AR6 Mediterranean)"
         },
         "healthcare": {
           "score": 2,
@@ -222,13 +224,13 @@
   },
   "decisions": {
     "living": {
-      "score": 2.69,
+      "score": 2.7,
       "confidence": 0.8,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 3.31,
+      "score": 3.34,
       "confidence": 0.82,
       "horizon": "3-7y",
       "reading": "clear positive"

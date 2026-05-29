@@ -186,16 +186,18 @@
       }
     },
     "physical_practical": {
-      "score": -2.5,
-      "confidence": 0.57,
+      "score": -2.6,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "Glacier-melt-driven winter energy crises and high seismic/landslide hazard.",
       "sub_factors": {
         "climate": {
-          "score": -4,
+          "score_near": -4,
+          "score_long": -6,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.7,
-          "notes": "Severe glacier melt and falling run-off - the Toktogul reservoir lost ~20% of its water in a year, driving winter energy crises. (Al-Monitor; IEA)"
+          "confidence": 0.8,
+          "notes": "Glacier melt threatening regional water security, plus GLOF and landslide risk, low readiness. (IPCC AR6 cryosphere; WB CCDR)"
         },
         "healthcare": {
           "score": -2,
@@ -226,13 +228,13 @@
   },
   "decisions": {
     "living": {
-      "score": -1.73,
-      "confidence": 0.63,
+      "score": -1.82,
+      "confidence": 0.64,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -0.9,
+      "score": -0.93,
       "confidence": 0.65,
       "horizon": "3-7y",
       "reading": "mixed"

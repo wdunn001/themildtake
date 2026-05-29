@@ -184,16 +184,18 @@
       }
     },
     "physical_practical": {
-      "score": -6.4,
-      "confidence": 0.67,
+      "score": -6.6,
+      "confidence": 0.68,
       "skew": "negative",
       "notes": "Collapsing infrastructure and a degraded health system, with worsening hurricane exposure.",
       "sub_factors": {
         "climate": {
-          "score": -5,
+          "score_near": -6,
+          "score_long": -8,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.7,
-          "notes": "Worsening hurricane exposure and drought. (UN News)"
+          "confidence": 0.75,
+          "notes": "A large low-lying island - frequent major hurricanes plus saltwater intrusion plus low economic readiness. (IPCC AR6 SIDS)"
         },
         "healthcare": {
           "score": -7,
@@ -226,13 +228,13 @@
   },
   "decisions": {
     "living": {
-      "score": -6.29,
+      "score": -6.38,
       "confidence": 0.68,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -5.92,
+      "score": -5.97,
       "confidence": 0.7,
       "horizon": "3-7y",
       "reading": "clear negative"

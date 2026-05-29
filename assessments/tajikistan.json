@@ -187,15 +187,17 @@
     },
     "physical_practical": {
       "score": -3.6,
-      "confidence": 0.55,
+      "confidence": 0.57,
       "skew": "negative",
       "notes": "Glacier-loss-driven winter energy crises, the region's poorest health system, and a major dam tail risk.",
       "sub_factors": {
         "climate": {
-          "score": -5,
+          "score_near": -5,
+          "score_long": -7,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.7,
-          "notes": "Severe glacier loss and falling run-off drive recurring winter energy crises (the Nurek reservoir down ~2.5m in a year). (Al-Monitor; Times of Central Asia)"
+          "confidence": 0.82,
+          "notes": "A Central Asia water tower - rapid glacier loss threatens regional water; GLOF, flood, low readiness, the poorest in the region. (IPCC AR6 cryosphere; WB CCDR)"
         },
         "healthcare": {
           "score": -4,
@@ -226,14 +228,14 @@
   },
   "decisions": {
     "living": {
-      "score": -4.04,
-      "confidence": 0.63,
+      "score": -4.13,
+      "confidence": 0.64,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -2.54,
-      "confidence": 0.63,
+      "score": -2.57,
+      "confidence": 0.64,
       "horizon": "3-7y",
       "reading": "mixed"
     },

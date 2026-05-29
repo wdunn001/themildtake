@@ -184,16 +184,18 @@
       }
     },
     "physical_practical": {
-      "score": -0.9,
-      "confidence": 0.58,
+      "score": -1,
+      "confidence": 0.57,
       "skew": "symmetric",
       "notes": "A world-class HIV/ART success (now donor-funding-exposed), against drought and inequality.",
       "sub_factors": {
         "climate": {
-          "score": -4,
+          "score_near": -5,
+          "score_long": -6,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.7,
-          "notes": "Drought-exposed (flat agriculture in 2024 on severe drought), with recurring water stress. (IMF; World Bank)"
+          "confidence": 0.62,
+          "notes": "Recurrent severe drought, heat, and rain-fed agriculture, with limited adaptive capacity. (ND-GAIN; WB)"
         },
         "healthcare": {
           "score": 1,
@@ -224,13 +226,13 @@
   },
   "decisions": {
     "living": {
-      "score": -2.01,
+      "score": -2.06,
       "confidence": 0.68,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1,
+      "score": -1.02,
       "confidence": 0.72,
       "horizon": "3-7y",
       "reading": "mixed"

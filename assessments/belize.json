@@ -187,15 +187,17 @@
     },
     "physical_practical": {
       "score": -3.1,
-      "confidence": 0.63,
+      "confidence": 0.62,
       "skew": "negative",
       "notes": "High hurricane/flood exposure and elevated (falling) gang crime, with improving but gappy services.",
       "sub_factors": {
         "climate": {
-          "score": -5,
+          "score_near": -5,
+          "score_long": -7,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "High hurricane/flood exposure as a low-lying coastal state, with a reef-dependent economy sensitive to warming. (IMF disaster-risk notes)"
+          "confidence": 0.75,
+          "notes": "Low coastal cays plus reef dependence plus a dry-corridor edge, high vulnerability. (WB CCDR)"
         },
         "healthcare": {
           "score": -2,
@@ -226,14 +228,14 @@
   },
   "decisions": {
     "living": {
-      "score": 1.03,
+      "score": 0.97,
       "confidence": 0.64,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.55,
-      "confidence": 0.67,
+      "score": 0.54,
+      "confidence": 0.66,
       "horizon": "3-7y",
       "reading": "mixed"
     },

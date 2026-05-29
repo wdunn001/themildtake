@@ -186,18 +186,18 @@
       }
     },
     "physical_practical": {
-      "score": 0.5,
+      "score": -0.2,
       "confidence": 0.76,
       "skew": "negative",
       "notes": "Strong-for-region health and infrastructure, against a hurricane tail (Beryl, 2024) and rising crime.",
       "sub_factors": {
         "climate": {
-          "score_near": -3,
-          "score_long": -5,
+          "score_near": -6,
+          "score_long": -8,
           "score": null,
           "weight": 0.2,
           "confidence": 0.8,
-          "notes": "Hurricane- and sea-level-exposed (Beryl, Cat 4, hit July 2024); less low-lying than the Bahamas, with an RSF-financed adaptation agenda a partial offset. (ECLAC/UN; IMF RSF)"
+          "notes": "High-readiness but acutely water-scarce SIDS - coral/coast loss plus hurricanes, worse with SLR. (Germanwatch CRI; IPCC)"
         },
         "healthcare": {
           "score": 3,
@@ -230,13 +230,13 @@
   },
   "decisions": {
     "living": {
-      "score": 2.52,
+      "score": 2.43,
       "confidence": 0.79,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 2.17,
+      "score": 2.11,
       "confidence": 0.81,
       "horizon": "3-7y",
       "reading": "mixed"

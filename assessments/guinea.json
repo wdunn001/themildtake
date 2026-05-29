@@ -186,16 +186,18 @@
       }
     },
     "physical_practical": {
-      "score": -4.4,
+      "score": -4.8,
       "confidence": 0.6,
       "skew": "negative",
       "notes": "Weak healthcare and infrastructure (mining corridors aside), notable crime/insecurity, and tropical climate exposure.",
       "sub_factors": {
         "climate": {
-          "score": -3,
+          "score_near": -5,
+          "score_long": -6,
+          "score": null,
           "weight": 0.2,
           "confidence": 0.6,
-          "notes": "Tropical flooding, mining-driven environmental degradation, and water-source damage, with moderate adaptation capacity. (World Bank; HRW)"
+          "notes": "Heavy-rainfall flooding, coastal exposure, mining-degraded land, weak readiness. (ND-GAIN; WB)"
         },
         "healthcare": {
           "score": -5,
@@ -226,13 +228,13 @@
   },
   "decisions": {
     "living": {
-      "score": -3.66,
+      "score": -3.74,
       "confidence": 0.66,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -2.34,
+      "score": -2.38,
       "confidence": 0.66,
       "horizon": "3-7y",
       "reading": "mixed"

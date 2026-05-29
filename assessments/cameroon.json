@@ -183,15 +183,17 @@
     },
     "physical_practical": {
       "score": -5.1,
-      "confidence": 0.65,
+      "confidence": 0.64,
       "skew": "negative",
       "notes": "Weak healthcare and infrastructure, high crime/conflict insecurity, and climate exposure.",
       "sub_factors": {
         "climate": {
-          "score": -5,
+          "score_near": -5,
+          "score_long": -6,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.7,
-          "notes": "Far-North drought/desertification and southern flooding, with rain-fed agriculture. (World Bank)"
+          "confidence": 0.64,
+          "notes": "Split far-north Sahel drought vs flood-prone south, Lake Chad shrinkage, weak readiness. (ND-GAIN; WB)"
         },
         "healthcare": {
           "score": -5,
@@ -222,13 +224,13 @@
   },
   "decisions": {
     "living": {
-      "score": -3.96,
+      "score": -3.99,
       "confidence": 0.72,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -2.61,
+      "score": -2.62,
       "confidence": 0.74,
       "horizon": "3-7y",
       "reading": "mixed"

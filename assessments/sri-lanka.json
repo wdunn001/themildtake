@@ -188,16 +188,18 @@
       }
     },
     "physical_practical": {
-      "score": -1,
-      "confidence": 0.7,
+      "score": -0.7,
+      "confidence": 0.69,
       "skew": "negative",
       "notes": "A historically strong health system, against severe climate exposure and thin catastrophe cover.",
       "sub_factors": {
         "climate": {
-          "score": -5,
+          "score_near": -4,
+          "score_long": -5,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "A 2025 cyclone caused mass casualties and ~4% of GDP in damage; a top-tier climate-risk and tsunami zone. (World Bank; UNDP)"
+          "confidence": 0.78,
+          "notes": "Island monsoon variability, flood/drought/landslide, coastal/sea-level exposure, with readiness strained by fiscal crisis. (ND-GAIN; IPCC AR6)"
         },
         "healthcare": {
           "score": 2,
@@ -228,13 +230,13 @@
   },
   "decisions": {
     "living": {
-      "score": 0.56,
+      "score": 0.58,
       "confidence": 0.7,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.82,
+      "score": 0.84,
       "confidence": 0.73,
       "horizon": "3-7y",
       "reading": "mixed"

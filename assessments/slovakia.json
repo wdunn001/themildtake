@@ -188,16 +188,18 @@
       }
     },
     "physical_practical": {
-      "score": 2,
-      "confidence": 0.7,
+      "score": 2.6,
+      "confidence": 0.69,
       "skew": "positive",
       "notes": "Good EU-funded infrastructure and low crime, against moderate flood/heat exposure.",
       "sub_factors": {
         "climate": {
-          "score": -2,
+          "score_near": 1,
+          "score_long": 0,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.7,
-          "notes": "Flood and heat exposure, moderate. (WMO)"
+          "confidence": 0.65,
+          "notes": "Temperate Central-European with good readiness, and Carpathian/Danube flood and drought exposure. (ND-GAIN; EEA)"
         },
         "healthcare": {
           "score": 2,
@@ -228,14 +230,14 @@
   },
   "decisions": {
     "living": {
-      "score": 0.26,
+      "score": 0.31,
       "confidence": 0.79,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.93,
-      "confidence": 0.83,
+      "score": 0.97,
+      "confidence": 0.82,
       "horizon": "3-7y",
       "reading": "mixed"
     },

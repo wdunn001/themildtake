@@ -188,18 +188,18 @@
       }
     },
     "physical_practical": {
-      "score": 2.5,
-      "confidence": 0.72,
+      "score": 3,
+      "confidence": 0.73,
       "skew": "symmetric",
       "notes": "Universal healthcare with access problems but strong aggregate outcomes; very low violent crime.",
       "sub_factors": {
         "climate": {
-          "score_near": 1,
-          "score_long": 2,
+          "score_near": 4,
+          "score_long": 6,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.65,
-          "notes": "Net beneficiary in parts (northern agriculture, heating); wildfire and Arctic/permafrost exposure; BC/Ontario favored."
+          "confidence": 0.7,
+          "notes": "A net beneficiary - high-latitude agriculture plus Arctic access, very high readiness; the wildfire/permafrost caveat caps it. (Burke et al.; ND-GAIN)"
         },
         "healthcare": {
           "score": 3,
@@ -230,13 +230,13 @@
   },
   "decisions": {
     "living": {
-      "score": 2.52,
+      "score": 2.63,
       "confidence": 0.76,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 1.72,
+      "score": 1.79,
       "confidence": 0.77,
       "horizon": "3-7y",
       "reading": "mixed"

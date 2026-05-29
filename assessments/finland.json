@@ -192,18 +192,18 @@
       }
     },
     "physical_practical": {
-      "score": 4.7,
-      "confidence": 0.76,
+      "score": 5.1,
+      "confidence": 0.77,
       "skew": "symmetric",
       "notes": "Low climate exposure, excellent infrastructure, and very low crime; healthcare strong with access waits.",
       "sub_factors": {
         "climate": {
-          "score_near": 3,
-          "score_long": 4,
+          "score_near": 5,
+          "score_long": 6,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.7,
-          "notes": "A cold-climate relative beneficiary with low extreme-weather exposure. (World Bank CKP)"
+          "confidence": 0.75,
+          "notes": "Among the clearest net beneficiaries - far-northern, top readiness, agricultural/forestry and winter upside; capped for transition volatility. (ND-GAIN; IPCC AR6; Burke et al.)"
         },
         "healthcare": {
           "score": 4,
@@ -234,14 +234,14 @@
   },
   "decisions": {
     "living": {
-      "score": 4.64,
+      "score": 4.69,
       "confidence": 0.82,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 3.79,
-      "confidence": 0.82,
+      "score": 3.83,
+      "confidence": 0.83,
       "horizon": "3-7y",
       "reading": "clear positive"
     },

@@ -190,16 +190,18 @@
       }
     },
     "physical_practical": {
-      "score": 3.9,
-      "confidence": 0.72,
+      "score": 4.3,
+      "confidence": 0.73,
       "skew": "symmetric",
       "notes": "Good infrastructure and energy independence, against medic emigration.",
       "sub_factors": {
         "climate": {
-          "score": 2,
+          "score_near": 4,
+          "score_long": 6,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.65,
-          "notes": "Moderate Baltic exposure with some flood/storm. (World Bank)"
+          "confidence": 0.7,
+          "notes": "A Baltic high-latitude beneficiary - warming-driven agricultural/season upside, good readiness; AMOC/Baltic caveat. (ND-GAIN; Burke et al.)"
         },
         "healthcare": {
           "score": 3,
@@ -230,13 +232,13 @@
   },
   "decisions": {
     "living": {
-      "score": 3.99,
+      "score": 4.09,
       "confidence": 0.79,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 3.43,
+      "score": 3.48,
       "confidence": 0.81,
       "horizon": "3-7y",
       "reading": "clear positive"

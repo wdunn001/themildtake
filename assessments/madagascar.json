@@ -189,7 +189,7 @@
     },
     "physical_practical": {
       "score": -5.9,
-      "confidence": 0.63,
+      "confidence": 0.62,
       "skew": "negative",
       "notes": "Among the most cyclone/drought-exposed states, with a chronic power crisis and weak health.",
       "sub_factors": {
@@ -198,8 +198,8 @@
           "score_long": -7,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.75,
-          "notes": "Among the most cyclone- and drought-exposed states - recurrent cyclones plus the Grand Sud drought/famine and locust shocks. (WFP; OCHA; ND-GAIN)"
+          "confidence": 0.72,
+          "notes": "Among the world's most cyclone-exposed - recurrent cyclones plus a southern near-famine drought, consistently high Germanwatch CRI, low readiness. (Germanwatch CRI; ND-GAIN)"
         },
         "healthcare": {
           "score": -6,

@@ -200,16 +200,18 @@
       }
     },
     "physical_practical": {
-      "score": 0.9,
+      "score": 1.1,
       "confidence": 0.71,
       "skew": "positive",
       "notes": "EU-upgraded infrastructure and low crime, against an underfunded health system and moderate climate exposure.",
       "sub_factors": {
         "climate": {
-          "score": -2,
+          "score_near": -1,
+          "score_long": -3,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.7,
-          "notes": "Drought/heat stress plus Danube/Tisza flood risk, moderate. (EEA)"
+          "confidence": 0.68,
+          "notes": "Pannonian-basin heat and intensifying drought on key agriculture, moderate readiness. (ND-GAIN; EEA)"
         },
         "healthcare": {
           "score": -3,
@@ -240,14 +242,14 @@
   },
   "decisions": {
     "living": {
-      "score": 0.77,
+      "score": 0.75,
       "confidence": 0.73,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
       "score": 0.7,
-      "confidence": 0.76,
+      "confidence": 0.75,
       "horizon": "3-7y",
       "reading": "mixed"
     },

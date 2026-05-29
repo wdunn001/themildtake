@@ -192,18 +192,18 @@
       }
     },
     "physical_practical": {
-      "score": -5.7,
+      "score": -5.9,
       "confidence": 0.66,
       "skew": "negative",
       "notes": "Among the world's most climate-vulnerable, with weak health and dispersed-archipelago infrastructure.",
       "sub_factors": {
         "climate": {
-          "score_near": -5,
+          "score_near": -6,
           "score_long": -8,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.75,
-          "notes": "Among the world's most climate-vulnerable - documented disappearance of low-lying reef islands, sea-level rise, cyclones, and king tides. (UNEP; peer-reviewed studies)"
+          "confidence": 0.76,
+          "notes": "Has already lost >=5 reef islands to SLR (Nuatambu etc.), high cyclone/flood exposure, the lowest adaptive capacity in the region. (IPCC AR6)"
         },
         "healthcare": {
           "score": -6,
@@ -240,7 +240,7 @@
       "reading": "mixed"
     },
     "assets": {
-      "score": -2.07,
+      "score": -2.08,
       "confidence": 0.63,
       "horizon": "3-7y",
       "reading": "mixed"

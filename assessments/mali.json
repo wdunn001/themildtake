@@ -191,15 +191,17 @@
     },
     "physical_practical": {
       "score": -7,
-      "confidence": 0.66,
+      "confidence": 0.65,
       "skew": "negative",
       "notes": "Severe Sahel climate stress, weak health, conflict-damaged infrastructure, and acute insecurity.",
       "sub_factors": {
         "climate": {
-          "score": -7,
+          "score_near": -7,
+          "score_long": -8,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.75,
-          "notes": "A highly climate-vulnerable Sahel state with recurrent drought and damaging 2024-25 floods, low adaptive capacity. (OCHA; FAO; IMF RSF-tier)"
+          "confidence": 0.72,
+          "notes": "ND-GAIN bottom-10 - Sahel drought, desertification, extreme heat, conflict-eroded readiness. (ND-GAIN)"
         },
         "healthcare": {
           "score": -7,
@@ -230,7 +232,7 @@
   },
   "decisions": {
     "living": {
-      "score": -4.98,
+      "score": -5.01,
       "confidence": 0.68,
       "horizon": "5-10y",
       "reading": "clear negative"

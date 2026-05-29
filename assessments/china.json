@@ -204,16 +204,18 @@
       }
     },
     "physical_practical": {
-      "score": 1.9,
-      "confidence": 0.66,
+      "score": 1.5,
+      "confidence": 0.7,
       "skew": "symmetric",
       "notes": "Genuine, externally observable strengths in infrastructure and (surveillance-derived) street safety; healthcare mixed and aging-strained; the safety positive carries a civil-liberties cost counted elsewhere.",
       "sub_factors": {
         "climate": {
-          "score": -2,
+          "score_near": -3,
+          "score_long": -4,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.6,
-          "notes": "Northern water scarcity, air pollution (improving), extreme weather, agricultural stress; major renewable/adaptation investment."
+          "confidence": 0.8,
+          "notes": "Huge exposure (northern water scarcity, coastal-megacity/delta flooding, heat) offset by top-tier adaptive capacity. (IPCC AR6; WB CCDR)"
         },
         "healthcare": {
           "score_near": 0,
@@ -246,13 +248,13 @@
   },
   "decisions": {
     "living": {
-      "score": -4.33,
-      "confidence": 0.68,
+      "score": -4.38,
+      "confidence": 0.69,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -2.95,
+      "score": -2.98,
       "confidence": 0.66,
       "horizon": "3-7y",
       "reading": "mixed"

@@ -184,16 +184,18 @@
       }
     },
     "physical_practical": {
-      "score": -3,
-      "confidence": 0.57,
+      "score": -2.8,
+      "confidence": 0.58,
       "skew": "negative",
       "notes": "Acute dispersed-atoll climate exposure and weak, remote services.",
       "sub_factors": {
         "climate": {
-          "score": -6,
+          "score_near": -5,
+          "score_long": -7,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.7,
-          "notes": "Low-lying islands/atolls with sea-level and storm exposure and high adaptation costs. (World Bank; inference)"
+          "confidence": 0.72,
+          "notes": "Mixed high islands plus atolls - SLR/coastal-erosion and typhoon exposure, low adaptive capacity. (WB Pacific CCDR; IPCC AR6)"
         },
         "healthcare": {
           "score": -3,
@@ -224,13 +226,13 @@
   },
   "decisions": {
     "living": {
-      "score": -0.9,
+      "score": -0.94,
       "confidence": 0.6,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -0.63,
+      "score": -0.64,
       "confidence": 0.65,
       "horizon": "3-7y",
       "reading": "mixed"

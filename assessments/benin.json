@@ -188,16 +188,18 @@
       }
     },
     "physical_practical": {
-      "score": -2,
-      "confidence": 0.63,
+      "score": -2.1,
+      "confidence": 0.61,
       "skew": "negative",
       "notes": "Improving logistics around Cotonou and the GDIZ, against flood/coastal climate exposure, a weak health system, and northern insecurity.",
       "sub_factors": {
         "climate": {
-          "score": -4,
+          "score_near": -5,
+          "score_long": -6,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.75,
-          "notes": "Coastal erosion, seasonal flooding, and northern drought/desertification; an IMF Resilience and Sustainability Facility addresses it. (IMF RSF; World Bank)"
+          "confidence": 0.65,
+          "notes": "Coastal erosion on a low Gulf-of-Guinea shore, flooding, rain-fed farming, weak readiness. (ND-GAIN; IPCC AR6)"
         },
         "healthcare": {
           "score": -3,
@@ -228,13 +230,13 @@
   },
   "decisions": {
     "living": {
-      "score": -0.74,
+      "score": -0.78,
       "confidence": 0.73,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.28,
+      "score": 0.26,
       "confidence": 0.77,
       "horizon": "3-7y",
       "reading": "mixed"

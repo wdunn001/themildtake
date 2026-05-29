@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": 5.8,
-      "confidence": 0.79,
+      "score": 6.3,
+      "confidence": 0.77,
       "skew": "positive",
       "notes": "Excellent healthcare, infrastructure, and safety, with low catastrophe exposure.",
       "sub_factors": {
         "climate": {
-          "score": -1,
+          "score_near": 1,
+          "score_long": 0,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.75,
-          "notes": "Low catastrophe exposure, with some flood/heat. (EEA; Munich Re)"
+          "confidence": 0.65,
+          "notes": "Wealthy, top-readiness temperate, with modest heat and Moselle/river-flood exposure; an AMOC tail caveat. (ND-GAIN; EEA)"
         },
         "healthcare": {
           "score": 8,
@@ -222,14 +224,14 @@
   },
   "decisions": {
     "living": {
-      "score": 6.37,
+      "score": 6.42,
       "confidence": 0.83,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 5.85,
-      "confidence": 0.84,
+      "score": 5.89,
+      "confidence": 0.83,
       "horizon": "3-7y",
       "reading": "clear positive"
     },

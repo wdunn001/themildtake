@@ -184,16 +184,18 @@
       }
     },
     "physical_practical": {
-      "score": -2.1,
-      "confidence": 0.71,
+      "score": -1.8,
+      "confidence": 0.67,
       "skew": "negative",
       "notes": "Severe air pollution and seismic exposure, with a weak health system.",
       "sub_factors": {
         "climate": {
-          "score": -4,
+          "score_near": -3,
+          "score_long": -5,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "The capital is among the world's most-polluted cities (winter smog), with drought, heat, and seismic risk. (IQAir; USGS)"
+          "confidence": 0.62,
+          "notes": "Southern-Balkan heat, drought, and wildfire on exposed agriculture, low readiness. (ND-GAIN; EEA)"
         },
         "healthcare": {
           "score": -2,
@@ -224,13 +226,13 @@
   },
   "decisions": {
     "living": {
-      "score": -0.27,
-      "confidence": 0.77,
+      "score": -0.26,
+      "confidence": 0.76,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.9,
+      "score": 0.92,
       "confidence": 0.79,
       "horizon": "3-7y",
       "reading": "mixed"

@@ -188,16 +188,18 @@
       }
     },
     "physical_practical": {
-      "score": -1.1,
-      "confidence": 0.64,
+      "score": -1,
+      "confidence": 0.61,
       "skew": "negative",
       "notes": "Relatively good regional infrastructure, against coastal-erosion/flood and weak healthcare.",
       "sub_factors": {
         "climate": {
-          "score": -4,
+          "score_near": -4,
+          "score_long": -5,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "Coastal erosion, capital flooding, northern drought, and cocoa-belt climate risk. (IMF; Mongabay)"
+          "confidence": 0.64,
+          "notes": "Coastal erosion/flood on a low shore, with relatively stronger economy/readiness for the region. (ND-GAIN; WB)"
         },
         "healthcare": {
           "score": -1,
@@ -228,13 +230,13 @@
   },
   "decisions": {
     "living": {
-      "score": -0.07,
+      "score": -0.08,
       "confidence": 0.72,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.82,
+      "score": 0.84,
       "confidence": 0.76,
       "horizon": "3-7y",
       "reading": "mixed"

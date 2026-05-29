@@ -184,16 +184,18 @@
       }
     },
     "physical_practical": {
-      "score": -3.9,
-      "confidence": 0.68,
+      "score": -4.1,
+      "confidence": 0.66,
       "skew": "negative",
       "notes": "Improving but poor infrastructure, weak healthcare with recurrent outbreaks, and climate exposure.",
       "sub_factors": {
         "climate": {
-          "score": -4,
+          "score_near": -5,
+          "score_long": -6,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.75,
-          "notes": "Drought/flood, deforestation, and rain-fed agriculture, with Lake Victoria stress. (inference)"
+          "confidence": 0.66,
+          "notes": "Landslides, drought-flood whiplash, Lake Victoria variability, a rain-fed economy, weak readiness. (ND-GAIN; WB)"
         },
         "healthcare": {
           "score": -5,
@@ -224,13 +226,13 @@
   },
   "decisions": {
     "living": {
-      "score": -3.08,
+      "score": -3.13,
       "confidence": 0.75,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -2.4,
+      "score": -2.43,
       "confidence": 0.76,
       "horizon": "3-7y",
       "reading": "mixed"

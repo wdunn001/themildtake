@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": -3.8,
-      "confidence": 0.65,
+      "score": -3.4,
+      "confidence": 0.64,
       "skew": "negative",
       "notes": "Multi-hazard exposure (volcano + hurricanes) and a high homicide rate.",
       "sub_factors": {
         "climate": {
-          "score": -8,
+          "score_near": -7,
+          "score_long": -9,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "Multi-hazard - the 2021 La Soufriere eruption plus 2024 Beryl (southern Grenadines ~80-90% of dwellings damaged). (UNEP; ReliefWeb)"
+          "confidence": 0.8,
+          "notes": "2024 Hurricane Beryl devastated Union Island/the Grenadines (~90% of structures damaged) - acute SIDS exposure. (IPCC AR6)"
         },
         "healthcare": {
           "score": -1,
@@ -222,13 +224,13 @@
   },
   "decisions": {
     "living": {
-      "score": 1.39,
+      "score": 1.37,
       "confidence": 0.64,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.74,
+      "score": 0.75,
       "confidence": 0.69,
       "horizon": "3-7y",
       "reading": "mixed"

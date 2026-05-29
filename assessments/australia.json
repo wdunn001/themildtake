@@ -190,18 +190,18 @@
       }
     },
     "physical_practical": {
-      "score": 1.8,
-      "confidence": 0.75,
+      "score": 1.5,
+      "confidence": 0.77,
       "skew": "negative",
       "notes": "Universal healthcare and low crime, against severe and worsening climate exposure and eroding insurance affordability.",
       "sub_factors": {
         "climate": {
-          "score_near": -2,
-          "score_long": -4,
+          "score_near": -3,
+          "score_long": -5,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.7,
-          "notes": "Severe, worsening bushfire/flood/drought exposure and structurally high physical-climate vulnerability. (Climate Council; APRA)"
+          "confidence": 0.8,
+          "notes": "Black Summer bushfires, Murray-Darling drought, and Great Barrier Reef mass-bleaching (5 events since 2016); wealthy/high-readiness but severe heat/fire exposure worsening. (IPCC AR6; ND-GAIN)"
         },
         "healthcare": {
           "score": 4,
@@ -232,13 +232,13 @@
   },
   "decisions": {
     "living": {
-      "score": 2.94,
+      "score": 2.88,
       "confidence": 0.77,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 2.52,
+      "score": 2.49,
       "confidence": 0.77,
       "horizon": "3-7y",
       "reading": "mixed"

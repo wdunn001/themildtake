@@ -203,11 +203,11 @@
       "sub_factors": {
         "climate": {
           "score_near": 1,
-          "score_long": -2,
+          "score_long": -1,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.72,
-          "notes": "World-class water management (Delta Works/Programme) offsets severe structural exposure: low-lying terrain, sea-level rise, ageing barriers. (Delta Programme)"
+          "confidence": 0.7,
+          "notes": "Best-in-world flood engineering and top readiness offset extreme sea-level/subsidence near-term; AMOC-slowdown plus accelerating SLR are the long-term tail. (ND-GAIN; IPCC AMOC/SLR)"
         },
         "healthcare": {
           "score": 5,
@@ -238,13 +238,13 @@
   },
   "decisions": {
     "living": {
-      "score": 3.41,
+      "score": 3.44,
       "confidence": 0.78,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 3.57,
+      "score": 3.58,
       "confidence": 0.79,
       "horizon": "3-7y",
       "reading": "clear positive"

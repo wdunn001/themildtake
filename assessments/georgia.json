@@ -192,16 +192,18 @@
       }
     },
     "physical_practical": {
-      "score": 1.6,
-      "confidence": 0.58,
+      "score": 0.9,
+      "confidence": 0.61,
       "skew": "positive",
       "notes": "Very low street crime and improving infrastructure, against uneven healthcare and seismic/landslide exposure.",
       "sub_factors": {
         "climate": {
-          "score": 1,
+          "score_near": -2,
+          "score_long": -3,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.55,
-          "notes": "Mountainous and temperate, with localized flood/landslide risk. (PreventionWeb)"
+          "confidence": 0.7,
+          "notes": "Moderate vulnerability, decent readiness - Black Sea coast, mountain hazards, Caucasus heat/drought. (ND-GAIN; IPCC AR6)"
         },
         "healthcare": {
           "score": 1,
@@ -232,13 +234,13 @@
   },
   "decisions": {
     "living": {
-      "score": -1.33,
-      "confidence": 0.68,
+      "score": -1.44,
+      "confidence": 0.69,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -0.18,
+      "score": -0.25,
       "confidence": 0.7,
       "horizon": "3-7y",
       "reading": "mixed"

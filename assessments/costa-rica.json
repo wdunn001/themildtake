@@ -194,18 +194,18 @@
       }
     },
     "physical_practical": {
-      "score": 1,
-      "confidence": 0.8,
+      "score": 0.1,
+      "confidence": 0.78,
       "skew": "negative",
       "notes": "A renewable-energy and universal-healthcare leader, dragged by poor roads and rising crime atop real seismic/storm exposure.",
       "sub_factors": {
         "climate": {
-          "score_near": 2,
-          "score_long": 1,
+          "score_near": -3,
+          "score_long": -4,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "A global eco-leader with a ~98.6% renewable grid, but hydro-dependence means El Niño droughts force fossil backup; storm/flood exposure. (ICE; Climate Action Tracker)"
+          "confidence": 0.7,
+          "notes": "The best-prepared Central American state, but dual-coast storms plus dry-corridor exposure. (WB CCDR)"
         },
         "healthcare": {
           "score": 4,
@@ -238,13 +238,13 @@
   },
   "decisions": {
     "living": {
-      "score": 2.75,
+      "score": 2.63,
       "confidence": 0.81,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 3.14,
+      "score": 3.06,
       "confidence": 0.83,
       "horizon": "3-7y",
       "reading": "clear positive"

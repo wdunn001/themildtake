@@ -186,18 +186,18 @@
       }
     },
     "physical_practical": {
-      "score": -5.2,
-      "confidence": 0.71,
+      "score": -5,
+      "confidence": 0.7,
       "skew": "negative",
       "notes": "Recently-realized catastrophic disaster exposure and the Pacific's heaviest NCD burden.",
       "sub_factors": {
         "climate": {
-          "score_near": -7,
+          "score_near": -6,
           "score_long": -8,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "Extreme exposure - volcanic (the Jan 2022 Hunga Tonga eruption/tsunami), cyclones, and sea-level rise, with very low adaptation capacity. (IMF; UNEP)"
+          "confidence": 0.78,
+          "notes": "The 2022 Hunga Tonga eruption/tsunami plus TC Gita/Harold - extreme compound geohazard plus cyclone/SLR on low-lying populated islands. (IPCC AR6)"
         },
         "healthcare": {
           "score": -6,
@@ -228,13 +228,13 @@
   },
   "decisions": {
     "living": {
-      "score": -1.4,
-      "confidence": 0.61,
+      "score": -1.37,
+      "confidence": 0.6,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.46,
+      "score": -1.44,
       "confidence": 0.64,
       "horizon": "3-7y",
       "reading": "mixed"

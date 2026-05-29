@@ -184,16 +184,18 @@
       }
     },
     "physical_practical": {
-      "score": 5.2,
-      "confidence": 0.66,
+      "score": 5.3,
+      "confidence": 0.65,
       "skew": "symmetric",
       "notes": "Among the world's safest, with strong healthcare, against ski-tourism climate sensitivity.",
       "sub_factors": {
         "climate": {
-          "score": 0,
+          "score_near": 0,
+          "score_long": -1,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.6,
-          "notes": "Alpine/Pyrenean - low catastrophe exposure but ski tourism is sensitive to long-term warming/snowpack. (general)"
+          "confidence": 0.55,
+          "notes": "A high-Pyrenees state - alpine snowpack/tourism loss but altitude buffers heat; small, wealthy, adaptive. (IPCC AR6 mountains; EEA)"
         },
         "healthcare": {
           "score": 7,
@@ -224,7 +226,7 @@
   },
   "decisions": {
     "living": {
-      "score": 4.29,
+      "score": 4.28,
       "confidence": 0.73,
       "horizon": "5-10y",
       "reading": "clear positive"

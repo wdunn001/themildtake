@@ -190,18 +190,18 @@
       }
     },
     "physical_practical": {
-      "score": -2.4,
-      "confidence": 0.77,
+      "score": -3,
+      "confidence": 0.76,
       "skew": "negative",
       "notes": "Drought/storm and volcanic/seismic exposure, weak healthcare with a malnutrition crisis, and elevated crime.",
       "sub_factors": {
         "climate": {
-          "score_near": -3,
-          "score_long": -4,
+          "score_near": -6,
+          "score_long": -8,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "Dry-corridor drought with food insecurity, hurricanes, and active volcanic/seismic hazard. (FEWS NET; USGS)"
+          "confidence": 0.8,
+          "notes": "Dry-corridor drought plus dual-coast storms plus highland landslides, high vulnerability, low readiness. (ND-GAIN)"
         },
         "healthcare": {
           "score": -3,
@@ -234,13 +234,13 @@
   },
   "decisions": {
     "living": {
-      "score": -1.06,
+      "score": -1.18,
       "confidence": 0.77,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.61,
+      "score": 0.54,
       "confidence": 0.81,
       "horizon": "3-7y",
       "reading": "mixed"

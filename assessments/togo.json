@@ -188,16 +188,18 @@
       }
     },
     "physical_practical": {
-      "score": -2,
-      "confidence": 0.62,
+      "score": -2.1,
+      "confidence": 0.61,
       "skew": "negative",
       "notes": "The strong Lome port anchors logistics, against coastal-erosion/flood exposure, a weak health system, and northern insecurity.",
       "sub_factors": {
         "climate": {
-          "score": -4,
+          "score_near": -5,
+          "score_long": -6,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.7,
-          "notes": "Severe coastal erosion around Lome, seasonal flooding, and northern drought. (World Bank)"
+          "confidence": 0.62,
+          "notes": "Coastal erosion on a very short low shore, northern drought, flooding, weak readiness. (ND-GAIN; WB)"
         },
         "healthcare": {
           "score": -3,
@@ -228,13 +230,13 @@
   },
   "decisions": {
     "living": {
-      "score": -1.44,
+      "score": -1.48,
       "confidence": 0.71,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -0.24,
+      "score": -0.26,
       "confidence": 0.74,
       "horizon": "3-7y",
       "reading": "mixed"

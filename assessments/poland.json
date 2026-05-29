@@ -188,16 +188,18 @@
       }
     },
     "physical_practical": {
-      "score": 1.8,
+      "score": 2.4,
       "confidence": 0.72,
       "skew": "positive",
       "notes": "Low crime and EU-upgraded infrastructure, against coal-transition and flood risk and a strained health system.",
       "sub_factors": {
         "climate": {
-          "score": -2,
+          "score_near": 1,
+          "score_long": 0,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.7,
-          "notes": "Coal-heavy (~53% of electricity) but transitioning, with rising flood/drought risk (worst-in-a-decade 2024 floods). (IEA; ReliefWeb)"
+          "confidence": 0.68,
+          "notes": "Temperate, improving readiness, but Baltic-coast flooding, drought, and a coal-heavy transition. (ND-GAIN; EEA)"
         },
         "healthcare": {
           "score": -1,
@@ -228,13 +230,13 @@
   },
   "decisions": {
     "living": {
-      "score": 2.12,
+      "score": 2.17,
       "confidence": 0.78,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 2.39,
+      "score": 2.44,
       "confidence": 0.81,
       "horizon": "3-7y",
       "reading": "mixed"

@@ -184,8 +184,8 @@
       }
     },
     "physical_practical": {
-      "score": 0.6,
-      "confidence": 0.78,
+      "score": 0.8,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "Strong infrastructure and a health-coverage expansion, against structural water scarcity and a seismic tail.",
       "sub_factors": {
@@ -194,8 +194,8 @@
           "score_long": -5,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "Structural water scarcity (despite late-2025/early-2026 rains easing a multi-year drought) plus a seismic tail after the 2023 earthquake. (World Bank CCDR)"
+          "confidence": 0.72,
+          "notes": "Severe multi-year drought, water stress, and heat, but among Africa's stronger readiness/adaptation programs. (ND-GAIN; WB MENA)"
         },
         "healthcare": {
           "score_near": 0,
@@ -228,13 +228,13 @@
   },
   "decisions": {
     "living": {
-      "score": 0.69,
+      "score": 0.72,
       "confidence": 0.77,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 1.66,
+      "score": 1.68,
       "confidence": 0.8,
       "horizon": "3-7y",
       "reading": "mixed"

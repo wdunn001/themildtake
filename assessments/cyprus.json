@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": 2,
-      "confidence": 0.75,
+      "score": 2.4,
+      "confidence": 0.74,
       "skew": "negative",
       "notes": "Good infrastructure and low crime, against severe water scarcity and heat.",
       "sub_factors": {
         "climate": {
-          "score": -6,
+          "score_near": -5,
+          "score_long": -7,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "Severe water scarcity (the worst reservoir levels in over a century), extreme heat, and wildfire. (Cyprus Mail)"
+          "confidence": 0.8,
+          "notes": "An Eastern-Med hotspot - among the fastest-warming, severe drought/water scarcity, and extreme heat approaching critical. (IPCC AR6; EEA)"
         },
         "healthcare": {
           "score": 5,
@@ -222,13 +224,13 @@
   },
   "decisions": {
     "living": {
-      "score": 3.75,
+      "score": 3.74,
       "confidence": 0.8,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 3.75,
+      "score": 3.77,
       "confidence": 0.82,
       "horizon": "3-7y",
       "reading": "clear positive"

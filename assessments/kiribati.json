@@ -182,18 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": -3.6,
-      "confidence": 0.6,
+      "score": -4.5,
+      "confidence": 0.61,
       "skew": "negative",
       "notes": "An existential sea-level threat, with very limited services across remote atolls.",
       "sub_factors": {
         "climate": {
-          "score_near": -4,
+          "score_near": -7,
           "score_long": -9,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "Existential - <2m elevation, ~66% land loss at +0.9m sea-level rise, freshwater-lens salinisation; relocation land already purchased in Fiji. (Vision of Humanity; ELI)"
+          "confidence": 0.85,
+          "notes": "A low-lying atoll nation - freshwater-lens salinization and inundation threaten habitability; bought land in Fiji as contingency. (IPCC AR6; ND-GAIN)"
         },
         "healthcare": {
           "score": -4,
@@ -224,13 +224,13 @@
   },
   "decisions": {
     "living": {
-      "score": -2.21,
+      "score": -2.22,
       "confidence": 0.58,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.79,
+      "score": -1.83,
       "confidence": 0.63,
       "horizon": "3-7y",
       "reading": "mixed"

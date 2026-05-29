@@ -182,18 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": -3.4,
-      "confidence": 0.59,
+      "score": -4.5,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "An existential sea-level threat partly backstopped by the Australian migration pathway.",
       "sub_factors": {
         "climate": {
-          "score_near": -4,
-          "score_long": -9,
+          "score_near": -8,
+          "score_long": -10,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "Existential sea-level threat across nine low atolls/reef islands; pursuing coastal reclamation and a 'digital nation', with statehood now treaty-recognised by Australia. (Carnegie; DFAT; IMF)"
+          "confidence": 0.88,
+          "notes": "The world's most existentially SLR-threatened atoll nation (~2m max elevation), digitizing statehood, projected inundation this century. (IPCC AR6; ND-GAIN)"
         },
         "healthcare": {
           "score": -4,
@@ -224,13 +224,13 @@
   },
   "decisions": {
     "living": {
-      "score": -1.09,
+      "score": -1.18,
       "confidence": 0.54,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -0.85,
+      "score": -0.94,
       "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "mixed"

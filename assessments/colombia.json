@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": -3.2,
-      "confidence": 0.75,
+      "score": -3.4,
+      "confidence": 0.73,
       "skew": "negative",
       "notes": "Improving infrastructure, against multi-hazard climate exposure, a healthcare crisis, and high regional crime.",
       "sub_factors": {
         "climate": {
-          "score": -3,
+          "score_near": -4,
+          "score_long": -5,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "Most of the population exposed to multiple hazards, with La Nina/El Nino swings and Andean/coastal flood-landslide risk. (GFDRR/World Bank)"
+          "confidence": 0.7,
+          "notes": "Andean water stress plus Caribbean/Pacific coast plus ENSO swings, moderate readiness. (ND-GAIN)"
         },
         "healthcare": {
           "score": -3,
@@ -222,14 +224,14 @@
   },
   "decisions": {
     "living": {
-      "score": -0.55,
+      "score": -0.6,
       "confidence": 0.79,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -0.6,
-      "confidence": 0.82,
+      "score": -0.62,
+      "confidence": 0.81,
       "horizon": "3-7y",
       "reading": "mixed"
     },

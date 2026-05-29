@@ -184,16 +184,18 @@
       }
     },
     "physical_practical": {
-      "score": -4.3,
-      "confidence": 0.62,
+      "score": -3.8,
+      "confidence": 0.63,
       "skew": "negative",
       "notes": "The single most existential climate threat, plus the uniquely severe Runit Dome legacy.",
       "sub_factors": {
         "climate": {
-          "score": -9,
+          "score_near": -7,
+          "score_long": -9,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "The single most existential factor - ~2m elevation, a 1m rise inundates ~40% of Majuro, with chronic flooding/saltwater intrusion. (USGS; World Bank; Grist)"
+          "confidence": 0.85,
+          "notes": "An atoll nation ~2m elevation - Majuro chronic king-tide flooding, freshwater-lens loss, projected partial uninhabitability by ~2050. (WB; IPCC AR6)"
         },
         "healthcare": {
           "score": -4,
@@ -224,13 +226,13 @@
   },
   "decisions": {
     "living": {
-      "score": -0.48,
+      "score": -0.5,
       "confidence": 0.61,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -0.77,
+      "score": -0.76,
       "confidence": 0.64,
       "horizon": "3-7y",
       "reading": "mixed"

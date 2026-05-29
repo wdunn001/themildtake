@@ -189,7 +189,7 @@
     },
     "physical_practical": {
       "score": 0.7,
-      "confidence": 0.76,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "Very low crime, against a fast-warming Mediterranean climate and a strained health service.",
       "sub_factors": {
@@ -198,8 +198,8 @@
           "score_long": -5,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "A Mediterranean warming hotspot: recurring 40-45C heat, southern drought and wildfires, major floods (Emilia-Romagna), and Alpine glacier retreat. (EEA)"
+          "confidence": 0.75,
+          "notes": "Mediterranean heat/drought (Po basin), wildfire, alpine glacier loss, and sea-level (Venice); high-readiness north, exposed south. (EEA; IPCC AR6)"
         },
         "healthcare": {
           "score_near": 0,
@@ -232,13 +232,13 @@
   },
   "decisions": {
     "living": {
-      "score": 2.05,
-      "confidence": 0.79,
+      "score": 2.06,
+      "confidence": 0.78,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 2.76,
+      "score": 2.77,
       "confidence": 0.81,
       "horizon": "3-7y",
       "reading": "mixed"

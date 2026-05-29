@@ -188,16 +188,18 @@
       }
     },
     "physical_practical": {
-      "score": -5.8,
-      "confidence": 0.65,
+      "score": -5.3,
+      "confidence": 0.66,
       "skew": "negative",
       "notes": "A severe water/heat crisis and electricity failure amid oil wealth.",
       "sub_factors": {
         "climate": {
-          "score": -8,
+          "score_near": -6,
+          "score_long": -8,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.78,
-          "notes": "Severe - extreme heat near 50C, an acute Tigris/Euphrates water crisis worsened by upstream dams, desertification, and sandstorms. (UN; World Bank)"
+          "confidence": 0.85,
+          "notes": "Among the most climate-exposed Arab states - extreme heat, upstream-dam water scarcity, dust storms, salinity; very low readiness. (WB CCDR; IPCC AR6)"
         },
         "healthcare": {
           "score": -5,
@@ -228,14 +230,14 @@
   },
   "decisions": {
     "living": {
-      "score": -5.1,
+      "score": -5.11,
       "confidence": 0.65,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -4.65,
-      "confidence": 0.66,
+      "score": -4.63,
+      "confidence": 0.67,
       "horizon": "3-7y",
       "reading": "clear negative"
     },

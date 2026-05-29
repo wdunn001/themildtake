@@ -188,18 +188,18 @@
       }
     },
     "physical_practical": {
-      "score": 3.5,
-      "confidence": 0.8,
+      "score": 3.7,
+      "confidence": 0.79,
       "skew": "negative",
       "notes": "World-class infrastructure and a strong universal health system, against intensifying climate stress.",
       "sub_factors": {
         "climate": {
-          "score_near": -1,
-          "score_long": -3,
+          "score_near": 0,
+          "score_long": -2,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.78,
-          "notes": "Intensifying heatwaves, drought, and floods (2025 40C+ events forced some nuclear curtailments); a diverse geography and a ~65%-nuclear low-carbon grid are real resilience pluses. (Meteo-France; IEA)"
+          "confidence": 0.72,
+          "notes": "Two-faced - temperate/high-readiness north vs Mediterranean-south heat/drought/wildfire and nuclear river-cooling stress; net long down. (ND-GAIN; EEA)"
         },
         "healthcare": {
           "score": 5,
@@ -230,14 +230,14 @@
   },
   "decisions": {
     "living": {
-      "score": 2.72,
+      "score": 2.75,
       "confidence": 0.81,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 2.86,
-      "confidence": 0.82,
+      "score": 2.88,
+      "confidence": 0.81,
       "horizon": "3-7y",
       "reading": "mixed"
     },

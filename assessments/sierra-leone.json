@@ -190,16 +190,18 @@
       }
     },
     "physical_practical": {
-      "score": -4.6,
-      "confidence": 0.69,
+      "score": -4.8,
+      "confidence": 0.66,
       "skew": "negative",
       "notes": "Among the weakest in the dataset - a fragile health system, severe flood/landslide exposure, and poor infrastructure.",
       "sub_factors": {
         "climate": {
-          "score": -5,
+          "score_near": -6,
+          "score_long": -7,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.75,
-          "notes": "Severe flood/landslide exposure - the 2017 Freetown mudslide killed ~1,000 - worsened by deforestation, hillside settlement, and sea-level rise. (ReliefWeb; World Bank)"
+          "confidence": 0.64,
+          "notes": "ND-GAIN bottom-25 - intense-rain flooding/landslides (2017 Freetown), coastal erosion, very low readiness. (ND-GAIN; WB)"
         },
         "healthcare": {
           "score": -6,
@@ -230,13 +232,13 @@
   },
   "decisions": {
     "living": {
-      "score": -2.27,
-      "confidence": 0.68,
+      "score": -2.32,
+      "confidence": 0.67,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.76,
+      "score": -1.78,
       "confidence": 0.69,
       "horizon": "3-7y",
       "reading": "mixed"

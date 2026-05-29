@@ -186,16 +186,18 @@
       }
     },
     "physical_practical": {
-      "score": -2,
-      "confidence": 0.62,
+      "score": -1.4,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "Improving infrastructure, against severe coal-driven air pollution and medic emigration.",
       "sub_factors": {
         "climate": {
-          "score": -4,
+          "score_near": -2,
+          "score_long": -4,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "Severe air pollution (a heavily lignite-powered grid), heat/drought, and flood exposure. (IQAir 2025; EEA)"
+          "confidence": 0.62,
+          "notes": "Balkan/Pannonian heat and drought on agriculture, plus river flooding, low-moderate readiness. (ND-GAIN; EEA)"
         },
         "healthcare": {
           "score": -2,
@@ -226,13 +228,13 @@
   },
   "decisions": {
     "living": {
-      "score": -2.45,
+      "score": -2.44,
       "confidence": 0.74,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -0.65,
+      "score": -0.62,
       "confidence": 0.76,
       "horizon": "3-7y",
       "reading": "mixed"

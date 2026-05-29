@@ -195,7 +195,7 @@
     },
     "physical_practical": {
       "score": -0.8,
-      "confidence": 0.76,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "Low crime and improving (EU-funded) infrastructure, against severe and worsening climate exposure and an austerity-hollowed health system.",
       "sub_factors": {
@@ -204,8 +204,8 @@
           "score_long": -6,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "Severe and worsening: record 2023 wildfires and Storm Daniel floods, recurrent record heat; among Europe's most climate-exposed. (EEA; WWA)"
+          "confidence": 0.78,
+          "notes": "A Mediterranean front line - extreme heat, chronic drought, and catastrophic wildfire (2023/24), lower readiness. (IPCC AR6; Germanwatch CRI; EEA)"
         },
         "healthcare": {
           "score": -1,
@@ -246,7 +246,7 @@
       "reading": "mixed"
     },
     "assets": {
-      "score": 2.23,
+      "score": 2.24,
       "confidence": 0.79,
       "horizon": "3-7y",
       "reading": "mixed"

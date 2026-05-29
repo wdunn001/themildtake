@@ -190,18 +190,18 @@
       }
     },
     "physical_practical": {
-      "score": -3,
-      "confidence": 0.6,
+      "score": -3.7,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "A rare carbon sink with low climate hazard, against weak healthcare and uneven infrastructure.",
       "sub_factors": {
         "climate": {
-          "score_near": 0,
-          "score_long": -1,
+          "score_near": -3,
+          "score_long": -4,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.65,
-          "notes": "A rare net carbon sink (~88% forest cover); lower physical-climate exposure than Sahelian peers but with coastal/flood risk. (UNDP; World Bank)"
+          "confidence": 0.6,
+          "notes": "~88% forest cover buffers and low population pressure, against coastal-flood exposure and oil-dependent readiness. (ND-GAIN; WB)"
         },
         "healthcare": {
           "score": -4,
@@ -232,13 +232,13 @@
   },
   "decisions": {
     "living": {
-      "score": -2.09,
-      "confidence": 0.65,
+      "score": -2.18,
+      "confidence": 0.64,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.42,
+      "score": -1.48,
       "confidence": 0.69,
       "horizon": "3-7y",
       "reading": "mixed"

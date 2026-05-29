@@ -188,16 +188,18 @@
       }
     },
     "physical_practical": {
-      "score": -3.3,
-      "confidence": 0.63,
+      "score": -2.8,
+      "confidence": 0.64,
       "skew": "negative",
       "notes": "Severe climate and air-pollution exposure, with poor landlocked infrastructure.",
       "sub_factors": {
         "climate": {
-          "score": -7,
+          "score_near": -5,
+          "score_long": -6,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.75,
-          "notes": "Severe - recurring 'dzud' winters killing millions of livestock, desertification, the capital's world-worst winter air pollution, and water stress. (ADBI; IQAir)"
+          "confidence": 0.8,
+          "notes": "Rapid warming (>2x global), desertification, dzud (extreme winters) collapsing pastoralism, water decline, low readiness. (IPCC AR6; WB CCDR)"
         },
         "healthcare": {
           "score": -2,
@@ -228,13 +230,13 @@
   },
   "decisions": {
     "living": {
-      "score": -0.94,
-      "confidence": 0.65,
+      "score": -0.92,
+      "confidence": 0.66,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.49,
+      "score": -1.46,
       "confidence": 0.68,
       "horizon": "3-7y",
       "reading": "mixed"

@@ -184,16 +184,18 @@
       }
     },
     "physical_practical": {
-      "score": -3.2,
-      "confidence": 0.5,
+      "score": -3,
+      "confidence": 0.52,
       "skew": "negative",
       "notes": "Desert heat and acute water stress, with gas-funded showcase projects over decaying provincial utilities.",
       "sub_factors": {
         "climate": {
-          "score": -6,
+          "score_near": -5,
+          "score_long": -7,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.7,
-          "notes": "70-80% desert (Karakum) with extreme heat, acute water stress, and a rapidly declining/heating Caspian. (Nature Comms Earth & Env; UNEP-DHI)"
+          "confidence": 0.78,
+          "notes": "Extreme desert heat, acute water scarcity (Amu Darya/Aral), aridification, very low readiness and opaque governance. (IPCC AR6; WB)"
         },
         "healthcare": {
           "score": -4,
@@ -224,7 +226,7 @@
   },
   "decisions": {
     "living": {
-      "score": -5.35,
+      "score": -5.39,
       "confidence": 0.63,
       "horizon": "5-10y",
       "reading": "clear negative"

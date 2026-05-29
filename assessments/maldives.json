@@ -184,16 +184,18 @@
       }
     },
     "physical_practical": {
-      "score": -3.1,
+      "score": -2.6,
       "confidence": 0.66,
       "skew": "negative",
       "notes": "An existential climate threat as the world's lowest-lying nation, with debt crowding out social spend.",
       "sub_factors": {
         "climate": {
-          "score": -9,
+          "score_near": -7,
+          "score_long": -9,
+          "score": null,
           "weight": 0.2,
           "confidence": 0.9,
-          "notes": "Existential - the world's lowest-lying nation (~80% under 1m), facing inundation/saltwater intrusion as the defining long-run risk. (UNDP; UN)"
+          "notes": "Existential - the lowest-lying nation on Earth; sea-level rise threatens habitability despite adaptation spend. (IPCC AR6; ND-GAIN)"
         },
         "healthcare": {
           "score": -1,
@@ -230,7 +232,7 @@
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.81,
+      "score": -1.79,
       "confidence": 0.72,
       "horizon": "3-7y",
       "reading": "mixed"

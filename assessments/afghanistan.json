@@ -184,16 +184,18 @@
       }
     },
     "physical_practical": {
-      "score": -7.6,
-      "confidence": 0.74,
+      "score": -6.9,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "A severe climate and health catastrophe atop poor war-damaged infrastructure.",
       "sub_factors": {
         "climate": {
-          "score": -8,
+          "score_near": -5,
+          "score_long": -7,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "Extreme drought, deadly 2025 earthquakes, and among the most climate-vulnerable-yet-least-prepared. (OCHA/FAO)"
+          "confidence": 0.85,
+          "notes": "ND-GAIN bottom-decile vulnerability plus near-zero readiness - drought, glacier-fed water decline, flash floods. (ND-GAIN; WB CCDR)"
         },
         "healthcare": {
           "score": -9,
@@ -224,13 +226,13 @@
   },
   "decisions": {
     "living": {
-      "score": -7.42,
+      "score": -7.39,
       "confidence": 0.74,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -6.65,
+      "score": -6.6,
       "confidence": 0.74,
       "horizon": "3-7y",
       "reading": "clear negative"

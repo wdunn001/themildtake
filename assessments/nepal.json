@@ -186,16 +186,18 @@
       }
     },
     "physical_practical": {
-      "score": -4.4,
-      "confidence": 0.72,
+      "score": -3.7,
+      "confidence": 0.71,
       "skew": "negative",
       "notes": "Severe Himalayan climate and seismic exposure, weak healthcare and infrastructure, with low crime a strength.",
       "sub_factors": {
         "climate": {
-          "score": -7,
+          "score_near": -4,
+          "score_long": -6,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "Severe - Himalayan glacial-melt/GLOFs, high seismic risk (the 2015 quake), monsoon floods/landslides, and the capital's world-worst air quality. (World Bank; Nature)"
+          "confidence": 0.8,
+          "notes": "Glacier retreat, GLOF risk, monsoon flood/landslide, water-cycle disruption, low adaptive capacity. (IPCC AR6 cryosphere; WB CCDR)"
         },
         "healthcare": {
           "score": -4,
@@ -226,13 +228,13 @@
   },
   "decisions": {
     "living": {
-      "score": -2.5,
+      "score": -2.46,
       "confidence": 0.74,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -2.33,
+      "score": -2.29,
       "confidence": 0.77,
       "horizon": "3-7y",
       "reading": "mixed"

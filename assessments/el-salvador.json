@@ -184,16 +184,18 @@
       }
     },
     "physical_practical": {
-      "score": -0.4,
-      "confidence": 0.67,
+      "score": -0.5,
+      "confidence": 0.66,
       "skew": "symmetric",
       "notes": "A dramatic crime-rate collapse, against seismic/storm exposure.",
       "sub_factors": {
         "climate": {
-          "score": -5,
+          "score_near": -6,
+          "score_long": -8,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "Seismic/volcanic, hurricanes, and dry-corridor drought, with most of the country hazard-exposed. (World Bank GFDRR)"
+          "confidence": 0.8,
+          "notes": "A Central American Dry Corridor epicenter - chronic drought plus a tiny Pacific coast plus low readiness. (WB CCDR)"
         },
         "healthcare": {
           "score": -2,
@@ -224,13 +226,13 @@
   },
   "decisions": {
     "living": {
-      "score": -1.37,
+      "score": -1.46,
       "confidence": 0.76,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.59,
+      "score": 0.56,
       "confidence": 0.79,
       "horizon": "3-7y",
       "reading": "mixed"

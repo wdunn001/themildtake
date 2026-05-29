@@ -186,16 +186,18 @@
       }
     },
     "physical_practical": {
-      "score": -6,
-      "confidence": 0.73,
+      "score": -6.1,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "Collapsed infrastructure and a degraded health system, with seismic exposure.",
       "sub_factors": {
         "climate": {
-          "score": -3,
+          "score_near": -4,
+          "score_long": -5,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.6,
-          "notes": "Water stress and fires - moderate. (environmental reporting)"
+          "confidence": 0.7,
+          "notes": "Eastern-Med drought/heat, water stress, snowpack decline, with readiness gutted by state collapse and fiscal crisis. (IPCC AR6; ND-GAIN)"
         },
         "healthcare": {
           "score": -6,
@@ -226,13 +228,13 @@
   },
   "decisions": {
     "living": {
-      "score": -5.91,
-      "confidence": 0.78,
+      "score": -5.95,
+      "confidence": 0.79,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -6.25,
+      "score": -6.27,
       "confidence": 0.8,
       "horizon": "3-7y",
       "reading": "clear negative"

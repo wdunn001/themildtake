@@ -186,16 +186,18 @@
       }
     },
     "physical_practical": {
-      "score": -3.5,
+      "score": -2.8,
       "confidence": 0.55,
       "skew": "negative",
       "notes": "War-strained healthcare, uneven infrastructure, and rising crime, with mixed climate exposure.",
       "sub_factors": {
         "climate": {
-          "score": -2,
+          "score_near": 2,
+          "score_long": 1,
+          "score": null,
           "weight": 0.2,
           "confidence": 0.5,
-          "notes": "Permafrost thaw, wildfire, and Arctic disruption, with a partial agricultural upside - mixed-negative. (climate analysis)"
+          "notes": "Two-sided - high-latitude agricultural and Arctic/Northern-Sea-Route upside, but permafrost-thaw infrastructure collapse, Siberian wildfire, and methane feedbacks plus weak readiness; mildly positive near, genuinely uncertain long. (IPCC AR6; ND-GAIN; Burke et al.)"
         },
         "healthcare": {
           "score": -4,
@@ -226,13 +228,13 @@
   },
   "decisions": {
     "living": {
-      "score": -5.67,
+      "score": -5.6,
       "confidence": 0.69,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -4.93,
+      "score": -4.88,
       "confidence": 0.71,
       "horizon": "3-7y",
       "reading": "clear negative"

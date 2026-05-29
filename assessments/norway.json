@@ -188,18 +188,18 @@
       }
     },
     "physical_practical": {
-      "score": 6.3,
-      "confidence": 0.81,
+      "score": 6.8,
+      "confidence": 0.82,
       "skew": "symmetric",
       "notes": "Excellent healthcare, infrastructure, and safety, with near-universal catastrophe insurance and relatively favorable climate.",
       "sub_factors": {
         "climate": {
-          "score_near": 1,
-          "score_long": 1,
+          "score_near": 4,
+          "score_long": 5,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.7,
-          "notes": "A relative beneficiary (cold, hydro-rich), with localized flood/landslide risk. (OWID)"
+          "confidence": 0.75,
+          "notes": "A high-latitude net beneficiary - top readiness, hydro-rich, milder winters, Arctic/Northern-Sea-Route access; localized flood/landslide and AMOC tail caveat. (ND-GAIN; IPCC AR6; Burke et al.)"
         },
         "healthcare": {
           "score": 7,
@@ -230,14 +230,14 @@
   },
   "decisions": {
     "living": {
-      "score": 6.65,
+      "score": 6.75,
       "confidence": 0.85,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 6.13,
-      "confidence": 0.85,
+      "score": 6.19,
+      "confidence": 0.86,
       "horizon": "3-7y",
       "reading": "clear positive"
     },

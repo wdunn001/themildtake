@@ -192,18 +192,18 @@
       }
     },
     "physical_practical": {
-      "score": 0.2,
-      "confidence": 0.76,
+      "score": 0.1,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "Low crime and decent infrastructure, but a worsening climate profile and a strained health service; high latent seismic risk.",
       "sub_factors": {
         "climate": {
-          "score_near": -3,
-          "score_long": -5,
+          "score_near": -4,
+          "score_long": -6,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "2025 was the worst wildfire season since 2017 with record heat; Feb 2026 storms were the largest natural disaster in ~30 years; drought/heat/fire worsen with horizon. (EEA, WWA, ESA)"
+          "confidence": 0.76,
+          "notes": "Iberian heat, severe drought/desertification (south), and major wildfire, lower readiness than core EU. (IPCC AR6; EEA; Germanwatch CRI)"
         },
         "healthcare": {
           "score": 0,
@@ -236,13 +236,13 @@
   },
   "decisions": {
     "living": {
-      "score": 2.61,
+      "score": 2.59,
       "confidence": 0.78,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 3.14,
+      "score": 3.13,
       "confidence": 0.79,
       "horizon": "3-7y",
       "reading": "clear positive"

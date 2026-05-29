@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": -0.1,
-      "confidence": 0.64,
+      "score": 0.6,
+      "confidence": 0.6,
       "skew": "negative",
       "notes": "Among Africa's best healthcare and infrastructure, against acute climate/sea-level and drug-driven crime.",
       "sub_factors": {
         "climate": {
-          "score": -5,
+          "score_near": -3,
+          "score_long": -5,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "Highly exposed - sea-level rise, coastal erosion, and coral-reef/fisheries stress threaten its tourism-and-tuna base. (UNDP SIDS; IMF RSF)"
+          "confidence": 0.62,
+          "notes": "An Indian-Ocean SIDS with sea-level/reef/coastal exposure, but the highest-income African state with relatively strong readiness. (ND-GAIN; IPCC SIDS)"
         },
         "healthcare": {
           "score": 3,
@@ -222,14 +224,14 @@
   },
   "decisions": {
     "living": {
-      "score": 3.39,
+      "score": 3.46,
       "confidence": 0.7,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 3.18,
-      "confidence": 0.73,
+      "score": 3.24,
+      "confidence": 0.72,
       "horizon": "3-7y",
       "reading": "clear positive"
     },

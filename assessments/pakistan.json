@@ -184,16 +184,18 @@
       }
     },
     "physical_practical": {
-      "score": -6.2,
+      "score": -5.8,
       "confidence": 0.81,
       "skew": "negative",
       "notes": "Catastrophic climate exposure, weak healthcare, a power crisis, and very low catastrophe cover.",
       "sub_factors": {
         "climate": {
-          "score": -8,
+          "score_near": -6,
+          "score_long": -8,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.9,
-          "notes": "Among the world's most climate-vulnerable: the 2022 floods submerged a third of the country, with extreme heat, water stress, and glacial-melt risk. (World Weather Attribution; World Bank)"
+          "confidence": 0.88,
+          "notes": "Catastrophic flood capacity (2022), extreme heat, glacier/Indus dependence, low readiness; recurrent Germanwatch CRI top-tier. (Germanwatch CRI; IPCC AR6)"
         },
         "healthcare": {
           "score": -6,
@@ -230,7 +232,7 @@
       "reading": "clear negative"
     },
     "assets": {
-      "score": -4.19,
+      "score": -4.16,
       "confidence": 0.79,
       "horizon": "3-7y",
       "reading": "clear negative"

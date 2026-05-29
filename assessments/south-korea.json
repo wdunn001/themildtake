@@ -194,18 +194,18 @@
       }
     },
     "physical_practical": {
-      "score": 3.4,
-      "confidence": 0.78,
+      "score": 3.1,
+      "confidence": 0.79,
       "skew": "negative",
       "notes": "World-class infrastructure, healthcare, and very low crime, against ageing-driven cost strain.",
       "sub_factors": {
         "climate": {
-          "score_near": -1,
+          "score_near": -2,
           "score_long": -3,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.72,
-          "notes": "Typhoons and intensifying heat/flood. (observed)"
+          "confidence": 0.8,
+          "notes": "High-capacity and resilient - intensifying heat, typhoons, and coastal flooding keep it modestly negative. (IPCC AR6; ND-GAIN)"
         },
         "healthcare": {
           "score": 5,
@@ -236,13 +236,13 @@
   },
   "decisions": {
     "living": {
-      "score": 2.64,
+      "score": 2.62,
       "confidence": 0.78,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 2.68,
+      "score": 2.66,
       "confidence": 0.79,
       "horizon": "3-7y",
       "reading": "mixed"

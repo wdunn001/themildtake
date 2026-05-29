@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": -4.2,
+      "score": -4.4,
       "confidence": 0.69,
       "skew": "negative",
       "notes": "Hurricane/drought exposure and a weak, politicised health system, with a crime-safety duality.",
       "sub_factors": {
         "climate": {
-          "score": -5,
+          "score_near": -6,
+          "score_long": -8,
+          "score": null,
           "weight": 0.2,
           "confidence": 0.8,
-          "notes": "Caribbean hurricanes plus dry-corridor drought and flooding - high disaster exposure. (Germanwatch; UNDP)"
+          "notes": "Dry-corridor drought plus the Caribbean hurricane corridor (Eta/Iota) plus low readiness/governance. (ND-GAIN)"
         },
         "healthcare": {
           "score": -5,
@@ -222,13 +224,13 @@
   },
   "decisions": {
     "living": {
-      "score": -5.73,
+      "score": -5.82,
       "confidence": 0.77,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -4.24,
+      "score": -4.28,
       "confidence": 0.76,
       "horizon": "3-7y",
       "reading": "clear negative"

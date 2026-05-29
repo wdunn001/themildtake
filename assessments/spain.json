@@ -192,18 +192,18 @@
       }
     },
     "physical_practical": {
-      "score": 2.6,
+      "score": 2.2,
       "confidence": 0.8,
       "skew": "negative",
       "notes": "Strong healthcare, low crime, and a functioning catastrophe-insurance backstop, against acute climate/water stress and a grid-reliability flag.",
       "sub_factors": {
         "climate": {
-          "score_near": -2,
-          "score_long": -4,
+          "score_near": -4,
+          "score_long": -6,
           "score": null,
           "weight": 0.2,
           "confidence": 0.8,
-          "notes": "Warming ~1.6x the global average; 2025 the hottest summer on record; structurally water-stressed (availability down sharply and projected to fall further by 2050); recent rains gave temporary, not trend, relief. (AEMET, MITECO)"
+          "notes": "Warming ~1.6x the global mean, structural water stress/desertification, extreme heat, and wildfire; high readiness cannot offset physical drying. (AEMET; IPCC AR6; EEA)"
         },
         "healthcare": {
           "score": 4,
@@ -234,13 +234,13 @@
   },
   "decisions": {
     "living": {
-      "score": 2.02,
+      "score": 1.96,
       "confidence": 0.78,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 2.43,
+      "score": 2.39,
       "confidence": 0.79,
       "horizon": "3-7y",
       "reading": "mixed"

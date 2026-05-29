@@ -190,18 +190,18 @@
       }
     },
     "physical_practical": {
-      "score": -6.5,
-      "confidence": 0.72,
+      "score": -6.7,
+      "confidence": 0.73,
       "skew": "negative",
       "notes": "Among the region's weakest health and worst crime, with high natural-hazard exposure.",
       "sub_factors": {
         "climate": {
-          "score_near": -4,
-          "score_long": -6,
+          "score_near": -5,
+          "score_long": -7,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.7,
-          "notes": "High exposure to flooding, landslides (the 2024 Enga landslide killed hundreds), highland frost/drought, and coastal sea-level risk. (UN OCHA; WHO)"
+          "confidence": 0.72,
+          "notes": "Carteret Islanders among the first climate-displaced; highland landslides/floods, very low adaptive capacity, high disaster exposure. (IPCC AR6; WB CCDR)"
         },
         "healthcare": {
           "score": -7,
@@ -232,13 +232,13 @@
   },
   "decisions": {
     "living": {
-      "score": -2.77,
+      "score": -2.8,
       "confidence": 0.67,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.44,
+      "score": -1.46,
       "confidence": 0.7,
       "horizon": "3-7y",
       "reading": "mixed"

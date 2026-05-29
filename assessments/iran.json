@@ -190,16 +190,18 @@
       }
     },
     "physical_practical": {
-      "score": -4.5,
-      "confidence": 0.61,
+      "score": -3.8,
+      "confidence": 0.62,
       "skew": "negative",
       "notes": "A severe water crisis and energy shortages, with sanctions-strained healthcare and seismic exposure.",
       "sub_factors": {
         "climate": {
-          "score": -8,
+          "score_near": -5,
+          "score_long": -7,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.75,
-          "notes": "A severe multi-year water crisis - depleting aquifers, drought, and land subsidence - plus extreme heat. (Carnegie; independent analysis)"
+          "confidence": 0.8,
+          "notes": "An acute water crisis, drought, extreme heat, dust storms, and lake/aquifer collapse, with weak readiness under sanctions. (IPCC AR6; WB)"
         },
         "healthcare": {
           "score_near": -2,
@@ -232,13 +234,13 @@
   },
   "decisions": {
     "living": {
-      "score": -6.35,
+      "score": -6.32,
       "confidence": 0.66,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -5.93,
+      "score": -5.88,
       "confidence": 0.66,
       "horizon": "3-7y",
       "reading": "clear negative"

@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": -2.1,
+      "score": -1.8,
       "confidence": 0.65,
       "skew": "negative",
       "notes": "An acute Aral Sea/water environmental burden anchors an otherwise improving picture.",
       "sub_factors": {
         "climate": {
-          "score": -6,
+          "score_near": -5,
+          "score_long": -7,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "The Aral Sea catastrophe and toxic dust, ~80% of water from trans-boundary rivers with a projected deficit, and extreme continental heat. (UNDP; Earth.Org)"
+          "confidence": 0.82,
+          "notes": "The Aral Sea catastrophe, acute water scarcity, extreme heat, dust/salinity; upstream-dependent, low readiness. (WB CCDR; IPCC AR6)"
         },
         "healthcare": {
           "score": -1,
@@ -222,7 +224,7 @@
   },
   "decisions": {
     "living": {
-      "score": -1.33,
+      "score": -1.36,
       "confidence": 0.73,
       "horizon": "5-10y",
       "reading": "mixed"

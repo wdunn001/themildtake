@@ -184,16 +184,18 @@
       }
     },
     "physical_practical": {
-      "score": -5,
-      "confidence": 0.44,
+      "score": -5.3,
+      "confidence": 0.47,
       "skew": "negative",
       "notes": "Arid and underdeveloped, with most indicators unverifiable.",
       "sub_factors": {
         "climate": {
-          "score": -5,
+          "score_near": -6,
+          "score_long": -7,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.45,
-          "notes": "Arid/drought-prone and water-stressed, though without 2025 acute famine-scale crises on its neighbours' scale. (AfDB) - limited data"
+          "confidence": 0.62,
+          "notes": "ND-GAIN bottom band - Horn drought, extreme heat, desertification, near-zero readiness under isolation. (ND-GAIN)"
         },
         "healthcare": {
           "score": -5,
@@ -224,13 +226,13 @@
   },
   "decisions": {
     "living": {
-      "score": -6.49,
+      "score": -6.54,
       "confidence": 0.56,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -5.33,
+      "score": -5.36,
       "confidence": 0.55,
       "horizon": "3-7y",
       "reading": "clear negative"

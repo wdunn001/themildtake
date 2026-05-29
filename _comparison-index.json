@@ -29,7 +29,7 @@
           "rank": 1,
           "country": "Norway",
           "iso3": "NOR",
-          "score": 6.65,
+          "score": 6.75,
           "confidence": 0.85,
           "skew": "symmetric"
         },
@@ -37,7 +37,7 @@
           "rank": 2,
           "country": "Switzerland",
           "iso3": "CHE",
-          "score": 6.58,
+          "score": 6.6,
           "confidence": 0.84,
           "skew": "symmetric"
         },
@@ -45,7 +45,7 @@
           "rank": 3,
           "country": "Luxembourg",
           "iso3": "LUX",
-          "score": 6.37,
+          "score": 6.42,
           "confidence": 0.83,
           "skew": "symmetric"
         },
@@ -53,7 +53,7 @@
           "rank": 4,
           "country": "Iceland",
           "iso3": "ISL",
-          "score": 5.49,
+          "score": 5.62,
           "confidence": 0.81,
           "skew": "symmetric"
         },
@@ -61,39 +61,39 @@
           "rank": 5,
           "country": "Liechtenstein",
           "iso3": "LIE",
-          "score": 5.39,
+          "score": 5.38,
           "confidence": 0.73,
           "skew": "positive"
         },
         {
           "rank": 6,
-          "country": "Austria",
-          "iso3": "AUT",
-          "score": 5.08,
-          "confidence": 0.83,
+          "country": "Denmark",
+          "iso3": "DNK",
+          "score": 5.2,
+          "confidence": 0.81,
           "skew": "symmetric"
         },
         {
           "rank": 7,
-          "country": "Denmark",
-          "iso3": "DNK",
-          "score": 5.02,
-          "confidence": 0.81,
+          "country": "Austria",
+          "iso3": "AUT",
+          "score": 5.1,
+          "confidence": 0.83,
           "skew": "symmetric"
         },
         {
           "rank": 8,
           "country": "Slovenia",
           "iso3": "SVN",
-          "score": 4.71,
-          "confidence": 0.8,
+          "score": 4.83,
+          "confidence": 0.79,
           "skew": "symmetric"
         },
         {
           "rank": 9,
           "country": "Finland",
           "iso3": "FIN",
-          "score": 4.64,
+          "score": 4.69,
           "confidence": 0.82,
           "skew": "symmetric"
         },
@@ -101,79 +101,79 @@
           "rank": 10,
           "country": "Estonia",
           "iso3": "EST",
-          "score": 4.51,
+          "score": 4.59,
           "confidence": 0.82,
           "skew": "symmetric"
         },
         {
           "rank": 11,
-          "country": "Monaco",
-          "iso3": "MCO",
-          "score": 4.3,
-          "confidence": 0.69,
-          "skew": "symmetric"
-        },
-        {
-          "rank": 12,
           "country": "Andorra",
           "iso3": "AND",
-          "score": 4.29,
+          "score": 4.28,
           "confidence": 0.73,
           "skew": "positive"
         },
         {
-          "rank": 13,
-          "country": "San Marino",
-          "iso3": "SMR",
-          "score": 4.13,
+          "rank": 12,
+          "country": "Monaco",
+          "iso3": "MCO",
+          "score": 4.23,
           "confidence": 0.69,
           "skew": "symmetric"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "country": "Lithuania",
           "iso3": "LTU",
-          "score": 3.99,
+          "score": 4.09,
           "confidence": 0.79,
+          "skew": "symmetric"
+        },
+        {
+          "rank": 14,
+          "country": "San Marino",
+          "iso3": "SMR",
+          "score": 4.05,
+          "confidence": 0.69,
           "skew": "symmetric"
         },
         {
           "rank": 15,
           "country": "Singapore",
           "iso3": "SGP",
-          "score": 3.78,
+          "score": 3.84,
           "confidence": 0.8,
           "skew": "symmetric"
         },
         {
           "rank": 16,
-          "country": "Cyprus",
-          "iso3": "CYP",
-          "score": 3.75,
-          "confidence": 0.8,
+          "country": "Sweden",
+          "iso3": "SWE",
+          "score": 3.76,
+          "confidence": 0.78,
           "skew": "symmetric"
         },
         {
           "rank": 17,
-          "country": "Uruguay",
-          "iso3": "URY",
-          "score": 3.69,
-          "confidence": 0.84,
+          "country": "Cyprus",
+          "iso3": "CYP",
+          "score": 3.74,
+          "confidence": 0.8,
           "skew": "symmetric"
         },
         {
           "rank": 18,
-          "country": "Sweden",
-          "iso3": "SWE",
-          "score": 3.67,
-          "confidence": 0.77,
+          "country": "Uruguay",
+          "iso3": "URY",
+          "score": 3.74,
+          "confidence": 0.84,
           "skew": "symmetric"
         },
         {
           "rank": 19,
           "country": "Latvia",
           "iso3": "LVA",
-          "score": 3.62,
+          "score": 3.7,
           "confidence": 0.8,
           "skew": "symmetric"
         },
@@ -181,7 +181,7 @@
           "rank": 20,
           "country": "Belgium",
           "iso3": "BEL",
-          "score": 3.5,
+          "score": 3.56,
           "confidence": 0.84,
           "skew": "symmetric"
         },
@@ -189,7 +189,7 @@
           "rank": 21,
           "country": "Czechia",
           "iso3": "CZE",
-          "score": 3.5,
+          "score": 3.55,
           "confidence": 0.8,
           "skew": "symmetric"
         },
@@ -197,39 +197,39 @@
           "rank": 22,
           "country": "Mauritius",
           "iso3": "MUS",
-          "score": 3.5,
+          "score": 3.54,
           "confidence": 0.73,
           "skew": "positive"
         },
         {
           "rank": 23,
-          "country": "Netherlands",
-          "iso3": "NLD",
-          "score": 3.41,
-          "confidence": 0.78,
-          "skew": "symmetric"
+          "country": "Seychelles",
+          "iso3": "SYC",
+          "score": 3.46,
+          "confidence": 0.7,
+          "skew": "positive"
         },
         {
           "rank": 24,
-          "country": "Seychelles",
-          "iso3": "SYC",
-          "score": 3.39,
-          "confidence": 0.7,
-          "skew": "positive"
+          "country": "Netherlands",
+          "iso3": "NLD",
+          "score": 3.44,
+          "confidence": 0.78,
+          "skew": "symmetric"
         },
         {
           "rank": 25,
           "country": "Botswana",
           "iso3": "BWA",
-          "score": 3.23,
-          "confidence": 0.74,
+          "score": 3.29,
+          "confidence": 0.73,
           "skew": "negative"
         },
         {
           "rank": 26,
           "country": "Ireland",
           "iso3": "IRL",
-          "score": 3.22,
+          "score": 3.28,
           "confidence": 0.78,
           "skew": "symmetric"
         },
@@ -243,122 +243,122 @@
         },
         {
           "rank": 28,
-          "country": "Japan",
-          "iso3": "JPN",
-          "score": 3.05,
-          "confidence": 0.79,
-          "skew": "negative"
+          "country": "Namibia",
+          "iso3": "NAM",
+          "score": 3.08,
+          "confidence": 0.71,
+          "skew": "symmetric"
         },
         {
           "rank": 29,
-          "country": "Namibia",
-          "iso3": "NAM",
-          "score": 3.02,
-          "confidence": 0.72,
-          "skew": "symmetric"
+          "country": "Japan",
+          "iso3": "JPN",
+          "score": 3.03,
+          "confidence": 0.79,
+          "skew": "negative"
         },
         {
           "rank": 30,
           "country": "Australia",
           "iso3": "AUS",
-          "score": 2.94,
+          "score": 2.88,
           "confidence": 0.77,
           "skew": "symmetric"
         },
         {
           "rank": 31,
-          "country": "Costa Rica",
-          "iso3": "CRI",
-          "score": 2.75,
-          "confidence": 0.81,
-          "skew": "symmetric"
-        },
-        {
-          "rank": 32,
           "country": "Chile",
           "iso3": "CHL",
-          "score": 2.73,
+          "score": 2.8,
           "confidence": 0.82,
           "skew": "symmetric"
         },
         {
-          "rank": 33,
+          "rank": 32,
           "country": "France",
           "iso3": "FRA",
-          "score": 2.72,
+          "score": 2.75,
           "confidence": 0.81,
           "skew": "negative"
         },
         {
-          "rank": 34,
+          "rank": 33,
           "country": "Croatia",
           "iso3": "HRV",
-          "score": 2.69,
+          "score": 2.7,
           "confidence": 0.8,
           "skew": "symmetric"
         },
         {
+          "rank": 34,
+          "country": "Canada",
+          "iso3": "CAN",
+          "score": 2.63,
+          "confidence": 0.76,
+          "skew": "symmetric"
+        },
+        {
           "rank": 35,
-          "country": "South Korea",
-          "iso3": "KOR",
-          "score": 2.64,
-          "confidence": 0.78,
-          "skew": "negative"
+          "country": "Costa Rica",
+          "iso3": "CRI",
+          "score": 2.63,
+          "confidence": 0.81,
+          "skew": "symmetric"
         },
         {
           "rank": 36,
+          "country": "South Korea",
+          "iso3": "KOR",
+          "score": 2.62,
+          "confidence": 0.78,
+          "skew": "negative"
+        },
+        {
+          "rank": 37,
           "country": "Portugal",
           "iso3": "PRT",
-          "score": 2.61,
+          "score": 2.59,
           "confidence": 0.78,
           "skew": "symmetric"
         },
         {
-          "rank": 37,
+          "rank": 38,
           "country": "Barbados",
           "iso3": "BRB",
-          "score": 2.52,
+          "score": 2.43,
           "confidence": 0.79,
           "skew": "negative"
-        },
-        {
-          "rank": 38,
-          "country": "Canada",
-          "iso3": "CAN",
-          "score": 2.52,
-          "confidence": 0.76,
-          "skew": "symmetric"
         },
         {
           "rank": 39,
           "country": "Grenada",
           "iso3": "GRD",
-          "score": 2.39,
+          "score": 2.34,
           "confidence": 0.66,
           "skew": "positive"
         },
         {
           "rank": 40,
-          "country": "New Zealand",
-          "iso3": "NZL",
+          "country": "United Kingdom",
+          "iso3": "GBR",
           "score": 2.33,
-          "confidence": 0.75,
+          "confidence": 0.8,
           "skew": "symmetric"
         },
         {
           "rank": 41,
-          "country": "Cabo Verde",
-          "iso3": "CPV",
+          "country": "New Zealand",
+          "iso3": "NZL",
           "score": 2.3,
-          "confidence": 0.73,
+          "confidence": 0.75,
           "skew": "symmetric"
         },
         {
           "rank": 42,
-          "country": "United Kingdom",
-          "iso3": "GBR",
-          "score": 2.24,
-          "confidence": 0.8,
+          "country": "Cabo Verde",
+          "iso3": "CPV",
+          "score": 2.28,
+          "confidence": 0.73,
           "skew": "symmetric"
         },
         {
@@ -366,14 +366,14 @@
           "country": "Ghana",
           "iso3": "GHA",
           "score": 2.2,
-          "confidence": 0.76,
+          "confidence": 0.75,
           "skew": "symmetric"
         },
         {
           "rank": 44,
           "country": "Poland",
           "iso3": "POL",
-          "score": 2.12,
+          "score": 2.17,
           "confidence": 0.78,
           "skew": "symmetric"
         },
@@ -381,81 +381,81 @@
           "rank": 45,
           "country": "Italy",
           "iso3": "ITA",
-          "score": 2.05,
-          "confidence": 0.79,
+          "score": 2.06,
+          "confidence": 0.78,
           "skew": "negative"
         },
         {
           "rank": 46,
-          "country": "Jamaica",
-          "iso3": "JAM",
-          "score": 2.03,
-          "confidence": 0.77,
-          "skew": "negative"
+          "country": "Spain",
+          "iso3": "ESP",
+          "score": 1.96,
+          "confidence": 0.78,
+          "skew": "symmetric"
         },
         {
           "rank": 47,
-          "country": "Spain",
-          "iso3": "ESP",
-          "score": 2.02,
-          "confidence": 0.78,
-          "skew": "symmetric"
+          "country": "Jamaica",
+          "iso3": "JAM",
+          "score": 1.93,
+          "confidence": 0.77,
+          "skew": "negative"
         },
         {
           "rank": 48,
           "country": "Saint Kitts and Nevis",
           "iso3": "KNA",
-          "score": 1.57,
+          "score": 1.5,
           "confidence": 0.62,
           "skew": "symmetric"
         },
         {
           "rank": 49,
-          "country": "The Bahamas",
-          "iso3": "BHS",
-          "score": 1.54,
-          "confidence": 0.79,
-          "skew": "negative"
+          "country": "Argentina",
+          "iso3": "ARG",
+          "score": 1.47,
+          "confidence": 0.77,
+          "skew": "positive"
         },
         {
           "rank": 50,
-          "country": "Argentina",
-          "iso3": "ARG",
-          "score": 1.4,
-          "confidence": 0.77,
-          "skew": "positive"
+          "country": "The Bahamas",
+          "iso3": "BHS",
+          "score": 1.47,
+          "confidence": 0.79,
+          "skew": "negative"
         },
         {
           "rank": 51,
           "country": "Saint Vincent and the Grenadines",
           "iso3": "VCT",
-          "score": 1.39,
+          "score": 1.37,
           "confidence": 0.64,
           "skew": "symmetric"
         },
         {
           "rank": 52,
-          "country": "Israel",
-          "iso3": "ISR",
-          "score": 1.33,
-          "confidence": 0.72,
-          "skew": "symmetric"
-        },
-        {
-          "rank": 53,
-          "country": "Dominican Republic",
-          "iso3": "DOM",
-          "score": 1.3,
-          "confidence": 0.79,
-          "skew": "positive"
-        },
-        {
-          "rank": 54,
           "country": "Greece",
           "iso3": "GRC",
           "score": 1.27,
           "confidence": 0.77,
           "skew": "symmetric"
+        },
+        {
+          "rank": 53,
+          "country": "Israel",
+          "iso3": "ISR",
+          "score": 1.26,
+          "confidence": 0.72,
+          "skew": "symmetric"
+        },
+        {
+          "rank": 54,
+          "country": "Dominican Republic",
+          "iso3": "DOM",
+          "score": 1.24,
+          "confidence": 0.79,
+          "skew": "positive"
         },
         {
           "rank": 55,
@@ -467,10 +467,10 @@
         },
         {
           "rank": 56,
-          "country": "Saint Lucia",
-          "iso3": "LCA",
-          "score": 1.12,
-          "confidence": 0.62,
+          "country": "Malaysia",
+          "iso3": "MYS",
+          "score": 1.04,
+          "confidence": 0.76,
           "skew": "symmetric"
         },
         {
@@ -478,30 +478,30 @@
           "country": "Malta",
           "iso3": "MLT",
           "score": 1.04,
-          "confidence": 0.82,
+          "confidence": 0.81,
           "skew": "symmetric"
         },
         {
           "rank": 58,
-          "country": "Belize",
-          "iso3": "BLZ",
-          "score": 1.03,
-          "confidence": 0.64,
-          "skew": "positive"
+          "country": "Saint Lucia",
+          "iso3": "LCA",
+          "score": 1.04,
+          "confidence": 0.62,
+          "skew": "symmetric"
         },
         {
           "rank": 59,
-          "country": "Malaysia",
-          "iso3": "MYS",
-          "score": 1.02,
-          "confidence": 0.76,
-          "skew": "symmetric"
+          "country": "Belize",
+          "iso3": "BLZ",
+          "score": 0.97,
+          "confidence": 0.64,
+          "skew": "positive"
         },
         {
           "rank": 60,
           "country": "Romania",
           "iso3": "ROU",
-          "score": 0.96,
+          "score": 0.93,
           "confidence": 0.75,
           "skew": "negative"
         },
@@ -509,44 +509,60 @@
           "rank": 61,
           "country": "Zambia",
           "iso3": "ZMB",
-          "score": 0.84,
-          "confidence": 0.72,
+          "score": 0.86,
+          "confidence": 0.71,
           "skew": "symmetric"
         },
         {
           "rank": 62,
-          "country": "Dominica",
-          "iso3": "DMA",
-          "score": 0.81,
-          "confidence": 0.61,
+          "country": "Armenia",
+          "iso3": "ARM",
+          "score": 0.79,
+          "confidence": 0.67,
           "skew": "negative"
         },
         {
           "rank": 63,
-          "country": "Fiji",
-          "iso3": "FJI",
+          "country": "Dominica",
+          "iso3": "DMA",
           "score": 0.79,
-          "confidence": 0.67,
-          "skew": "symmetric"
+          "confidence": 0.61,
+          "skew": "negative"
         },
         {
           "rank": 64,
-          "country": "Armenia",
-          "iso3": "ARM",
-          "score": 0.78,
-          "confidence": 0.67,
-          "skew": "negative"
+          "country": "Bhutan",
+          "iso3": "BTN",
+          "score": 0.76,
+          "confidence": 0.69,
+          "skew": "positive"
         },
         {
           "rank": 65,
           "country": "Hungary",
           "iso3": "HUN",
-          "score": 0.77,
+          "score": 0.75,
           "confidence": 0.73,
           "skew": "positive"
         },
         {
           "rank": 66,
+          "country": "Fiji",
+          "iso3": "FJI",
+          "score": 0.74,
+          "confidence": 0.67,
+          "skew": "symmetric"
+        },
+        {
+          "rank": 67,
+          "country": "Morocco",
+          "iso3": "MAR",
+          "score": 0.72,
+          "confidence": 0.77,
+          "skew": "symmetric"
+        },
+        {
+          "rank": 68,
           "country": "Palau",
           "iso3": "PLW",
           "score": 0.7,
@@ -554,68 +570,52 @@
           "skew": "positive"
         },
         {
-          "rank": 67,
-          "country": "Morocco",
-          "iso3": "MAR",
-          "score": 0.69,
-          "confidence": 0.77,
-          "skew": "symmetric"
-        },
-        {
-          "rank": 68,
+          "rank": 69,
           "country": "South Africa",
           "iso3": "ZAF",
-          "score": 0.68,
+          "score": 0.67,
           "confidence": 0.78,
           "skew": "negative"
         },
         {
-          "rank": 69,
+          "rank": 70,
           "country": "São Tomé and Príncipe",
           "iso3": "STP",
-          "score": 0.66,
-          "confidence": 0.65,
+          "score": 0.58,
+          "confidence": 0.64,
           "skew": "positive"
-        },
-        {
-          "rank": 70,
-          "country": "Trinidad and Tobago",
-          "iso3": "TTO",
-          "score": 0.65,
-          "confidence": 0.74,
-          "skew": "negative"
         },
         {
           "rank": 71,
-          "country": "Bhutan",
-          "iso3": "BTN",
-          "score": 0.62,
-          "confidence": 0.69,
-          "skew": "positive"
+          "country": "Sri Lanka",
+          "iso3": "LKA",
+          "score": 0.58,
+          "confidence": 0.7,
+          "skew": "symmetric"
         },
         {
           "rank": 72,
-          "country": "Antigua and Barbuda",
-          "iso3": "ATG",
-          "score": 0.59,
-          "confidence": 0.59,
+          "country": "Albania",
+          "iso3": "ALB",
+          "score": 0.55,
+          "confidence": 0.72,
           "skew": "symmetric"
         },
         {
           "rank": 73,
-          "country": "Albania",
-          "iso3": "ALB",
-          "score": 0.57,
-          "confidence": 0.73,
+          "country": "Antigua and Barbuda",
+          "iso3": "ATG",
+          "score": 0.5,
+          "confidence": 0.59,
           "skew": "symmetric"
         },
         {
           "rank": 74,
-          "country": "Sri Lanka",
-          "iso3": "LKA",
-          "score": 0.56,
-          "confidence": 0.7,
-          "skew": "symmetric"
+          "country": "Trinidad and Tobago",
+          "iso3": "TTO",
+          "score": 0.48,
+          "confidence": 0.74,
+          "skew": "negative"
         },
         {
           "rank": 75,
@@ -635,38 +635,30 @@
         },
         {
           "rank": 77,
-          "country": "Brazil",
-          "iso3": "BRA",
-          "score": 0.32,
-          "confidence": 0.72,
+          "country": "Slovakia",
+          "iso3": "SVK",
+          "score": 0.31,
+          "confidence": 0.79,
           "skew": "negative"
         },
         {
           "rank": 78,
           "country": "Moldova",
           "iso3": "MDA",
-          "score": 0.3,
+          "score": 0.24,
           "confidence": 0.67,
           "skew": "symmetric"
         },
         {
           "rank": 79,
-          "country": "Slovakia",
-          "iso3": "SVK",
-          "score": 0.26,
-          "confidence": 0.79,
+          "country": "Brazil",
+          "iso3": "BRA",
+          "score": 0.22,
+          "confidence": 0.72,
           "skew": "negative"
         },
         {
           "rank": 80,
-          "country": "United Arab Emirates",
-          "iso3": "ARE",
-          "score": 0.22,
-          "confidence": 0.71,
-          "skew": "negative"
-        },
-        {
-          "rank": 81,
           "country": "Senegal",
           "iso3": "SEN",
           "score": 0.21,
@@ -674,42 +666,50 @@
           "skew": "symmetric"
         },
         {
+          "rank": 81,
+          "country": "United Arab Emirates",
+          "iso3": "ARE",
+          "score": 0.19,
+          "confidence": 0.72,
+          "skew": "negative"
+        },
+        {
           "rank": 82,
           "country": "Samoa",
           "iso3": "WSM",
-          "score": 0.19,
+          "score": 0.17,
           "confidence": 0.64,
           "skew": "symmetric"
         },
         {
           "rank": 83,
-          "country": "The Gambia",
-          "iso3": "GMB",
-          "score": 0.17,
-          "confidence": 0.67,
-          "skew": "positive"
-        },
-        {
-          "rank": 84,
-          "country": "Guyana",
-          "iso3": "GUY",
-          "score": 0.16,
-          "confidence": 0.68,
+          "country": "Paraguay",
+          "iso3": "PRY",
+          "score": 0.08,
+          "confidence": 0.76,
           "skew": "symmetric"
         },
         {
+          "rank": 84,
+          "country": "The Gambia",
+          "iso3": "GMB",
+          "score": 0.07,
+          "confidence": 0.66,
+          "skew": "positive"
+        },
+        {
           "rank": 85,
-          "country": "Paraguay",
-          "iso3": "PRY",
-          "score": 0.09,
-          "confidence": 0.77,
+          "country": "Guyana",
+          "iso3": "GUY",
+          "score": 0.02,
+          "confidence": 0.68,
           "skew": "symmetric"
         },
         {
           "rank": 86,
           "country": "Indonesia",
           "iso3": "IDN",
-          "score": -0.04,
+          "score": -0.02,
           "confidence": 0.74,
           "skew": "symmetric"
         },
@@ -717,71 +717,71 @@
           "rank": 87,
           "country": "Côte d'Ivoire",
           "iso3": "CIV",
-          "score": -0.07,
+          "score": -0.08,
           "confidence": 0.72,
           "skew": "symmetric"
         },
         {
           "rank": 88,
-          "country": "Ukraine",
-          "iso3": "UKR",
-          "score": -0.22,
-          "confidence": 0.66,
-          "skew": "positive"
-        },
-        {
-          "rank": 89,
           "country": "North Macedonia",
           "iso3": "MKD",
-          "score": -0.27,
-          "confidence": 0.77,
+          "score": -0.26,
+          "confidence": 0.76,
           "skew": "symmetric"
         },
         {
-          "rank": 90,
+          "rank": 89,
           "country": "Thailand",
           "iso3": "THA",
-          "score": -0.27,
+          "score": -0.26,
           "confidence": 0.75,
           "skew": "negative"
         },
         {
-          "rank": 91,
-          "country": "Suriname",
-          "iso3": "SUR",
+          "rank": 90,
+          "country": "Ukraine",
+          "iso3": "UKR",
           "score": -0.32,
-          "confidence": 0.67,
+          "confidence": 0.66,
           "skew": "positive"
         },
         {
-          "rank": 92,
+          "rank": 91,
           "country": "Kenya",
           "iso3": "KEN",
-          "score": -0.4,
+          "score": -0.39,
           "confidence": 0.73,
           "skew": "symmetric"
+        },
+        {
+          "rank": 92,
+          "country": "Marshall Islands",
+          "iso3": "MHL",
+          "score": -0.5,
+          "confidence": 0.61,
+          "skew": "negative"
         },
         {
           "rank": 93,
           "country": "Panama",
           "iso3": "PAN",
-          "score": -0.43,
+          "score": -0.5,
           "confidence": 0.72,
           "skew": "negative"
         },
         {
           "rank": 94,
-          "country": "Marshall Islands",
-          "iso3": "MHL",
-          "score": -0.48,
-          "confidence": 0.61,
-          "skew": "negative"
+          "country": "Suriname",
+          "iso3": "SUR",
+          "score": -0.54,
+          "confidence": 0.68,
+          "skew": "positive"
         },
         {
           "rank": 95,
           "country": "Bulgaria",
           "iso3": "BGR",
-          "score": -0.53,
+          "score": -0.58,
           "confidence": 0.81,
           "skew": "symmetric"
         },
@@ -789,7 +789,7 @@
           "rank": 96,
           "country": "Colombia",
           "iso3": "COL",
-          "score": -0.55,
+          "score": -0.6,
           "confidence": 0.79,
           "skew": "symmetric"
         },
@@ -797,111 +797,111 @@
           "rank": 97,
           "country": "Lesotho",
           "iso3": "LSO",
-          "score": -0.66,
+          "score": -0.75,
           "confidence": 0.64,
           "skew": "negative"
         },
         {
           "rank": 98,
-          "country": "Benin",
-          "iso3": "BEN",
-          "score": -0.74,
-          "confidence": 0.73,
-          "skew": "negative"
-        },
-        {
-          "rank": 99,
-          "country": "Vietnam",
-          "iso3": "VNM",
-          "score": -0.78,
-          "confidence": 0.73,
-          "skew": "symmetric"
-        },
-        {
-          "rank": 100,
-          "country": "Rwanda",
-          "iso3": "RWA",
-          "score": -0.8,
-          "confidence": 0.78,
-          "skew": "negative"
-        },
-        {
-          "rank": 101,
           "country": "Kuwait",
           "iso3": "KWT",
-          "score": -0.81,
+          "score": -0.76,
           "confidence": 0.76,
           "skew": "symmetric"
         },
         {
+          "rank": 99,
+          "country": "Benin",
+          "iso3": "BEN",
+          "score": -0.78,
+          "confidence": 0.73,
+          "skew": "negative"
+        },
+        {
+          "rank": 100,
+          "country": "Vietnam",
+          "iso3": "VNM",
+          "score": -0.81,
+          "confidence": 0.74,
+          "skew": "symmetric"
+        },
+        {
+          "rank": 101,
+          "country": "Rwanda",
+          "iso3": "RWA",
+          "score": -0.84,
+          "confidence": 0.78,
+          "skew": "negative"
+        },
+        {
           "rank": 102,
-          "country": "Federated States of Micronesia",
-          "iso3": "FSM",
-          "score": -0.9,
-          "confidence": 0.6,
+          "country": "Mongolia",
+          "iso3": "MNG",
+          "score": -0.92,
+          "confidence": 0.66,
           "skew": "symmetric"
         },
         {
           "rank": 103,
-          "country": "Mongolia",
-          "iso3": "MNG",
+          "country": "Federated States of Micronesia",
+          "iso3": "FSM",
           "score": -0.94,
-          "confidence": 0.65,
+          "confidence": 0.6,
           "skew": "symmetric"
         },
         {
           "rank": 104,
-          "country": "Peru",
-          "iso3": "PER",
-          "score": -1,
-          "confidence": 0.79,
-          "skew": "symmetric"
-        },
-        {
-          "rank": 105,
           "country": "Saudi Arabia",
           "iso3": "SAU",
-          "score": -1.01,
+          "score": -1.03,
           "confidence": 0.79,
           "skew": "negative"
         },
         {
-          "rank": 106,
-          "country": "Guatemala",
-          "iso3": "GTM",
-          "score": -1.06,
-          "confidence": 0.77,
+          "rank": 105,
+          "country": "Peru",
+          "iso3": "PER",
+          "score": -1.05,
+          "confidence": 0.79,
           "skew": "symmetric"
         },
         {
-          "rank": 107,
+          "rank": 106,
           "country": "India",
           "iso3": "IND",
-          "score": -1.09,
+          "score": -1.15,
           "confidence": 0.71,
           "skew": "symmetric"
         },
         {
-          "rank": 108,
-          "country": "Tuvalu",
-          "iso3": "TUV",
-          "score": -1.09,
-          "confidence": 0.54,
+          "rank": 107,
+          "country": "Brunei",
+          "iso3": "BRN",
+          "score": -1.18,
+          "confidence": 0.7,
           "skew": "negative"
         },
         {
+          "rank": 108,
+          "country": "Guatemala",
+          "iso3": "GTM",
+          "score": -1.18,
+          "confidence": 0.77,
+          "skew": "symmetric"
+        },
+        {
           "rank": 109,
-          "country": "Brunei",
-          "iso3": "BRN",
-          "score": -1.16,
-          "confidence": 0.7,
+          "country": "Tuvalu",
+          "iso3": "TUV",
+          "score": -1.18,
+          "confidence": 0.54,
           "skew": "negative"
         },
         {
           "rank": 110,
           "country": "Vanuatu",
           "iso3": "VUT",
-          "score": -1.21,
+          "score": -1.2,
           "confidence": 0.62,
           "skew": "negative"
         },
@@ -909,47 +909,47 @@
           "rank": 111,
           "country": "Bahrain",
           "iso3": "BHR",
-          "score": -1.24,
+          "score": -1.21,
           "confidence": 0.76,
           "skew": "negative"
         },
         {
           "rank": 112,
-          "country": "Georgia",
-          "iso3": "GEO",
-          "score": -1.33,
-          "confidence": 0.68,
-          "skew": "negative"
-        },
-        {
-          "rank": 113,
           "country": "Uzbekistan",
           "iso3": "UZB",
-          "score": -1.33,
+          "score": -1.36,
           "confidence": 0.73,
           "skew": "symmetric"
         },
         {
-          "rank": 114,
-          "country": "El Salvador",
-          "iso3": "SLV",
+          "rank": 113,
+          "country": "Tonga",
+          "iso3": "TON",
           "score": -1.37,
-          "confidence": 0.76,
-          "skew": "symmetric"
+          "confidence": 0.6,
+          "skew": "negative"
+        },
+        {
+          "rank": 114,
+          "country": "Georgia",
+          "iso3": "GEO",
+          "score": -1.44,
+          "confidence": 0.69,
+          "skew": "negative"
         },
         {
           "rank": 115,
-          "country": "Tonga",
-          "iso3": "TON",
-          "score": -1.4,
-          "confidence": 0.61,
-          "skew": "negative"
+          "country": "El Salvador",
+          "iso3": "SLV",
+          "score": -1.46,
+          "confidence": 0.76,
+          "skew": "symmetric"
         },
         {
           "rank": 116,
           "country": "Timor-Leste",
           "iso3": "TLS",
-          "score": -1.43,
+          "score": -1.46,
           "confidence": 0.69,
           "skew": "negative"
         },
@@ -957,7 +957,7 @@
           "rank": 117,
           "country": "Togo",
           "iso3": "TGO",
-          "score": -1.44,
+          "score": -1.48,
           "confidence": 0.71,
           "skew": "negative"
         },
@@ -965,15 +965,15 @@
           "rank": 118,
           "country": "Kyrgyzstan",
           "iso3": "KGZ",
-          "score": -1.73,
-          "confidence": 0.63,
+          "score": -1.82,
+          "confidence": 0.64,
           "skew": "negative"
         },
         {
           "rank": 119,
           "country": "Mauritania",
           "iso3": "MRT",
-          "score": -1.83,
+          "score": -1.86,
           "confidence": 0.66,
           "skew": "negative"
         },
@@ -981,7 +981,7 @@
           "rank": 120,
           "country": "Philippines",
           "iso3": "PHL",
-          "score": -1.83,
+          "score": -1.87,
           "confidence": 0.73,
           "skew": "symmetric"
         },
@@ -989,20 +989,12 @@
           "rank": 121,
           "country": "Jordan",
           "iso3": "JOR",
-          "score": -1.92,
+          "score": -1.88,
           "confidence": 0.76,
           "skew": "symmetric"
         },
         {
           "rank": 122,
-          "country": "Djibouti",
-          "iso3": "DJI",
-          "score": -1.95,
-          "confidence": 0.56,
-          "skew": "negative"
-        },
-        {
-          "rank": 123,
           "country": "Maldives",
           "iso3": "MDV",
           "score": -1.95,
@@ -1010,122 +1002,130 @@
           "skew": "negative"
         },
         {
+          "rank": 123,
+          "country": "Djibouti",
+          "iso3": "DJI",
+          "score": -2.03,
+          "confidence": 0.56,
+          "skew": "negative"
+        },
+        {
           "rank": 124,
-          "country": "Honduras",
-          "iso3": "HND",
-          "score": -1.97,
-          "confidence": 0.76,
+          "country": "Eswatini",
+          "iso3": "SWZ",
+          "score": -2.06,
+          "confidence": 0.68,
           "skew": "negative"
         },
         {
           "rank": 125,
-          "country": "Eswatini",
-          "iso3": "SWZ",
-          "score": -2.01,
-          "confidence": 0.68,
+          "country": "Honduras",
+          "iso3": "HND",
+          "score": -2.06,
+          "confidence": 0.75,
           "skew": "negative"
         },
         {
           "rank": 126,
           "country": "Comoros",
           "iso3": "COM",
-          "score": -2.03,
-          "confidence": 0.63,
+          "score": -2.1,
+          "confidence": 0.62,
           "skew": "negative"
         },
         {
           "rank": 127,
-          "country": "Gabon",
-          "iso3": "GAB",
-          "score": -2.09,
-          "confidence": 0.65,
-          "skew": "symmetric"
+          "country": "Ecuador",
+          "iso3": "ECU",
+          "score": -2.15,
+          "confidence": 0.75,
+          "skew": "negative"
         },
         {
           "rank": 128,
-          "country": "Ecuador",
-          "iso3": "ECU",
-          "score": -2.1,
-          "confidence": 0.76,
-          "skew": "negative"
+          "country": "Gabon",
+          "iso3": "GAB",
+          "score": -2.18,
+          "confidence": 0.64,
+          "skew": "symmetric"
         },
         {
           "rank": 129,
-          "country": "Liberia",
-          "iso3": "LBR",
-          "score": -2.2,
-          "confidence": 0.63,
-          "skew": "negative"
-        },
-        {
-          "rank": 130,
           "country": "Kiribati",
           "iso3": "KIR",
-          "score": -2.21,
+          "score": -2.22,
           "confidence": 0.58,
           "skew": "negative"
         },
         {
+          "rank": 130,
+          "country": "Liberia",
+          "iso3": "LBR",
+          "score": -2.25,
+          "confidence": 0.63,
+          "skew": "negative"
+        },
+        {
           "rank": 131,
-          "country": "Sierra Leone",
-          "iso3": "SLE",
-          "score": -2.27,
-          "confidence": 0.68,
+          "country": "Kazakhstan",
+          "iso3": "KAZ",
+          "score": -2.32,
+          "confidence": 0.73,
           "skew": "negative"
         },
         {
           "rank": 132,
-          "country": "Mexico",
-          "iso3": "MEX",
-          "score": -2.31,
-          "confidence": 0.71,
-          "skew": "positive"
+          "country": "Malawi",
+          "iso3": "MWI",
+          "score": -2.32,
+          "confidence": 0.63,
+          "skew": "negative"
         },
         {
           "rank": 133,
-          "country": "Malawi",
-          "iso3": "MWI",
-          "score": -2.33,
-          "confidence": 0.64,
+          "country": "Sierra Leone",
+          "iso3": "SLE",
+          "score": -2.32,
+          "confidence": 0.67,
           "skew": "negative"
         },
         {
           "rank": 134,
-          "country": "Tanzania",
-          "iso3": "TZA",
-          "score": -2.33,
-          "confidence": 0.73,
-          "skew": "negative"
-        },
-        {
-          "rank": 135,
-          "country": "Kazakhstan",
-          "iso3": "KAZ",
-          "score": -2.37,
-          "confidence": 0.73,
-          "skew": "negative"
-        },
-        {
-          "rank": 136,
           "country": "Turkey",
           "iso3": "TUR",
-          "score": -2.4,
+          "score": -2.33,
           "confidence": 0.72,
           "skew": "negative"
         },
         {
-          "rank": 137,
+          "rank": 135,
+          "country": "Tanzania",
+          "iso3": "TZA",
+          "score": -2.35,
+          "confidence": 0.72,
+          "skew": "negative"
+        },
+        {
+          "rank": 136,
           "country": "Serbia",
           "iso3": "SRB",
-          "score": -2.45,
+          "score": -2.44,
           "confidence": 0.74,
           "skew": "negative"
+        },
+        {
+          "rank": 137,
+          "country": "Mexico",
+          "iso3": "MEX",
+          "score": -2.45,
+          "confidence": 0.71,
+          "skew": "positive"
         },
         {
           "rank": 138,
           "country": "Nepal",
           "iso3": "NPL",
-          "score": -2.5,
+          "score": -2.46,
           "confidence": 0.74,
           "skew": "symmetric"
         },
@@ -1133,24 +1133,24 @@
           "rank": 139,
           "country": "Bosnia and Herzegovina",
           "iso3": "BIH",
-          "score": -2.76,
-          "confidence": 0.76,
+          "score": -2.75,
+          "confidence": 0.75,
           "skew": "negative"
         },
         {
           "rank": 140,
-          "country": "Papua New Guinea",
-          "iso3": "PNG",
-          "score": -2.77,
-          "confidence": 0.67,
-          "skew": "negative"
-        },
-        {
-          "rank": 141,
           "country": "Nauru",
           "iso3": "NRU",
           "score": -2.79,
           "confidence": 0.57,
+          "skew": "negative"
+        },
+        {
+          "rank": 141,
+          "country": "Papua New Guinea",
+          "iso3": "PNG",
+          "score": -2.8,
+          "confidence": 0.67,
           "skew": "negative"
         },
         {
@@ -1165,57 +1165,57 @@
           "rank": 143,
           "country": "Egypt",
           "iso3": "EGY",
-          "score": -3.03,
+          "score": -3.01,
           "confidence": 0.75,
           "skew": "negative"
         },
         {
           "rank": 144,
-          "country": "Guinea-Bissau",
-          "iso3": "GNB",
-          "score": -3.05,
-          "confidence": 0.67,
+          "country": "Uganda",
+          "iso3": "UGA",
+          "score": -3.13,
+          "confidence": 0.75,
           "skew": "negative"
         },
         {
           "rank": 145,
-          "country": "Uganda",
-          "iso3": "UGA",
-          "score": -3.08,
-          "confidence": 0.75,
+          "country": "Guinea-Bissau",
+          "iso3": "GNB",
+          "score": -3.16,
+          "confidence": 0.67,
           "skew": "negative"
         },
         {
           "rank": 146,
           "country": "Nigeria",
           "iso3": "NGA",
-          "score": -3.17,
+          "score": -3.19,
           "confidence": 0.73,
           "skew": "negative"
         },
         {
           "rank": 147,
-          "country": "Bolivia",
-          "iso3": "BOL",
-          "score": -3.25,
-          "confidence": 0.72,
+          "country": "Azerbaijan",
+          "iso3": "AZE",
+          "score": -3.29,
+          "confidence": 0.77,
           "skew": "negative"
         },
         {
           "rank": 148,
-          "country": "Bangladesh",
-          "iso3": "BGD",
-          "score": -3.26,
-          "confidence": 0.77,
-          "skew": "symmetric"
+          "country": "Bolivia",
+          "iso3": "BOL",
+          "score": -3.31,
+          "confidence": 0.71,
+          "skew": "negative"
         },
         {
           "rank": 149,
-          "country": "Azerbaijan",
-          "iso3": "AZE",
-          "score": -3.29,
-          "confidence": 0.78,
-          "skew": "negative"
+          "country": "Bangladesh",
+          "iso3": "BGD",
+          "score": -3.33,
+          "confidence": 0.77,
+          "skew": "symmetric"
         },
         {
           "rank": 150,
@@ -1227,25 +1227,25 @@
         },
         {
           "rank": 151,
-          "country": "Cambodia",
-          "iso3": "KHM",
-          "score": -3.58,
-          "confidence": 0.79,
+          "country": "Tunisia",
+          "iso3": "TUN",
+          "score": -3.53,
+          "confidence": 0.73,
           "skew": "negative"
         },
         {
           "rank": 152,
-          "country": "Tunisia",
-          "iso3": "TUN",
+          "country": "Cambodia",
+          "iso3": "KHM",
           "score": -3.61,
-          "confidence": 0.73,
+          "confidence": 0.79,
           "skew": "negative"
         },
         {
           "rank": 153,
           "country": "Guinea",
           "iso3": "GIN",
-          "score": -3.66,
+          "score": -3.74,
           "confidence": 0.66,
           "skew": "negative"
         },
@@ -1253,7 +1253,7 @@
           "rank": 154,
           "country": "Cameroon",
           "iso3": "CMR",
-          "score": -3.96,
+          "score": -3.99,
           "confidence": 0.72,
           "skew": "negative"
         },
@@ -1261,15 +1261,15 @@
           "rank": 155,
           "country": "Tajikistan",
           "iso3": "TJK",
-          "score": -4.04,
-          "confidence": 0.63,
+          "score": -4.13,
+          "confidence": 0.64,
           "skew": "negative"
         },
         {
           "rank": 156,
           "country": "Ethiopia",
           "iso3": "ETH",
-          "score": -4.12,
+          "score": -4.2,
           "confidence": 0.77,
           "skew": "negative"
         },
@@ -1277,7 +1277,7 @@
           "rank": 157,
           "country": "Algeria",
           "iso3": "DZA",
-          "score": -4.29,
+          "score": -4.22,
           "confidence": 0.78,
           "skew": "negative"
         },
@@ -1285,7 +1285,7 @@
           "rank": 158,
           "country": "Republic of the Congo",
           "iso3": "COG",
-          "score": -4.29,
+          "score": -4.37,
           "confidence": 0.7,
           "skew": "negative"
         },
@@ -1293,60 +1293,52 @@
           "rank": 159,
           "country": "China",
           "iso3": "CHN",
-          "score": -4.33,
-          "confidence": 0.68,
+          "score": -4.38,
+          "confidence": 0.69,
           "skew": "negative"
         },
         {
           "rank": 160,
-          "country": "Burundi",
-          "iso3": "BDI",
-          "score": -4.48,
-          "confidence": 0.53,
-          "skew": "negative"
-        },
-        {
-          "rank": 161,
           "country": "Niger",
           "iso3": "NER",
-          "score": -4.51,
+          "score": -4.53,
           "confidence": 0.67,
           "skew": "negative"
         },
         {
-          "rank": 162,
+          "rank": 161,
           "country": "Chad",
           "iso3": "TCD",
-          "score": -4.55,
+          "score": -4.59,
           "confidence": 0.72,
+          "skew": "negative"
+        },
+        {
+          "rank": 162,
+          "country": "Burundi",
+          "iso3": "BDI",
+          "score": -4.61,
+          "confidence": 0.54,
           "skew": "negative"
         },
         {
           "rank": 163,
           "country": "Angola",
           "iso3": "AGO",
-          "score": -4.84,
-          "confidence": 0.79,
+          "score": -4.83,
+          "confidence": 0.78,
           "skew": "negative"
         },
         {
           "rank": 164,
-          "country": "Central African Republic",
-          "iso3": "CAF",
-          "score": -4.88,
-          "confidence": 0.56,
-          "skew": "negative"
-        },
-        {
-          "rank": 165,
           "country": "Mozambique",
           "iso3": "MOZ",
-          "score": -4.92,
+          "score": -4.9,
           "confidence": 0.71,
           "skew": "negative"
         },
         {
-          "rank": 166,
+          "rank": 165,
           "country": "Pakistan",
           "iso3": "PAK",
           "score": -4.92,
@@ -1354,18 +1346,26 @@
           "skew": "negative"
         },
         {
-          "rank": 167,
+          "rank": 166,
           "country": "Mali",
           "iso3": "MLI",
-          "score": -4.98,
+          "score": -5.01,
           "confidence": 0.68,
+          "skew": "negative"
+        },
+        {
+          "rank": 167,
+          "country": "Central African Republic",
+          "iso3": "CAF",
+          "score": -5.04,
+          "confidence": 0.57,
           "skew": "negative"
         },
         {
           "rank": 168,
           "country": "Burkina Faso",
           "iso3": "BFA",
-          "score": -5.05,
+          "score": -5.08,
           "confidence": 0.68,
           "skew": "negative"
         },
@@ -1373,7 +1373,7 @@
           "rank": 169,
           "country": "Iraq",
           "iso3": "IRQ",
-          "score": -5.1,
+          "score": -5.11,
           "confidence": 0.65,
           "skew": "negative"
         },
@@ -1381,60 +1381,68 @@
           "rank": 170,
           "country": "Equatorial Guinea",
           "iso3": "GNQ",
-          "score": -5.18,
+          "score": -5.27,
           "confidence": 0.67,
           "skew": "negative"
         },
         {
           "rank": 171,
-          "country": "Syria",
-          "iso3": "SYR",
-          "score": -5.28,
-          "confidence": 0.5,
-          "skew": "positive"
-        },
-        {
-          "rank": 172,
           "country": "Zimbabwe",
           "iso3": "ZWE",
-          "score": -5.29,
-          "confidence": 0.75,
+          "score": -5.27,
+          "confidence": 0.74,
           "skew": "negative"
         },
         {
+          "rank": 172,
+          "country": "Syria",
+          "iso3": "SYR",
+          "score": -5.34,
+          "confidence": 0.51,
+          "skew": "positive"
+        },
+        {
           "rank": 173,
-          "country": "Turkmenistan",
-          "iso3": "TKM",
+          "country": "United States",
+          "iso3": "USA",
           "score": -5.35,
-          "confidence": 0.63,
+          "confidence": 0.74,
           "skew": "negative"
         },
         {
           "rank": 174,
-          "country": "United States",
-          "iso3": "USA",
-          "score": -5.35,
-          "confidence": 0.73,
+          "country": "Turkmenistan",
+          "iso3": "TKM",
+          "score": -5.39,
+          "confidence": 0.63,
           "skew": "negative"
         },
         {
           "rank": 175,
-          "country": "Democratic Republic of the Congo",
-          "iso3": "COD",
-          "score": -5.64,
-          "confidence": 0.76,
-          "skew": "negative"
-        },
-        {
-          "rank": 176,
           "country": "Russia",
           "iso3": "RUS",
-          "score": -5.67,
+          "score": -5.6,
           "confidence": 0.69,
           "skew": "negative"
         },
         {
+          "rank": 176,
+          "country": "Belarus",
+          "iso3": "BLR",
+          "score": -5.62,
+          "confidence": 0.75,
+          "skew": "negative"
+        },
+        {
           "rank": 177,
+          "country": "Democratic Republic of the Congo",
+          "iso3": "COD",
+          "score": -5.73,
+          "confidence": 0.76,
+          "skew": "negative"
+        },
+        {
+          "rank": 178,
           "country": "Laos",
           "iso3": "LAO",
           "score": -5.73,
@@ -1442,74 +1450,66 @@
           "skew": "negative"
         },
         {
-          "rank": 178,
+          "rank": 179,
           "country": "Nicaragua",
           "iso3": "NIC",
-          "score": -5.73,
+          "score": -5.82,
           "confidence": 0.77,
           "skew": "negative"
         },
         {
-          "rank": 179,
-          "country": "Belarus",
-          "iso3": "BLR",
-          "score": -5.74,
-          "confidence": 0.75,
-          "skew": "negative"
-        },
-        {
           "rank": 180,
-          "country": "Venezuela",
-          "iso3": "VEN",
-          "score": -5.89,
-          "confidence": 0.64,
+          "country": "Lebanon",
+          "iso3": "LBN",
+          "score": -5.95,
+          "confidence": 0.79,
           "skew": "negative"
         },
         {
           "rank": 181,
-          "country": "Lebanon",
-          "iso3": "LBN",
-          "score": -5.91,
-          "confidence": 0.78,
+          "country": "Somalia",
+          "iso3": "SOM",
+          "score": -5.95,
+          "confidence": 0.64,
           "skew": "negative"
         },
         {
           "rank": 182,
-          "country": "Somalia",
-          "iso3": "SOM",
-          "score": -5.92,
-          "confidence": 0.65,
-          "skew": "negative"
-        },
-        {
-          "rank": 183,
           "country": "Libya",
           "iso3": "LBY",
-          "score": -6.06,
+          "score": -6.02,
           "confidence": 0.56,
           "skew": "negative"
         },
         {
+          "rank": 183,
+          "country": "Venezuela",
+          "iso3": "VEN",
+          "score": -6.02,
+          "confidence": 0.65,
+          "skew": "negative"
+        },
+        {
           "rank": 184,
-          "country": "Cuba",
-          "iso3": "CUB",
-          "score": -6.29,
-          "confidence": 0.68,
+          "country": "Iran",
+          "iso3": "IRN",
+          "score": -6.32,
+          "confidence": 0.66,
           "skew": "negative"
         },
         {
           "rank": 185,
-          "country": "Iran",
-          "iso3": "IRN",
-          "score": -6.35,
-          "confidence": 0.66,
+          "country": "Cuba",
+          "iso3": "CUB",
+          "score": -6.38,
+          "confidence": 0.68,
           "skew": "negative"
         },
         {
           "rank": 186,
           "country": "Eritrea",
           "iso3": "ERI",
-          "score": -6.49,
+          "score": -6.54,
           "confidence": 0.56,
           "skew": "negative"
         },
@@ -1517,7 +1517,7 @@
           "rank": 187,
           "country": "South Sudan",
           "iso3": "SSD",
-          "score": -6.96,
+          "score": -6.95,
           "confidence": 0.66,
           "skew": "negative"
         },
@@ -1525,7 +1525,7 @@
           "rank": 188,
           "country": "Afghanistan",
           "iso3": "AFG",
-          "score": -7.42,
+          "score": -7.39,
           "confidence": 0.74,
           "skew": "negative"
         },
@@ -1533,7 +1533,7 @@
           "rank": 189,
           "country": "Myanmar",
           "iso3": "MMR",
-          "score": -7.64,
+          "score": -7.6,
           "confidence": 0.66,
           "skew": "negative"
         },
@@ -1542,14 +1542,14 @@
           "country": "Yemen",
           "iso3": "YEM",
           "score": -7.64,
-          "confidence": 0.56,
+          "confidence": 0.57,
           "skew": "negative"
         },
         {
           "rank": 191,
           "country": "North Korea",
           "iso3": "PRK",
-          "score": -8.01,
+          "score": -7.94,
           "confidence": 0.58,
           "skew": "negative"
         },
@@ -1557,7 +1557,7 @@
           "rank": 192,
           "country": "Haiti",
           "iso3": "HTI",
-          "score": -8.42,
+          "score": -8.46,
           "confidence": 0.61,
           "skew": "negative"
         },
@@ -1565,7 +1565,7 @@
           "rank": 193,
           "country": "Sudan",
           "iso3": "SDN",
-          "score": -8.96,
+          "score": -8.99,
           "confidence": 0.79,
           "skew": "negative"
         }
@@ -1586,36 +1586,44 @@
           "rank": 2,
           "country": "Norway",
           "iso3": "NOR",
-          "score": 6.13,
-          "confidence": 0.85,
+          "score": 6.19,
+          "confidence": 0.86,
           "skew": "symmetric"
         },
         {
           "rank": 3,
           "country": "Luxembourg",
           "iso3": "LUX",
-          "score": 5.85,
-          "confidence": 0.84,
+          "score": 5.89,
+          "confidence": 0.83,
           "skew": "symmetric"
         },
         {
           "rank": 4,
           "country": "Singapore",
           "iso3": "SGP",
-          "score": 5.18,
-          "confidence": 0.79,
+          "score": 5.2,
+          "confidence": 0.8,
           "skew": "symmetric"
         },
         {
           "rank": 5,
           "country": "Slovenia",
           "iso3": "SVN",
-          "score": 4.94,
+          "score": 5.03,
           "confidence": 0.82,
           "skew": "symmetric"
         },
         {
           "rank": 6,
+          "country": "Iceland",
+          "iso3": "ISL",
+          "score": 4.85,
+          "confidence": 0.81,
+          "skew": "symmetric"
+        },
+        {
+          "rank": 7,
           "country": "Liechtenstein",
           "iso3": "LIE",
           "score": 4.8,
@@ -1623,26 +1631,18 @@
           "skew": "positive"
         },
         {
-          "rank": 7,
-          "country": "Iceland",
-          "iso3": "ISL",
-          "score": 4.75,
-          "confidence": 0.81,
-          "skew": "symmetric"
-        },
-        {
           "rank": 8,
           "country": "Denmark",
           "iso3": "DNK",
-          "score": 4.66,
-          "confidence": 0.8,
+          "score": 4.76,
+          "confidence": 0.81,
           "skew": "symmetric"
         },
         {
           "rank": 9,
           "country": "Austria",
           "iso3": "AUT",
-          "score": 4.26,
+          "score": 4.28,
           "confidence": 0.84,
           "skew": "symmetric"
         },
@@ -1650,7 +1650,7 @@
           "rank": 10,
           "country": "Czechia",
           "iso3": "CZE",
-          "score": 3.88,
+          "score": 3.93,
           "confidence": 0.82,
           "skew": "symmetric"
         },
@@ -1658,7 +1658,7 @@
           "rank": 11,
           "country": "Estonia",
           "iso3": "EST",
-          "score": 3.87,
+          "score": 3.9,
           "confidence": 0.82,
           "skew": "symmetric"
         },
@@ -1666,7 +1666,7 @@
           "rank": 12,
           "country": "Belgium",
           "iso3": "BEL",
-          "score": 3.82,
+          "score": 3.87,
           "confidence": 0.86,
           "skew": "symmetric"
         },
@@ -1674,15 +1674,15 @@
           "rank": 13,
           "country": "Finland",
           "iso3": "FIN",
-          "score": 3.79,
-          "confidence": 0.82,
+          "score": 3.83,
+          "confidence": 0.83,
           "skew": "symmetric"
         },
         {
           "rank": 14,
           "country": "Latvia",
           "iso3": "LVA",
-          "score": 3.77,
+          "score": 3.81,
           "confidence": 0.82,
           "skew": "symmetric"
         },
@@ -1690,7 +1690,7 @@
           "rank": 15,
           "country": "Cyprus",
           "iso3": "CYP",
-          "score": 3.75,
+          "score": 3.77,
           "confidence": 0.82,
           "skew": "symmetric"
         },
@@ -1698,7 +1698,7 @@
           "rank": 16,
           "country": "Uruguay",
           "iso3": "URY",
-          "score": 3.72,
+          "score": 3.75,
           "confidence": 0.85,
           "skew": "symmetric"
         },
@@ -1706,7 +1706,7 @@
           "rank": 17,
           "country": "Monaco",
           "iso3": "MCO",
-          "score": 3.7,
+          "score": 3.67,
           "confidence": 0.71,
           "skew": "symmetric"
         },
@@ -1714,7 +1714,7 @@
           "rank": 18,
           "country": "Sweden",
           "iso3": "SWE",
-          "score": 3.61,
+          "score": 3.65,
           "confidence": 0.78,
           "skew": "symmetric"
         },
@@ -1722,7 +1722,7 @@
           "rank": 19,
           "country": "Netherlands",
           "iso3": "NLD",
-          "score": 3.57,
+          "score": 3.58,
           "confidence": 0.79,
           "skew": "symmetric"
         },
@@ -1738,7 +1738,7 @@
           "rank": 21,
           "country": "Lithuania",
           "iso3": "LTU",
-          "score": 3.43,
+          "score": 3.48,
           "confidence": 0.81,
           "skew": "symmetric"
         },
@@ -1746,7 +1746,7 @@
           "rank": 22,
           "country": "Croatia",
           "iso3": "HRV",
-          "score": 3.31,
+          "score": 3.34,
           "confidence": 0.82,
           "skew": "symmetric"
         },
@@ -1754,7 +1754,7 @@
           "rank": 23,
           "country": "Mauritius",
           "iso3": "MUS",
-          "score": 3.26,
+          "score": 3.31,
           "confidence": 0.75,
           "skew": "positive"
         },
@@ -1762,12 +1762,20 @@
           "rank": 24,
           "country": "Chile",
           "iso3": "CHL",
-          "score": 3.24,
-          "confidence": 0.84,
+          "score": 3.29,
+          "confidence": 0.83,
           "skew": "symmetric"
         },
         {
           "rank": 25,
+          "country": "Seychelles",
+          "iso3": "SYC",
+          "score": 3.24,
+          "confidence": 0.72,
+          "skew": "positive"
+        },
+        {
+          "rank": 26,
           "country": "Germany",
           "iso3": "DEU",
           "score": 3.21,
@@ -1775,50 +1783,42 @@
           "skew": "symmetric"
         },
         {
-          "rank": 26,
-          "country": "Seychelles",
-          "iso3": "SYC",
-          "score": 3.18,
-          "confidence": 0.73,
-          "skew": "positive"
-        },
-        {
           "rank": 27,
           "country": "Japan",
           "iso3": "JPN",
-          "score": 3.17,
+          "score": 3.15,
           "confidence": 0.8,
           "skew": "negative"
         },
         {
           "rank": 28,
-          "country": "Costa Rica",
-          "iso3": "CRI",
-          "score": 3.14,
-          "confidence": 0.83,
+          "country": "Portugal",
+          "iso3": "PRT",
+          "score": 3.13,
+          "confidence": 0.79,
           "skew": "symmetric"
         },
         {
           "rank": 29,
-          "country": "Portugal",
-          "iso3": "PRT",
-          "score": 3.14,
-          "confidence": 0.79,
+          "country": "Costa Rica",
+          "iso3": "CRI",
+          "score": 3.06,
+          "confidence": 0.83,
           "skew": "symmetric"
         },
         {
           "rank": 30,
           "country": "France",
           "iso3": "FRA",
-          "score": 2.86,
-          "confidence": 0.82,
+          "score": 2.88,
+          "confidence": 0.81,
           "skew": "negative"
         },
         {
           "rank": 31,
           "country": "Ireland",
           "iso3": "IRL",
-          "score": 2.83,
+          "score": 2.86,
           "confidence": 0.79,
           "skew": "symmetric"
         },
@@ -1826,39 +1826,39 @@
           "rank": 32,
           "country": "Italy",
           "iso3": "ITA",
-          "score": 2.76,
+          "score": 2.77,
           "confidence": 0.81,
           "skew": "negative"
         },
         {
           "rank": 33,
-          "country": "San Marino",
-          "iso3": "SMR",
-          "score": 2.73,
-          "confidence": 0.72,
+          "country": "United Kingdom",
+          "iso3": "GBR",
+          "score": 2.75,
+          "confidence": 0.81,
           "skew": "symmetric"
         },
         {
           "rank": 34,
           "country": "Namibia",
           "iso3": "NAM",
-          "score": 2.69,
+          "score": 2.74,
           "confidence": 0.74,
           "skew": "symmetric"
         },
         {
           "rank": 35,
-          "country": "United Kingdom",
-          "iso3": "GBR",
+          "country": "San Marino",
+          "iso3": "SMR",
           "score": 2.69,
-          "confidence": 0.81,
+          "confidence": 0.72,
           "skew": "symmetric"
         },
         {
           "rank": 36,
           "country": "South Korea",
           "iso3": "KOR",
-          "score": 2.68,
+          "score": 2.66,
           "confidence": 0.79,
           "skew": "negative"
         },
@@ -1866,7 +1866,7 @@
           "rank": 37,
           "country": "Qatar",
           "iso3": "QAT",
-          "score": 2.54,
+          "score": 2.53,
           "confidence": 0.78,
           "skew": "symmetric"
         },
@@ -1874,31 +1874,31 @@
           "rank": 38,
           "country": "Australia",
           "iso3": "AUS",
-          "score": 2.52,
+          "score": 2.49,
           "confidence": 0.77,
           "skew": "symmetric"
         },
         {
           "rank": 39,
-          "country": "Spain",
-          "iso3": "ESP",
-          "score": 2.43,
-          "confidence": 0.79,
+          "country": "Poland",
+          "iso3": "POL",
+          "score": 2.44,
+          "confidence": 0.81,
           "skew": "symmetric"
         },
         {
           "rank": 40,
-          "country": "Poland",
-          "iso3": "POL",
+          "country": "Spain",
+          "iso3": "ESP",
           "score": 2.39,
-          "confidence": 0.81,
+          "confidence": 0.79,
           "skew": "symmetric"
         },
         {
           "rank": 41,
           "country": "Malta",
           "iso3": "MLT",
-          "score": 2.34,
+          "score": 2.37,
           "confidence": 0.83,
           "skew": "symmetric"
         },
@@ -1906,87 +1906,87 @@
           "rank": 42,
           "country": "Botswana",
           "iso3": "BWA",
-          "score": 2.32,
+          "score": 2.36,
           "confidence": 0.76,
           "skew": "negative"
         },
         {
           "rank": 43,
-          "country": "Jamaica",
-          "iso3": "JAM",
-          "score": 2.26,
-          "confidence": 0.8,
-          "skew": "negative"
+          "country": "Greece",
+          "iso3": "GRC",
+          "score": 2.24,
+          "confidence": 0.79,
+          "skew": "symmetric"
         },
         {
           "rank": 44,
-          "country": "Greece",
-          "iso3": "GRC",
-          "score": 2.23,
-          "confidence": 0.79,
-          "skew": "symmetric"
+          "country": "Jamaica",
+          "iso3": "JAM",
+          "score": 2.22,
+          "confidence": 0.8,
+          "skew": "negative"
         },
         {
           "rank": 45,
           "country": "Barbados",
           "iso3": "BRB",
-          "score": 2.17,
+          "score": 2.11,
           "confidence": 0.81,
           "skew": "negative"
         },
         {
           "rank": 46,
+          "country": "Ghana",
+          "iso3": "GHA",
+          "score": 2.03,
+          "confidence": 0.78,
+          "skew": "symmetric"
+        },
+        {
+          "rank": 47,
           "country": "Grenada",
           "iso3": "GRD",
-          "score": 2.04,
+          "score": 2.03,
           "confidence": 0.71,
           "skew": "positive"
         },
         {
-          "rank": 47,
+          "rank": 48,
           "country": "New Zealand",
           "iso3": "NZL",
           "score": 2.03,
-          "confidence": 0.75,
-          "skew": "symmetric"
-        },
-        {
-          "rank": 48,
-          "country": "Ghana",
-          "iso3": "GHA",
-          "score": 2.01,
-          "confidence": 0.78,
+          "confidence": 0.76,
           "skew": "symmetric"
         },
         {
           "rank": 49,
           "country": "Malaysia",
           "iso3": "MYS",
-          "score": 1.94,
+          "score": 1.95,
           "confidence": 0.77,
           "skew": "symmetric"
         },
         {
           "rank": 50,
-          "country": "Albania",
-          "iso3": "ALB",
-          "score": 1.9,
-          "confidence": 0.75,
-          "skew": "symmetric"
+          "country": "Argentina",
+          "iso3": "ARG",
+          "score": 1.92,
+          "confidence": 0.79,
+          "skew": "positive"
         },
         {
           "rank": 51,
-          "country": "Argentina",
-          "iso3": "ARG",
-          "score": 1.86,
-          "confidence": 0.79,
-          "skew": "positive"
+          "country": "Albania",
+          "iso3": "ALB",
+          "score": 1.91,
+          "confidence": 0.75,
+          "skew": "symmetric"
         },
         {
           "rank": 52,
           "country": "Dominican Republic",
           "iso3": "DOM",
-          "score": 1.84,
+          "score": 1.8,
           "confidence": 0.81,
           "skew": "positive"
         },
@@ -1994,7 +1994,7 @@
           "rank": 53,
           "country": "Canada",
           "iso3": "CAN",
-          "score": 1.72,
+          "score": 1.79,
           "confidence": 0.77,
           "skew": "symmetric"
         },
@@ -2010,7 +2010,7 @@
           "rank": 55,
           "country": "Morocco",
           "iso3": "MAR",
-          "score": 1.66,
+          "score": 1.68,
           "confidence": 0.8,
           "skew": "symmetric"
         },
@@ -2018,7 +2018,7 @@
           "rank": 56,
           "country": "Oman",
           "iso3": "OMN",
-          "score": 1.54,
+          "score": 1.58,
           "confidence": 0.71,
           "skew": "symmetric"
         },
@@ -2026,7 +2026,7 @@
           "rank": 57,
           "country": "The Bahamas",
           "iso3": "BHS",
-          "score": 1.47,
+          "score": 1.43,
           "confidence": 0.81,
           "skew": "negative"
         },
@@ -2042,36 +2042,28 @@
           "rank": 59,
           "country": "Bulgaria",
           "iso3": "BGR",
-          "score": 1.31,
-          "confidence": 0.83,
+          "score": 1.3,
+          "confidence": 0.82,
           "skew": "symmetric"
         },
         {
           "rank": 60,
+          "country": "Zambia",
+          "iso3": "ZMB",
+          "score": 1.29,
+          "confidence": 0.75,
+          "skew": "symmetric"
+        },
+        {
+          "rank": 61,
           "country": "United Arab Emirates",
           "iso3": "ARE",
-          "score": 1.29,
+          "score": 1.27,
           "confidence": 0.73,
           "skew": "negative"
         },
         {
-          "rank": 61,
-          "country": "Israel",
-          "iso3": "ISR",
-          "score": 1.27,
-          "confidence": 0.75,
-          "skew": "symmetric"
-        },
-        {
           "rank": 62,
-          "country": "Zambia",
-          "iso3": "ZMB",
-          "score": 1.27,
-          "confidence": 0.75,
-          "skew": "symmetric"
-        },
-        {
-          "rank": 63,
           "country": "Peru",
           "iso3": "PER",
           "score": 1.24,
@@ -2079,7 +2071,23 @@
           "skew": "symmetric"
         },
         {
+          "rank": 63,
+          "country": "Israel",
+          "iso3": "ISR",
+          "score": 1.23,
+          "confidence": 0.75,
+          "skew": "symmetric"
+        },
+        {
           "rank": 64,
+          "country": "Indonesia",
+          "iso3": "IDN",
+          "score": 1.21,
+          "confidence": 0.76,
+          "skew": "symmetric"
+        },
+        {
+          "rank": 65,
           "country": "Paraguay",
           "iso3": "PRY",
           "score": 1.2,
@@ -2087,18 +2095,10 @@
           "skew": "symmetric"
         },
         {
-          "rank": 65,
-          "country": "Indonesia",
-          "iso3": "IDN",
-          "score": 1.18,
-          "confidence": 0.76,
-          "skew": "symmetric"
-        },
-        {
           "rank": 66,
           "country": "Saint Kitts and Nevis",
           "iso3": "KNA",
-          "score": 1.09,
+          "score": 1.07,
           "confidence": 0.69,
           "skew": "symmetric"
         },
@@ -2114,47 +2114,47 @@
           "rank": 68,
           "country": "South Africa",
           "iso3": "ZAF",
-          "score": 0.98,
+          "score": 0.99,
           "confidence": 0.79,
           "skew": "negative"
         },
         {
           "rank": 69,
-          "country": "Guyana",
-          "iso3": "GUY",
-          "score": 0.95,
-          "confidence": 0.7,
-          "skew": "symmetric"
+          "country": "Slovakia",
+          "iso3": "SVK",
+          "score": 0.97,
+          "confidence": 0.82,
+          "skew": "negative"
         },
         {
           "rank": 70,
-          "country": "Fiji",
-          "iso3": "FJI",
-          "score": 0.93,
-          "confidence": 0.71,
+          "country": "North Macedonia",
+          "iso3": "MKD",
+          "score": 0.92,
+          "confidence": 0.79,
           "skew": "symmetric"
         },
         {
           "rank": 71,
-          "country": "Slovakia",
-          "iso3": "SVK",
-          "score": 0.93,
-          "confidence": 0.83,
-          "skew": "negative"
+          "country": "Fiji",
+          "iso3": "FJI",
+          "score": 0.91,
+          "confidence": 0.71,
+          "skew": "symmetric"
         },
         {
           "rank": 72,
-          "country": "North Macedonia",
-          "iso3": "MKD",
-          "score": 0.9,
-          "confidence": 0.79,
+          "country": "Guyana",
+          "iso3": "GUY",
+          "score": 0.88,
+          "confidence": 0.7,
           "skew": "symmetric"
         },
         {
           "rank": 73,
           "country": "Côte d'Ivoire",
           "iso3": "CIV",
-          "score": 0.82,
+          "score": 0.84,
           "confidence": 0.76,
           "skew": "symmetric"
         },
@@ -2162,7 +2162,7 @@
           "rank": 74,
           "country": "Sri Lanka",
           "iso3": "LKA",
-          "score": 0.82,
+          "score": 0.84,
           "confidence": 0.73,
           "skew": "symmetric"
         },
@@ -2170,24 +2170,24 @@
           "rank": 75,
           "country": "Armenia",
           "iso3": "ARM",
-          "score": 0.75,
+          "score": 0.77,
           "confidence": 0.7,
           "skew": "negative"
         },
         {
           "rank": 76,
-          "country": "Saint Lucia",
-          "iso3": "LCA",
+          "country": "Saint Vincent and the Grenadines",
+          "iso3": "VCT",
           "score": 0.75,
-          "confidence": 0.66,
+          "confidence": 0.69,
           "skew": "symmetric"
         },
         {
           "rank": 77,
-          "country": "Saint Vincent and the Grenadines",
-          "iso3": "VCT",
-          "score": 0.74,
-          "confidence": 0.69,
+          "country": "Saint Lucia",
+          "iso3": "LCA",
+          "score": 0.71,
+          "confidence": 0.66,
           "skew": "symmetric"
         },
         {
@@ -2195,83 +2195,75 @@
           "country": "Hungary",
           "iso3": "HUN",
           "score": 0.7,
-          "confidence": 0.76,
+          "confidence": 0.75,
           "skew": "positive"
         },
         {
           "rank": 79,
           "country": "Montenegro",
           "iso3": "MNE",
-          "score": 0.65,
-          "confidence": 0.8,
+          "score": 0.66,
+          "confidence": 0.79,
           "skew": "positive"
         },
         {
           "rank": 80,
-          "country": "Guatemala",
-          "iso3": "GTM",
-          "score": 0.61,
-          "confidence": 0.81,
-          "skew": "symmetric"
-        },
-        {
-          "rank": 81,
           "country": "El Salvador",
           "iso3": "SLV",
-          "score": 0.59,
+          "score": 0.56,
           "confidence": 0.79,
           "skew": "symmetric"
         },
         {
-          "rank": 82,
+          "rank": 81,
           "country": "Belize",
           "iso3": "BLZ",
-          "score": 0.55,
-          "confidence": 0.67,
+          "score": 0.54,
+          "confidence": 0.66,
           "skew": "positive"
         },
         {
+          "rank": 82,
+          "country": "Guatemala",
+          "iso3": "GTM",
+          "score": 0.54,
+          "confidence": 0.81,
+          "skew": "symmetric"
+        },
+        {
           "rank": 83,
-          "country": "Brazil",
-          "iso3": "BRA",
-          "score": 0.45,
-          "confidence": 0.74,
+          "country": "Dominica",
+          "iso3": "DMA",
+          "score": 0.47,
+          "confidence": 0.67,
           "skew": "negative"
         },
         {
           "rank": 84,
-          "country": "Dominica",
-          "iso3": "DMA",
-          "score": 0.45,
-          "confidence": 0.67,
-          "skew": "negative"
-        },
-        {
-          "rank": 85,
-          "country": "The Gambia",
-          "iso3": "GMB",
-          "score": 0.44,
-          "confidence": 0.7,
-          "skew": "positive"
-        },
-        {
-          "rank": 86,
-          "country": "Kenya",
-          "iso3": "KEN",
-          "score": 0.44,
-          "confidence": 0.76,
-          "skew": "symmetric"
-        },
-        {
-          "rank": 87,
           "country": "Kuwait",
           "iso3": "KWT",
-          "score": 0.44,
+          "score": 0.47,
           "confidence": 0.78,
           "skew": "symmetric"
         },
         {
-          "rank": 88,
+          "rank": 85,
+          "country": "Kenya",
+          "iso3": "KEN",
+          "score": 0.45,
+          "confidence": 0.76,
+          "skew": "symmetric"
+        },
+        {
+          "rank": 86,
+          "country": "Brazil",
+          "iso3": "BRA",
+          "score": 0.39,
+          "confidence": 0.74,
+          "skew": "negative"
+        },
+        {
+          "rank": 87,
           "country": "Samoa",
           "iso3": "WSM",
           "score": 0.38,
@@ -2279,58 +2271,66 @@
           "skew": "symmetric"
         },
         {
-          "rank": 89,
-          "country": "Trinidad and Tobago",
-          "iso3": "TTO",
+          "rank": 88,
+          "country": "The Gambia",
+          "iso3": "GMB",
           "score": 0.37,
-          "confidence": 0.75,
-          "skew": "negative"
+          "confidence": 0.69,
+          "skew": "positive"
         },
         {
-          "rank": 90,
+          "rank": 89,
           "country": "Antigua and Barbuda",
           "iso3": "ATG",
-          "score": 0.33,
+          "score": 0.31,
           "confidence": 0.63,
           "skew": "symmetric"
         },
         {
-          "rank": 91,
+          "rank": 90,
           "country": "Vietnam",
           "iso3": "VNM",
-          "score": 0.33,
+          "score": 0.3,
           "confidence": 0.75,
           "skew": "symmetric"
+        },
+        {
+          "rank": 91,
+          "country": "Trinidad and Tobago",
+          "iso3": "TTO",
+          "score": 0.28,
+          "confidence": 0.75,
+          "skew": "negative"
         },
         {
           "rank": 92,
           "country": "Benin",
           "iso3": "BEN",
-          "score": 0.28,
+          "score": 0.26,
           "confidence": 0.77,
           "skew": "negative"
         },
         {
           "rank": 93,
-          "country": "São Tomé and Príncipe",
-          "iso3": "STP",
-          "score": 0.21,
+          "country": "Moldova",
+          "iso3": "MDA",
+          "score": 0.17,
           "confidence": 0.7,
-          "skew": "positive"
+          "skew": "symmetric"
         },
         {
           "rank": 94,
-          "country": "Moldova",
-          "iso3": "MDA",
-          "score": 0.19,
+          "country": "São Tomé and Príncipe",
+          "iso3": "STP",
+          "score": 0.17,
           "confidence": 0.7,
-          "skew": "symmetric"
+          "skew": "positive"
         },
         {
           "rank": 95,
           "country": "Senegal",
           "iso3": "SEN",
-          "score": 0.14,
+          "score": 0.15,
           "confidence": 0.74,
           "skew": "symmetric"
         },
@@ -2338,7 +2338,7 @@
           "rank": 96,
           "country": "Palau",
           "iso3": "PLW",
-          "score": 0.12,
+          "score": 0.14,
           "confidence": 0.68,
           "skew": "positive"
         },
@@ -2346,7 +2346,7 @@
           "rank": 97,
           "country": "Saudi Arabia",
           "iso3": "SAU",
-          "score": 0.12,
+          "score": 0.09,
           "confidence": 0.79,
           "skew": "negative"
         },
@@ -2354,103 +2354,103 @@
           "rank": 98,
           "country": "Bahrain",
           "iso3": "BHR",
-          "score": 0.02,
+          "score": 0.03,
           "confidence": 0.77,
           "skew": "negative"
         },
         {
           "rank": 99,
-          "country": "Georgia",
-          "iso3": "GEO",
-          "score": -0.18,
-          "confidence": 0.7,
-          "skew": "negative"
-        },
-        {
-          "rank": 100,
           "country": "Bhutan",
           "iso3": "BTN",
-          "score": -0.22,
+          "score": -0.14,
           "confidence": 0.72,
           "skew": "positive"
         },
         {
+          "rank": 100,
+          "country": "Georgia",
+          "iso3": "GEO",
+          "score": -0.25,
+          "confidence": 0.7,
+          "skew": "negative"
+        },
+        {
           "rank": 101,
-          "country": "Lesotho",
-          "iso3": "LSO",
-          "score": -0.24,
-          "confidence": 0.69,
+          "country": "Togo",
+          "iso3": "TGO",
+          "score": -0.26,
+          "confidence": 0.74,
           "skew": "negative"
         },
         {
           "rank": 102,
-          "country": "Togo",
-          "iso3": "TGO",
-          "score": -0.24,
-          "confidence": 0.74,
+          "country": "Lesotho",
+          "iso3": "LSO",
+          "score": -0.28,
+          "confidence": 0.69,
           "skew": "negative"
         },
         {
           "rank": 103,
           "country": "India",
           "iso3": "IND",
-          "score": -0.38,
+          "score": -0.42,
           "confidence": 0.73,
           "skew": "symmetric"
         },
         {
           "rank": 104,
-          "country": "Suriname",
-          "iso3": "SUR",
-          "score": -0.58,
-          "confidence": 0.71,
-          "skew": "positive"
+          "country": "Colombia",
+          "iso3": "COL",
+          "score": -0.62,
+          "confidence": 0.81,
+          "skew": "symmetric"
         },
         {
           "rank": 105,
-          "country": "Colombia",
-          "iso3": "COL",
-          "score": -0.6,
-          "confidence": 0.82,
-          "skew": "symmetric"
-        },
-        {
-          "rank": 106,
-          "country": "Panama",
-          "iso3": "PAN",
-          "score": -0.62,
-          "confidence": 0.75,
-          "skew": "negative"
-        },
-        {
-          "rank": 107,
-          "country": "Federated States of Micronesia",
-          "iso3": "FSM",
-          "score": -0.63,
-          "confidence": 0.65,
-          "skew": "symmetric"
-        },
-        {
-          "rank": 108,
           "country": "Serbia",
           "iso3": "SRB",
-          "score": -0.65,
+          "score": -0.62,
           "confidence": 0.76,
           "skew": "negative"
         },
         {
-          "rank": 109,
+          "rank": 106,
+          "country": "Federated States of Micronesia",
+          "iso3": "FSM",
+          "score": -0.64,
+          "confidence": 0.65,
+          "skew": "symmetric"
+        },
+        {
+          "rank": 107,
+          "country": "Panama",
+          "iso3": "PAN",
+          "score": -0.66,
+          "confidence": 0.75,
+          "skew": "negative"
+        },
+        {
+          "rank": 108,
           "country": "Tanzania",
           "iso3": "TZA",
           "score": -0.67,
-          "confidence": 0.74,
+          "confidence": 0.73,
           "skew": "negative"
+        },
+        {
+          "rank": 109,
+          "country": "Suriname",
+          "iso3": "SUR",
+          "score": -0.7,
+          "confidence": 0.71,
+          "skew": "positive"
         },
         {
           "rank": 110,
           "country": "Marshall Islands",
           "iso3": "MHL",
-          "score": -0.77,
+          "score": -0.76,
           "confidence": 0.64,
           "skew": "negative"
         },
@@ -2466,24 +2466,24 @@
           "rank": 112,
           "country": "Mauritania",
           "iso3": "MRT",
-          "score": -0.83,
+          "score": -0.84,
           "confidence": 0.67,
           "skew": "negative"
         },
         {
           "rank": 113,
-          "country": "Tuvalu",
-          "iso3": "TUV",
-          "score": -0.85,
-          "confidence": 0.6,
+          "country": "Kyrgyzstan",
+          "iso3": "KGZ",
+          "score": -0.93,
+          "confidence": 0.65,
           "skew": "negative"
         },
         {
           "rank": 114,
-          "country": "Kyrgyzstan",
-          "iso3": "KGZ",
-          "score": -0.9,
-          "confidence": 0.65,
+          "country": "Tuvalu",
+          "iso3": "TUV",
+          "score": -0.94,
+          "confidence": 0.6,
           "skew": "negative"
         },
         {
@@ -2498,7 +2498,7 @@
           "rank": 116,
           "country": "Eswatini",
           "iso3": "SWZ",
-          "score": -1,
+          "score": -1.02,
           "confidence": 0.72,
           "skew": "negative"
         },
@@ -2506,7 +2506,7 @@
           "rank": 117,
           "country": "Honduras",
           "iso3": "HND",
-          "score": -1.01,
+          "score": -1.06,
           "confidence": 0.78,
           "skew": "negative"
         },
@@ -2514,119 +2514,119 @@
           "rank": 118,
           "country": "Ecuador",
           "iso3": "ECU",
-          "score": -1.06,
+          "score": -1.08,
           "confidence": 0.78,
           "skew": "negative"
         },
         {
           "rank": 119,
-          "country": "Comoros",
-          "iso3": "COM",
-          "score": -1.15,
-          "confidence": 0.65,
-          "skew": "negative"
+          "country": "Jordan",
+          "iso3": "JOR",
+          "score": -1.12,
+          "confidence": 0.79,
+          "skew": "symmetric"
         },
         {
           "rank": 120,
-          "country": "Djibouti",
-          "iso3": "DJI",
-          "score": -1.15,
-          "confidence": 0.6,
-          "skew": "negative"
-        },
-        {
-          "rank": 121,
           "country": "Philippines",
           "iso3": "PHL",
-          "score": -1.16,
+          "score": -1.17,
           "confidence": 0.73,
           "skew": "symmetric"
         },
         {
+          "rank": 121,
+          "country": "Comoros",
+          "iso3": "COM",
+          "score": -1.18,
+          "confidence": 0.65,
+          "skew": "negative"
+        },
+        {
           "rank": 122,
-          "country": "Jordan",
-          "iso3": "JOR",
-          "score": -1.17,
-          "confidence": 0.79,
-          "skew": "symmetric"
+          "country": "Djibouti",
+          "iso3": "DJI",
+          "score": -1.19,
+          "confidence": 0.6,
+          "skew": "negative"
         },
         {
           "rank": 123,
           "country": "Rwanda",
           "iso3": "RWA",
-          "score": -1.24,
+          "score": -1.26,
           "confidence": 0.8,
           "skew": "negative"
         },
         {
           "rank": 124,
-          "country": "Mexico",
-          "iso3": "MEX",
-          "score": -1.25,
-          "confidence": 0.71,
-          "skew": "positive"
-        },
-        {
-          "rank": 125,
           "country": "Bosnia and Herzegovina",
           "iso3": "BIH",
-          "score": -1.35,
+          "score": -1.33,
           "confidence": 0.77,
           "skew": "negative"
         },
         {
-          "rank": 126,
-          "country": "Vanuatu",
-          "iso3": "VUT",
-          "score": -1.38,
-          "confidence": 0.65,
-          "skew": "negative"
+          "rank": 125,
+          "country": "Mexico",
+          "iso3": "MEX",
+          "score": -1.34,
+          "confidence": 0.72,
+          "skew": "positive"
         },
         {
-          "rank": 127,
+          "rank": 126,
           "country": "Turkey",
           "iso3": "TUR",
-          "score": -1.39,
+          "score": -1.34,
           "confidence": 0.72,
           "skew": "negative"
         },
         {
-          "rank": 128,
-          "country": "Gabon",
-          "iso3": "GAB",
-          "score": -1.42,
-          "confidence": 0.69,
-          "skew": "symmetric"
-        },
-        {
-          "rank": 129,
-          "country": "Papua New Guinea",
-          "iso3": "PNG",
-          "score": -1.44,
-          "confidence": 0.7,
+          "rank": 127,
+          "country": "Vanuatu",
+          "iso3": "VUT",
+          "score": -1.36,
+          "confidence": 0.65,
           "skew": "negative"
         },
         {
-          "rank": 130,
+          "rank": 128,
           "country": "Tonga",
           "iso3": "TON",
-          "score": -1.46,
+          "score": -1.44,
           "confidence": 0.64,
           "skew": "negative"
         },
         {
-          "rank": 131,
+          "rank": 129,
           "country": "Mongolia",
           "iso3": "MNG",
-          "score": -1.49,
+          "score": -1.46,
           "confidence": 0.68,
+          "skew": "symmetric"
+        },
+        {
+          "rank": 130,
+          "country": "Papua New Guinea",
+          "iso3": "PNG",
+          "score": -1.46,
+          "confidence": 0.7,
+          "skew": "negative"
+        },
+        {
+          "rank": 131,
+          "country": "Gabon",
+          "iso3": "GAB",
+          "score": -1.48,
+          "confidence": 0.69,
           "skew": "symmetric"
         },
         {
           "rank": 132,
           "country": "Ukraine",
           "iso3": "UKR",
-          "score": -1.59,
+          "score": -1.64,
           "confidence": 0.69,
           "skew": "positive"
         },
@@ -2634,7 +2634,7 @@
           "rank": 133,
           "country": "Liberia",
           "iso3": "LBR",
-          "score": -1.69,
+          "score": -1.73,
           "confidence": 0.66,
           "skew": "negative"
         },
@@ -2642,39 +2642,39 @@
           "rank": 134,
           "country": "Sierra Leone",
           "iso3": "SLE",
-          "score": -1.76,
+          "score": -1.78,
           "confidence": 0.69,
           "skew": "negative"
         },
         {
           "rank": 135,
-          "country": "Kiribati",
-          "iso3": "KIR",
-          "score": -1.79,
-          "confidence": 0.63,
-          "skew": "negative"
-        },
-        {
-          "rank": 136,
           "country": "Maldives",
           "iso3": "MDV",
-          "score": -1.81,
+          "score": -1.79,
           "confidence": 0.72,
           "skew": "negative"
         },
         {
-          "rank": 137,
+          "rank": 136,
           "country": "Kazakhstan",
           "iso3": "KAZ",
-          "score": -1.84,
+          "score": -1.8,
           "confidence": 0.76,
+          "skew": "negative"
+        },
+        {
+          "rank": 137,
+          "country": "Kiribati",
+          "iso3": "KIR",
+          "score": -1.83,
+          "confidence": 0.63,
           "skew": "negative"
         },
         {
           "rank": 138,
           "country": "Guinea-Bissau",
           "iso3": "GNB",
-          "score": -1.86,
+          "score": -1.92,
           "confidence": 0.7,
           "skew": "negative"
         },
@@ -2682,7 +2682,7 @@
           "rank": 139,
           "country": "Timor-Leste",
           "iso3": "TLS",
-          "score": -1.98,
+          "score": -1.99,
           "confidence": 0.73,
           "skew": "negative"
         },
@@ -2690,24 +2690,24 @@
           "rank": 140,
           "country": "Solomon Islands",
           "iso3": "SLB",
-          "score": -2.07,
+          "score": -2.08,
           "confidence": 0.63,
           "skew": "negative"
         },
         {
           "rank": 141,
-          "country": "Nauru",
-          "iso3": "NRU",
+          "country": "Azerbaijan",
+          "iso3": "AZE",
           "score": -2.12,
-          "confidence": 0.61,
+          "confidence": 0.77,
           "skew": "negative"
         },
         {
           "rank": 142,
-          "country": "Azerbaijan",
-          "iso3": "AZE",
-          "score": -2.14,
-          "confidence": 0.78,
+          "country": "Nauru",
+          "iso3": "NRU",
+          "score": -2.13,
+          "confidence": 0.61,
           "skew": "negative"
         },
         {
@@ -2722,7 +2722,7 @@
           "rank": 144,
           "country": "Nepal",
           "iso3": "NPL",
-          "score": -2.33,
+          "score": -2.29,
           "confidence": 0.77,
           "skew": "symmetric"
         },
@@ -2730,7 +2730,7 @@
           "rank": 145,
           "country": "Guinea",
           "iso3": "GIN",
-          "score": -2.34,
+          "score": -2.38,
           "confidence": 0.66,
           "skew": "negative"
         },
@@ -2738,7 +2738,7 @@
           "rank": 146,
           "country": "Uganda",
           "iso3": "UGA",
-          "score": -2.4,
+          "score": -2.43,
           "confidence": 0.76,
           "skew": "negative"
         },
@@ -2754,15 +2754,15 @@
           "rank": 148,
           "country": "Tajikistan",
           "iso3": "TJK",
-          "score": -2.54,
-          "confidence": 0.63,
+          "score": -2.57,
+          "confidence": 0.64,
           "skew": "negative"
         },
         {
           "rank": 149,
           "country": "Cameroon",
           "iso3": "CMR",
-          "score": -2.61,
+          "score": -2.62,
           "confidence": 0.74,
           "skew": "negative"
         },
@@ -2778,7 +2778,7 @@
           "rank": 151,
           "country": "Cambodia",
           "iso3": "KHM",
-          "score": -2.72,
+          "score": -2.73,
           "confidence": 0.81,
           "skew": "negative"
         },
@@ -2786,31 +2786,31 @@
           "rank": 152,
           "country": "Nigeria",
           "iso3": "NGA",
-          "score": -2.76,
+          "score": -2.77,
           "confidence": 0.75,
           "skew": "negative"
         },
         {
           "rank": 153,
-          "country": "China",
-          "iso3": "CHN",
-          "score": -2.95,
-          "confidence": 0.66,
+          "country": "Tunisia",
+          "iso3": "TUN",
+          "score": -2.94,
+          "confidence": 0.72,
           "skew": "negative"
         },
         {
           "rank": 154,
-          "country": "Tunisia",
-          "iso3": "TUN",
-          "score": -2.97,
-          "confidence": 0.73,
+          "country": "China",
+          "iso3": "CHN",
+          "score": -2.98,
+          "confidence": 0.66,
           "skew": "negative"
         },
         {
           "rank": 155,
           "country": "Republic of the Congo",
           "iso3": "COG",
-          "score": -3.03,
+          "score": -3.08,
           "confidence": 0.72,
           "skew": "negative"
         },
@@ -2826,7 +2826,7 @@
           "rank": 157,
           "country": "Bangladesh",
           "iso3": "BGD",
-          "score": -3.22,
+          "score": -3.24,
           "confidence": 0.78,
           "skew": "symmetric"
         },
@@ -2834,7 +2834,7 @@
           "rank": 158,
           "country": "Chad",
           "iso3": "TCD",
-          "score": -3.27,
+          "score": -3.29,
           "confidence": 0.73,
           "skew": "negative"
         },
@@ -2842,7 +2842,7 @@
           "rank": 159,
           "country": "Burkina Faso",
           "iso3": "BFA",
-          "score": -3.38,
+          "score": -3.39,
           "confidence": 0.71,
           "skew": "negative"
         },
@@ -2850,7 +2850,7 @@
           "rank": 160,
           "country": "Equatorial Guinea",
           "iso3": "GNQ",
-          "score": -3.53,
+          "score": -3.59,
           "confidence": 0.7,
           "skew": "negative"
         },
@@ -2858,7 +2858,7 @@
           "rank": 161,
           "country": "Ethiopia",
           "iso3": "ETH",
-          "score": -3.58,
+          "score": -3.62,
           "confidence": 0.78,
           "skew": "negative"
         },
@@ -2874,20 +2874,12 @@
           "rank": 163,
           "country": "Algeria",
           "iso3": "DZA",
-          "score": -3.83,
-          "confidence": 0.8,
+          "score": -3.78,
+          "confidence": 0.79,
           "skew": "negative"
         },
         {
           "rank": 164,
-          "country": "Central African Republic",
-          "iso3": "CAF",
-          "score": -3.89,
-          "confidence": 0.59,
-          "skew": "negative"
-        },
-        {
-          "rank": 165,
           "country": "Turkmenistan",
           "iso3": "TKM",
           "score": -3.89,
@@ -2895,34 +2887,42 @@
           "skew": "negative"
         },
         {
-          "rank": 166,
+          "rank": 165,
           "country": "Mozambique",
           "iso3": "MOZ",
-          "score": -3.97,
+          "score": -3.94,
           "confidence": 0.72,
           "skew": "negative"
         },
         {
+          "rank": 166,
+          "country": "Central African Republic",
+          "iso3": "CAF",
+          "score": -3.98,
+          "confidence": 0.59,
+          "skew": "negative"
+        },
+        {
           "rank": 167,
-          "country": "Burundi",
-          "iso3": "BDI",
-          "score": -4.03,
-          "confidence": 0.54,
+          "country": "Bolivia",
+          "iso3": "BOL",
+          "score": -4.08,
+          "confidence": 0.74,
           "skew": "negative"
         },
         {
           "rank": 168,
-          "country": "Bolivia",
-          "iso3": "BOL",
-          "score": -4.07,
-          "confidence": 0.74,
+          "country": "Burundi",
+          "iso3": "BDI",
+          "score": -4.11,
+          "confidence": 0.54,
           "skew": "negative"
         },
         {
           "rank": 169,
           "country": "Pakistan",
           "iso3": "PAK",
-          "score": -4.19,
+          "score": -4.16,
           "confidence": 0.79,
           "skew": "negative"
         },
@@ -2930,7 +2930,7 @@
           "rank": 170,
           "country": "Nicaragua",
           "iso3": "NIC",
-          "score": -4.24,
+          "score": -4.28,
           "confidence": 0.76,
           "skew": "negative"
         },
@@ -2938,7 +2938,7 @@
           "rank": 171,
           "country": "Angola",
           "iso3": "AGO",
-          "score": -4.36,
+          "score": -4.35,
           "confidence": 0.79,
           "skew": "negative"
         },
@@ -2946,23 +2946,23 @@
           "rank": 172,
           "country": "Iraq",
           "iso3": "IRQ",
-          "score": -4.65,
-          "confidence": 0.66,
+          "score": -4.63,
+          "confidence": 0.67,
           "skew": "negative"
         },
         {
           "rank": 173,
           "country": "United States",
           "iso3": "USA",
-          "score": -4.76,
-          "confidence": 0.73,
+          "score": -4.77,
+          "confidence": 0.74,
           "skew": "negative"
         },
         {
           "rank": 174,
           "country": "Russia",
           "iso3": "RUS",
-          "score": -4.93,
+          "score": -4.88,
           "confidence": 0.71,
           "skew": "negative"
         },
@@ -2970,7 +2970,7 @@
           "rank": 175,
           "country": "Democratic Republic of the Congo",
           "iso3": "COD",
-          "score": -4.94,
+          "score": -4.98,
           "confidence": 0.77,
           "skew": "negative"
         },
@@ -2978,15 +2978,15 @@
           "rank": 176,
           "country": "Zimbabwe",
           "iso3": "ZWE",
-          "score": -5,
-          "confidence": 0.78,
+          "score": -4.98,
+          "confidence": 0.77,
           "skew": "negative"
         },
         {
           "rank": 177,
           "country": "Somalia",
           "iso3": "SOM",
-          "score": -5.16,
+          "score": -5.17,
           "confidence": 0.66,
           "skew": "negative"
         },
@@ -2994,7 +2994,7 @@
           "rank": 178,
           "country": "Syria",
           "iso3": "SYR",
-          "score": -5.17,
+          "score": -5.18,
           "confidence": 0.52,
           "skew": "positive"
         },
@@ -3002,7 +3002,7 @@
           "rank": 179,
           "country": "Eritrea",
           "iso3": "ERI",
-          "score": -5.33,
+          "score": -5.36,
           "confidence": 0.55,
           "skew": "negative"
         },
@@ -3010,7 +3010,7 @@
           "rank": 180,
           "country": "Libya",
           "iso3": "LBY",
-          "score": -5.41,
+          "score": -5.37,
           "confidence": 0.56,
           "skew": "negative"
         },
@@ -3018,15 +3018,15 @@
           "rank": 181,
           "country": "Laos",
           "iso3": "LAO",
-          "score": -5.44,
-          "confidence": 0.75,
+          "score": -5.42,
+          "confidence": 0.76,
           "skew": "negative"
         },
         {
           "rank": 182,
           "country": "Belarus",
           "iso3": "BLR",
-          "score": -5.52,
+          "score": -5.45,
           "confidence": 0.77,
           "skew": "negative"
         },
@@ -3034,31 +3034,31 @@
           "rank": 183,
           "country": "Venezuela",
           "iso3": "VEN",
-          "score": -5.63,
-          "confidence": 0.64,
+          "score": -5.69,
+          "confidence": 0.65,
           "skew": "negative"
         },
         {
           "rank": 184,
-          "country": "Cuba",
-          "iso3": "CUB",
-          "score": -5.92,
-          "confidence": 0.7,
+          "country": "Iran",
+          "iso3": "IRN",
+          "score": -5.88,
+          "confidence": 0.66,
           "skew": "negative"
         },
         {
           "rank": 185,
-          "country": "Iran",
-          "iso3": "IRN",
-          "score": -5.93,
-          "confidence": 0.66,
+          "country": "Cuba",
+          "iso3": "CUB",
+          "score": -5.97,
+          "confidence": 0.7,
           "skew": "negative"
         },
         {
           "rank": 186,
           "country": "Lebanon",
           "iso3": "LBN",
-          "score": -6.25,
+          "score": -6.27,
           "confidence": 0.8,
           "skew": "negative"
         },
@@ -3066,7 +3066,7 @@
           "rank": 187,
           "country": "South Sudan",
           "iso3": "SSD",
-          "score": -6.57,
+          "score": -6.56,
           "confidence": 0.67,
           "skew": "negative"
         },
@@ -3074,7 +3074,7 @@
           "rank": 188,
           "country": "Afghanistan",
           "iso3": "AFG",
-          "score": -6.65,
+          "score": -6.6,
           "confidence": 0.74,
           "skew": "negative"
         },
@@ -3082,7 +3082,7 @@
           "rank": 189,
           "country": "Myanmar",
           "iso3": "MMR",
-          "score": -6.96,
+          "score": -6.93,
           "confidence": 0.65,
           "skew": "negative"
         },
@@ -3090,7 +3090,7 @@
           "rank": 190,
           "country": "Yemen",
           "iso3": "YEM",
-          "score": -7.33,
+          "score": -7.32,
           "confidence": 0.58,
           "skew": "negative"
         },
@@ -3098,15 +3098,15 @@
           "rank": 191,
           "country": "North Korea",
           "iso3": "PRK",
-          "score": -7.39,
-          "confidence": 0.57,
+          "score": -7.33,
+          "confidence": 0.58,
           "skew": "negative"
         },
         {
           "rank": 192,
           "country": "Haiti",
           "iso3": "HTI",
-          "score": -7.43,
+          "score": -7.45,
           "confidence": 0.62,
           "skew": "negative"
         },
@@ -3114,7 +3114,7 @@
           "rank": 193,
           "country": "Sudan",
           "iso3": "SDN",
-          "score": -8.37,
+          "score": -8.38,
           "confidence": 0.8,
           "skew": "negative"
         }

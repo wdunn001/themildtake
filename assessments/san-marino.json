@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": 4.7,
-      "confidence": 0.61,
+      "score": 4.4,
+      "confidence": 0.6,
       "skew": "symmetric",
       "notes": "Low-hazard with good Italy-integrated services and very low crime.",
       "sub_factors": {
         "climate": {
-          "score": 0,
+          "score_near": -2,
+          "score_long": -4,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.55,
-          "notes": "Inland temperate - low catastrophe exposure, some heat/flood, with modest central-Italy seismic exposure. (general)"
+          "confidence": 0.5,
+          "notes": "Enclaved in central Italy - Mediterranean/Apennine heat, drought, and wildfire exposure, with high income aiding adaptation. (IPCC AR6; EEA)"
         },
         "healthcare": {
           "score": 6,
@@ -222,13 +224,13 @@
   },
   "decisions": {
     "living": {
-      "score": 4.13,
+      "score": 4.05,
       "confidence": 0.69,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 2.73,
+      "score": 2.69,
       "confidence": 0.72,
       "horizon": "3-7y",
       "reading": "mixed"

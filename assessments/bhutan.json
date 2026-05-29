@@ -182,18 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": -1.5,
-      "confidence": 0.68,
+      "score": -1,
+      "confidence": 0.64,
       "skew": "negative",
       "notes": "Very safe and carbon-negative, but acutely exposed to glacial-lake-outburst floods.",
       "sub_factors": {
         "climate": {
-          "score_near": -4,
-          "score_long": -7,
+          "score_near": -2,
+          "score_long": -4,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "Carbon-negative itself, but acutely exposed to glacial-lake-outburst floods (GLOFs) - thousands at risk, glaciers receding 30-60m/decade. (NHESS 2026; UNDP)"
+          "confidence": 0.7,
+          "notes": "Carbon-negative but acute glacial-lake-outburst-flood and monsoon-landslide risk in a fragile Himalaya, low adaptive capacity. (IPCC AR6; WB)"
         },
         "healthcare": {
           "score": 0,
@@ -224,13 +224,13 @@
   },
   "decisions": {
     "living": {
-      "score": 0.62,
+      "score": 0.76,
       "confidence": 0.69,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -0.22,
+      "score": -0.14,
       "confidence": 0.72,
       "horizon": "3-7y",
       "reading": "mixed"

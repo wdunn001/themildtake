@@ -213,16 +213,18 @@
       }
     },
     "physical_practical": {
-      "score": -4.2,
-      "confidence": 0.69,
+      "score": -4.6,
+      "confidence": 0.68,
       "skew": "positive",
       "notes": "Severe war damage near-term; reconstruction with EU funding could yield modern infrastructure long-term (post-WWII analogy).",
       "sub_factors": {
         "climate": {
-          "score": 1,
+          "score_near": -1,
+          "score_long": -3,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.6,
-          "notes": "Moderate; strong agricultural potential; war environmental damage recoverable."
+          "confidence": 0.55,
+          "notes": "A major rain-fed breadbasket exposed to intensifying southern drought/heat; warming partly extends northern seasons but net negative, with war degrading readiness. (ND-GAIN; IPCC AR6)"
         },
         "healthcare": {
           "score_near": -5,
@@ -259,13 +261,13 @@
   },
   "decisions": {
     "living": {
-      "score": -0.22,
+      "score": -0.32,
       "confidence": 0.66,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.59,
+      "score": -1.64,
       "confidence": 0.69,
       "horizon": "3-7y",
       "reading": "mixed"

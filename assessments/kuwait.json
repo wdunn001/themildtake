@@ -186,18 +186,18 @@
       }
     },
     "physical_practical": {
-      "score": 2.4,
-      "confidence": 0.73,
+      "score": 2.7,
+      "confidence": 0.72,
       "skew": "negative",
       "notes": "Good healthcare and very low crime, against extreme heat and water scarcity.",
       "sub_factors": {
         "climate": {
-          "score_near": -5,
-          "score_long": -8,
+          "score_near": -4,
+          "score_long": -7,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "Among Earth's hottest inhabited places, with the lowest per-capita renewable freshwater and wholesale desalination dependence. (Berkeley; peer-reviewed)"
+          "confidence": 0.8,
+          "notes": "Among the hottest inhabited places - near-unliveable wet-bulb heat by mid-century, dust, desal-dependent water, with extreme wealth/AC offset. (IPCC AR6; WB)"
         },
         "healthcare": {
           "score": 5,
@@ -228,13 +228,13 @@
   },
   "decisions": {
     "living": {
-      "score": -0.81,
+      "score": -0.76,
       "confidence": 0.76,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.44,
+      "score": 0.47,
       "confidence": 0.78,
       "horizon": "3-7y",
       "reading": "mixed"

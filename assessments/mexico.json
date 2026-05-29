@@ -194,16 +194,18 @@
       }
     },
     "physical_practical": {
-      "score": -1.7,
-      "confidence": 0.7,
+      "score": -2.4,
+      "confidence": 0.73,
       "skew": "symmetric",
       "notes": "Excellent affordable private healthcare and a favorable highland climate offset by high violent crime and uneven infrastructure.",
       "sub_factors": {
         "climate": {
-          "score": 0,
+          "score_near": -4,
+          "score_long": -5,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.6,
-          "notes": "Variable; northern water stress, coastal hurricanes; central highlands favorable."
+          "confidence": 0.75,
+          "notes": "Northern/SW water stress plus dual-coast hurricanes (Otis 2023) plus heat, decent but strained readiness. (WB CCDR)"
         },
         "healthcare": {
           "score": 1,
@@ -234,14 +236,14 @@
   },
   "decisions": {
     "living": {
-      "score": -2.31,
+      "score": -2.45,
       "confidence": 0.71,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.25,
-      "confidence": 0.71,
+      "score": -1.34,
+      "confidence": 0.72,
       "horizon": "3-7y",
       "reading": "mixed"
     },

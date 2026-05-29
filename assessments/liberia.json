@@ -184,18 +184,18 @@
       }
     },
     "physical_practical": {
-      "score": -5.7,
+      "score": -6.1,
       "confidence": 0.63,
       "skew": "negative",
       "notes": "Among the world's weakest health and infrastructure, Ebola-scarred, with coastal flood risk.",
       "sub_factors": {
         "climate": {
-          "score_near": -3,
-          "score_long": -4,
+          "score_near": -5,
+          "score_long": -6,
           "score": null,
           "weight": 0.2,
           "confidence": 0.6,
-          "notes": "Coastal flooding/erosion and heavy-rain hazards, but less cyclone/drought-exposed than Madagascar or Malawi. (World Bank; ND-GAIN)"
+          "notes": "ND-GAIN bottom-30 - intense-rainfall flooding, coastal erosion on the Monrovia shore, post-war low readiness. (ND-GAIN; WB)"
         },
         "healthcare": {
           "score": -7,
@@ -226,13 +226,13 @@
   },
   "decisions": {
     "living": {
-      "score": -2.2,
+      "score": -2.25,
       "confidence": 0.63,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.69,
+      "score": -1.73,
       "confidence": 0.66,
       "horizon": "3-7y",
       "reading": "mixed"

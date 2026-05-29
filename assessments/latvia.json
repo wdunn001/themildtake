@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": 1.4,
-      "confidence": 0.71,
+      "score": 1.6,
+      "confidence": 0.72,
       "skew": "negative",
       "notes": "Decent infrastructure and energy security, against an underfunded health system.",
       "sub_factors": {
         "climate": {
-          "score": 3,
+          "score_near": 4,
+          "score_long": 6,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.65,
-          "notes": "Baltic, with low catastrophe exposure and moderate warming effects. (EC)"
+          "confidence": 0.7,
+          "notes": "A Baltic high-latitude winner - longer growing season, milder winters, strong readiness; AMOC/coastal caveat. (ND-GAIN; Burke et al.)"
         },
         "healthcare": {
           "score": -2,
@@ -222,13 +224,13 @@
   },
   "decisions": {
     "living": {
-      "score": 3.62,
+      "score": 3.7,
       "confidence": 0.8,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 3.77,
+      "score": 3.81,
       "confidence": 0.82,
       "horizon": "3-7y",
       "reading": "clear positive"

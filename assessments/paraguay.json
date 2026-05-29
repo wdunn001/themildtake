@@ -183,15 +183,17 @@
     },
     "physical_practical": {
       "score": -2.5,
-      "confidence": 0.72,
+      "confidence": 0.7,
       "skew": "negative",
       "notes": "Drought/flood and weak public healthcare, with rising narco-border violence.",
       "sub_factors": {
         "climate": {
-          "score": -4,
+          "score_near": -4,
+          "score_long": -5,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "Drought (record-low river levels), extreme heat, and Chaco deforestation. (World Bank; IWMI)"
+          "confidence": 0.7,
+          "notes": "Landlocked but extreme heat plus Parana drought (record-low river) plus Chaco deforestation, low readiness. (ND-GAIN)"
         },
         "healthcare": {
           "score": -3,
@@ -222,8 +224,8 @@
   },
   "decisions": {
     "living": {
-      "score": 0.09,
-      "confidence": 0.77,
+      "score": 0.08,
+      "confidence": 0.76,
       "horizon": "5-10y",
       "reading": "mixed"
     },

@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": -2.8,
-      "confidence": 0.61,
+      "score": -3.1,
+      "confidence": 0.59,
       "skew": "negative",
       "notes": "A chronic electricity crisis as the binding constraint, with weak healthcare and SIDS climate exposure.",
       "sub_factors": {
         "climate": {
-          "score": -3,
+          "score_near": -5,
+          "score_long": -7,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.65,
-          "notes": "Equatorial islands with rising sea-level/coastal-erosion and extreme-rainfall exposure, less acute than low-lying atolls. (UNDP SIDS)"
+          "confidence": 0.55,
+          "notes": "An equatorial-Atlantic SIDS - coastal/sea-level erosion plus freshwater and rainfall shifts, tiny adaptive capacity. (ND-GAIN; IPCC SIDS)"
         },
         "healthcare": {
           "score": -3,
@@ -222,13 +224,13 @@
   },
   "decisions": {
     "living": {
-      "score": 0.66,
-      "confidence": 0.65,
+      "score": 0.58,
+      "confidence": 0.64,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.21,
+      "score": 0.17,
       "confidence": 0.7,
       "horizon": "3-7y",
       "reading": "mixed"

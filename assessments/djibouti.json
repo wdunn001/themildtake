@@ -186,16 +186,18 @@
       }
     },
     "physical_practical": {
-      "score": -1.9,
-      "confidence": 0.53,
+      "score": -2.2,
+      "confidence": 0.54,
       "skew": "symmetric",
       "notes": "World-class Chinese-built ports/rail and relative safety, against extreme aridity and water scarcity.",
       "sub_factors": {
         "climate": {
-          "score": -5,
+          "score_near": -6,
+          "score_long": -7,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.6,
-          "notes": "Extreme aridity and water scarcity, with recurrent drought hitting pastoralists and rural food security. (World Bank; UNSDG)"
+          "confidence": 0.66,
+          "notes": "Extreme heat, chronic drought, near-total food-import dependence, water scarcity, coastal exposure. (ND-GAIN; WB Horn)"
         },
         "healthcare": {
           "score": -3,
@@ -226,13 +228,13 @@
   },
   "decisions": {
     "living": {
-      "score": -1.95,
+      "score": -2.03,
       "confidence": 0.56,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.15,
+      "score": -1.19,
       "confidence": 0.6,
       "horizon": "3-7y",
       "reading": "mixed"

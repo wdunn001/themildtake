@@ -190,16 +190,18 @@
       }
     },
     "physical_practical": {
-      "score": -5.5,
-      "confidence": 0.52,
+      "score": -6.1,
+      "confidence": 0.55,
       "skew": "negative",
       "notes": "Flood/landslide exposure, a malaria-burdened health system, and among the world's lowest electrification.",
       "sub_factors": {
         "climate": {
-          "score": -3,
+          "score_near": -6,
+          "score_long": -7,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.5,
-          "notes": "Flooding/landslides and rain variability hit subsistence farming - high exposure, low adaptive capacity. (World Bank)"
+          "confidence": 0.66,
+          "notes": "ND-GAIN bottom-20 - landslides, floods, erratic rains on dense subsistence hills, near-zero adaptive capacity. (ND-GAIN; WB)"
         },
         "healthcare": {
           "score": -6,
@@ -230,13 +232,13 @@
   },
   "decisions": {
     "living": {
-      "score": -4.48,
-      "confidence": 0.53,
+      "score": -4.61,
+      "confidence": 0.54,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -4.03,
+      "score": -4.11,
       "confidence": 0.54,
       "horizon": "3-7y",
       "reading": "clear negative"

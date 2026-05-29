@@ -183,15 +183,17 @@
     },
     "physical_practical": {
       "score": -4,
-      "confidence": 0.74,
+      "confidence": 0.72,
       "skew": "negative",
       "notes": "Seismic and climate exposure, a weak health system, and a sharply deteriorating crime environment.",
       "sub_factors": {
         "climate": {
-          "score": -5,
+          "score_near": -5,
+          "score_long": -7,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "High seismic risk, El Nino coastal flooding, and Andean glacial-melt water stress. (PreventionWeb; GEM)"
+          "confidence": 0.75,
+          "notes": "Tropical-glacier loss (the largest share globally) plus Lima water plus strong-ENSO flooding, low readiness. (IPCC AR6)"
         },
         "healthcare": {
           "score": -4,
@@ -222,7 +224,7 @@
   },
   "decisions": {
     "living": {
-      "score": -1,
+      "score": -1.05,
       "confidence": 0.79,
       "horizon": "5-10y",
       "reading": "mixed"

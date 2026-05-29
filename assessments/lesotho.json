@@ -184,16 +184,18 @@
       }
     },
     "physical_practical": {
-      "score": -2.4,
-      "confidence": 0.58,
+      "score": -2.8,
+      "confidence": 0.57,
       "skew": "negative",
       "notes": "Mountainous drought/erosion exposure and a high HIV/TB burden, with the water project the standout asset.",
       "sub_factors": {
         "climate": {
-          "score": -3,
+          "score_near": -5,
+          "score_long": -6,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.65,
-          "notes": "Mountainous, drought- and erosion-prone, with climate variability hitting agriculture; water itself is the key asset. (World Bank)"
+          "confidence": 0.62,
+          "notes": "Highland drought, soil erosion, and erratic rains on a rain-fed/herding economy, low readiness. (ND-GAIN; WB)"
         },
         "healthcare": {
           "score": -2,
@@ -224,13 +226,13 @@
   },
   "decisions": {
     "living": {
-      "score": -0.66,
+      "score": -0.75,
       "confidence": 0.64,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -0.24,
+      "score": -0.28,
       "confidence": 0.69,
       "horizon": "3-7y",
       "reading": "mixed"

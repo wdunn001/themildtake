@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": -2.9,
+      "score": -2.2,
       "confidence": 0.63,
       "skew": "negative",
       "notes": "Adequate Soviet-legacy systems under sanctions strain, with a state-violence safety duality.",
       "sub_factors": {
         "climate": {
-          "score": -2,
+          "score_near": 2,
+          "score_long": 3,
+          "score": null,
           "weight": 0.2,
           "confidence": 0.6,
-          "notes": "Flood/heat and Chernobyl-legacy zones - moderate. (general)"
+          "notes": "Mid/high-latitude continental - longer growing seasons and milder winters net-positive, capped by lower readiness and drought variability. (Burke et al.; IPCC AR6)"
         },
         "healthcare": {
           "score": -3,
@@ -222,13 +224,13 @@
   },
   "decisions": {
     "living": {
-      "score": -5.74,
+      "score": -5.62,
       "confidence": 0.75,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -5.52,
+      "score": -5.45,
       "confidence": 0.77,
       "horizon": "3-7y",
       "reading": "clear negative"

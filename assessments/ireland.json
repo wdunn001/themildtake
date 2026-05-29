@@ -194,18 +194,18 @@
       }
     },
     "physical_practical": {
-      "score": -0.4,
-      "confidence": 0.75,
+      "score": -0.3,
+      "confidence": 0.73,
       "skew": "negative",
       "notes": "A mild climate and low violent crime, against an acute housing/health/infrastructure strain.",
       "sub_factors": {
         "climate": {
-          "score_near": 1,
-          "score_long": -1,
+          "score_near": 2,
+          "score_long": 1,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.72,
-          "notes": "Temperate, with low extreme-heat/wildfire exposure but rising flood risk (wetter winters, sea-level, storms). (EPA Climate Ireland)"
+          "confidence": 0.65,
+          "notes": "Mild maritime, high readiness, low heat exposure - but the most AMOC-exposed state; a slowdown could sharply cool/destabilize NW Europe (flag the tail). (ND-GAIN; IPCC AMOC)"
         },
         "healthcare": {
           "score_near": -1,
@@ -240,13 +240,13 @@
   },
   "decisions": {
     "living": {
-      "score": 3.22,
+      "score": 3.28,
       "confidence": 0.78,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 2.83,
+      "score": 2.86,
       "confidence": 0.79,
       "horizon": "3-7y",
       "reading": "mixed"

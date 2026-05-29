@@ -194,8 +194,8 @@
       }
     },
     "physical_practical": {
-      "score": 4,
-      "confidence": 0.71,
+      "score": 3.8,
+      "confidence": 0.73,
       "skew": "symmetric",
       "notes": "World-class infrastructure, very low crime, and excellent hub healthcare, against extreme heat and water/desalination dependence.",
       "sub_factors": {
@@ -204,8 +204,8 @@
           "score_long": -6,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.7,
-          "notes": "Extreme heat, total dependence on desalination for water, and 2024 record floods that exposed drainage limits; long-term exposure rising. (Nature 2025; CNBC)"
+          "confidence": 0.8,
+          "notes": "Extreme wet-bulb heat by mid-century, desal-dependent water, coastal/sea-level, with the highest-readiness Gulf offset near-term. (IPCC AR6; ND-GAIN)"
         },
         "healthcare": {
           "score": 6,
@@ -236,13 +236,13 @@
   },
   "decisions": {
     "living": {
-      "score": 0.22,
-      "confidence": 0.71,
+      "score": 0.19,
+      "confidence": 0.72,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 1.29,
+      "score": 1.27,
       "confidence": 0.73,
       "horizon": "3-7y",
       "reading": "mixed"

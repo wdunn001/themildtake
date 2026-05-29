@@ -195,16 +195,18 @@
       }
     },
     "physical_practical": {
-      "score": 3.8,
-      "confidence": 0.77,
+      "score": 4,
+      "confidence": 0.78,
       "skew": "symmetric",
       "notes": "Excellent infrastructure and low disaster exposure; healthcare strong; crime the one complicating factor but still low by US/Mexico standards.",
       "sub_factors": {
         "climate": {
-          "score": 3,
+          "score_near": 4,
+          "score_long": 6,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.7,
-          "notes": "Relative beneficiary: longer growing seasons, lower heating costs; some forest-fire/Baltic exposure."
+          "confidence": 0.75,
+          "notes": "A high-latitude net beneficiary - top readiness, longer growing seasons, milder winters, forestry upside; transition volatility and AMOC tail the caveats. (ND-GAIN; IPCC AR6; Burke et al.)"
         },
         "healthcare": {
           "score": 4,
@@ -235,13 +237,13 @@
   },
   "decisions": {
     "living": {
-      "score": 3.67,
-      "confidence": 0.77,
+      "score": 3.76,
+      "confidence": 0.78,
       "horizon": "5-10y",
       "reading": "clear positive"
     },
     "assets": {
-      "score": 3.61,
+      "score": 3.65,
       "confidence": 0.78,
       "horizon": "3-7y",
       "reading": "clear positive"

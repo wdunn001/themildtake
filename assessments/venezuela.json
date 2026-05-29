@@ -196,16 +196,18 @@
       }
     },
     "physical_practical": {
-      "score": -6.7,
-      "confidence": 0.63,
+      "score": -7,
+      "confidence": 0.67,
       "skew": "negative",
       "notes": "A collapsed health system, degraded infrastructure, and high crime.",
       "sub_factors": {
         "climate": {
-          "score": -4,
+          "score_near": -6,
+          "score_long": -8,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.6,
-          "notes": "Oil pollution, flood/landslide damage, and hydropower-dependence blackout crises. (EC ECHO)"
+          "confidence": 0.8,
+          "notes": "Andean glacier loss (the last glacier gone 2024) plus collapsed institutional readiness plus flood/landslide exposure. (ND-GAIN)"
         },
         "healthcare": {
           "score": -8,
@@ -236,14 +238,14 @@
   },
   "decisions": {
     "living": {
-      "score": -5.89,
-      "confidence": 0.64,
+      "score": -6.02,
+      "confidence": 0.65,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -5.63,
-      "confidence": 0.64,
+      "score": -5.69,
+      "confidence": 0.65,
       "horizon": "3-7y",
       "reading": "clear negative"
     },

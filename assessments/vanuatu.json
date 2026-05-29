@@ -188,18 +188,18 @@
       }
     },
     "physical_practical": {
-      "score": -5.3,
-      "confidence": 0.72,
+      "score": -5.1,
+      "confidence": 0.71,
       "skew": "negative",
       "notes": "The world's #1 disaster-risk profile, with weak health/infrastructure and near-zero catastrophe insurance.",
       "sub_factors": {
         "climate": {
-          "score_near": -7,
+          "score_near": -6,
           "score_long": -8,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "Extreme and worsening cyclone exposure (Pam 2015, twin cyclones 2023) plus sea-level rise, with minimal adaptation capacity. (UNEP; WorldRiskIndex)"
+          "confidence": 0.82,
+          "notes": "The WorldRiskIndex #1 disaster-risk country (TC Pam 2015, Harold, twin-2023 cyclones) - extreme cyclone/SLR/volcanic exposure, low adaptive capacity. (WorldRiskIndex)"
         },
         "healthcare": {
           "score": -5,
@@ -230,13 +230,13 @@
   },
   "decisions": {
     "living": {
-      "score": -1.21,
+      "score": -1.2,
       "confidence": 0.62,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -1.38,
+      "score": -1.36,
       "confidence": 0.65,
       "horizon": "3-7y",
       "reading": "mixed"

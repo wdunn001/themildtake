@@ -184,16 +184,18 @@
       }
     },
     "physical_practical": {
-      "score": 1.6,
-      "confidence": 0.8,
+      "score": 2.1,
+      "confidence": 0.77,
       "skew": "negative",
       "notes": "Good healthcare and low crime, against severe water scarcity and overdevelopment.",
       "sub_factors": {
         "climate": {
-          "score": -6,
+          "score_near": -5,
+          "score_long": -7,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.9,
-          "notes": "Among the most water-stressed globally, with saltwater intrusion, extreme heat, and tiny-island exposure. (ERA Malta)"
+          "confidence": 0.78,
+          "notes": "A Central-Med island - severe water scarcity, extreme heat, sea-level, and no freshwater buffer; high income aids adaptation but physical limits bite. (IPCC AR6; EEA)"
         },
         "healthcare": {
           "score": 5,
@@ -225,12 +227,12 @@
   "decisions": {
     "living": {
       "score": 1.04,
-      "confidence": 0.82,
+      "confidence": 0.81,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 2.34,
+      "score": 2.37,
       "confidence": 0.83,
       "horizon": "3-7y",
       "reading": "mixed"

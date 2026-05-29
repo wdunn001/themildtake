@@ -197,18 +197,18 @@
       }
     },
     "physical_practical": {
-      "score": -4.3,
-      "confidence": 0.73,
+      "score": -4.5,
+      "confidence": 0.75,
       "skew": "negative",
       "notes": "Healthcare drives most of this. Long-term composite worsens as climate compounds.",
       "sub_factors": {
         "climate": {
-          "score_near": -3,
+          "score_near": -4,
           "score_long": -5,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.65,
-          "notes": "SW water stress, Gulf/Atlantic hurricanes, Western wildfire; insurance-market failures FL/CA; federal response capacity under stress."
+          "confidence": 0.75,
+          "notes": "SW water stress plus Gulf/Atlantic hurricanes plus Western wildfire plus FL/CA insurance-market failure; high but eroding adaptive capacity. (IPCC AR6 WGII NA)"
         },
         "healthcare": {
           "score": -6,
@@ -240,13 +240,13 @@
   "decisions": {
     "living": {
       "score": -5.35,
-      "confidence": 0.73,
+      "confidence": 0.74,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -4.76,
-      "confidence": 0.73,
+      "score": -4.77,
+      "confidence": 0.74,
       "horizon": "3-7y",
       "reading": "clear negative"
     },

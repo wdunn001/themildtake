@@ -186,18 +186,18 @@
       }
     },
     "physical_practical": {
-      "score": -1.3,
+      "score": -1.7,
       "confidence": 0.76,
       "skew": "negative",
       "notes": "Among the most climate-exposed states on earth, with chronic Nassau crime.",
       "sub_factors": {
         "climate": {
-          "score_near": -5,
-          "score_long": -7,
+          "score_near": -7,
+          "score_long": -9,
           "score": null,
           "weight": 0.2,
           "confidence": 0.85,
-          "notes": "Among the most climate-exposed states - ~80% of land within ~1.5m of sea level; Dorian (2019) was catastrophic and the tail worsens with time. (NEJM; IDB; World Bank)"
+          "notes": "A low-lying limestone archipelago (~80% of land <1m) - the Dorian/Beryl precedent plus sea-level rise is near-existential. (IPCC AR6 SLR)"
         },
         "healthcare": {
           "score": 1,
@@ -230,13 +230,13 @@
   },
   "decisions": {
     "living": {
-      "score": 1.54,
+      "score": 1.47,
       "confidence": 0.79,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 1.47,
+      "score": 1.43,
       "confidence": 0.81,
       "horizon": "3-7y",
       "reading": "mixed"

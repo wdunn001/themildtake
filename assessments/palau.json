@@ -184,16 +184,18 @@
       }
     },
     "physical_practical": {
-      "score": -1.5,
+      "score": -1.1,
       "confidence": 0.6,
       "skew": "negative",
       "notes": "Very low crime and functional core infrastructure, against acute reef/climate exposure.",
       "sub_factors": {
         "climate": {
-          "score": -6,
+          "score_near": -4,
+          "score_long": -6,
+          "score": null,
           "weight": 0.2,
           "confidence": 0.7,
-          "notes": "Severe reef/ocean-acidification and sea-level exposure - the tourism economy is directly reef-dependent. (World Bank; inference)"
+          "notes": "High islands aid resilience, but a reef-dependent economy, coral bleaching, SLR, and typhoon exposure. (WB Pacific CCDR)"
         },
         "healthcare": {
           "score": -2,
@@ -230,7 +232,7 @@
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.12,
+      "score": 0.14,
       "confidence": 0.68,
       "horizon": "3-7y",
       "reading": "mixed"

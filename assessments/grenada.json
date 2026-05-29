@@ -183,15 +183,17 @@
     },
     "physical_practical": {
       "score": -2.1,
-      "confidence": 0.64,
+      "confidence": 0.63,
       "skew": "negative",
       "notes": "Acute single-event hurricane risk (Beylr/Carriacou), with reasonable regional services.",
       "sub_factors": {
         "climate": {
-          "score": -7,
+          "score_near": -7,
+          "score_long": -9,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "Direct-hit hurricane risk proven by Beryl 2024 (>16% of GDP in damage, ~99% of Carriacou's buildings destroyed) and the Ivan 2004 legacy. (IMF; OCHA)"
+          "confidence": 0.8,
+          "notes": "Devastated by 2004 Ivan; 2024 Beryl flattened Carriacou/Petite Martinique - a high-exposure SIDS. (IPCC AR6)"
         },
         "healthcare": {
           "score": -1,
@@ -222,13 +224,13 @@
   },
   "decisions": {
     "living": {
-      "score": 2.39,
+      "score": 2.34,
       "confidence": 0.66,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 2.04,
+      "score": 2.03,
       "confidence": 0.71,
       "horizon": "3-7y",
       "reading": "mixed"

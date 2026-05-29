@@ -184,16 +184,18 @@
       }
     },
     "physical_practical": {
-      "score": -3.2,
-      "confidence": 0.64,
+      "score": -2.9,
+      "confidence": 0.63,
       "skew": "negative",
       "notes": "The most disaster-exposed of the cohort (Maria 2017), offset by a credible geothermal/resilience bet.",
       "sub_factors": {
         "climate": {
-          "score": -8,
+          "score_near": -7,
+          "score_long": -9,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "The most disaster-exposed of the cohort - Maria 2017 was catastrophic (~75% of the power grid destroyed) - and on the hurricane track. (ReliefWeb; World Bank)"
+          "confidence": 0.8,
+          "notes": "2017 Maria wiped ~226% of GDP - a mountainous SIDS with extreme cyclone exposure. (Germanwatch CRI; IPCC AR6)"
         },
         "healthcare": {
           "score": -2,
@@ -224,13 +226,13 @@
   },
   "decisions": {
     "living": {
-      "score": 0.81,
+      "score": 0.79,
       "confidence": 0.61,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.45,
+      "score": 0.47,
       "confidence": 0.67,
       "horizon": "3-7y",
       "reading": "mixed"

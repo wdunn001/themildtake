@@ -190,18 +190,18 @@
       }
     },
     "physical_practical": {
-      "score": 0,
-      "confidence": 0.69,
+      "score": -0.5,
+      "confidence": 0.7,
       "skew": "symmetric",
       "notes": "Hurricane-free with a strong capital-city core, against a material and recurring canal-watershed drought risk and thin rural services.",
       "sub_factors": {
         "climate": {
-          "score_near": -2,
-          "score_long": -3,
+          "score_near": -4,
+          "score_long": -5,
           "score": null,
           "weight": 0.2,
-          "confidence": 0.7,
-          "notes": "Hurricane-free (a positive), but the canal-watershed drought is material and structural; Gatún Lake water security is a recurring crisis requiring a controversial new dam. (PIIE; CSMonitor)"
+          "confidence": 0.75,
+          "notes": "Canal drought (2023-24 draft restrictions) plus dual-coast plus watershed stress, relatively higher readiness. (WB CCDR)"
         },
         "healthcare": {
           "score": 1,
@@ -232,13 +232,13 @@
   },
   "decisions": {
     "living": {
-      "score": -0.43,
+      "score": -0.5,
       "confidence": 0.72,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": -0.62,
+      "score": -0.66,
       "confidence": 0.75,
       "horizon": "3-7y",
       "reading": "mixed"

@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": -3,
-      "confidence": 0.68,
+      "score": -2.2,
+      "confidence": 0.64,
       "skew": "negative",
       "notes": "Severe water/heat and wildfire exposure, against relatively low violent crime.",
       "sub_factors": {
         "climate": {
-          "score": -7,
+          "score_near": -4,
+          "score_long": -5,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.85,
-          "notes": "Severe - water scarcity and drought, extreme heat, desertification, and recurrent deadly wildfires. (IEA; Euronews)"
+          "confidence": 0.7,
+          "notes": "Severe water stress, extreme heat, Saharan aridity, but oil-funded readiness above the Sahel. (ND-GAIN; WB MENA)"
         },
         "healthcare": {
           "score": -3,
@@ -222,14 +224,14 @@
   },
   "decisions": {
     "living": {
-      "score": -4.29,
+      "score": -4.22,
       "confidence": 0.78,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -3.83,
-      "confidence": 0.8,
+      "score": -3.78,
+      "confidence": 0.79,
       "horizon": "3-7y",
       "reading": "clear negative"
     },

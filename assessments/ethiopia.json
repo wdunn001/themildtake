@@ -182,16 +182,18 @@
       }
     },
     "physical_practical": {
-      "score": -4.1,
-      "confidence": 0.73,
+      "score": -4.5,
+      "confidence": 0.71,
       "skew": "negative",
       "notes": "A state infrastructure build-out undercut by conflict, weak healthcare, and drought/flood exposure.",
       "sub_factors": {
         "climate": {
-          "score": -4,
+          "score_near": -6,
+          "score_long": -7,
+          "score": null,
           "weight": 0.2,
-          "confidence": 0.8,
-          "notes": "Horn-of-Africa drought and flooding, highland erosion, and hydropower drought-exposure. (Climate Change News)"
+          "confidence": 0.7,
+          "notes": "ND-GAIN bottom-25 - recurrent Horn drought plus deadly floods, a vast rain-fed population, low readiness. (ND-GAIN; WB)"
         },
         "healthcare": {
           "score": -4,
@@ -222,13 +224,13 @@
   },
   "decisions": {
     "living": {
-      "score": -4.12,
+      "score": -4.2,
       "confidence": 0.77,
       "horizon": "5-10y",
       "reading": "clear negative"
     },
     "assets": {
-      "score": -3.58,
+      "score": -3.62,
       "confidence": 0.78,
       "horizon": "3-7y",
       "reading": "clear negative"

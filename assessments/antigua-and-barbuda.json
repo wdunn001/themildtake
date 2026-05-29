@@ -192,10 +192,12 @@
       "notes": "Extreme hurricane exposure (Barbuda ~90% destroyed by Irma), with micro-state service limits.",
       "sub_factors": {
         "climate": {
-          "score": -6,
+          "score_near": -6,
+          "score_long": -8,
+          "score": null,
           "weight": 0.2,
           "confidence": 0.8,
-          "notes": "Extreme hurricane exposure - Barbuda was ~90% destroyed by Irma (2017) - in a low-lying twin-island geography. (Freedom House; CCRIF context)"
+          "notes": "A high-vulnerability SIDS - Beryl-class hurricanes plus sea-level rise threaten Barbuda's low coast. (ND-GAIN; IPCC AR6 SIDS)"
         },
         "healthcare": {
           "score": -2,
@@ -226,13 +228,13 @@
   },
   "decisions": {
     "living": {
-      "score": 0.59,
+      "score": 0.5,
       "confidence": 0.59,
       "horizon": "5-10y",
       "reading": "mixed"
     },
     "assets": {
-      "score": 0.33,
+      "score": 0.31,
       "confidence": 0.63,
       "horizon": "3-7y",
       "reading": "mixed"
