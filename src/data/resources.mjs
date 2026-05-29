@@ -16,19 +16,8 @@ export const RESOURCES = [
     name: "Ground News",
     url: "https://ground.news/",
     role: "Bias & coverage check",
-    primary: true,
     description:
       "A quick way to see how a story splits across the political spectrum and to check an outlet's bias/factuality. One input among many — triangulate against the multilateral indices and the independent press below rather than treating any single aggregator as the gate.",
-    feed: null,
-  },
-  {
-    id: "financial-times",
-    name: "Financial Times",
-    url: "https://www.ft.com/",
-    role: "Markets & macro",
-    primary: true,
-    description:
-      "A first-tier global business and markets paper, strongest for the economic factors — sovereign debt, currencies, banking, trade — where it often runs ahead of multilateral reports. Pair with IMF/World Bank and local sources on governance/politics for non-Anglophone countries.",
     feed: null,
   },
   // ── Multilateral / language-neutral references (reduce Anglophone bias by design) ──
@@ -143,8 +132,8 @@ export const INDEPENDENT_PRESS_BY_LANGUAGE = [
   {
     language: "English",
     use: "US, UK, global wires — strongest for markets/macro; watch US ownership capture",
-    note: "US media ownership has concentrated toward administration-aligned owners in the last year (e.g. CBS/Paramount via the Skydance–Ellison acquisition, with board/editorial appointees close to the administration). Treat such captured US outlets as ownership-tilted (partially-entangled) on US politics, not neutral — lean on the global wires, the FT, and non-Anglophone press instead.",
-    independent: ["Reuters (London, wire)", "Associated Press (NYC, wire)", "Financial Times (London)", "The Guardian (London)", "BBC (London, public, arm's-length)", "The Economist (London)"],
+    note: "US media ownership has concentrated toward administration-aligned owners in the last year (e.g. CBS/Paramount via the Skydance–Ellison acquisition, with board/editorial appointees close to the administration). Treat such captured US outlets as ownership-tilted (partially-entangled) on US politics, not neutral — lean on the global wires and non-Anglophone press instead.",
+    independent: ["Reuters (London, wire)", "Associated Press (NYC, wire)", "The Guardian (London)", "BBC (London, public, arm's-length)", "The Economist (London)"],
     tilt: ["CBS / Paramount (US, Skydance–Ellison-owned, administration-aligned)", "most US cable/network news (concentrated ownership — flag the proprietor's tilt)"],
     excluded: ["VOA / Radio Free Asia / RFE-RL (US-government-funded — out on the US under the uniform rule)"],
   },
