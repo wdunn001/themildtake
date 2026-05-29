@@ -41,8 +41,8 @@ async function main() {
   const index = {
     title: "Country Comparison Index",
     project: "themildtake",
-    methodology_version: "2.0",
-    assessed_on: "2026-05-28",
+    methodology_version: "2.2",
+    assessed_on: "2026-05-29",
     subject_profile: {
       summary:
         "Base country-level comparison; default category weights prioritize rule of law, institutional integrity, and personal freedom.",

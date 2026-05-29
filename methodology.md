@@ -1,6 +1,6 @@
 # Country Risk Assessment Framework
 
-**Version 2**
+**Version 2.2**
 **Project: themildtake**
 
 A methodology for producing directional, confidence-weighted, source-disciplined assessments of countries for individual decisions such as relocation, asset holding, and currency exposure.
@@ -13,14 +13,15 @@ A methodology for producing directional, confidence-weighted, source-disciplined
 2. [Core Design Principles](#core-design-principles)
 3. [The Source-Quality Rating System](#the-source-quality-rating-system)
 4. [How Source Quality Sets Confidence](#how-source-quality-sets-confidence)
-5. [The Hierarchical Scoring Structure](#the-hierarchical-scoring-structure)
-6. [The Aggregation Formulas](#the-aggregation-formulas)
-7. [The Time-Horizon Mechanism](#the-time-horizon-mechanism)
-8. [The Asymmetry and Skew Discipline](#the-asymmetry-and-skew-discipline)
-9. [The Slant-Balance Audit](#the-slant-balance-audit)
-10. [Decision Thresholds](#decision-thresholds)
-11. [What the Framework Deliberately Does Not Do](#what-the-framework-deliberately-does-not-do)
-12. [Changelog](#changelog)
+5. [The Transparency-Tier Confidence Cap](#the-transparency-tier-confidence-cap)
+6. [The Hierarchical Scoring Structure](#the-hierarchical-scoring-structure)
+7. [The Aggregation Formulas](#the-aggregation-formulas)
+8. [The Time-Horizon Mechanism](#the-time-horizon-mechanism)
+9. [The Asymmetry and Skew Discipline](#the-asymmetry-and-skew-discipline)
+10. [The Slant-Balance Audit](#the-slant-balance-audit)
+11. [Decision Thresholds](#decision-thresholds)
+12. [What the Framework Deliberately Does Not Do](#what-the-framework-deliberately-does-not-do)
+13. [Changelog](#changelog)
 
 ---
 
@@ -125,6 +126,27 @@ Confidence on each factor is **not** a free subjective judgment. It is disciplin
 | Independent sources partially conflicting, OR reliance on Mixed-factuality sources | ~60-75% |
 | Reliance only on partially-entangled sources | Capped ~50% |
 | Only untrustworthy-tier sources available | **Flag insufficient-reliable-data; assign no score** |
+
+---
+
+## The Transparency-Tier Confidence Cap
+
+Source quality (above) governs *which inputs* are allowed to feed a factor. A separate, country-level mechanism governs *how confident any read of the country can be in the first place*, given how observable the place is to the outside world. This is the **transparency tier**, and it sets a **ceiling on confidence**: it never moves the directional score.
+
+The tier is derived mechanically from two factors already in the assessment, **press freedom** (institutional) and **civil liberties** (political/social), because together they answer one question: can the truth get out?
+
+| Tier | Condition | Confidence cap |
+|------|-----------|----------------|
+| **Observable** | Free press and civil liberties both clearly positive (each at or above +2). The truth gets out; independent verification is possible. | 1.00 (no cap) |
+| **Mixed** | In between, often a state that is opaque about itself while society stays relatively open. | 0.75 |
+| **Opaque** | The state controls or captures the media, or crushes civil society (press freedom or civil liberties at or below -6). What the country publishes about itself cannot be independently checked. | 0.60 |
+| **Unknown** | Neither press-freedom nor civil-liberties data is available to classify. | 1.00 (not penalized for the gap) |
+
+The cap clips each sub-factor's confidence before the confidence-weighted average, so it flows into every category and decision composite. An opaque country's scores are therefore reported with structurally lower confidence than an observable one's, even when the point estimates are similar. Opacity lowers how much the framework vouches for a read, not the read itself. Each country page carries a transparency badge showing its tier.
+
+### The going-dark trend flag
+
+A non-opaque country whose own **statistical integrity** is already badly compromised (statistical-integrity score at or below -4) is flagged **declining**: the state has begun going dark ahead of its society, publishing unreliable numbers while the press and civil society are still nominally free. It is an early warning that an *observable* or *mixed* country is sliding toward opacity, and it is shown alongside the tier. (The United States is the archetype the flag was built for.)
 
 ---
 
@@ -258,10 +280,18 @@ A cross-country comparison is only valid if each country was assessed with **com
 
 ## Changelog
 
+### Version 2.2
+
+- **Expanded coverage from the initial six countries to all 193 UN member states.** Every member now carries a full five-category assessment with living, asset, and currency decisions.
+- **Added the transparency-tier confidence cap** (observable / mixed / opaque / unknown): a country-level ceiling on confidence derived from press freedom and civil liberties, with a going-dark trend flag for states whose statistical integrity is degrading ahead of their society. It caps confidence, never the score (see the section above). Implemented in the shared scoring engine so the Node pipeline and the in-browser personalization tool apply it identically.
+- **Corrected the US data-entanglement window** to **2025 onward** (previously stated as "post-2022"): Biden-era 2020-2024 official data is treated as trustworthy, and the partial-entanglement discount applies only to the 2025-onward period of documented statistical interference.
+- **Recalibrated the climate sub-factor** to ND-GAIN vulnerability/readiness and IPCC regional projections, scored over a window in which some high-latitude regions are near-term relative winners even as global exposure worsens.
+- **Personal Fit went live** as the client-side [/relocate/](/relocate/) tool: it builds a reader-specific `personal_fit` category in the browser and folds it into the three decisions using the same engine as the base, with a base-versus-personalized toggle. The base files stay general and carry no `personal_fit` category; the profile never leaves the device.
+
 ### Version 2.1
 
 - Redesigned the trade factor (`trade_actions_capacity`) to score trade-policy **actions and volatility**, **trade trajectory** (export/import trends, diversity of goods and partners), **industrial capacity** (from partner-observable data so it survives source-exclusion), and **resource-curse / paradox-of-plenty** dynamics; raised its default economic weight 0.05 → 0.17 and rebalanced the other economic sub-weights.
-- Completed the full source-discipline re-run across all six countries: applied the hard exclusion rule uniformly (CCP self-reported data excluded and rebuilt from independent proxies; US post-2022 official data discounted as partially-entangled), ran the slant-balance audit, and re-examined Mexico under skew (nearshoring + demographic dividend).
+- Completed the full source-discipline re-run across the initial six-country set: applied the hard exclusion rule uniformly (CCP self-reported data excluded and rebuilt from independent proxies; US official data from 2025 onward discounted as partially-entangled, with Biden-era 2020-2024 data treated as trustworthy), ran the slant-balance audit, and re-examined Mexico under skew (nearshoring + demographic dividend).
 - Adopted an **actions-and-data-over-stated-values** stance: where leadership is unreliable, stated intentions carry little predictive weight, so scores lean on observable actions and independent data. The optional strict-foundational-weighting (re-weight-by-stated-values) variant is deliberately not used.
 - Added a recompute engine (`scripts/compute-scores.mjs`) so category and decision aggregates are derived mechanically from sub-factors under the formula, and an index builder (`scripts/build-index.mjs`).
 - **Source diversity, operationalized.** Reframed the source discipline away from any single bias tool (Ground News skews English / North-American) toward multilingual triangulation; added the uniform exclusion of state-funded broadcasters on their own state (incl. VOA / Radio Free Asia on the US); and added a curated independent-sources-by-language list, each annotated with its real base/jurisdiction (exile outlets included - e.g. The Moscow Times is Amsterdam-based, Meduza Riga, Initium Singapore). Noted that some places have *no* free local-language press (China: mainland captured, Hong Kong dismantled post-NSL, Taiwan existentially slanted on China).
@@ -332,7 +362,7 @@ These are the default sub-factors and within-category weights. They are a starti
 ### Physical and Practical State
 | Sub-factor | Default weight | Notes |
 |---|---|---|
-| climate | 0.20 | Regional climate exposure and adaptation capacity. Time-split. |
+| climate | 0.20 | Regional climate exposure and adaptation capacity, anchored to ND-GAIN (vulnerability + readiness) and IPCC regional projections rather than narrative. Time-split over a window in which some high-latitude regions are near-term relative winners (longer growing seasons, milder winters, water security) even as global exposure worsens, so a country's long-term climate score can sit below its near-term one. |
 | healthcare | 0.30 | Access, cost, outcomes, public-health capacity. |
 | infrastructure | 0.20 | Transport, grid, broadband, water. |
 | crime_safety | 0.15 | Violent and property crime relative to peers. |
