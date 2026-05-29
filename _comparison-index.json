@@ -2564,7 +2564,7 @@
           "rank": 61,
           "country": "Israel",
           "iso3": "ISR",
-          "score": 1.18,
+          "score": 1.15,
           "confidence": 0.72,
           "skew": "negative",
           "transparency_tier": "mixed",
@@ -4567,16 +4567,6 @@
         },
         {
           "rank": 68,
-          "country": "Israel",
-          "iso3": "ISR",
-          "score": 1.16,
-          "confidence": 0.73,
-          "skew": "negative",
-          "transparency_tier": "mixed",
-          "transparency_trend": "stable"
-        },
-        {
-          "rank": 69,
           "country": "Canada",
           "iso3": "CAN",
           "score": 1.14,
@@ -4586,13 +4576,23 @@
           "transparency_trend": "stable"
         },
         {
-          "rank": 70,
+          "rank": 69,
           "country": "Armenia",
           "iso3": "ARM",
           "score": 1.11,
           "confidence": 0.73,
           "skew": "negative",
           "transparency_tier": "observable",
+          "transparency_trend": "stable"
+        },
+        {
+          "rank": 70,
+          "country": "Israel",
+          "iso3": "ISR",
+          "score": 1.1,
+          "confidence": 0.73,
+          "skew": "negative",
+          "transparency_tier": "mixed",
           "transparency_trend": "stable"
         },
         {

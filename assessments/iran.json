@@ -16,7 +16,7 @@
     "Generated 2026-05-28 under v2.0: governance/rights/politics rebuilt from independent sources (V-Dem, RSF, TI, Freedom House, HRW, Amnesty, CPJ, FATF, ICG/Carnegie + IranWire/Radio Farda); Iranian state media (IRNA, Press TV, Fars, Tasnim) and official theocracy claims EXCLUDED there.",
     "Conflict scored on corroborated facts: the June-2025 12-day war with Israel and US strikes on nuclear sites, a degraded proxy network, and an elevated risk of renewed conflict. An unresolved leadership-succession question is treated as a fat-tail uncertainty, not a settled event.",
     "Standout drags: a sanctions-strangled economy, theocratic repression, near-worst press freedom, a severe water crisis, and acute conflict exposure. Overall outcome distribution: negative.",
-    "Recalibrated 2026-05-29 for the 2026 Iran war (Operation Epic Fury, US+Israel vs Iran from 28 Feb) and the Strait of Hormuz closure: blockade of ~1/5 of world oil+LNG, attacks/threats on Gulf desalination (water security), a fragile/violated 8 Apr ceasefire, and the global energy shock. (Reuters; BBC; NYT; Al Jazeera; CSIS; Wikipedia)"
+    "Recalibrated 2026-05-29 for the 2026 Iran war (Operation Epic Fury, US+Israel vs Iran from 28 Feb) and the Strait of Hormuz closure: blockade of ~1/5 of world oil+LNG, attacks/threats on Gulf desalination (water security), and the global energy shock. The two-week 8 Apr ceasefire collapsed by late May — the US renewed strikes on Iran ~25-26 May (Trump convened Camp David) and the war resumed, with Hormuz still blockaded. (Reuters; BBC; NYT; CNN; ISW; Al Jazeera; CSIS; Wikipedia)"
   ],
   "category_weights_by_decision": {
     "living": {
@@ -180,7 +180,7 @@
           "score": null,
           "weight": 0.35,
           "confidence": 0.65,
-          "notes": "Direct target of the 2026 US-Israel air war (Operation Epic Fury) from 28 Feb; thousands killed and infrastructure devastated. A conditional 8 Apr ceasefire holds tenuously while talks continue. (Wikipedia; Al Jazeera)"
+          "notes": "Direct target of the 2026 US-Israel air war (Operation Epic Fury) from 28 Feb; thousands killed and infrastructure devastated. The two-week 8 Apr ceasefire collapsed by late May as the US renewed strikes (~25-26 May) and the war resumed. (CNN; ISW; Wikipedia)"
         },
         "sanctions_capital_controls": {
           "score": -9,

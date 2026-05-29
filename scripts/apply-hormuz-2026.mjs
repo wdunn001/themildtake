@@ -28,7 +28,7 @@ const repoRoot = path.resolve(here, "..");
 const dir = path.join(repoRoot, "assessments");
 
 const FLAG =
-  "Recalibrated 2026-05-29 for the 2026 Iran war (Operation Epic Fury, US+Israel vs Iran from 28 Feb) and the Strait of Hormuz closure: blockade of ~1/5 of world oil+LNG, attacks/threats on Gulf desalination (water security), a fragile/violated 8 Apr ceasefire, and the global energy shock. (Reuters; BBC; NYT; Al Jazeera; CSIS; Wikipedia)";
+  "Recalibrated 2026-05-29 for the 2026 Iran war (Operation Epic Fury, US+Israel vs Iran from 28 Feb) and the Strait of Hormuz closure: blockade of ~1/5 of world oil+LNG, attacks/threats on Gulf desalination (water security), and the global energy shock. The two-week 8 Apr ceasefire collapsed by late May — the US renewed strikes on Iran ~25-26 May (Trump convened Camp David) and the war resumed, with Hormuz still blockaded. (Reuters; BBC; NYT; CNN; ISW; Al Jazeera; CSIS; Wikipedia)";
 
 // Per-country edits. Keys are "category.sub_factor". A score that is an array is
 // a [near, long] split; a bare number is a single horizon. `skew` is optional.
@@ -37,8 +37,8 @@ const DATA = {
     skew: "negative",
     f: {
       "geopolitical.conflict_involvement": {
-        s: [-7, -3],
-        n: "The 2026 US-Israel war on Iran (Operation Epic Fury, from 28 Feb): multi-front strikes across Iran, Hezbollah/Lebanon and Iraq, with ~35 Israeli dead and ~8,600 injured. A fragile, repeatedly-violated 8 Apr ceasefire with live peace talks — high relapse risk against a normalisation tail. (Al Jazeera; Wikipedia)",
+        s: [-8, -3],
+        n: "The 2026 US-Israel war on Iran (Operation Epic Fury, from 28 Feb): multi-front strikes across Iran, Hezbollah/Lebanon and Iraq, with ~35 Israeli dead and ~8,600 injured. The two-week 8 Apr ceasefire collapsed by late May (US renewed strikes ~25-26 May); the war has resumed and peace talks are in crisis. Long horizon still holds a normalisation tail if a settlement is eventually reached. (CNN; ISW; Al Jazeera)",
       },
       "geopolitical.alliance_reliability": {
         s: -1,
@@ -51,7 +51,7 @@ const DATA = {
     f: {
       "geopolitical.conflict_involvement": {
         s: [-9, -6],
-        n: "Direct target of the 2026 US-Israel air war (Operation Epic Fury) from 28 Feb; thousands killed and infrastructure devastated. A conditional 8 Apr ceasefire holds tenuously while talks continue. (Wikipedia; Al Jazeera)",
+        n: "Direct target of the 2026 US-Israel air war (Operation Epic Fury) from 28 Feb; thousands killed and infrastructure devastated. The two-week 8 Apr ceasefire collapsed by late May as the US renewed strikes (~25-26 May) and the war resumed. (CNN; ISW; Wikipedia)",
       },
       "geopolitical.sanctions_capital_controls": {
         s: -9,
@@ -323,8 +323,10 @@ async function main() {
       if (!sf) throw new Error(`${file}: missing ${key}`);
       setSF(sf, edit);
     }
-    doc.flags = doc.flags ?? [];
-    if (!doc.flags.some((f) => /2026 Iran war/.test(String(f)))) doc.flags.push(FLAG);
+    // Replace any prior recalibration flag with the current one (so re-runs
+    // refresh the ceasefire/status text rather than stacking duplicates).
+    doc.flags = (doc.flags ?? []).filter((f) => !/2026 Iran war/.test(String(f)));
+    doc.flags.push(FLAG);
     await fs.writeFile(p, JSON.stringify(doc, null, 2) + "\n");
     changed++;
     console.log(`  ${file}${spec.skew ? `  [skew -> ${spec.skew}]` : ""}`);
